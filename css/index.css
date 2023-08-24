@@ -121,6 +121,8 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    
+    background-size: cover;
 }
 
 .character_container {
