@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Genshin, Impact, lineup, team, teams, composition, character, build">
+    <meta name="authors" content="Ignacio Meléndez Lapi">
+
+    <link rel="icon" href="images/alice.png">
+    <link rel="stylesheet" href="css/index.css">
+
+    <script src="json/teams.json"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="js/index.js"></script>
+
+    <title>Alice Workshop</title>
+</head>
+
+<body>
+    <div id="main" class="main">
+        <div id="title_container" class="title_container">
+            Alice Workshop
+        </div>
+
+        <div id="search_form_container" class="search_form_container">
+            <form class="search_form" action="javascript:;" onsubmit="search_query(this)">
+                <input id="search_form_text_input" type="text" placeholder="Search.." name="search">
+                <button type="submit" class="search_button"></button>
+            </form>
+        </div>
+
+        <div id="result_container" class="result_container" style="display: none">
+        </div>
+    </div>
+</body>
+
+</html>

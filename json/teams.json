@@ -1,0 +1,18 @@
+const teams = {
+	"1": {
+		"name": "Raiden Taser",
+		"description": "Tipical taser archetype for Raiden Shogun",
+		"character_1": "Raiden Shogun",
+		"character_2": "Yelan",
+		"character_3": "Xingqiu",
+		"character_4": "Kaedehara Kazuha"
+	},
+	"2": {
+		"name": "Raiden Monoelectro",
+		"description": "Tipical monoelectro archetype for Raiden Shogun",
+		"character_1": "Raiden Shogun",
+		"character_2": "Kujou Sara",
+		"character_3": "Xingqiu",
+		"character_4": "Kaedehara Kazuha"
+	}
+}
