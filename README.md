@@ -17,6 +17,9 @@ Lineup and team compositions guide for each Genshin Impact playable character (i
 - Add special teams members: element/support flex type
 - Show last version of Genshin supported
 - URL to team with characters in url params
+- Team randomizer
+- Hide character stats behind icons for each team
+- troll: random team name generator
 
 ### Filters
 - Filter by language

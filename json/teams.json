@@ -3,16 +3,56 @@ const teams = {
         "name": "Raiden Taser",
         "description": "Tipical taser archetype for Raiden Shogun",
         "rotation": "",
+        "archetype": "",
+        "viability": "",
         "character_1": {
             "name": "Raiden Shogun",
+            "constellation": "",
             "weapon": "",
-            "artifact": "",
-            "main_stat": "",
-            "subs_stat": ""
+            "set": "",
+            "main_stat": {
+                "goblet": "",
+                "hat": "",
+                "clock": ""
+            },
+            "subs_stat": ["", "", "", ""]
         },
-        "character_2": "Yelan",
-        "character_3": "Xingqiu",
-        "character_4": "Kaedehara Kazuha"
+        "character_2": {
+            "name": "Yelan",
+            "constellation": "",
+            "weapon": "",
+            "set": "",
+            "main_stat": {
+                "goblet": "",
+                "hat": "",
+                "clock": ""
+            },
+            "subs_stat": ["", "", "", ""]
+        },
+        "character_3": {
+            "name": "Xingqiu",
+            "constellation": "",
+            "weapon": "",
+            "set": "",
+            "main_stat": {
+                "goblet": "",
+                "hat": "",
+                "clock": ""
+            },
+            "subs_stat": ["", "", "", ""]
+        },
+        "character_4": {
+            "name": "Kaedehara Kazuha",
+            "constellation": "",
+            "weapon": "",
+            "set": "",
+            "main_stat": {
+                "goblet": "",
+                "hat": "",
+                "clock": ""
+            },
+            "subs_stat": ["", "", "", ""]
+        }
     },
     "2": {
         "name": "Raiden Monoelectro",
