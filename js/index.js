@@ -66,10 +66,10 @@ function getTeamsByTextInput() {
             console.log("Coincidence for: " + teams[team_index].name);
             teams_search_matches.push(teams[team_index]);
 
-            teams_characters_search_matches.add(teams[team_index].character_1);
-            teams_characters_search_matches.add(teams[team_index].character_2);
-            teams_characters_search_matches.add(teams[team_index].character_3);
-            teams_characters_search_matches.add(teams[team_index].character_4);
+            teams_characters_search_matches.add(teams[team_index].character_1.name);
+            teams_characters_search_matches.add(teams[team_index].character_2.name);
+            teams_characters_search_matches.add(teams[team_index].character_3.name);
+            teams_characters_search_matches.add(teams[team_index].character_4.name);
         }
     }
 }
@@ -98,28 +98,28 @@ function printTeams() {
 
             <div id="characters_container" class="characters_container">
 
-                <div id="character_1" class="character_container ` + teams_search_matches[team_index].character_1.replaceAll(" ", "_") + `">
-                    <img class="character_icon" src="" alt="Character icon for ` + teams_search_matches[team_index].character_1 + `">
+                <div id="character_1" class="character_container ` + teams_search_matches[team_index].character_1.name.replaceAll(" ", "_") + `">
+                    <img class="character_icon" src="" alt="Character icon for ` + teams_search_matches[team_index].character_1.name + `">
                     <div class="rarity_container"></div>
-                    <div class="character_name">` + teams_search_matches[team_index].character_1 + `</div>
+                    <div class="character_name">` + teams_search_matches[team_index].character_1.name + `</div>
                 </div>
 
-                <div id="character_2" class="character_container ` + teams_search_matches[team_index].character_2.replaceAll(" ", "_") + `">
-                    <img class="character_icon" src="" alt="Character icon for ` + teams_search_matches[team_index].character_2 + `">
+                <div id="character_2" class="character_container ` + teams_search_matches[team_index].character_2.name.replaceAll(" ", "_") + `">
+                    <img class="character_icon" src="" alt="Character icon for ` + teams_search_matches[team_index].character_2.name + `">
                     <div class="rarity_container"></div>
-                    <div class="character_name">` + teams_search_matches[team_index].character_2 + `</div>
+                    <div class="character_name">` + teams_search_matches[team_index].character_2.name + `</div>
                 </div>
 
-                <div id="character_3" class="character_container ` + teams_search_matches[team_index].character_3.replaceAll(" ", "_") + `">
-                    <img class="character_icon" src="" alt="Character icon for ` + teams_search_matches[team_index].character_3 + `">
+                <div id="character_3" class="character_container ` + teams_search_matches[team_index].character_3.name.replaceAll(" ", "_") + `">
+                    <img class="character_icon" src="" alt="Character icon for ` + teams_search_matches[team_index].character_3.name + `">
                     <div class="rarity_container"></div>
-                    <div class="character_name">` + teams_search_matches[team_index].character_3 + `</div>
+                    <div class="character_name">` + teams_search_matches[team_index].character_3.name + `</div>
                 </div>
 
-                <div id="character_4" class="character_container ` + teams_search_matches[team_index].character_4.replaceAll(" ", "_") + `">
-                    <img class="character_icon" src="" alt="Character icon for ` + teams_search_matches[team_index].character_4 + `">
+                <div id="character_4" class="character_container ` + teams_search_matches[team_index].character_4.name.replaceAll(" ", "_") + `">
+                    <img class="character_icon" src="" alt="Character icon for ` + teams_search_matches[team_index].character_4.name + `">
                     <div class="rarity_container"></div>
-                    <div class="character_name">` + teams_search_matches[team_index].character_4 + `</div>
+                    <div class="character_name">` + teams_search_matches[team_index].character_4.name + `</div>
                 </div>
 
             </div>
