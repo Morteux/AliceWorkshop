@@ -1,75 +1,336 @@
 const teams = {
 	"1": {
-		"name": "Raiden Taser",
-		"description": "Tipical taser archetype for Raiden Shogun",
-        "rotation": "",
-        "archetype": "",
-        "viability": "",
+		"name": "TF Bennet",
+		"description": "Weirdest way to use Bennett out of all the possibilities. This variation takes advantage of the synergy between Bennett's Ascension Passives and the TF set, which are effectively two sources of cooldown reduction. Play bennet onfield with NA + E spam.",
+        "rotation": "Fischl E > Xingchiu Q + E > Bennet Q > Beidou E + Q > Fischl Q > Spam Bennet NA + E",
+        "archetype": "Overvape",
+        "viability": "Unique",
+
         "character_1": {
-            "name": "Raiden Shogun",
+            "name": "Bennet",
             "constellation": "",
-            "weapon": "",
-            "set": "",
-            "main_stat": {
-                "goblet": "",
-                "hat": "",
-                "clock": ""
+            "weapon": "EM",
+            "set": "Thundering Fury",
+            "main_stat": { 
+                "Sands": "EM",
+                "Goblet": "Pyro",
+                "Circlet": "Crit",
             },
             "subs_stat": ["", "", "", ""]
         },
         "character_2": {
-            "name": "Yelan",
+            "name": "Fischl",
             "constellation": "",
             "weapon": "",
-            "set": "",
-            "main_stat": {
-                "goblet": "",
-                "hat": "",
-                "clock": ""
+            "set": "Golden Troupe",
+            "main_stat": { 
+                "Sands": "ATK%",
+                "Goblet": "Electro",
+                "Circlet": "Crit"
             },
-            "subs_stat": ["", "", "", ""]
+            "subs_stat": ["ER", "Crit", "ATK%", ""]
         },
         "character_3": {
-            "name": "Xingqiu",
+            "name": "Beidou",
+            "constellation": "",
+            "weapon": "",
+            "set": "Emblem of Severed Fate",
+            "main_stat": { 
+                "Sands": "ATK%",
+                "Goblet": "Electro",
+                "Circlet": "Crit"
+            },
+            "subs_stat": ["ER", "Crit", "ATK%", ""]
+        },
+        "character_4": {
+            "name": "Xingchiu",
+            "constellation": "",
+            "weapon": "",
+            "set": "Emblem of Severed Fate",
+            "main_stat": { 
+                "Sands": "ATK%",
+                "Goblet": "Hydro",
+                "Circlet": "Crit"
+            },
+            "subs_stat": ["Crit", "ATK%", "ER"]
+        }
+    },
+
+    "2": {
+		"name": "International",
+		"description": "An National variation that uses Childe and Kazuha",
+        "rotation": "E Childe > Q Bennet > E + Q Kazuha > E + Q Xiangling > Q + E Childe 2NA+CA (8-12s) > Funnel Xiangling",
+        "archetype": "National",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Tartaglia",
             "constellation": "",
             "weapon": "",
             "set": "",
-            "main_stat": {
-                "goblet": "",
-                "hat": "",
-                "clock": ""
+            "main_stat": { 
+                "Sands": "",
+                "Goblet": "",
+                "Circlet": "",
             },
             "subs_stat": ["", "", "", ""]
         },
-        "character_4": {
-            "name": "Kaedehara Kazuha",
+        "character_2": {
+            "name": "Kazuha",
             "constellation": "",
             "weapon": "",
             "set": "",
-            "main_stat": {
-                "goblet": "",
-                "hat": "",
-                "clock": ""
+            "main_stat": { 
+                "Sands": "",
+                "Goblet": "",
+                "Circlet": ""
             },
-            "subs_stat": ["", "", "", ""]
+            "subs_stat": [""]
+        },
+        "character_3": {
+            "name": "Xiangling",
+            "constellation": "",
+            "weapon": "",
+            "set": "",
+            "main_stat": { 
+                "Sands": "",
+                "Goblet": "",
+                "Circlet": ""
+            },
+            "subs_stat": [""]
+        },
+        "character_4": {
+            "name": "Bennet",
+            "constellation": "",
+            "weapon": "",
+            "set": "",
+            "main_stat": { 
+                "Sands": "",
+                "Goblet": "",
+                "Circlet": ""
+            },
+            "subs_stat": ["", "", ""]
         }
     },
-    "2": {
-        "name": "Raiden Monoelectro",
-        "description": "Tipical monoelectro archetype for Raiden Shogun",
+
+    "3": {
+		"name": "Childe National",
+		"description": "An National variation that uses Childe and Sucrose",
+        "rotation": "E Childe > Q Bennet > E Xiangling > E + Q Sucrose > Q Xiangling > Q + E Childe 2NA+CA (8-12s) > Funnel Xiangling",
+        "archetype": "National",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Tartaglia",
+            "constellation": "",
+            "weapon": "",
+            "set": "",
+            "main_stat": { 
+                "Sands": "",
+                "Goblet": "",
+                "Circlet": "",
+            },
+            "subs_stat": ["", "", "", ""]
+        },
+        "character_2": {
+            "name": "Sucrose",
+            "constellation": "",
+            "weapon": "",
+            "set": "",
+            "main_stat": { 
+                "Sands": "",
+                "Goblet": "",
+                "Circlet": ""
+            },
+            "subs_stat": [""]
+        },
+        "character_3": {
+            "name": "Xiangling",
+            "constellation": "",
+            "weapon": "",
+            "set": "",
+            "main_stat": { 
+                "Sands": "",
+                "Goblet": "",
+                "Circlet": ""
+            },
+            "subs_stat": [""]
+        },
+        "character_4": {
+            "name": "Bennet",
+            "constellation": "",
+            "weapon": "",
+            "set": "",
+            "main_stat": { 
+                "Sands": "",
+                "Goblet": "",
+                "Circlet": ""
+            },
+            "subs_stat": ["", "", ""]
+        }
+    },
+
+    "4": {
+		"name": "Intergrational",
+		"description": "International team but swapping Xiangling with Nahida",
+        "rotation": "E (+ Q) Nahida > E + Q Bennet > E + Q Kazuha > E + Q Childe 2NA+CA (2-3 times)",
+        "archetype": "National",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Tartaglia",
+            "constellation": "",
+            "weapon": "",
+            "set": "",
+            "main_stat": { 
+                "Sands": "",
+                "Goblet": "",
+                "Circlet": "",
+            },
+            "subs_stat": ["", "", "", ""]
+        },
+        "character_2": {
+            "name": "Kazuha",
+            "constellation": "",
+            "weapon": "",
+            "set": "",
+            "main_stat": { 
+                "Sands": "",
+                "Goblet": "",
+                "Circlet": ""
+            },
+            "subs_stat": [""]
+        },
+        "character_3": {
+            "name": "Nahida",
+            "constellation": "",
+            "weapon": "",
+            "set": "",
+            "main_stat": { 
+                "Sands": "",
+                "Goblet": "",
+                "Circlet": ""
+            },
+            "subs_stat": [""]
+        },
+        "character_4": {
+            "name": "Bennet",
+            "constellation": "",
+            "weapon": "",
+            "set": "",
+            "main_stat": { 
+                "Sands": "",
+                "Goblet": "",
+                "Circlet": ""
+            },
+            "subs_stat": ["", "", ""]
+        }
+    },
+
+    "5": {
+		"name": "Electro-Charged Childe",
+		"description": "An old team similar to taser",
         "rotation": "",
-		"character_1": "Raiden Shogun",
-		"character_2": "Kujou Sara",
-		"character_3": "Yae Miko",
-		"character_4": "Jean"
-	},
-	"3": {
-		"name": "Sucrose Taser",
-		"description": "Tipical taser archetype for Sucrose on field",
-        "rotation": "",
-		"character_1": "Sucrose",
-		"character_2": "Fischl",
-		"character_3": "Beidou",
-		"character_4": "Xingqiu"
-	}
+        "archetype": "Taser",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Tartaglia",
+            "constellation": "",
+            "weapon": "",
+            "set": "",
+            "main_stat": { 
+                "Sands": "",
+                "Goblet": "",
+                "Circlet": "",
+            },
+            "subs_stat": ["", "", "", ""]
+        },
+        "character_2": {
+            "name": "Fischl",
+            "constellation": "",
+            "weapon": "",
+            "set": "",
+            "main_stat": { 
+                "Sands": "",
+                "Goblet": "",
+                "Circlet": ""
+            },
+            "subs_stat": [""]
+        },
+        "character_3": {
+            "name": "Beidou",
+            "constellation": "",
+            "weapon": "",
+            "set": "",
+            "main_stat": { 
+                "Sands": "",
+                "Goblet": "",
+                "Circlet": ""
+            },
+            "subs_stat": [""]
+        },
+        "character_4": {
+            "name": "Bennet",
+            "constellation": "",
+            "weapon": "",
+            "set": "",
+            "main_stat": { 
+                "Sands": "",
+                "Goblet": "",
+                "Circlet": ""
+            },
+            "subs_stat": ["", "", ""]
+        }
+    },
+
 }
+
+//"character_1": {
+//    "name": "",
+//    "constellation": "",
+//    "weapon": "",
+//    "set": "",
+//    "main_stat": { 
+//        "Sands": "",
+//        "Goblet": "",
+//        "Circlet": "",
+//    },
+//    "subs_stat": ["", "", "", ""]
+//},
+//"character_2": {
+//    "name": "",
+//    "constellation": "",
+//    "weapon": "",
+//    "set": "",
+//    "main_stat": { 
+//        "Sands": "",
+//        "Goblet": "",
+//        "Circlet": ""
+//    },
+//    "subs_stat": [""]
+//},
+//"character_3": {
+//    "name": "",
+//    "constellation": "",
+//    "weapon": "",
+//    "set": "",
+//    "main_stat": { 
+//        "Sands": "",
+//        "Goblet": "",
+//        "Circlet": ""
+//    },
+//    "subs_stat": [""]
+//},
+//"character_4": {
+//    "name": "",
+//    "constellation": "",
+//    "weapon": "",
+//    "set": "",
+//    "main_stat": { 
+//        "Sands": "",
+//        "Goblet": "",
+//        "Circlet": ""
+//    },
+//    "subs_stat": ["", "", ""]
+//}
