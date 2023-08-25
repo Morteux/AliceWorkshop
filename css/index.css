@@ -122,12 +122,12 @@ body {
 }
 
 .team_name_container {
-    font-size: 5vh;
+    font-size: 3vh;
     font-family: GenshinImpact;
 }
 
 .team_desc_container {
-    font-size: 2vh;
+    font-size: 1.5vh;
     font-family: GenshinImpact;
 }
 
@@ -176,6 +176,6 @@ body {
 }
 
 .character_name {
-    font-size: 2.5vh;
+    font-size: 1.4vh;
     font-family: GenshinImpact;
 }

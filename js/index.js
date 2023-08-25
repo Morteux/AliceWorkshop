@@ -133,39 +133,52 @@ function printTeams() {
 function printCharactersDataFromQuerys() {
     teams_characters_search_matches.forEach((character) => {
 
-        if (teams_characters_json[character] == null) {
+        // if (teams_characters_json[character] == null) {
 
-            $.ajax({
-                url: "https://genshin-db-api.vercel.app/api/characters?query=" + character,
-                type: 'GET',
-                dataType: 'json',
-                success: function (data) {
-                    console.log(data);
-                    teams_characters_json[character] = data;
+        //     $.ajax({
+        //         url: "https://genshin-db-api.vercel.app/api/characters?query=" + character,
+        //         type: 'GET',
+        //         dataType: 'json',
+        //         success: function (data) {
+        //             console.log(data);
+        //             teams_characters_json[character] = data;
 
-                    for (let element of document.getElementsByClassName(character.replaceAll(" ", "_"))) {
-                        element.getElementsByClassName("character_icon")[0].src = data.images.icon;
-                        element.getElementsByClassName("rarity_container")[0].innerHTML = star_svg + star_svg + star_svg + star_svg + (data.rarity == "5" ? star_svg : "");
-                    }
-                },
-                error: function (data) {
-                    console.log(data);
-                    console.log("Error retrieving the character: " + character);
-                }
-            });
+        //             for (let element of document.getElementsByClassName(character.replaceAll(" ", "_"))) {
+        //                 element.getElementsByClassName("character_icon")[0].src = data.images.icon;
+        //                 element.getElementsByClassName("rarity_container")[0].innerHTML = star_svg + star_svg + star_svg + star_svg + (data.rarity == "5" ? star_svg : "");
+        //             }
+        //         },
+        //         error: function (data) {
+        //             console.log(data);
+        //             console.log("Error retrieving the character: " + character);
+        //         }
+        //     });
 
-        } else {
-            console.log("Already retrieved character: " + character);
+        // } else {
+        //     console.log("Already retrieved character: " + character);
             
-            let data = teams_characters_json[character];
+        //     let data = teams_characters_json[character];
 
-            for (let element of document.getElementsByClassName(character.replaceAll(" ", "_"))) {
-                element.getElementsByClassName("character_icon")[0].src = data.images.icon;
-                element.getElementsByClassName("rarity_container")[0].innerHTML = star_svg + star_svg + star_svg + star_svg + (data.rarity == "5" ? star_svg : "");
-            }
+        //     for (let element of document.getElementsByClassName(character.replaceAll(" ", "_"))) {
+        //         element.getElementsByClassName("character_icon")[0].src = data.images.icon;
+        //         element.getElementsByClassName("rarity_container")[0].innerHTML = star_svg + star_svg + star_svg + star_svg + (data.rarity == "5" ? star_svg : "");
+        //     }
+        // }
+
+
+
+        console.log("Reading data from " + character);
+        console.log(characters[character]);
+
+        for (let element of document.getElementsByClassName(character.replaceAll(" ", "_"))) {
+            let character_data = characters[character];
+
+            element.getElementsByClassName("character_icon")[0].src = character_data.images.icon;
+            element.getElementsByClassName("rarity_container")[0].innerHTML = star_svg + star_svg + star_svg + star_svg + (character_data.rarity == "5" ? star_svg : "");
         }
+
 
     });
 
-    console.log(teams_characters_json);
+    // console.log(teams_characters_json);
 }
