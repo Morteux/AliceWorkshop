@@ -10,11 +10,15 @@
 
     <link rel="icon" href="images/alice.png">
     <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/navegation.css">
 
-    <script src="json/teams.json"></script>
+    <script src="json/teams.js"></script>
+    <script src="json/characters.js"></script>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="js/includeHTML.js"></script>
     <script src="js/index.js"></script>
+    <script src="js/navegation.js"></script>
 
     <title>Alice Workshop</title>
 </head>
@@ -25,17 +29,28 @@
             Alice Workshop
         </div>
 
-        <div id="search_form_container" class="search_form_container">
-            <form class="search_form" action="javascript:;" onsubmit="searchQuery(this)">
-                <input id="search_form_text_input" type="text" placeholder="Search.." name="search">
-                <button type="submit" class="search_button"></button>
-            </form>
+        <div id="tabs_container" class="tabs_container">
+            <div id="tab_archetype_search_button">Archetypes</div>
+            <div id="tab_teams_search_button">Teams</div>
+            <div id="tab_user_button">User</div>
         </div>
 
-        <div id="result_container" class="result_container">
+        <div id="tab_archetype_search" class="tab_archetype_search">
+            <div w3-include-html="tab_archetype_search.html"></div>
         </div>
 
+        <div id="tab_teams_search" class="tab_teams_search">
+            <div w3-include-html="tab_teams_search.html"></div>
+        </div>
+
+        <div id="tab_user" class="tab_user">
+            <div w3-include-html="tab_user.html"></div>
+        </div>
     </div>
 </body>
+
+<script>
+    includeHTML();
+</script>
 
 </html>

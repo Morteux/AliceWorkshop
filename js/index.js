@@ -66,10 +66,10 @@ function getTeamsByTextInput() {
             console.log("Coincidence for: " + teams[team_index].name);
             teams_search_matches.push(teams[team_index]);
 
-            teams_characters_search_matches.add(teams[team_index].character_1);
-            teams_characters_search_matches.add(teams[team_index].character_2);
-            teams_characters_search_matches.add(teams[team_index].character_3);
-            teams_characters_search_matches.add(teams[team_index].character_4);
+            teams_characters_search_matches.add(teams[team_index].character_1.name);
+            teams_characters_search_matches.add(teams[team_index].character_2.name);
+            teams_characters_search_matches.add(teams[team_index].character_3.name);
+            teams_characters_search_matches.add(teams[team_index].character_4.name);
         }
     }
 }
@@ -98,28 +98,28 @@ function printTeams() {
 
             <div id="characters_container" class="characters_container">
 
-                <div id="character_1" class="character_container ` + teams_search_matches[team_index].character_1.replaceAll(" ", "_") + `">
-                    <img class="character_icon" src="" alt="Character icon for ` + teams_search_matches[team_index].character_1 + `">
+                <div id="character_1" class="character_container ` + teams_search_matches[team_index].character_1.name.replaceAll(" ", "_") + `">
+                    <img class="character_icon" src="" alt="Character icon for ` + teams_search_matches[team_index].character_1.name + `">
                     <div class="rarity_container"></div>
-                    <div class="character_name">` + teams_search_matches[team_index].character_1 + `</div>
+                    <div class="character_name">` + teams_search_matches[team_index].character_1.name + `</div>
                 </div>
 
-                <div id="character_2" class="character_container ` + teams_search_matches[team_index].character_2.replaceAll(" ", "_") + `">
-                    <img class="character_icon" src="" alt="Character icon for ` + teams_search_matches[team_index].character_2 + `">
+                <div id="character_2" class="character_container ` + teams_search_matches[team_index].character_2.name.replaceAll(" ", "_") + `">
+                    <img class="character_icon" src="" alt="Character icon for ` + teams_search_matches[team_index].character_2.name + `">
                     <div class="rarity_container"></div>
-                    <div class="character_name">` + teams_search_matches[team_index].character_2 + `</div>
+                    <div class="character_name">` + teams_search_matches[team_index].character_2.name + `</div>
                 </div>
 
-                <div id="character_3" class="character_container ` + teams_search_matches[team_index].character_3.replaceAll(" ", "_") + `">
-                    <img class="character_icon" src="" alt="Character icon for ` + teams_search_matches[team_index].character_3 + `">
+                <div id="character_3" class="character_container ` + teams_search_matches[team_index].character_3.name.replaceAll(" ", "_") + `">
+                    <img class="character_icon" src="" alt="Character icon for ` + teams_search_matches[team_index].character_3.name + `">
                     <div class="rarity_container"></div>
-                    <div class="character_name">` + teams_search_matches[team_index].character_3 + `</div>
+                    <div class="character_name">` + teams_search_matches[team_index].character_3.name + `</div>
                 </div>
 
-                <div id="character_4" class="character_container ` + teams_search_matches[team_index].character_4.replaceAll(" ", "_") + `">
-                    <img class="character_icon" src="" alt="Character icon for ` + teams_search_matches[team_index].character_4 + `">
+                <div id="character_4" class="character_container ` + teams_search_matches[team_index].character_4.name.replaceAll(" ", "_") + `">
+                    <img class="character_icon" src="" alt="Character icon for ` + teams_search_matches[team_index].character_4.name + `">
                     <div class="rarity_container"></div>
-                    <div class="character_name">` + teams_search_matches[team_index].character_4 + `</div>
+                    <div class="character_name">` + teams_search_matches[team_index].character_4.name + `</div>
                 </div>
 
             </div>
@@ -133,39 +133,52 @@ function printTeams() {
 function printCharactersDataFromQuerys() {
     teams_characters_search_matches.forEach((character) => {
 
-        if (teams_characters_json[character] == null) {
+        // if (teams_characters_json[character] == null) {
 
-            $.ajax({
-                url: "https://genshin-db-api.vercel.app/api/characters?query=" + character,
-                type: 'GET',
-                dataType: 'json',
-                success: function (data) {
-                    console.log(data);
-                    teams_characters_json[character] = data;
+        //     $.ajax({
+        //         url: "https://genshin-db-api.vercel.app/api/characters?query=" + character,
+        //         type: 'GET',
+        //         dataType: 'json',
+        //         success: function (data) {
+        //             console.log(data);
+        //             teams_characters_json[character] = data;
 
-                    for (let element of document.getElementsByClassName(character.replaceAll(" ", "_"))) {
-                        element.getElementsByClassName("character_icon")[0].src = data.images.icon;
-                        element.getElementsByClassName("rarity_container")[0].innerHTML = star_svg + star_svg + star_svg + star_svg + (data.rarity == "5" ? star_svg : "");
-                    }
-                },
-                error: function (data) {
-                    console.log(data);
-                    console.log("Error retrieving the character: " + character);
-                }
-            });
+        //             for (let element of document.getElementsByClassName(character.replaceAll(" ", "_"))) {
+        //                 element.getElementsByClassName("character_icon")[0].src = data.images.icon;
+        //                 element.getElementsByClassName("rarity_container")[0].innerHTML = star_svg + star_svg + star_svg + star_svg + (data.rarity == "5" ? star_svg : "");
+        //             }
+        //         },
+        //         error: function (data) {
+        //             console.log(data);
+        //             console.log("Error retrieving the character: " + character);
+        //         }
+        //     });
 
-        } else {
-            console.log("Already retrieved character: " + character);
+        // } else {
+        //     console.log("Already retrieved character: " + character);
             
-            let data = teams_characters_json[character];
+        //     let data = teams_characters_json[character];
 
-            for (let element of document.getElementsByClassName(character.replaceAll(" ", "_"))) {
-                element.getElementsByClassName("character_icon")[0].src = data.images.icon;
-                element.getElementsByClassName("rarity_container")[0].innerHTML = star_svg + star_svg + star_svg + star_svg + (data.rarity == "5" ? star_svg : "");
-            }
+        //     for (let element of document.getElementsByClassName(character.replaceAll(" ", "_"))) {
+        //         element.getElementsByClassName("character_icon")[0].src = data.images.icon;
+        //         element.getElementsByClassName("rarity_container")[0].innerHTML = star_svg + star_svg + star_svg + star_svg + (data.rarity == "5" ? star_svg : "");
+        //     }
+        // }
+
+
+
+        console.log("Reading data from " + character);
+        console.log(characters[character]);
+
+        for (let element of document.getElementsByClassName(character.replaceAll(" ", "_"))) {
+            let character_data = characters[character];
+
+            element.getElementsByClassName("character_icon")[0].src = character_data.images.icon;
+            element.getElementsByClassName("rarity_container")[0].innerHTML = star_svg + star_svg + star_svg + star_svg + (character_data.rarity == "5" ? star_svg : "");
         }
+
 
     });
 
-    console.log(teams_characters_json);
+    // console.log(teams_characters_json);
 }
