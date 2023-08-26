@@ -124,11 +124,36 @@ const teams = {
         }
     },
 
+    "5": {
+		"name": "Childe National",
+		"description": "An National variation that uses Childe and Albedo",
+        "rotation": "",
+        "archetype": "National",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Tartaglia",
+            "build": ""
+        },
+        "character_2": {
+            "name": "Albedo",
+            "build": ""
+        },
+        "character_3": {
+            "name": "Xiangling",
+            "build": ""
+        },
+        "character_4": {
+            "name": "Bennett",
+            "build": ""
+        }
+    },
+
     "6": {
 		"name": "Intergrational",
 		"description": "International team but swapping Xiangling with Nahida",
         "rotation": "E (+ Q) Nahida > E + Q Bennett > E + Q Kazuha > E + Q Childe 2NA+CA (2-3 times)",
-        "archetype": "National",
+        "archetype": "Burgeon",
         "viability": "Meta",
 
         "character_1": {
@@ -150,27 +175,27 @@ const teams = {
     },
 
     "7": {
-		"name": "Electro-Charged Childe",
-		"description": "An old team similar to taser",
+		"name": "Intergrational 2",
+		"description": "A variant of Intergrational, using Xiangling instead of Kazuha. Less seeds due to pyro aplication and burn",
         "rotation": "",
-        "archetype": "Taser",
+        "archetype": "",
         "viability": "Viable",
 
         "character_1": {
             "name": "Tartaglia",
-            "build": ""
+            "build": "Standard"
         },
         "character_2": {
-            "name": "Fischl",
-            "build": ""
+            "name": "Nahida",
+            "build": "Standard"
         },
         "character_3": {
-            "name": "Beidou",
-            "build": ""
+            "name": "Xiangling",
+            "build": "Standard"
         },
         "character_4": {
-            "name": "Bennett",
-            "build": ""
+            "name": "Bennet",
+            "build": "Standard"
         }
     },
 
@@ -197,5 +222,252 @@ const teams = {
             "name": "Bennett",
             "build": ""
         }
-    }
+    },
+    "9": {
+        "name": "Freeze childe",
+        "description": "Fast rotations",
+        "rotation": "Kaeya E > Tartaglia E+1NA > Kazuha Q + hold E > Rosaria E + Q > Kaeya E + Q > Tartaglia Q + E",
+        "archetype": "Freeze",
+        "viability": "troll",
+
+        "character_1": {
+            "name": "Tartaglia",
+            "build": ""
+        },
+        "character_2": {
+            "name": "Kaeya",
+            "build": ""
+        },
+        "character_3": {
+            "name": "Rosaria",
+            "build": ""
+        },
+        "character_4": {
+            "name": "Kaedehara Kazuha",
+            "build": ""
+        }
+    },
+
+    "9": {
+        "name": "Freeze childe",
+        "description": "Fast rotations",
+        "rotation": "Kaeya E > Tartaglia E+1NA > Kazuha Q + hold E > Kaeya Q > Ayaka Dash + CA + E + Q > Tartaglia Q + E",
+        "archetype": "Freeze",
+        "viability": "troll",
+
+        "character_1": {
+            "name": "Tartaglia",
+            "build": ""
+        },
+        "character_2": {
+            "name": "Kaeya",
+            "build": ""
+        },
+        "character_3": {
+            "name": "Ayaka",
+            "build": ""
+        },
+        "character_4": {
+            "name": "Kaedehara Kazuha",
+            "build": ""
+        }
+    },
+
+    "10": {
+        "name": "Freeze childe",
+        "description": "Fast rotations",
+        "rotation": "Rosaria E > Tartaglia E+1NA > Kazuha Q + hold E > Rosaria Q > Ayaka Dash + CA + E + Q > Tartaglia Q + E",
+        "archetype": "Freeze",
+        "viability": "troll",
+
+        "character_1": {
+            "name": "Tartaglia",
+            "build": ""
+        },
+        "character_2": {
+            "name": "Rosaria",
+            "build": ""
+        },
+        "character_3": {
+            "name": "Ayaka",
+            "build": ""
+        },
+        "character_4": {
+            "name": "Kaedehara Kazuha",
+            "build": ""
+        }
+    },
+
+    "10": {
+        "name": "Freeze childe",
+        "description": "Fast rotations",
+        "rotation": "Diona E+Q > Tartaglia E+1NA > Kazuha Q + hold E  > Ayaka Dash + CA + E + Q > Tartaglia Q + E",
+        "archetype": "Freeze",
+        "viability": "troll",
+
+        "character_1": {
+            "name": "Tartaglia",
+            "build": ""
+        },
+        "character_2": {
+            "name": "Diona",
+            "build": ""
+        },
+        "character_3": {
+            "name": "Ayaka",
+            "build": ""
+        },
+        "character_4": {
+            "name": "Kaedehara Kazuha",
+            "build": ""
+        }
+    },
+
+    "11": {
+        "name": "Tartaglia MonoHydro",
+        "description": "An no meta team, similar to Kokomi MonoHydro, but without healer. MonoHydro is not usually optimal, see monohydro archetype for more. Fun vs pyro content.",
+        "rotation": "",
+        "archetype": "MonoHydro",
+        "viability": "troll",
+    
+        "character_1": {
+            "name": "Tartaglia",
+            "build": ""
+        },
+        "character_2": {
+            "name": "Xingqiu",
+            "build": ""
+        },
+        "character_3": {
+            "name": "Yelan",
+            "build": ""
+        },
+        "character_4": {
+            "name": "Kaedehara Kazuha",
+            "build": ""
+        }
+    },
+
+    "12": {
+        "name": "Tartaglia MonoHydro",
+        "description": "",
+        "archetype": "MonoHydro",
+        "viability": "troll",
+    
+        "character_1": {
+            "name": "Tartaglia",
+            "build": ""
+        },
+        "character_2": {
+            "name": "Xingqiu",
+            "build": ""
+        },
+        "character_3": {
+            "name": "Yelan",
+            "build": ""
+        },
+        "character_4": {
+            "name": "Jean",
+            "build": ""
+        }
+    },
+
+    "13": {
+        "name": "Tartaglia MonoHydro",
+        "description": "",
+        "archetype": "MonoHydro",
+        "viability": "troll",
+    
+        "character_1": {
+            "name": "Tartaglia",
+            "build": ""
+        },
+        "character_2": {
+            "name": "Xingqiu",
+            "build": ""
+        },
+        "character_3": {
+            "name": "Kokomi",
+            "build": ""
+        },
+        "character_4": {
+            "name": "Kaedehara Kazuha",
+            "build": ""
+        }
+    },
+
+    "14": {
+        "name": "Tartaglia MonoHydro",
+        "description": "",
+        "archetype": "MonoHydro",
+        "viability": "troll",
+    
+        "character_1": {
+            "name": "Tartaglia",
+            "build": ""
+        },
+        "character_2": {
+            "name": "Kokomi",
+            "build": ""
+        },
+        "character_3": {
+            "name": "Yelan",
+            "build": ""
+        },
+        "character_4": {
+            "name": "Kaedehara Kazuha",
+            "build": ""
+        }
+    },
+
+    "15": {
+        "name": "Kokomi MonoHydro",
+        "description": "",
+        "archetype": "MonoHydro",
+        "viability": "troll",
+    
+        "character_1": {
+            "name": "Kokomi",
+            "build": ""
+        },
+        "character_2": {
+            "name": "Xingqiu",
+            "build": ""
+        },
+        "character_3": {
+            "name": "Yelan",
+            "build": ""
+        },
+        "character_4": {
+            "name": "Kaedehara Kazuha",
+            "build": ""
+        }
+    },
+
+    //Falta tartaglia burgeon
 }
+
+//"7": {
+//    "name": "",
+//    "description": "",
+//    "rotation": "",
+//    "archetype": "",
+//    "viability": "",
+//
+//    "character_1": {
+//        "name": "",
+//        "build": ""
+//    },
+//    "character_2": {
+//        "name": "",
+//        "build": ""
+//    },
+//    "character_3": {
+//        "name": "",
+//        "build": ""
+//    },
+//    "character_4": {
+//        "name": "",
+//        "build": ""
+//    }
+//},
