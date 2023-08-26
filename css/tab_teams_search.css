@@ -1,0 +1,187 @@
+/* Form style */
+
+.search_form_container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.search_form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.search_form input[type=text] {
+    height: 1.5vh;
+    padding: 1.5vh;
+    font-size: 2vh;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+}
+
+.search_form button {
+    padding: 3vh;
+    background: #2196F3;
+    color: white;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+
+    background-image: url('/images/loupe.png');
+    background-size: cover;
+}
+
+.search_form button:hover {
+    background: #0b7dda;
+
+    background-image: url('/images/loupe.png');
+    background-size: cover;
+}
+
+
+
+
+
+
+
+
+
+
+/* Result style */
+
+.result_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.team_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background: #0b7dda;
+    border: 2px solid black;
+    border-radius: 5%;
+}
+
+.team_name_container {
+    font-size: 3vh;
+    font-family: GenshinImpact;
+}
+
+.team_desc_container {
+    font-size: 1.5vh;
+    font-family: GenshinImpact;
+}
+
+/* Character style */
+
+.characters_container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.character_container {
+    flex: 1 1 0;
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    margin: 0.2vh;
+    /* padding: 2vh; */
+
+    background: #17f0ff;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    /* border: 2px solid black; */
+    border-radius: 8%;
+    background-color: blanchedalmond;
+}
+
+.character_icon {
+    width: 13vh;
+    border-top-left-radius: 8%;
+    border-top-right-radius: 8%;
+    border-bottom-right-radius: 20%;
+
+    /* background: linear-gradient(to right, transparent 10%, black 100%); */
+    background: linear-gradient(to bottom right, transparent 50%, black 100%);
+}
+
+.character_4_stars {
+    background-color: blueviolet;
+}
+
+.character_5_stars {
+    background-color: rgb(160, 122, 27);
+}
+
+.element_icon {
+    position: absolute;
+    top: 0.5vh;
+    left: 0.5vh;
+    width: 3.5vh;
+}
+
+.constellation {
+    position: absolute;
+    top: 0.5vh;
+    right: 0.5vh;
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    width: 2vh;
+
+    color: aliceblue;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 25%;
+}
+
+.rarity_container {
+    position: absolute;
+    bottom: 3vh;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.rarity {
+    width: 2vh;
+    filter: invert(71%) sepia(73%) saturate(869%) hue-rotate(2deg) brightness(108%) contrast(102%) drop-shadow(#e3721b 0px 0px 2px);
+}
+
+.character_name {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    width: max-content;
+
+    color: rgb(49, 49, 49);
+    font-weight: bold;
+    font-size: 1.1vh;
+    font-family: GenshinImpact;
+
+    padding: 1vh;
+}

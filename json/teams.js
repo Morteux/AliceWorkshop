@@ -8,51 +8,19 @@ const teams = {
 
         "character_1": {
             "name": "Bennett",
-            "constellation": "",
-            "weapon": "Iron Sting",
-            "set": "Thundering Fury",
-            "main_stat": { 
-                "Sands": "EM",
-                "Goblet": "Pyro",
-                "Circlet": "Crit",
-            },
-            "subs_stat": ["", "", "", ""]
+            "build": "TF"
         },
         "character_2": {
             "name": "Fischl",
-            "constellation": "",
-            "weapon": "Polar Star",
-            "set": "Golden Troupe",
-            "main_stat": { 
-                "Sands": "ATK%",
-                "Goblet": "Electro",
-                "Circlet": "Crit"
-            },
-            "subs_stat": ["ER", "Crit", "ATK%", ""]
+            "build": "Standard"
         },
         "character_3": {
             "name": "Beidou",
-            "constellation": "",
-            "weapon": "Serpent Spine",
-            "set": "Emblem of Severed Fate",
-            "main_stat": { 
-                "Sands": "ATK%",
-                "Goblet": "Electro",
-                "Circlet": "Crit"
-            },
-            "subs_stat": ["ER", "Crit", "ATK%", ""]
+            "build": "Standard"
         },
         "character_4": {
             "name": "Xingqiu",
-            "constellation": "",
-            "weapon": "Sacrificial Sword",
-            "set": "Emblem of Severed Fate",
-            "main_stat": { 
-                "Sands": "ATK%",
-                "Goblet": "Hydro",
-                "Circlet": "Crit"
-            },
-            "subs_stat": ["Crit", "ATK%", "ER"]
+            "build": "Standard"
         }
     },
 
@@ -65,51 +33,19 @@ const teams = {
 
         "character_1": {
             "name": "Tartaglia",
-            "constellation": "",
-            "weapon": "Polar Star",
-            "set": "Heart of Depth",
-            "main_stat": { 
-                "Sands": "ATK%",
-                "Goblet": "Hydro",
-                "Circlet": "Crit",
-            },
-            "subs_stat": ["Crit", "ATK%", "EM"]
+            "build": "Standard"
         },
         "character_2": {
             "name": "Kaedehara Kazuha",
-            "constellation": "",
-            "weapon": "Favonious Sword",
-            "set": "Viridescent Venerer",
-            "main_stat": { 
-                "Sands": "EM",
-                "Goblet": "EM",
-                "Circlet": "EM"
-            },
-            "subs_stat": ["Crit Rate", "EM", "ER", "Crit Damage"]
+            "build": "Standard"
         },
         "character_3": {
             "name": "Xiangling",
-            "constellation": "",
-            "weapon": "The Catch",
-            "set": "Emblem of Severed Fate",
-            "main_stat": { 
-                "Sands": "ATK%",
-                "Goblet": "Pyro",
-                "Circlet": "Crit"
-            },
-            "subs_stat": ["ER", "Crit", "ATK%", "EM"]
+            "build": "Standard"
         },
         "character_4": {
             "name": "Bennett",
-            "constellation": "",
-            "weapon": "Aquila Favonia",
-            "set": "Noblesse Oblige",
-            "main_stat": { 
-                "Sands": "ER",
-                "Goblet": "Pyro",
-                "Circlet": "Crit"
-            },
-            "subs_stat": ["ER"]
+            "build": "Standard"
         }
     },
 
@@ -122,51 +58,19 @@ const teams = {
 
         "character_1": {
             "name": "Dehya",
-            "constellation": "",
-            "weapon": "Beacon of the Reed Sea",
-            "set": "Emblem of Severed Fate",
-            "main_stat": { 
-                "Sands": "ATK%",
-                "Goblet": "Pyro",
-                "Circlet": "Crit",
-            },
-            "subs_stat": ["Crit", "ATK%", "EM"]
+            "build": "Standard"
         },
         "character_2": {
             "name": "Kaedehara Kazuha",
-            "constellation": "",
-            "weapon": "Favonious Sword",
-            "set": "Viridescent Venerer",
-            "main_stat": { 
-                "Sands": "EM",
-                "Goblet": "EM",
-                "Circlet": "EM"
-            },
-            "subs_stat": ["Crit Rate", "EM", "ER", "Crit Damage"]
+            "build": "Standard"
         },
         "character_3": {
             "name": "Mona",
-            "constellation": "",
-            "weapon": "Favonius Codex",
-            "set": "Instructor",
-            "main_stat": { 
-                "Sands": "ATK%",
-                "Goblet": "Hydro",
-                "Circlet": "Crit"
-            },
-            "subs_stat": ["ER", "Crit", "ATK%"]
+            "build": "Standard"
         },
         "character_4": {
             "name": "Bennett",
-            "constellation": "",
-            "weapon": "Aquila Favonia",
-            "set": "Noblesse Oblige",
-            "main_stat": { 
-                "Sands": "ER",
-                "Goblet": "Pyro",
-                "Circlet": "Crit"
-            },
-            "subs_stat": ["ER"]
+            "build": "Standard"
         }
     },
 
@@ -179,51 +83,19 @@ const teams = {
 
         "character_1": {
             "name": "Yoimiya",
-            "constellation": "",
-            "weapon": "Thundering Pulse",
-            "set": "Shimenawa's Reminiscence",
-            "main_stat": { 
-                "Sands": "ATK%",
-                "Goblet": "Pyro",
-                "Circlet": "Crit",
-            },
-            "subs_stat": ["Crit", "ATK", "EM", "ER"]
+            "build": "Standard"
         },
         "character_2": {
             "name": "Yun Jin",
-            "constellation": "",
-            "weapon": "Favonious Lance",
-            "set": "Husk of Opulent Dreams",
-            "main_stat": { 
-                "Sands": "DEF%",
-                "Goblet": "DEF%",
-                "Circlet": "DEF%"
-            },
-            "subs_stat": ["ER", "Crit Rate", "DEF"]
+            "build": "Standard"
         },
         "character_3": {
             "name": "Xingqiu",
-            "constellation": "",
-            "weapon": "Sacrificial Sword",
-            "set": "Emblem of Severed Fate",
-            "main_stat": { 
-                "Sands": "ATK%",
-                "Goblet": "Hydro",
-                "Circlet": "Crit"
-            },
-            "subs_stat": ["Crit", "ATK%", "ER"]
+            "build": "Standard"
         },
         "character_4": {
             "name": "Bennett",
-            "constellation": "",
-            "weapon": "Aquila Favonia",
-            "set": "Noblesse Oblige",
-            "main_stat": { 
-                "Sands": "ER",
-                "Goblet": "Pyro",
-                "Circlet": "Crit"
-            },
-            "subs_stat": ["ER"]
+            "build": "Standard"
         },
     },
 
@@ -236,51 +108,19 @@ const teams = {
 
         "character_1": {
             "name": "Tartaglia",
-            "constellation": "",
-            "weapon": "",
-            "set": "",
-            "main_stat": { 
-                "Sands": "",
-                "Goblet": "",
-                "Circlet": "",
-            },
-            "subs_stat": ["", "", "", ""]
+            "build": ""
         },
         "character_2": {
             "name": "Sucrose",
-            "constellation": "",
-            "weapon": "",
-            "set": "",
-            "main_stat": { 
-                "Sands": "",
-                "Goblet": "",
-                "Circlet": ""
-            },
-            "subs_stat": [""]
+            "build": ""
         },
         "character_3": {
             "name": "Xiangling",
-            "constellation": "",
-            "weapon": "",
-            "set": "",
-            "main_stat": { 
-                "Sands": "",
-                "Goblet": "",
-                "Circlet": ""
-            },
-            "subs_stat": [""]
+            "build": ""
         },
         "character_4": {
             "name": "Bennett",
-            "constellation": "",
-            "weapon": "",
-            "set": "",
-            "main_stat": { 
-                "Sands": "",
-                "Goblet": "",
-                "Circlet": ""
-            },
-            "subs_stat": ["", "", ""]
+            "build": ""
         }
     },
 
@@ -293,51 +133,19 @@ const teams = {
 
         "character_1": {
             "name": "Tartaglia",
-            "constellation": "",
-            "weapon": "",
-            "set": "",
-            "main_stat": { 
-                "Sands": "",
-                "Goblet": "",
-                "Circlet": "",
-            },
-            "subs_stat": ["", "", "", ""]
+            "build": ""
         },
         "character_2": {
             "name": "Kaedehara Kazuha",
-            "constellation": "",
-            "weapon": "",
-            "set": "",
-            "main_stat": { 
-                "Sands": "",
-                "Goblet": "",
-                "Circlet": ""
-            },
-            "subs_stat": [""]
+            "build": ""
         },
         "character_3": {
             "name": "Nahida",
-            "constellation": "",
-            "weapon": "",
-            "set": "",
-            "main_stat": { 
-                "Sands": "",
-                "Goblet": "",
-                "Circlet": ""
-            },
-            "subs_stat": [""]
+            "build": ""
         },
         "character_4": {
             "name": "Bennett",
-            "constellation": "",
-            "weapon": "",
-            "set": "",
-            "main_stat": { 
-                "Sands": "",
-                "Goblet": "",
-                "Circlet": ""
-            },
-            "subs_stat": ["", "", ""]
+            "build": ""
         }
     },
 
@@ -350,51 +158,19 @@ const teams = {
 
         "character_1": {
             "name": "Tartaglia",
-            "constellation": "",
-            "weapon": "",
-            "set": "",
-            "main_stat": { 
-                "Sands": "",
-                "Goblet": "",
-                "Circlet": "",
-            },
-            "subs_stat": ["", "", "", ""]
+            "build": ""
         },
         "character_2": {
             "name": "Fischl",
-            "constellation": "",
-            "weapon": "",
-            "set": "",
-            "main_stat": { 
-                "Sands": "",
-                "Goblet": "",
-                "Circlet": ""
-            },
-            "subs_stat": [""]
+            "build": ""
         },
         "character_3": {
             "name": "Beidou",
-            "constellation": "",
-            "weapon": "",
-            "set": "",
-            "main_stat": { 
-                "Sands": "",
-                "Goblet": "",
-                "Circlet": ""
-            },
-            "subs_stat": [""]
+            "build": ""
         },
         "character_4": {
             "name": "Bennett",
-            "constellation": "",
-            "weapon": "",
-            "set": "",
-            "main_stat": { 
-                "Sands": "",
-                "Goblet": "",
-                "Circlet": ""
-            },
-            "subs_stat": ["", "", ""]
+            "build": ""
         }
     },
 
@@ -407,101 +183,19 @@ const teams = {
 
         "character_1": {
             "name": "Tartaglia",
-            "constellation": "",
-            "weapon": "",
-            "set": "",
-            "main_stat": { 
-                "Sands": "",
-                "Goblet": "",
-                "Circlet": "",
-            },
-            "subs_stat": ["", "", "", ""]
+            "build": ""
         },
         "character_2": {
             "name": "Fischl",
-            "constellation": "",
-            "weapon": "",
-            "set": "",
-            "main_stat": { 
-                "Sands": "",
-                "Goblet": "",
-                "Circlet": ""
-            },
-            "subs_stat": [""]
+            "build": ""
         },
         "character_3": {
             "name": "Beidou",
-            "constellation": "",
-            "weapon": "",
-            "set": "",
-            "main_stat": { 
-                "Sands": "",
-                "Goblet": "",
-                "Circlet": ""
-            },
-            "subs_stat": [""]
+            "build": ""
         },
         "character_4": {
             "name": "Bennett",
-            "constellation": "",
-            "weapon": "",
-            "set": "",
-            "main_stat": { 
-                "Sands": "",
-                "Goblet": "",
-                "Circlet": ""
-            },
-            "subs_stat": ["", "", ""]
+            "build": ""
         }
-    },
-
+    }
 }
-
-//"character_1": {
-//    "name": "",
-//    "constellation": "",
-//    "weapon": "",
-//    "set": "",
-//    "main_stat": { 
-//        "Sands": "",
-//        "Goblet": "",
-//        "Circlet": "",
-//    },
-//    "subs_stat": ["", "", "", ""]
-//},
-//"character_2": {
-//    "name": "",
-//    "constellation": "",
-//    "weapon": "",
-//    "set": "",
-//    "main_stat": { 
-//        "Sands": "",
-//        "Goblet": "",
-//        "Circlet": ""
-//    },
-//    "subs_stat": [""]
-//},
-//"character_3": {
-//    "name": "",
-//    "constellation": "",
-//    "weapon": "",
-//    "set": "",
-//    "main_stat": { 
-//        "Sands": "",
-//        "Goblet": "",
-//        "Circlet": ""
-//    },
-//    "subs_stat": [""]
-//},
-//"character_4": {
-//    "name": "",
-//    "constellation": "",
-//    "weapon": "",
-//    "set": "",
-//    "main_stat": { 
-//        "Sands": "",
-//        "Goblet": "",
-//        "Circlet": ""
-//    },
-//    "subs_stat": ["", "", ""]
-//}
