@@ -108,19 +108,19 @@ const teams = {
 
         "character_1": {
             "name": "Tartaglia",
-            "build": ""
+            "build": "Standard"
         },
         "character_2": {
             "name": "Sucrose",
-            "build": ""
+            "build": "Standard"
         },
         "character_3": {
             "name": "Xiangling",
-            "build": ""
+            "build": "Standard"
         },
         "character_4": {
             "name": "Bennett",
-            "build": ""
+            "build": "Standard"
         }
     },
 
@@ -133,19 +133,19 @@ const teams = {
 
         "character_1": {
             "name": "Tartaglia",
-            "build": ""
+            "build": "Standard"
         },
         "character_2": {
             "name": "Albedo",
-            "build": ""
+            "build": "Standard"
         },
         "character_3": {
             "name": "Xiangling",
-            "build": ""
+            "build": "Standard"
         },
         "character_4": {
             "name": "Bennett",
-            "build": ""
+            "build": "Standard"
         }
     },
 
@@ -158,19 +158,19 @@ const teams = {
 
         "character_1": {
             "name": "Tartaglia",
-            "build": ""
+            "build": "Standard"
         },
         "character_2": {
             "name": "Kaedehara Kazuha",
-            "build": ""
+            "build": "Standard"
         },
         "character_3": {
             "name": "Nahida",
-            "build": ""
+            "build": "Standard"
         },
         "character_4": {
             "name": "Bennett",
-            "build": ""
+            "build": "Standard"
         }
     },
 
@@ -208,19 +208,19 @@ const teams = {
 
         "character_1": {
             "name": "Tartaglia",
-            "build": ""
+            "build": "Standard"
         },
         "character_2": {
             "name": "Fischl",
-            "build": ""
+            "build": "Standard"
         },
         "character_3": {
             "name": "Beidou",
-            "build": ""
+            "build": "Standard"
         },
         "character_4": {
             "name": "Bennett",
-            "build": ""
+            "build": "Standard"
         }
     },
     "9": {
@@ -232,19 +232,19 @@ const teams = {
 
         "character_1": {
             "name": "Tartaglia",
-            "build": ""
+            "build": "Standard"
         },
         "character_2": {
             "name": "Kaeya",
-            "build": ""
+            "build": "Standard"
         },
         "character_3": {
             "name": "Rosaria",
-            "build": ""
+            "build": "Standard"
         },
         "character_4": {
             "name": "Kaedehara Kazuha",
-            "build": ""
+            "build": "Standard"
         }
     },
 
@@ -257,19 +257,19 @@ const teams = {
 
         "character_1": {
             "name": "Tartaglia",
-            "build": ""
+            "build": "Standard"
         },
         "character_2": {
             "name": "Kaeya",
-            "build": ""
+            "build": "Standard"
         },
         "character_3": {
             "name": "Ayaka",
-            "build": ""
+            "build": "Standard"
         },
         "character_4": {
             "name": "Kaedehara Kazuha",
-            "build": ""
+            "build": "Standard"
         }
     },
 
@@ -282,19 +282,19 @@ const teams = {
 
         "character_1": {
             "name": "Tartaglia",
-            "build": ""
+            "build": "Standard"
         },
         "character_2": {
             "name": "Rosaria",
-            "build": ""
+            "build": "Standard"
         },
         "character_3": {
             "name": "Ayaka",
-            "build": ""
+            "build": "Standard"
         },
         "character_4": {
             "name": "Kaedehara Kazuha",
-            "build": ""
+            "build": "Standard"
         }
     },
 
@@ -307,19 +307,19 @@ const teams = {
 
         "character_1": {
             "name": "Tartaglia",
-            "build": ""
+            "build": "Standard"
         },
         "character_2": {
             "name": "Diona",
-            "build": ""
+            "build": "Standard"
         },
         "character_3": {
             "name": "Ayaka",
-            "build": ""
+            "build": "Standard"
         },
         "character_4": {
             "name": "Kaedehara Kazuha",
-            "build": ""
+            "build": "Standard"
         }
     },
 
@@ -332,19 +332,19 @@ const teams = {
     
         "character_1": {
             "name": "Tartaglia",
-            "build": ""
+            "build": "Standard"
         },
         "character_2": {
             "name": "Xingqiu",
-            "build": ""
+            "build": "Standard"
         },
         "character_3": {
             "name": "Yelan",
-            "build": ""
+            "build": "Standard"
         },
         "character_4": {
             "name": "Kaedehara Kazuha",
-            "build": ""
+            "build": "Standard"
         }
     },
 
@@ -356,19 +356,19 @@ const teams = {
     
         "character_1": {
             "name": "Tartaglia",
-            "build": ""
+            "build": "Standard"
         },
         "character_2": {
             "name": "Xingqiu",
-            "build": ""
+            "build": "Standard"
         },
         "character_3": {
             "name": "Yelan",
-            "build": ""
+            "build": "Standard"
         },
         "character_4": {
             "name": "Jean",
-            "build": ""
+            "build": "Standard"
         }
     },
 
@@ -380,19 +380,19 @@ const teams = {
     
         "character_1": {
             "name": "Tartaglia",
-            "build": ""
+            "build": "Standard"
         },
         "character_2": {
             "name": "Xingqiu",
-            "build": ""
+            "build": "Standard"
         },
         "character_3": {
             "name": "Kokomi",
-            "build": ""
+            "build": "Standard"
         },
         "character_4": {
             "name": "Kaedehara Kazuha",
-            "build": ""
+            "build": "Standard"
         }
     },
 
@@ -404,19 +404,19 @@ const teams = {
     
         "character_1": {
             "name": "Tartaglia",
-            "build": ""
+            "build": "Standard"
         },
         "character_2": {
             "name": "Kokomi",
-            "build": ""
+            "build": "Standard"
         },
         "character_3": {
             "name": "Yelan",
-            "build": ""
+            "build": "Standard"
         },
         "character_4": {
             "name": "Kaedehara Kazuha",
-            "build": ""
+            "build": "Standard"
         }
     },
 
@@ -428,19 +428,19 @@ const teams = {
     
         "character_1": {
             "name": "Kokomi",
-            "build": ""
+            "build": "Standard"
         },
         "character_2": {
             "name": "Xingqiu",
-            "build": ""
+            "build": "Standard"
         },
         "character_3": {
             "name": "Yelan",
-            "build": ""
+            "build": "Standard"
         },
         "character_4": {
             "name": "Kaedehara Kazuha",
-            "build": ""
+            "build": "Standard"
         }
     },
 
@@ -456,18 +456,18 @@ const teams = {
 //
 //    "character_1": {
 //        "name": "",
-//        "build": ""
+//        "build": "Standard"
 //    },
 //    "character_2": {
 //        "name": "",
-//        "build": ""
+//        "build": "Standard"
 //    },
 //    "character_3": {
 //        "name": "",
-//        "build": ""
+//        "build": "Standard"
 //    },
 //    "character_4": {
 //        "name": "",
-//        "build": ""
+//        "build": "Standard"
 //    }
 //},
