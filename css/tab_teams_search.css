@@ -32,14 +32,14 @@
     border-left: none;
     cursor: pointer;
 
-    background-image: url('/images/loupe.png');
+    background-image: url('../images/loupe.png');
     background-size: cover;
 }
 
 .search_form button:hover {
     background: #0b7dda;
 
-    background-image: url('/images/loupe.png');
+    background-image: url('../images/loupe.png');
     background-size: cover;
 }
 
