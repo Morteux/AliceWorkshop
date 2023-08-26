@@ -58,7 +58,7 @@ const teams = {
 
         "character_1": {
             "name": "Dehya",
-            "build": "Vape"
+            "build": "Standard"
         },
         "character_2": {
             "name": "Kaedehara Kazuha",

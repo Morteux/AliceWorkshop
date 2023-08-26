@@ -15,13 +15,14 @@ https://morteux.github.io/AliceWorkshop/
 - Add user custom teams (stored in sessions? need db)
 - User custom team mentioned above could have tags (1. viable team, 2. monoelectro, 3. raiden, f.e)
 - Pick one random pick of your favorite teams.
-- Categorize teams by meta/exploration/troll? (meta > viable > funny )
-- Add special teams members: element/support flex type
-- Show last version of Genshin supported
-- URL to team with characters in url params
-- Team randomizer
-- Hide character stats behind icons for each team
-- troll: random team name generator
+- Categorize teams by meta > viable > funny.
+- Add special teams members: element/support flex type.
+- Show last version of Genshin supported.
+- URL to team with characters in url params.
+- Team randomizer.
+- Hide character stats behind icons for each team.
+- Stats on most used characters, percentual presence of each character in meta, viable and funny.
+- troll: random team name generator.
 
 ### Filters
 - Filter by language
