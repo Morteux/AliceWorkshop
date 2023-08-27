@@ -3,6 +3,7 @@ const builds = {
 
     "Aether": {
         "Standard": {
+            "element": "Dendro",
             "constellation": "",
             "weapon": "",
             "set": "",
@@ -508,6 +509,7 @@ const builds = {
     },
     "Lumine": {
         "Standard": {
+            "element": "Dendro",
             "constellation": "",
             "weapon": "",
             "set": "",

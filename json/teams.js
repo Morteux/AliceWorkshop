@@ -19,8 +19,8 @@ const teams = {
             "build": "Standard"
         },
         "character_4": {
-            "name": "Xingqiu",
-            "build": "Standard"
+            "name": ["Xingqiu"],
+            "build": ["Standard"]
         }
     },
 
@@ -44,8 +44,8 @@ const teams = {
             "build": "Standard"
         },
         "character_4": {
-            "name": "Bennett",
-            "build": "Standard"
+            "name": ["Bennett"],
+            "build": ["Standard"]
         }
     },
 
@@ -69,8 +69,8 @@ const teams = {
             "build": "Standard"
         },
         "character_4": {
-            "name": "Bennett",
-            "build": "Standard"
+            "name": ["Bennett"],
+            "build": ["Standard"]
         }
     },
 
@@ -94,8 +94,8 @@ const teams = {
             "build": "Standard"
         },
         "character_4": {
-            "name": "Bennett",
-            "build": "Standard"
+            "name": ["Bennett"],
+            "build": ["Standard"]
         },
     },
 
@@ -119,8 +119,8 @@ const teams = {
             "build": "Standard"
         },
         "character_4": {
-            "name": "Bennett",
-            "build": "Standard"
+            "name": ["Bennett"],
+            "build": ["Standard"]
         }
     },
 
@@ -144,8 +144,8 @@ const teams = {
             "build": "Standard"
         },
         "character_4": {
-            "name": "Bennett",
-            "build": "Standard"
+            "name": ["Bennett"],
+            "build": ["Standard"]
         }
     },
 
@@ -169,8 +169,8 @@ const teams = {
             "build": "Standard"
         },
         "character_4": {
-            "name": "Bennett",
-            "build": "Standard"
+            "name": ["Bennett"],
+            "build": ["Standard"]
         }
     },
 
@@ -194,8 +194,8 @@ const teams = {
             "build": "Standard"
         },
         "character_4": {
-            "name": "Bennet",
-            "build": "Standard"
+            "name": ["Bennet"],
+            "build": ["Standard"]
         }
     },
 
@@ -219,8 +219,8 @@ const teams = {
             "build": "Standard"
         },
         "character_4": {
-            "name": "Bennett",
-            "build": "Standard"
+            "name": ["Bennett"],
+            "build": ["Standard"]
         }
     },
     "9": {
@@ -243,8 +243,8 @@ const teams = {
             "build": "Standard"
         },
         "character_4": {
-            "name": "Kaedehara Kazuha",
-            "build": "Standard"
+            "name": ["Kaedehara Kazuha"],
+            "build": ["Standard"]
         }
     },
 
@@ -268,8 +268,8 @@ const teams = {
             "build": "Standard"
         },
         "character_4": {
-            "name": "Kaedehara Kazuha",
-            "build": "Standard"
+            "name": ["Kaedehara Kazuha"],
+            "build": ["Standard"]
         }
     },
 
@@ -293,8 +293,8 @@ const teams = {
             "build": "Standard"
         },
         "character_4": {
-            "name": "Kaedehara Kazuha",
-            "build": "Standard"
+            "name": ["Kaedehara Kazuha"],
+            "build": ["Standard"]
         }
     },
 
@@ -318,8 +318,8 @@ const teams = {
             "build": "Standard"
         },
         "character_4": {
-            "name": "Kaedehara Kazuha",
-            "build": "Standard"
+            "name": ["Kaedehara Kazuha"],
+            "build": ["Standard"]
         }
     },
 
@@ -343,8 +343,8 @@ const teams = {
             "build": "Standard"
         },
         "character_4": {
-            "name": "Kaedehara Kazuha",
-            "build": "Standard"
+            "name": ["Kaedehara Kazuha"],
+            "build": ["Standard"]
         }
     },
 
@@ -367,8 +367,8 @@ const teams = {
             "build": "Standard"
         },
         "character_4": {
-            "name": "Jean",
-            "build": "Standard"
+            "name": ["Jean"],
+            "build": ["Standard"]
         }
     },
 
@@ -391,8 +391,8 @@ const teams = {
             "build": "Standard"
         },
         "character_4": {
-            "name": "Kaedehara Kazuha",
-            "build": "Standard"
+            "name": ["Kaedehara Kazuha"],
+            "build": ["Standard"]
         }
     },
 
@@ -415,8 +415,8 @@ const teams = {
             "build": "Standard"
         },
         "character_4": {
-            "name": "Kaedehara Kazuha",
-            "build": "Standard"
+            "name": ["Kaedehara Kazuha"],
+            "build": ["Standard"]
         }
     },
 
@@ -439,8 +439,8 @@ const teams = {
             "build": "Standard"
         },
         "character_4": {
-            "name": "Kaedehara Kazuha",
-            "build": "Standard"
+            "name": ["Kaedehara Kazuha"],
+            "build": ["Standard"]
         }
     },
 
