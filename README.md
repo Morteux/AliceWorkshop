@@ -22,6 +22,7 @@ https://morteux.github.io/AliceWorkshop/
 - Team randomizer.
 - Hide character stats behind icons for each team.
 - Stats on most used characters, percentual presence of each character in meta, viable and funny.
+- Mark for user created teams.
 - troll: random team name generator.
 
 ### Filters
