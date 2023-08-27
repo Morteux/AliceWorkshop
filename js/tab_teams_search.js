@@ -1,10 +1,13 @@
 var teams_search_matches = [];
-var teams_characters_search_matches = new Set();
+
+document.addEventListener("DOMContentLoaded", (event) => {
+    // Show all teams on page load
+    searchQuery();
+});
 
 function searchQuery() {
     // Reset collection for a new search
     teams_search_matches = [];
-    teams_characters_search_matches = new Set();
 
     getTeamsByTextInput();
 
@@ -16,16 +19,15 @@ function getTeamsByTextInput() {
 
     // console.log("Searching for: " + search_form_text_input);
 
+    if(search_form_text_input.length != 0){
     for (let team_index in teams) {
         if (search_form_text_input.length != 0 && teams[team_index].name.toUpperCase().includes(search_form_text_input.toUpperCase())) {
             // console.log("Coincidence for: " + teams[team_index].name);
             teams_search_matches.push(teams[team_index]);
-
-            teams_characters_search_matches.add(teams[team_index].character_1.name);
-            teams_characters_search_matches.add(teams[team_index].character_2.name);
-            teams_characters_search_matches.add(teams[team_index].character_3.name);
-            teams_characters_search_matches.add(teams[team_index].character_4.name);
         }
+    }}
+    else {
+        teams_search_matches = teams;
     }
 }
 
@@ -94,9 +96,9 @@ function printTeams() {
 }
 
 function getCharacterHTML(id, character_team, character_data) {
-    console.log(id);
-    console.log(character_team);
-    console.log(character_data);
+    // console.log(id);
+    // console.log(character_team);
+    // console.log(character_data);
     return `
     <div id="` + id + `" class="character_container ` + character_data.name.replaceAll(" ", "_") + `">
         <img class="character_icon ` + (character_data.rarity == "5" ? "character_5_stars" : "character_4_stars") + `" src="https://api.ambr.top/assets/UI/` + character_data.images.nameicon + `.png" alt="Character icon for ` + character_data.name + `">
