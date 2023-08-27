@@ -14,11 +14,11 @@ function searchQuery() {
 function getTeamsByTextInput() {
     let search_form_text_input = document.getElementById("search_form_text_input").value;
 
-    console.log("Searching for: " + search_form_text_input);
+    // console.log("Searching for: " + search_form_text_input);
 
     for (let team_index in teams) {
         if (search_form_text_input.length != 0 && teams[team_index].name.toUpperCase().includes(search_form_text_input.toUpperCase())) {
-            console.log("Coincidence for: " + teams[team_index].name);
+            // console.log("Coincidence for: " + teams[team_index].name);
             teams_search_matches.push(teams[team_index]);
 
             teams_characters_search_matches.add(teams[team_index].character_1.name);
@@ -38,8 +38,14 @@ function printTeams() {
     document.getElementById("result_container").innerHTML = "";
 
     for (let team_index in teams_search_matches) {
+        // console.log(teams_search_matches[team_index]);
 
-        for (let character_4_index in teams_search_matches[team_index].character_4) {
+        for (let character_4_index in teams_search_matches[team_index].character_4.name) {
+
+            let character_4 = {
+                "name": teams_search_matches[team_index].character_4.name[character_4_index],
+                "build": teams_search_matches[team_index].character_4.build[character_4_index]
+            };
 
             team_output = `
             <div id="team_container" class="team_container viability_` + teams_search_matches[team_index].viability.toLowerCase() + `">
@@ -52,11 +58,11 @@ function printTeams() {
 
                 <div id="characters_container" class="characters_container">
                 ` +
-                    getCharacterHTML("character_1", teams_search_matches[team_index].character_1, characters[teams_search_matches[team_index].character_1.name]) +
-                    getCharacterHTML("character_2", teams_search_matches[team_index].character_2, characters[teams_search_matches[team_index].character_2.name]) +
-                    getCharacterHTML("character_3", teams_search_matches[team_index].character_3, characters[teams_search_matches[team_index].character_3.name]) +
-                    getCharacterHTML("character_4", teams_search_matches[team_index].character_4[character_4_index], characters[teams_search_matches[team_index].character_4[character_4_index].name]) +
-                    `
+                getCharacterHTML("character_1", teams_search_matches[team_index].character_1, characters[teams_search_matches[team_index].character_1.name]) +
+                getCharacterHTML("character_2", teams_search_matches[team_index].character_2, characters[teams_search_matches[team_index].character_2.name]) +
+                getCharacterHTML("character_3", teams_search_matches[team_index].character_3, characters[teams_search_matches[team_index].character_3.name]) +
+                getCharacterHTML("character_4", character_4, characters[character_4.name]) +
+                `
                 </div>
                 
                 <button class="collapsible" onclick="toggleCollapse(this)">
@@ -88,13 +94,16 @@ function printTeams() {
 }
 
 function getCharacterHTML(id, character_team, character_data) {
+    console.log(id);
+    console.log(character_team);
+    console.log(character_data);
     return `
     <div id="` + id + `" class="character_container ` + character_data.name.replaceAll(" ", "_") + `">
-        <img class="character_icon ` + (character_data.rarity == "5" ? "character_5_stars" : "character_4_stars") + `" src="` + character_data.images.icon + `" alt="Character icon for ` + character_data.name + `">
+        <img class="character_icon ` + (character_data.rarity == "5" ? "character_5_stars" : "character_4_stars") + `" src="https://api.ambr.top/assets/UI/` + character_data.images.nameicon + `.png" alt="Character icon for ` + character_data.name + `">
         <img class="element_icon" src="images/elements/glow_` + (character_data.element != "None" ? character_data.element.toLowerCase() : builds[character_team.name][character_team.build].element.toLowerCase()) + `.png">
         ` + (builds[character_team.name][character_team.build].constellation != "" ? `<div class="constellation">` + builds[character_team.name][character_team.build].constellation + `</div>` : ``) + `
         <div class="rarity_container">` + star_svg + star_svg + star_svg + star_svg + (character_data.rarity == "5" ? star_svg : "") + `</div>
-        <div class="character_name">` + character_data.name + `</div>
+        <div class="character_name ` + (character_data.name.length < 10 ? "character_name_short" : (character_data.name.length < 17 ? "character_name_medium" : "character_name_long")) + `">` + character_data.name + `</div>
     </div>
     `;
 }

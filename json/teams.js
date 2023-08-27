@@ -1,7 +1,7 @@
 const teams = {
-	"1": {
-		"name": "TF Bennett",
-		"description": "Weirdest way to use Bennettt out of all the possibilities. This variation takes advantage of the synergy between Bennettt's Ascension Passives and the TF set, which are effectively two sources of cooldown reduction. Play Bennett onfield with NA + E spam.",
+    "1": {
+        "name": "TF Bennett",
+        "description": "Weirdest way to use Bennettt out of all the possibilities. This variation takes advantage of the synergy between Bennettt's Ascension Passives and the TF set, which are effectively two sources of cooldown reduction. Play Bennett onfield with NA + E spam.",
         "rotation": "Fischl E > Xingqiu Q + E > Bennett Q > Beidou E + Q > Fischl Q > Spam Bennett NA + E",
         "archetype": "Overvape",
         "viability": "Unique",
@@ -25,8 +25,8 @@ const teams = {
     },
 
     "2": {
-		"name": "International",
-		"description": "An National variation that uses Childe and Kazuha",
+        "name": "International",
+        "description": "An National variation that uses Childe and Kazuha",
         "rotation": "E Childe > Q Bennett > E + Q Kazuha > E + Q Xiangling > Q + E Childe 2NA+CA (8-12s) > Funnel Xiangling",
         "archetype": "National",
         "viability": "Meta",
@@ -50,8 +50,8 @@ const teams = {
     },
 
     "3": {
-		"name": "Vape Dehya",
-		"description": "Basically Dehya and her powerfull damage carring the whole abyss. Since Dehya cds, you can alter the rotation in order to fix her E cooldown. For example, doing Kazuha's ult at the end of the rotation to gain time. ",
+        "name": "Vape Dehya",
+        "description": "Basically Dehya and her powerfull damage carring the whole abyss. Since Dehya cds, you can alter the rotation in order to fix her E cooldown. For example, doing Kazuha's ult at the end of the rotation to gain time. ",
         "rotation": "E Dehya >  E + Q Bennett > E + (Q) Kazuha  > Q + E Mona > Q Dehya (and click so hard)",
         "archetype": "On-Field Vape",
         "viability": "Troll",
@@ -75,8 +75,8 @@ const teams = {
     },
 
     "4": {
-		"name": "Vape Yoimiya",
-		"description": "Good Single Target damage thanks to Yoimiya and Xingqiu. Rotation did with Reminiscence artifacts.",
+        "name": "Vape Yoimiya",
+        "description": "Good Single Target damage thanks to Yoimiya and Xingqiu. Rotation did with Reminiscence artifacts.",
         "rotation": "Q + E Bennett > Q + E Xingqiu > E + Q Yun Jin > Yoimiya E + NA until end, then Q",
         "archetype": "On-field Vape",
         "viability": "Viable",
@@ -100,8 +100,8 @@ const teams = {
     },
 
     "5": {
-		"name": "Childe National",
-		"description": "An National variation that uses Childe and Sucrose",
+        "name": "Childe National",
+        "description": "An National variation that uses Childe and Sucrose",
         "rotation": "E Childe > Q Bennett > E Xiangling > E + Q Sucrose > Q Xiangling > Q + E Childe 2NA+CA (8-12s) > Funnel Xiangling",
         "archetype": "National",
         "viability": "Meta",
@@ -125,8 +125,8 @@ const teams = {
     },
 
     "5": {
-		"name": "Childe National",
-		"description": "An National variation that uses Childe and Albedo",
+        "name": "Childe National",
+        "description": "An National variation that uses Childe and Albedo",
         "rotation": "",
         "archetype": "National",
         "viability": "Viable",
@@ -150,8 +150,8 @@ const teams = {
     },
 
     "6": {
-		"name": "Intergrational",
-		"description": "International team but swapping Xiangling with Nahida",
+        "name": "Intergrational",
+        "description": "International team but swapping Xiangling with Nahida",
         "rotation": "E (+ Q) Nahida > E + Q Bennett > E + Q Kazuha > E + Q Childe 2NA+CA (2-3 times)",
         "archetype": "Burgeon",
         "viability": "Meta",
@@ -175,8 +175,8 @@ const teams = {
     },
 
     "7": {
-		"name": "Intergrational 2",
-		"description": "A variant of Intergrational, using Xiangling instead of Kazuha. Less seeds due to pyro aplication and burn",
+        "name": "Intergrational 2",
+        "description": "A variant of Intergrational, using Xiangling instead of Kazuha. Less seeds due to pyro aplication and burn",
         "rotation": "",
         "archetype": "",
         "viability": "Viable",
@@ -200,8 +200,8 @@ const teams = {
     },
 
     "8": {
-		"name": "Electro-Charged Childe",
-		"description": "An old team similar to taser",
+        "name": "Electro-Charged Childe",
+        "description": "An old team similar to taser",
         "rotation": "",
         "archetype": "Taser",
         "viability": "Viable",
@@ -264,7 +264,7 @@ const teams = {
             "build": "Standard"
         },
         "character_3": {
-            "name": "Ayaka",
+            "name": "Kamisato Ayaka",
             "build": "Standard"
         },
         "character_4": {
@@ -289,7 +289,7 @@ const teams = {
             "build": "Standard"
         },
         "character_3": {
-            "name": "Ayaka",
+            "name": "Kamisato Ayaka",
             "build": "Standard"
         },
         "character_4": {
@@ -314,7 +314,7 @@ const teams = {
             "build": "Standard"
         },
         "character_3": {
-            "name": "Ayaka",
+            "name": "Kamisato Ayaka",
             "build": "Standard"
         },
         "character_4": {
@@ -329,7 +329,7 @@ const teams = {
         "rotation": "",
         "archetype": "MonoHydro",
         "viability": "troll",
-    
+
         "character_1": {
             "name": "Tartaglia",
             "build": "Standard"
@@ -353,7 +353,7 @@ const teams = {
         "description": "",
         "archetype": "MonoHydro",
         "viability": "troll",
-    
+
         "character_1": {
             "name": "Tartaglia",
             "build": "Standard"
@@ -377,7 +377,7 @@ const teams = {
         "description": "",
         "archetype": "MonoHydro",
         "viability": "troll",
-    
+
         "character_1": {
             "name": "Tartaglia",
             "build": "Standard"
@@ -387,7 +387,7 @@ const teams = {
             "build": "Standard"
         },
         "character_3": {
-            "name": "Kokomi",
+            "name": "Sangonomiya Kokomi",
             "build": "Standard"
         },
         "character_4": {
@@ -401,13 +401,13 @@ const teams = {
         "description": "",
         "archetype": "MonoHydro",
         "viability": "troll",
-    
+
         "character_1": {
             "name": "Tartaglia",
             "build": "Standard"
         },
         "character_2": {
-            "name": "Kokomi",
+            "name": "Sangonomiya Kokomi",
             "build": "Standard"
         },
         "character_3": {
@@ -425,9 +425,9 @@ const teams = {
         "description": "",
         "archetype": "MonoHydro",
         "viability": "troll",
-    
+
         "character_1": {
-            "name": "Kokomi",
+            "name": "Sangonomiya Kokomi",
             "build": "Standard"
         },
         "character_2": {
@@ -450,7 +450,7 @@ const teams = {
         "rotation": "",
         "archetype": "Burgeon",
         "viability": "Viable",
-    
+
         "character_1": {
             "name": "Tartaglia",
             "build": "Standard"
@@ -475,7 +475,7 @@ const teams = {
         "rotation": "",
         "archetype": "Burgeon",
         "viability": "Viable",
-    
+
         "character_1": {
             "name": "Tartaglia",
             "build": "Standard"
@@ -489,7 +489,7 @@ const teams = {
             "build": "EM"
         },
         "character_4": {
-            "name": ["Kokomi"],
+            "name": ["Sangonomiya Kokomi"],
             "build": ["Dendro"]
         }
     },
@@ -500,7 +500,7 @@ const teams = {
         "rotation": "",
         "archetype": "Burgeon",
         "viability": "Viable",
-    
+
         "character_1": {
             "name": "Tartaglia",
             "build": "Standard"
@@ -514,8 +514,8 @@ const teams = {
             "build": "Standard"
         },
         "character_4": {
-            "name": ["Collei", "Dendro Aether", "Yao Yao", "Baizhu", "Kirara"],
-            "build": ["Standard","Standard","Standard","Standard","Standard"]
+            "name": ["Collei", "Aether", "Yaoyao", "Baizhu", "Kirara"],
+            "build": ["Standard", "Dendro", "Standard", "Standard", "Standard"]
         }
     },
 
@@ -525,7 +525,7 @@ const teams = {
         "rotation": "",
         "archetype": "Burgeon",
         "viability": "Viable",
-    
+
         "character_1": {
             "name": "Tartaglia",
             "build": "Standard"
@@ -535,12 +535,12 @@ const teams = {
             "build": "EM"
         },
         "character_3": {
-            "name": "Dendro Traveler",
-            "build": "Standard"
+            "name": "Aether",
+            "build": "Dendro"
         },
         "character_4": {
-            "name": ["Collei", "Yao Yao", "Baizhu", "Kirara"],
-            "build": ["Standard","Standard","Standard","Standard"]
+            "name": ["Collei", "Yaoyao", "Baizhu", "Kirara"],
+            "build": ["Standard", "Standard", "Standard", "Standard"]
         }
     },
 
@@ -550,7 +550,7 @@ const teams = {
         "rotation": "",
         "archetype": "Burgeon",
         "viability": "Viable",
-    
+
         "character_1": {
             "name": "Tartaglia",
             "build": "Standard"
@@ -565,7 +565,7 @@ const teams = {
         },
         "character_4": {
             "name": ["Lynette", "Venti", "Sucrose", "Kazuha"],
-            "build": ["Standard","Standard","Standard","Standard","Standard"]
+            "build": ["Standard", "Standard", "Standard", "Standard", "Standard"]
         }
     },
 
@@ -575,7 +575,7 @@ const teams = {
         "rotation": "",
         "archetype": "Burgeon",
         "viability": "Viable",
-    
+
         "character_1": {
             "name": "Tartaglia",
             "build": "Standard"
@@ -585,12 +585,12 @@ const teams = {
             "build": "EM"
         },
         "character_3": {
-            "name": "Dendro Traveler",
-            "build": "Standard"
+            "name": "Aether",
+            "build": "Dendro"
         },
         "character_4": {
             "name": ["Lynette", "Venti", "Sucrose", "Kazuha"],
-            "build": ["Standard","Standard","Standard","Standard","Standard"]
+            "build": ["Standard", "Standard", "Standard", "Standard"]
         }
     },
 
@@ -600,7 +600,7 @@ const teams = {
         "rotation": "",
         "archetype": "Burgeon",
         "viability": "Troll",
-    
+
         "character_1": {
             "name": "Tartaglia",
             "build": "Standard"
@@ -614,8 +614,8 @@ const teams = {
             "build": "Standard"
         },
         "character_4": {
-            "name": ["Yao Yao", "Baizhu", "Kirara"],
-            "build": ["Standard","Standard","Standard"]
+            "name": ["Yaoyao", "Baizhu", "Kirara"],
+            "build": ["Standard", "Standard", "Standard"]
         }
     },
 
@@ -625,7 +625,7 @@ const teams = {
         "rotation": "",
         "archetype": "Oven",
         "viability": "Meta",
-    
+
         "character_1": {
             "name": "Tartaglia",
             "build": "Standard"
@@ -639,8 +639,8 @@ const teams = {
             "build": "Standard"
         },
         "character_4": {
-            "name": ["Kaeya", "Rosaria", "Diona", "Layla","Ganyu"],
-            "build": ["Standard","Standard","Standard","Standard","Ultimate"]
+            "name": ["Kaeya", "Rosaria", "Diona", "Layla", "Ganyu"],
+            "build": ["Standard", "Standard", "Standard", "Standard", "Ultimate"]
         }
     },
 
@@ -650,7 +650,7 @@ const teams = {
         "rotation": "",
         "archetype": "Oven",
         "viability": "Viable",
-    
+
         "character_1": {
             "name": "Tartaglia",
             "build": "Standard"
@@ -664,8 +664,8 @@ const teams = {
             "build": "Standard"
         },
         "character_4": {
-            "name": ["Kaeya", "Rosaria", "Diona", "Layla","Ganyu"],
-            "build": ["Standard","Standard","Standard","Standard","Ultimate"]
+            "name": ["Kaeya", "Rosaria", "Diona", "Layla", "Ganyu"],
+            "build": ["Standard", "Standard", "Standard", "Standard", "Ultimate"]
         }
     },
 
@@ -675,7 +675,7 @@ const teams = {
         "rotation": "",
         "archetype": "Oven",
         "viability": "Troll",
-    
+
         "character_1": {
             "name": "Tartaglia",
             "build": "Standard"
@@ -685,12 +685,12 @@ const teams = {
             "build": "EM"
         },
         "character_3": {
-            "name": "Yao Yao",
+            "name": "Yaoyao",
             "build": "Standard"
         },
         "character_4": {
-            "name": ["Kaeya", "Rosaria", "Diona", "Layla","Ganyu"],
-            "build": ["Standard","Standard","Standard","Standard","Ultimate"]
+            "name": ["Kaeya", "Rosaria", "Diona", "Layla", "Ganyu"],
+            "build": ["Standard", "Standard", "Standard", "Standard", "Ultimate"]
         }
     },
 
@@ -700,7 +700,7 @@ const teams = {
         "rotation": "",
         "archetype": "Oven",
         "viability": "Troll",
-    
+
         "character_1": {
             "name": "Tartaglia",
             "build": "Standard"
@@ -715,7 +715,7 @@ const teams = {
         },
         "character_4": {
             "name": ["Kaeya", "Rosaria", "Diona", "Layla", "Ganyu"],
-            "build": ["Standard","Standard","Standard","Standard","Ultimate"]
+            "build": ["Standard", "Standard", "Standard", "Standard", "Ultimate"]
         }
     },
 
@@ -725,7 +725,7 @@ const teams = {
         "rotation": "",
         "archetype": "Curry",
         "viability": "Viable",
-    
+
         "character_1": {
             "name": "Tartaglia",
             "build": "Standard"
@@ -740,7 +740,7 @@ const teams = {
         },
         "character_4": {
             "name": ["Fisch", "Beidou"],
-            "build": ["Standard","Standard"]
+            "build": ["Standard", "Standard"]
         }
     },
 
@@ -750,7 +750,7 @@ const teams = {
         "rotation": "",
         "archetype": "Curry",
         "viability": "Viable",
-    
+
         "character_1": {
             "name": "Tartaglia",
             "build": "Standard"
@@ -764,8 +764,8 @@ const teams = {
             "build": "Standard"
         },
         "character_4": {
-            "name": ["Shinobu", "Raiden"],
-            "build": ["Standard","EM"]
+            "name": ["Kuki Shinobu", "Raiden Shogun"],
+            "build": ["Standard", "EM"]
         }
     },
 
@@ -775,7 +775,7 @@ const teams = {
         "rotation": "",
         "archetype": "Curry",
         "viability": "Viable",
-    
+
         "character_1": {
             "name": "Tartaglia",
             "build": "Standard"
@@ -785,12 +785,12 @@ const teams = {
             "build": "EM"
         },
         "character_3": {
-            "name": "Traveler",
+            "name": "Aether",
             "build": "Standard"
         },
         "character_4": {
             "name": ["Fisch", "Beidou"],
-            "build": ["Standard","Standard"]
+            "build": ["Standard", "Standard"]
         }
     },
 
@@ -800,7 +800,7 @@ const teams = {
         "rotation": "",
         "archetype": "Curry",
         "viability": "Viable",
-    
+
         "character_1": {
             "name": "Tartaglia",
             "build": "Standard"
@@ -810,23 +810,23 @@ const teams = {
             "build": "EM"
         },
         "character_3": {
-            "name": "Traveler",
+            "name": "Aether",
             "build": "Standard"
         },
         "character_4": {
-            "name": ["Shinobu", "Raiden"],
-            "build": ["Standard","EM"]
+            "name": ["Kuki Shinobu", "Raiden Shogun"],
+            "build": ["Standard", "EM"]
         }
-    },   
+    },
 
- //   "10": {
- //       "name": "Childe Hyperbloom",
- //       "description": "Tartaglia can be used in Hyperbloom but is not his best team because of E cds.",
- //       "rotation": "",
- //       "archetype": "Hyperbloom",
- //       "viability": "Troll",
- 
- // Falta  Childe Hyperbloom, Quickbloom, Hyperfridge, inserte carita payasito
+    //   "10": {
+    //       "name": "Childe Hyperbloom",
+    //       "description": "Tartaglia can be used in Hyperbloom but is not his best team because of E cds.",
+    //       "rotation": "",
+    //       "archetype": "Hyperbloom",
+    //       "viability": "Troll",
+
+    // Falta  Childe Hyperbloom, Quickbloom, Hyperfridge, inserte carita payasito
 }
 
 //"1": {

@@ -1,8 +1,19 @@
-
 const builds = {
 
     "Aether": {
         "Standard": {
+            "element": "Dendro",
+            "constellation": "",
+            "weapon": "",
+            "set": "",
+            "main_stat": {
+                "Sands": "",
+                "Goblet": "",
+                "Circlet": "",
+            },
+            "subs_stat": ["", "", "", ""]
+        },
+        "Dendro": {
             "element": "Dendro",
             "constellation": "",
             "weapon": "",
@@ -301,6 +312,17 @@ const builds = {
     },
     "Ganyu": {
         "Standard": {
+            "constellation": "",
+            "weapon": "",
+            "set": "",
+            "main_stat": {
+                "Sands": "",
+                "Goblet": "",
+                "Circlet": "",
+            },
+            "subs_stat": ["", "", "", ""]
+        },
+        "Ultimate": {
             "constellation": "",
             "weapon": "",
             "set": "",
@@ -649,6 +671,17 @@ const builds = {
                 "Circlet": "",
             },
             "subs_stat": ["", "", "", ""]
+        },
+        "EM": {
+            "constellation": "",
+            "weapon": "",
+            "set": "",
+            "main_stat": {
+                "Sands": "",
+                "Goblet": "",
+                "Circlet": "",
+            },
+            "subs_stat": ["", "", "", ""]
         }
     },
     "Razor": {
@@ -757,6 +790,17 @@ const builds = {
     },
     "Thoma": {
         "Standard": {
+            "constellation": "",
+            "weapon": "",
+            "set": "",
+            "main_stat": {
+                "Sands": "",
+                "Goblet": "",
+                "Circlet": "",
+            },
+            "subs_stat": ["", "", "", ""]
+        },
+        "EM": {
             "constellation": "",
             "weapon": "",
             "set": "",

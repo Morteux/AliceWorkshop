@@ -258,8 +258,19 @@
 
     color: rgb(49, 49, 49);
     font-weight: bold;
-    font-size: 1.1vh;
     font-family: GenshinImpact;
 
     padding: 1vh;
+}
+
+.character_name_short {
+    font-size: 1.5vh;
+}
+
+.character_name_medium {
+    font-size: 1.1vh;
+}
+
+.character_name_long {
+    font-size: 0.95vh;
 }
