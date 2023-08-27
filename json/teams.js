@@ -444,10 +444,392 @@ const teams = {
         }
     },
 
-    //Falta tartaglia burgeon
+    "7": {
+        "name": "Childe Thoma Burgeon",
+        "description": "Tartaglia is good in Burgeon and similars due to AoE Hydro application. Adding Xingchiu or Yelan provides you with extra hydro and singletarget dmg.",
+        "rotation": "",
+        "archetype": "Burgeon",
+        "viability": "Viable",
+    
+        "character_1": {
+            "name": "Tartaglia",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Thoma",
+            "build": "EM"
+        },
+        "character_3": {
+            "name": "Nahida",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Xingchiu", "Yelan"],
+            "build": ["Standard", "Standard"]
+        }
+    },
+
+    "7": {
+        "name": "Childe Thoma Burgeon",
+        "description": "Tartaglia is good in Burgeon and similars due to AoE Hydro application. You can put Kokomi in deepwood so nahida can have more personal damage.",
+        "rotation": "",
+        "archetype": "Burgeon",
+        "viability": "Viable",
+    
+        "character_1": {
+            "name": "Tartaglia",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Thoma",
+            "build": "EM"
+        },
+        "character_3": {
+            "name": "Nahida",
+            "build": "EM"
+        },
+        "character_4": {
+            "name": ["Kokomi"],
+            "build": ["Dendro"]
+        }
+    },
+
+    "7": {
+        "name": "Childe Thoma Burgeon",
+        "description": "Tartaglia is good in Burgeon and similars due to AoE Hydro application. Nahida dendro aplication is huge to go solo dendro, but you can pick another to comfort and consonance.",
+        "rotation": "",
+        "archetype": "Burgeon",
+        "viability": "Viable",
+    
+        "character_1": {
+            "name": "Tartaglia",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Thoma",
+            "build": "EM"
+        },
+        "character_3": {
+            "name": "Nahida",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Collei", "Dendro Aether", "Yao Yao", "Baizhu", "Kirara"],
+            "build": ["Standard","Standard","Standard","Standard","Standard"]
+        }
+    },
+
+    "7": {
+        "name": "Childe Thoma Burgeon",
+        "description": "Tartaglia is good in Burgeon and similars due to AoE Hydro application. To have enough dendro without nahida, you have to pick two of them,",
+        "rotation": "",
+        "archetype": "Burgeon",
+        "viability": "Viable",
+    
+        "character_1": {
+            "name": "Tartaglia",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Thoma",
+            "build": "EM"
+        },
+        "character_3": {
+            "name": "Dendro Traveler",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Collei", "Yao Yao", "Baizhu", "Kirara"],
+            "build": ["Standard","Standard","Standard","Standard"]
+        }
+    },
+
+    "7": {
+        "name": "Childe Thoma Burgeon",
+        "description": "Tartaglia is good in Burgeon and similars due to AoE Hydro application. You can add an Anemo unit to group and have VV and more AoE.",
+        "rotation": "",
+        "archetype": "Burgeon",
+        "viability": "Viable",
+    
+        "character_1": {
+            "name": "Tartaglia",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Thoma",
+            "build": "EM"
+        },
+        "character_3": {
+            "name": "Nahida",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Lynette", "Venti", "Sucrose", "Kazuha"],
+            "build": ["Standard","Standard","Standard","Standard","Standard"]
+        }
+    },
+
+    "7": {
+        "name": "Childe Thoma Burgeon",
+        "description": "Tartaglia is good in Burgeon and similars due to AoE Hydro application. You can add an Anemo unit to group and have VV and more AoE.",
+        "rotation": "",
+        "archetype": "Burgeon",
+        "viability": "Viable",
+    
+        "character_1": {
+            "name": "Tartaglia",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Thoma",
+            "build": "EM"
+        },
+        "character_3": {
+            "name": "Dendro Traveler",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Lynette", "Venti", "Sucrose", "Kazuha"],
+            "build": ["Standard","Standard","Standard","Standard","Standard"]
+        }
+    },
+
+    "7": {
+        "name": "Childe Thoma Burgeon",
+        "description": "Tartaglia is good in Burgeon and similars due to AoE Hydro application. To have enough dendro without nahida, you have to pick two of them,",
+        "rotation": "",
+        "archetype": "Burgeon",
+        "viability": "Troll",
+    
+        "character_1": {
+            "name": "Tartaglia",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Thoma",
+            "build": "EM"
+        },
+        "character_3": {
+            "name": "Collei",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Yao Yao", "Baizhu", "Kirara"],
+            "build": ["Standard","Standard","Standard"]
+        }
+    },
+
+    "8": {
+        "name": "Childe Thoma Oven",
+        "description": "Tartaglia is good in Burgeon and similars due to AoE Hydro application. Add a cryo to have more seeds.",
+        "rotation": "",
+        "archetype": "Oven",
+        "viability": "Meta",
+    
+        "character_1": {
+            "name": "Tartaglia",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Thoma",
+            "build": "EM"
+        },
+        "character_3": {
+            "name": "Nahida",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Kaeya", "Rosaria", "Diona", "Layla","Ganyu"],
+            "build": ["Standard","Standard","Standard","Standard","Ultimate"]
+        }
+    },
+
+    "8": {
+        "name": "Childe Thoma Oven",
+        "description": "Tartaglia is good in Burgeon and similars due to AoE Hydro application. Add a cryo to have more seeds.",
+        "rotation": "",
+        "archetype": "Oven",
+        "viability": "Viable",
+    
+        "character_1": {
+            "name": "Tartaglia",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Thoma",
+            "build": "EM"
+        },
+        "character_3": {
+            "name": "Aether",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Kaeya", "Rosaria", "Diona", "Layla","Ganyu"],
+            "build": ["Standard","Standard","Standard","Standard","Ultimate"]
+        }
+    },
+
+    "8": {
+        "name": "Childe Thoma Oven",
+        "description": "Tartaglia is good in Burgeon and similars due to AoE Hydro application. Add a cryo to have more seeds. Yao Yao could not have enough AoE dendro aplication for Burgeon",
+        "rotation": "",
+        "archetype": "Oven",
+        "viability": "Troll",
+    
+        "character_1": {
+            "name": "Tartaglia",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Thoma",
+            "build": "EM"
+        },
+        "character_3": {
+            "name": "Yao Yao",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Kaeya", "Rosaria", "Diona", "Layla","Ganyu"],
+            "build": ["Standard","Standard","Standard","Standard","Ultimate"]
+        }
+    },
+
+    "8": {
+        "name": "Childe Thoma Oven",
+        "description": "Tartaglia is good in Burgeon and similars due to AoE Hydro application. Add a cryo to have more seeds. Baizhu could not have enough AoE dendro aplication for Burgeon",
+        "rotation": "",
+        "archetype": "Oven",
+        "viability": "Troll",
+    
+        "character_1": {
+            "name": "Tartaglia",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Thoma",
+            "build": "EM"
+        },
+        "character_3": {
+            "name": "Baizhu",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Kaeya", "Rosaria", "Diona", "Layla", "Ganyu"],
+            "build": ["Standard","Standard","Standard","Standard","Ultimate"]
+        }
+    },
+
+    "9": {
+        "name": "Childe Thoma Curry",
+        "description": "Tartaglia is good in Burgeon and similars due to AoE Hydro application. Fischl or Beidou provides Electro reactions without triggering the bloom.",
+        "rotation": "",
+        "archetype": "Curry",
+        "viability": "Viable",
+    
+        "character_1": {
+            "name": "Tartaglia",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Thoma",
+            "build": "EM"
+        },
+        "character_3": {
+            "name": "Nahida",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Fisch", "Beidou"],
+            "build": ["Standard","Standard"]
+        }
+    },
+
+    "9": {
+        "name": "Childe Thoma Curry",
+        "description": "Tartaglia is good in Burgeon and similars due to AoE Hydro application. Shinobu or Raiden can do hyperbloom to do both reactions.",
+        "rotation": "",
+        "archetype": "Curry",
+        "viability": "Viable",
+    
+        "character_1": {
+            "name": "Tartaglia",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Thoma",
+            "build": "EM"
+        },
+        "character_3": {
+            "name": "Nahida",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Shinobu", "Raiden"],
+            "build": ["Standard","EM"]
+        }
+    },
+
+    "9": {
+        "name": "Childe Thoma Curry",
+        "description": "Tartaglia is good in Burgeon and similars due to AoE Hydro application. Fischl or Beidou provides Electro reactions without triggering the bloom.",
+        "rotation": "",
+        "archetype": "Curry",
+        "viability": "Viable",
+    
+        "character_1": {
+            "name": "Tartaglia",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Thoma",
+            "build": "EM"
+        },
+        "character_3": {
+            "name": "Traveler",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Fisch", "Beidou"],
+            "build": ["Standard","Standard"]
+        }
+    },
+
+    "9": {
+        "name": "Childe Thoma Curry",
+        "description": "Tartaglia is good in Burgeon and similars due to AoE Hydro application. Shinobu or Raiden can do hyperbloom to do both reactions.",
+        "rotation": "",
+        "archetype": "Curry",
+        "viability": "Viable",
+    
+        "character_1": {
+            "name": "Tartaglia",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Thoma",
+            "build": "EM"
+        },
+        "character_3": {
+            "name": "Traveler",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Shinobu", "Raiden"],
+            "build": ["Standard","EM"]
+        }
+    },   
+
+ //   "10": {
+ //       "name": "Childe Hyperbloom",
+ //       "description": "Tartaglia can be used in Hyperbloom but is not his best team because of E cds.",
+ //       "rotation": "",
+ //       "archetype": "Hyperbloom",
+ //       "viability": "Troll",
+ 
+ // Falta  Childe Hyperbloom, Quickbloom, Hyperfridge, inserte carita payasito
 }
 
-//"7": {
+//"1": {
 //    "name": "",
 //    "description": "",
 //    "rotation": "",
@@ -467,7 +849,7 @@ const teams = {
 //        "build": "Standard"
 //    },
 //    "character_4": {
-//        "name": "",
-//        "build": "Standard"
+//        "name": ["char"],
+//        "build": ["Standard"]
 //    }
 //},
