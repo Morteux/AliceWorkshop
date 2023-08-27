@@ -1,7 +1,7 @@
 const teams = {
-	"1": {
-		"name": "TF Bennett",
-		"description": "Weirdest way to use Bennettt out of all the possibilities. This variation takes advantage of the synergy between Bennettt's Ascension Passives and the TF set, which are effectively two sources of cooldown reduction. Play Bennett onfield with NA + E spam.",
+    "1": {
+        "name": "TF Bennett",
+        "description": "Weirdest way to use Bennettt out of all the possibilities. This variation takes advantage of the synergy between Bennettt's Ascension Passives and the TF set, which are effectively two sources of cooldown reduction. Play Bennett onfield with NA + E spam.",
         "rotation": "Fischl E > Xingqiu Q + E > Bennett Q > Beidou E + Q > Fischl Q > Spam Bennett NA + E",
         "archetype": "Overvape",
         "viability": "Unique",
@@ -19,14 +19,14 @@ const teams = {
             "build": "Standard"
         },
         "character_4": {
-            "name": "Xingqiu",
-            "build": "Standard"
+            "name": ["Xingqiu"],
+            "build": ["Standard"]
         }
     },
 
     "2": {
-		"name": "International",
-		"description": "An National variation that uses Childe and Kazuha",
+        "name": "International",
+        "description": "An National variation that uses Childe and Kazuha",
         "rotation": "E Childe > Q Bennett > E + Q Kazuha > E + Q Xiangling > Q + E Childe 2NA+CA (8-12s) > Funnel Xiangling",
         "archetype": "National",
         "viability": "Meta",
@@ -44,14 +44,14 @@ const teams = {
             "build": "Standard"
         },
         "character_4": {
-            "name": "Bennett",
-            "build": "Standard"
+            "name": ["Bennett"],
+            "build": ["Standard"]
         }
     },
 
     "3": {
-		"name": "Vape Dehya",
-		"description": "Basically Dehya and her powerfull damage carring the whole abyss. Since Dehya cds, you can alter the rotation in order to fix her E cooldown. For example, doing Kazuha's ult at the end of the rotation to gain time. ",
+        "name": "Vape Dehya",
+        "description": "Basically Dehya and her powerfull damage carring the whole abyss. Since Dehya cds, you can alter the rotation in order to fix her E cooldown. For example, doing Kazuha's ult at the end of the rotation to gain time. ",
         "rotation": "E Dehya >  E + Q Bennett > E + (Q) Kazuha  > Q + E Mona > Q Dehya (and click so hard)",
         "archetype": "On-Field Vape",
         "viability": "Troll",
@@ -69,14 +69,14 @@ const teams = {
             "build": "Standard"
         },
         "character_4": {
-            "name": "Bennett",
-            "build": "Standard"
+            "name": ["Bennett"],
+            "build": ["Standard"]
         }
     },
 
     "4": {
-		"name": "Vape Yoimiya",
-		"description": "Good Single Target damage thanks to Yoimiya and Xingqiu. Rotation did with Reminiscence artifacts.",
+        "name": "Vape Yoimiya",
+        "description": "Good Single Target damage thanks to Yoimiya and Xingqiu. Rotation did with Reminiscence artifacts.",
         "rotation": "Q + E Bennett > Q + E Xingqiu > E + Q Yun Jin > Yoimiya E + NA until end, then Q",
         "archetype": "On-field Vape",
         "viability": "Viable",
@@ -94,14 +94,14 @@ const teams = {
             "build": "Standard"
         },
         "character_4": {
-            "name": "Bennett",
-            "build": "Standard"
+            "name": ["Bennett"],
+            "build": ["Standard"]
         },
     },
 
     "5": {
-		"name": "Childe National",
-		"description": "An National variation that uses Childe and Sucrose",
+        "name": "Childe National",
+        "description": "An National variation that uses Childe and Sucrose",
         "rotation": "E Childe > Q Bennett > E Xiangling > E + Q Sucrose > Q Xiangling > Q + E Childe 2NA+CA (8-12s) > Funnel Xiangling",
         "archetype": "National",
         "viability": "Meta",
@@ -119,14 +119,14 @@ const teams = {
             "build": "Standard"
         },
         "character_4": {
-            "name": "Bennett",
-            "build": "Standard"
+            "name": ["Bennett"],
+            "build": ["Standard"]
         }
     },
 
     "5": {
-		"name": "Childe National",
-		"description": "An National variation that uses Childe and Albedo",
+        "name": "Childe National",
+        "description": "An National variation that uses Childe and Albedo",
         "rotation": "",
         "archetype": "National",
         "viability": "Viable",
@@ -144,14 +144,14 @@ const teams = {
             "build": "Standard"
         },
         "character_4": {
-            "name": "Bennett",
-            "build": "Standard"
+            "name": ["Bennett"],
+            "build": ["Standard"]
         }
     },
 
     "6": {
-		"name": "Intergrational",
-		"description": "International team but swapping Xiangling with Nahida",
+        "name": "Intergrational",
+        "description": "International team but swapping Xiangling with Nahida",
         "rotation": "E (+ Q) Nahida > E + Q Bennett > E + Q Kazuha > E + Q Childe 2NA+CA (2-3 times)",
         "archetype": "Burgeon",
         "viability": "Meta",
@@ -169,14 +169,14 @@ const teams = {
             "build": "Standard"
         },
         "character_4": {
-            "name": "Bennett",
-            "build": "Standard"
+            "name": ["Bennett"],
+            "build": ["Standard"]
         }
     },
 
     "7": {
-		"name": "Intergrational 2",
-		"description": "A variant of Intergrational, using Xiangling instead of Kazuha. Less seeds due to pyro aplication and burn",
+        "name": "Intergrational 2",
+        "description": "A variant of Intergrational, using Xiangling instead of Kazuha. Less seeds due to pyro aplication and burn",
         "rotation": "",
         "archetype": "",
         "viability": "Viable",
@@ -194,14 +194,14 @@ const teams = {
             "build": "Standard"
         },
         "character_4": {
-            "name": "Bennet",
-            "build": "Standard"
+            "name": ["Bennet"],
+            "build": ["Standard"]
         }
     },
 
     "8": {
-		"name": "Electro-Charged Childe",
-		"description": "An old team similar to taser",
+        "name": "Electro-Charged Childe",
+        "description": "An old team similar to taser",
         "rotation": "",
         "archetype": "Taser",
         "viability": "Viable",
@@ -219,8 +219,8 @@ const teams = {
             "build": "Standard"
         },
         "character_4": {
-            "name": "Bennett",
-            "build": "Standard"
+            "name": ["Bennett"],
+            "build": ["Standard"]
         }
     },
     "9": {
@@ -243,8 +243,8 @@ const teams = {
             "build": "Standard"
         },
         "character_4": {
-            "name": "Kaedehara Kazuha",
-            "build": "Standard"
+            "name": ["Kaedehara Kazuha"],
+            "build": ["Standard"]
         }
     },
 
@@ -264,12 +264,12 @@ const teams = {
             "build": "Standard"
         },
         "character_3": {
-            "name": "Ayaka",
+            "name": "Kamisato Ayaka",
             "build": "Standard"
         },
         "character_4": {
-            "name": "Kaedehara Kazuha",
-            "build": "Standard"
+            "name": ["Kaedehara Kazuha"],
+            "build": ["Standard"]
         }
     },
 
@@ -289,12 +289,12 @@ const teams = {
             "build": "Standard"
         },
         "character_3": {
-            "name": "Ayaka",
+            "name": "Kamisato Ayaka",
             "build": "Standard"
         },
         "character_4": {
-            "name": "Kaedehara Kazuha",
-            "build": "Standard"
+            "name": ["Kaedehara Kazuha"],
+            "build": ["Standard"]
         }
     },
 
@@ -314,12 +314,12 @@ const teams = {
             "build": "Standard"
         },
         "character_3": {
-            "name": "Ayaka",
+            "name": "Kamisato Ayaka",
             "build": "Standard"
         },
         "character_4": {
-            "name": "Kaedehara Kazuha",
-            "build": "Standard"
+            "name": ["Kaedehara Kazuha"],
+            "build": ["Standard"]
         }
     },
 
@@ -329,7 +329,7 @@ const teams = {
         "rotation": "",
         "archetype": "MonoHydro",
         "viability": "troll",
-    
+
         "character_1": {
             "name": "Tartaglia",
             "build": "Standard"
@@ -343,8 +343,8 @@ const teams = {
             "build": "Standard"
         },
         "character_4": {
-            "name": "Kaedehara Kazuha",
-            "build": "Standard"
+            "name": ["Kaedehara Kazuha"],
+            "build": ["Standard"]
         }
     },
 
@@ -353,7 +353,7 @@ const teams = {
         "description": "",
         "archetype": "MonoHydro",
         "viability": "troll",
-    
+
         "character_1": {
             "name": "Tartaglia",
             "build": "Standard"
@@ -367,8 +367,8 @@ const teams = {
             "build": "Standard"
         },
         "character_4": {
-            "name": "Jean",
-            "build": "Standard"
+            "name": ["Jean"],
+            "build": ["Standard"]
         }
     },
 
@@ -377,7 +377,7 @@ const teams = {
         "description": "",
         "archetype": "MonoHydro",
         "viability": "troll",
-    
+
         "character_1": {
             "name": "Tartaglia",
             "build": "Standard"
@@ -387,12 +387,12 @@ const teams = {
             "build": "Standard"
         },
         "character_3": {
-            "name": "Kokomi",
+            "name": "Sangonomiya Kokomi",
             "build": "Standard"
         },
         "character_4": {
-            "name": "Kaedehara Kazuha",
-            "build": "Standard"
+            "name": ["Kaedehara Kazuha"],
+            "build": ["Standard"]
         }
     },
 
@@ -401,13 +401,13 @@ const teams = {
         "description": "",
         "archetype": "MonoHydro",
         "viability": "troll",
-    
+
         "character_1": {
             "name": "Tartaglia",
             "build": "Standard"
         },
         "character_2": {
-            "name": "Kokomi",
+            "name": "Sangonomiya Kokomi",
             "build": "Standard"
         },
         "character_3": {
@@ -415,8 +415,8 @@ const teams = {
             "build": "Standard"
         },
         "character_4": {
-            "name": "Kaedehara Kazuha",
-            "build": "Standard"
+            "name": ["Kaedehara Kazuha"],
+            "build": ["Standard"]
         }
     },
 
@@ -425,9 +425,9 @@ const teams = {
         "description": "",
         "archetype": "MonoHydro",
         "viability": "troll",
-    
+
         "character_1": {
-            "name": "Kokomi",
+            "name": "Sangonomiya Kokomi",
             "build": "Standard"
         },
         "character_2": {
@@ -439,15 +439,397 @@ const teams = {
             "build": "Standard"
         },
         "character_4": {
-            "name": "Kaedehara Kazuha",
-            "build": "Standard"
+            "name": ["Kaedehara Kazuha"],
+            "build": ["Standard"]
         }
     },
 
-    //Falta tartaglia burgeon
+    "7": {
+        "name": "Childe Thoma Burgeon",
+        "description": "Tartaglia is good in Burgeon and similars due to AoE Hydro application. Adding Xingchiu or Yelan provides you with extra hydro and singletarget dmg.",
+        "rotation": "",
+        "archetype": "Burgeon",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Tartaglia",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Thoma",
+            "build": "EM"
+        },
+        "character_3": {
+            "name": "Nahida",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Xingchiu", "Yelan"],
+            "build": ["Standard", "Standard"]
+        }
+    },
+
+    "7": {
+        "name": "Childe Thoma Burgeon",
+        "description": "Tartaglia is good in Burgeon and similars due to AoE Hydro application. You can put Kokomi in deepwood so nahida can have more personal damage.",
+        "rotation": "",
+        "archetype": "Burgeon",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Tartaglia",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Thoma",
+            "build": "EM"
+        },
+        "character_3": {
+            "name": "Nahida",
+            "build": "EM"
+        },
+        "character_4": {
+            "name": ["Sangonomiya Kokomi"],
+            "build": ["Dendro"]
+        }
+    },
+
+    "7": {
+        "name": "Childe Thoma Burgeon",
+        "description": "Tartaglia is good in Burgeon and similars due to AoE Hydro application. Nahida dendro aplication is huge to go solo dendro, but you can pick another to comfort and consonance.",
+        "rotation": "",
+        "archetype": "Burgeon",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Tartaglia",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Thoma",
+            "build": "EM"
+        },
+        "character_3": {
+            "name": "Nahida",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Collei", "Aether", "Yaoyao", "Baizhu", "Kirara"],
+            "build": ["Standard", "Dendro", "Standard", "Standard", "Standard"]
+        }
+    },
+
+    "7": {
+        "name": "Childe Thoma Burgeon",
+        "description": "Tartaglia is good in Burgeon and similars due to AoE Hydro application. To have enough dendro without nahida, you have to pick two of them,",
+        "rotation": "",
+        "archetype": "Burgeon",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Tartaglia",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Thoma",
+            "build": "EM"
+        },
+        "character_3": {
+            "name": "Aether",
+            "build": "Dendro"
+        },
+        "character_4": {
+            "name": ["Collei", "Yaoyao", "Baizhu", "Kirara"],
+            "build": ["Standard", "Standard", "Standard", "Standard"]
+        }
+    },
+
+    "7": {
+        "name": "Childe Thoma Burgeon",
+        "description": "Tartaglia is good in Burgeon and similars due to AoE Hydro application. You can add an Anemo unit to group and have VV and more AoE.",
+        "rotation": "",
+        "archetype": "Burgeon",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Tartaglia",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Thoma",
+            "build": "EM"
+        },
+        "character_3": {
+            "name": "Nahida",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Lynette", "Venti", "Sucrose", "Kazuha"],
+            "build": ["Standard", "Standard", "Standard", "Standard", "Standard"]
+        }
+    },
+
+    "7": {
+        "name": "Childe Thoma Burgeon",
+        "description": "Tartaglia is good in Burgeon and similars due to AoE Hydro application. You can add an Anemo unit to group and have VV and more AoE.",
+        "rotation": "",
+        "archetype": "Burgeon",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Tartaglia",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Thoma",
+            "build": "EM"
+        },
+        "character_3": {
+            "name": "Aether",
+            "build": "Dendro"
+        },
+        "character_4": {
+            "name": ["Lynette", "Venti", "Sucrose", "Kazuha"],
+            "build": ["Standard", "Standard", "Standard", "Standard"]
+        }
+    },
+
+    "7": {
+        "name": "Childe Thoma Burgeon",
+        "description": "Tartaglia is good in Burgeon and similars due to AoE Hydro application. To have enough dendro without nahida, you have to pick two of them,",
+        "rotation": "",
+        "archetype": "Burgeon",
+        "viability": "Troll",
+
+        "character_1": {
+            "name": "Tartaglia",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Thoma",
+            "build": "EM"
+        },
+        "character_3": {
+            "name": "Collei",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Yaoyao", "Baizhu", "Kirara"],
+            "build": ["Standard", "Standard", "Standard"]
+        }
+    },
+
+    "8": {
+        "name": "Childe Thoma Oven",
+        "description": "Tartaglia is good in Burgeon and similars due to AoE Hydro application. Add a cryo to have more seeds.",
+        "rotation": "",
+        "archetype": "Oven",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Tartaglia",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Thoma",
+            "build": "EM"
+        },
+        "character_3": {
+            "name": "Nahida",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Kaeya", "Rosaria", "Diona", "Layla", "Ganyu"],
+            "build": ["Standard", "Standard", "Standard", "Standard", "Ultimate"]
+        }
+    },
+
+    "8": {
+        "name": "Childe Thoma Oven",
+        "description": "Tartaglia is good in Burgeon and similars due to AoE Hydro application. Add a cryo to have more seeds.",
+        "rotation": "",
+        "archetype": "Oven",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Tartaglia",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Thoma",
+            "build": "EM"
+        },
+        "character_3": {
+            "name": "Aether",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Kaeya", "Rosaria", "Diona", "Layla", "Ganyu"],
+            "build": ["Standard", "Standard", "Standard", "Standard", "Ultimate"]
+        }
+    },
+
+    "8": {
+        "name": "Childe Thoma Oven",
+        "description": "Tartaglia is good in Burgeon and similars due to AoE Hydro application. Add a cryo to have more seeds. Yao Yao could not have enough AoE dendro aplication for Burgeon",
+        "rotation": "",
+        "archetype": "Oven",
+        "viability": "Troll",
+
+        "character_1": {
+            "name": "Tartaglia",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Thoma",
+            "build": "EM"
+        },
+        "character_3": {
+            "name": "Yaoyao",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Kaeya", "Rosaria", "Diona", "Layla", "Ganyu"],
+            "build": ["Standard", "Standard", "Standard", "Standard", "Ultimate"]
+        }
+    },
+
+    "8": {
+        "name": "Childe Thoma Oven",
+        "description": "Tartaglia is good in Burgeon and similars due to AoE Hydro application. Add a cryo to have more seeds. Baizhu could not have enough AoE dendro aplication for Burgeon",
+        "rotation": "",
+        "archetype": "Oven",
+        "viability": "Troll",
+
+        "character_1": {
+            "name": "Tartaglia",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Thoma",
+            "build": "EM"
+        },
+        "character_3": {
+            "name": "Baizhu",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Kaeya", "Rosaria", "Diona", "Layla", "Ganyu"],
+            "build": ["Standard", "Standard", "Standard", "Standard", "Ultimate"]
+        }
+    },
+
+    "9": {
+        "name": "Childe Thoma Curry",
+        "description": "Tartaglia is good in Burgeon and similars due to AoE Hydro application. Fischl or Beidou provides Electro reactions without triggering the bloom.",
+        "rotation": "",
+        "archetype": "Curry",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Tartaglia",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Thoma",
+            "build": "EM"
+        },
+        "character_3": {
+            "name": "Nahida",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Fisch", "Beidou"],
+            "build": ["Standard", "Standard"]
+        }
+    },
+
+    "9": {
+        "name": "Childe Thoma Curry",
+        "description": "Tartaglia is good in Burgeon and similars due to AoE Hydro application. Shinobu or Raiden can do hyperbloom to do both reactions.",
+        "rotation": "",
+        "archetype": "Curry",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Tartaglia",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Thoma",
+            "build": "EM"
+        },
+        "character_3": {
+            "name": "Nahida",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Kuki Shinobu", "Raiden Shogun"],
+            "build": ["Standard", "EM"]
+        }
+    },
+
+    "9": {
+        "name": "Childe Thoma Curry",
+        "description": "Tartaglia is good in Burgeon and similars due to AoE Hydro application. Fischl or Beidou provides Electro reactions without triggering the bloom.",
+        "rotation": "",
+        "archetype": "Curry",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Tartaglia",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Thoma",
+            "build": "EM"
+        },
+        "character_3": {
+            "name": "Aether",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Fisch", "Beidou"],
+            "build": ["Standard", "Standard"]
+        }
+    },
+
+    "9": {
+        "name": "Childe Thoma Curry",
+        "description": "Tartaglia is good in Burgeon and similars due to AoE Hydro application. Shinobu or Raiden can do hyperbloom to do both reactions.",
+        "rotation": "",
+        "archetype": "Curry",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Tartaglia",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Thoma",
+            "build": "EM"
+        },
+        "character_3": {
+            "name": "Aether",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Kuki Shinobu", "Raiden Shogun"],
+            "build": ["Standard", "EM"]
+        }
+    },
+
+    //   "10": {
+    //       "name": "Childe Hyperbloom",
+    //       "description": "Tartaglia can be used in Hyperbloom but is not his best team because of E cds.",
+    //       "rotation": "",
+    //       "archetype": "Hyperbloom",
+    //       "viability": "Troll",
+
+    // Falta  Childe Hyperbloom, Quickbloom, Hyperfridge, inserte carita payasito
 }
 
-//"7": {
+//"1": {
 //    "name": "",
 //    "description": "",
 //    "rotation": "",
@@ -467,7 +849,7 @@ const teams = {
 //        "build": "Standard"
 //    },
 //    "character_4": {
-//        "name": "",
-//        "build": "Standard"
+//        "name": ["char"],
+//        "build": ["Standard"]
 //    }
 //},

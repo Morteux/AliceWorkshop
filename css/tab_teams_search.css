@@ -56,9 +56,11 @@
 
 .result_container {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    /* flex-direction: column; */
+    align-items: flex-start;
     justify-content: center;
+
+    flex-wrap: wrap;
 }
 
 .team_container {
@@ -67,19 +69,96 @@
     align-items: center;
     justify-content: center;
 
-    background: #0b7dda;
-    border: 2px solid black;
-    border-radius: 5%;
+    border-radius: 3%;
+    margin: 1vh;
+
+    width: 40%;
+}
+
+.viability_meta {
+    background-color: red;
+}
+
+.viability_viable {
+    background-color: blue;
+}
+
+.viability_troll {
+    background-color: green;
+}
+
+.viability_unique {
+    background-color: orange;
+}
+
+.viability_meta_illuminated {
+    background-color: rgb(255, 90, 90);
+}
+
+.viability_viable_illuminated {
+    background-color: rgb(96, 96, 255);
+}
+
+.viability_troll_illuminated {
+    background-color: rgb(58, 146, 58);
+}
+
+.viability_unique_illuminated {
+    background-color: rgb(255, 199, 95);
+}
+
+.toolbox_container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+
+    width: 100%;
+}
+
+.fav_button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.fav_button > img{
+    padding-top: 0.5vh;
+    padding-right: 1vh;
+
+    width: 3vh;
+    filter: invert(96%) sepia(49%) saturate(5134%) hue-rotate(312deg) brightness(102%) contrast(101%);
+}
+
+.fav_button > img:hover{
+    filter: invert(96%) sepia(49%) saturate(5134%) hue-rotate(312deg) brightness(102%) contrast(101%) drop-shadow(0 0 0.75rem orange);
+}
+
+.team_name_container, .team_rotation_container, .team_archetype_container, .team_desc_container {
+    font-family: GenshinImpact;
+    font-size: 1.5vh;
+
+    padding: 0.5vh;
+
+    padding-left: 2vh;
+    padding-right: 2vh;
+}
+
+.team_name_container, .team_rotation_container, .team_archetype_container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+    font-weight: bold;
 }
 
 .team_name_container {
-    font-size: 3vh;
-    font-family: GenshinImpact;
+    font-size: 2.5vh;
 }
 
 .team_desc_container {
-    font-size: 1.5vh;
-    font-family: GenshinImpact;
+    padding-bottom: 2vh;
 }
 
 /* Character style */
@@ -119,12 +198,11 @@
     border-top-right-radius: 8%;
     border-bottom-right-radius: 20%;
 
-    /* background: linear-gradient(to right, transparent 10%, black 100%); */
     background: linear-gradient(to bottom right, transparent 50%, black 100%);
 }
 
 .character_4_stars {
-    background-color: blueviolet;
+    background-color: rgb(92, 35, 145);
 }
 
 .character_5_stars {
@@ -180,8 +258,19 @@
 
     color: rgb(49, 49, 49);
     font-weight: bold;
-    font-size: 1.1vh;
     font-family: GenshinImpact;
 
     padding: 1vh;
+}
+
+.character_name_short {
+    font-size: 1.5vh;
+}
+
+.character_name_medium {
+    font-size: 1.1vh;
+}
+
+.character_name_long {
+    font-size: 0.95vh;
 }
