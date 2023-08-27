@@ -1,10 +1,28 @@
 :root {
-    --primary_color: #3552a1;
-    --secondary_color: #4666b9;
-    --secondary_color_transparency: rgba(70, 102, 185, 0.5);
-    --behind: rgb(255, 62, 62);
+    --primary_color: #352F44;
+    --secondary_color: #5C5470;
+    --tertiary_color: #B9B4C7;
+    --quaternary_color: #FAF0E6;
 
-    --primary_color_dark: rgba(18, 18, 18, 255);
+    /* Teams colors */
+    --meta_team: rgb(220, 20, 20);
+    --viable_team: rgb(0, 192, 226);
+    --troll_team: rgb(177, 197, 27);
+    --unique_team: rgb(255, 103, 1);
+    
+    /* Teams collapsible colors */
+    --meta_collapsible_team: rgb(238, 79, 79);
+    --viable_collapsible_team: rgb(90, 203, 223);
+    --troll_collapsible_team: rgb(179, 192, 78);
+    --unique_collapsible_team: rgb(255, 150, 80);
+
+    /* Text color */
+    --ligth_text: blanchedalmond;
+    --dark_text:gray;
+
+    /* Character rarity */
+    --character_4_stars: rgb(92, 35, 145);
+    --character_5_stars: rgb(160, 122, 27);
 }
 
 @font-face {
@@ -31,11 +49,7 @@ body {
     padding: 0;
     margin: 0;
 
-    /* background-image: url('../images/alice.png');
-    background-size: cover;
-    background-repeat: no-repeat; */
-
-    background-color: rgb(100, 48, 143);
+    background-color: var(--primary_color);
 }
 
 .main {

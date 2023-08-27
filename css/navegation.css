@@ -17,7 +17,7 @@
 }
 
 .active_tab_button {
-    background-color: gray;
+    background-color: var(--secondary_color);
 
     /* border: solid;
     border-color: black;
@@ -27,7 +27,7 @@
 }
 
 .disabled_tab_button {
-    background-color: gainsboro;
+    background-color: var(--tertiary_color);
 
     /* border: solid;
     border-color: black;
@@ -37,5 +37,5 @@
 }
 
 .disabled_tab_button:hover {
-    background-color: gray;
+    background-color: var(--secondary_color);
 }
