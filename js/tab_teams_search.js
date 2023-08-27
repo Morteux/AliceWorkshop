@@ -23,7 +23,7 @@ function getTeamsByTextInput() {
     for (let team_index in teams) {
         if (search_form_text_input.length != 0 && teams[team_index].name.toUpperCase().includes(search_form_text_input.toUpperCase())) {
             // console.log("Coincidence for: " + teams[team_index].name);
-            teams_search_matches.push(teams[team_index]);
+            teams_search_matches[team_index] = teams[team_index];
         }
     }}
     else {

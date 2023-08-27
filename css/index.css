@@ -51,6 +51,9 @@ body {
     align-items: center;
     justify-content: center;
 
+    margin-top: 2vh;
+    margin-bottom: 3vh;
+
     width: 100%;
     min-height: 100%;
 
