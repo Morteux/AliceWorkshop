@@ -120,6 +120,10 @@
     width: 100%;
 }
 
+.team_id {
+    color: rgb(49, 49, 49);
+}
+
 .fav_button {
     background-color: transparent;
     border: none;

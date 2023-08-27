@@ -53,6 +53,10 @@ function printTeams() {
             <div id="team_container" class="team_container viability_` + teams_search_matches[team_index].viability.toLowerCase() + `">
 
                 <div id="toolbox_container" class="toolbox_container">
+                    <div id="team_id" class="team_id">
+                        #` + team_index + `
+                    </div>
+
                     <button class="fav_button" onclick="toggleFavorite(this)">
                         <img class="empty" src="images/star_empty.png">
                     </button>
@@ -99,6 +103,7 @@ function getCharacterHTML(id, character_team, character_data) {
     // console.log(id);
     // console.log(character_team);
     // console.log(character_data);
+
     return `
     <div id="` + id + `" class="character_container ` + character_data.name.replaceAll(" ", "_") + `">
         <img class="character_icon ` + (character_data.rarity == "5" ? "character_5_stars" : "character_4_stars") + `" src="https://api.ambr.top/assets/UI/` + character_data.images.nameicon + `.png" alt="Character icon for ` + character_data.name + `">
