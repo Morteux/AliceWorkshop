@@ -1211,7 +1211,7 @@ const teams = {
         },
         "character_2": {
             "name": "Dori",
-            "build": "EM"
+            "build": "Standard"
         },
         "character_3": {
             "name": "Nahida",
@@ -1236,7 +1236,7 @@ const teams = {
         },
         "character_2": {
             "name": "Dori",
-            "build": "EM"
+            "build": "Standard"
         },
         "character_3": {
             "name": "Aether",
@@ -1261,7 +1261,7 @@ const teams = {
         },
         "character_2": {
             "name": "Dori",
-            "build": "EM"
+            "build": "Standard"
         },
         "character_3": {
             "name": "YaoYao",
@@ -1286,7 +1286,7 @@ const teams = {
         },
         "character_2": {
             "name": "Dori",
-            "build": "EM"
+            "build": "Standard"
         },
         "character_3": {
             "name": "Baizhu",
