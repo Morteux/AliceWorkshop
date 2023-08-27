@@ -19,7 +19,7 @@ body {
     width: 100%;
     height: 100%;
 
-    font-family: Verdana;
+    font-family: GenshinImpact;
 
     scroll-behavior: smooth;
 }
@@ -31,9 +31,11 @@ body {
     padding: 0;
     margin: 0;
 
-    background-image: url('../images/alice.png');
+    /* background-image: url('../images/alice.png');
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
+
+    background-color: rgb(100, 48, 143);
 }
 
 .main {
