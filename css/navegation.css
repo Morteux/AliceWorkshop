@@ -18,22 +18,10 @@
 
 .active_tab_button {
     background-color: var(--secondary_color);
-
-    /* border: solid;
-    border-color: black;
-    border-top: 2px;
-    border-left: 2px;
-    border-right: 2px; */
 }
 
 .disabled_tab_button {
     background-color: var(--tertiary_color);
-
-    /* border: solid;
-    border-color: black;
-    border-bottom: 2px;
-    border-left: 0px;
-    border-right: 0px; */
 }
 
 .disabled_tab_button:hover {
