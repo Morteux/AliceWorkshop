@@ -19,7 +19,7 @@
 
 .active,
 .collapsible:hover {
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: var(--shadow_background);
     border-bottom-left-radius: 3%;
     border-bottom-right-radius: 3%;
 }

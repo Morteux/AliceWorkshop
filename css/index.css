@@ -1,28 +1,36 @@
 :root {
-    --primary_color: #352F44;
-    --secondary_color: #5C5470;
-    --tertiary_color: #B9B4C7;
-    --quaternary_color: #FAF0E6;
+    --primary_color: #352f44;
+    --secondary_color: #5c5470;
+    --tertiary_color: #b9b4c7;
+    --quaternary_color: #faf0e6;
 
     /* Teams colors */
-    --meta_team: rgb(220, 20, 20);
-    --viable_team: rgb(0, 192, 226);
-    --troll_team: rgb(177, 197, 27);
-    --unique_team: rgb(255, 103, 1);
+    --meta_team: #dc1414;
+    --viable_team: #00c0e2;
+    --troll_team: #b1c51b;
+    --unique_team: #ff6701;
     
     /* Teams collapsible colors */
-    --meta_collapsible_team: rgb(238, 79, 79);
-    --viable_collapsible_team: rgb(90, 203, 223);
-    --troll_collapsible_team: rgb(179, 192, 78);
-    --unique_collapsible_team: rgb(255, 150, 80);
+    --meta_collapsible_team: #ee4f4f;
+    --viable_collapsible_team: #5acbdf;
+    --troll_collapsible_team: #b3c04e;
+    --unique_collapsible_team: #ff9650;
 
     /* Text color */
-    --ligth_text: blanchedalmond;
-    --dark_text:gray;
+    --light_text: aliceblue; /* aliceblue blanchedalmond*/
+    --dark_text:#313131;
 
     /* Character rarity */
-    --character_4_stars: rgb(92, 35, 145);
-    --character_5_stars: rgb(160, 122, 27);
+    --character_4_stars: #5c2391;
+    --character_5_stars: #a07a1b;
+
+    /* Background */
+    --dark_background: #313131;
+    --shadow_background: rgba(0, 0, 0, 0.4);
+    --light_background: blanchedalmond;
+
+    /* Extra */
+    --star_shadow: #e3721b;
 }
 
 @font-face {
