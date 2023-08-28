@@ -508,6 +508,28 @@ const builds = {
                 "Circlet": "",
             },
             "subs_stat": ["", "", "", ""]
+        },
+        "Monopyro": {
+            "constellation": "",
+            "weapon": "",
+            "set": "Lavawalker",
+            "main_stat": {
+                "Sands": "",
+                "Goblet": "",
+                "Circlet": "",
+            },
+            "subs_stat": ["", "", "", ""]
+        },
+        "Burger": {
+            "constellation": "",
+            "weapon": "Sacrificial Fragments",
+            "set": "Gilded Dreams or Flower of Paradise Lost",
+            "main_stat": {
+                "Sands": "EM",
+                "Goblet": "EM",
+                "Circlet": "EM",
+            },
+            "subs_stat": ["EM", "", "", ""]
         }
     },
     "Kujou Sara": {
@@ -1052,6 +1074,17 @@ const builds = {
             "constellation": "",
             "weapon": "",
             "set": "",
+            "main_stat": {
+                "Sands": "",
+                "Goblet": "",
+                "Circlet": "",
+            },
+            "subs_stat": ["", "", "", ""]
+        },
+        "Petra": {
+            "constellation": "",
+            "weapon": "",
+            "set": "Archaic Petra",
             "main_stat": {
                 "Sands": "",
                 "Goblet": "",
