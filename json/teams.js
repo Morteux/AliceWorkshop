@@ -126,7 +126,7 @@ const teams = {
 
     "6": {
         "name": "Childe National",
-        "description": "An National variation that uses Childe and Albedo",
+        "description": "An National variation that uses Childe and geo.",
         "rotation": "",
         "archetype": "National",
         "viability": "Viable",
@@ -136,7 +136,7 @@ const teams = {
             "build": "Standard"
         },
         "character_2": {
-            "name": "Albedo",
+            "name": "Bennett",
             "build": "Standard"
         },
         "character_3": {
@@ -144,8 +144,8 @@ const teams = {
             "build": "Standard"
         },
         "character_4": {
-            "name": ["Bennett"],
-            "build": ["Standard"]
+            "name": ["Albedo", "Zhongli"],
+            "build": ["Standard", "Standard"]
         }
     },
 
@@ -153,7 +153,7 @@ const teams = {
         "name": "Intergrational",
         "description": "International team but swapping Xiangling with Nahida",
         "rotation": "E (+ Q) Nahida > E + Q Bennett > E + Q Kazuha > E + Q Childe 2NA+CA (2-3 times)",
-        "archetype": "Burgeon",
+        "archetype": "Sauté",
         "viability": "Meta",
 
         "character_1": {
@@ -175,10 +175,10 @@ const teams = {
     },
 
     "8": {
-        "name": "Intergrational 2",
+        "name": "Intergrational",
         "description": "A variant of Intergrational, using Xiangling instead of Kazuha. Less seeds due to pyro aplication and burn",
         "rotation": "",
-        "archetype": "",
+        "archetype": "Burgeon",
         "viability": "Viable",
 
         "character_1": {
@@ -251,7 +251,7 @@ const teams = {
     "11": {
         "name": "Freeze childe",
         "description": "Fast rotations",
-        "rotation": "Kaeya E > Tartaglia E+1NA > Kazuha Q + hold E > Kaeya Q > Ayaka Dash + CA + E + Q > Tartaglia Q + E",
+        "rotation": "Cryo E > Tartaglia E+1NA > Kazuha Q + hold E > Cryo (E)+Q > Ayaka Dash + CA + E + Q > Tartaglia Q + E + NA",
         "archetype": "Freeze",
         "viability": "troll",
 
@@ -260,68 +260,19 @@ const teams = {
             "build": "Standard"
         },
         "character_2": {
-            "name": "Kaeya",
-            "build": "Standard"
-        },
-        "character_3": {
             "name": "Kamisato Ayaka",
             "build": "Standard"
         },
-        "character_4": {
-            "name": ["Kaedehara Kazuha"],
-            "build": ["Standard"]
-        }
-    },
-
-    "12": {
-        "name": "Freeze childe",
-        "description": "Fast rotations",
-        "rotation": "Rosaria E > Tartaglia E+1NA > Kazuha Q + hold E > Rosaria Q > Ayaka Dash + CA + E + Q > Tartaglia Q + E",
-        "archetype": "Freeze",
-        "viability": "troll",
-
-        "character_1": {
-            "name": "Tartaglia",
-            "build": "Standard"
-        },
-        "character_2": {
-            "name": "Rosaria",
-            "build": "Standard"
-        },
         "character_3": {
-            "name": "Kamisato Ayaka",
+            "name": "Kaedehara Kazuha",
             "build": "Standard"
         },
         "character_4": {
-            "name": ["Kaedehara Kazuha"],
-            "build": ["Standard"]
+            "name": ["Kaeya", "Rosaria", "Diona"],
+            "build": ["Standard","Standard","Standard"]
         }
     },
 
-    "13": {
-        "name": "Freeze childe",
-        "description": "Fast rotations",
-        "rotation": "Diona E+Q > Tartaglia E+1NA > Kazuha Q + hold E  > Ayaka Dash + CA + E + Q > Tartaglia Q + E",
-        "archetype": "Freeze",
-        "viability": "troll",
-
-        "character_1": {
-            "name": "Tartaglia",
-            "build": "Standard"
-        },
-        "character_2": {
-            "name": "Diona",
-            "build": "Standard"
-        },
-        "character_3": {
-            "name": "Kamisato Ayaka",
-            "build": "Standard"
-        },
-        "character_4": {
-            "name": ["Kaedehara Kazuha"],
-            "build": ["Standard"]
-        }
-    },
 
     "14": {
         "name": "Tartaglia MonoHydro",
@@ -372,30 +323,6 @@ const teams = {
         }
     },
 
-    "16": {
-        "name": "Tartaglia MonoHydro",
-        "description": "",
-        "archetype": "MonoHydro",
-        "viability": "troll",
-
-        "character_1": {
-            "name": "Tartaglia",
-            "build": "Standard"
-        },
-        "character_2": {
-            "name": "Xingqiu",
-            "build": "Standard"
-        },
-        "character_3": {
-            "name": "Sangonomiya Kokomi",
-            "build": "Standard"
-        },
-        "character_4": {
-            "name": ["Kaedehara Kazuha"],
-            "build": ["Standard"]
-        }
-    },
-
     "17": {
         "name": "Tartaglia MonoHydro",
         "description": "",
@@ -411,12 +338,12 @@ const teams = {
             "build": "Standard"
         },
         "character_3": {
-            "name": "Yelan",
+            "name": "Kaedehara Kazuha",
             "build": "Standard"
         },
         "character_4": {
-            "name": ["Kaedehara Kazuha"],
-            "build": ["Standard"]
+            "name": ["Yelan", "Xingqiu"],
+            "build": ["Standard", "Standard"]
         }
     },
 
@@ -549,7 +476,7 @@ const teams = {
         "description": "Tartaglia is good in Burgeon and similars due to AoE Hydro application. You can add an Anemo unit to group and have VV and more AoE.",
         "rotation": "",
         "archetype": "Burgeon",
-        "viability": "Viable",
+        "viability": "Meta",
 
         "character_1": {
             "name": "Tartaglia",
@@ -564,8 +491,8 @@ const teams = {
             "build": "Standard"
         },
         "character_4": {
-            "name": ["Lynette", "Venti", "Sucrose", "Kaedehara Kazuha"],
-            "build": ["Standard", "Standard", "Standard", "Standard", "Standard"]
+            "name": ["Sucrose", "Kaedehara Kazuha"],
+            "build": ["Standard", "Standard"]
         }
     },
 
@@ -574,7 +501,7 @@ const teams = {
         "description": "Tartaglia is good in Burgeon and similars due to AoE Hydro application. You can add an Anemo unit to group and have VV and more AoE.",
         "rotation": "",
         "archetype": "Burgeon",
-        "viability": "Viable",
+        "viability": "Meta",
 
         "character_1": {
             "name": "Tartaglia",
@@ -589,10 +516,11 @@ const teams = {
             "build": "Dendro"
         },
         "character_4": {
-            "name": ["Lynette", "Venti", "Sucrose", "Kaedehara Kazuha"],
-            "build": ["Standard", "Standard", "Standard", "Standard"]
+            "name": ["Sucrose", "Kaedehara Kazuha"],
+            "build": ["Standard", "Standard"]
         }
     },
+    
 
     "25": {
         "name": "Childe Thoma Burgeon",
@@ -624,7 +552,7 @@ const teams = {
         "description": "Tartaglia is good in Burgeon and similars due to AoE Hydro application. Add a cryo to have more seeds.",
         "rotation": "",
         "archetype": "Oven",
-        "viability": "Meta",
+        "viability": "Viable",
 
         "character_1": {
             "name": "Tartaglia",
@@ -671,7 +599,7 @@ const teams = {
 
     "28": {
         "name": "Childe Thoma Oven",
-        "description": "Tartaglia is good in Burgeon and similars due to AoE Hydro application. Add a cryo to have more seeds. Yao Yao could not have enough AoE dendro aplication for Burgeon",
+        "description": "Tartaglia is good in Burgeon and similars due to AoE Hydro application. Add a cryo to have more seeds. Yaoyao could not have enough AoE dendro aplication for Burgeon",
         "rotation": "",
         "archetype": "Oven",
         "viability": "Troll",
@@ -721,7 +649,7 @@ const teams = {
 
     "30": {
         "name": "Childe Thoma Curry",
-        "description": "Tartaglia is good in Burgeon and similars due to AoE Hydro application. Fischl or Beidou provides Electro reactions without triggering the bloom.",
+        "description": "Tartaglia is good in Burgeon and similars due to AoE Hydro application. Fischl, Beidou or similars provides Electro reactions without triggering the bloom.",
         "rotation": "",
         "archetype": "Curry",
         "viability": "Viable",
@@ -739,17 +667,17 @@ const teams = {
             "build": "Standard"
         },
         "character_4": {
-            "name": ["Fischl", "Beidou"],
-            "build": ["Standard", "Standard"]
+            "name": ["Fischl", "Beidou", "Yae Miko"],
+            "build": ["Standard", "SoloElectro", "SoloElectro"]
         }
     },
 
     "31": {
         "name": "Childe Thoma Curry",
-        "description": "Tartaglia is good in Burgeon and similars due to AoE Hydro application. Shinobu or Raiden can do hyperbloom to do both reactions.",
+        "description": "Tartaglia is good in Burgeon and similars due to AoE Hydro application. Shinobu, Raiden or similars can do hyperbloom to do both reactions.",
         "rotation": "",
         "archetype": "Curry",
-        "viability": "Viable",
+        "viability": "Troll",
 
         "character_1": {
             "name": "Tartaglia",
@@ -764,14 +692,14 @@ const teams = {
             "build": "Standard"
         },
         "character_4": {
-            "name": ["Kuki Shinobu", "Raiden Shogun"],
-            "build": ["Standard", "EM"]
+            "name": ["Kuki Shinobu", "Raiden Shogun", "Dori"],
+            "build": ["Standard", "EM", "EM"]
         }
     },
 
     "32": {
         "name": "Childe Thoma Curry",
-        "description": "Tartaglia is good in Burgeon and similars due to AoE Hydro application. Fischl or Beidou provides Electro reactions without triggering the bloom.",
+        "description": "Tartaglia is good in Burgeon and similars due to AoE Hydro application. Fischl, Beidou or similars provides Electro reactions without triggering the bloom.",
         "rotation": "",
         "archetype": "Curry",
         "viability": "Viable",
@@ -789,17 +717,17 @@ const teams = {
             "build": "Standard"
         },
         "character_4": {
-            "name": ["Fischl", "Beidou"],
-            "build": ["Standard", "Standard"]
+            "name": ["Fischl", "Beidou", "Yae Miko"],
+            "build": ["Standard", "SoloElectro", "SoloElectro"]
         }
     },
 
     "33": {
         "name": "Childe Thoma Curry",
-        "description": "Tartaglia is good in Burgeon and similars due to AoE Hydro application. Shinobu or Raiden can do hyperbloom to do both reactions.",
+        "description": "Tartaglia is good in Burgeon and similars due to AoE Hydro application. Shinobu, Raiden or similars can do hyperbloom to do both reactions.",
         "rotation": "",
         "archetype": "Curry",
-        "viability": "Viable",
+        "viability": "Troll",
 
         "character_1": {
             "name": "Tartaglia",
@@ -814,19 +742,562 @@ const teams = {
             "build": "Standard"
         },
         "character_4": {
-            "name": ["Kuki Shinobu", "Raiden Shogun"],
-            "build": ["Standard", "EM"]
+            "name": ["Kuki Shinobu", "Raiden Shogun", "Dori"],
+            "build": ["Standard", "EM", "EM"]
         }
     },
 
-    //   "34": {
-    //       "name": "Childe Hyperbloom",
-    //       "description": "Tartaglia can be used in Hyperbloom but is not his best team because of E cds.",
-    //       "rotation": "",
-    //       "archetype": "Hyperbloom",
-    //       "viability": "Troll",
+    "34": {
+        "name": "OverVape Tartaglia",
+        "description": "",
+        "rotation": "",
+        "archetype": "Overvape",
+        "viability": "Viable",
+    
+        "character_1": {
+            "name": "Tartaglia",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Fischl",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Xiangling",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Bennett"],
+            "build": ["Standard"]
+        }
+    },
 
-    // Falta  Childe Hyperbloom, Quickbloom, Hyperfridge, inserte carita payasito
+    "12": {
+        "name": "Tartaglia Sunfire Burgeon",
+        "description": "",
+        "rotation": "",
+        "archetype": "Sauté",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Tartaglia",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Jean",
+            "build": "EM"
+        },
+        "character_3": {
+            "name": "Bennett",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Nahida", "Aether"],
+            "build": ["Standard", "Standard"]
+        }
+    },
+
+    "13": {
+        "name": "Intergrational",
+        "description": "International team but swapping Xiangling with Dendro MC. Be Carefull to waste MC ultimates with pyro.",
+        "rotation": "E Childe > E + Q Dendro MC > E + Q Bennett > E + Q Kazuha > E + Q Childe 2NA+CA (2-3 times)",
+        "archetype": "Sauté",
+        "viability": "Troll",
+
+        "character_1": {
+            "name": "Tartaglia",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Kaedehara Kazuha",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Aether",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Bennett"],
+            "build": ["Standard"]
+        }
+    },
+
+    "16": {
+        "name": "Tartaglia Unique",
+        "description": "15 seconds rotations",
+        "rotation": "E Tartaglia > Q Bennett > Hold E Kazuha + Q > Q Fischl > E Bennett > Q Tartaglia + E + NA  ",
+        "archetype": "Overvape",
+        "viability": "Unique",
+    
+        "character_1": {
+            "name": "Tartaglia",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Bennett",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Kaedehara Kazuha",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Fischl"],
+            "build": ["Standard"]
+        }
+    },
+
+
+    "36": {
+        "name": "Childe Hyperbloom",
+        "description": "Tartaglia can be used in Hyperbloom but there are better hydros because of E cds. Shinobu is the more popular option to trigger bloom for comfort and healing, but other options like raiden may have more speed.",
+        "rotation": "",
+        "archetype": "Hyperbloom",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Tartaglia",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Kuki Shinobu",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Nahida",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Xingqiu", "Yelan", "Collei", "Aether", "Kaedehara Kazuha", "Sucrose", "Beidou", "Fischl", "Yae Miko"],
+            "build": ["Standard","Standard","Standard","Standard","Standard","Standard","Standard","Standard","Standard"]
+        }
+    },
+
+    "37": {
+        "name": "Childe Hyperbloom",
+        "description": "Tartaglia can be used in Hyperbloom but there are better hydros because of E cds. With Dendro MC as main dendro applier, you need a second one to rivalise with childe hydro aplication. Shinobu is the more popular option to trigger bloom for comfort and healing, but other options like raiden may have more speed.",
+        "rotation": "",
+        "archetype": "Hyperbloom",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Tartaglia",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Kuki Shinobu",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Aether",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Collei", "Yaoyao", "Baizhu"],
+            "build": ["Standard","Standard","Standard"]
+        }
+    },
+
+    "38": {
+        "name": "Childe Hyperbloom",
+        "description": "Tartaglia can be used in Hyperbloom but there are better hydros because of E cds. Raiden has more speed triggering bloom than Kuki in exchange of heal.",
+        "rotation": "",
+        "archetype": "Hyperbloom",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Tartaglia",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Raiden Shogun",
+            "build": "EM"
+        },
+        "character_3": {
+            "name": "Nahida",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Xingqiu", "Yelan", "Collei", "Aether", "Kaedehara Kazuha", "Sucrose", "Beidou", "Fischl", "Yae Miko", "Yaoyao", "Baizhu", "Sangonomiya Kokomi"],
+            "build": ["Standard","Standard","Standard","Standard","Standard","Standard","Standard","Standard","Standard","Standard","Standard","Standard"]
+        }
+    },
+
+    "39": {
+        "name": "Childe Hyperbloom",
+        "description": "Tartaglia can be used in Hyperbloom but there are better hydros because of E cds. With Dendro MC as main dendro applier, you need a second one to rivalise with childe hydro aplication. Raiden has more speed triggering bloom than Kuki in exchange of heal.",
+        "rotation": "",
+        "archetype": "Hyperbloom",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Tartaglia",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Raiden Shogun",
+            "build": "EM"
+        },
+        "character_3": {
+            "name": "Aether",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Collei", "Yaoyao", "Baizhu"],
+            "build": ["Standard","Standard","Standard"]
+        }
+    },
+
+    "40": {
+        "name": "Childe Hyperbloom",
+        "description": "Dori could be take as a joke, but actually she is the only unit that can be speed enought to trigger bloom with Nahida and Tartaglia. Huge frontloaded damage.",
+        "rotation": "",
+        "archetype": "Hyperbloom",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Tartaglia",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Dori",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Nahida",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Xingqiu", "Yelan", "Collei", "Aether", "Kaedehara Kazuha", "Sucrose", "Beidou", "Fischl", "Yae Miko"],
+            "build": ["Standard","Standard","Standard","Standard","Standard","Standard","Standard","Standard","Standard"]
+        }
+    },
+
+    "41": {
+        "name": "Childe Hyperbloom",
+        "description": "",
+        "rotation": "",
+        "archetype": "Hyperbloom",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Tartaglia",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Dori",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Aether",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Collei", "Yaoyao", "Baizhu"],
+            "build": ["Standard","Standard","Standard"]
+        }
+    },
+
+    "42": {
+        "name": "Childe HyperFridge",
+        "description": "Tartaglia can be used in HyperFridge but there are better hydros because of E cds. Shinobu is the more popular option to trigger bloom for comfort and healing, but other options like raiden may have more speed.",
+        "rotation": "",
+        "archetype": "HyperFridge",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Tartaglia",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Kuki Shinobu",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Nahida",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Kaeya", "Rosaria", "Ganyu", "Layla", "Diona"],
+            "build": ["Standard","Standard","Ultimate","Standard","Standard"]
+        }
+    },
+
+    "43": {
+        "name": "Childe HyperFridge",
+        "description": "Tartaglia can be used in HyperFridge but there are better hydros because of E cds. With Dendro MC as main dendro applier, a cryo character can help you create seeds in order to rivalise with childe hydro aplication. Shinobu is the more popular option to trigger bloom for comfort and healing, but other options like raiden may have more speed.",
+        "rotation": "",
+        "archetype": "HyperFridge",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Tartaglia",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Kuki Shinobu",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Aether",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Kaeya", "Rosaria", "Ganyu", "Layla", "Diona"],
+            "build": ["Standard","Standard","Ultimate","Standard","Standard"]
+        }
+    },
+
+    "44": {
+        "name": "Childe HyperFridge",
+        "description": "Tartaglia can be used in HyperFridge but there are better hydros because of E cds. With Yaoyao as main dendro applier, a cryo character can help you create seeds in order to rivalise with childe hydro aplication. Shinobu is the more popular option to trigger bloom for comfort and healing, but other options like raiden may have more speed.",
+        "rotation": "",
+        "archetype": "HyperFridge",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Tartaglia",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Kuki Shinobu",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Yaoyao",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Kaeya", "Rosaria", "Ganyu", "Layla"],
+            "build": ["Standard","Standard","Ultimate","Standard"]
+        }
+    },
+
+    "45": {
+        "name": "Childe HyperFridge",
+        "description": "Tartaglia can be used in HyperFridge but there are better hydros because of E cds. With Baizhu as main dendro applier, a cryo character can help you create seeds in order to rivalise with childe hydro aplication. Shinobu is the more popular option to trigger bloom for comfort and healing, but other options like raiden may have more speed.",
+        "rotation": "",
+        "archetype": "HyperFridge",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Tartaglia",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Kuki Shinobu",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Baizhu",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Kaeya", "Rosaria", "Ganyu"],
+            "build": ["Standard","Standard","Ultimate"]
+        }
+    },
+
+    "46": {
+        "name": "Childe HyperFridge",
+        "description": "Tartaglia can be used in HyperFridge but there are better hydros because of E cds. Shinobu is the more popular option to trigger bloom for comfort and healing, but other options like raiden may have more speed.",
+        "rotation": "",
+        "archetype": "HyperFridge",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Tartaglia",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Raiden Shogun",
+            "build": "EM"
+        },
+        "character_3": {
+            "name": "Nahida",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Kaeya", "Rosaria", "Ganyu", "Layla", "Diona"],
+            "build": ["Standard","Standard","Ultimate","Standard","Standard"]
+        }
+    },
+
+    "47": {
+        "name": "Childe HyperFridge",
+        "description": "Tartaglia can be used in HyperFridge but there are better hydros because of E cds. With Dendro MC as main dendro applier, a cryo character can help you create seeds in order to rivalise with childe hydro aplication. Raiden has more speed triggering bloom than Kuki in exchange of heal.",
+        "rotation": "",
+        "archetype": "HyperFridge",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Tartaglia",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Raiden Shogun",
+            "build": "EM"
+        },
+        "character_3": {
+            "name": "Aether",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Kaeya", "Rosaria", "Ganyu", "Layla", "Diona"],
+            "build": ["Standard","Standard","Ultimate","Standard","Standard"]
+        }
+    },
+
+    "48": {
+        "name": "Childe HyperFridge",
+        "description": "Tartaglia can be used in HyperFridge but there are better hydros because of E cds. With Yaoyao as main dendro applier, a cryo character can help you create seeds in order to rivalise with childe hydro aplication. Raiden has more speed triggering bloom than Kuki in exchange of heal.",
+        "rotation": "",
+        "archetype": "HyperFridge",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Tartaglia",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Raiden Shogun",
+            "build": "EM"
+        },
+        "character_3": {
+            "name": "Yaoyao",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Kaeya", "Rosaria", "Ganyu", "Layla"],
+            "build": ["Standard","Standard","Ultimate","Standard"]
+        }
+    },
+
+    "49": {
+        "name": "Childe HyperFridge",
+        "description": "Tartaglia can be used in HyperFridge but there are better hydros because of E cds. With Baizhu as main dendro applier, a cryo character can help you create seeds in order to rivalise with childe hydro aplication. Raiden has more speed triggering bloom than Kuki in exchange of heal.",
+        "rotation": "",
+        "archetype": "HyperFridge",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Tartaglia",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Raiden Shogun",
+            "build": "EM"
+        },
+        "character_3": {
+            "name": "Baizhu",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Kaeya", "Rosaria", "Ganyu"],
+            "build": ["Standard","Standard","Ultimate"]
+        }
+    },
+
+    "50": {
+        "name": "Childe HyperFridge",
+        "description": "Tartaglia can be used in HyperFridge but there are better hydros because of E cds. ",
+        "rotation": "",
+        "archetype": "HyperFridge",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Tartaglia",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Dori",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Nahida",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Kaeya", "Rosaria", "Ganyu", "Layla", "Diona"],
+            "build": ["Standard","Standard","Ultimate","Standard","Standard"]
+        }
+    },
+
+    "51": {
+        "name": "Childe HyperFridge",
+        "description": "Tartaglia can be used in HyperFridge but there are better hydros because of E cds. With Dendro MC as main dendro applier, a cryo character can help you create seeds in order to rivalise with childe hydro aplication. ",
+        "rotation": "",
+        "archetype": "HyperFridge",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Tartaglia",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Dori",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Aether",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Kaeya", "Rosaria", "Ganyu", "Layla", "Diona"],
+            "build": ["Standard","Standard","Ultimate","Standard","Standard"]
+        }
+    },
+
+    "52": {
+        "name": "Childe HyperFridge",
+        "description": "Tartaglia can be used in HyperFridge but there are better hydros because of E cds. With Yaoyao as main dendro applier, a cryo character can help you create seeds in order to rivalise with childe hydro aplication.",
+        "rotation": "",
+        "archetype": "HyperFridge",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Tartaglia",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Dori",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Yaoyao",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Kaeya", "Rosaria", "Ganyu", "Layla"],
+            "build": ["Standard","Standard","Ultimate","Standard"]
+        }
+    },
+
+    "53": {
+        "name": "Childe HyperFridge",
+        "description": "Tartaglia can be used in HyperFridge but there are better hydros because of E cds. With Baizhu as main dendro applier, a cryo character can help you create seeds in order to rivalise with childe hydro aplication.",
+        "rotation": "",
+        "archetype": "HyperFridge",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Tartaglia",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Dori",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Baizhu",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Kaeya", "Rosaria", "Ganyu"],
+            "build": ["Standard","Standard","Ultimate"]
+        }
+    },
+
 }
 
 //"34": {
