@@ -41,7 +41,8 @@ function printTeams() {
     document.getElementById("result_container").innerHTML = "";
 
     for (let team_index in teams_search_matches) {
-        // console.log(teams_search_matches[team_index]);
+        console.log("====================================================================================");
+        console.log(teams_search_matches[team_index]);
 
         for (let character_4_index in teams_search_matches[team_index].character_4.name) {
 
@@ -101,9 +102,9 @@ function printTeams() {
 }
 
 function getCharacterHTML(id, character_team, character_data) {
-    // console.log(id);
-    // console.log(character_team);
-    // console.log(character_data);
+    console.log(id);
+    console.log(character_team);
+    console.log(character_data);
 
     return `
     <div id="` + id + `" class="character_container ` + character_data.name.replaceAll(" ", "_") + `">

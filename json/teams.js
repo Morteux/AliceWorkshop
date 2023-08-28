@@ -136,7 +136,7 @@ const teams = {
             "build": "Standard"
         },
         "character_2": {
-            "name": "Bennet",
+            "name": "Bennett",
             "build": "Standard"
         },
         "character_3": {
@@ -169,7 +169,7 @@ const teams = {
             "build": "Standard"
         },
         "character_4": {
-            "name": ["Bennet"],
+            "name": ["Bennett"],
             "build": ["Standard"]
         }
     },
@@ -342,7 +342,7 @@ const teams = {
             "build": "Standard"
         },
         "character_4": {
-            "name": ["Yelan", "Xingchiu"],
+            "name": ["Yelan", "Xingqiu"],
             "build": ["Standard", "Standard"]
         }
     },
@@ -599,7 +599,7 @@ const teams = {
 
     "28": {
         "name": "Childe Thoma Oven",
-        "description": "Tartaglia is good in Burgeon and similars due to AoE Hydro application. Add a cryo to have more seeds. Yao Yao could not have enough AoE dendro aplication for Burgeon",
+        "description": "Tartaglia is good in Burgeon and similars due to AoE Hydro application. Add a cryo to have more seeds. Yaoyao could not have enough AoE dendro aplication for Burgeon",
         "rotation": "",
         "archetype": "Oven",
         "viability": "Troll",
@@ -767,7 +767,7 @@ const teams = {
             "build": "Standard"
         },
         "character_4": {
-            "name": ["Bennet"],
+            "name": ["Bennett"],
             "build": ["Standard"]
         }
     },
@@ -817,7 +817,7 @@ const teams = {
             "build": "Standard"
         },
         "character_4": {
-            "name": ["Bennet"],
+            "name": ["Bennett"],
             "build": ["Standard"]
         }
     },
@@ -825,7 +825,7 @@ const teams = {
     "16": {
         "name": "Tartaglia Unique",
         "description": "15 seconds rotations",
-        "rotation": "E Tartaglia > Q Bennet > Hold E Kazuha + Q > Q Fischl > E Bennet > Q Tartaglia + E + NA  ",
+        "rotation": "E Tartaglia > Q Bennett > Hold E Kazuha + Q > Q Fischl > E Bennett > Q Tartaglia + E + NA  ",
         "archetype": "Overvape",
         "viability": "Unique",
     
@@ -834,7 +834,7 @@ const teams = {
             "build": "Standard"
         },
         "character_2": {
-            "name": "Bennet",
+            "name": "Bennett",
             "build": "Standard"
         },
         "character_3": {
@@ -860,7 +860,7 @@ const teams = {
             "build": "Standard"
         },
         "character_2": {
-            "name": "Shinobu",
+            "name": "Kuki Shinobu",
             "build": "Standard"
         },
         "character_3": {
@@ -868,7 +868,7 @@ const teams = {
             "build": "Standard"
         },
         "character_4": {
-            "name": ["Xingchiu", "Yelan", "Collei", "Aether", "Kaedehara Kazuha", "Sucrose", "Beidou", "Fischl", "Yae Miko"],
+            "name": ["Xingqiu", "Yelan", "Collei", "Aether", "Kaedehara Kazuha", "Sucrose", "Beidou", "Fischl", "Yae Miko"],
             "build": ["Standard","Standard","Standard","Standard","Standard","Standard","Standard","Standard","Standard"]
         }
     },
@@ -885,7 +885,7 @@ const teams = {
             "build": "Standard"
         },
         "character_2": {
-            "name": "Shinobu",
+            "name": "Kuki Shinobu",
             "build": "Standard"
         },
         "character_3": {
@@ -893,7 +893,7 @@ const teams = {
             "build": "Standard"
         },
         "character_4": {
-            "name": ["Collei", "Yao Yao", "Baizhu"],
+            "name": ["Collei", "Yaoyao", "Baizhu"],
             "build": ["Standard","Standard","Standard"]
         }
     },
@@ -918,7 +918,7 @@ const teams = {
             "build": "Standard"
         },
         "character_4": {
-            "name": ["Xingchiu", "Yelan", "Collei", "Aether", "Kaedehara Kazuha", "Sucrose", "Beidou", "Fischl", "Yae Miko", "Yao Yao", "Baizhu", "Sangonomiya Kokomi"],
+            "name": ["Xingqiu", "Yelan", "Collei", "Aether", "Kaedehara Kazuha", "Sucrose", "Beidou", "Fischl", "Yae Miko", "Yaoyao", "Baizhu", "Sangonomiya Kokomi"],
             "build": ["Standard","Standard","Standard","Standard","Standard","Standard","Standard","Standard","Standard","Standard","Standard","Standard"]
         }
     },
@@ -943,7 +943,7 @@ const teams = {
             "build": "Standard"
         },
         "character_4": {
-            "name": ["Collei", "Yao Yao", "Baizhu"],
+            "name": ["Collei", "Yaoyao", "Baizhu"],
             "build": ["Standard","Standard","Standard"]
         }
     },
@@ -968,7 +968,7 @@ const teams = {
             "build": "Standard"
         },
         "character_4": {
-            "name": ["Xingchiu", "Yelan", "Collei", "Aether", "Kaedehara Kazuha", "Sucrose", "Beidou", "Fischl", "Yae Miko"],
+            "name": ["Xingqiu", "Yelan", "Collei", "Aether", "Kaedehara Kazuha", "Sucrose", "Beidou", "Fischl", "Yae Miko"],
             "build": ["Standard","Standard","Standard","Standard","Standard","Standard","Standard","Standard","Standard"]
         }
     },
@@ -993,7 +993,7 @@ const teams = {
             "build": "Standard"
         },
         "character_4": {
-            "name": ["Collei", "Yao Yao", "Baizhu"],
+            "name": ["Collei", "Yaoyao", "Baizhu"],
             "build": ["Standard","Standard","Standard"]
         }
     },
@@ -1010,7 +1010,7 @@ const teams = {
             "build": "Standard"
         },
         "character_2": {
-            "name": "Shinobu",
+            "name": "Kuki Shinobu",
             "build": "Standard"
         },
         "character_3": {
@@ -1035,7 +1035,7 @@ const teams = {
             "build": "Standard"
         },
         "character_2": {
-            "name": "Shinobu",
+            "name": "Kuki Shinobu",
             "build": "Standard"
         },
         "character_3": {
@@ -1050,7 +1050,7 @@ const teams = {
 
     "44": {
         "name": "Childe HyperFridge",
-        "description": "Tartaglia can be used in HyperFridge but there are better hydros because of E cds. With YaoYao as main dendro applier, a cryo character can help you create seeds in order to rivalise with childe hydro aplication. Shinobu is the more popular option to trigger bloom for comfort and healing, but other options like raiden may have more speed.",
+        "description": "Tartaglia can be used in HyperFridge but there are better hydros because of E cds. With Yaoyao as main dendro applier, a cryo character can help you create seeds in order to rivalise with childe hydro aplication. Shinobu is the more popular option to trigger bloom for comfort and healing, but other options like raiden may have more speed.",
         "rotation": "",
         "archetype": "HyperFridge",
         "viability": "Viable",
@@ -1060,11 +1060,11 @@ const teams = {
             "build": "Standard"
         },
         "character_2": {
-            "name": "Shinobu",
+            "name": "Kuki Shinobu",
             "build": "Standard"
         },
         "character_3": {
-            "name": "YaoYao",
+            "name": "Yaoyao",
             "build": "Standard"
         },
         "character_4": {
@@ -1085,7 +1085,7 @@ const teams = {
             "build": "Standard"
         },
         "character_2": {
-            "name": "Shinobu",
+            "name": "Kuki Shinobu",
             "build": "Standard"
         },
         "character_3": {
@@ -1150,7 +1150,7 @@ const teams = {
 
     "48": {
         "name": "Childe HyperFridge",
-        "description": "Tartaglia can be used in HyperFridge but there are better hydros because of E cds. With YaoYao as main dendro applier, a cryo character can help you create seeds in order to rivalise with childe hydro aplication. Raiden has more speed triggering bloom than Kuki in exchange of heal.",
+        "description": "Tartaglia can be used in HyperFridge but there are better hydros because of E cds. With Yaoyao as main dendro applier, a cryo character can help you create seeds in order to rivalise with childe hydro aplication. Raiden has more speed triggering bloom than Kuki in exchange of heal.",
         "rotation": "",
         "archetype": "HyperFridge",
         "viability": "Viable",
@@ -1164,7 +1164,7 @@ const teams = {
             "build": "EM"
         },
         "character_3": {
-            "name": "YaoYao",
+            "name": "Yaoyao",
             "build": "Standard"
         },
         "character_4": {
@@ -1250,7 +1250,7 @@ const teams = {
 
     "52": {
         "name": "Childe HyperFridge",
-        "description": "Tartaglia can be used in HyperFridge but there are better hydros because of E cds. With YaoYao as main dendro applier, a cryo character can help you create seeds in order to rivalise with childe hydro aplication.",
+        "description": "Tartaglia can be used in HyperFridge but there are better hydros because of E cds. With Yaoyao as main dendro applier, a cryo character can help you create seeds in order to rivalise with childe hydro aplication.",
         "rotation": "",
         "archetype": "HyperFridge",
         "viability": "Viable",
@@ -1264,7 +1264,7 @@ const teams = {
             "build": "Standard"
         },
         "character_3": {
-            "name": "YaoYao",
+            "name": "Yaoyao",
             "build": "Standard"
         },
         "character_4": {

@@ -128,6 +128,17 @@ const builds = {
                 "Circlet": "Crit"
             },
             "subs_stat": ["ER", "Crit", "ATK%", ""]
+        },
+        "SoloElectro": {
+            "constellation": "",
+            "weapon": "Serpent Spine",
+            "set": "Emblem of Severed Fate",
+            "main_stat": {
+                "Sands": "ATK%",
+                "Goblet": "Electro",
+                "Circlet": "Crit"
+            },
+            "subs_stat": ["ER", "Crit", "ATK%", ""]
         }
     },
     "Bennett": {
@@ -256,6 +267,17 @@ const builds = {
                 "Circlet": "",
             },
             "subs_stat": ["", "", "", ""]
+        },
+        "EM": {
+            "constellation": "",
+            "weapon": "",
+            "set": "",
+            "main_stat": {
+                "Sands": "",
+                "Goblet": "",
+                "Circlet": "",
+            },
+            "subs_stat": ["", "", "", ""]
         }
     },
     "Eula": {
@@ -362,6 +384,17 @@ const builds = {
     },
     "Jean": {
         "Standard": {
+            "constellation": "",
+            "weapon": "",
+            "set": "",
+            "main_stat": {
+                "Sands": "",
+                "Goblet": "",
+                "Circlet": "",
+            },
+            "subs_stat": ["", "", "", ""]
+        },
+        "EM": {
             "constellation": "",
             "weapon": "",
             "set": "",
@@ -927,6 +960,17 @@ const builds = {
     },
     "Yae Miko": {
         "Standard": {
+            "constellation": "",
+            "weapon": "",
+            "set": "",
+            "main_stat": {
+                "Sands": "",
+                "Goblet": "",
+                "Circlet": "",
+            },
+            "subs_stat": ["", "", "", ""]
+        },
+        "SoloElectro": {
             "constellation": "",
             "weapon": "",
             "set": "",
