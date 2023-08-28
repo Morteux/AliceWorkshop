@@ -1298,6 +1298,282 @@ const teams = {
         }
     },
 
+    "54": {
+        "name": "Klee Monopyro",
+        "description": "Monopyro is the archetype where klee shines. ",
+        "rotation": "",
+        "archetype": "Monopyro",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Klee",
+            "build": "Monopyro"
+        },
+        "character_2": {
+            "name": "Bennett",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Xiangling",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Kaedehara Kazuha", "Venti", "Sucrose", "Zhongli"],
+            "build": ["Standard", "Standard", "Standard", "Petra"]
+        }
+    },
+
+    "55": {
+        "name": "Klee Monopyro",
+        "description": "Monopyro is the archetype where klee shines. ",
+        "rotation": "",
+        "archetype": "Monopyro",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Klee",
+            "build": "Monopyro"
+        },
+        "character_2": {
+            "name": "Bennett",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Kaedehara Kazuha",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Venti", "Zhongli"],
+            "build": ["Standard", "Petra"]
+        }
+    },
+
+    "56": {
+        "name": "Klee Monopyro",
+        "description": "Monopyro is the archetype where klee shines. There are better options to play monopyro, but you can play this way.",
+        "rotation": "",
+        "archetype": "Monopyro",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Klee",
+            "build": "Monopyro"
+        },
+        "character_2": {
+            "name": "Bennett",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Kaedehara Kazuha",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Sucrose", "Thoma"],
+            "build": ["Standard", "Standard"]
+        }
+    },
+
+    "57": {
+        "name": "Vape Klee Doble Hydro",
+        "description": "Good single target thanks to Xingqiu and Yelan, but Klee has better archetypes than vaporize.",
+        "rotation": "",
+        "archetype": "Vaporize",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Klee",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Xingqiu",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Yelan",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Bennett", "Zhongli", "Jean", "Thoma"],
+            "build": ["Standard", "Standard", "Standard", "Standard"]
+        }
+    },
+
+    "58": {
+        "name": "Vape Klee Doble Hydro",
+        "description": "Good single target thanks to Xingqiu and Yelan, but Klee has better archetypes than vaporize. You have no healer either shielder with Klee... good luck.",
+        "rotation": "",
+        "archetype": "Vaporize",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Klee",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Xingqiu",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Yelan",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Kaedehara Kazuha", "Sucrose", "Venti", "Xiangling"],
+            "build": ["Standard", "Standard", "Standard", "Standard"]
+        }
+    },
+
+    "59": {
+        "name": "Vape Klee",
+        "description": "Klee has better archetypes than vaporize. ",
+        "rotation": "When using Xingqiu as the sole Hydro applicator, it is recommended as Klee to use N2C N1C combos.",
+        "archetype": "Vaporize",
+        "viability": "Troll",
+
+        "character_1": {
+            "name": "Klee",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Xingqiu",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Bennett",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Kaedehara Kazuha", "Sucrose", "Zhongli"],
+            "build": ["Standard", "Standard", "Standard"]
+        }
+    },
+
+    "60": {
+        "name": "Vape Klee",
+        "description": "Yelan may not has enough hydro application for Klee, this team is not recomended. Klee also has better archetypes than vaporize. ",
+        "rotation": "",
+        "archetype": "Vaporize",
+        "viability": "Troll",
+
+        "character_1": {
+            "name": "Klee",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Yelan",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Bennett",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Kaedehara Kazuha", "Sucrose", "Zhongli"],
+            "build": ["Standard", "Standard", "Standard"]
+        }
+    },
+
+    "61": {
+        "name": "Vape Klee",
+        "description": "Klee has better archetypes than vaporize. You can use Thoma for shielding, but don't expecto high damage.",
+        "rotation": "When using Xingqiu as the sole Hydro applicator, it is recommended as Klee to use N2C N1C combos.",
+        "archetype": "Vaporize",
+        "viability": "Troll",
+
+        "character_1": {
+            "name": "Klee",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Xingqiu",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Thoma",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Kaedehara Kazuha", "Sucrose", "Venti"],
+            "build": ["Standard", "Standard", "Standard"]
+        }
+    },
+
+    "62": {
+        "name": "Vape Klee",
+        "description": "One of the worst Klee teams. Use only if you love the characters or if don't have other ways to use Klee.",
+        "rotation": "",
+        "archetype": "Vaporize",
+        "viability": "Troll",
+
+        "character_1": {
+            "name": "Klee",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Yelan",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Thoma",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Kaedehara Kazuha", "Sucrose", "Venti"],
+            "build": ["Standard", "Standard", "Standard"]
+        }
+    },
+
+    "63": {
+        "name": "Vape Klee ",
+        "description": "The weirdest Vape Klee team. Seems fun. But i don't have Klee. ",
+        "rotation": "You need to Infuse Venti Ults with Hydro. Bennett E + Q > Mona Q + E > Venti E + Q > Klee N1 + E + Q + 3N1C > Repeat",
+        "archetype": "Vaporize",
+        "viability": "Unique",
+
+        "character_1": {
+            "name": "Klee",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Mona",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Bennett",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Venti"],
+            "build": ["Standard"]
+        }
+    },
+
+    "64": {
+        "name": "Burger Klee",
+        "description": "This team composition is a great way for those wanting to play both Klee and Nahida together. It is better than it seems. Kirara or Baizhu are normally the best flex option, but you can use zhongli, kokomi or YaoYao",
+        "rotation": "spam Klee's NA with Elemental Skill uses in between. You don't need to do the burst and CA.",
+        "archetype": "Burgeon",
+        "viability": "Unique",
+
+        "character_1": {
+            "name": "Klee",
+            "build": "Burger"
+        },
+        "character_2": {
+            "name": "Nahida",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Xingqiu",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Zhongli", "Kirara", "Baizhu", "Sangonomiya Kokomi", "YaoYao"],
+            "build": ["Standard","Standard","Standard","Standard","Standard"]
+        }
+    }
+    
+
 }
 
 //"34": {
