@@ -9,12 +9,13 @@
     <meta name="authors" content="Ignacio Meléndez Lapi, Pedro Javier Casado Gálvez">
 
     <link rel="icon" href="images/alice.png">
-    
+
     <!-- CSS style -->
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/navegation.css">
     <link rel="stylesheet" href="css/collapsible.css">
     <link rel="stylesheet" href="css/tab_teams_search.css">
+    <link rel="stylesheet" href="css/tab_user.css">
 
     <!-- JSON data -->
     <script src="json/teams.js"></script>
@@ -26,13 +27,14 @@
     <!-- JavaScript libs -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
     <script src="js/includeHTML.js"></script>
-    
+
     <!-- JavaScript logic -->
     <script src="js/index.js"></script>
     <script src="js/navegation.js"></script>
     <script src="js/collapsible.js"></script>
 
     <script src="js/tab_teams_search.js"></script>
+    <script src="js/tab_user.js"></script>
 
     <title>Alice Workshop</title>
 </head>
@@ -50,15 +52,16 @@
         </div>
 
         <div id="tab_archetype_search" class="tab_archetype_search">
-            <!-- <div w3-include-html="tab_archetype_search.html"></div> -->
-            
-        <div id="archetypes_container" class="archetypes_container">
-            archetypes archetypes archetypes archetypes archetypes archetypes archetypes archetypes archetypes archetypes archetypes archetypes archetypes archetypes archetypes archetypes archetypes archetypes archetypes archetypes archetypes 
-        </div>
+
+            <div id="archetypes_container" class="archetypes_container">
+                archetypes archetypes archetypes archetypes archetypes archetypes archetypes archetypes archetypes
+                archetypes archetypes archetypes archetypes archetypes archetypes archetypes archetypes archetypes
+                archetypes archetypes archetypes
+            </div>
+
         </div>
 
         <div id="tab_teams_search" class="tab_teams_search">
-            <!-- <div w3-include-html="tab_teams_search.html"></div> -->
 
             <div id="search_form_container" class="search_form_container">
                 <form class="search_form" action="javascript:;" onsubmit="searchQuery(this)">
@@ -66,117 +69,88 @@
                     <button type="submit" class="search_button"></button>
                 </form>
             </div>
-            
+
             <div id="result_container" class="result_container">
-            
-            
-            
-            <!-- 
-                <div id="team_container" class="team_container viability_troll">
-            
-                    <div id="toolbox_container" class="toolbox_container">
-                        <button class="fav_button" onclick="toggleFavorite(this)">
-                            <img class="empty" src="images/star_empty.png">
-                        </button>
-                    </div>
-            
-                    <div id="characters_container" class="characters_container">
-            
-                        <div id="character_1" class="character_container Dehya">
-                            <img class="character_icon character_5_stars"
-                                src="https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Dehya.png"
-                                alt="Character icon for Dehya">
-                            <img class="element_icon" src="../images/elements/glow_pyro.png">
-                            <div class="rarity_container">
-                                <img class="rarity" src="../images/rarity/star.svg">
-                                <img class="rarity" src="../images/rarity/star.svg">
-                                <img class="rarity" src="../images/rarity/star.svg">
-                                <img class="rarity" src="../images/rarity/star.svg">
-                                <img class="rarity" src="../images/rarity/star.svg">
-                            </div>
-                            <div class="character_name">Dehya</div>
-                        </div>
-            
-                        <div id="character_2" class="character_container Kaedehara_Kazuha">
-                            <img class="character_icon character_5_stars"
-                                src="https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Kazuha.png"
-                                alt="Character icon for Kaedehara Kazuha">
-                            <img class="element_icon" src="../images/elements/glow_anemo.png">
-                            <div class="constellation">1</div>
-                            <div class="rarity_container">
-                                <img class="rarity" src="../images/rarity/star.svg">
-                                <img class="rarity" src="../images/rarity/star.svg">
-                                <img class="rarity" src="../images/rarity/star.svg">
-                                <img class="rarity" src="../images/rarity/star.svg">
-                                <img class="rarity" src="../images/rarity/star.svg">
-                            </div>
-                            <div class="character_name">Kaedehara Kazuha</div>
-                        </div>
-            
-                        <div id="character_3" class="character_container Mona">
-                            <img class="character_icon character_5_stars"
-                                src="https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Mona.png"
-                                alt="Character icon for Mona">
-                            <img class="element_icon" src="../images/elements/glow_hydro.png">
-                            <div class="rarity_container">
-                                <img class="rarity" src="../images/rarity/star.svg">
-                                <img class="rarity" src="../images/rarity/star.svg">
-                                <img class="rarity" src="../images/rarity/star.svg">
-                                <img class="rarity" src="../images/rarity/star.svg">
-                                <img class="rarity" src="../images/rarity/star.svg">
-                            </div>
-                            <div class="character_name">Mona</div>
-                        </div>
-            
-                        <div id="character_4" class="character_container Bennett">
-                            <img class="character_icon character_4_stars"
-                                src="https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Bennett.png"
-                                alt="Character icon for Bennett">
-                            <img class="element_icon" src="../images/elements/glow_pyro.png">
-                            <div class="rarity_container">
-                                <img class="rarity" src="../images/rarity/star.svg">
-                                <img class="rarity" src="../images/rarity/star.svg">
-                                <img class="rarity" src="../images/rarity/star.svg">
-                                <img class="rarity" src="../images/rarity/star.svg">
-                            </div>
-                            <div class="character_name">Bennett</div>
-                        </div>
-            
-                    </div>
-            
-                    <button class="collapsible" onclick="toggleCollapse(this)">
-                        <img class="collapsible_image" src="images/bottom_arrow.png">
-                    </button>
-                    <div class="collapsible_content viability_troll_illuminated">
-                        <div id="team_name_container" class="team_name_container">
-                            Vape Dehya
-                        </div>
-            
-                        <div class="team_desc_container">
-                            Basically Dehya and her powerfull damage carring the whole abyss. Since Dehya cds, you can alter the rotation in order to fix her E cooldown. For example, doing Kazuha's ult at the end of the rotation to gain time.
-                        </div>
-                    </div>
-                </div> -->
-            
-            
-            
-            
-            
             </div>
+
         </div>
 
         <div id="tab_user" class="tab_user">
-            <!-- <div w3-include-html="tab_user.html"></div> -->
 
-            <div id="user_container" class="user_container">
-                user user user user user user user user user user user user user user user user user user user user user user user user user user user user user 
+            <div id="navegation_menu" class="navegation_menu">
+                <div id="menu_characters_check_button" class="">Characters</div>
+                <div id="menu_teams_creator_button" class="">Team creator</div>
             </div>
+            <div id="content_menu" class="content_menu">
+                <div id="menu_characters_check">
+                    Characters
+                </div>
+
+                <div id="menu_teams_creator" class="menu_teams_creator">
+                    <div class="tag_input_row">
+                        <span class="light_text">#</span>
+                        <input id="id_input" type="number" placeholder="#" class="id_input">
+                    </div>
+
+                    <input id="team_name_select" type="text" placeholder="Team name" class="short_select">
+                    <input id="description_select" type="text" placeholder="Description" class="long_select">
+                    <input id="rotation_select" type="text" placeholder="Rotation" class="long_select">
+                    <input id="archetype_select" type="text" placeholder="Archetype" class="short_select">
+
+                    <select name="viability_select" id="viability_select" class="short_select">
+                        <option value="Meta">Meta</option>
+                        <option value="Viable">Viable</option>
+                        <option value="Troll">Troll</option>
+                        <option value="Unique">Unique</option>
+                    </select>
+
+                    <div class="row_selects">
+                        <div class="autocomplete">
+                            <input id="character_1_select" type="text" name="character_1_select"
+                                placeholder="Character 1" class="short_select">
+                        </div>
+                        <div class="autocomplete">
+                            <input id="character_2_select" type="text" name="character_2_select"
+                                placeholder="Character 2" class="short_select">
+                        </div>
+                        <div class="autocomplete">
+                            <input id="character_3_select" type="text" name="character_3_select"
+                                placeholder="Character 3" class="short_select">
+                        </div>
+                        <div class="autocomplete">
+                            <input id="character_4_select" type="text" name="character_4_select"
+                                placeholder="Character 4" class="short_select">
+                        </div>
+                    </div>
+
+                    <div class="row_selects">
+                        <div class="autocomplete">
+                            <input id="build_1_select" type="text" name="build_1_select" placeholder="Build 1"
+                                class="short_select">
+                        </div>
+                        <div class="autocomplete">
+                            <input id="build_2_select" type="text" name="build_2_select" placeholder="Build 2"
+                                class="short_select">
+                        </div>
+                        <div class="autocomplete">
+                            <input id="build_3_select" type="text" name="build_3_select" placeholder="Build 3"
+                                class="short_select">
+                        </div>
+                        <div class="autocomplete">
+                            <input id="build_4_select" type="text" name="build_4_select" placeholder="Build 4"
+                                class="short_select">
+                        </div>
+                    </div>
+
+                    <button class="primary_button" onclick="printTeamJSON()">Click me</button>
+
+                    <textarea id="json_result" class="json_result" rows="4" cols="50" readonly>
+                    </textarea>
+                </div>
+            </div>
+
         </div>
     </div>
 </body>
-
-<!-- <script>
-    includeHTML();
-</script> -->
 
 </html>

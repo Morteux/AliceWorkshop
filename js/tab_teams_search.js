@@ -2,20 +2,24 @@ var teams_search_matches = [];
 
 document.addEventListener("DOMContentLoaded", (event) => {
     // Show all teams on page load
-    searchQuery();
+    // searchQuery();
 });
 
 function searchQuery() {
-    // Reset collection for a new search
-    teams_search_matches = [];
+    document.getElementById("result_container").style.display = "none";
 
     getTeamsByTextInput();
 
     printTeams();
+
+    document.getElementById("result_container").style.display = "";
 }
 
 function getTeamsByTextInput() {
     let search_form_text_input = document.getElementById("search_form_text_input").value;
+
+    // Reset collection for a new search
+    teams_search_matches = [];
 
     // console.log("Searching for: " + search_form_text_input);
 
@@ -41,9 +45,10 @@ function printTeams() {
     document.getElementById("result_container").innerHTML = "";
 
     for (let team_index in teams_search_matches) {
-        console.log("====================================================================================");
-        console.log(teams_search_matches[team_index]);
+        // console.log("====================================================================================");
+        // console.log(teams_search_matches[team_index]);
 
+        let character_4_int_index = 1;
         for (let character_4_index in teams_search_matches[team_index].character_4.name) {
 
             let character_4 = {
@@ -56,7 +61,7 @@ function printTeams() {
 
                 <div id="toolbox_container" class="toolbox_container">
                     <div id="team_id" class="team_id">
-                        #` + team_index + `
+                        #` + team_index + (teams_search_matches[team_index].character_4.name.length > 1 ? `-` + character_4_int_index++ : ``) + `
                     </div>
 
                     <button class="fav_button" onclick="toggleFavorite(this)">
@@ -102,9 +107,12 @@ function printTeams() {
 }
 
 function getCharacterHTML(id, character_team, character_data) {
-    console.log(id);
-    console.log(character_team);
-    console.log(character_data);
+    // console.log(id);
+
+    if (character_team == null || character_data == null) {
+        console.log(character_team);
+        console.log(character_data);
+    }
 
     return `
     <div id="` + id + `" class="character_container ` + character_data.name.replaceAll(" ", "_") + `">

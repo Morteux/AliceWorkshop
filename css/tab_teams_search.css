@@ -27,18 +27,16 @@
 .search_form button {
     padding: 3vh;
     background: var(--secondary_color);
-    border: 1px solid grey;
-    border-left: none;
     cursor: pointer;
 
-    background-image: url('../images/loupe.png');
+    background-image: url('../images/loupe.svg');
     background-size: cover;
 }
 
 .search_form button:hover {
     background: var(--tertiary_color);
 
-    background-image: url('../images/loupe.png');
+    background-image: url('../images/loupe.svg');
     background-size: cover;
 }
 
@@ -59,6 +57,8 @@
     justify-content: center;
 
     flex-wrap: wrap;
+
+    width: 100%;
 }
 
 .team_container {

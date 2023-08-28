@@ -60,6 +60,32 @@ body {
     background-color: var(--primary_color);
 }
 
+.primary_button {
+    
+	/* display: inline-block; */
+	/* font-weight: 400; */
+	/* color: #212529; */
+	/* text-align: center; */
+	border: 1px solid transparent;
+	padding: .375rem .75rem;
+	font-size: 1rem;
+	line-height: 1.5;
+	border-radius: .25rem;
+	color: var(--light_text);
+	background-color: var(--secondary_color);
+    cursor: pointer;
+}
+
+.primary_button:hover {
+	color: var(--dark_text);
+	background-color: var(--tertiary_color);
+}
+
+.primary_button:active {
+	color: var(--dark_text);
+	background-color: var(--quaternary_color);
+}
+
 .main {
     display: flex;
     flex-direction: column;
