@@ -59,7 +59,7 @@ function printTeamJSON() {
 
     document.getElementById("id_input").value = team_count;
 
-    document.getElementById("json_result").value = `
+    document.getElementById("json_result").value += `
     "` + team_count++ + `": {
         "name": "` + document.getElementById("team_name_select").value + `",
         "description": "` + document.getElementById("description_select").value + `",
@@ -83,7 +83,7 @@ function printTeamJSON() {
             "name": ["` + document.getElementById("character_4_select").value + `"],
             "build": ["` + document.getElementById("build_4_select").value + `"]
         }
-    }
+    },
     `;
 
     // Get the text field
