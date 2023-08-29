@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
     searchQuery();
 
     $(window).scroll(function () {
-        if ($(window).scrollTop() == $(document).height() - $(window).height()) {
+        if ($(window).scrollTop() == $(document).height() - $(window).height() && document.getElementById("tab_teams_search_button").classList.contains("active_tab_button")) {
             start_index += teams_per_page;
             searchQuery();
         }
