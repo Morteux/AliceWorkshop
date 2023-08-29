@@ -8,7 +8,7 @@
     <meta name="keywords" content="Genshin, Impact, lineup, team, teams, composition, character, build">
     <meta name="authors" content="Ignacio Meléndez Lapi, Pedro Javier Casado Gálvez">
 
-    <link rel="icon" href="images/alice.png">
+    <link rel="icon" href="images/favicon.jpg">
 
     <!-- CSS style -->
     <link rel="stylesheet" href="css/index.css">
@@ -40,10 +40,10 @@
 </head>
 
 <body>
+
+    <button onclick="scrollToTop()" id="scroll_top_button" class="scroll_top_button"></button>
+
     <div id="main" class="main">
-        <!-- <div id="title_container" class="title_container">
-            Alice Workshop
-        </div> -->
 
         <div id="tabs_container" class="tabs_container">
             <div id="tab_archetype_search_button">Archetypes</div>
@@ -64,10 +64,14 @@
         <div id="tab_teams_search" class="tab_teams_search">
 
             <div id="search_form_container" class="search_form_container">
-                <form class="search_form" action="javascript:;" onsubmit="resetResult(); searchQuery()">
-                    <input id="search_form_text_input" type="text" placeholder="Search.." name="search">
-                    <button type="submit" class="search_button"></button>
-                </form>
+                <div class="filter_container">
+
+                </div>
+
+                <div class="search_form">
+                    <input id="search_form_text_input" class="search_form_text_input" type="text" placeholder="Search..">
+                    <button type="submit" class="search_button" onclick="resetResult(); searchQuery()"></button>
+                </div>
             </div>
 
             <div id="result_container" class="result_container">

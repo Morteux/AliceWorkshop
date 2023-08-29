@@ -141,3 +141,27 @@ body {
 
     margin-top: 5vh;
 }
+
+.scroll_top_button {
+    display: none;
+    position: fixed;
+    bottom: 2vh;
+    right: 3vh;
+    width: 5vh;
+    height: 5vh;
+    z-index: 99;
+
+    background-image: url('../images/up_arrow.png');
+    background-size: 60%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: var(--primary_color);
+
+    border: none;
+    outline: none;
+    color: white;
+    cursor: pointer;
+
+    padding: 1.5vh;
+    border-radius: 4px;
+}

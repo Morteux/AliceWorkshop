@@ -14,7 +14,7 @@
     justify-content: center;
 }
 
-.search_form input[type=text] {
+.search_form_text_input {
     height: 1.5vh;
     padding: 1.5vh;
     font-size: 2vh;
