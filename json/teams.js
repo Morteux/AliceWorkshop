@@ -1550,7 +1550,7 @@ const teams = {
 
     "64": {
         "name": "Burger Klee",
-        "description": "This team composition is a great way for those wanting to play both Klee and Nahida together. It is better than it seems. Kirara or Baizhu are normally the best flex option, but you can use zhongli, kokomi or YaoYao",
+        "description": "This team composition is a great way for those wanting to play both Klee and Nahida together. It is better than it seems. Kirara or Baizhu are normally the best flex option, but you can use zhongli, kokomi or Yaoyao",
         "rotation": "spam Klee's NA with Elemental Skill uses in between. You don't need to do the burst and CA.",
         "archetype": "Burgeon",
         "viability": "Unique",
@@ -1568,7 +1568,7 @@ const teams = {
             "build": "Standard"
         },
         "character_4": {
-            "name": ["Zhongli", "Kirara", "Baizhu", "Sangonomiya Kokomi", "YaoYao"],
+            "name": ["Zhongli", "Kirara", "Baizhu", "Sangonomiya Kokomi", "Yaoyao"],
             "build": ["Standard","Standard","Standard","Standard","Standard"]
         }
     }

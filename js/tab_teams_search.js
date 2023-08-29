@@ -1,9 +1,24 @@
+const teams_per_page = 6;
+
 var teams_search_matches = [];
+var start_index = 0;
 
 document.addEventListener("DOMContentLoaded", (event) => {
     // Show all teams on page load
-    // searchQuery();
+    searchQuery();
+
+    $(window).scroll(function () {
+        if ($(window).scrollTop() == $(document).height() - $(window).height()) {
+            start_index += teams_per_page;
+            searchQuery();
+        }
+    });
 });
+
+function resetResult() {
+    start_index = 0;
+    document.getElementById("result_container").innerHTML = "";
+}
 
 function searchQuery() {
     document.getElementById("result_container").style.display = "none";
@@ -42,26 +57,32 @@ function printTeams() {
     }
 
     let team_output = "";
-    document.getElementById("result_container").innerHTML = "";
-
-    for (let team_index in teams_search_matches) {
+    let keys = Object.keys(teams_search_matches);
+    
+    for (let team_index = start_index; team_index < keys.length && team_index < start_index + teams_per_page; ++team_index) {
         // console.log("====================================================================================");
-        // console.log(teams_search_matches[team_index]);
+        
+        // console.log(keys[team_index]);
+        // console.log(team_index);
+        // console.log(start_index);
+        // console.log(teams_search_matches[keys[team_index]]);
+        // console.log(teams_search_matches[keys[team_index]].character_4);
 
+        let team = teams_search_matches[keys[team_index]];
         let character_4_int_index = 1;
-        for (let character_4_index in teams_search_matches[team_index].character_4.name) {
+        for (let character_4_index in team.character_4.name) {
 
             let character_4 = {
-                "name": teams_search_matches[team_index].character_4.name[character_4_index],
-                "build": teams_search_matches[team_index].character_4.build[character_4_index]
+                "name": team.character_4.name[character_4_index],
+                "build": team.character_4.build[character_4_index]
             };
 
             team_output = `
-            <div id="team_container" class="team_container viability_` + teams_search_matches[team_index].viability.toLowerCase() + `">
+            <div id="team_container" class="team_container viability_` + team.viability.toLowerCase() + `">
 
                 <div id="toolbox_container" class="toolbox_container">
                     <div id="team_id" class="team_id">
-                        #` + team_index + (teams_search_matches[team_index].character_4.name.length > 1 ? `-` + character_4_int_index++ : ``) + `
+                        #` + keys[team_index] + (team.character_4.name.length > 1 ? `-` + character_4_int_index++ : ``) + `
                     </div>
 
                     <button class="fav_button" onclick="toggleFavorite(this)">
@@ -71,9 +92,9 @@ function printTeams() {
 
                 <div id="characters_container" class="characters_container">
                 ` +
-                getCharacterHTML("character_1", teams_search_matches[team_index].character_1, characters[teams_search_matches[team_index].character_1.name]) +
-                getCharacterHTML("character_2", teams_search_matches[team_index].character_2, characters[teams_search_matches[team_index].character_2.name]) +
-                getCharacterHTML("character_3", teams_search_matches[team_index].character_3, characters[teams_search_matches[team_index].character_3.name]) +
+                getCharacterHTML("character_1", team.character_1, characters[team.character_1.name]) +
+                getCharacterHTML("character_2", team.character_2, characters[team.character_2.name]) +
+                getCharacterHTML("character_3", team.character_3, characters[team.character_3.name]) +
                 getCharacterHTML("character_4", character_4, characters[character_4.name]) +
                 `
                 </div>
@@ -81,21 +102,21 @@ function printTeams() {
                 <button class="collapsible" onclick="toggleCollapse(this)">
                     <img class="collapsible_image" src="images/bottom_arrow.png">
                 </button>
-                <div class="collapsible_content viability_` + teams_search_matches[team_index].viability.toLowerCase() + `_illuminated">
+                <div class="collapsible_content viability_` + team.viability.toLowerCase() + `_illuminated">
                     <div id="team_name_container" class="team_name_container">
-                        ` + teams_search_matches[team_index].name + `
+                        ` + team.name + `
                     </div>
 
                     <div id="team_rotation_container" class="team_rotation_container">
-                        ` + teams_search_matches[team_index].rotation + `
+                        ` + team.rotation + `
                     </div>
 
                     <div id="team_archetype_container" class="team_archetype_container">
-                        ` + teams_search_matches[team_index].archetype + `
+                        ` + team.archetype + `
                     </div>
 
                     <div class="team_desc_container">
-                        ` + teams_search_matches[team_index].description + `
+                        ` + team.description + `
                     </div>
                 </div>
             </div>
@@ -104,12 +125,14 @@ function printTeams() {
             document.getElementById("result_container").innerHTML += team_output;
         }
     }
+
+    document.getElementById("result_counter").innerHTML = (start_index + teams_per_page < Object.keys(teams_search_matches).length ? start_index + teams_per_page : Object.keys(teams_search_matches).length);
+    document.getElementById("result_max_counter").innerHTML = Object.keys(teams_search_matches).length;
 }
 
 function getCharacterHTML(id, character_team, character_data) {
-    // console.log(id);
-
     if (character_team == null || character_data == null) {
+        console.log(id);
         console.log(character_team);
         console.log(character_data);
     }
