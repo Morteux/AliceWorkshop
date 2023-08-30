@@ -1,18 +1,29 @@
+const ENTER_KEY_CODE = 'Enter';
 const teams_per_page = 6;
 
 var teams_search_matches = [];
 var start_index = 0;
 
 document.addEventListener("DOMContentLoaded", (event) => {
+    
+    autocomplete(document.getElementById("search_form_text_input"), character_names);
+
     // Show all teams on page load
     searchQuery();
-    
+
     // When the user scrolls down 20px from the top of the document, show the button
     window.onscroll = function () { scrollFunction() };
 
     $(window).scroll(function () {
         if ($(window).scrollTop() == $(document).height() - $(window).height() && document.getElementById("tab_teams_search_button").classList.contains("active_tab_button")) {
             start_index += teams_per_page;
+            searchQuery();
+        }
+    });
+
+    document.getElementById("search_form_text_input").addEventListener('keyup', function (e) {
+        if (e.key === ENTER_KEY_CODE) {
+            resetResult();
             searchQuery();
         }
     });
@@ -75,10 +86,10 @@ function printTeams() {
 
     let team_output = "";
     let keys = Object.keys(teams_search_matches);
-    
+
     for (let team_index = start_index; team_index < keys.length && team_index < start_index + teams_per_page; ++team_index) {
         // console.log("====================================================================================");
-        
+
         // console.log(keys[team_index]);
         // console.log(team_index);
         // console.log(start_index);

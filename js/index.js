@@ -19,3 +19,5 @@
 
 // A single rarity's star in SVG format
 const star_svg = `<img class="rarity" src="images/rarity/star.svg">`;
+
+const character_names = Object.keys(characters);

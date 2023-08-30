@@ -9,7 +9,7 @@
     --viable_team: #00c0e2;
     --troll_team: #b1c51b;
     --unique_team: #ff6701;
-    
+
     /* Teams collapsible colors */
     --meta_collapsible_team: #ee4f4f;
     --viable_collapsible_team: #5acbdf;
@@ -17,8 +17,8 @@
     --unique_collapsible_team: #ff9650;
 
     /* Text color */
-    --light_text: aliceblue; /* aliceblue blanchedalmond*/
-    --dark_text:#313131;
+    --light_text: aliceblue;
+    --dark_text: #313131;
 
     /* Character rarity */
     --character_4_stars: #5c2391;
@@ -61,29 +61,29 @@ body {
 }
 
 .primary_button {
-    
-	/* display: inline-block; */
-	/* font-weight: 400; */
-	/* color: #212529; */
-	/* text-align: center; */
-	border: 1px solid transparent;
-	padding: .375rem .75rem;
-	font-size: 1rem;
-	line-height: 1.5;
-	border-radius: .25rem;
-	color: var(--light_text);
-	background-color: var(--secondary_color);
+
+    /* display: inline-block; */
+    /* font-weight: 400; */
+    /* color: #212529; */
+    /* text-align: center; */
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    color: var(--light_text);
+    background-color: var(--secondary_color);
     cursor: pointer;
 }
 
 .primary_button:hover {
-	color: var(--dark_text);
-	background-color: var(--tertiary_color);
+    color: var(--dark_text);
+    background-color: var(--tertiary_color);
 }
 
 .primary_button:active {
-	color: var(--dark_text);
-	background-color: var(--quaternary_color);
+    color: var(--dark_text);
+    background-color: var(--quaternary_color);
 }
 
 .main {
@@ -164,4 +164,249 @@ body {
 
     padding: 1.5vh;
     border-radius: 4px;
+}
+
+/* Button checks */
+
+.filter_button_checked {}
+
+.filter_button_unchecked {}
+
+/* Switch styles */
+
+.switch input {
+    display: none;
+}
+
+.switch {
+    display: inline-block;
+    width: 60px;
+    /*=w*/
+    height: 30px;
+    /*=h*/
+    margin: 1vh;
+    /* transform: translateY(50%); */
+    position: relative;
+}
+
+.slider {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-radius: 30px;
+    box-shadow: 0 0 0 2px limeGreen, 0 0 8px limeGreen;
+    cursor: pointer;
+    border: 4px solid transparent;
+    overflow: hidden;
+    transition: 0.2s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: limeGreen;
+    border-radius: 30px;
+    transform: translateX(-30px);
+    /*translateX(-(w-h))*/
+    transition: 0.2s;
+}
+
+input:checked+.slider:before {
+    transform: translateX(30px);
+    /*translateX(w-h)*/
+    background-color: red;
+}
+
+input:checked+.slider {
+    box-shadow: 0 0 0 2px red, 0 0 8px red;
+}
+
+
+
+
+/* Autocomplete */
+
+.autocomplete {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    /*the container must be positioned relative:*/
+    position: relative;
+}
+
+input {
+    border: 1px solid transparent;
+    background-color: var(--light_background);
+    padding: 1vh;
+    font-size: 1.9vh;
+}
+
+input[type=text] {
+    background-color: var(--light_background);
+    width: 100%;
+}
+
+.autocomplete-items {
+    position: absolute;
+    border: 1px solid #d4d4d4;
+    border-bottom: none;
+    border-top: none;
+    z-index: 99;
+    /*position the autocomplete items to be the same width as the container:*/
+    top: 100%;
+    left: 0;
+    right: 0;
+}
+
+.autocomplete-items div {
+    padding: 1vh;
+    cursor: pointer;
+    color: var(--dark_text);
+    background-color: var(--light_background);
+    border-bottom: 1px solid #d4d4d4;
+}
+
+.autocomplete-items div:hover {
+    /*when hovering an item:*/
+    color: var(--light_text);
+    background-color: var(--dark_background);
+}
+
+.autocomplete-active {
+    /*when navigating through the items using the arrow keys:*/
+    color: var(--light_text);
+    background-color: var(--dark_background) !important;
+}
+
+
+
+
+
+/* .team_id_value {
+background-color: red;
+}
+
+.team_name_value {
+
+}
+
+.archetype_value {
+
+} */
+
+
+/* Select style */
+
+#radio_button_meta {
+    background: linear-gradient(to right, var(--secondary_color) 40%, var(--meta_team));
+}
+
+.radio_button_viable {
+    background: linear-gradient(to right, var(--secondary_color) 40%, var(--viable_team));
+}
+
+.radio_button_troll {
+    background: linear-gradient(to right, var(--secondary_color) 40%, var(--troll_team));
+}
+
+.radio_button_unique {
+    background: linear-gradient(to right, var(--secondary_color) 40%, var(--unique_team));
+}
+
+.list-choice {
+    width: 20vh;
+    margin: 2vh;
+    position: relative;
+    cursor: pointer;
+
+    z-index: 99;
+}
+
+.list-choice input[type="radio"] {
+    position: absolute;
+    left: -9999px;
+}
+
+.list-choice-title {
+    width: 100%;
+    display: block;
+    background-color: var(--secondary_color);
+    color: var(--light_text);
+    text-align: center;
+    padding: 0.55em 1em;
+    box-sizing: border-box;
+    text-shadow: 0 1px 0 #CACACA;
+    border-radius: 0.2em;
+}
+
+.list-choice:hover .list-choice-title {
+    border-radius: 0.2em 0.2em 0 0;
+}
+
+.list-choice-objects label:nth-last-of-type(1) span {
+    border-radius: 0 0 0.2em 0.2em;
+}
+
+.list-choice input[type="radio"]+span {
+    color: #FFF;
+    background-color: var(--secondary_color);
+    padding: 0.55em 1em;
+    display: block;
+    text-align: center;
+    box-sizing: border-box;
+    cursor: pointer;
+    width: 100%;
+}
+
+.list-choice-objects {
+    position: absolute;
+    top: 0;
+    padding-top: 2.1em;
+    box-sizing: border-box;
+    width: 100%;
+    overflow: hidden;
+    max-height: 0;
+    transition: all 250ms ease;
+}
+
+.list-choice:hover .list-choice-objects input[type="radio"]+span {
+    position: relative;
+    top: 0;
+    transition: all 250ms ease-in-out;
+}
+
+.list-choice:hover input[type="radio"]+span:hover {
+    background-color: var(--tertiary_color);
+    color: var(--dark_text);
+}
+
+.list-choice:hover input[type="radio"]:checked+span:hover {
+    background-color: var(--tertiary_color);
+    color: var(--dark_text);
+}
+
+.list-choice input[type="radio"]:checked+span {
+    background-color: var(--tertiary_color);
+    color: var(--dark_text);
+    position: absolute;
+    top: 0em;
+    border-radius: 0.2em;
+}
+
+.list-choice:hover input[type="radio"]:checked+span {
+    border-radius: 0;
+}
+
+.list-choice:hover .list-choice-objects label:nth-last-of-type(1) input[type="radio"]:checked+span {
+    border-radius: 0 0 0.2em 0.2em;
+}
+
+.list-choice:hover .list-choice-objects {
+    max-height: 540px;
 }

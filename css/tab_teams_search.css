@@ -5,9 +5,22 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
+
+    width: 80%;
+
+    color: var(--light_text);
+}
+
+.sort_container {
+    flex: 1 1 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 
 .search_form {
+    flex: 1 1 0;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -22,15 +35,20 @@
     float: left;
     width: 80%;
     background: #f1f1f1;
+
+    background-color: var(--light_background);
+    color: var(--dark_text);
 }
 
 .search_form button {
-    padding: 3vh;
+    padding: 2.4vh;
     background: var(--secondary_color);
     cursor: pointer;
 
     background-image: url('../images/loupe.svg');
     background-size: cover;
+
+    border: none;
 }
 
 .search_form button:hover {
@@ -38,6 +56,26 @@
 
     background-image: url('../images/loupe.svg');
     background-size: cover;
+
+    border: none;
+}
+
+.filter_container {
+    flex: 1 1 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    width: 33%;
+}
+
+.filter_container div{
+    flex: 1 1 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 
@@ -128,7 +166,7 @@
     padding: 0.5vh;
     margin-left: 1vh;
 
-    color: var(--light_background);
+    color: var(--light_text);
 
     background-color: var(--dark_background);
 }
