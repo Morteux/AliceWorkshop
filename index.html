@@ -32,6 +32,7 @@
     <script src="js/index.js"></script>
     <script src="js/navegation.js"></script>
     <script src="js/collapsible.js"></script>
+    <script src="js/autocomplete.js"></script>
 
     <script src="js/tab_teams_search.js"></script>
     <script src="js/tab_user.js"></script>
@@ -64,20 +65,68 @@
         <div id="tab_teams_search" class="tab_teams_search">
 
             <div id="search_form_container" class="search_form_container">
-                <div class="filter_container">
+
+                <div class="sort_container">
+                    <label for="sort_select">Sort by</label>
+
+                    <div class="list-choice">
+                        <div class="list-choice-title">Viability</div>
+                        <div class="list-choice-objects">
+                            <label id="radio_button_meta">
+                                <input type="radio" name="sort" value="Meta" checked /> <span>Meta</span>
+                            </label>
+                            <label>
+                                <input type="radio" name="sort" value="Viable" /> <span>Viable</span>
+                            </label>
+                            <label>
+                                <input type="radio" name="sort" value="Troll" /> <span>Troll</span>
+                            </label>
+                            <label>
+                                <input type="radio" name="sort" value="Unique" /> <span>Unique</span>
+                            </label>
+                        </div>
+                    </div>
 
                 </div>
 
                 <div class="search_form">
-                    <input id="search_form_text_input" class="search_form_text_input" type="text" placeholder="Search..">
+
+                    <div class="autocomplete">
+                        <input id="search_form_text_input" type="text" placeholder="Search..."
+                            class="search_form_text_input">
+                    </div>
                     <button type="submit" class="search_button" onclick="resetResult(); searchQuery()"></button>
+
                 </div>
+
+                <div class="filter_container">
+                    <div>
+                        <span>Favorites</span>
+                        <label class="switch">
+                            <input id="favorites_switch" type="checkbox">
+                            <span class="slider"></span>
+                        </label>
+                    </div>
+                    <div>
+                        <span>Characters owned</span>
+                        <label class="switch">
+                            <input id="characters_switch" type="checkbox">
+                            <span class="slider"></span>
+                        </label>
+                    </div>
+                </div>
+
+            </div>
+
+            <div id="extra_filters_container">
+
             </div>
 
             <div id="result_container" class="result_container">
             </div>
 
-            <div class="result_counter_container">Showing <span id="result_counter"></span> teams of <span id="result_max_counter"></span></div>
+            <div class="result_counter_container">Showing <span id="result_counter"></span> teams of <span
+                    id="result_max_counter"></span></div>
 
         </div>
 
