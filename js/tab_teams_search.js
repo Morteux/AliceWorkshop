@@ -4,7 +4,14 @@ const teams_per_page = 6;
 var teams_search_matches = [];
 var start_index = 0;
 
+var sort_team_id;
+var sort_viability;
+var sort_team_name;
+
 document.addEventListener("DOMContentLoaded", (event) => {
+    sort_team_id = document.getElementById("sort_team_id");
+    sort_viability = document.getElementById("sort_viability");
+    sort_team_name = document.getElementById("sort_team_name");
     
     autocomplete(document.getElementById("search_form_text_input"), character_names);
 

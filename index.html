@@ -67,22 +67,19 @@
             <div id="search_form_container" class="search_form_container">
 
                 <div class="sort_container">
-                    <label for="sort_select">Sort by</label>
+                    <!-- <label for="sort_select">Sort by</label> -->
 
-                    <div class="list-choice">
-                        <div class="list-choice-title">Viability</div>
-                        <div class="list-choice-objects">
-                            <label id="radio_button_meta">
-                                <input type="radio" name="sort" value="Meta" checked /> <span>Meta</span>
+                    <div class="list_choice">
+                        <div class="list_choice_title">Sort by</div>
+                        <div class="list_choice_objects">
+                            <label>
+                                <input type="radio" name="sort" id="sort_team_id" value="team_id" checked /> <span>Team ID</span>
                             </label>
                             <label>
-                                <input type="radio" name="sort" value="Viable" /> <span>Viable</span>
+                                <input type="radio" name="sort" id="sort_viability" value="viability" /> <span>Viability</span>
                             </label>
                             <label>
-                                <input type="radio" name="sort" value="Troll" /> <span>Troll</span>
-                            </label>
-                            <label>
-                                <input type="radio" name="sort" value="Unique" /> <span>Unique</span>
+                                <input type="radio" name="sort" id="sort_team_name" value="team_name" /> <span>Team name</span>
                             </label>
                         </div>
                     </div>
@@ -152,12 +149,30 @@
                     <input id="rotation_select" type="text" placeholder="Rotation" class="long_select">
                     <input id="archetype_select" type="text" placeholder="Archetype" class="short_select">
 
-                    <select name="viability_select" id="viability_select" class="short_select">
+                    <!-- <select name="viability_select" id="viability_select" class="short_select">
                         <option value="Meta">Meta</option>
                         <option value="Viable">Viable</option>
                         <option value="Troll">Troll</option>
                         <option value="Unique">Unique</option>
-                    </select>
+                    </select> -->
+
+                    <div class="list_choice">
+                        <div class="list_choice_title">Viability</div>
+                        <div id="list_choice_objects" class="list_choice_objects">
+                            <label>
+                                <input type="radio" name="team_creator_viability" id="team_creator_meta" value="Meta" checked /> <span>Meta</span>
+                            </label>
+                            <label>
+                                <input type="radio" name="team_creator_viability" id="team_creator_viable" value="Viable" /> <span>Viable</span>
+                            </label>
+                            <label>
+                                <input type="radio" name="team_creator_viability" id="team_creator_troll" value="Troll" /> <span>Troll</span>
+                            </label>
+                            <label>
+                                <input type="radio" name="team_creator_viability" id="team_creator_unique" value="Unique" /> <span>Unique</span>
+                            </label>
+                        </div>
+                    </div>
 
                     <div class="row_selects">
                         <div class="autocomplete">
