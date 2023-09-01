@@ -1,7 +1,7 @@
 var team_count = Object.keys(teams).length;
 
-var menu_tabs = ["menu_characters_check", "menu_teams_creator"];
-var menu_tabs_buttons = ["menu_characters_check_button", "menu_teams_creator_button"];
+var menu_tabs = ["menu_configuration", "menu_characters_check", "menu_teams_creator"];
+var menu_tabs_buttons = ["menu_configuration_button", "menu_characters_check_button", "menu_teams_creator_button"];
 
 var team_creator_meta;
 var team_creator_viable;

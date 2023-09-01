@@ -181,11 +181,8 @@ body {
 .switch {
     display: inline-block;
     width: 60px;
-    /*=w*/
     height: 30px;
-    /*=h*/
-    margin: 1vh;
-    /* transform: translateY(50%); */
+    margin: 1vh; /* transform: translateY(50%); */
     position: relative;
 }
 

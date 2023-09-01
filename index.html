@@ -33,6 +33,7 @@
     <script src="js/navegation.js"></script>
     <script src="js/collapsible.js"></script>
     <script src="js/autocomplete.js"></script>
+    <script src="js/filters.js"></script>
 
     <script src="js/tab_teams_search.js"></script>
     <script src="js/tab_user.js"></script>
@@ -67,8 +68,7 @@
             <div id="search_form_container" class="search_form_container">
 
                 <div class="sort_container">
-                    <!-- <label for="sort_select">Sort by</label> -->
-
+                    
                     <div class="list_choice">
                         <div class="list_choice_title">Sort by</div>
                         <div class="list_choice_objects">
@@ -122,18 +122,34 @@
             <div id="result_container" class="result_container">
             </div>
 
-            <div class="result_counter_container">Showing <span id="result_counter"></span> teams of <span
-                    id="result_max_counter"></span></div>
+            <div class="result_counter_container">Showing 
+                <span id="result_counter"></span> teams of 
+                <span id="result_max_counter"></span>
+            </div>
 
         </div>
 
         <div id="tab_user" class="tab_user">
 
             <div id="navegation_menu" class="navegation_menu">
+                <div id="menu_configuration_button" class="">Configuration</div>
                 <div id="menu_characters_check_button" class="">Characters</div>
                 <div id="menu_teams_creator_button" class="">Team creator</div>
             </div>
             <div id="content_menu" class="content_menu">
+                <div id="menu_configuration">
+                    Configuration
+
+                    dark/light theme switch?
+                    set aether or lumine?
+                    show pre release content?
+                    show teams for actual banners on page load?
+
+                    remove all locale storage/cookies with a warning
+                    remove all favorites
+                    remove all user teams
+                </div>
+
                 <div id="menu_characters_check">
                     Characters
                 </div>
@@ -148,13 +164,6 @@
                     <input id="description_select" type="text" placeholder="Description" class="long_select">
                     <input id="rotation_select" type="text" placeholder="Rotation" class="long_select">
                     <input id="archetype_select" type="text" placeholder="Archetype" class="short_select">
-
-                    <!-- <select name="viability_select" id="viability_select" class="short_select">
-                        <option value="Meta">Meta</option>
-                        <option value="Viable">Viable</option>
-                        <option value="Troll">Troll</option>
-                        <option value="Unique">Unique</option>
-                    </select> -->
 
                     <div class="list_choice">
                         <div class="list_choice_title">Viability</div>
