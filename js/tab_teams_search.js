@@ -4,7 +4,14 @@ const teams_per_page = 6;
 var teams_search_matches = [];
 var start_index = 0;
 
+var sort_team_id;
+var sort_viability;
+var sort_team_name;
+
 document.addEventListener("DOMContentLoaded", (event) => {
+    sort_team_id = document.getElementById("sort_team_id");
+    sort_viability = document.getElementById("sort_viability");
+    sort_team_name = document.getElementById("sort_team_name");
     
     autocomplete(document.getElementById("search_form_text_input"), character_names);
 
@@ -113,8 +120,8 @@ function printTeams() {
                         #` + keys[team_index] + (team.character_4.name.length > 1 ? `-` + character_4_int_index++ : ``) + `
                     </div>
 
-                    <button class="fav_button" onclick="toggleFavorite(this)">
-                        <img class="empty" src="images/star_empty.png">
+                    <button class="fav_button" onclick="toggleFavorite(this, ` + keys[team_index] + `)">
+                        <img class="` + (favorites[keys[team_index]] === null || favorites[keys[team_index]] === undefined ? `empty` : `filled`) + `" src="images/star_` + (favorites[keys[team_index]] === null || favorites[keys[team_index]] === undefined ? `empty` : `filled`) + `.png">
                     </button>
                 </div>
 
@@ -176,14 +183,21 @@ function getCharacterHTML(id, character_team, character_data) {
     `;
 }
 
-function toggleFavorite(button) {
+function toggleFavorite(button, id) {
     let star_img = button.getElementsByTagName('img')[0];
 
+    
     if (star_img.classList.contains("empty")) {
+
+        storeFavoriteTeam(id);
+
         star_img.classList.remove("empty");
         star_img.classList.add("filled");
         star_img.src = "images/star_filled.png";
     } else {
+
+        removeFavoriteTeam(id);
+
         star_img.classList.add("empty");
         star_img.classList.remove("filled");
         star_img.src = "images/star_empty.png";

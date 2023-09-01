@@ -181,11 +181,8 @@ body {
 .switch {
     display: inline-block;
     width: 60px;
-    /*=w*/
     height: 30px;
-    /*=h*/
-    margin: 1vh;
-    /* transform: translateY(50%); */
+    margin: 1vh; /* transform: translateY(50%); */
     position: relative;
 }
 
@@ -303,23 +300,7 @@ background-color: red;
 
 /* Select style */
 
-#radio_button_meta {
-    background: linear-gradient(to right, var(--secondary_color) 40%, var(--meta_team));
-}
-
-.radio_button_viable {
-    background: linear-gradient(to right, var(--secondary_color) 40%, var(--viable_team));
-}
-
-.radio_button_troll {
-    background: linear-gradient(to right, var(--secondary_color) 40%, var(--troll_team));
-}
-
-.radio_button_unique {
-    background: linear-gradient(to right, var(--secondary_color) 40%, var(--unique_team));
-}
-
-.list-choice {
+.list_choice {
     width: 20vh;
     margin: 2vh;
     position: relative;
@@ -328,12 +309,12 @@ background-color: red;
     z-index: 99;
 }
 
-.list-choice input[type="radio"] {
+.list_choice input[type="radio"] {
     position: absolute;
     left: -9999px;
 }
 
-.list-choice-title {
+.list_choice_title {
     width: 100%;
     display: block;
     background-color: var(--secondary_color);
@@ -345,15 +326,15 @@ background-color: red;
     border-radius: 0.2em;
 }
 
-.list-choice:hover .list-choice-title {
+.list_choice:hover .list_choice_title {
     border-radius: 0.2em 0.2em 0 0;
 }
 
-.list-choice-objects label:nth-last-of-type(1) span {
+.list_choice_objects label:nth-last-of-type(1) span {
     border-radius: 0 0 0.2em 0.2em;
 }
 
-.list-choice input[type="radio"]+span {
+.list_choice input[type="radio"]+span {
     color: #FFF;
     background-color: var(--secondary_color);
     padding: 0.55em 1em;
@@ -364,7 +345,7 @@ background-color: red;
     width: 100%;
 }
 
-.list-choice-objects {
+.list_choice_objects {
     position: absolute;
     top: 0;
     padding-top: 2.1em;
@@ -375,23 +356,23 @@ background-color: red;
     transition: all 250ms ease;
 }
 
-.list-choice:hover .list-choice-objects input[type="radio"]+span {
+.list_choice:hover .list_choice_objects input[type="radio"]+span {
     position: relative;
     top: 0;
     transition: all 250ms ease-in-out;
 }
 
-.list-choice:hover input[type="radio"]+span:hover {
+.list_choice:hover input[type="radio"]+span:hover {
     background-color: var(--tertiary_color);
     color: var(--dark_text);
 }
 
-.list-choice:hover input[type="radio"]:checked+span:hover {
+.list_choice:hover input[type="radio"]:checked+span:hover {
     background-color: var(--tertiary_color);
     color: var(--dark_text);
 }
 
-.list-choice input[type="radio"]:checked+span {
+.list_choice input[type="radio"]:checked+span {
     background-color: var(--tertiary_color);
     color: var(--dark_text);
     position: absolute;
@@ -399,14 +380,14 @@ background-color: red;
     border-radius: 0.2em;
 }
 
-.list-choice:hover input[type="radio"]:checked+span {
+.list_choice:hover input[type="radio"]:checked+span {
     border-radius: 0;
 }
 
-.list-choice:hover .list-choice-objects label:nth-last-of-type(1) input[type="radio"]:checked+span {
+.list_choice:hover .list_choice_objects label:nth-last-of-type(1) input[type="radio"]:checked+span {
     border-radius: 0 0 0.2em 0.2em;
 }
 
-.list-choice:hover .list-choice-objects {
+.list_choice:hover .list_choice_objects {
     max-height: 540px;
 }

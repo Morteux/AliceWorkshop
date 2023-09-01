@@ -1,9 +1,19 @@
 var team_count = Object.keys(teams).length;
 
-var menu_tabs = ["menu_characters_check", "menu_teams_creator"];
-var menu_tabs_buttons = ["menu_characters_check_button", "menu_teams_creator_button"];
+var menu_tabs = ["menu_configuration", "menu_characters_check", "menu_teams_creator"];
+var menu_tabs_buttons = ["menu_configuration_button", "menu_characters_check_button", "menu_teams_creator_button"];
+
+var team_creator_meta;
+var team_creator_viable;
+var team_creator_troll;
+var team_creator_unique;
 
 document.addEventListener("DOMContentLoaded", (event) => {
+    team_creator_meta = document.getElementById("team_creator_meta");
+    team_creator_viable = document.getElementById("team_creator_viable");
+    team_creator_troll = document.getElementById("team_creator_troll");
+    team_creator_unique = document.getElementById("team_creator_unique");
+
     document.getElementById("id_input").value = team_count + 1;
 
     autocomplete(document.getElementById("character_1_select"), character_names);
@@ -22,6 +32,20 @@ document.addEventListener("DOMContentLoaded", (event) => {
     // setMenuTabActive(document.getElementById("menu_characters_check"), document.getElementById("menu_characters_check_button"));
     setMenuTabActive(document.getElementById("menu_teams_creator"), document.getElementById("menu_teams_creator_button"));
 });
+
+function getViability() {
+    let viability = "Meta";
+
+    if (team_creator_viable.checked) {
+        viability = team_creator_viable.value;
+    } else if (team_creator_troll.checked) {
+        viability = team_creator_troll.value;
+    } else if (team_creator_unique.checked) {
+        viability = team_creator_unique.value;
+    }
+
+    return viability;
+}
 
 function setMenuTabActive(menu_tab, menu_tab_button) {
     if (!menu_tab.classList.contains('active_tab_button')) {
@@ -64,7 +88,7 @@ function printTeamJSON() {
         "description": "` + document.getElementById("description_select").value + `",
         "rotation": "` + document.getElementById("rotation_select").value + `",
         "archetype": "` + document.getElementById("archetype_select").value + `",
-        "viability": "` + document.getElementById("viability_select").value + `",
+        "viability": "` + getViability() + `",
 
         "character_1": {
             "name": "` + document.getElementById("character_1_select").value + `",
