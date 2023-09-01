@@ -19,7 +19,7 @@ function toggleFilter(filter_name, filter_function) {
 
 }
 
-function filter(id, team, character_4_int_index) {
+function filter(id, team) {
     let pass = true;
 
     if(document.getElementById("favorites_switch").checked && isNotFavorite(id)) {
