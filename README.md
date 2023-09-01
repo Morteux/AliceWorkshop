@@ -24,7 +24,6 @@ https://morteux.github.io/AliceWorkshop/
 - troll: random team name generator.
 
 ### Filters
-- Filter by language
 - Filter by user characters
 - Filter by archetype
 
