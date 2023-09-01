@@ -55,6 +55,14 @@ function resetResult() {
     document.getElementById("result_container").innerHTML = "";
 }
 
+function isTeamName(team, search_form_text_input) {
+    return team.name.toUpperCase().includes(search_form_text_input.toUpperCase())
+}
+
+function containCharacter(team, character) {
+    return team.character_1 == character || team.character_2 == character || team.character_3 == character || team.character_4.name.includes(character);
+}
+
 function searchQuery() {
     document.getElementById("result_container").style.display = "none";
 
@@ -75,7 +83,7 @@ function getTeamsByTextInput() {
 
     if (search_form_text_input.length != 0) {
         for (let team_index in teams) {
-            if (search_form_text_input.length != 0 && teams[team_index].name.toUpperCase().includes(search_form_text_input.toUpperCase())) {
+            if (search_form_text_input.length != 0 && containCharacter(teams[team_index], search_form_text_input)) {
                 // console.log("Coincidence for: " + teams[team_index].name);
                 teams_search_matches[team_index] = teams[team_index];
             }
@@ -166,7 +174,6 @@ function printTeams() {
                 document.getElementById("result_container").innerHTML += team_output;
 
             }
-
         }
 
         if (filter_passed) {
@@ -187,20 +194,9 @@ function getCharacterHTML(id, character_team, character_data) {
         console.log(character_data);
     }
 
-    if(character_data.name != "Bennett")
     return `
     <div id="` + id + `" class="character_container ` + character_data.name.replaceAll(" ", "_") + `">
         <img class="character_icon ` + (character_data.rarity == "5" ? "character_5_stars" : "character_4_stars") + `" src="https://api.ambr.top/assets/UI/` + character_data.images.nameicon + `.png" alt="Character icon for ` + character_data.name + `">
-        <img class="element_icon" src="images/elements/glow_` + (character_data.element != "None" ? character_data.element.toLowerCase() : builds[character_team.name][character_team.build].element.toLowerCase()) + `.png">
-        ` + (builds[character_team.name][character_team.build].constellation != "" ? `<div class="constellation">` + builds[character_team.name][character_team.build].constellation + `</div>` : ``) + `
-        <div class="rarity_container">` + star_svg + star_svg + star_svg + star_svg + (character_data.rarity == "5" ? star_svg : "") + `</div>
-        <div class="character_name ` + (character_data.name.length < 10 ? "character_name_short" : (character_data.name.length < 17 ? "character_name_medium" : "character_name_long")) + `">` + character_data.name + `</div>
-    </div>
-    `;
-    else 
-    return `
-    <div id="` + id + `" class="character_container ` + character_data.name.replaceAll(" ", "_") + `">
-        <img class="character_icon ` + (character_data.rarity == "5" ? "character_5_stars" : "character_4_stars") + `" src="images/clown.png" alt="Character icon for ` + character_data.name + `">
         <img class="element_icon" src="images/elements/glow_` + (character_data.element != "None" ? character_data.element.toLowerCase() : builds[character_team.name][character_team.build].element.toLowerCase()) + `.png">
         ` + (builds[character_team.name][character_team.build].constellation != "" ? `<div class="constellation">` + builds[character_team.name][character_team.build].constellation + `</div>` : ``) + `
         <div class="rarity_container">` + star_svg + star_svg + star_svg + star_svg + (character_data.rarity == "5" ? star_svg : "") + `</div>
