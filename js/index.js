@@ -18,37 +18,9 @@
 
 
 // A single rarity's star in SVG format
+const elements = ["Pyro", "Electro", "Hydro", "Cryo", "Anemo", "Geo", "Dendro"];
+
+const archetypes = ["Monogeo", "Monohydro", "Monocryo", "Monopyro", "Monoelectro", "Monoanemo", "Hypercarry", "Freeze", "National", "Vape Carry", "Overvape", "Taser", "Soup", "Melt", "Melt Quicksawp", "Aggravate", "Spread", "Bloom", "Burgeon", "Oven", "Curry", "Sauté", "Fridge", "Salad", "Airfryer", "Hyperbloom", "Quickbloom", "Hyperfridge"];
+
 const star_svg = `<img class="rarity" src="images/rarity/star.svg">`;
 const character_names = Object.keys(characters);
-
-var favorites = {};
-var user_teams = {};
-
-window.addEventListener("beforeunload", function (e) {
-    localStorage.setItem('favorites', JSON.stringify(favorites));
-    localStorage.setItem('user_teams', JSON.stringify(user_teams));
-});
-
-if (localStorage.getItem("favorites") !== null && localStorage.getItem("favorites") != "{}") {
-    favorites = JSON.parse(localStorage.getItem("favorites"));
-    // console.log(favorites);
-}
-
-if (localStorage.getItem("user_teams") !== null && localStorage.getItem("user_teams") != "{}") {
-    user_teams = JSON.parse(localStorage.getItem("user_teams"));
-    // console.log(user_teams);
-}
-
-function storeFavoriteTeam(id) {
-    // console.log("Stored favorite " + id);
-    // console.log(teams[id]);
-
-    favorites[id] = teams[id];
-}
-
-function removeFavoriteTeam(id) {
-    // console.log("Removed favorite " + id);
-    // console.log(favorites[id]);
-
-    delete favorites[id];
-}

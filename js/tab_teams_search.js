@@ -83,7 +83,7 @@ function getTeamsByTextInput() {
 
     // if (search_form_text_input.length != 0) {
     for (let team_index in teams) {
-        if (filter(team_index, teams[team_index]) && containCharacter(teams[team_index], search_form_text_input.toUpperCase())) {
+        if (doFilter(team_index, teams[team_index]) && containCharacter(teams[team_index], search_form_text_input.toUpperCase())) {
             // console.log("Coincidence for: " + teams[team_index].name);
             teams_search_matches[team_index] = teams[team_index];
         }

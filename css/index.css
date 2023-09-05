@@ -182,7 +182,8 @@ body {
     display: inline-block;
     width: 60px;
     height: 30px;
-    margin: 1vh; /* transform: translateY(50%); */
+    margin: 1vh;
+    /* transform: translateY(50%); */
     position: relative;
 }
 
@@ -285,18 +286,6 @@ input[type=text] {
 
 
 
-/* .team_id_value {
-background-color: red;
-}
-
-.team_name_value {
-
-}
-
-.archetype_value {
-
-} */
-
 
 /* Select style */
 
@@ -390,4 +379,36 @@ background-color: red;
 
 .list_choice:hover .list_choice_objects {
     max-height: 540px;
+}
+
+
+
+
+
+/* Checkbox filters style */
+
+.checkbox_filter {
+    margin: 0px;
+}
+
+.checkbox_filter label {
+    padding: 0.5vh;
+    border: var(--tertiary_color) 2px solid;
+    border-radius: 10px;
+}
+
+.checkbox_filter input[type="checkbox"] {
+    width: 0%;
+    opacity: 0;
+    margin: 0;
+}
+
+.checkbox_filter input[type="checkbox"]+label {
+    color: rgb(255, 48, 48);
+    text-decoration: line-through 2px;
+}
+
+.checkbox_filter input[type="checkbox"]:checked+label {
+    color: limegreen;
+    text-decoration: none;
 }

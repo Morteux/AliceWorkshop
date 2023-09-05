@@ -8,6 +8,24 @@ var team_creator_viable;
 var team_creator_troll;
 var team_creator_unique;
 
+var favorites = {};
+var user_teams = {};
+
+window.addEventListener("beforeunload", function (e) {
+    localStorage.setItem('favorites', JSON.stringify(favorites));
+    localStorage.setItem('user_teams', JSON.stringify(user_teams));
+});
+
+if (localStorage.getItem("favorites") !== null && localStorage.getItem("favorites") != "{}") {
+    favorites = JSON.parse(localStorage.getItem("favorites"));
+    // console.log(favorites);
+}
+
+if (localStorage.getItem("user_teams") !== null && localStorage.getItem("user_teams") != "{}") {
+    user_teams = JSON.parse(localStorage.getItem("user_teams"));
+    // console.log(user_teams);
+}
+
 document.addEventListener("DOMContentLoaded", (event) => {
     team_creator_meta = document.getElementById("team_creator_meta");
     team_creator_viable = document.getElementById("team_creator_viable");
@@ -118,4 +136,18 @@ function printTeamJSON() {
 
     // Copy the text inside the text field
     navigator.clipboard.writeText(copyText.value);
+}
+
+function storeFavoriteTeam(id) {
+    // console.log("Stored favorite " + id);
+    // console.log(teams[id]);
+
+    favorites[id] = teams[id];
+}
+
+function removeFavoriteTeam(id) {
+    // console.log("Removed favorite " + id);
+    // console.log(favorites[id]);
+
+    delete favorites[id];
 }
