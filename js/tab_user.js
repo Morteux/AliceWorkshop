@@ -127,6 +127,11 @@ function printTeamJSON() {
     },
     `;
 
+    // copyToClipboard();
+}
+
+function copyToClipboard() {
+
     // Get the text field
     let copyText = document.getElementById("json_result");
 
