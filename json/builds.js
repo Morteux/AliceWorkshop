@@ -775,6 +775,17 @@ const builds = {
             },
             "subs_stat": ["", "", "", ""]
         }
+        "Melt": {
+            "constellation": "",
+            "weapon": "",
+            "set": "",
+            "main_stat": {
+                "Sands": "",
+                "Goblet": "",
+                "Circlet": "",
+            },
+            "subs_stat": ["", "", "", ""]
+        }
     },
     "Sangonomiya Kokomi": {
         "Standard": {
