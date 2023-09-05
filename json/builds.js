@@ -774,7 +774,7 @@ const builds = {
                 "Circlet": "",
             },
             "subs_stat": ["", "", "", ""]
-        }
+        },
         "Melt": {
             "constellation": "",
             "weapon": "",

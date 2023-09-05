@@ -1571,7 +1571,7 @@ const teams = {
             "name": ["Zhongli", "Kirara", "Baizhu", "Sangonomiya Kokomi", "Yaoyao"],
             "build": ["Standard","Standard","Standard","Standard","Standard"]
         }
-    }
+    },
 
                         
     "64": {

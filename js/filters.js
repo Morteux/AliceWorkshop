@@ -21,7 +21,14 @@ function printExtraFilters() {
 
     let filters = "";
 
-    filters += `<div class="filters_elements">`;
+    filters += `<div class="filters_elements">
+    
+        <button id="toggle_all_elements_button" class="primary_button" onclick="toggleAllElements()">+</button>
+    `;
+
+    
+
+
     for (let element_index in elements) {
         let element = elements[element_index];
 
@@ -127,6 +134,14 @@ function toggleFilterArchetype(archetype) {
     }
 
     console.log(filters_archetype);
+}
+
+function toggleAllElements() {
+    document.getElementById("toggle_all_elements_button");
+
+    while(elements[0] != null) {
+        document.getElementById("filter_element_" + elements[0].toLowerCase()).click();
+    }
 }
 
 function toggleFilterElement(element) {
