@@ -60,7 +60,7 @@ function isTeamName(team, search_form_text_input) {
 }
 
 function containCharacter(team, character) {
-    return team.character_1 == character || team.character_2 == character || team.character_3 == character || team.character_4.name.includes(character);
+    return character.length == 0 || team.character_1.name.toUpperCase() == character || team.character_2.name.toUpperCase() == character || team.character_3.name.toUpperCase() == character || team.character_4.name.map(function(x){ return x.toUpperCase(); }).includes(character);
 }
 
 function searchQuery() {
@@ -81,17 +81,17 @@ function getTeamsByTextInput() {
 
     // console.log("Searching for: " + search_form_text_input);
 
-    if (search_form_text_input.length != 0) {
-        for (let team_index in teams) {
-            if (search_form_text_input.length != 0 && containCharacter(teams[team_index], search_form_text_input)) {
-                // console.log("Coincidence for: " + teams[team_index].name);
-                teams_search_matches[team_index] = teams[team_index];
-            }
+    // if (search_form_text_input.length != 0) {
+    for (let team_index in teams) {
+        if (doFilter(team_index, teams[team_index]) && containCharacter(teams[team_index], search_form_text_input.toUpperCase())) {
+            // console.log("Coincidence for: " + teams[team_index].name);
+            teams_search_matches[team_index] = teams[team_index];
         }
     }
-    else {
-        teams_search_matches = teams;
-    }
+    // }
+    // else {
+    //     teams_search_matches = teams;
+    // }
 }
 
 function printTeams() {
@@ -112,21 +112,21 @@ function printTeams() {
         // console.log(start_index);
         // console.log(teams_search_matches[keys[team_index]]);
         // console.log(teams_search_matches[keys[team_index]].character_4);
-        let filter_passed = false;
+        // let filter_passed = false;
 
         let team = teams_search_matches[keys[team_index]];
         let character_4_int_index = 1;
         for (let character_4_index in team.character_4.name) {
 
-            if (filter(keys[team_index], team, character_4_int_index)) {
-                filter_passed = true;
+            // if (filter(keys[team_index], team, character_4_int_index)) {
+            //     filter_passed = true;
 
-                let character_4 = {
-                    "name": team.character_4.name[character_4_index],
-                    "build": team.character_4.build[character_4_index]
-                };
+            let character_4 = {
+                "name": team.character_4.name[character_4_index],
+                "build": team.character_4.build[character_4_index]
+            };
 
-                team_output = `
+            team_output = `
                 <div id="team_container" class="team_container viability_` + team.viability.toLowerCase() + `">
 
                     <div id="toolbox_container" class="toolbox_container">
@@ -141,11 +141,11 @@ function printTeams() {
 
                     <div id="characters_container" class="characters_container">
                     ` +
-                    getCharacterHTML("character_1", team.character_1, characters[team.character_1.name]) +
-                    getCharacterHTML("character_2", team.character_2, characters[team.character_2.name]) +
-                    getCharacterHTML("character_3", team.character_3, characters[team.character_3.name]) +
-                    getCharacterHTML("character_4", character_4, characters[character_4.name]) +
-                    `
+                getCharacterHTML("character_1", team.character_1, characters[team.character_1.name]) +
+                getCharacterHTML("character_2", team.character_2, characters[team.character_2.name]) +
+                getCharacterHTML("character_3", team.character_3, characters[team.character_3.name]) +
+                getCharacterHTML("character_4", character_4, characters[character_4.name]) +
+                `
                     </div>
                     
                     <button class="collapsible" onclick="toggleCollapse(this)">
@@ -171,20 +171,20 @@ function printTeams() {
                 </div>
                 `;
 
-                document.getElementById("result_container").innerHTML += team_output;
+            document.getElementById("result_container").innerHTML += team_output;
 
-            }
+            // }
         }
 
-        if (filter_passed) {
-            ++team_count;
-        }
+        // if (filter_passed) {
+        ++team_count;
+        // }
 
         ++team_index;
-
-        document.getElementById("result_counter").innerHTML = (start_index + teams_per_page < Object.keys(teams_search_matches).length ? start_index + teams_per_page : Object.keys(teams_search_matches).length);
-        document.getElementById("result_max_counter").innerHTML = Object.keys(teams_search_matches).length;
     }
+
+    document.getElementById("result_counter").innerHTML = (start_index + teams_per_page < Object.keys(teams_search_matches).length ? start_index + teams_per_page : Object.keys(teams_search_matches).length);
+    document.getElementById("result_max_counter").innerHTML = Object.keys(teams_search_matches).length;
 }
 
 function getCharacterHTML(id, character_team, character_data) {
