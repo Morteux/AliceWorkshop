@@ -1571,7 +1571,109 @@ const teams = {
             "name": ["Zhongli", "Kirara", "Baizhu", "Sangonomiya Kokomi", "Yaoyao"],
             "build": ["Standard","Standard","Standard","Standard","Standard"]
         }
-    }
+    },
+
+                        
+    "64": {
+        "name": "Klee Reverse Melt",
+        "description": "",
+        "rotation": "",
+        "archetype": "Melt",
+        "viability": "Troll",
+
+        "character_1": {
+            "name": "Klee",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Bennett",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Rosaria",
+            "build": "Melt"
+        },
+        "character_4": {
+            "name": ["Kaedehara Kazuha", "Sucrose", "Zhongli", "Kaeya"],
+            "build": ["Standard", "Standard", "Standard", "Standard"]
+        }
+    },
+    
+    "65": {
+        "name": "Klee Overload",
+        "description": "",
+        "rotation": "",
+        "archetype": "Overload",
+        "viability": "Troll",
+
+        "character_1": {
+            "name": "Klee",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Bennett",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Fischl",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Beidou"],
+            "build": ["Standard"]
+        }
+    },
+    
+    "66": {
+        "name": "Klee Taser",
+        "description": "An odd variation of taser, using Klee instead of Sucrose. ",
+        "rotation": "",
+        "archetype": "Overvape",
+        "viability": "Troll",
+
+        "character_1": {
+            "name": "Klee",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Xingqiu",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Fischl",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Beidou"],
+            "build": ["Standard"]
+        }
+    },
+    
+    "67": {
+        "name": "Klee Overvape",
+        "description": "",
+        "rotation": "",
+        "archetype": "Overvape",
+        "viability": "Troll",
+
+        "character_1": {
+            "name": "Klee",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Xingqiu",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Fischl",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Yelan", "Bennett", "Zhongli", "Jean", "Kaedehara Kazuha"],
+            "build": ["Standard", "Standard", "Standard", "Standard", "Standard"]
+        }
+    },
+    
     
 
 }

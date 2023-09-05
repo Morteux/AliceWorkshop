@@ -774,6 +774,17 @@ const builds = {
                 "Circlet": "",
             },
             "subs_stat": ["", "", "", ""]
+        },
+        "Melt": {
+            "constellation": "",
+            "weapon": "",
+            "set": "",
+            "main_stat": {
+                "Sands": "",
+                "Goblet": "",
+                "Circlet": "",
+            },
+            "subs_stat": ["", "", "", ""]
         }
     },
     "Sangonomiya Kokomi": {
