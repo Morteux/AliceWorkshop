@@ -4,6 +4,7 @@ var filters_viability = [];
 var filters_character = [];
 
 var filter_favorite = false;
+var filter_characters_owned = false;
 
 document.addEventListener("DOMContentLoaded", (event) => {
     document.getElementById("extra_filters_container").style.display = "none";
@@ -100,6 +101,8 @@ function doFilter(id, team) {
         pass = false;
     } else if (filterByViability(team)) {
         pass = false;
+    } else if (filterByUserCharacter(team)) {
+        pass = false;
     }
 
     return pass;
@@ -154,6 +157,25 @@ function filterByElement(team) {
 
 function filterByViability(team) {
     return !filters_viability.includes(team.viability);
+}
+
+function filterByUserCharacter(team) {
+    let hasNotUserCharacter = false;
+
+    if (filter_characters_owned) {
+
+        hasNotUserCharacter = user_teams[team.character_1.name] == null || user_teams[team.character_2.name] == null || user_teams[team.character_3.name] == null;
+
+        if (!hasNotUserCharacter) {
+            for (let character_index in team.character_4.name) {
+                if (user_teams[team.character_4.name[character_index]] == null) {
+                    hasNotUserCharacter = true;
+                }
+            }
+        }
+    }
+
+    return hasNotUserCharacter;
 }
 
 // Filters togglers
@@ -286,4 +308,8 @@ function toggleFilterViability(viability) {
     }
 
     // console.log(filters_viability);
+}
+
+function toggleFilterCharactersOwned() {
+    filter_characters_owned = !filter_characters_owned;
 }
