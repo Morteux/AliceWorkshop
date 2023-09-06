@@ -53,7 +53,7 @@ const teams = {
         "name": "Vape Dehya",
         "description": "Basically Dehya and her powerfull damage carring the whole abyss. Since Dehya cds, you can alter the rotation in order to fix her E cooldown. For example, doing Kazuha's ult at the end of the rotation to gain time. ",
         "rotation": "E Dehya >  E + Q Bennett > E + (Q) Kazuha  > Q + E Mona > Q Dehya (and click so hard)",
-        "archetype": "On-Field Vape",
+        "archetype": "Vape Carry",
         "viability": "Troll",
 
         "character_1": {
@@ -78,7 +78,7 @@ const teams = {
         "name": "Vape Yoimiya",
         "description": "Good Single Target damage thanks to Yoimiya and Xingqiu. Rotation did with Reminiscence artifacts.",
         "rotation": "Q + E Bennett > Q + E Xingqiu > E + Q Yun Jin > Yoimiya E + NA until end, then Q",
-        "archetype": "On-field Vape",
+        "archetype": "Vape Carry",
         "viability": "Viable",
 
         "character_1": {
