@@ -270,7 +270,7 @@
 }
 
 .character_container {
-    flex: 1 1 0;
+    flex: 1 1 1;
     position: relative;
 
     display: flex;
@@ -282,6 +282,10 @@
 
     border-radius: 8%;
     background-color: var(--light_background);
+}
+
+.character_container:hover {
+    box-shadow: 5px 5px 5px black;
 }
 
 .character_icon {

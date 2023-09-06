@@ -49,6 +49,24 @@
     width: 80%;
 }
 
+.menu_characters_check {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    width: 90%;
+}
+
+.menu_characters_check>div {
+    margin: 1vh;
+}
+
+.character_unchecked>img {
+    filter: grayscale(1);
+}
+
 .menu_teams_creator {
     display: flex;
     flex-direction: column;
@@ -65,7 +83,8 @@
     justify-content: center;
 }
 
-.short_select, .long_select {
+.short_select,
+.long_select {
     margin-top: 2vh;
     margin-left: 0.5vh;
     margin-right: 0.5vh;
