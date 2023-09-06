@@ -8,13 +8,11 @@ document.addEventListener("DOMContentLoaded", (event) => {
     document.getElementById("extra_filters_container").style.display = "none";
 
     printExtraFilters();
-
-    
 });
 
 function printExtraFilters() {
-    filters_element = elements;
-    filters_archetype = archetypes;
+    filters_element = elements.slice(); // Copy by value, not by reference
+    filters_archetype = archetypes.slice(); // Copy by value, not by reference
     filters_character = [];
 
     extra_filters_container = document.getElementById("extra_filters_container");
@@ -25,9 +23,6 @@ function printExtraFilters() {
     
         <button id="toggle_all_elements_button" class="primary_button" onclick="toggleAllElements()">+</button>
     `;
-
-    
-
 
     for (let element_index in elements) {
         let element = elements[element_index];
@@ -40,7 +35,10 @@ function printExtraFilters() {
     }
     filters += `</div>`;
 
-    filters += `<div class="filters_archetypes">`;
+    filters += `<div class="filters_archetypes">
+    
+    <button id="toggle_all_archetypes_button" class="primary_button" onclick="toggleAllArchetypes()">+</button>
+    `;
     for (let archetype_index in archetypes) {
         let archetype = archetypes[archetype_index];
 
@@ -56,7 +54,7 @@ function printExtraFilters() {
 }
 
 function toggleExtraFiltersContainer() {
-    if( document.getElementById("extra_filters_container").style.display == "none") {
+    if (document.getElementById("extra_filters_container").style.display == "none") {
         document.getElementById("extra_filters_container").style.display = "";
     } else {
         document.getElementById("extra_filters_container").style.display = "none";
@@ -117,9 +115,32 @@ function toggleFilterFavorite() {
     filter_favorite = !filter_favorite;
 }
 
+function toggleAllArchetypes() {
+
+    if (filters_archetype.length > 0) {
+        document.getElementById("toggle_all_archetypes_button").innerHTML = "-";
+
+        while (filters_archetype[0] != null) {
+            document.getElementById("filter_archetype_" + filters_archetype[0].toLowerCase()).checked = false;
+            toggleFilterArchetype(filters_archetype[0]);
+        }
+    } else {
+        document.getElementById("toggle_all_archetypes_button").innerHTML = "+";
+
+        for (let archetype_index in archetypes) {
+            if (!filters_archetype.includes(archetypes[archetype_index])) {
+                document.getElementById("filter_archetype_" + archetypes[archetype_index].toLowerCase()).checked = true;
+                toggleFilterArchetype(archetypes[archetype_index]);
+            }
+        }
+    }
+
+    resetResult();
+    searchQuery();
+}
+
 function toggleFilterArchetype(archetype) {
 
-    // if(document.getElementById("filter_element_" + element.toLowerCase()).checked) {
     if (filters_archetype.includes(archetype)) {
         console.log(archetype + " not filtered");
 
@@ -137,11 +158,29 @@ function toggleFilterArchetype(archetype) {
 }
 
 function toggleAllElements() {
-    document.getElementById("toggle_all_elements_button");
 
-    while(elements[0] != null) {
-        document.getElementById("filter_element_" + elements[0].toLowerCase()).click();
+    if (filters_element.length > 0) {
+        document.getElementById("toggle_all_elements_button").innerHTML = "-";
+
+        while (filters_element[0] != null) {
+            // document.getElementById("filter_element_" + filters_element[0].toLowerCase()).click();
+            document.getElementById("filter_element_" + filters_element[0].toLowerCase()).checked = false;
+            toggleFilterElement(filters_element[0]);
+        }
+    } else {
+        document.getElementById("toggle_all_elements_button").innerHTML = "+";
+
+        for (let element_index in elements) {
+            if (!filters_element.includes(elements[element_index])) {
+                // document.getElementById("filter_element_" + elements[element_index].toLowerCase()).click();
+                document.getElementById("filter_element_" + elements[element_index].toLowerCase()).checked = true;
+                toggleFilterElement(elements[element_index]);
+            }
+        }
     }
+
+    resetResult();
+    searchQuery();
 }
 
 function toggleFilterElement(element) {
