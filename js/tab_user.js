@@ -27,6 +27,16 @@ if (localStorage.getItem("user_teams") !== null && localStorage.getItem("user_te
 }
 
 document.addEventListener("DOMContentLoaded", (event) => {
+
+    // Configuration
+
+
+    // Characters
+
+    printCharactersCheck();
+
+    // Team creator
+
     team_creator_meta = document.getElementById("team_creator_meta");
     team_creator_viable = document.getElementById("team_creator_viable");
     team_creator_troll = document.getElementById("team_creator_troll");
@@ -155,4 +165,41 @@ function removeFavoriteTeam(id) {
     // console.log(favorites[id]);
 
     delete favorites[id];
+}
+
+function getCharacterCheckHTML(character_data) {
+    if (character_data == null) {
+        console.log(character_data);
+    }
+
+    return `
+    <div id="character_check_` + character_data.name + `" class="character_container ` + (user_teams[character_data.name] == null ? "character_unchecked" : "") + `" onclick="toggleCharacterUser('` + character_data.name + `')">
+        <img class="character_icon ` + (character_data.rarity == "5" ? "character_5_stars" : "character_4_stars") + `" src="https://api.ambr.top/assets/UI/` + character_data.images.nameicon + `.png" alt="Character icon for ` + character_data.name + `">
+        ` + (character_data.element != "None" ? `<img class="element_icon" src="images/elements/glow_` + character_data.element.toLowerCase() + `.png">` : "") + `
+        <div class="rarity_container">` + star_svg + star_svg + star_svg + star_svg + (character_data.rarity == "5" ? star_svg : "") + `</div>
+        <div class="character_name ` + (character_data.name.length < 10 ? "character_name_short" : (character_data.name.length < 17 ? "character_name_medium" : "character_name_long")) + `">` + character_data.name + `</div>
+    </div>
+    `;
+}
+
+function printCharactersCheck() {
+    let menu_characters_check = "";
+
+    for (let character_index in characters) {
+        menu_characters_check += getCharacterCheckHTML(characters[character_index]);
+    }
+
+    document.getElementById("menu_characters_check").innerHTML = menu_characters_check;
+}
+
+function toggleCharacterUser(character_name) {
+    if (user_teams[character_name] != null) {
+        if (!document.getElementById("character_check_" + character_name).classList.contains("character_unchecked")) {
+            document.getElementById("character_check_" + character_name).classList.add("character_unchecked");
+        }
+        delete user_teams[character_name];
+    } else {
+        document.getElementById("character_check_" + character_name).classList.remove("character_unchecked");
+        user_teams[character_name] = characters[character_name];
+    }
 }

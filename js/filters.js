@@ -105,8 +105,10 @@ function doFilter(id, team) {
     return pass;
 }
 
+// Filters logic
+
 function filterByFavorite(id) {
-    return filter_favorite && isNotFavorite(id);
+    return filter_favorite && favorites[id] == null;
 }
 
 function filterByArchetype(team) {
@@ -126,21 +128,32 @@ function filterByElement(team) {
         }
     }
 
+    // Checks for Aether and Lumine
+    if (!hasExcludedElement) {
+
+        if (characters[team.character_1.name].element == "None" && !filters_element.includes(team.character_1.build.element)) {
+            hasExcludedElement = true;
+
+        } else if (characters[team.character_2.name].element == "None" && !filters_element.includes(team.character_2.build.element)) {
+            hasExcludedElement = true;
+
+        } else if (characters[team.character_3.name].element == "None" && !filters_element.includes(team.character_3.build.element)) {
+            hasExcludedElement = true;
+
+        } else {
+            for (let character_index in team.character_4.name) {
+                if (characters[team.character_4.name[character_index]].element == "None" && !filters_element.includes(team.character_4.build[character_index].element)) {
+                    hasExcludedElement = true;
+                }
+            }
+        }
+    }
+
     return hasExcludedElement;
 }
 
 function filterByViability(team) {
     return !filters_viability.includes(team.viability);
-}
-
-// Filters logic
-
-function isNotFavorite(id) {
-    return favorites[id] == null;
-}
-
-function isTeamUser() {
-
 }
 
 // Filters togglers
@@ -176,7 +189,7 @@ function toggleAllArchetypes() {
 function toggleFilterArchetype(archetype) {
 
     if (filters_archetype.includes(archetype)) {
-        console.log(archetype + " not filtered");
+        // console.log(archetype + " not filtered");
 
         const index = filters_archetype.indexOf(archetype);
         if (index > -1) {           // only splice array when item is found
@@ -184,11 +197,11 @@ function toggleFilterArchetype(archetype) {
         }
 
     } else {
-        console.log(archetype + " filtered");
+        // console.log(archetype + " filtered");
         filters_archetype.push(archetype);
     }
 
-    console.log(filters_archetype);
+    // console.log(filters_archetype);
 }
 
 function toggleAllElements() {
@@ -218,7 +231,7 @@ function toggleAllElements() {
 function toggleFilterElement(element) {
 
     if (filters_element.includes(element)) {
-        console.log(element + " not filtered");
+        // console.log(element + " not filtered");
 
         const index = filters_element.indexOf(element);
         if (index > -1) {           // only splice array when item is found
@@ -226,11 +239,11 @@ function toggleFilterElement(element) {
         }
 
     } else {
-        console.log(element + " filtered");
+        // console.log(element + " filtered");
         filters_element.push(element);
     }
 
-    console.log(filters_element);
+    // console.log(filters_element);
 }
 
 function toggleAllViabilities() {
@@ -260,7 +273,7 @@ function toggleAllViabilities() {
 function toggleFilterViability(viability) {
 
     if (filters_viability.includes(viability)) {
-        console.log(viability + " not filtered");
+        // console.log(viability + " not filtered");
 
         const index = filters_viability.indexOf(viability);
         if (index > -1) {           // only splice array when item is found
@@ -268,9 +281,9 @@ function toggleFilterViability(viability) {
         }
 
     } else {
-        console.log(viability + " filtered");
+        // console.log(viability + " filtered");
         filters_viability.push(viability);
     }
 
-    console.log(filters_viability);
+    // console.log(filters_viability);
 }
