@@ -20,7 +20,9 @@
 // A single rarity's star in SVG format
 const elements = ["Pyro", "Electro", "Hydro", "Cryo", "Anemo", "Geo", "Dendro"];
 
-const archetypes = ["Monogeo", "Monohydro", "Monocryo", "Monopyro", "Monoelectro", "Monoanemo", "Hypercarry", "Freeze", "National", "Vape Carry", "Overvape", "Taser", "Soup", "Melt", "Melt Quickswap", "Aggravate", "Spread", "Bloom", "Burgeon", "Oven", "Curry", "Sauté", "Fridge", "Salad", "Airfryer", "Hyperbloom", "Quickbloom", "Hyperfridge"];
+const archetypes = ["Monogeo", "Monohydro", "Monocryo", "Monopyro", "Monoelectro", "Monoanemo", "Hypercarry", "Freeze", "National", "Vape Carry", "Overvape", "Taser", "Soup", "Melt", "Aggravate", "Spread", "Bloom", "Burgeon", "Oven", "Curry", "Sauté", "Fridge", "Salad", "Airfryer", "Hyperbloom", "Quickbloom", "Hyperfridge"];
+
+const viabilities = ["Meta", "Viable", "Troll", "Unique"];
 
 const star_svg = `<img class="rarity" src="images/rarity/star.svg">`;
 const character_names = Object.keys(characters);

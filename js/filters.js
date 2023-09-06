@@ -1,5 +1,6 @@
 var filters_element = [];
 var filters_archetype = [];
+var filters_viability = [];
 var filters_character = [];
 
 var filter_favorite = false;
@@ -13,6 +14,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
 function printExtraFilters() {
     filters_element = elements.slice(); // Copy by value, not by reference
     filters_archetype = archetypes.slice(); // Copy by value, not by reference
+    filters_viability = viabilities.slice(); // Copy by value, not by reference
     filters_character = [];
 
     extra_filters_container = document.getElementById("extra_filters_container");
@@ -35,6 +37,8 @@ function printExtraFilters() {
     }
     filters += `</div>`;
 
+
+
     filters += `<div class="filters_archetypes">
     
     <button id="toggle_all_archetypes_button" class="primary_button" onclick="toggleAllArchetypes()">+</button>
@@ -49,6 +53,30 @@ function printExtraFilters() {
         </div>`
     }
     filters += `</div>`;
+
+
+
+    filters += `<div class="filters_viabilities">
+    
+    <button id="toggle_all_viabilities_button" class="primary_button" onclick="toggleAllViabilities()">+</button>
+    `;
+    for (let viability_index in viabilities) {
+        let viability = viabilities[viability_index];
+
+        filters += `
+        <div class="checkbox_filter">
+            <input type="checkbox" onclick="toggleFilterViability('` + viability + `'); resetResult(); searchQuery()" name="filter_viability_` + viability.toLowerCase() + `" id="filter_viability_` + viability.toLowerCase() + `" ` + (filters_viability.includes(viability) ? `checked` : ``) + `>
+            <label for="filter_viability_` + viability.toLowerCase() + `">` + viability + `</label></input>
+        </div>`
+    }
+    filters += `</div>`;
+
+
+
+
+
+
+
 
     extra_filters_container.innerHTML = filters;
 }
@@ -69,6 +97,8 @@ function doFilter(id, team) {
     } else if (filterByArchetype(team)) {
         pass = false;
     } else if (filterByElement(team)) {
+        pass = false;
+    } else if (filterByViability(team)) {
         pass = false;
     }
 
@@ -97,6 +127,10 @@ function filterByElement(team) {
     }
 
     return hasExcludedElement;
+}
+
+function filterByViability(team) {
+    return !filters_viability.includes(team.viability);
 }
 
 // Filters logic
@@ -163,7 +197,6 @@ function toggleAllElements() {
         document.getElementById("toggle_all_elements_button").innerHTML = "-";
 
         while (filters_element[0] != null) {
-            // document.getElementById("filter_element_" + filters_element[0].toLowerCase()).click();
             document.getElementById("filter_element_" + filters_element[0].toLowerCase()).checked = false;
             toggleFilterElement(filters_element[0]);
         }
@@ -172,7 +205,6 @@ function toggleAllElements() {
 
         for (let element_index in elements) {
             if (!filters_element.includes(elements[element_index])) {
-                // document.getElementById("filter_element_" + elements[element_index].toLowerCase()).click();
                 document.getElementById("filter_element_" + elements[element_index].toLowerCase()).checked = true;
                 toggleFilterElement(elements[element_index]);
             }
@@ -185,7 +217,6 @@ function toggleAllElements() {
 
 function toggleFilterElement(element) {
 
-    // if(document.getElementById("filter_element_" + element.toLowerCase()).checked) {
     if (filters_element.includes(element)) {
         console.log(element + " not filtered");
 
@@ -200,4 +231,46 @@ function toggleFilterElement(element) {
     }
 
     console.log(filters_element);
+}
+
+function toggleAllViabilities() {
+
+    if (filters_viability.length > 0) {
+        document.getElementById("toggle_all_viabilities_button").innerHTML = "-";
+
+        while (filters_viability[0] != null) {
+            document.getElementById("filter_viability_" + filters_viability[0].toLowerCase()).checked = false;
+            toggleFilterViability(filters_viability[0]);
+        }
+    } else {
+        document.getElementById("toggle_all_viabilities_button").innerHTML = "+";
+
+        for (let viability_index in viabilities) {
+            if (!filters_viability.includes(viabilities[viability_index])) {
+                document.getElementById("filter_viability_" + viabilities[viability_index].toLowerCase()).checked = true;
+                toggleFilterViability(viabilities[viability_index]);
+            }
+        }
+    }
+
+    resetResult();
+    searchQuery();
+}
+
+function toggleFilterViability(viability) {
+
+    if (filters_viability.includes(viability)) {
+        console.log(viability + " not filtered");
+
+        const index = filters_viability.indexOf(viability);
+        if (index > -1) {           // only splice array when item is found
+            filters_viability.splice(index, 1);   // 2nd parameter means remove one item only
+        }
+
+    } else {
+        console.log(viability + " filtered");
+        filters_viability.push(viability);
+    }
+
+    console.log(filters_viability);
 }
