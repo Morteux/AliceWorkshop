@@ -91,18 +91,9 @@
     width: 90%;
 }
 
-.filters_elements {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-start;
-    flex-wrap: wrap;
-
-    padding: 2vh;
-    width: 90%;
-}
-
-.filters_archetypes {
+.filters_elements,
+.filters_archetypes,
+.filters_viabilities {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -114,13 +105,20 @@
 }
 
 .filters_elements div,
-.filters_archetypes div {
+.filters_archetypes div,
+.filters_viabilities div {
     margin-top: 1vh;
     margin-bottom: 1vh;
     margin-left: 0;
     margin-right: 0;
 }
 
+#toggle_all_elements_button,
+#toggle_all_archetypes_button,
+#toggle_all_viabilities_button {
+    width: 5vh;
+    font-size: large;
+}
 
 
 
@@ -383,10 +381,4 @@
     color: var(--light_text);
     margin-top: 5vh;
     margin-bottom: 25vh;
-}
-
-#toggle_all_elements_button,
-#toggle_all_archetypes_button {
-    width: 5vh;
-    font-size: large;
 }
