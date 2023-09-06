@@ -70,7 +70,7 @@
     width: 33%;
 }
 
-.filter_container div{
+.filter_container div {
     flex: 1 1 0;
     display: flex;
     flex-direction: column;
@@ -113,7 +113,8 @@
     width: 90%;
 }
 
-.filters_elements div, .filters_archetypes div {
+.filters_elements div,
+.filters_archetypes div {
     margin-top: 1vh;
     margin-bottom: 1vh;
     margin-left: 0;
@@ -217,7 +218,7 @@
     cursor: pointer;
 }
 
-.fav_button > img{
+.fav_button>img {
     padding-top: 0.5vh;
     padding-right: 1vh;
 
@@ -225,11 +226,14 @@
     filter: invert(96%) sepia(49%) saturate(5134%) hue-rotate(312deg) brightness(102%) contrast(101%);
 }
 
-.fav_button > img:hover{
+.fav_button>img:hover {
     filter: invert(96%) sepia(49%) saturate(5134%) hue-rotate(312deg) brightness(102%) contrast(101%) drop-shadow(0 0 0.75rem var(--star_shadow));
 }
 
-.team_name_container, .team_rotation_container, .team_archetype_container, .team_desc_container {
+.team_name_container,
+.team_rotation_container,
+.team_archetype_container,
+.team_desc_container {
     font-family: GenshinImpact;
     font-size: 1.5vh;
 
@@ -239,12 +243,14 @@
     padding-right: 2vh;
 }
 
-.team_name_container, .team_rotation_container, .team_archetype_container {
+.team_name_container,
+.team_rotation_container,
+.team_archetype_container {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    
+
     font-weight: bold;
 }
 
@@ -275,7 +281,7 @@
     justify-content: center;
 
     margin: 0.2vh;
-    
+
     border-radius: 8%;
     background-color: var(--light_background);
 }
@@ -310,7 +316,7 @@
     right: 0.5vh;
 
     padding: 0.3vh;
-    
+
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -377,4 +383,10 @@
     color: var(--light_text);
     margin-top: 5vh;
     margin-bottom: 25vh;
+}
+
+#toggle_all_elements_button,
+#toggle_all_archetypes_button {
+    width: 5vh;
+    font-size: large;
 }
