@@ -53,7 +53,7 @@ const teams = {
         "name": "Vape Dehya",
         "description": "Basically Dehya and her powerfull damage carring the whole abyss. Since Dehya cds, you can alter the rotation in order to fix her E cooldown. For example, doing Kazuha's ult at the end of the rotation to gain time. ",
         "rotation": "E Dehya >  E + Q Bennett > E + (Q) Kazuha  > Q + E Mona > Q Dehya (and click so hard)",
-        "archetype": "Vape Carry",
+        "archetype": "Vaporize",
         "viability": "Troll",
 
         "character_1": {
@@ -78,7 +78,7 @@ const teams = {
         "name": "Vape Yoimiya",
         "description": "Good Single Target damage thanks to Yoimiya and Xingqiu. Rotation did with Reminiscence artifacts.",
         "rotation": "Q + E Bennett > Q + E Xingqiu > E + Q Yun Jin > Yoimiya E + NA until end, then Q",
-        "archetype": "Vape Carry",
+        "archetype": "Vaporize",
         "viability": "Viable",
 
         "character_1": {
@@ -228,7 +228,7 @@ const teams = {
         "description": "Fast rotations",
         "rotation": "Kaeya E > Tartaglia E+1NA > Kazuha Q + hold E > Rosaria E + Q > Kaeya E + Q > Tartaglia Q + E",
         "archetype": "Freeze",
-        "viability": "troll",
+        "viability": "Troll",
 
         "character_1": {
             "name": "Tartaglia",
@@ -253,7 +253,7 @@ const teams = {
         "description": "Fast rotations",
         "rotation": "Cryo E > Tartaglia E+1NA > Kazuha Q + hold E > Cryo (E)+Q > Ayaka Dash + CA + E + Q > Tartaglia Q + E + NA",
         "archetype": "Freeze",
-        "viability": "troll",
+        "viability": "Troll",
 
         "character_1": {
             "name": "Tartaglia",
@@ -279,7 +279,7 @@ const teams = {
         "description": "An no meta team, similar to Kokomi MonoHydro, but without healer. MonoHydro is not usually optimal, see monohydro archetype for more. Fun vs pyro content.",
         "rotation": "",
         "archetype": "MonoHydro",
-        "viability": "troll",
+        "viability": "Troll",
 
         "character_1": {
             "name": "Tartaglia",
@@ -303,7 +303,7 @@ const teams = {
         "name": "Tartaglia MonoHydro",
         "description": "",
         "archetype": "MonoHydro",
-        "viability": "troll",
+        "viability": "Troll",
 
         "character_1": {
             "name": "Tartaglia",
@@ -327,7 +327,7 @@ const teams = {
         "name": "Tartaglia MonoHydro",
         "description": "",
         "archetype": "MonoHydro",
-        "viability": "troll",
+        "viability": "Troll",
 
         "character_1": {
             "name": "Tartaglia",
@@ -351,7 +351,7 @@ const teams = {
         "name": "Kokomi MonoHydro",
         "description": "",
         "archetype": "MonoHydro",
-        "viability": "troll",
+        "viability": "Troll",
 
         "character_1": {
             "name": "Sangonomiya Kokomi",
