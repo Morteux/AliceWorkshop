@@ -185,8 +185,8 @@ function getCharacterCheckHTML(character_data) {
 function printCharactersCheck() {
     let menu_characters_check = "";
 
-    for (let character_index in characters) {
-        menu_characters_check += getCharacterCheckHTML(characters[character_index]);
+    for(let index = Object.keys(characters_order_priority).length - 1; index >= 0; --index) {
+        menu_characters_check += getCharacterCheckHTML(characters[characters_order_priority[index]]);
     }
 
     document.getElementById("menu_characters_check").innerHTML = menu_characters_check;
