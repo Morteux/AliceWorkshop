@@ -105,10 +105,10 @@ function printTeamCreator() {
 
     document.getElementById("id_input").value = team_count + 1;
 
-    autocomplete(document.getElementById("character_1_select"), character_names);
-    autocomplete(document.getElementById("character_2_select"), character_names);
-    autocomplete(document.getElementById("character_3_select"), character_names);
-    autocomplete(document.getElementById("character_4_select"), character_names);
+    autocomplete(document.getElementById("character_1_select"), CHARACTER_NAMES);
+    autocomplete(document.getElementById("character_2_select"), CHARACTER_NAMES);
+    autocomplete(document.getElementById("character_3_select"), CHARACTER_NAMES);
+    autocomplete(document.getElementById("character_4_select"), CHARACTER_NAMES);
 }
 
 function printTeamJSON() {
@@ -184,7 +184,7 @@ function getCharacterCheckHTML(character_data) {
     <div id="character_check_` + character_data.name + `" class="character_container ` + (user_teams[character_data.name] == null ? "character_unchecked" : "") + `" onclick="toggleCharacterUser('` + character_data.name + `')">
         <img class="character_icon ` + (character_data.rarity == "5" ? "character_5_stars" : "character_4_stars") + `" src="https://api.ambr.top/assets/UI/` + character_data.images.nameicon + `.png" alt="Character icon for ` + character_data.name + `">
         ` + (character_data.element != "None" ? `<img class="element_icon" src="images/elements/glow_` + character_data.element.toLowerCase() + `.png">` : "") + `
-        <div class="rarity_container">` + star_svg + star_svg + star_svg + star_svg + (character_data.rarity == "5" ? star_svg : "") + `</div>
+        <div class="rarity_container">` + STAR_SVG + STAR_SVG + STAR_SVG + STAR_SVG + (character_data.rarity == "5" ? STAR_SVG : "") + `</div>
         <div class="character_name ` + (character_data.name.length < SHORT_NAME_LENGTH ? "character_name_short" : (character_data.name.length < MEDIUM_NAME_LENGTH ? "character_name_medium" : "character_name_long")) + `">` + character_data.name + `</div>
     </div>
     `;

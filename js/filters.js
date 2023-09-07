@@ -13,9 +13,9 @@ document.addEventListener("DOMContentLoaded", (event) => {
 });
 
 function printExtraFilters() {
-    filters_element = elements.slice(); // Copy by value, not by reference
-    filters_archetype = archetypes.slice(); // Copy by value, not by reference
-    filters_viability = viabilities.slice(); // Copy by value, not by reference
+    filters_element = ELEMENTS.slice(); // Copy by value, not by reference
+    filters_archetype = ARCHETYPES.slice(); // Copy by value, not by reference
+    filters_viability = VIABILITIES.slice(); // Copy by value, not by reference
     filters_character = [];
 
     extra_filters_container = document.getElementById("extra_filters_container");
@@ -27,8 +27,8 @@ function printExtraFilters() {
         <button id="toggle_all_elements_button" class="primary_button" onclick="toggleAllElements()">+</button>
     `;
 
-    for (let element_index in elements) {
-        let element = elements[element_index];
+    for (let element_index in ELEMENTS) {
+        let element = ELEMENTS[element_index];
 
         filters += `
         <div class="checkbox_filter">
@@ -44,8 +44,8 @@ function printExtraFilters() {
     
     <button id="toggle_all_archetypes_button" class="primary_button" onclick="toggleAllArchetypes()">+</button>
     `;
-    for (let archetype_index in archetypes) {
-        let archetype = archetypes[archetype_index];
+    for (let archetype_index in ARCHETYPES) {
+        let archetype = ARCHETYPES[archetype_index];
 
         filters += `
         <div class="checkbox_filter">
@@ -61,8 +61,8 @@ function printExtraFilters() {
     
     <button id="toggle_all_viabilities_button" class="primary_button" onclick="toggleAllViabilities()">+</button>
     `;
-    for (let viability_index in viabilities) {
-        let viability = viabilities[viability_index];
+    for (let viability_index in VIABILITIES) {
+        let viability = VIABILITIES[viability_index];
 
         filters += `
         <div class="checkbox_filter">
@@ -114,8 +114,8 @@ function doFilter(id, team) {
     //     if (builds[team.character_4.name[character_index]][team.character_4.build[character_index]] == null) { console.log("character_4 build KO: " + team.character_4.build[character_index] + " in team #" + id); }
     // }
 
-    // if (archetypes.includes(team.archetype) == null) { console.log("archetype KO: " + team.archetype + " in team #" + id); }
-    // if (viabilities.includes(team.viability) == null) { console.log("viability KO: " + team.viability + " in team #" + id); }
+    // if (ARCHETYPES.includes(team.archetype) == null) { console.log("archetype KO: " + team.archetype + " in team #" + id); }
+    // if (VIABILITIES.includes(team.viability) == null) { console.log("viability KO: " + team.viability + " in team #" + id); }
 
 
 
@@ -123,19 +123,19 @@ function doFilter(id, team) {
 
 
     if (filterByFavorite(id)) {
-        console.log("filterByFavorite KO" + " in team #" + id);
+        // console.log("filterByFavorite KO" + " in team #" + id);
         pass = false;
     } else if (filterByArchetype(team)) {
-        console.log("filterByArchetype KO" + " in team #" + id);
+        // console.log("filterByArchetype KO" + " in team #" + id);
         pass = false;
     } else if (filterByElement(team)) {
-        console.log("filterByElement KO" + " in team #" + id);
+        // console.log("filterByElement KO" + " in team #" + id);
         pass = false;
     } else if (filterByViability(team)) {
-        console.log("filterByViability KO" + " in team #" + id);
+        // console.log("filterByViability KO" + " in team #" + id);
         pass = false;
     } else if (filterByUserCharacter(team)) {
-        console.log("filterByUserCharacter KO" + " in team #" + id);
+        // console.log("filterByUserCharacter KO" + " in team #" + id);
         pass = false;
     }
 
@@ -220,10 +220,10 @@ function toggleAllArchetypes() {
     } else {
         document.getElementById("toggle_all_archetypes_button").innerHTML = "+";
 
-        for (let archetype_index in archetypes) {
-            if (!filters_archetype.includes(archetypes[archetype_index])) {
-                document.getElementById("filter_archetype_" + archetypes[archetype_index].toLowerCase()).checked = true;
-                toggleFilterArchetype(archetypes[archetype_index]);
+        for (let archetype_index in ARCHETYPES) {
+            if (!filters_archetype.includes(ARCHETYPES[archetype_index])) {
+                document.getElementById("filter_archetype_" + ARCHETYPES[archetype_index].toLowerCase()).checked = true;
+                toggleFilterArchetype(ARCHETYPES[archetype_index]);
             }
         }
     }
@@ -262,10 +262,10 @@ function toggleAllElements() {
     } else {
         document.getElementById("toggle_all_elements_button").innerHTML = "+";
 
-        for (let element_index in elements) {
-            if (!filters_element.includes(elements[element_index])) {
-                document.getElementById("filter_element_" + elements[element_index].toLowerCase()).checked = true;
-                toggleFilterElement(elements[element_index]);
+        for (let element_index in ELEMENTS) {
+            if (!filters_element.includes(ELEMENTS[element_index])) {
+                document.getElementById("filter_element_" + ELEMENTS[element_index].toLowerCase()).checked = true;
+                toggleFilterElement(ELEMENTS[element_index]);
             }
         }
     }
@@ -304,10 +304,10 @@ function toggleAllViabilities() {
     } else {
         document.getElementById("toggle_all_viabilities_button").innerHTML = "+";
 
-        for (let viability_index in viabilities) {
-            if (!filters_viability.includes(viabilities[viability_index])) {
-                document.getElementById("filter_viability_" + viabilities[viability_index].toLowerCase()).checked = true;
-                toggleFilterViability(viabilities[viability_index]);
+        for (let viability_index in VIABILITIES) {
+            if (!filters_viability.includes(VIABILITIES[viability_index])) {
+                document.getElementById("filter_viability_" + VIABILITIES[viability_index].toLowerCase()).checked = true;
+                toggleFilterViability(VIABILITIES[viability_index]);
             }
         }
     }
