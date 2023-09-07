@@ -79,28 +79,26 @@ function getTeamsByTextInput() {
     // Reset collection for a new search
     teams_search_matches = [];
 
-    // console.log("Searching for: " + search_form_text_input);
-
-    // if (search_form_text_input.length != 0) {
     for (let team_index in teams) {
-        if (doFilter(team_index, teams[team_index]) && containCharacter(teams[team_index], search_form_text_input.toUpperCase())) {
-            // console.log("Coincidence for: " + teams[team_index].name);
-            teams_search_matches[team_index] = teams[team_index];
-        } 
-        else {
-            if (!doFilter(team_index, teams[team_index]))
-                console.log("doFilter KO");
+        let team = JSON.parse(JSON.stringify(teams[team_index]));
+        team["id"] = team_index;
 
-            if (!containCharacter(teams[team_index], search_form_text_input.toUpperCase()))
-                console.log("containCharacter KO");
+        for (let character_4_index in teams[team_index].character_4.name) {
 
-            console.log(teams[team_index]);
+            if (teams[team_index].character_4.name.length > 1) {
+                team["id"] = team_index + "-" + (parseInt(character_4_index) + 1);
+            }
+            team.character_4.name = [JSON.parse(JSON.stringify(teams[team_index].character_4.name[character_4_index]))];
+            team.character_4.build = [JSON.parse(JSON.stringify(teams[team_index].character_4.build[character_4_index]))];
+
+            if (doFilter(team_index, teams[team_index]) && containCharacter(teams[team_index], search_form_text_input.toUpperCase())) {
+                // console.log("Coincidence for: " + teams[team_index].name);
+                teams_search_matches[team.id] = team;
+            } else {
+                console.log("Not matched: " + team.id)
+            }
         }
     }
-    // }
-    // else {
-    //     teams_search_matches = teams;
-    // }
 }
 
 function printTeams() {
@@ -114,21 +112,10 @@ function printTeams() {
     let team_count = 0;
     let team_index = start_index;
     while (team_index < keys.length && team_count < teams_per_page) {
-        // console.log("====================================================================================");
-
-        // console.log(keys[team_index]);
-        // console.log(team_index);
-        // console.log(start_index);
-        // console.log(teams_search_matches[keys[team_index]]);
-        // console.log(teams_search_matches[keys[team_index]].character_4);
-        // let filter_passed = false;
 
         let team = teams_search_matches[keys[team_index]];
         let character_4_int_index = 1;
         for (let character_4_index in team.character_4.name) {
-
-            // if (filter(keys[team_index], team, character_4_int_index)) {
-            //     filter_passed = true;
 
             let character_4 = {
                 "name": team.character_4.name[character_4_index],
@@ -181,14 +168,9 @@ function printTeams() {
                 `;
 
             document.getElementById("result_container").innerHTML += team_output;
-
-            // }
         }
 
-        // if (filter_passed) {
         ++team_count;
-        // }
-
         ++team_index;
     }
 

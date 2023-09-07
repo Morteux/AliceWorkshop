@@ -162,6 +162,14 @@ function filterByElement(team) {
         hasExcludedElement = true;
     } else {
         for (let character_index in team.character_4.name) {
+
+            // console.log("====================================================================");
+            // console.log(team);
+            // console.log(team.character_4.name);
+            // console.log(team.character_4.name[character_index]);
+            // console.log(characters[team.character_4.name[character_index]]);
+            // console.log(characters[team.character_4.name[character_index]].element);
+
             if ((characters[team.character_4.name[character_index]].element != "None" && !filters_element.includes(characters[team.character_4.name[character_index]].element)) || (team.character_4.build[character_index].element != null && !filters_element.includes(team.character_4.build[character_index].element))) {
                 hasExcludedElement = true;
             }
