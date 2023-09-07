@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
     sort_viability = document.getElementById("sort_viability");
     sort_team_name = document.getElementById("sort_team_name");
 
-    autocomplete(document.getElementById("search_form_text_input"), character_names);
+    autocomplete(document.getElementById("search_form_text_input"), CHARACTER_NAMES);
 
     // Show all teams on page load
     searchQuery();
@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
 
     $(window).scroll(function () {
         if ($(window).scrollTop() == $(document).height() - $(window).height() && document.getElementById("tab_teams_search_button").classList.contains("active_tab_button")) {
-            start_index += teams_per_page;
+            start_index += TEAMS_PER_PAGE;
             searchQuery();
         }
     });
@@ -91,9 +91,10 @@ function getTeamsByTextInput() {
             if (doFilter(team_index, teams[team_index]) && containCharacter(teams[team_index], search_form_text_input.toUpperCase())) {
                 // console.log("Coincidence for: " + teams[team_index].name);
                 teams_search_matches[team.id] = team;
-            } else {
-                console.log("Not matched: " + team.id)
             }
+            // else {
+            //     console.log("Not matched: " + team.id)
+            // }
         }
     }
 }
@@ -108,7 +109,7 @@ function printTeams() {
 
     let team_count = 0;
     let team_index = start_index;
-    while (team_index < keys.length && team_count < teams_per_page) {
+    while (team_index < keys.length && team_count < TEAMS_PER_PAGE) {
 
         let team = teams_search_matches[keys[team_index]];
         let character_4_int_index = 1;
@@ -171,7 +172,7 @@ function printTeams() {
         ++team_index;
     }
 
-    document.getElementById("result_counter").innerHTML = (start_index + teams_per_page < Object.keys(teams_search_matches).length ? start_index + teams_per_page : Object.keys(teams_search_matches).length);
+    document.getElementById("result_counter").innerHTML = (start_index + TEAMS_PER_PAGE < Object.keys(teams_search_matches).length ? start_index + TEAMS_PER_PAGE : Object.keys(teams_search_matches).length);
     document.getElementById("result_max_counter").innerHTML = Object.keys(teams_search_matches).length;
 }
 
@@ -187,7 +188,7 @@ function getCharacterHTML(id, character_team, character_data) {
         <img class="character_icon ` + (character_data.rarity == "5" ? "character_5_stars" : "character_4_stars") + `" src="https://api.ambr.top/assets/UI/` + character_data.images.nameicon + `.png" alt="Character icon for ` + character_data.name + `">
         <img class="element_icon" src="images/elements/glow_` + (character_data.element != "None" ? character_data.element.toLowerCase() : builds[character_team.name][character_team.build].element.toLowerCase()) + `.png">
         ` + (builds[character_team.name][character_team.build].constellation != "" ? `<div class="constellation">` + builds[character_team.name][character_team.build].constellation + `</div>` : ``) + `
-        <div class="rarity_container">` + star_svg + star_svg + star_svg + star_svg + (character_data.rarity == "5" ? star_svg : "") + `</div>
+        <div class="rarity_container">` + STAR_SVG + STAR_SVG + STAR_SVG + STAR_SVG + (character_data.rarity == "5" ? STAR_SVG : "") + `</div>
         <div class="character_name ` + (character_data.name.length < SHORT_NAME_LENGTH ? "character_name_short" : (character_data.name.length < MEDIUM_NAME_LENGTH ? "character_name_medium" : "character_name_long")) + `">` + character_data.name + `</div>
     </div>
     `;

@@ -18,17 +18,17 @@
 
 
 // A single rarity's star in SVG format
-const elements = ["Pyro", "Electro", "Hydro", "Cryo", "Anemo", "Geo", "Dendro"];
+const ELEMENTS = ["Pyro", "Electro", "Hydro", "Cryo", "Anemo", "Geo", "Dendro"];
 
-const archetypes = ["MonoGeo", "MonoHydro", "MonoCryo", "MonoPyro", "MonoElectro", "MonoAnemo", "Hypercarry", "Freeze", "National", "Vaporize", "Overvape", "Taser", "Soup", "Melt", "Aggravate", "Spread", "Bloom", "Burgeon", "Oven", "Curry", "Sauté", "Fridge", "Salad", "Airfryer", "Hyperbloom", "Quickbloom", "HyperFridge", "Overload"];
+const ARCHETYPES = ["MonoGeo", "MonoHydro", "MonoCryo", "MonoPyro", "MonoElectro", "MonoAnemo", "Hypercarry", "Freeze", "National", "Vaporize", "Overvape", "Taser", "Soup", "Melt", "Aggravate", "Spread", "Bloom", "Burgeon", "Oven", "Curry", "Sauté", "Fridge", "Salad", "Airfryer", "Hyperbloom", "Quickbloom", "HyperFridge", "Overload"];
 
-const viabilities = ["Meta", "Viable", "Troll", "Unique"];
+const VIABILITIES = ["Meta", "Viable", "Troll", "Unique"];
 
-const star_svg = `<img class="rarity" src="images/rarity/star.svg">`;
-const character_names = Object.keys(characters);
+const STAR_SVG = `<img class="rarity" src="images/rarity/star.svg">`;
+const CHARACTER_NAMES = Object.keys(characters);
 
 const SHORT_NAME_LENGTH = 10;
 const MEDIUM_NAME_LENGTH = 16;
 
 const ENTER_KEY_CODE = 'Enter';
-const teams_per_page = 20;
+const TEAMS_PER_PAGE = 10;
