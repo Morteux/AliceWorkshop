@@ -26,3 +26,6 @@ const viabilities = ["Meta", "Viable", "Troll", "Unique"];
 
 const star_svg = `<img class="rarity" src="images/rarity/star.svg">`;
 const character_names = Object.keys(characters);
+
+const SHORT_NAME_LENGTH = 10;
+const MEDIUM_NAME_LENGTH = 16;

@@ -200,7 +200,7 @@ function getCharacterHTML(id, character_team, character_data) {
         <img class="element_icon" src="images/elements/glow_` + (character_data.element != "None" ? character_data.element.toLowerCase() : builds[character_team.name][character_team.build].element.toLowerCase()) + `.png">
         ` + (builds[character_team.name][character_team.build].constellation != "" ? `<div class="constellation">` + builds[character_team.name][character_team.build].constellation + `</div>` : ``) + `
         <div class="rarity_container">` + star_svg + star_svg + star_svg + star_svg + (character_data.rarity == "5" ? star_svg : "") + `</div>
-        <div class="character_name ` + (character_data.name.length < 10 ? "character_name_short" : (character_data.name.length < 17 ? "character_name_medium" : "character_name_long")) + `">` + character_data.name + `</div>
+        <div class="character_name ` + (character_data.name.length < SHORT_NAME_LENGTH ? "character_name_short" : (character_data.name.length < MEDIUM_NAME_LENGTH ? "character_name_medium" : "character_name_long")) + `">` + character_data.name + `</div>
     </div>
     `;
 }

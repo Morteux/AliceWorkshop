@@ -177,7 +177,7 @@ function getCharacterCheckHTML(character_data) {
         <img class="character_icon ` + (character_data.rarity == "5" ? "character_5_stars" : "character_4_stars") + `" src="https://api.ambr.top/assets/UI/` + character_data.images.nameicon + `.png" alt="Character icon for ` + character_data.name + `">
         ` + (character_data.element != "None" ? `<img class="element_icon" src="images/elements/glow_` + character_data.element.toLowerCase() + `.png">` : "") + `
         <div class="rarity_container">` + star_svg + star_svg + star_svg + star_svg + (character_data.rarity == "5" ? star_svg : "") + `</div>
-        <div class="character_name ` + (character_data.name.length < 10 ? "character_name_short" : (character_data.name.length < 17 ? "character_name_medium" : "character_name_long")) + `">` + character_data.name + `</div>
+        <div class="character_name ` + (character_data.name.length < SHORT_NAME_LENGTH ? "character_name_short" : (character_data.name.length < MEDIUM_NAME_LENGTH ? "character_name_medium" : "character_name_long")) + `">` + character_data.name + `</div>
     </div>
     `;
 }
