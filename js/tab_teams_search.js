@@ -60,7 +60,7 @@ function isTeamName(team, search_form_text_input) {
 }
 
 function containCharacter(team, character) {
-    return character.length == 0 || team.character_1.name.toUpperCase() == character || team.character_2.name.toUpperCase() == character || team.character_3.name.toUpperCase() == character || team.character_4.name.map(function(x){ return x.toUpperCase(); }).includes(character);
+    return character.length == 0 || team.character_1.name.toUpperCase() == character || team.character_2.name.toUpperCase() == character || team.character_3.name.toUpperCase() == character || team.character_4.name.map(function (x) { return x.toUpperCase(); }).includes(character);
 }
 
 function searchQuery() {
@@ -86,6 +86,15 @@ function getTeamsByTextInput() {
         if (doFilter(team_index, teams[team_index]) && containCharacter(teams[team_index], search_form_text_input.toUpperCase())) {
             // console.log("Coincidence for: " + teams[team_index].name);
             teams_search_matches[team_index] = teams[team_index];
+        } 
+        else {
+            if (!doFilter(team_index, teams[team_index]))
+                console.log("doFilter KO");
+
+            if (!containCharacter(teams[team_index], search_form_text_input.toUpperCase()))
+                console.log("containCharacter KO");
+
+            console.log(teams[team_index]);
         }
     }
     // }
@@ -200,7 +209,7 @@ function getCharacterHTML(id, character_team, character_data) {
         <img class="element_icon" src="images/elements/glow_` + (character_data.element != "None" ? character_data.element.toLowerCase() : builds[character_team.name][character_team.build].element.toLowerCase()) + `.png">
         ` + (builds[character_team.name][character_team.build].constellation != "" ? `<div class="constellation">` + builds[character_team.name][character_team.build].constellation + `</div>` : ``) + `
         <div class="rarity_container">` + star_svg + star_svg + star_svg + star_svg + (character_data.rarity == "5" ? star_svg : "") + `</div>
-        <div class="character_name ` + (character_data.name.length < 10 ? "character_name_short" : (character_data.name.length < 17 ? "character_name_medium" : "character_name_long")) + `">` + character_data.name + `</div>
+        <div class="character_name ` + (character_data.name.length < SHORT_NAME_LENGTH ? "character_name_short" : (character_data.name.length < MEDIUM_NAME_LENGTH ? "character_name_medium" : "character_name_long")) + `">` + character_data.name + `</div>
     </div>
     `;
 }

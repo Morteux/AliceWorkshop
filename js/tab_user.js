@@ -37,17 +37,11 @@ document.addEventListener("DOMContentLoaded", (event) => {
 
     // Team creator
 
-    team_creator_meta = document.getElementById("team_creator_meta");
-    team_creator_viable = document.getElementById("team_creator_viable");
-    team_creator_troll = document.getElementById("team_creator_troll");
-    team_creator_unique = document.getElementById("team_creator_unique");
+    printTeamCreator();
 
-    document.getElementById("id_input").value = team_count + 1;
 
-    autocomplete(document.getElementById("character_1_select"), character_names);
-    autocomplete(document.getElementById("character_2_select"), character_names);
-    autocomplete(document.getElementById("character_3_select"), character_names);
-    autocomplete(document.getElementById("character_4_select"), character_names);
+    
+    // Team user configuration
 
     for (let menu_index in menu_tabs) {
         // Set on click event listener for each tab button
@@ -101,6 +95,20 @@ function disableMenuTab(tab, tab_button) {
     // Change tab button border
     tab_button.classList.remove('active_tab_button');
     tab_button.classList.add('disabled_tab_button');
+}
+
+function printTeamCreator() {
+    team_creator_meta = document.getElementById("team_creator_meta");
+    team_creator_viable = document.getElementById("team_creator_viable");
+    team_creator_troll = document.getElementById("team_creator_troll");
+    team_creator_unique = document.getElementById("team_creator_unique");
+
+    document.getElementById("id_input").value = team_count + 1;
+
+    autocomplete(document.getElementById("character_1_select"), character_names);
+    autocomplete(document.getElementById("character_2_select"), character_names);
+    autocomplete(document.getElementById("character_3_select"), character_names);
+    autocomplete(document.getElementById("character_4_select"), character_names);
 }
 
 function printTeamJSON() {
@@ -177,7 +185,7 @@ function getCharacterCheckHTML(character_data) {
         <img class="character_icon ` + (character_data.rarity == "5" ? "character_5_stars" : "character_4_stars") + `" src="https://api.ambr.top/assets/UI/` + character_data.images.nameicon + `.png" alt="Character icon for ` + character_data.name + `">
         ` + (character_data.element != "None" ? `<img class="element_icon" src="images/elements/glow_` + character_data.element.toLowerCase() + `.png">` : "") + `
         <div class="rarity_container">` + star_svg + star_svg + star_svg + star_svg + (character_data.rarity == "5" ? star_svg : "") + `</div>
-        <div class="character_name ` + (character_data.name.length < 10 ? "character_name_short" : (character_data.name.length < 17 ? "character_name_medium" : "character_name_long")) + `">` + character_data.name + `</div>
+        <div class="character_name ` + (character_data.name.length < SHORT_NAME_LENGTH ? "character_name_short" : (character_data.name.length < MEDIUM_NAME_LENGTH ? "character_name_medium" : "character_name_long")) + `">` + character_data.name + `</div>
     </div>
     `;
 }
@@ -185,8 +193,8 @@ function getCharacterCheckHTML(character_data) {
 function printCharactersCheck() {
     let menu_characters_check = "";
 
-    for (let character_index in characters) {
-        menu_characters_check += getCharacterCheckHTML(characters[character_index]);
+    for(let index = Object.keys(characters_order_priority).length - 1; index >= 0; --index) {
+        menu_characters_check += getCharacterCheckHTML(characters[characters_order_priority[index]]);
     }
 
     document.getElementById("menu_characters_check").innerHTML = menu_characters_check;

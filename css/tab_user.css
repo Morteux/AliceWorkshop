@@ -84,6 +84,11 @@
     padding: 3vh;
 }
 
+.menu_teams_creator >button {
+    padding: 1.5vh;
+    margin: 3vh;
+}
+
 .row_selects {
     display: flex;
     flex-direction: row;
