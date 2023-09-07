@@ -1302,7 +1302,7 @@ const teams = {
         "name": "Klee Monopyro",
         "description": "Monopyro is the archetype where klee shines. ",
         "rotation": "",
-        "archetype": "Monopyro",
+        "archetype": "MonoPyro",
         "viability": "Meta",
 
         "character_1": {
@@ -1327,7 +1327,7 @@ const teams = {
         "name": "Klee Monopyro",
         "description": "Monopyro is the archetype where klee shines. ",
         "rotation": "",
-        "archetype": "Monopyro",
+        "archetype": "MonoPyro",
         "viability": "Meta",
 
         "character_1": {
@@ -1352,7 +1352,7 @@ const teams = {
         "name": "Klee Monopyro",
         "description": "Monopyro is the archetype where klee shines. There are better options to play monopyro, but you can play this way.",
         "rotation": "",
-        "archetype": "Monopyro",
+        "archetype": "MonoPyro",
         "viability": "Viable",
 
         "character_1": {

@@ -37,17 +37,11 @@ document.addEventListener("DOMContentLoaded", (event) => {
 
     // Team creator
 
-    team_creator_meta = document.getElementById("team_creator_meta");
-    team_creator_viable = document.getElementById("team_creator_viable");
-    team_creator_troll = document.getElementById("team_creator_troll");
-    team_creator_unique = document.getElementById("team_creator_unique");
+    printTeamCreator();
 
-    document.getElementById("id_input").value = team_count + 1;
 
-    autocomplete(document.getElementById("character_1_select"), character_names);
-    autocomplete(document.getElementById("character_2_select"), character_names);
-    autocomplete(document.getElementById("character_3_select"), character_names);
-    autocomplete(document.getElementById("character_4_select"), character_names);
+    
+    // Team user configuration
 
     for (let menu_index in menu_tabs) {
         // Set on click event listener for each tab button
@@ -101,6 +95,20 @@ function disableMenuTab(tab, tab_button) {
     // Change tab button border
     tab_button.classList.remove('active_tab_button');
     tab_button.classList.add('disabled_tab_button');
+}
+
+function printTeamCreator() {
+    team_creator_meta = document.getElementById("team_creator_meta");
+    team_creator_viable = document.getElementById("team_creator_viable");
+    team_creator_troll = document.getElementById("team_creator_troll");
+    team_creator_unique = document.getElementById("team_creator_unique");
+
+    document.getElementById("id_input").value = team_count + 1;
+
+    autocomplete(document.getElementById("character_1_select"), character_names);
+    autocomplete(document.getElementById("character_2_select"), character_names);
+    autocomplete(document.getElementById("character_3_select"), character_names);
+    autocomplete(document.getElementById("character_4_select"), character_names);
 }
 
 function printTeamJSON() {

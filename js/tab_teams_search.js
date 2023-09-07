@@ -60,7 +60,7 @@ function isTeamName(team, search_form_text_input) {
 }
 
 function containCharacter(team, character) {
-    return character.length == 0 || team.character_1.name.toUpperCase() == character || team.character_2.name.toUpperCase() == character || team.character_3.name.toUpperCase() == character || team.character_4.name.map(function(x){ return x.toUpperCase(); }).includes(character);
+    return character.length == 0 || team.character_1.name.toUpperCase() == character || team.character_2.name.toUpperCase() == character || team.character_3.name.toUpperCase() == character || team.character_4.name.map(function (x) { return x.toUpperCase(); }).includes(character);
 }
 
 function searchQuery() {
@@ -86,6 +86,15 @@ function getTeamsByTextInput() {
         if (doFilter(team_index, teams[team_index]) && containCharacter(teams[team_index], search_form_text_input.toUpperCase())) {
             // console.log("Coincidence for: " + teams[team_index].name);
             teams_search_matches[team_index] = teams[team_index];
+        } 
+        else {
+            if (!doFilter(team_index, teams[team_index]))
+                console.log("doFilter KO");
+
+            if (!containCharacter(teams[team_index], search_form_text_input.toUpperCase()))
+                console.log("containCharacter KO");
+
+            console.log(teams[team_index]);
         }
     }
     // }
