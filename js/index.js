@@ -29,3 +29,6 @@ const character_names = Object.keys(characters);
 
 const SHORT_NAME_LENGTH = 10;
 const MEDIUM_NAME_LENGTH = 16;
+
+const ENTER_KEY_CODE = 'Enter';
+const teams_per_page = 20;
