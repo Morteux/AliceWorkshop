@@ -1,6 +1,3 @@
-const ENTER_KEY_CODE = 'Enter';
-const teams_per_page = 6;
-
 var teams_search_matches = [];
 var start_index = 0;
 
