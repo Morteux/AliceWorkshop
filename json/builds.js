@@ -545,7 +545,7 @@ const builds = {
         },
         "Support": {
             "constellation": "2",
-            "weapon": "",
+            "weapon": "Thrilling Tales",
             "set": "",
             "main_stat": {
                 "Sands": "",
