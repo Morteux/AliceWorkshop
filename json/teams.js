@@ -1771,7 +1771,7 @@ const teams = {
             "build": "Standard"
         },
         "character_4": {
-            "name": ["Layla" "Baizhu", "Diona", "Kirara"],
+            "name": ["Layla", "Baizhu", "Diona", "Kirara"],
             "build": ["Standard", "Standard", "Standard", "Standard"]
         }
     },
@@ -1921,7 +1921,7 @@ const teams = {
             "build": "Standard"
         },
         "character_4": {
-            "name": ["Layla" "Baizhu", "Diona", "Kirara"],
+            "name": ["Layla", "Baizhu", "Diona", "Kirara"],
             "build": ["Standard", "Standard", "Standard", "Standard"]
         }
     },
@@ -1946,7 +1946,7 @@ const teams = {
             "build": "Standard"
         },
         "character_4": {
-            "name": ["Layla" "Baizhu", "Diona", "Kirara"],
+            "name": ["Layla", "Baizhu", "Diona", "Kirara"],
             "build": ["Standard", "Standard", "Standard", "Standard"]
         }
     },
@@ -1971,7 +1971,7 @@ const teams = {
             "build": "Standard"
         },
         "character_4": {
-            "name": ["Layla" "Baizhu", "Diona", "Kirara"],
+            "name": ["Layla", "Baizhu", "Diona", "Kirara"],
             "build": ["Standard", "Standard", "Standard", "Standard"]
         }
     },
@@ -1996,7 +1996,7 @@ const teams = {
             "build": "Standard"
         },
         "character_4": {
-            "name": ["Layla" "Baizhu", "Diona", "Kirara"],
+            "name": ["Layla", "Baizhu", "Diona", "Kirara"],
             "build": ["Standard", "Standard", "Standard", "Standard"]
         }
     },
