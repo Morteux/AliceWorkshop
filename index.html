@@ -36,6 +36,7 @@
     <script src="js/collapsible.js"></script>
     <script src="js/autocomplete.js"></script>
     <script src="js/filters.js"></script>
+    <script src="js/sorts.js"></script>
 
     <script src="js/tab_teams_search.js"></script>
     <script src="js/tab_user.js"></script>
@@ -73,13 +74,13 @@
                         <div class="list_choice_title">Sort by</div>
                         <div class="list_choice_objects">
                             <label>
-                                <input type="radio" name="sort" id="sort_team_id" value="team_id" checked /> <span>Team ID</span>
+                                <input type="radio" name="sort" id="sort_team_id" onchange="sortTeamsMatchedBy('team_id');" value="team_id" checked /> <span>Team ID</span>
                             </label>
                             <label>
-                                <input type="radio" name="sort" id="sort_viability" value="viability" /> <span>Viability</span>
+                                <input type="radio" name="sort" id="sort_viability" onchange="sortTeamsMatchedBy('viability');" value="viability" /> <span>Viability</span>
                             </label>
                             <label>
-                                <input type="radio" name="sort" id="sort_team_name" value="team_name" /> <span>Team name</span>
+                                <input type="radio" name="sort" id="sort_archetype" onchange="sortTeamsMatchedBy('archetype');" value="archetype" /> <span>Archetype</span>
                             </label>
                         </div>
                     </div>

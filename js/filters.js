@@ -150,7 +150,7 @@ function doFilter(id, team) {
         // console.log("filterByUserCharacter KO" + " in team #" + id);
         pass = false;
     } else if (filterByCharacter(team)) {
-        console.log("filterByCharacter KO" + " in team #" + id);
+        // console.log("filterByCharacter KO" + " in team #" + id);
         pass = false;
     }
 

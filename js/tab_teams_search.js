@@ -5,6 +5,8 @@ var sort_team_id;
 var sort_viability;
 var sort_team_name;
 
+var orderedKeys;
+
 document.addEventListener("DOMContentLoaded", (event) => {
     sort_team_id = document.getElementById("sort_team_id");
     sort_viability = document.getElementById("sort_viability");
@@ -105,13 +107,14 @@ function printTeams() {
     }
 
     let team_output = "";
-    let keys = Object.keys(teams_search_matches);
+    orderedKeys = orderKeys(Object.keys(teams_search_matches));
+    // console.log(orderedKeys);
 
     let team_count = 0;
     let team_index = start_index;
-    while (team_index < keys.length && team_count < TEAMS_PER_PAGE) {
+    while (team_index < orderedKeys.length && team_count < TEAMS_PER_PAGE) {
 
-        let team = teams_search_matches[keys[team_index]];
+        let team = teams_search_matches[orderedKeys[team_index]];
         let character_4_int_index = 1;
         for (let character_4_index in team.character_4.name) {
 
@@ -125,11 +128,11 @@ function printTeams() {
 
                     <div id="toolbox_container" class="toolbox_container">
                         <div id="team_id" class="team_id">
-                            #` + keys[team_index] + (team.character_4.name.length > 1 ? `-` + character_4_int_index++ : ``) + `
+                            #` + orderedKeys[team_index] + (team.character_4.name.length > 1 ? `-` + character_4_int_index++ : ``) + `
                         </div>
 
-                        <button class="fav_button" onclick="toggleFavorite(this, ` + keys[team_index] + `)">
-                            <img class="` + (favorites[keys[team_index]] === null || favorites[keys[team_index]] === undefined ? `empty` : `filled`) + `" src="images/star_` + (favorites[keys[team_index]] === null || favorites[keys[team_index]] === undefined ? `empty` : `filled`) + `.png">
+                        <button class="fav_button" onclick="toggleFavorite(this, ` + orderedKeys[team_index] + `)">
+                            <img class="` + (favorites[orderedKeys[team_index]] === null || favorites[orderedKeys[team_index]] === undefined ? `empty` : `filled`) + `" src="images/star_` + (favorites[orderedKeys[team_index]] === null || favorites[orderedKeys[team_index]] === undefined ? `empty` : `filled`) + `.png">
                         </button>
                     </div>
 
