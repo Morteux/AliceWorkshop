@@ -1674,7 +1674,382 @@ const teams = {
         }
     },
     
+        "68": {
+        "name": "Lyney MonoPyro",
+        "description": "Best damage output team for Lyney. Cons: You don't have either shielder or resistance interruption. Very hard to play vs agressive enemies.",
+        "rotation": "Bennet > Kazuha E > Xiangling Q + E > Lyney (2-3 CA) + Q + E",
+        "archetype": "MonoPyro",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Lyney",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Bennett",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Xiangling",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Kaedehara Kazuha"],
+            "build": ["Standard"]
+        }
+    },
     
+    "69": {
+        "name": "Lyney MonoPyro",
+        "description": "Good shield and resistance interruption with zhongli, but you don't have the grouping and VV that provides Anemo. In the first Rotation, you have to do Bennet E > Zhongli E in order to activate Petra. Otherwise, put Zhongli at ToM artifacts.",
+        "rotation": "E Zhongli > Bennet > Q + E Xiangling > Lyney (2-3CA) + Q + E",
+        "archetype": "MonoPyro",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Lyney",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Bennett",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Xiangling",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Zhongli"],
+            "build": ["Petra"]
+        }
+    },
+    
+    "70": {
+        "name": "Lyney MonpoPyro",
+        "description": "No ironic, one team where Dehya can be a good option. She provides buffs, particle generations, resistance interruption, tankiness, three pyros... Not the same damage as the xiangling team, but can be a good alternative of xiangling/zhongli team (and maybe better if grouping/vv is necesary).",
+        "rotation": "Bennet > Kazuha E > Dehya E > Lyney (2-3CA) + Q + E. (If fast rotations, you can do Dehya's E first, but be carefull with the 9s of resistance interruption)",
+        "archetype": "MonoPyro",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Lyney",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Bennett",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Dehya",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Kaedehara Kazuha"],
+            "build": ["Standard"]
+        }
+    },
+    
+
+    
+    "71": {
+        "name": "Lyney MonoPyro",
+        "description": "Layla or Baizhu can be the shielder of Lyney, because cryo/dendro doesn't interrupt the pyro aura.",
+        "rotation": "Layla > Bennet > Anemo > Lyney (2-3CA) + Q + E",
+        "archetype": "MonoPyro",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Lyney",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Bennett",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Kaedehara Kazuha",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Layla" "Baizhu"],
+            "build": ["Standard", "Standard]
+        }
+    },
+    
+    "71": {
+        "name": "Lyney MonoPyro",
+        "description": "Yeah, Tankfei is a good shielder but the boi. Just do it, but of course Yanfei C4. ",
+        "rotation": "Yanfei E + Q > Bennet > Kazuha E > Lyney (2-3CA) + Q + E",
+        "archetype": "MonoPyro",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Lyney",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Bennett",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Yanfei",
+            "build": "Tankfei"
+        },
+        "character_4": {
+            "name": ["Kaedehara Kazuha"],
+            "build": ["Standard"]
+        }
+    },
+    
+    "72": {
+        "name": "Lyney MonoPyro",
+        "description": "Yeah, Tankfei is a good shielder but the boi. Just do it, but of course Yanfei C4. Use Venti/Sucrose for grouping and Lynette for atk% boost, ousia and taunt.",
+        "rotation": "Yanfei E + Q > Bennet > Anemo > Lyney (2-3CA) + Q + E",
+        "archetype": "MonoPyro",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Lyney",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Bennett",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Yanfei",
+            "build": "Tankfei"
+        },
+        "character_4": {
+            "name": ["Sucrose", "Venti", "Lynette"],
+            "build": ["Standard", "Standard", "Standard"]
+        }
+    },
+    
+    "73": {
+        "name": "Lyney Reverse Melt",
+        "description": "You can use Lyney en Reverse Melt. You could have not enough pyro application to keep pyro, but it can be a useful team.",
+        "rotation": "",
+        "archetype": "Melt",
+        "viability": "Troll",
+
+        "character_1": {
+            "name": "Lyney",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Bennett",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Layla",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Rosaria", "Kaeya"],
+            "build": ["Melt", "Melt"]
+        }
+    },
+
+        "74": {
+        "name": "Lyney MonoPyro",
+        "description": "Use Venti/Sucrose for grouping, and Lynette for atk% boost, ousia and taunt. ",
+        "rotation": "",
+        "archetype": "MonoPyro",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Lyney",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Bennett",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Xiangling",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Venti", "Sucrose", "Lynette"],
+            "build": ["Standard", "Standard", "Standard"]
+        }
+    },
+    
+    "75": {
+        "name": "Lyney MonoPyro",
+        "description": "No ironic, one team where Dehya can be a good option. She provides buffs, particle generations, resistance interruption, tankiness, three pyros... Not the same damage as the xiangling team, but can be a good alternative of xiangling/zhongli team (and maybe better if grouping/vv is necesary). Use Venti/Sucrose for grouping, and Lynette for atk% boost, ousia and taunt.",
+        "rotation": "",
+        "archetype": "MonoPyro",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Lyney",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Bennett",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Dehya",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Venti", "Sucrose", "Lynette"],
+            "build": ["Standard", "Standard", "Standard"]
+        }
+    },
+
+    "76": {
+        "name": "Lyney MonoPyro",
+        "description": "Layla or Baizhu can be the shielder of Lyney, because cryo/dendro doesn't interrupt the pyro aura. Better with Kazuha.",
+        "rotation": "Layla > Bennet > Anemo > Lyney (2-3CA) + Q + E",
+        "archetype": "MonoPyro",
+        "viability": "Troll",
+
+        "character_1": {
+            "name": "Lyney",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Bennett",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Venti",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Layla", "Baizhu"],
+            "build": ["Standard", "Standard"]
+        }
+    },
+
+    "77": {
+        "name": "Lyney MonoPyro",
+        "description": "Layla or Baizhu can be the shielder of Lyney, because cryo/dendro doesn't interrupt the pyro aura. Better with Kazuha.",
+        "rotation": "Layla > Bennet > Anemo > Lyney (2-3CA) + Q + E",
+        "archetype": "MonoPyro",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Lyney",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Bennett",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Sucrose",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Layla", "Baizhu"],
+            "build": ["Standard", "Standard]
+        }
+    },
+
+    "78": {
+        "name": "Lyney MonoPyro",
+        "description": "Layla or Baizhu can be the shielder of Lyney, because cryo/dendro doesn't interrupt the pyro aura. Better with Kazuha.",
+        "rotation": "Layla > Bennet > Anemo > Lyney (2-3CA) + Q + E",
+        "archetype": "MonoPyro",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Lyney",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Bennett",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Lynette",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Layla", "Baizhu"],
+            "build": ["Standard", "Standard]
+        }
+    },
+
+    "79": {
+        "name": "Lyney MonoPyro",
+        "description": "Layla or Baizhu can be the shielder of Lyney, because cryo/dendro doesn't interrupt the pyro aura.",
+        "rotation": "Layla > Bennet > Xiangling > Lyney (2-3CA) + Q + E",
+        "archetype": "MonoPyro",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Lyney",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Bennett",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Xiangling",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Layla", "Baizhu"],
+            "build": ["Standard", "Standard]
+        }
+    },
+    
+    "80": {
+        "name": "Lyney MonoPyro",
+        "description": "Zhongli doesn't generate pyro particles as dehya, but Lynette's ult is not necesary every rotation. Dehya can be the third pyro for lyney's passive, but zhongli is good with other advantages like shred and better uptime.",
+        "rotation": "",
+        "archetype": "MonoPyro",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Lyney",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Bennett",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Zhongli",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Kaedehara Kazuha"],
+            "build": ["Standard"]
+        }
+    },
+    
+    "81": {
+        "name": "Lyney MonoPyro",
+        "description": "Zhongli doesn't generate pyro particles as dehya, but Lynette's ult is not necesary every rotation. Dehya can be the third pyro for lyney's passive, but zhongli is good with other advantages like shred and better uptime. Use Venti/Sucrose for grouping, and Lynette for atk% boost, ousia and taunt.",
+        "rotation": "",
+        "archetype": "MonoPyro",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Lyney",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Bennett",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Zhongli",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Venti", "Sucrose", "Lynette"],
+            "build": ["Standard", "Standard", "Standard"]
+        }
+    }
 
 }
 
