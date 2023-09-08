@@ -14,7 +14,7 @@ https://morteux.github.io/AliceWorkshop/
 - Favorite team checks (stored in sessions)
 - Add user custom teams (stored in sessions? need db)
 - User custom team mentioned above could have tags (1. viable team, 2. monoelectro, 3. raiden, f.e)
-- Pick one random pick of your favorite teams.
+- Pick one random pick of your favorite teams or other filters.
 - Show last version of Genshin supported.
 - URL to team with characters in url params.
 - Team randomizer.
@@ -22,6 +22,7 @@ https://morteux.github.io/AliceWorkshop/
 - Stats on most used characters, percentual presence of each character in meta, viable and funny.
 - Mark for user created teams.
 - troll: random team name generator.
+- Ordering ascendente y descendente
 
 ### Filters
 - Filter by user characters
