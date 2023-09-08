@@ -1574,7 +1574,7 @@ const teams = {
     },
 
                         
-    "64": {
+    "65": {
         "name": "Klee Reverse Melt",
         "description": "",
         "rotation": "",
@@ -1599,7 +1599,7 @@ const teams = {
         }
     },
     
-    "65": {
+    "66": {
         "name": "Klee Overload",
         "description": "",
         "rotation": "",
@@ -1624,7 +1624,7 @@ const teams = {
         }
     },
     
-    "66": {
+    "67": {
         "name": "Klee Taser",
         "description": "An odd variation of taser, using Klee instead of Sucrose. ",
         "rotation": "",
@@ -1649,7 +1649,7 @@ const teams = {
         }
     },
     
-    "67": {
+    "68": {
         "name": "Klee Overvape",
         "description": "",
         "rotation": "",
