@@ -1753,7 +1753,7 @@ const teams = {
     
     "71": {
         "name": "Lyney MonoPyro",
-        "description": "Layla or Baizhu can be the shielder of Lyney, because cryo/dendro doesn't interrupt the pyro aura.",
+        "description": "Layla, Diona, Kirara or Baizhu can be the shielder of Lyney, because cryo/dendro doesn't interrupt the pyro aura.",
         "rotation": "Layla > Bennet > Anemo > Lyney (2-3CA) + Q + E",
         "archetype": "MonoPyro",
         "viability": "Viable",
@@ -1771,8 +1771,8 @@ const teams = {
             "build": "Standard"
         },
         "character_4": {
-            "name": ["Layla" "Baizhu"],
-            "build": ["Standard", "Standard]
+            "name": ["Layla" "Baizhu", "Diona", "Kirara"],
+            "build": ["Standard", "Standard", "Standard", "Standard"]
         }
     },
     
@@ -1903,7 +1903,7 @@ const teams = {
 
     "76": {
         "name": "Lyney MonoPyro",
-        "description": "Layla or Baizhu can be the shielder of Lyney, because cryo/dendro doesn't interrupt the pyro aura. Better with Kazuha.",
+        "description": "Layla, Diona, Kirara or Baizhu can be the shielder of Lyney, because cryo/dendro doesn't interrupt the pyro aura. Better with Kazuha.",
         "rotation": "Layla > Bennet > Anemo > Lyney (2-3CA) + Q + E",
         "archetype": "MonoPyro",
         "viability": "Troll",
@@ -1921,14 +1921,14 @@ const teams = {
             "build": "Standard"
         },
         "character_4": {
-            "name": ["Layla", "Baizhu"],
-            "build": ["Standard", "Standard"]
+            "name": ["Layla" "Baizhu", "Diona", "Kirara"],
+            "build": ["Standard", "Standard", "Standard", "Standard"]
         }
     },
 
     "77": {
         "name": "Lyney MonoPyro",
-        "description": "Layla or Baizhu can be the shielder of Lyney, because cryo/dendro doesn't interrupt the pyro aura. Better with Kazuha.",
+        "description": "Layla, Diona, Kirara or Baizhu can be the shielder of Lyney, because cryo/dendro doesn't interrupt the pyro aura. Better with Kazuha.",
         "rotation": "Layla > Bennet > Anemo > Lyney (2-3CA) + Q + E",
         "archetype": "MonoPyro",
         "viability": "Viable",
@@ -1946,14 +1946,14 @@ const teams = {
             "build": "Standard"
         },
         "character_4": {
-            "name": ["Layla", "Baizhu"],
-            "build": ["Standard", "Standard]
+            "name": ["Layla" "Baizhu", "Diona", "Kirara"],
+            "build": ["Standard", "Standard", "Standard", "Standard"]
         }
     },
 
     "78": {
         "name": "Lyney MonoPyro",
-        "description": "Layla or Baizhu can be the shielder of Lyney, because cryo/dendro doesn't interrupt the pyro aura. Better with Kazuha.",
+        "description": "Layla, Diona, Kirara or Baizhu can be the shielder of Lyney, because cryo/dendro doesn't interrupt the pyro aura. Better with Kazuha.",
         "rotation": "Layla > Bennet > Anemo > Lyney (2-3CA) + Q + E",
         "archetype": "MonoPyro",
         "viability": "Viable",
@@ -1971,14 +1971,14 @@ const teams = {
             "build": "Standard"
         },
         "character_4": {
-            "name": ["Layla", "Baizhu"],
-            "build": ["Standard", "Standard]
+            "name": ["Layla" "Baizhu", "Diona", "Kirara"],
+            "build": ["Standard", "Standard", "Standard", "Standard"]
         }
     },
 
     "79": {
         "name": "Lyney MonoPyro",
-        "description": "Layla or Baizhu can be the shielder of Lyney, because cryo/dendro doesn't interrupt the pyro aura.",
+        "description": "Layla, Diona, Kirara or Baizhu can be the shielder of Lyney, because cryo/dendro doesn't interrupt the pyro aura.",
         "rotation": "Layla > Bennet > Xiangling > Lyney (2-3CA) + Q + E",
         "archetype": "MonoPyro",
         "viability": "Viable",
@@ -1996,8 +1996,8 @@ const teams = {
             "build": "Standard"
         },
         "character_4": {
-            "name": ["Layla", "Baizhu"],
-            "build": ["Standard", "Standard]
+            "name": ["Layla" "Baizhu", "Diona", "Kirara"],
+            "build": ["Standard", "Standard", "Standard", "Standard"]
         }
     },
     
@@ -2049,7 +2049,82 @@ const teams = {
             "name": ["Venti", "Sucrose", "Lynette"],
             "build": ["Standard", "Standard", "Standard"]
         }
-    }
+    },
+
+        "82": {
+        "name": "Lyney MonoPyro Doble Geo",
+        "description": "Be careful, Albedo + Zhongli can interrupt Pyro aura with crystalize. Useful when VV/Grouping don't needed.",
+        "rotation": "",
+        "archetype": "MonoPyro",
+        "viability": "Troll",
+
+        "character_1": {
+            "name": "Lyney",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Bennett",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Zhongli",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Albedo"],
+            "build": ["Standard"]
+        }
+    },
+
+        "83": {
+        "name": "Lyney MonoPyro",
+        "description": "Lyney with Klee support. Klee C2 needed... I will say nothing more.",
+        "rotation": "",
+        "archetype": "MonoPyro",
+        "viability": "Troll",
+
+        "character_1": {
+            "name": "Lyney",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Bennett",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Klee",
+            "build": "Support"
+        },
+        "character_4": {
+            "name": ["Zhongli", "Kaedehara Kazuha", "Sucrose", "Venti", "Lynette"],
+            "build": ["Standard", "Standard", "Standard", "Standard", "Standard"]
+        }
+    },
+
+        "84": {
+        "name": "Lyney MonoPyro",
+        "description": "If you love Xinyan, she can be use in monopyro with Lyney. C2 is not obbligatory but almost required.",
+        "rotation": "",
+        "archetype": "MonoPyro",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Lyney",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Bennett",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Xinyan",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Kaedehara Kazuha", "Sucrose", "Venti", "Lynette"],
+            "build": ["Standard", "Standard", "Standard", "Standard"]
+        }
+    },
 
 }
 
