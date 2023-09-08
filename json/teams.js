@@ -2056,7 +2056,7 @@ const teams = {
         "description": "Be careful, Albedo + Zhongli can interrupt Pyro aura with crystalize. Useful when VV/Grouping don't needed.",
         "rotation": "",
         "archetype": "MonoPyro",
-        "viability": "Viable",
+        "viability": "Troll",
 
         "character_1": {
             "name": "Lyney",
