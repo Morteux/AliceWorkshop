@@ -430,6 +430,18 @@ const builds = {
                 "Circlet": "",
             },
             "subs_stat": ["", "", "", ""]
+        },
+
+        "Melt": {
+            "constellation": "",
+            "weapon": "",
+            "set": "",
+            "main_stat": {
+                "Sands": "",
+                "Goblet": "",
+                "Circlet": "",
+            },
+            "subs_stat": ["", "", "", ""]
         }
     },
     "Kamisato Ayaka": {
@@ -1018,6 +1030,17 @@ const builds = {
     "Yanfei": {
         "Standard": {
             "constellation": "",
+            "weapon": "",
+            "set": "",
+            "main_stat": {
+                "Sands": "",
+                "Goblet": "",
+                "Circlet": "",
+            },
+            "subs_stat": ["", "", "", ""]
+        },
+        "Tankfei": {
+            "constellation": "4",
             "weapon": "",
             "set": "",
             "main_stat": {
