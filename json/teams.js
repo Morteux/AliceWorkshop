@@ -2047,7 +2047,7 @@ const teams = {
         },
         "character_4": {
             "name": ["Venti", "Sucrose", "Lynette"],
-            "build": ["Standard", "Standard", Standard"]
+            "build": ["Standard", "Standard", "Standard"]
         }
     }
 
