@@ -13,10 +13,10 @@ document.addEventListener("DOMContentLoaded", (event) => {
 });
 
 function printExtraFilters() {
-    filters_element = ELEMENTS.slice(); // Copy by value, not by reference
-    filters_archetype = ARCHETYPES.slice(); // Copy by value, not by reference
-    filters_viability = VIABILITIES.slice(); // Copy by value, not by reference
-    filters_character = [];
+    filters_element = ELEMENTS.slice();             // Copy by value, not by reference
+    filters_archetype = ARCHETYPES.slice();         // Copy by value, not by reference
+    filters_viability = VIABILITIES.slice();        // Copy by value, not by reference
+    filters_character = CHARACTER_NAMES.slice();    // Copy by value, not by reference
 
     extra_filters_container = document.getElementById("extra_filters_container");
 
@@ -74,8 +74,20 @@ function printExtraFilters() {
 
 
 
+    filters += `<div class="filters_characters">
+    
+    <button id="toggle_all_characters_button" class="primary_button" onclick="toggleAllCharacters()">+</button>
+    `;
+    for (let characters_index = Object.keys(characters_order_priority).length - 1; characters_index >= 0; --characters_index) {
+        let character = characters_order_priority[characters_index];
 
-
+        filters += `
+        <div class="checkbox_filter">
+            <input type="checkbox" onclick="toggleFilterCharacter('` + character + `'); resetResult(); searchQuery()" name="filter_character_` + character.toLowerCase() + `" id="filter_character_` + character.toLowerCase() + `" ` + (filters_character.includes(character) ? `checked` : ``) + `>
+            <label for="filter_character_` + character.toLowerCase() + `">` + character + `</label></input>
+        </div>`
+    }
+    filters += `</div>`;
 
 
 
@@ -137,6 +149,9 @@ function doFilter(id, team) {
     } else if (filterByUserCharacter(team)) {
         // console.log("filterByUserCharacter KO" + " in team #" + id);
         pass = false;
+    } else if (filterByCharacter(team)) {
+        console.log("filterByCharacter KO" + " in team #" + id);
+        pass = false;
     }
 
     return pass;
@@ -155,8 +170,8 @@ function filterByArchetype(team) {
 function filterByElement(team) {
     let hasExcludedElement = false;
 
-    if ((characters[team.character_1.name].element != "None" && !filters_element.includes(characters[team.character_1.name].element)) || (team.character_1.build.element != null && !filters_element.includes(team.character_1.build.element)) || 
-        (characters[team.character_2.name].element != "None" && !filters_element.includes(characters[team.character_2.name].element)) || (team.character_2.build.element != null && !filters_element.includes(team.character_2.build.element)) || 
+    if ((characters[team.character_1.name].element != "None" && !filters_element.includes(characters[team.character_1.name].element)) || (team.character_1.build.element != null && !filters_element.includes(team.character_1.build.element)) ||
+        (characters[team.character_2.name].element != "None" && !filters_element.includes(characters[team.character_2.name].element)) || (team.character_2.build.element != null && !filters_element.includes(team.character_2.build.element)) ||
         (characters[team.character_3.name].element != "None" && !filters_element.includes(characters[team.character_3.name].element)) || (team.character_3.build.element != null && !filters_element.includes(team.character_3.build.element))) {
 
         hasExcludedElement = true;
@@ -188,11 +203,11 @@ function filterByUserCharacter(team) {
 
     if (filter_characters_owned) {
 
-        hasNotUserCharacter = user_teams[team.character_1.name] == null || user_teams[team.character_2.name] == null || user_teams[team.character_3.name] == null;
+        hasNotUserCharacter = user_characters[team.character_1.name] == null || user_characters[team.character_2.name] == null || user_characters[team.character_3.name] == null;
 
         if (!hasNotUserCharacter) {
             for (let character_index in team.character_4.name) {
-                if (user_teams[team.character_4.name[character_index]] == null) {
+                if (user_characters[team.character_4.name[character_index]] == null) {
                     hasNotUserCharacter = true;
                 }
             }
@@ -200,6 +215,22 @@ function filterByUserCharacter(team) {
     }
 
     return hasNotUserCharacter;
+}
+
+function filterByCharacter(team) {
+    let hasNotCharacter = false;
+
+    hasNotCharacter = !filters_character.includes(team.character_1.name) || !filters_character.includes(team.character_2.name) || !filters_character.includes(team.character_3.name);
+
+    if (!hasNotCharacter) {
+        for (let character_index in team.character_4.name) {
+            if (!filters_character.includes(team.character_4.name[character_index])) {
+                hasNotCharacter = true;
+            }
+        }
+    }
+
+    return hasNotCharacter;
 }
 
 // Filters togglers
@@ -336,4 +367,46 @@ function toggleFilterViability(viability) {
 
 function toggleFilterCharactersOwned() {
     filter_characters_owned = !filter_characters_owned;
+}
+
+function toggleAllCharacters() {
+
+    if (filters_character.length > 0) {
+        document.getElementById("toggle_all_characters_button").innerHTML = "-";
+
+        while (filters_character[0] != null) {
+            document.getElementById("filter_character_" + filters_character[0].toLowerCase()).checked = false;
+            toggleFilterCharacter(filters_character[0]);
+        }
+    } else {
+        document.getElementById("toggle_all_characters_button").innerHTML = "+";
+
+        for (let character_index in CHARACTER_NAMES) {
+            if (!filters_character.includes(CHARACTER_NAMES[character_index])) {
+                document.getElementById("filter_character_" + CHARACTER_NAMES[character_index].toLowerCase()).checked = true;
+                toggleFilterCharacter(CHARACTER_NAMES[character_index]);
+            }
+        }
+    }
+
+    resetResult();
+    searchQuery();
+}
+
+function toggleFilterCharacter(character) {
+
+    if (filters_character.includes(character)) {
+        // console.log(character + " not filtered");
+
+        const index = filters_character.indexOf(character);
+        if (index > -1) {           // only splice array when item is found
+            filters_character.splice(index, 1);   // 2nd parameter means remove one item only
+        }
+
+    } else {
+        // console.log(character + " filtered");
+        filters_character.push(character);
+    }
+
+    // console.log(filters_character);
 }

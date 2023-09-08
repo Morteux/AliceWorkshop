@@ -61,11 +61,6 @@ body {
 }
 
 .primary_button {
-
-    /* display: inline-block; */
-    /* font-weight: 400; */
-    /* color: #212529; */
-    /* text-align: center; */
     border: 1px solid transparent;
     padding: .375rem .75rem;
     font-size: 1rem;
@@ -165,12 +160,6 @@ body {
     padding: 1.5vh;
     border-radius: 4px;
 }
-
-/* Button checks */
-
-.filter_button_checked {}
-
-.filter_button_unchecked {}
 
 /* Switch styles */
 

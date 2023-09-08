@@ -9,11 +9,11 @@ var team_creator_troll;
 var team_creator_unique;
 
 var favorites = {};
-var user_teams = {};
+var user_characters = {};
 
 window.addEventListener("beforeunload", function (e) {
     localStorage.setItem('favorites', JSON.stringify(favorites));
-    localStorage.setItem('user_teams', JSON.stringify(user_teams));
+    localStorage.setItem('user_characters', JSON.stringify(user_characters));
 });
 
 if (localStorage.getItem("favorites") !== null && localStorage.getItem("favorites") != "{}") {
@@ -21,9 +21,9 @@ if (localStorage.getItem("favorites") !== null && localStorage.getItem("favorite
     // console.log(favorites);
 }
 
-if (localStorage.getItem("user_teams") !== null && localStorage.getItem("user_teams") != "{}") {
-    user_teams = JSON.parse(localStorage.getItem("user_teams"));
-    // console.log(user_teams);
+if (localStorage.getItem("user_characters") !== null && localStorage.getItem("user_characters") != "{}") {
+    user_characters = JSON.parse(localStorage.getItem("user_characters"));
+    // console.log(user_characters);
 }
 
 document.addEventListener("DOMContentLoaded", (event) => {
@@ -181,7 +181,7 @@ function getCharacterCheckHTML(character_data) {
     }
 
     return `
-    <div id="character_check_` + character_data.name + `" class="character_container ` + (user_teams[character_data.name] == null ? "character_unchecked" : "") + `" onclick="toggleCharacterUser('` + character_data.name + `')">
+    <div id="character_check_` + character_data.name + `" class="character_container ` + (user_characters[character_data.name] == null ? "character_unchecked" : "") + `" onclick="toggleCharacterUser('` + character_data.name + `')">
         <img class="character_icon ` + (character_data.rarity == "5" ? "character_5_stars" : "character_4_stars") + `" src="https://api.ambr.top/assets/UI/` + character_data.images.nameicon + `.png" alt="Character icon for ` + character_data.name + `">
         ` + (character_data.element != "None" ? `<img class="element_icon" src="images/elements/glow_` + character_data.element.toLowerCase() + `.png">` : "") + `
         <div class="rarity_container">` + STAR_SVG + STAR_SVG + STAR_SVG + STAR_SVG + (character_data.rarity == "5" ? STAR_SVG : "") + `</div>
@@ -201,13 +201,13 @@ function printCharactersCheck() {
 }
 
 function toggleCharacterUser(character_name) {
-    if (user_teams[character_name] != null) {
+    if (user_characters[character_name] != null) {
         if (!document.getElementById("character_check_" + character_name).classList.contains("character_unchecked")) {
             document.getElementById("character_check_" + character_name).classList.add("character_unchecked");
         }
-        delete user_teams[character_name];
+        delete user_characters[character_name];
     } else {
         document.getElementById("character_check_" + character_name).classList.remove("character_unchecked");
-        user_teams[character_name] = characters[character_name];
+        user_characters[character_name] = characters[character_name];
     }
 }
