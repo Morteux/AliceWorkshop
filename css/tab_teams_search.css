@@ -93,7 +93,8 @@
 
 .filters_elements,
 .filters_archetypes,
-.filters_viabilities {
+.filters_viabilities,
+.filters_characters {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -106,7 +107,8 @@
 
 .filters_elements div,
 .filters_archetypes div,
-.filters_viabilities div {
+.filters_viabilities div,
+.filters_characters div {
     margin-top: 1vh;
     margin-bottom: 1vh;
     margin-left: 0;
@@ -115,7 +117,8 @@
 
 #toggle_all_elements_button,
 #toggle_all_archetypes_button,
-#toggle_all_viabilities_button {
+#toggle_all_viabilities_button,
+#toggle_all_characters_button {
     width: 5vh;
     font-size: large;
 }
