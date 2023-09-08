@@ -542,6 +542,17 @@ const builds = {
                 "Circlet": "EM",
             },
             "subs_stat": ["EM", "", "", ""]
+        },
+        "Support": {
+            "constellation": "2",
+            "weapon": "",
+            "set": "",
+            "main_stat": {
+                "Sands": "",
+                "Goblet": "",
+                "Circlet": "",
+            },
+            "subs_stat": ["", "", "", ""]
         }
     },
     "Kujou Sara": {
