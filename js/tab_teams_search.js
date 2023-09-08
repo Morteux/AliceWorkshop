@@ -90,9 +90,9 @@ function getTeamsByTextInput() {
             team.character_4.name = [JSON.parse(JSON.stringify(teams[team_index].character_4.name[character_4_index]))];
             team.character_4.build = [JSON.parse(JSON.stringify(teams[team_index].character_4.build[character_4_index]))];
 
-            if (doFilter(team_index, teams[team_index]) && containCharacter(teams[team_index], search_form_text_input.toUpperCase())) {
+            if (doFilter(team_index, team) && containCharacter(team, search_form_text_input.toUpperCase())) {
                 // console.log("Coincidence for: " + teams[team_index].name);
-                teams_search_matches[team.id] = team;
+                teams_search_matches[team.id] = JSON.parse(JSON.stringify(team));
             }
             // else {
             //     console.log("Not matched: " + team.id)
