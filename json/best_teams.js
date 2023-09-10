@@ -20,7 +20,7 @@ const best_teams = {
     "Eula": [],
     "Faruzan": [],
     "Fischl": [],
-    "Freminet": ["87"],
+    "Freminet": ["88"],
     "Ganyu": [],
     "Gorou": [],
     "Hu Tao": [],
