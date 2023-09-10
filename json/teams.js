@@ -2125,6 +2125,181 @@ const teams = {
             "build": ["Standard", "Standard", "Standard", "Standard"]
         }
     },
+                        
+    "85": {
+        "name": "Physical Freminet",
+        "description": "You need an hydro unit in order to trigger shatter. In physical Freminet, an electro character is esencial to do Superconduct. ",
+        "rotation": "Off field characters  > Freminet: Burst, [NA] Skill, 2NA, Skill",
+        "archetype": "Hypercarry",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Freminet",
+            "build": "Physical"
+        },
+        "character_2": {
+            "name": "Xingqiu",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Fischl",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Yelan", "Sangonomiya Kokomi", "Kuki Shinobu", "Yae Miko", "Beidou", "Shenhe", "Layla", "Rosaria", "Kaeya", "Mika", "Diona", "Bennet", "Zhongli", "Lisa"],
+            "build": ["Standard","Standard","Standard","Standard","Standard","Standard","Standard","Standard","Standard","Standard","Standard","Standard","Standard", "Standard"]
+        }
+    },
+
+    "86": {
+        "name": "Physical Freminet",
+        "description": "You need an hydro unit in order to trigger shatter. In physical Freminet, an electro character is esencial to do Superconduct. ",
+        "rotation": "Off field characters  > Freminet: Burst, [NA] Skill, 2NA, Skill",
+        "archetype": "Hypercarry",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Freminet",
+            "build": "Physical"
+        },
+        "character_2": {
+            "name": "Yelan",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Fischl",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Sangonomiya Kokomi", "Kuki Shinobu", "Yae Miko", "Beidou", "Shenhe", "Layla", "Rosaria", "Kaeya", "Mika", "Diona", "Bennet", "Zhongli", "Lisa"],
+            "build": ["Standard","Standard","Standard","Standard","Standard","Standard","Standard","Standard","Standard","Standard","Standard","Standard", "Standard"]
+        }
+    },
+    
+    "87": {
+        "name": "Physical Freminet",
+        "description": "You need an hydro unit in order to trigger shatter. In physical Freminet, an electro character is esencial to do Superconduct. ",
+        "rotation": "Off field characters  > Freminet: Burst, [NA] Skill, 2NA, Skill",
+        "archetype": "Hypercarry",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Freminet",
+            "build": "Physical"
+        },
+        "character_2": {
+            "name": "Sangonomiya Kokomi",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Fischl",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Kuki Shinobu", "Yae Miko", "Beidou", "Shenhe", "Layla", "Rosaria", "Kaeya", "Mika", "Diona", "Bennet", "Zhongli", "Lisa"],
+            "build": ["Standard","Standard","Standard","Standard","Standard","Standard","Standard","Standard","Standard","Standard","Standard", "Standard"]
+        }
+    },
+    
+    "88": {
+        "name": "Freminet HyperFridge",
+        "description": "Freminet best archetype thanks to the sinergy between hyperbloom and his kit. Cryo helps to generate more seeds, and hyperbloom has electro and hydro, units that Freminet needs.",
+        "rotation": "Off field characters  > Freminet: Burst, [NA] Skill, 2NA, Skill",
+        "archetype": "HyperFridge",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Freminet",
+            "build": "Physical"
+        },
+        "character_2": {
+            "name": "Xingqiu",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Kuki Shinobu",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Nahida", "Aether"],
+            "build": ["Standard", "Dendro"]
+        }
+    },
+
+    "89": {
+        "name": "Freminet HyperFridge",
+        "description": "Freminet best archetype thanks to the sinergy between hyperbloom and his kit. Cryo helps to generate more seeds, and hyperbloom has electro and hydro, units that Freminet needs.",
+        "rotation": "Off field characters  > Freminet: Burst, [NA] Skill, 2NA, Skill",
+        "archetype": "HyperFridge",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Freminet",
+            "build": "Physical"
+        },
+        "character_2": {
+            "name": "Sangonomiya Kokomi",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Raiden Shogun",
+            "build": "EM"
+        },
+        "character_4": {
+            "name": ["Nahida", "Aether"],
+            "build": ["Standard", "Dendro"]
+        }
+    },
+    
+    "90": {
+        "name": "Freminet Freeze",
+        "description": "",
+        "rotation": "Off field characters  > Freminet: E, BURST, Spam skill (NA when Skill on CD(1s))",
+        "archetype": "Freeze",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Freminet",
+            "build": "Freeze"
+        },
+        "character_2": {
+            "name": "Xingqiu",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Kaedehara Kazuha",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Layla", "Shenhe", "Chongyun", "Rosaria", "Ganyu", "Diona", "Kaeya"],
+            "build": ["Standard","Standard","Standard","Standard","Ultimate","Standard","Standard"]
+        }
+    },
+    
+    "91": {
+        "name": "Freminet Melt",
+        "description": "Not recommended, since Freminet E share ICD",
+        "rotation": "Off field characters  > Freminet: E, BURST, Spam skill (NA when Skill on CD(1s))",
+        "archetype": "Melt",
+        "viability": "Troll",
+
+        "character_1": {
+            "name": "Freminet",
+            "build": "Freeze"
+        },
+        "character_2": {
+            "name": "Xiangling",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Bennett",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Kaedehara Kazuha", "Rosaria", "Chongyun", "Kaeya", "Shenhe"],
+            "build": ["Standard","Standard","Standard","Standard","Standard"]
+        }
+    },
 
 }
 
