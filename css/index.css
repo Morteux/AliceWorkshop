@@ -146,7 +146,7 @@ body {
     height: 5vh;
     z-index: 99;
 
-    background-image: url('../images/up_arrow.png');
+    background-image: url('../images/icons/up_arrow.png');
     background-size: 60%;
     background-position: center;
     background-repeat: no-repeat;
