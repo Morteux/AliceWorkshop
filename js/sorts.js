@@ -30,12 +30,12 @@ function orderKeys(keys) {
     if (sort_value == "team_id") {
         if (isAscending) {
             keys.sort(function (x, y) {
-                return parseInt((x.indexOf("-") == 1 ? x.substring(0, x.indexOf("-")) : x)) - parseInt((y.indexOf("-") == 1 ? y.substring(0, y.indexOf("-")) : y));
+                return parseInt((x.includes("-") ? x.substring(0, x.indexOf("-")) : x)) - parseInt((y.includes("-") ? y.substring(0, y.indexOf("-")) : y));
             });
         }
         else {
             keys.sort(function (x, y) {
-                return parseInt((y.indexOf("-") == 1 ? y.substring(0, y.indexOf("-")) : y)) - parseInt((x.indexOf("-") == 1 ? x.substring(0, x.indexOf("-")) : x));
+                return parseInt((y.includes("-") ? y.substring(0, y.indexOf("-")) : y)) - parseInt((x.includes("-") ? x.substring(0, x.indexOf("-")) : x));
             });
         }
     } else if (sort_value == "viability") {
