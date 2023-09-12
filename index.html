@@ -107,6 +107,7 @@
 
                 <div class="search_form">
 
+                    <button type="submit" class="search_random_button" onclick="resetResult(); searchRandom()"></button>
                     <div class="autocomplete">
                         <input id="search_form_text_input" type="text" placeholder="Search..."
                             class="search_form_text_input">
@@ -141,7 +142,7 @@
             <div id="result_container" class="result_container">
             </div>
 
-            <div class="result_counter_container">Showing 
+            <div id="result_counter_container" class="result_counter_container">Showing 
                 <span id="result_counter"></span> teams of 
                 <span id="result_max_counter"></span>
             </div>
