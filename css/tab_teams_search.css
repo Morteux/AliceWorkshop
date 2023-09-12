@@ -221,6 +221,9 @@
 }
 
 .team_id {
+    position: relative;
+    display: inline-block;
+    
     font-size: 1.5vh;
 
     border-radius: 25%;
@@ -231,6 +234,8 @@
     color: var(--light_text);
 
     background-color: var(--dark_background);
+
+    cursor: pointer;
 }
 
 .fav_button {

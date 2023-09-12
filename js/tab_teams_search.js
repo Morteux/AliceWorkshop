@@ -109,10 +109,8 @@ function getTeamsById() {
     // Reset collection for a new search
     teams_search_matches = [];
 
-    // for (let team_index in teams) {
     let team = JSON.parse(JSON.stringify(teams[team_index]));
     team["id"] = team_index;
-
 
     if (showAllFlex) {
 
@@ -126,7 +124,6 @@ function getTeamsById() {
 
             teams_search_matches[team.id] = JSON.parse(JSON.stringify(team));
         }
-
     } else {
 
         if (teams[team_index].character_4.name.length > 1) {
@@ -195,8 +192,11 @@ function printTeams() {
                 <div id="team_container" class="team_container viability_` + team.viability.toLowerCase() + `">
 
                     <div id="toolbox_container" class="toolbox_container">
-                        <div id="team_id" class="team_id">
+                        <div id="team_id" class="team_id" onclick="showCopiedPopup('copied_popup_` + orderedKeys[team_index] + (team.character_4.name.length > 1 ? `-` + character_4_int_index++ : ``) + `'); copyTextToClipboard('` + orderedKeys[team_index] + (team.character_4.name.length > 1 ? `-` + character_4_int_index++ : ``) + `');">
                             #` + orderedKeys[team_index] + (team.character_4.name.length > 1 ? `-` + character_4_int_index++ : ``) + `
+                            <div class="popup">
+                                <span class="popuptext" id="copied_popup_` + orderedKeys[team_index] + (team.character_4.name.length > 1 ? `-` + character_4_int_index++ : ``) + `">Copied!</span>
+                            </div>
                         </div>
 
                         <button class="fav_button" onclick="toggleFavorite(this, ` + orderedKeys[team_index] + `)">
@@ -270,8 +270,9 @@ function printRandomTeam() {
         <div id="team_container" class="team_container viability_` + team.viability.toLowerCase() + `">
 
             <div id="toolbox_container" class="toolbox_container">
-                <div id="team_id" class="team_id">
+                <div id="team_id" class="team_id popup" onclick="showCopiedPopup(); copyTextToClipboard('` + team_index + `');">
                     #` + team_index + `
+                    <span class="popuptext" id="myPopup">Copied!</span>
                 </div>
 
                 <button class="fav_button" onclick="toggleFavorite(this, ` + teams_search_matches[team_index] + `)">
