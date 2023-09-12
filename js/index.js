@@ -32,3 +32,33 @@ const MEDIUM_NAME_LENGTH = 16;
 
 const ENTER_KEY_CODE = 'Enter';
 const TEAMS_PER_PAGE = 10;
+
+function copyToClipboardFromElementValue(id) {
+
+    // Get the text field
+    let copyText = document.getElementById(id);
+
+    // Select the text field
+    copyText.select();
+    copyText.setSelectionRange(0, 99999); // For mobile devices
+
+    // Copy the text inside the text field
+    navigator.clipboard.writeText(copyText.value);
+}
+
+function copyTextToClipboard(copyText) {
+    // Copy the text from parameter
+    navigator.clipboard.writeText(copyText);
+}
+
+// When the user clicks on <div>, open the popup
+function showCopiedPopup(popup_id) {
+    var popup = document.getElementById(popup_id);
+    popup.classList.toggle("show");
+
+    
+    setTimeout(function(){
+        popup.classList.toggle("hidden");
+      }, 2000);
+}
+

@@ -403,3 +403,74 @@ input[type=text] {
     color: limegreen;
     text-decoration: none;
 }
+
+
+
+
+
+
+
+/* Popup container */
+
+/* The actual popup (appears on top) */
+.popup .popuptext {
+    visibility: hidden;
+    width: 8vh;
+    background-color: #398d12;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 150%;
+    margin-left: -80px;
+
+    cursor: default;
+}
+
+/* Toggle this class when clicking on the popup container (hide and show the popup) */
+.popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn ease 2s;
+    animation: fadeIn ease 2s;
+    opacity: 0;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    25% {
+        opacity: 1;
+    }
+
+    75% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    25% {
+        opacity: 1;
+    }
+
+    75% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
