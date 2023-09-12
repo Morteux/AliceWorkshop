@@ -40,7 +40,7 @@
     color: var(--dark_text);
 }
 
-.search_form button {
+.search_button {
     padding: 2.4vh;
     background: var(--secondary_color);
     cursor: pointer;
@@ -51,10 +51,30 @@
     border: none;
 }
 
-.search_form button:hover {
+.search_button:hover {
     background: var(--tertiary_color);
 
     background-image: url('../images/loupe.svg');
+    background-size: cover;
+
+    border: none;
+}
+
+.search_random_button {
+    padding: 2.4vh;
+    background: var(--secondary_color);
+    cursor: pointer;
+
+    background-image: url('../images/card_random.svg');
+    background-size: cover;
+
+    border: none;
+}
+
+.search_random_button:hover {
+    background: var(--tertiary_color);
+
+    background-image: url('../images/card_random.svg');
     background-size: cover;
 
     border: none;

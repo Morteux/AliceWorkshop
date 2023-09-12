@@ -62,6 +62,16 @@ function containCharacter(team, character) {
     return character.length == 0 || team.character_1.name.toUpperCase() == character || team.character_2.name.toUpperCase() == character || team.character_3.name.toUpperCase() == character || team.character_4.name.map(function (x) { return x.toUpperCase(); }).includes(character);
 }
 
+function searchRandom() {
+    document.getElementById("result_container").style.display = "none";
+
+    getTeamsByTextInput();
+
+    printRandomTeam();
+
+    document.getElementById("result_container").style.display = "";
+}
+
 function searchQuery() {
     document.getElementById("result_container").style.display = "none";
 
@@ -177,6 +187,75 @@ function printTeams() {
 
     document.getElementById("result_counter").innerHTML = (start_index + TEAMS_PER_PAGE < Object.keys(teams_search_matches).length ? start_index + TEAMS_PER_PAGE : Object.keys(teams_search_matches).length);
     document.getElementById("result_max_counter").innerHTML = Object.keys(teams_search_matches).length;
+    document.getElementById("result_counter_container").style.display = "";
+}
+
+function printRandomTeam() {
+    if (teams_search_matches.length > 0) {
+        document.getElementById("result_container").style.display = "";
+    }
+
+    let team_output = "";
+
+    let team_index = Object.keys(teams_search_matches)[Math.floor(Math.random() * Object.keys(teams_search_matches).length)];
+
+    let team = teams_search_matches[team_index];
+    let character_4_int_index = 0;
+    let character_4_index = Object.keys(team.character_4.name)[character_4_int_index];
+
+    let character_4 = {
+        "name": team.character_4.name[character_4_index],
+        "build": team.character_4.build[character_4_index]
+    };
+
+    team_output = `
+        <div id="team_container" class="team_container viability_` + team.viability.toLowerCase() + `">
+
+            <div id="toolbox_container" class="toolbox_container">
+                <div id="team_id" class="team_id">
+                    #` + team_index + `
+                </div>
+
+                <button class="fav_button" onclick="toggleFavorite(this, ` + teams_search_matches[team_index] + `)">
+                    <img class="` + (favorites[teams_search_matches[team_index]] === null || favorites[teams_search_matches[team_index]] === undefined ? `empty` : `filled`) + `" src="images/star_` + (favorites[teams_search_matches[team_index]] === null || favorites[teams_search_matches[team_index]] === undefined ? `empty` : `filled`) + `.png">
+                </button>
+            </div>
+
+            <div id="characters_container" class="characters_container">
+            ` +
+        getCharacterHTML("character_1", team.character_1, characters[team.character_1.name]) +
+        getCharacterHTML("character_2", team.character_2, characters[team.character_2.name]) +
+        getCharacterHTML("character_3", team.character_3, characters[team.character_3.name]) +
+        getCharacterHTML("character_4", character_4, characters[character_4.name]) +
+        `
+            </div>
+            
+            <button class="collapsible" onclick="toggleCollapse(this)">
+                <img class="collapsible_image" src="images/bottom_arrow.png">
+            </button>
+            <div class="collapsible_content viability_` + team.viability.toLowerCase() + `_illuminated">
+                <div id="team_name_container" class="team_name_container">
+                    ` + team.name + `
+                </div>
+
+                <div id="team_rotation_container" class="team_rotation_container">
+                    ` + team.rotation + `
+                </div>
+
+                <div id="team_archetype_container" class="team_archetype_container">
+                    ` + team.archetype + `
+                </div>
+
+                <div class="team_desc_container">
+                    ` + team.description + `
+                </div>
+            </div>
+        </div>
+        `;
+
+    document.getElementById("result_container").innerHTML += team_output;
+
+    document.getElementById("result_counter_container").style.display = "none";
 }
 
 function getCharacterHTML(id, character_team, character_data) {
