@@ -65,6 +65,10 @@ function containCharacter(team, character) {
 function searchRandom() {
     document.getElementById("result_container").style.display = "none";
 
+    if (/\d/.test(document.getElementById("search_form_text_input").value)) {
+        document.getElementById("search_form_text_input").value = "";
+    }
+
     getTeamsByTextInput();
 
     printRandomTeam();
@@ -75,11 +79,65 @@ function searchRandom() {
 function searchQuery() {
     document.getElementById("result_container").style.display = "none";
 
-    getTeamsByTextInput();
+    if (/\d/.test(document.getElementById("search_form_text_input").value)) {
+        getTeamsById();
+    } else {
+        getTeamsByTextInput();
+    }
 
     printTeams();
 
     document.getElementById("result_container").style.display = "";
+}
+
+function getTeamsById() {
+    let search_form_text_input = document.getElementById("search_form_text_input").value;
+    let showAllFlex = false;
+
+    let team_index = 0;
+    let character_4_index = 0;
+
+    if (search_form_text_input.includes("-")) {
+        team_index = parseInt(search_form_text_input.substring(0, search_form_text_input.indexOf("-")));
+        character_4_index = parseInt(search_form_text_input.substring(search_form_text_input.indexOf("-") + 1)) - 1;
+    } else {
+        team_index = parseInt(search_form_text_input);
+
+        showAllFlex = true;
+    }
+
+    // Reset collection for a new search
+    teams_search_matches = [];
+
+    // for (let team_index in teams) {
+    let team = JSON.parse(JSON.stringify(teams[team_index]));
+    team["id"] = team_index;
+
+
+    if (showAllFlex) {
+
+        for (character_4_index in teams[team_index].character_4.name) {
+            if (teams[team_index].character_4.name.length > 1) {
+                team["id"] = team_index + "-" + (parseInt(character_4_index) + 1);
+            }
+
+            team.character_4.name = [JSON.parse(JSON.stringify(teams[team_index].character_4.name[character_4_index]))];
+            team.character_4.build = [JSON.parse(JSON.stringify(teams[team_index].character_4.build[character_4_index]))];
+
+            teams_search_matches[team.id] = JSON.parse(JSON.stringify(team));
+        }
+
+    } else {
+
+        if (teams[team_index].character_4.name.length > 1) {
+            team["id"] = team_index + "-" + (character_4_index + 1);
+        }
+
+        team.character_4.name = [JSON.parse(JSON.stringify(teams[team_index].character_4.name[character_4_index]))];
+        team.character_4.build = [JSON.parse(JSON.stringify(teams[team_index].character_4.build[character_4_index]))];
+
+        teams_search_matches[team.id] = JSON.parse(JSON.stringify(team));
+    }
 }
 
 function getTeamsByTextInput() {
@@ -142,7 +200,7 @@ function printTeams() {
                         </div>
 
                         <button class="fav_button" onclick="toggleFavorite(this, ` + orderedKeys[team_index] + `)">
-                            <img class="` + (favorites[orderedKeys[team_index]] === null || favorites[orderedKeys[team_index]] === undefined ? `empty` : `filled`) + `" src="images/star_` + (favorites[orderedKeys[team_index]] === null || favorites[orderedKeys[team_index]] === undefined ? `empty` : `filled`) + `.png">
+                            <img class="` + (favorites[orderedKeys[team_index]] === null || favorites[orderedKeys[team_index]] === undefined ? `empty` : `filled`) + `" src="images/icons/star_` + (favorites[orderedKeys[team_index]] === null || favorites[orderedKeys[team_index]] === undefined ? `empty` : `filled`) + `.png">
                         </button>
                     </div>
 
@@ -156,7 +214,7 @@ function printTeams() {
                     </div>
                     
                     <button class="collapsible" onclick="toggleCollapse(this)">
-                        <img class="collapsible_image" src="images/bottom_arrow.png">
+                        <img class="collapsible_image" src="images/icons/bottom_arrow.png">
                     </button>
                     <div class="collapsible_content viability_` + team.viability.toLowerCase() + `_illuminated">
                         <div id="team_name_container" class="team_name_container">
@@ -217,7 +275,7 @@ function printRandomTeam() {
                 </div>
 
                 <button class="fav_button" onclick="toggleFavorite(this, ` + teams_search_matches[team_index] + `)">
-                    <img class="` + (favorites[teams_search_matches[team_index]] === null || favorites[teams_search_matches[team_index]] === undefined ? `empty` : `filled`) + `" src="images/star_` + (favorites[teams_search_matches[team_index]] === null || favorites[teams_search_matches[team_index]] === undefined ? `empty` : `filled`) + `.png">
+                    <img class="` + (favorites[teams_search_matches[team_index]] === null || favorites[teams_search_matches[team_index]] === undefined ? `empty` : `filled`) + `" src="images/icons/star_` + (favorites[teams_search_matches[team_index]] === null || favorites[teams_search_matches[team_index]] === undefined ? `empty` : `filled`) + `.png">
                 </button>
             </div>
 
@@ -231,7 +289,7 @@ function printRandomTeam() {
             </div>
             
             <button class="collapsible" onclick="toggleCollapse(this)">
-                <img class="collapsible_image" src="images/bottom_arrow.png">
+                <img class="collapsible_image" src="images/icons/bottom_arrow.png">
             </button>
             <div class="collapsible_content viability_` + team.viability.toLowerCase() + `_illuminated">
                 <div id="team_name_container" class="team_name_container">
