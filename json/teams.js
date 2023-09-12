@@ -1677,7 +1677,7 @@ const teams = {
         "68": {
         "name": "Lyney MonoPyro",
         "description": "Best damage output team for Lyney. Cons: You don't have either shielder or resistance interruption. Very hard to play vs agressive enemies.",
-        "rotation": "Bennet > Kazuha E > Xiangling Q + E > Lyney (2-3 CA) + Q + E",
+        "rotation": "Bennett > Kazuha E > Xiangling Q + E > Lyney (2-3 CA) + Q + E",
         "archetype": "MonoPyro",
         "viability": "Meta",
 
@@ -1701,8 +1701,8 @@ const teams = {
     
     "69": {
         "name": "Lyney MonoPyro",
-        "description": "Good shield and resistance interruption with zhongli, but you don't have the grouping and VV that provides Anemo. In the first Rotation, you have to do Bennet E > Zhongli E in order to activate Petra. Otherwise, put Zhongli at ToM artifacts.",
-        "rotation": "E Zhongli > Bennet > Q + E Xiangling > Lyney (2-3CA) + Q + E",
+        "description": "Good shield and resistance interruption with zhongli, but you don't have the grouping and VV that provides Anemo. In the first Rotation, you have to do Bennett E > Zhongli E in order to activate Petra. Otherwise, put Zhongli at ToM artifacts.",
+        "rotation": "E Zhongli > Bennett > Q + E Xiangling > Lyney (2-3CA) + Q + E",
         "archetype": "MonoPyro",
         "viability": "Meta",
 
@@ -1727,7 +1727,7 @@ const teams = {
     "70": {
         "name": "Lyney MonpoPyro",
         "description": "No ironic, one team where Dehya can be a good option. She provides buffs, particle generations, resistance interruption, tankiness, three pyros... Not the same damage as the xiangling team, but can be a good alternative of xiangling/zhongli team (and maybe better if grouping/vv is necesary).",
-        "rotation": "Bennet > Kazuha E > Dehya E > Lyney (2-3CA) + Q + E. (If fast rotations, you can do Dehya's E first, but be carefull with the 9s of resistance interruption)",
+        "rotation": "Bennett > Kazuha E > Dehya E > Lyney (2-3CA) + Q + E. (If fast rotations, you can do Dehya's E first, but be carefull with the 9s of resistance interruption)",
         "archetype": "MonoPyro",
         "viability": "Meta",
 
@@ -1754,7 +1754,7 @@ const teams = {
     "71": {
         "name": "Lyney MonoPyro",
         "description": "Layla, Diona, Kirara or Baizhu can be the shielder of Lyney, because cryo/dendro doesn't interrupt the pyro aura.",
-        "rotation": "Layla > Bennet > Anemo > Lyney (2-3CA) + Q + E",
+        "rotation": "Layla > Bennett > Anemo > Lyney (2-3CA) + Q + E",
         "archetype": "MonoPyro",
         "viability": "Viable",
 
@@ -1779,7 +1779,7 @@ const teams = {
     "71": {
         "name": "Lyney MonoPyro",
         "description": "Yeah, Tankfei is a good shielder but the boi. Just do it, but of course Yanfei C4. ",
-        "rotation": "Yanfei E + Q > Bennet > Kazuha E > Lyney (2-3CA) + Q + E",
+        "rotation": "Yanfei E + Q > Bennett > Kazuha E > Lyney (2-3CA) + Q + E",
         "archetype": "MonoPyro",
         "viability": "Meta",
 
@@ -1804,7 +1804,7 @@ const teams = {
     "72": {
         "name": "Lyney MonoPyro",
         "description": "Yeah, Tankfei is a good shielder but the boi. Just do it, but of course Yanfei C4. Use Venti/Sucrose for grouping and Lynette for atk% boost, ousia and taunt.",
-        "rotation": "Yanfei E + Q > Bennet > Anemo > Lyney (2-3CA) + Q + E",
+        "rotation": "Yanfei E + Q > Bennett > Anemo > Lyney (2-3CA) + Q + E",
         "archetype": "MonoPyro",
         "viability": "Viable",
 
@@ -1904,7 +1904,7 @@ const teams = {
     "76": {
         "name": "Lyney MonoPyro",
         "description": "Layla, Diona, Kirara or Baizhu can be the shielder of Lyney, because cryo/dendro doesn't interrupt the pyro aura. Better with Kazuha.",
-        "rotation": "Layla > Bennet > Anemo > Lyney (2-3CA) + Q + E",
+        "rotation": "Layla > Bennett > Anemo > Lyney (2-3CA) + Q + E",
         "archetype": "MonoPyro",
         "viability": "Troll",
 
@@ -1929,7 +1929,7 @@ const teams = {
     "77": {
         "name": "Lyney MonoPyro",
         "description": "Layla, Diona, Kirara or Baizhu can be the shielder of Lyney, because cryo/dendro doesn't interrupt the pyro aura. Better with Kazuha.",
-        "rotation": "Layla > Bennet > Anemo > Lyney (2-3CA) + Q + E",
+        "rotation": "Layla > Bennett > Anemo > Lyney (2-3CA) + Q + E",
         "archetype": "MonoPyro",
         "viability": "Viable",
 
@@ -1954,7 +1954,7 @@ const teams = {
     "78": {
         "name": "Lyney MonoPyro",
         "description": "Layla, Diona, Kirara or Baizhu can be the shielder of Lyney, because cryo/dendro doesn't interrupt the pyro aura. Better with Kazuha.",
-        "rotation": "Layla > Bennet > Anemo > Lyney (2-3CA) + Q + E",
+        "rotation": "Layla > Bennett > Anemo > Lyney (2-3CA) + Q + E",
         "archetype": "MonoPyro",
         "viability": "Viable",
 
@@ -1979,7 +1979,7 @@ const teams = {
     "79": {
         "name": "Lyney MonoPyro",
         "description": "Layla, Diona, Kirara or Baizhu can be the shielder of Lyney, because cryo/dendro doesn't interrupt the pyro aura.",
-        "rotation": "Layla > Bennet > Xiangling > Lyney (2-3CA) + Q + E",
+        "rotation": "Layla > Bennett > Xiangling > Lyney (2-3CA) + Q + E",
         "archetype": "MonoPyro",
         "viability": "Viable",
 
@@ -2123,6 +2123,181 @@ const teams = {
         "character_4": {
             "name": ["Kaedehara Kazuha", "Sucrose", "Venti", "Lynette"],
             "build": ["Standard", "Standard", "Standard", "Standard"]
+        }
+    },
+                        
+    "85": {
+        "name": "Physical Freminet",
+        "description": "You need an hydro unit in order to trigger shatter. In physical Freminet, an electro character is esencial to do Superconduct. ",
+        "rotation": "Off field characters  > Freminet: Burst, [NA] Skill, 2NA, Skill",
+        "archetype": "Hypercarry",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Freminet",
+            "build": "Physical"
+        },
+        "character_2": {
+            "name": "Xingqiu",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Fischl",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Yelan", "Sangonomiya Kokomi", "Kuki Shinobu", "Yae Miko", "Beidou", "Shenhe", "Layla", "Rosaria", "Kaeya", "Mika", "Diona", "Bennett", "Zhongli", "Lisa"],
+            "build": ["Standard","Standard","Standard","Standard","Standard","Standard","Standard","Standard","Standard","Standard","Standard","Standard","Standard", "Standard"]
+        }
+    },
+
+    "86": {
+        "name": "Physical Freminet",
+        "description": "You need an hydro unit in order to trigger shatter. In physical Freminet, an electro character is esencial to do Superconduct. ",
+        "rotation": "Off field characters  > Freminet: Burst, [NA] Skill, 2NA, Skill",
+        "archetype": "Hypercarry",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Freminet",
+            "build": "Physical"
+        },
+        "character_2": {
+            "name": "Yelan",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Fischl",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Sangonomiya Kokomi", "Kuki Shinobu", "Yae Miko", "Beidou", "Shenhe", "Layla", "Rosaria", "Kaeya", "Mika", "Diona", "Bennett", "Zhongli", "Lisa"],
+            "build": ["Standard","Standard","Standard","Standard","Standard","Standard","Standard","Standard","Standard","Standard","Standard","Standard", "Standard"]
+        }
+    },
+    
+    "87": {
+        "name": "Physical Freminet",
+        "description": "You need an hydro unit in order to trigger shatter. In physical Freminet, an electro character is esencial to do Superconduct. ",
+        "rotation": "Off field characters  > Freminet: Burst, [NA] Skill, 2NA, Skill",
+        "archetype": "Hypercarry",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Freminet",
+            "build": "Physical"
+        },
+        "character_2": {
+            "name": "Sangonomiya Kokomi",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Fischl",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Kuki Shinobu", "Yae Miko", "Beidou", "Shenhe", "Layla", "Rosaria", "Kaeya", "Mika", "Diona", "Bennett", "Zhongli", "Lisa"],
+            "build": ["Standard","Standard","Standard","Standard","Standard","Standard","Standard","Standard","Standard","Standard","Standard", "Standard"]
+        }
+    },
+    
+    "88": {
+        "name": "Freminet HyperFridge",
+        "description": "Freminet best archetype thanks to the sinergy between hyperbloom and his kit. Cryo helps to generate more seeds, and hyperbloom has electro and hydro, units that Freminet needs.",
+        "rotation": "Off field characters  > Freminet: Burst, [NA] Skill, 2NA, Skill",
+        "archetype": "HyperFridge",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Freminet",
+            "build": "Physical"
+        },
+        "character_2": {
+            "name": "Xingqiu",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Kuki Shinobu",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Nahida", "Aether"],
+            "build": ["Standard", "Dendro"]
+        }
+    },
+
+    "89": {
+        "name": "Freminet HyperFridge",
+        "description": "Freminet best archetype thanks to the sinergy between hyperbloom and his kit. Cryo helps to generate more seeds, and hyperbloom has electro and hydro, units that Freminet needs.",
+        "rotation": "Off field characters  > Freminet: Burst, [NA] Skill, 2NA, Skill",
+        "archetype": "HyperFridge",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Freminet",
+            "build": "Physical"
+        },
+        "character_2": {
+            "name": "Sangonomiya Kokomi",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Raiden Shogun",
+            "build": "EM"
+        },
+        "character_4": {
+            "name": ["Nahida", "Aether"],
+            "build": ["Standard", "Dendro"]
+        }
+    },
+    
+    "90": {
+        "name": "Freminet Freeze",
+        "description": "",
+        "rotation": "Off field characters  > Freminet: E, BURST, Spam skill (NA when Skill on CD(1s))",
+        "archetype": "Freeze",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Freminet",
+            "build": "Freeze"
+        },
+        "character_2": {
+            "name": "Xingqiu",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Kaedehara Kazuha",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Layla", "Shenhe", "Chongyun", "Rosaria", "Ganyu", "Diona", "Kaeya"],
+            "build": ["Standard","Standard","Standard","Standard","Ultimate","Standard","Standard"]
+        }
+    },
+    
+    "91": {
+        "name": "Freminet Melt",
+        "description": "Not recommended, since Freminet E share ICD",
+        "rotation": "Off field characters  > Freminet: E, BURST, Spam skill (NA when Skill on CD(1s))",
+        "archetype": "Melt",
+        "viability": "Troll",
+
+        "character_1": {
+            "name": "Freminet",
+            "build": "Freeze"
+        },
+        "character_2": {
+            "name": "Xiangling",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Bennett",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Kaedehara Kazuha", "Rosaria", "Chongyun", "Kaeya", "Shenhe"],
+            "build": ["Standard","Standard","Standard","Standard","Standard"]
         }
     },
 
