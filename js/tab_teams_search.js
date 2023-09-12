@@ -270,9 +270,11 @@ function printRandomTeam() {
         <div id="team_container" class="team_container viability_` + team.viability.toLowerCase() + `">
 
             <div id="toolbox_container" class="toolbox_container">
-                <div id="team_id" class="team_id popup" onclick="showCopiedPopup(); copyTextToClipboard('` + team_index + `');">
+                <div id="team_id" class="team_id popup" onclick="showCopiedPopup('copied_popup_` + team_index + `'); copyTextToClipboard('` + team_index + `');">
                     #` + team_index + `
-                    <span class="popuptext" id="myPopup">Copied!</span>
+                    <div class="popup">
+                        <span class="popuptext" id="copied_popup_` + team_index + `">Copied!</span>
+                    </div>
                 </div>
 
                 <button class="fav_button" onclick="toggleFavorite(this, ` + teams_search_matches[team_index] + `)">
