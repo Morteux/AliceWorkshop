@@ -2859,10 +2859,10 @@ const teams = {
     
     "113": {
         "name": "Neuvillette National",
-        "description": "",
+        "description": "Not enough Hydro Application. Can be played anyways because National is good, but one of the worst Neuvillete teams.",
         "rotation": "",
         "archetype": "National",
-        "viability": "Meta",
+        "viability": "Viable",
 
         "character_1": {
             "name": "Neuvillette",
@@ -2870,7 +2870,7 @@ const teams = {
         },
         "character_2": {
             "name": "Xiangling",
-            "build": "Dendro"
+            "build": "Standard"
         },
         "character_3": {
             "name": "Bennett",
@@ -2895,7 +2895,7 @@ const teams = {
         },
         "character_2": {
             "name": "Rosaria",
-            "build": "Dendro"
+            "build": "Standard"
         },
         "character_3": {
             "name": "Ganyu",
@@ -2906,6 +2906,56 @@ const teams = {
             "build": ["Standard", "Standard", "Standard", "Standard", "Standard"]
         }
     },
+
+    "115": {
+        "name": "Neuvillette Taser/Hypercarry",
+        "description": "An electro-charged focus team. Most output damage for Neuvillette, so it can be called Hypercarry",
+        "rotation": "",
+        "archetype": "Taser",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Neuvillette",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Fischl",
+            "build": "Dendro"
+        },
+        "character_3": {
+            "name": "Kaedehara Kazuha",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Zhongli"],
+            "build": ["Standard"]
+        }
+    },
+
+    "116": {
+        "name": "Neuvillette OverVape",
+        "description": "A National team but with Fischl, helps maintaining the hydro aura on enemies, so it's better than normal National",
+        "rotation": "",
+        "archetype": "Overvape",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Neuvillette",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Fischl",
+            "build": "Dendro"
+        },
+        "character_3": {
+            "name": "Xiangling",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Bennett"],
+            "build": ["Standard"]
+        }
+    }
 
 
 }
