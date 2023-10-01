@@ -2778,7 +2778,7 @@ const teams = {
         },
         "character_4": {
             "name": ["Fischl", "Beidou"],
-            "build": ["Standard", "ER"]
+            "build": ["Standard", "SoloElectro"]
         }
     },
 
@@ -2803,7 +2803,7 @@ const teams = {
         },
         "character_4": {
             "name": ["Fischl", "Beidou"],
-            "build": ["Standard", "ER"]
+            "build": ["Standard", "SoloElectro"]
         }
     },
     
@@ -2978,7 +2978,7 @@ const teams = {
         },
         "character_4": {
             "name": ["Fischl", "Beidou"],
-            "build": ["Standard", "ER"]
+            "build": ["Standard", "SoloElectro"]
         }
     },
 
@@ -3003,7 +3003,7 @@ const teams = {
         },
         "character_4": {
             "name": ["Fischl", "Beidou"],
-            "build": ["Standard", "ER"]
+            "build": ["Standard", "SoloElectro"]
         }
     }
 }
