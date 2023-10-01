@@ -2727,8 +2727,8 @@ const teams = {
             "build": "Standard"
         },
         "character_4": {
-            "name": ["Kaeya", "Rosaria", "Ganyu", "Diona", "Layla"],
-            "build": ["Standard", "Standard", "Ultimate", "Standard", "Standard"]
+            "name": ["Rosaria", "Ganyu", "Diona", "Layla"],
+            "build": ["Standard", "Ultimate", "Standard", "Standard"]
         }
     },
 
@@ -2752,8 +2752,8 @@ const teams = {
             "build": "Standard"
         },
         "character_4": {
-            "name": ["Kaeya", "Rosaria", "Ganyu", "Diona", "Layla"],
-            "build": ["Standard", "Standard", "Ultimate", "Standard", "Standard"]
+            "name": ["Rosaria", "Ganyu", "Diona", "Layla"],
+            "build": ["Standard", "Ultimate", "Standard", "Standard"]
         }
     },
     
@@ -2778,7 +2778,7 @@ const teams = {
         },
         "character_4": {
             "name": ["Fischl", "Beidou"],
-            "build": ["Standard", "Standard"]
+            "build": ["Standard", "ER"]
         }
     },
 
@@ -2803,7 +2803,7 @@ const teams = {
         },
         "character_4": {
             "name": ["Fischl", "Beidou"],
-            "build": ["Standard", "Standard"]
+            "build": ["Standard", "ER"]
         }
     },
     
@@ -2955,9 +2955,57 @@ const teams = {
             "name": ["Bennett"],
             "build": ["Standard"]
         }
+    },
+
+    "117": {
+        "name": "Neuvillette Curry",
+        "description": "",
+        "rotation": "",
+        "archetype": "Curry",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Neuvillette",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Nahida",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Dehya",
+            "build": "EM"
+        },
+        "character_4": {
+            "name": ["Fischl", "Beidou"],
+            "build": ["Standard", "ER"]
+        }
+    },
+
+    "118": {
+        "name": "Neuvillette Curry",
+        "description": "",
+        "rotation": "",
+        "archetype": "Curry",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Neuvillette",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Aether",
+            "build": "Dendro"
+        },
+        "character_3": {
+            "name": "Dehya",
+            "build": "EM"
+        },
+        "character_4": {
+            "name": ["Fischl", "Beidou"],
+            "build": ["Standard", "ER"]
+        }
     }
-
-
 }
 
 //"34": {
