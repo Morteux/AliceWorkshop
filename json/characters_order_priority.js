@@ -70,5 +70,6 @@ const characters_order_priority = {
     68: "Kirara",
     69: "Lyney",
     70: "Lynette",
-    71: "Freminet"
+    71: "Freminet",
+    72: "Neuvillette"
 }

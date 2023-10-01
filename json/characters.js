@@ -7404,6 +7404,172 @@ const characters = {
         },
         "version": "3.2"
     },
+    "Neuvillette": {
+        "name": "Neuvillette",
+        "fullname": "Neuvillette",
+        "title": "Ordainer of Inexorable Judgment",
+        "description": "The Chief Justice of Fontaine, known as the Iudex, is renowned for his unassailable impartiality.",
+        "rarity": "5",
+        "element": "Hydro",
+        "weapontype": "Catalyst",
+        "substat": "CRIT DMG",
+        "gender": "Male",
+        "body": "MALE",
+        "association": "FONTAINE",
+        "region": "Fontaine",
+        "affiliation": "Court of Fontaine",
+        "birthdaymmdd": "12/18",
+        "birthday": "December 18",
+        "constellation": "???",
+        "cv": {
+            "english": "Ray Chase",
+            "chinese": "桑毓泽",
+            "japanese": "神谷浩史",
+            "korean": "Kwak Yoon-sang"
+        },
+        "costs": {
+            "ascend1": [
+                {
+                    "name": "Mora",
+                    "count": 20000
+                },
+                {
+                    "name": "Varunada Lazurite Sliver",
+                    "count": 1
+                },
+                {
+                    "name": "Lumitoile",
+                    "count": 3
+                },
+                {
+                    "name": "Transoceanic Pearl",
+                    "count": 3
+                }
+            ],
+            "ascend2": [
+                {
+                    "name": "Mora",
+                    "count": 40000
+                },
+                {
+                    "name": "Varunada Lazurite Fragment",
+                    "count": 3
+                },
+                {
+                    "name": "Fontemer Unihorn",
+                    "count": 2
+                },
+                {
+                    "name": "Lumitoile",
+                    "count": 10
+                },
+                {
+                    "name": "Transoceanic Pearl",
+                    "count": 15
+                }
+            ],
+            "ascend3": [
+                {
+                    "name": "Mora",
+                    "count": 60000
+                },
+                {
+                    "name": "Varunada Lazurite Fragment",
+                    "count": 6
+                },
+                {
+                    "name": "Fontemer Unihorn",
+                    "count": 4
+                },
+                {
+                    "name": "Lumitoile",
+                    "count": 20
+                },
+                {
+                    "name": "Transoceanic Chunk",
+                    "count": 12
+                }
+            ],
+            "ascend4": [
+                {
+                    "name": "Mora",
+                    "count": 80000
+                },
+                {
+                    "name": "Varunada Lazurite Chunk",
+                    "count": 3
+                },
+                {
+                    "name": "Fontemer Unihorn",
+                    "count": 8
+                },
+                {
+                    "name": "Lumitoile",
+                    "count": 30
+                },
+                {
+                    "name": "Transoceanic Chunk",
+                    "count": 18
+                }
+            ],
+            "ascend5": [
+                {
+                    "name": "Mora",
+                    "count": 100000
+                },
+                {
+                    "name": "Varunada Lazurite Chunk",
+                    "count": 6
+                },
+                {
+                    "name": "Fontemer Unihorn",
+                    "count": 12
+                },
+                {
+                    "name": "Lumitoile",
+                    "count": 45
+                },
+                {
+                    "name": "Xenochromatic Crystal",
+                    "count": 12
+                }
+            ],
+            "ascend6": [
+                {
+                    "name": "Mora",
+                    "count": 120000
+                },
+                {
+                    "name": "Varunada Lazurite Gemstone",
+                    "count": 6
+                },
+                {
+                    "name": "Fontemer Unihorn",
+                    "count": 20
+                },
+                {
+                    "name": "Lumitoile",
+                    "count": 60
+                },
+                {
+                    "name": "Xenochromatic Crystal",
+                    "count": 24
+                }
+            ]
+        },
+        "images": {
+            "cover1": "https://webstatic.hoyoverse.com/upload/op-public/2023/09/14/a542b56a05524520a116d57372fa6d3c_208786747272956585.png",
+            "cover2": "https://webstatic.hoyoverse.com/upload/op-public/2023/09/14/10047af490a5ea6cf897221c03d0eafb_2021555852782543920.png",
+            "nameicon": "UI_AvatarIcon_Neuvillette",
+            "nameiconcard": "UI_AvatarIcon_Neuvillette_Card",
+            "namegachasplash": "UI_Gacha_AvatarImg_Neuvillette",
+            "namegachaslice": "UI_Gacha_AvatarIcon_Neuvillette",
+            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Neuvillette.png",
+            "namesideicon": "UI_AvatarIcon_Side_Neuvillette",
+            "sideicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Neuvillette.png"
+        },
+        "version": "4.1"
+    },
     "Nilou": {
         "name": "Nilou",
         "fullname": "Nilou",
