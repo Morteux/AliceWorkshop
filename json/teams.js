@@ -2301,6 +2301,663 @@ const teams = {
         }
     },
 
+        "91": {
+        "name": "Neuvillette Hyperbloom",
+        "description": "Neuvillette is very strong in this archetype. With Raiden, you can do kite and trigger seeds.",
+        "rotation": "",
+        "archetype": "Hyperbloom",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Neuvillette",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Nahida",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Raiden Shogun",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Yae Miko", "Fischl", "Beidou", "Venti"],
+            "build": ["Standard", "Standard", "Standard", "Standard"]
+        }
+    },
+    
+    "92": {
+        "name": "Neuvillette Hyperbloom",
+        "description": "Neuvillette is very strong in this archetype. With Raiden, you can do kite and trigger seeds. ",
+        "rotation": "",
+        "archetype": "Hyperbloom",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Neuvillette",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Nahida",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Raiden Shogun",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Zhongli", "Albedo", "Kaedehara Kazuha", "Sucrose"],
+            "build": ["Standard", "Standard", "Standard", "Standard"]
+        }
+    },
+
+    "93": {
+        "name": "Neuvillette Hyperbloom",
+        "description": "Neuvillette is very strong in this archetype. With Raiden, you can do kite and trigger seeds.",
+        "rotation": "",
+        "archetype": "Hyperbloom",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Neuvillette",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Aether",
+            "build": "Dendro"
+        },
+        "character_3": {
+            "name": "Raiden Shogun",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Yae Miko", "Fischl", "Beidou", "Venti"],
+            "build": ["Standard", "Standard", "Standard", "Standard"]
+        }
+    },
+    
+    "94": {
+        "name": "Neuvillette Hyperbloom",
+        "description": "Neuvillette is very strong in this archetype. With Raiden, you can do kite and trigger seeds. ",
+        "rotation": "",
+        "archetype": "Hyperbloom",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Neuvillette",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Aether",
+            "build": "Dendro"
+        },
+        "character_3": {
+            "name": "Raiden Shogun",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Zhongli", "Albedo", "Kaedehara Kazuha", "Sucrose", "Yaoyao", "Collei", "Baizhu", "Kirara"],
+            "build": ["Standard", "Standard", "Standard", "Standard", "Standard", "Standard", "Standard", "Standard"]
+        }
+    },
+
+
+    
+    
+    "95": {
+        "name": "Neuvillette HyperFridge",
+        "description": "Neuvillette is very strong in this archetype. With Raiden, you can do kite and trigger seeds. ",
+        "rotation": "",
+        "archetype": "HyperFridge",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Neuvillette",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Nahida",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Raiden Shogun",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Rosaria", "Ganyu"],
+            "build": ["Standard", "Ultimate"]
+        }
+    },
+    
+    "96": {
+        "name": "Neuvillette HyperFridge",
+        "description": "Neuvillette is very strong in this archetype. With Raiden, you can do kite and trigger seeds. ",
+        "rotation": "",
+        "archetype": "HyperFridge",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Neuvillette",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Aether",
+            "build": "Dendro"
+        },
+        "character_3": {
+            "name": "Raiden Shogun",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Rosaria", "Ganyu"],
+            "build": ["Standard", "Ultimate"]
+        }
+    },
+    
+    "97": {
+        "name": "Neuvillette Hyperbloom",
+        "description": "Neuvillette is very strong in this archetype.  Be carefull to stay in a range that Shinobu can trigger the seeds.",
+        "rotation": "",
+        "archetype": "Hyperbloom",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Neuvillette",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Nahida",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Kuki Shinobu",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Yae Miko", "Fischl", "Beidou", "Venti"],
+            "build": ["Standard", "Standard", "Standard", "Standard"]
+        }
+    },
+    
+    "98": {
+        "name": "Neuvillette Hyperbloom",
+        "description": "Neuvillette is very strong in this archetype. Be carefull to stay in a range that Shinobu can trigger the seeds. ",
+        "rotation": "",
+        "archetype": "Hyperbloom",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Neuvillette",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Nahida",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Kuki Shinobu",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Zhongli", "Albedo", "Kaedehara Kazuha", "Sucrose"],
+            "build": ["Standard", "Standard", "Standard", "Standard"]
+        }
+    },
+
+    "99": {
+        "name": "Neuvillette Hyperbloom",
+        "description": "Neuvillette is very strong in this archetype. Be carefull to stay in a range that Shinobu can trigger the seeds.",
+        "rotation": "",
+        "archetype": "Hyperbloom",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Neuvillette",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Aether",
+            "build": "Dendro"
+        },
+        "character_3": {
+            "name": "Kuki Shinobu",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Yae Miko", "Fischl", "Beidou", "Venti"],
+            "build": ["Standard", "Standard", "Standard", "Standard"]
+        }
+    },
+    
+    "100": {
+        "name": "Neuvillette Hyperbloom",
+        "description": "Neuvillette is very strong in this archetype. Be carefull to stay in a range that Shinobu can trigger the seeds. ",
+        "rotation": "",
+        "archetype": "Hyperbloom",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Neuvillette",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Aether",
+            "build": "Dendro"
+        },
+        "character_3": {
+            "name": "Kuki Shinobu",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Zhongli", "Albedo", "Kaedehara Kazuha", "Sucrose", "Yaoyao", "Collei", "Baizhu", "Kirara"],
+            "build": ["Standard", "Standard", "Standard", "Standard", "Standard", "Standard", "Standard", "Standard"]
+        }
+    },
+
+
+    
+    
+    "101": {
+        "name": "Neuvillette HyperFridge",
+        "description": "Neuvillette is very strong in this archetype. Be carefull to stay in a range that Shinobu can trigger the seeds. ",
+        "rotation": "",
+        "archetype": "HyperFridge",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Neuvillette",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Nahida",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Kuki Shinobu",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Rosaria", "Ganyu"],
+            "build": ["Standard", "Ultimate"]
+        }
+    },
+    
+    "102": {
+        "name": "Neuvillette HyperFridge",
+        "description": "Neuvillette is very strong in this archetype.Be carefull to stay in a range that Shinobu can trigger the seeds.",
+        "rotation": "",
+        "archetype": "HyperFridge",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Neuvillette",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Aether",
+            "build": "Dendro"
+        },
+        "character_3": {
+            "name": "Kuki Shinobu",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Rosaria", "Ganyu"],
+            "build": ["Standard", "Ultimate"]
+        }
+    },
+
+    "103": {
+        "name": "Neuvillette Taser",
+        "description": "Neuvillete is a strong onfield option in taser,",
+        "rotation": "",
+        "archetype": "Taser",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Neuvillette",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Fischl",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Beidou",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Kaedehara Kazuha"],
+            "build": ["Standard"]
+        }
+    },
+
+    "104": {
+        "name": "Neuvillette Taser",
+        "description": "Neuvillete is a strong onfield option in taser,",
+        "rotation": "",
+        "archetype": "Taser",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Neuvillette",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Fischl",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Beidou",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Sucrose", "Venti", "Lynette"],
+            "build": ["Standard", "Standard", "Standard"]
+        }
+    },
+
+    "105": {
+        "name": "Neuvillette Taser",
+        "description": "Neuvillete is a strong onfield option in taser,",
+        "rotation": "",
+        "archetype": "Taser",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Neuvillette",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Fischl",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Yae Miko",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Kaedehara Kazuha"],
+            "build": ["Standard"]
+        }
+    },
+
+    "106": {
+        "name": "Neuvillette Taser",
+        "description": "Neuvillete is a strong onfield option in taser,",
+        "rotation": "",
+        "archetype": "Taser",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Neuvillette",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Fischl",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Yae Miko",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Sucrose", "Venti", "Lynette"],
+            "build": ["Standard", "Standard", "Standard"]
+        }
+    },
+    
+    "107": {
+        "name": "Neuvillette Oven",
+        "description": "",
+        "rotation": "",
+        "archetype": "Oven",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Neuvillette",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Nahida",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Xiangling",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Kaeya", "Rosaria", "Ganyu", "Diona", "Layla"],
+            "build": ["Standard", "Standard", "Ultimate", "Standard", "Standard"]
+        }
+    },
+
+    "108": {
+        "name": "Neuvillette Oven",
+        "description": "",
+        "rotation": "",
+        "archetype": "Oven",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Neuvillette",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Aether",
+            "build": "Dendro"
+        },
+        "character_3": {
+            "name": "Xiangling",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Kaeya", "Rosaria", "Ganyu", "Diona", "Layla"],
+            "build": ["Standard", "Standard", "Ultimate", "Standard", "Standard"]
+        }
+    },
+    
+    "109": {
+        "name": "Neuvillette Curry",
+        "description": "",
+        "rotation": "",
+        "archetype": "Curry",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Neuvillette",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Nahida",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Xiangling",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Fischl", "Beidou"],
+            "build": ["Standard", "Standard"]
+        }
+    },
+
+    "110": {
+        "name": "Neuvillette Curry",
+        "description": "",
+        "rotation": "",
+        "archetype": "Curry",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Neuvillette",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Aether",
+            "build": "Dendro"
+        },
+        "character_3": {
+            "name": "Xiangling",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Fischl", "Beidou"],
+            "build": ["Standard", "Standard"]
+        }
+    },
+    
+    "111": {
+        "name": "Neuvillette Sauté",
+        "description": "",
+        "rotation": "",
+        "archetype": "Sauté",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Neuvillette",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Nahida",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Kaedehara Kazuha",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Bennett"],
+            "build": ["Standard"]
+        }
+    },
+    
+    "112": {
+        "name": "Neuvillette Sauté",
+        "description": "",
+        "rotation": "",
+        "archetype": "Sauté",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Neuvillette",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Aether",
+            "build": "Dendro"
+        },
+        "character_3": {
+            "name": "Kaedehara Kazuha",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Bennett"],
+            "build": ["Standard"]
+        }
+    },
+    
+    "113": {
+        "name": "Neuvillette National",
+        "description": "Not enough Hydro Application. Can be played anyways because National is good, but one of the worst Neuvillete teams.",
+        "rotation": "",
+        "archetype": "National",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Neuvillette",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Xiangling",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Bennett",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Kaedehara Kazuha", "Sucrose"],
+            "build": ["Standard", "Standard"]
+        }
+    },
+    
+    "114": {
+        "name": "Neuvillette Freeze",
+        "description": "",
+        "rotation": "",
+        "archetype": "Freeze",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Neuvillette",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Rosaria",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Ganyu",
+            "build": "Ultimate"
+        },
+        "character_4": {
+            "name": ["Kaedehara Kazuha", "Venti", "Lynette", "Sucrose", "Jean"],
+            "build": ["Standard", "Standard", "Standard", "Standard", "Standard"]
+        }
+    },
+
+    "115": {
+        "name": "Neuvillette Taser/Hypercarry",
+        "description": "An electro-charged focus team. Most output damage for Neuvillette, so it can be called Hypercarry",
+        "rotation": "",
+        "archetype": "Taser",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Neuvillette",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Fischl",
+            "build": "Dendro"
+        },
+        "character_3": {
+            "name": "Kaedehara Kazuha",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Zhongli"],
+            "build": ["Standard"]
+        }
+    },
+
+    "116": {
+        "name": "Neuvillette OverVape",
+        "description": "A National team but with Fischl, helps maintaining the hydro aura on enemies, so it's better than normal National",
+        "rotation": "",
+        "archetype": "Overvape",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Neuvillette",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Fischl",
+            "build": "Dendro"
+        },
+        "character_3": {
+            "name": "Xiangling",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Bennett"],
+            "build": ["Standard"]
+        }
+    }
+
+
 }
 
 //"34": {

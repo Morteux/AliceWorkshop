@@ -708,6 +708,19 @@ const builds = {
             "subs_stat": ["", "", "", ""]
         }
     },
+    "Neuvillette": {
+        "Standard": {
+            "constellation": "",
+            "weapon": "",
+            "set": "",
+            "main_stat": {
+                "Sands": "",
+                "Goblet": "",
+                "Circlet": "",
+            },
+            "subs_stat": ["", "", "", ""]
+        }
+    },
     "Nilou": {
         "Standard": {
             "constellation": "",
