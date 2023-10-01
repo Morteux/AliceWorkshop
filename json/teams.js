@@ -2920,7 +2920,7 @@ const teams = {
         },
         "character_2": {
             "name": "Fischl",
-            "build": "Dendro"
+            "build": "Standard"
         },
         "character_3": {
             "name": "Kaedehara Kazuha",
@@ -2945,7 +2945,7 @@ const teams = {
         },
         "character_2": {
             "name": "Fischl",
-            "build": "Dendro"
+            "build": "Standard"
         },
         "character_3": {
             "name": "Xiangling",
@@ -2962,7 +2962,7 @@ const teams = {
         "description": "",
         "rotation": "",
         "archetype": "Curry",
-        "viability": "Meta",
+        "viability": "Viable",
 
         "character_1": {
             "name": "Neuvillette",
@@ -2987,7 +2987,7 @@ const teams = {
         "description": "",
         "rotation": "",
         "archetype": "Curry",
-        "viability": "Meta",
+        "viability": "Viable",
 
         "character_1": {
             "name": "Neuvillette",
