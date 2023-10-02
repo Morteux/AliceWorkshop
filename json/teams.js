@@ -3005,6 +3005,56 @@ const teams = {
             "name": ["Fischl", "Beidou"],
             "build": ["Standard", "SoloElectro"]
         }
+    },
+
+    "119": {
+        "name": "Neuvillette Freeze",
+        "description": "",
+        "rotation": "",
+        "archetype": "Freeze",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Neuvillette",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Mona",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Ganyu",
+            "build": "Ultimate"
+        },
+        "character_4": {
+            "name": ["Kaedehara Kazuha", "Venti", "Lynette", "Sucrose", "Jean"],
+            "build": ["Standard", "Standard", "Standard", "Standard", "Standard"]
+        }
+    },
+
+    "120": {
+        "name": "Neuvillette Freeze",
+        "description": "",
+        "rotation": "",
+        "archetype": "Freeze",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Neuvillette",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Mona",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Rosaria",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Kaedehara Kazuha", "Venti", "Lynette", "Sucrose", "Jean"],
+            "build": ["Standard", "Standard", "Standard", "Standard", "Standard"]
+        }
     }
 }
 
