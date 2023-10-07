@@ -2727,8 +2727,8 @@ const teams = {
             "build": "Standard"
         },
         "character_4": {
-            "name": ["Kaeya", "Rosaria", "Ganyu", "Diona", "Layla"],
-            "build": ["Standard", "Standard", "Ultimate", "Standard", "Standard"]
+            "name": ["Rosaria", "Ganyu", "Diona", "Layla"],
+            "build": ["Standard", "Ultimate", "Standard", "Standard"]
         }
     },
 
@@ -2752,8 +2752,8 @@ const teams = {
             "build": "Standard"
         },
         "character_4": {
-            "name": ["Kaeya", "Rosaria", "Ganyu", "Diona", "Layla"],
-            "build": ["Standard", "Standard", "Ultimate", "Standard", "Standard"]
+            "name": ["Rosaria", "Ganyu", "Diona", "Layla"],
+            "build": ["Standard", "Ultimate", "Standard", "Standard"]
         }
     },
     
@@ -2778,7 +2778,7 @@ const teams = {
         },
         "character_4": {
             "name": ["Fischl", "Beidou"],
-            "build": ["Standard", "Standard"]
+            "build": ["Standard", "SoloElectro"]
         }
     },
 
@@ -2803,7 +2803,7 @@ const teams = {
         },
         "character_4": {
             "name": ["Fischl", "Beidou"],
-            "build": ["Standard", "Standard"]
+            "build": ["Standard", "SoloElectro"]
         }
     },
     
@@ -2920,7 +2920,7 @@ const teams = {
         },
         "character_2": {
             "name": "Fischl",
-            "build": "Dendro"
+            "build": "Standard"
         },
         "character_3": {
             "name": "Kaedehara Kazuha",
@@ -2945,7 +2945,7 @@ const teams = {
         },
         "character_2": {
             "name": "Fischl",
-            "build": "Dendro"
+            "build": "Standard"
         },
         "character_3": {
             "name": "Xiangling",
@@ -2955,9 +2955,107 @@ const teams = {
             "name": ["Bennett"],
             "build": ["Standard"]
         }
+    },
+
+    "117": {
+        "name": "Neuvillette Curry",
+        "description": "",
+        "rotation": "",
+        "archetype": "Curry",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Neuvillette",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Nahida",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Dehya",
+            "build": "EM"
+        },
+        "character_4": {
+            "name": ["Fischl", "Beidou"],
+            "build": ["Standard", "SoloElectro"]
+        }
+    },
+
+    "118": {
+        "name": "Neuvillette Curry",
+        "description": "",
+        "rotation": "",
+        "archetype": "Curry",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Neuvillette",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Aether",
+            "build": "Dendro"
+        },
+        "character_3": {
+            "name": "Dehya",
+            "build": "EM"
+        },
+        "character_4": {
+            "name": ["Fischl", "Beidou"],
+            "build": ["Standard", "SoloElectro"]
+        }
+    },
+
+    "119": {
+        "name": "Neuvillette Freeze",
+        "description": "",
+        "rotation": "",
+        "archetype": "Freeze",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Neuvillette",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Mona",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Ganyu",
+            "build": "Ultimate"
+        },
+        "character_4": {
+            "name": ["Kaedehara Kazuha", "Venti", "Lynette", "Sucrose", "Jean"],
+            "build": ["Standard", "Standard", "Standard", "Standard", "Standard"]
+        }
+    },
+
+    "120": {
+        "name": "Neuvillette Freeze",
+        "description": "",
+        "rotation": "",
+        "archetype": "Freeze",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Neuvillette",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Mona",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Rosaria",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Kaedehara Kazuha", "Venti", "Lynette", "Sucrose", "Jean"],
+            "build": ["Standard", "Standard", "Standard", "Standard", "Standard"]
+        }
     }
-
-
 }
 
 //"34": {
