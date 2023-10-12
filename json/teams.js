@@ -3055,6 +3055,31 @@ const teams = {
             "name": ["Kaedehara Kazuha", "Venti", "Lynette", "Sucrose", "Jean"],
             "build": ["Standard", "Standard", "Standard", "Standard", "Standard"]
         }
+    },
+
+    "121": {
+        "name": "Vape Neuvillette",
+        "description": "Thanks to the low hydro applicattion that Neuvillete has, he can be one one of the only hydro character to do forward vaporize. Very difficult, you have to rotate around enemies. You can build som EM in this team (ej: Weapon, Sands, but crit is always better)",
+        "rotation": "E Neuvi > E kazuha > E Zhongli (try to not get the pilar) > E Xiangling (wait 1s) > Q Neu + CA > E kazuha > Q Xiangling > Neu CA + E + CA",
+        "archetype": "Vaporize",
+        "viability": "Unique",
+
+        "character_1": {
+            "name": "Neuvillette",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Kaedehara Kazuha",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Xiangling",
+            "build": "SoloPyro"
+        },
+        "character_4": {
+            "name": ["Zhongli"],
+            "build": ["Standard"]
+        }
     }
 }
 
