@@ -2331,7 +2331,7 @@ const teams = {
         "description": "Neuvillette is very strong in this archetype. With Raiden, you can do kite and trigger seeds. ",
         "rotation": "",
         "archetype": "Hyperbloom",
-        "viability": "Viable",
+        "viability": "Meta",
 
         "character_1": {
             "name": "Neuvillette",
@@ -2356,7 +2356,7 @@ const teams = {
         "description": "Neuvillette is very strong in this archetype. With Raiden, you can do kite and trigger seeds.",
         "rotation": "",
         "archetype": "Hyperbloom",
-        "viability": "Viable",
+        "viability": "Meta",
 
         "character_1": {
             "name": "Neuvillette",
@@ -2381,7 +2381,7 @@ const teams = {
         "description": "Neuvillette is very strong in this archetype. With Raiden, you can do kite and trigger seeds. ",
         "rotation": "",
         "archetype": "Hyperbloom",
-        "viability": "Viable",
+        "viability": "Meta",
 
         "character_1": {
             "name": "Neuvillette",
@@ -2554,9 +2554,6 @@ const teams = {
         }
     },
 
-
-    
-    
     "101": {
         "name": "Neuvillette HyperFridge",
         "description": "Neuvillette is VERY strong in this archetype. Be carefull to stay in a range that Shinobu can trigger the seeds. You can have the three stacks of Neuvillette passive.",
@@ -2627,8 +2624,8 @@ const teams = {
             "build": "Standard"
         },
         "character_4": {
-            "name": ["Kaedehara Kazuha"],
-            "build": ["Standard"]
+            "name": ["Kaedehara Kazuha", "Venti"],
+            "build": ["Standard", "Standard"]
         }
     },
 
@@ -2652,8 +2649,8 @@ const teams = {
             "build": "Standard"
         },
         "character_4": {
-            "name": ["Sucrose", "Venti", "Lynette"],
-            "build": ["Standard", "Standard", "Standard"]
+            "name": ["Sucrose", "Lynette"],
+            "build": ["Standard", "Standard"]
         }
     },
 
@@ -2677,8 +2674,8 @@ const teams = {
             "build": "Standard"
         },
         "character_4": {
-            "name": ["Kaedehara Kazuha"],
-            "build": ["Standard"]
+            "name": ["Kaedehara Kazuha", "Venti"],
+            "build": ["Standard", "Standard"]
         }
     },
 
@@ -2702,8 +2699,8 @@ const teams = {
             "build": "Standard"
         },
         "character_4": {
-            "name": ["Sucrose", "Venti", "Lynette"],
-            "build": ["Standard", "Standard", "Standard"]
+            "name": ["Sucrose", "Lynette"],
+            "build": ["Standard", "Standard"]
         }
     },
     
@@ -2812,7 +2809,7 @@ const teams = {
         "description": "",
         "rotation": "",
         "archetype": "Sauté",
-        "viability": "Meta",
+        "viability": "Viable",
 
         "character_1": {
             "name": "Neuvillette",
@@ -3080,7 +3077,58 @@ const teams = {
             "name": ["Zhongli"],
             "build": ["Standard"]
         }
+    },
+
+    "122": {
+        "name": "Neuvillette Dehya Hyperbloom",
+        "description": "Dehya is surprisily good with Neuvillette Hyperbloom. Low Pyro application to not still hyperblooms, enough pyro to trigger burning so Neuvillette can Vape and active 3 stacks of his passive. On top of that, resistance interruption for the first Neuvillete CA so he can start to kite. As always, Raiden > Shinobu but both are good. ",
+        "rotation": "",
+        "archetype": "Hyperbloom",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Neuvillette",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Dehya",
+            "build": "EM"
+        },
+        "character_3": {
+            "name": "Nahida",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Raiden Shogun", "Kuki Shinobu"],
+            "build": ["Standard", "Standard"]
+        }
+    },
+
+    "123": {
+        "name": "Neuvillette Dehya Hyperbloom",
+        "description": "Dehya is surprisily good with Neuvillette Hyperbloom. Low Pyro application to not still hyperblooms, enough pyro to trigger burning so Neuvillette can Vape and active 3 stacks of his passive. On top of that, resistance interruption for the first Neuvillete CA so he can start to kite. As always, Raiden > Shinobu but both are good. With Dendro MC usually an Anemo character is better.  ",
+        "rotation": "",
+        "archetype": "Hyperbloom",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Neuvillette",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Dehya",
+            "build": "EM"
+        },
+        "character_3": {
+            "name": "Aether",
+            "build": "Dendro"
+        },
+        "character_4": {
+            "name": ["Raiden Shogun", "Kuki Shinobu"],
+            "build": ["Standard", "Standard"]
+        }
     }
+    
 }
 
 //"34": {
