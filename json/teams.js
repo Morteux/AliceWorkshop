@@ -2459,7 +2459,7 @@ const teams = {
         "description": "Neuvillette is very strong in this archetype.  Be carefull to stay in a range that Shinobu can trigger the seeds.",
         "rotation": "",
         "archetype": "Hyperbloom",
-        "viability": "Viable",
+        "viability": "Meta",
 
         "character_1": {
             "name": "Neuvillette",
@@ -2509,7 +2509,7 @@ const teams = {
         "description": "Neuvillette is very strong in this archetype. Be carefull to stay in a range that Shinobu can trigger the seeds.",
         "rotation": "",
         "archetype": "Hyperbloom",
-        "viability": "Viable",
+        "viability": "Meta",
 
         "character_1": {
             "name": "Neuvillette",
