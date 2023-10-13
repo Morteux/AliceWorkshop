@@ -2406,7 +2406,7 @@ const teams = {
     
     "95": {
         "name": "Neuvillette HyperFridge",
-        "description": "Neuvillette is very strong in this archetype. With Raiden, you can do kite and trigger seeds. ",
+        "description": "Neuvillette is VERY strong in this archetype. With Raiden, you can do kite and trigger seeds. You can have the three stacks of Neuvillette passive.",
         "rotation": "",
         "archetype": "HyperFridge",
         "viability": "Meta",
@@ -2424,14 +2424,14 @@ const teams = {
             "build": "Standard"
         },
         "character_4": {
-            "name": ["Rosaria", "Ganyu"],
-            "build": ["Standard", "Ultimate"]
+            "name": ["Rosaria", "Ganyu", "Layla", "Diona"],
+            "build": ["Standard", "Ultimate", "Standard", "Standard"]
         }
     },
     
     "96": {
         "name": "Neuvillette HyperFridge",
-        "description": "Neuvillette is very strong in this archetype. With Raiden, you can do kite and trigger seeds. ",
+        "description": "Neuvillette is VERY strong in this archetype. With Raiden, you can do kite and trigger seeds. You can have the three stacks of Neuvillette passive.",
         "rotation": "",
         "archetype": "HyperFridge",
         "viability": "Meta",
@@ -2449,8 +2449,8 @@ const teams = {
             "build": "Standard"
         },
         "character_4": {
-            "name": ["Rosaria", "Ganyu"],
-            "build": ["Standard", "Ultimate"]
+            "name": ["Rosaria", "Ganyu", "Layla", "Diona"],
+            "build": ["Standard", "Ultimate", "Standard", "Standard"]
         }
     },
     
@@ -2559,10 +2559,10 @@ const teams = {
     
     "101": {
         "name": "Neuvillette HyperFridge",
-        "description": "Neuvillette is very strong in this archetype. Be carefull to stay in a range that Shinobu can trigger the seeds. ",
+        "description": "Neuvillette is VERY strong in this archetype. Be carefull to stay in a range that Shinobu can trigger the seeds. You can have the three stacks of Neuvillette passive.",
         "rotation": "",
         "archetype": "HyperFridge",
-        "viability": "Viable",
+        "viability": "Meta",
 
         "character_1": {
             "name": "Neuvillette",
@@ -2577,17 +2577,17 @@ const teams = {
             "build": "Standard"
         },
         "character_4": {
-            "name": ["Rosaria", "Ganyu"],
-            "build": ["Standard", "Ultimate"]
+            "name": ["Rosaria", "Ganyu", "Layla", "Diona"],
+            "build": ["Standard", "Ultimate", "Standard", "Standard"]
         }
     },
     
     "102": {
         "name": "Neuvillette HyperFridge",
-        "description": "Neuvillette is very strong in this archetype.Be carefull to stay in a range that Shinobu can trigger the seeds.",
+        "description": "Neuvillette is VERY strong in this archetype. Be carefull to stay in a range that Shinobu can trigger the seeds. You can have the three stacks of Neuvillette passive.",
         "rotation": "",
         "archetype": "HyperFridge",
-        "viability": "Viable",
+        "viability": "Meta",
 
         "character_1": {
             "name": "Neuvillette",
@@ -2602,8 +2602,8 @@ const teams = {
             "build": "Standard"
         },
         "character_4": {
-            "name": ["Rosaria", "Ganyu"],
-            "build": ["Standard", "Ultimate"]
+            "name": ["Rosaria", "Ganyu", "Layla", "Diona"],
+            "build": ["Standard", "Ultimate", "Standard", "Standard"]
         }
     },
 
