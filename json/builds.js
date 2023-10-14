@@ -1008,6 +1008,17 @@ const builds = {
                 "Circlet": "Crit"
             },
             "subs_stat": ["ER", "Crit", "ATK%", "EM"]
+        },
+        "EM": {
+            "constellation": "",
+            "weapon": "The Catch",
+            "set": "Emblem of Severed Fate",
+            "main_stat": {
+                "Sands": "ATK%",
+                "Goblet": "Pyro",
+                "Circlet": "Crit"
+            },
+            "subs_stat": ["ER", "Crit", "ATK%", "EM"]
         }
     },
     "Xiao": {
