@@ -549,7 +549,7 @@ const teams = {
 
     "26": {
         "name": "Childe Thoma Oven",
-        "description": "Tartaglia is good in Burgeon and similars due to AoE Hydro application. Add a cryo to have more seeds.",
+        "description": "Tartaglia is good in Burgeon and similars due to AoE Hydro application. Add a cryo to have more seeds and Frozen.",
         "rotation": "",
         "archetype": "Oven",
         "viability": "Viable",
@@ -574,7 +574,7 @@ const teams = {
 
     "27": {
         "name": "Childe Thoma Oven",
-        "description": "Tartaglia is good in Burgeon and similars due to AoE Hydro application. Add a cryo to have more seeds.",
+        "description": "Tartaglia is good in Burgeon and similars due to AoE Hydro application. Add a cryo to have more seeds and Frozen.",
         "rotation": "",
         "archetype": "Oven",
         "viability": "Viable",
@@ -3126,6 +3126,31 @@ const teams = {
         "character_4": {
             "name": ["Raiden Shogun", "Kuki Shinobu"],
             "build": ["Standard", "Standard"]
+        }
+    },
+
+    "124": {
+        "name": "Childe Xiangling Oven",
+        "description": "Tartaglia is good in Burgeon and similars due to AoE Hydro application. Add a cryo to have more seeds and Frozen.",
+        "rotation": "",
+        "archetype": "Oven",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Tartaglia",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Xiangling",
+            "build": "EM"
+        },
+        "character_3": {
+            "name": "Nahida",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Kaeya", "Rosaria", "Diona", "Layla", "Ganyu"],
+            "build": ["Standard", "Standard", "Standard", "Standard", "Ultimate"]
         }
     }
     
