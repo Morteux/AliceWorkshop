@@ -61,6 +61,7 @@ const best_teams = {
     "Tighnari": [],
     "Venti": [],
     "Wanderer": [],
+    "Wriothesley": ["132", "133", "134"],
     "Xiangling": [],
     "Xiao": [],
     "Xingqiu": [],
