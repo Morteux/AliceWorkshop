@@ -178,6 +178,19 @@ const builds = {
             "subs_stat": ["", "", "", ""]
         }
     },
+    "Charlotte": {
+        "Standard": {
+            "constellation": "",
+            "weapon": "",
+            "set": "",
+            "main_stat": {
+                "Sands": "",
+                "Goblet": "",
+                "Circlet": "",
+            },
+            "subs_stat": ["", "", "", ""]
+        }
+    },
     "Chongyun": {
         "Standard": {
             "constellation": "",
@@ -332,6 +345,19 @@ const builds = {
             "subs_stat": ["", "", "", ""]
         },
         "Freeze": {
+            "constellation": "",
+            "weapon": "",
+            "set": "",
+            "main_stat": {
+                "Sands": "",
+                "Goblet": "",
+                "Circlet": "",
+            },
+            "subs_stat": ["", "", "", ""]
+        }
+    },
+    "Furina": {
+        "Standard": {
             "constellation": "",
             "weapon": "",
             "set": "",
@@ -974,6 +1000,19 @@ const builds = {
         }
     },
     "Wanderer": {
+        "Standard": {
+            "constellation": "",
+            "weapon": "",
+            "set": "",
+            "main_stat": {
+                "Sands": "",
+                "Goblet": "",
+                "Circlet": "",
+            },
+            "subs_stat": ["", "", "", ""]
+        }
+    },
+    "Wriothesley": {
         "Standard": {
             "constellation": "",
             "weapon": "",
