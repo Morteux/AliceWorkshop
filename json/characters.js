@@ -2185,6 +2185,8 @@ const characters = {
         },
         "version": "3.0"
     },
+    "Charlotte":{
+    }
     "Cyno": {
         "name": "Cyno",
         "fullname": "Cyno",
@@ -3701,6 +3703,8 @@ const characters = {
         },
         "version": "4.0"
     },
+    "Furina":{
+    }
     "Ganyu": {
         "name": "Ganyu",
         "fullname": "Ganyu",
@@ -10461,6 +10465,8 @@ const characters = {
         },
         "version": "3.3"
     },
+    "Wriothesley":{
+    }
     "Xiangling": {
         "name": "Xiangling",
         "fullname": "Xiangling",
