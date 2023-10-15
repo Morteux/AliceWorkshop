@@ -2219,7 +2219,7 @@ const characters = {
             "sideicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Charlotte.png"
         },
         "version": "4.0"
-    }
+    },
     "Cyno": {
         "name": "Cyno",
         "fullname": "Cyno",
@@ -3770,7 +3770,7 @@ const characters = {
             "sideicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Furina.png"
         },
         "version": "4.0"
-    }
+    },
     "Ganyu": {
         "name": "Ganyu",
         "fullname": "Ganyu",
@@ -10534,38 +10534,167 @@ const characters = {
     "Wriothesley":{
         "name": "Wriothesley",
         "fullname": "Wriothesley",
-        "title": "",
-        "description": "",
+        "title": "Emissary of Solitary Iniquity",
+        "description": "Duke of the Fortress of Meropide, Lord Incognito of the murky depths.",
         "rarity": "5",
         "element": "Cryo",
         "weapontype": "Catalyst",
-        "substat": "CRIT Rate",
+        "substat": "CRIT DMG",
         "gender": "Male",
         "body": "MALE",
-        "association": "LIYUE",
-        "region": "Liyue",
-        "affiliation": "Yuehai Pavilion",
-        "birthdaymmdd": "12/2",
-        "birthday": "December 2",
-        "constellation": "Sinae Unicornis",
+        "association": "FONTAINE",
+        "region": "Fontaine",
+        "affiliation": "Fortress of Meropide",
+        "birthdaymmdd": "11/23",
+        "birthday": "November 23",
+        "constellation": "Cerberus",
         "cv": {
-            "english": "Jennifer Losi",
-            "chinese": "林簌",
-            "japanese": "上田麗奈",
-            "korean": "Kim Seon-hye"
+          "english": "Joe Zieja",
+          "chinese": "刘北辰",
+          "japanese": "小野大輔",
+          "korean": "Kwon Chang-wook"
         },
-        "costs": {},
+        "costs": {
+          "ascend1": [
+            {
+              "name": "Mora",
+              "count": 20000
+            },
+            {
+              "name": "Shivada Jade Sliver",
+              "count": 1
+            },
+            {
+              "name": "Subdetection Unit",
+              "count": 3
+            },
+            {
+              "name": "Meshing Gear",
+              "count": 3
+            }
+          ],
+          "ascend2": [
+            {
+              "name": "Mora",
+              "count": 40000
+            },
+            {
+              "name": "Shivada Jade Fragment",
+              "count": 3
+            },
+            {
+              "name": "\"Tourbillon Device\"",
+              "count": 2
+            },
+            {
+              "name": "Subdetection Unit",
+              "count": 10
+            },
+            {
+              "name": "Meshing Gear",
+              "count": 15
+            }
+          ],
+          "ascend3": [
+            {
+              "name": "Mora",
+              "count": 60000
+            },
+            {
+              "name": "Shivada Jade Fragment",
+              "count": 6
+            },
+            {
+              "name": "\"Tourbillon Device\"",
+              "count": 4
+            },
+            {
+              "name": "Subdetection Unit",
+              "count": 20
+            },
+            {
+              "name": "Mechanical Spur Gear",
+              "count": 12
+            }
+          ],
+          "ascend4": [
+            {
+              "name": "Mora",
+              "count": 80000
+            },
+            {
+              "name": "Shivada Jade Chunk",
+              "count": 3
+            },
+            {
+              "name": "\"Tourbillon Device\"",
+              "count": 8
+            },
+            {
+              "name": "Subdetection Unit",
+              "count": 30
+            },
+            {
+              "name": "Mechanical Spur Gear",
+              "count": 18
+            }
+          ],
+          "ascend5": [
+            {
+              "name": "Mora",
+              "count": 100000
+            },
+            {
+              "name": "Shivada Jade Chunk",
+              "count": 6
+            },
+            {
+              "name": "\"Tourbillon Device\"",
+              "count": 12
+            },
+            {
+              "name": "Subdetection Unit",
+              "count": 45
+            },
+            {
+              "name": "Artificed Dynamic Gear",
+              "count": 12
+            }
+          ],
+          "ascend6": [
+            {
+              "name": "Mora",
+              "count": 120000
+            },
+            {
+              "name": "Shivada Jade Gemstone",
+              "count": 6
+            },
+            {
+              "name": "\"Tourbillon Device\"",
+              "count": 20
+            },
+            {
+              "name": "Subdetection Unit",
+              "count": 60
+            },
+            {
+              "name": "Artificed Dynamic Gear",
+              "count": 24
+            }
+          ]
+        },
         "images": {
-            "nameicon": "UI_AvatarIcon_Wriothesley",
-            "nameiconcard": "UI_AvatarIcon_Wriothesley_Card",
-            "namegachasplash": "UI_Gacha_AvatarImg_Wriothesley",
-            "namegachaslice": "UI_Gacha_AvatarIcon_Wriothesley",
-            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Wriothesley.png",
-            "namesideicon": "UI_AvatarIcon_Side_Wriothesley",
-            "sideicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Wriothesley.png"
+          "nameicon": "UI_AvatarIcon_Wriothesley",
+          "nameiconcard": "UI_AvatarIcon_Wriothesley_Card",
+          "namegachasplash": "UI_Gacha_AvatarImg_Wriothesley",
+          "namegachaslice": "UI_Gacha_AvatarIcon_Wriothesley",
+          "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Wriothesley.png",
+          "namesideicon": "UI_AvatarIcon_Side_Wriothesley",
+          "sideicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Wriothesley.png"
         },
-        "version": "4.0"
-    }
+        "version": "4.1"
+    },
     "Xiangling": {
         "name": "Xiangling",
         "fullname": "Xiangling",
