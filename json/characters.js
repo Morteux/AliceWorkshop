@@ -2186,6 +2186,39 @@ const characters = {
         "version": "3.0"
     },
     "Charlotte":{
+        "name": "Charlotte",
+        "fullname": "Charlotte",
+        "title": "",
+        "description": "",
+        "rarity": "4",
+        "element": "Cryo",
+        "weapontype": "Catalyst",
+        "substat": "CRIT Rate",
+        "gender": "Female",
+        "body": "GIRL",
+        "association": "LIYUE",
+        "region": "Liyue",
+        "affiliation": "Yuehai Pavilion",
+        "birthdaymmdd": "12/2",
+        "birthday": "December 2",
+        "constellation": "Sinae Unicornis",
+        "cv": {
+            "english": "Jennifer Losi",
+            "chinese": "林簌",
+            "japanese": "上田麗奈",
+            "korean": "Kim Seon-hye"
+        },
+        "costs": {},
+        "images": {
+            "nameicon": "UI_AvatarIcon_Charlotte",
+            "nameiconcard": "UI_AvatarIcon_Charlotte_Card",
+            "namegachasplash": "UI_Gacha_AvatarImg_Charlotte",
+            "namegachaslice": "UI_Gacha_AvatarIcon_Charlotte",
+            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Charlotte.png",
+            "namesideicon": "UI_AvatarIcon_Side_Charlotte",
+            "sideicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Charlotte.png"
+        },
+        "version": "4.0"
     }
     "Cyno": {
         "name": "Cyno",
@@ -3704,6 +3737,39 @@ const characters = {
         "version": "4.0"
     },
     "Furina":{
+        "name": "Furina",
+        "fullname": "Furina",
+        "title": "",
+        "description": "",
+        "rarity": "5",
+        "element": "Hydro",
+        "weapontype": "Sword",
+        "substat": "CRIT Rate",
+        "gender": "Female",
+        "body": "GIRL",
+        "association": "LIYUE",
+        "region": "Liyue",
+        "affiliation": "Yuehai Pavilion",
+        "birthdaymmdd": "12/2",
+        "birthday": "December 2",
+        "constellation": "Sinae Unicornis",
+        "cv": {
+            "english": "Jennifer Losi",
+            "chinese": "林簌",
+            "japanese": "上田麗奈",
+            "korean": "Kim Seon-hye"
+        },
+        "costs": {},
+        "images": {
+            "nameicon": "UI_AvatarIcon_Furina",
+            "nameiconcard": "UI_AvatarIcon_Furina_Card",
+            "namegachasplash": "UI_Gacha_AvatarImg_Furina",
+            "namegachaslice": "UI_Gacha_AvatarIcon_Furina",
+            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Furina.png",
+            "namesideicon": "UI_AvatarIcon_Side_Furina",
+            "sideicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Furina.png"
+        },
+        "version": "4.0"
     }
     "Ganyu": {
         "name": "Ganyu",
@@ -10466,6 +10532,39 @@ const characters = {
         "version": "3.3"
     },
     "Wriothesley":{
+        "name": "Wriothesley",
+        "fullname": "Wriothesley",
+        "title": "",
+        "description": "",
+        "rarity": "5",
+        "element": "Cryo",
+        "weapontype": "Catalyst",
+        "substat": "CRIT Rate",
+        "gender": "Male",
+        "body": "MALE",
+        "association": "LIYUE",
+        "region": "Liyue",
+        "affiliation": "Yuehai Pavilion",
+        "birthdaymmdd": "12/2",
+        "birthday": "December 2",
+        "constellation": "Sinae Unicornis",
+        "cv": {
+            "english": "Jennifer Losi",
+            "chinese": "林簌",
+            "japanese": "上田麗奈",
+            "korean": "Kim Seon-hye"
+        },
+        "costs": {},
+        "images": {
+            "nameicon": "UI_AvatarIcon_Wriothesley",
+            "nameiconcard": "UI_AvatarIcon_Wriothesley_Card",
+            "namegachasplash": "UI_Gacha_AvatarImg_Wriothesley",
+            "namegachaslice": "UI_Gacha_AvatarIcon_Wriothesley",
+            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Wriothesley.png",
+            "namesideicon": "UI_AvatarIcon_Side_Wriothesley",
+            "sideicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Wriothesley.png"
+        },
+        "version": "4.0"
     }
     "Xiangling": {
         "name": "Xiangling",
