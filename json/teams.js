@@ -3225,7 +3225,7 @@ const teams = {
         },
         "character_4": {
             "name": ["Kaedehara Kazuha", "Jean"],
-            "build": ["Standard", "Jean"]
+            "build": ["Standard", "Standard"]
         }
     },
     
