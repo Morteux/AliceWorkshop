@@ -347,13 +347,13 @@ function toggleFavorite(button, id) {
 
         star_img.classList.remove("empty");
         star_img.classList.add("filled");
-        star_img.src = "images/star_filled.png";
+        star_img.src = "images/icons/star_filled.png";
     } else {
 
         removeFavoriteTeam(id);
 
         star_img.classList.add("empty");
         star_img.classList.remove("filled");
-        star_img.src = "images/star_empty.png";
+        star_img.src = "images/icons/star_empty.png";
     }
 }
