@@ -1,7 +1,7 @@
 var team_count = Object.keys(teams).length;
 
-var menu_tabs = ["menu_configuration", "menu_characters_check", "menu_teams_creator"];
-var menu_tabs_buttons = ["menu_configuration_button", "menu_characters_check_button", "menu_teams_creator_button"];
+var menu_tabs = ["menu_configuration", "menu_characters_check", "menu_teams_creator", "menu_json_validator"];
+var menu_tabs_buttons = ["menu_configuration_button", "menu_characters_check_button", "menu_teams_creator_button", "menu_json_validator_button"];
 
 var team_creator_meta;
 var team_creator_viable;
@@ -197,4 +197,142 @@ function toggleCharacterUser(character_name) {
         document.getElementById("character_check_" + character_name).classList.remove("character_unchecked");
         user_characters[character_name] = characters[character_name];
     }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+function isJSONObjectEmpty(obj) {
+    for (const prop in obj) {
+      if (Object.hasOwn(obj, prop)) {
+        return false;
+      }
+    }
+  
+    return true;
+  }
+
+function validateJSON() {
+
+    let json_validator_result = ``;
+
+    json_validator_result += testArtifacts();
+    json_validator_result += testBestTeams();
+    json_validator_result += testBuilds();
+    json_validator_result += testCharactersOrderPriority();
+    json_validator_result += testCharacters();
+    json_validator_result += testTeams();
+    json_validator_result += testWeapons();
+
+    document.getElementById("json_validator_result").innerHTML = json_validator_result;
+}
+
+
+function testArtifacts() {
+    let json_validator_result = "";
+    return json_validator_result;
+}
+
+function testBestTeams() {
+    let json_validator_result = "";
+    return json_validator_result;
+}
+
+function testBuilds() {
+    let json_validator_result = "";
+    let test_separator = "";
+    // Test if Aether and Lumine has "element" field in each build
+
+    for (let build_index in builds["Aether"]) {
+        if( !builds["Aether"][build_index].hasOwnProperty("element") ) {
+            json_validator_result += "<br>testBuilds: Aether build " + build_index + " has no \"element\" field ";
+        }
+    }
+
+    for (let build_index in builds["Lumine"]) {
+        if( !builds["Lumine"][build_index].hasOwnProperty("element") ) {
+            json_validator_result += "<br>testBuilds: Lumine build " + build_index + " has no \"element\" field ";
+        }
+    }
+    
+    for (let build_index in builds) {
+
+        // Test if each character has at least one build
+
+        if( isJSONObjectEmpty(builds[build_index]) ) {
+            json_validator_result += "<br>testBuilds: No build found for " + build_index;
+        }
+    }
+
+    test_separator = "<br>=================== " + (json_validator_result == "" ? "OK - testBuilds" : "KO - testBuilds") + " ===================<br><br>";
+
+    return "<div class='" + (json_validator_result == "" ? "test_ok" : "test_ko") + "'>" + json_validator_result + test_separator + "</div>";
+}
+
+function testCharactersOrderPriority() {
+    let json_validator_result = "";
+    return json_validator_result;
+}
+
+function testCharacters() {
+    let json_validator_result = "";
+    return json_validator_result;
+}
+
+function testTeams() {
+    let json_validator_result = "";
+    return json_validator_result;
+}
+
+function testWeapons() {
+    let json_validator_result = "";
+    return json_validator_result;
 }

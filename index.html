@@ -155,7 +155,9 @@
                 <div id="menu_configuration_button" class="">Configuration</div>
                 <div id="menu_characters_check_button" class="">Characters</div>
                 <div id="menu_teams_creator_button" class="">Team creator</div>
+                <div id="menu_json_validator_button" class="">Admin JSON Validator</div>
             </div>
+
             <div id="content_menu" class="content_menu">
                 <div id="menu_configuration">
                     Configuration
@@ -242,9 +244,18 @@
 
                     <button class="primary_button" onclick="printTeamJSON()">Build JSON</button>
 
-                    <textarea id="json_result" class="json_result" rows="4" cols="50">
-                    </textarea>
+                    <textarea id="json_result" class="json_result" rows="4" cols="50"></textarea>
                 </div>
+
+                <div id="menu_json_validator" class="menu_json_validator">
+
+                    <button class="primary_button" onclick="validateJSON()">Validate JSON</button>
+
+                    <!-- <textarea id="json_validator_result" class="json_result" rows="4" cols="200" readonly></textarea> -->
+                    <div id="json_validator_result" class="json_validator_result"></div>
+
+                </div>
+
             </div>
 
         </div>

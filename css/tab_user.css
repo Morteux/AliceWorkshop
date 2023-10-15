@@ -134,3 +134,28 @@
     height: 50vh;
     width: 60%;
 }
+
+.menu_json_validator {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+
+    padding: 3vh;
+
+    width: 90%;
+}
+
+.test_ok {
+    color: limegreen;
+}
+
+.test_ko {
+    color: red;
+}
+
+.json_validator_result {
+    
+    margin-top: 3vh;
+    /* width: 100%; */
+}
