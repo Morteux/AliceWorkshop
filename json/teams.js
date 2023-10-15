@@ -549,7 +549,7 @@ const teams = {
 
     "26": {
         "name": "Childe Thoma Oven",
-        "description": "Tartaglia is good in Burgeon and similars due to AoE Hydro application. Add a cryo to have more seeds.",
+        "description": "Tartaglia is good in Burgeon and similars due to AoE Hydro application. Add a cryo to have more seeds and Frozen.",
         "rotation": "",
         "archetype": "Oven",
         "viability": "Viable",
@@ -574,7 +574,7 @@ const teams = {
 
     "27": {
         "name": "Childe Thoma Oven",
-        "description": "Tartaglia is good in Burgeon and similars due to AoE Hydro application. Add a cryo to have more seeds.",
+        "description": "Tartaglia is good in Burgeon and similars due to AoE Hydro application. Add a cryo to have more seeds and Frozen.",
         "rotation": "",
         "archetype": "Oven",
         "viability": "Viable",
@@ -2331,7 +2331,7 @@ const teams = {
         "description": "Neuvillette is very strong in this archetype. With Raiden, you can do kite and trigger seeds. ",
         "rotation": "",
         "archetype": "Hyperbloom",
-        "viability": "Viable",
+        "viability": "Meta",
 
         "character_1": {
             "name": "Neuvillette",
@@ -2356,7 +2356,7 @@ const teams = {
         "description": "Neuvillette is very strong in this archetype. With Raiden, you can do kite and trigger seeds.",
         "rotation": "",
         "archetype": "Hyperbloom",
-        "viability": "Viable",
+        "viability": "Meta",
 
         "character_1": {
             "name": "Neuvillette",
@@ -2381,7 +2381,7 @@ const teams = {
         "description": "Neuvillette is very strong in this archetype. With Raiden, you can do kite and trigger seeds. ",
         "rotation": "",
         "archetype": "Hyperbloom",
-        "viability": "Viable",
+        "viability": "Meta",
 
         "character_1": {
             "name": "Neuvillette",
@@ -2406,7 +2406,7 @@ const teams = {
     
     "95": {
         "name": "Neuvillette HyperFridge",
-        "description": "Neuvillette is very strong in this archetype. With Raiden, you can do kite and trigger seeds. ",
+        "description": "Neuvillette is VERY strong in this archetype. With Raiden, you can do kite and trigger seeds. You can have the three stacks of Neuvillette passive.",
         "rotation": "",
         "archetype": "HyperFridge",
         "viability": "Meta",
@@ -2424,14 +2424,14 @@ const teams = {
             "build": "Standard"
         },
         "character_4": {
-            "name": ["Rosaria", "Ganyu"],
-            "build": ["Standard", "Ultimate"]
+            "name": ["Rosaria", "Ganyu", "Layla", "Diona"],
+            "build": ["Standard", "Ultimate", "Standard", "Standard"]
         }
     },
     
     "96": {
         "name": "Neuvillette HyperFridge",
-        "description": "Neuvillette is very strong in this archetype. With Raiden, you can do kite and trigger seeds. ",
+        "description": "Neuvillette is VERY strong in this archetype. With Raiden, you can do kite and trigger seeds. You can have the three stacks of Neuvillette passive.",
         "rotation": "",
         "archetype": "HyperFridge",
         "viability": "Meta",
@@ -2449,8 +2449,8 @@ const teams = {
             "build": "Standard"
         },
         "character_4": {
-            "name": ["Rosaria", "Ganyu"],
-            "build": ["Standard", "Ultimate"]
+            "name": ["Rosaria", "Ganyu", "Layla", "Diona"],
+            "build": ["Standard", "Ultimate", "Standard", "Standard"]
         }
     },
     
@@ -2459,7 +2459,7 @@ const teams = {
         "description": "Neuvillette is very strong in this archetype.  Be carefull to stay in a range that Shinobu can trigger the seeds.",
         "rotation": "",
         "archetype": "Hyperbloom",
-        "viability": "Viable",
+        "viability": "Meta",
 
         "character_1": {
             "name": "Neuvillette",
@@ -2509,7 +2509,7 @@ const teams = {
         "description": "Neuvillette is very strong in this archetype. Be carefull to stay in a range that Shinobu can trigger the seeds.",
         "rotation": "",
         "archetype": "Hyperbloom",
-        "viability": "Viable",
+        "viability": "Meta",
 
         "character_1": {
             "name": "Neuvillette",
@@ -2554,15 +2554,12 @@ const teams = {
         }
     },
 
-
-    
-    
     "101": {
         "name": "Neuvillette HyperFridge",
-        "description": "Neuvillette is very strong in this archetype. Be carefull to stay in a range that Shinobu can trigger the seeds. ",
+        "description": "Neuvillette is VERY strong in this archetype. Be carefull to stay in a range that Shinobu can trigger the seeds. You can have the three stacks of Neuvillette passive.",
         "rotation": "",
         "archetype": "HyperFridge",
-        "viability": "Viable",
+        "viability": "Meta",
 
         "character_1": {
             "name": "Neuvillette",
@@ -2577,17 +2574,17 @@ const teams = {
             "build": "Standard"
         },
         "character_4": {
-            "name": ["Rosaria", "Ganyu"],
-            "build": ["Standard", "Ultimate"]
+            "name": ["Rosaria", "Ganyu", "Layla", "Diona"],
+            "build": ["Standard", "Ultimate", "Standard", "Standard"]
         }
     },
     
     "102": {
         "name": "Neuvillette HyperFridge",
-        "description": "Neuvillette is very strong in this archetype.Be carefull to stay in a range that Shinobu can trigger the seeds.",
+        "description": "Neuvillette is VERY strong in this archetype. Be carefull to stay in a range that Shinobu can trigger the seeds. You can have the three stacks of Neuvillette passive.",
         "rotation": "",
         "archetype": "HyperFridge",
-        "viability": "Viable",
+        "viability": "Meta",
 
         "character_1": {
             "name": "Neuvillette",
@@ -2602,8 +2599,8 @@ const teams = {
             "build": "Standard"
         },
         "character_4": {
-            "name": ["Rosaria", "Ganyu"],
-            "build": ["Standard", "Ultimate"]
+            "name": ["Rosaria", "Ganyu", "Layla", "Diona"],
+            "build": ["Standard", "Ultimate", "Standard", "Standard"]
         }
     },
 
@@ -2627,8 +2624,8 @@ const teams = {
             "build": "Standard"
         },
         "character_4": {
-            "name": ["Kaedehara Kazuha"],
-            "build": ["Standard"]
+            "name": ["Kaedehara Kazuha", "Venti"],
+            "build": ["Standard", "Standard"]
         }
     },
 
@@ -2652,8 +2649,8 @@ const teams = {
             "build": "Standard"
         },
         "character_4": {
-            "name": ["Sucrose", "Venti", "Lynette"],
-            "build": ["Standard", "Standard", "Standard"]
+            "name": ["Sucrose", "Lynette"],
+            "build": ["Standard", "Standard"]
         }
     },
 
@@ -2677,8 +2674,8 @@ const teams = {
             "build": "Standard"
         },
         "character_4": {
-            "name": ["Kaedehara Kazuha"],
-            "build": ["Standard"]
+            "name": ["Kaedehara Kazuha", "Venti"],
+            "build": ["Standard", "Standard"]
         }
     },
 
@@ -2702,8 +2699,8 @@ const teams = {
             "build": "Standard"
         },
         "character_4": {
-            "name": ["Sucrose", "Venti", "Lynette"],
-            "build": ["Standard", "Standard", "Standard"]
+            "name": ["Sucrose", "Lynette"],
+            "build": ["Standard", "Standard"]
         }
     },
     
@@ -2812,7 +2809,7 @@ const teams = {
         "description": "",
         "rotation": "",
         "archetype": "Sauté",
-        "viability": "Meta",
+        "viability": "Viable",
 
         "character_1": {
             "name": "Neuvillette",
@@ -3055,7 +3052,108 @@ const teams = {
             "name": ["Kaedehara Kazuha", "Venti", "Lynette", "Sucrose", "Jean"],
             "build": ["Standard", "Standard", "Standard", "Standard", "Standard"]
         }
+    },
+
+    "121": {
+        "name": "Vape Neuvillette",
+        "description": "Thanks to the low hydro applicattion that Neuvillete has, he can be one one of the only hydro character to do forward vaporize. Very difficult, you have to rotate around enemies. You can build som EM in this team (ej: Weapon, Sands, but crit is always better)",
+        "rotation": "E Neuvi > E kazuha > E Zhongli (try to not get the pilar) > E Xiangling (wait 1s) > Q Neu + CA > E kazuha > Q Xiangling > Neu CA + E + CA",
+        "archetype": "Vaporize",
+        "viability": "Unique",
+
+        "character_1": {
+            "name": "Neuvillette",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Kaedehara Kazuha",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Xiangling",
+            "build": "SoloPyro"
+        },
+        "character_4": {
+            "name": ["Zhongli"],
+            "build": ["Standard"]
+        }
+    },
+
+    "122": {
+        "name": "Neuvillette Dehya Hyperbloom",
+        "description": "Dehya is surprisily good with Neuvillette Hyperbloom. Low Pyro application to not still hyperblooms, enough pyro to trigger burning so Neuvillette can Vape and active 3 stacks of his passive. On top of that, resistance interruption for the first Neuvillete CA so he can start to kite. As always, Raiden > Shinobu but both are good. ",
+        "rotation": "",
+        "archetype": "Hyperbloom",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Neuvillette",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Dehya",
+            "build": "EM"
+        },
+        "character_3": {
+            "name": "Nahida",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Raiden Shogun", "Kuki Shinobu"],
+            "build": ["Standard", "Standard"]
+        }
+    },
+
+    "123": {
+        "name": "Neuvillette Dehya Hyperbloom",
+        "description": "Dehya is surprisily good with Neuvillette Hyperbloom. Low Pyro application to not still hyperblooms, enough pyro to trigger burning so Neuvillette can Vape and active 3 stacks of his passive. On top of that, resistance interruption for the first Neuvillete CA so he can start to kite. As always, Raiden > Shinobu but both are good. With Dendro MC usually an Anemo character is better.  ",
+        "rotation": "",
+        "archetype": "Hyperbloom",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Neuvillette",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Dehya",
+            "build": "EM"
+        },
+        "character_3": {
+            "name": "Aether",
+            "build": "Dendro"
+        },
+        "character_4": {
+            "name": ["Raiden Shogun", "Kuki Shinobu"],
+            "build": ["Standard", "Standard"]
+        }
+    },
+
+    "124": {
+        "name": "Childe Xiangling Oven",
+        "description": "Tartaglia is good in Burgeon and similars due to AoE Hydro application. Add a cryo to have more seeds and Frozen.",
+        "rotation": "",
+        "archetype": "Oven",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Tartaglia",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Xiangling",
+            "build": "EM"
+        },
+        "character_3": {
+            "name": "Nahida",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Kaeya", "Rosaria", "Diona", "Layla", "Ganyu"],
+            "build": ["Standard", "Standard", "Standard", "Standard", "Ultimate"]
+        }
     }
+    
 }
 
 //"34": {
