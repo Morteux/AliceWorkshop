@@ -69,6 +69,7 @@ body {
     color: var(--light_text);
     background-color: var(--secondary_color);
     cursor: pointer;
+    font-family: GenshinImpact;
 }
 
 .primary_button:hover {
