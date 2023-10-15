@@ -3259,7 +3259,7 @@ const teams = {
         "description": "With Furina, Wriothesley value grows up. You can use Jean as Anemo healer since she has good sinergy with Furina and Wriothesley, but you don't have grouping. ",
         "rotation": "",
         "archetype": "Freeze",
-        "viability": "Meta",
+        "viability": "Viable",
 
         "character_1": {
             "name": "Wriothesley",
