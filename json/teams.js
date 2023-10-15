@@ -3154,7 +3154,7 @@ const teams = {
         }
     },
 
-        "125": {
+    "125": {
         "name": "Wriothesley Melt",
         "description": "Wriothesley can be played on Melt. It's a bit complicated due to the NA ICD (melting the 1-4 hits with a normal rotation, which is not optimal), but it's okay. You don't have to swirl cryo since Wriothesley don't have offield application, so just swirl pyro with kazuha and good for grouping.",
         "rotation": "",
