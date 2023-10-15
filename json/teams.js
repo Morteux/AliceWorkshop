@@ -3152,6 +3152,256 @@ const teams = {
             "name": ["Kaeya", "Rosaria", "Diona", "Layla", "Ganyu"],
             "build": ["Standard", "Standard", "Standard", "Standard", "Ultimate"]
         }
+    },
+
+    "125": {
+        "name": "Wriothesley Melt",
+        "description": "Wriothesley can be played on Melt. It's a bit complicated due to the NA ICD (melting the 1-4 hits with a normal rotation, which is not optimal), but it's okay. You don't have to swirl cryo since Wriothesley don't have offield application, so just swirl pyro with kazuha and good for grouping.",
+        "rotation": "",
+        "archetype": "Melt",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Wriothesley",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Xiangling",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Bennett",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Kaedehara Kazuha"],
+            "build": ["Standard"]
+        }
+    },
+    
+    "126": {
+        "name": "Wriothesley Melt",
+        "description": "Wriothesley can be played on Melt. It's a bit complicated due to the NA ICD (melting the 1-4 hits with a normal rotation, which is not optimal), but it's okay.",
+        "rotation": "",
+        "archetype": "Melt",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Wriothesley",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Xiangling",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Bennett",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Shenhe", "Rosaria", "Kaeya", "Layla"],
+            "build": ["Standard", "Melt", "Melt", "Standard"]
+        }
+    },
+    
+    "127": {
+        "name": "Wriothesley Freeze",
+        "description": "Okay",
+        "rotation": "",
+        "archetype": "Freeze",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Wriothesley",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Xingqiu",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Yelan",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Kaedehara Kazuha", "Jean"],
+            "build": ["Standard", "Jean"]
+        }
+    },
+    
+    "128": {
+        "name": "Wriothesley Freeze",
+        "description": "With Furina, Wriothesley value grows up. You need Mika/Charlotte to heal all the teammates in a big heal, which have sinergy with Furina and Wriothesley. ",
+        "rotation": "",
+        "archetype": "Freeze",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Wriothesley",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Kaedehara Kazuha",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Mika", "Charlotte"],
+            "build": ["Standard", "Standard"]
+        }
+    },
+    
+    "129": {
+        "name": "Wriothesley Freeze",
+        "description": "With Furina, Wriothesley value grows up. You can use Jean as Anemo healer since she has good sinergy with Furina and Wriothesley, but you don't have grouping. ",
+        "rotation": "",
+        "archetype": "Freeze",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Wriothesley",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Jean",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Rosaria", "Kaeya", "Layla", "Shenhe", "Ganyu"],
+            "build": ["Standard", "Standard", "Standard", "Standard", "Ultimate"]
+        }
+    },
+    
+    "130": {
+        "name": "Wriothesley Freeze",
+        "description": "With Furina, Wriothesley value grows up. You can use Kokomi as healer but she don't heal all the teammates so don't have special sinergy with Furina and Wriothesley (Is not optimal to spend time onfield healing with kokomi's Q)",
+        "rotation": "",
+        "archetype": "Freeze",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Wriothesley",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Kaedehara Kazuha",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Sangonomiya Kokomi"],
+            "build": ["Standard"]
+        }
+    },
+    
+    "131": {
+        "name": "Wriothesley MonoCryo",
+        "description": "",
+        "rotation": "",
+        "archetype": "MonoCryo",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Wriothesley",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Shenhe",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Kaedehara Kazuha",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Mika", "Charlotte"],
+            "build": ["Standard", "Standard"]
+        }
+    },
+    
+    "132": {
+        "name": "Wriothesley HyperFridge",
+        "description": "Just OP. You can't play with the raiden EM version, as Wriothesley need a bit of healing himself.",
+        "rotation": "",
+        "archetype": "HyperFridge",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Wriothesley",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Kuki Shinobu",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Xingqiu",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Nahida", "Aether"],
+            "build": ["Standard", "Dendro"]
+        }
+    },
+    
+    "133": {
+        "name": "Wriothesley HyperFridge",
+        "description": "Just OP. You can't play with the raiden EM version, as Wriothesley need a bit of healing himself.",
+        "rotation": "",
+        "archetype": "HyperFridge",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Wriothesley",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Kuki Shinobu",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Nahida", "Aether"],
+            "build": ["Standard", "Dendro"]
+        }
+    },
+    
+    "134": {
+        "name": "Wriothesley Bain-Marie",
+        "description": "New OP archetype thanks to Wriothesley and Furina. Vaps + Melts + Burgeon in the same team. ",
+        "rotation": "",
+        "archetype": "Bain-Marie",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Wriothesley",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Xiangling",
+            "build": "SoloPyro"
+        },
+        "character_4": {
+            "name": ["Baizhu", "Yaoyao"],
+            "build": ["Standard", "Standard"]
+        }
     }
     
 }

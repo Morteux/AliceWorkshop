@@ -20,7 +20,7 @@
 // A single rarity's star in SVG format
 const ELEMENTS = ["Pyro", "Electro", "Hydro", "Cryo", "Anemo", "Geo", "Dendro"];
 
-const ARCHETYPES = ["MonoGeo", "MonoHydro", "MonoCryo", "MonoPyro", "MonoElectro", "MonoAnemo", "Hypercarry", "Freeze", "National", "Vaporize", "Overvape", "Taser", "Soup", "Melt", "Aggravate", "Spread", "Bloom", "Burgeon", "Oven", "Curry", "Sauté", "Fridge", "Salad", "Airfryer", "Hyperbloom", "Quickbloom", "HyperFridge", "Overload"];
+const ARCHETYPES = ["MonoGeo", "MonoHydro", "MonoCryo", "MonoPyro", "MonoElectro", "MonoAnemo", "Hypercarry", "Freeze", "National", "Vaporize", "Overvape", "Taser", "Soup", "Melt", "Aggravate", "Spread", "Bloom", "Burgeon", "Oven", "Curry", "Sauté", "Fridge", "Salad", "Airfryer", "Hyperbloom", "Quickbloom", "HyperFridge", "Overload", "Bain-Marie"];
 
 const VIABILITIES = ["Meta", "Viable", "Troll", "Unique"];
 
