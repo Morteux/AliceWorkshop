@@ -3402,6 +3402,331 @@ const teams = {
             "name": ["Baizhu", "Yaoyao"],
             "build": ["Standard", "Standard"]
         }
+    },
+        
+    "135": {
+        "name": "Wriothesley Melt",
+        "description": "",
+        "rotation": "",
+        "archetype": "Melt",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Wriothesley",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Xiangling",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Bennett",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Yun Jin", "Zhongli"],
+            "build": ["Standard", "Standard"]
+        }
+    },
+    
+    "136": {
+        "name": "Wriothesley Melt",
+        "description": "",
+        "rotation": "",
+        "archetype": "Melt",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Wriothesley",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Xiangling",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Bennett",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Nahida"],
+            "build": ["Standard"]
+        }
+    },
+    
+    "137": {
+        "name": "Wriothesley Sunfire",
+        "description": "Jean Sunfire mechanic plus Wriothesley",
+        "rotation": "Bennett E/Q > Jean E/Q",
+        "archetype": "Melt",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Wriothesley",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Jean",
+            "build": "EM"
+        },
+        "character_3": {
+            "name": "Bennett",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Shenhe", "Xiangling"],
+            "build": ["Standard", "Standard"]
+        }
+    },
+    
+    "138": {
+        "name": "Wriothesley Freeze",
+        "description": "",
+        "rotation": "",
+        "archetype": "Freeze",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Wriothesley",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Jean",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Xingqiu",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Shenhe", "Kaeya"],
+            "build": ["Standard", "Standard"]
+        }
+    },
+    
+    "139": {
+        "name": "Wriothesley Freeze",
+        "description": "",
+        "rotation": "",
+        "archetype": "Freeze",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Wriothesley",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Jean",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Yelan",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Shenhe", "Kaeya"],
+            "build": ["Standard", "Kaeya"]
+        }
+    },
+    
+    "140": {
+        "name": "Wriothesley Freeze",
+        "description": "",
+        "rotation": "",
+        "archetype": "Freeze",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Wriothesley",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Kaedehara Kazuha",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Yelan",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Shenhe", "Kaeya", "Diona", "Charlotte", "Layla", "Mika"],
+            "build": ["Standard", "Standard", "Standard", "Standard", "Standard", "Standard"]
+        }
+    },
+    
+    "141": {
+        "name": "Wriothesley Freeze",
+        "description": "",
+        "rotation": "",
+        "archetype": "Freeze",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Wriothesley",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Kaedehara Kazuha",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Xingqiu",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Shenhe", "Kaeya", "Diona", "Charlotte", "Layla", "Mika"],
+            "build": ["Standard", "Standard", "Standard", "Standard", "Standard", "Standard"]
+    },
+        
+    "142": {
+        "name": "Wriothesley HyperFridge",
+        "description": "Xingqiu provides the resistence and extra healing he might need.",
+        "rotation": "Since you don't have healer, you have to spam CA with wriothesley every 5NA (a NA string) even at C0. At >=50% HP, spam CA. ",
+        "archetype": "HyperFridge",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Wriothesley",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Raiden Shogun",
+            "build": "EM"
+        },
+        "character_3": {
+            "name": "Xingqiu",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Nahida", "Aether"],
+            "build": ["Standard", "Dendro"]
+        }
+    },
+    
+    "143": {
+        "name": "Wriothesley HyperFridge",
+        "description": "",
+        "rotation": "",
+        "archetype": "HyperFridge",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Wriothesley",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Raiden Shogun",
+            "build": "EM"
+        },
+        "character_3": {
+            "name": "Xingqiu",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Yaoyao", "Baizhu"],
+            "build": ["Standard", "Standard"]
+        }
+    },
+    
+    "144": {
+        "name": "Wriothesley HyperFridge",
+        "description": "",
+        "rotation": "",
+        "archetype": "HyperFridge",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Wriothesley",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Raiden Shogun",
+            "build": "EM"
+        },
+        "character_3": {
+            "name": "Yelan",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Yaoyao", "Baizhu"],
+            "build": ["Standard". "Standard"]
+        }
+    },
+    
+    "145": {
+        "name": "Wriothesley Melt",
+        "description": "",
+        "rotation": "",
+        "archetype": "Melt",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Wriothesley",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Nahida",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Bennett",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Thoma"],
+            "build": ["Standard"]
+        }
+    },
+    
+
+    "146": {
+        "name": "Wriothesley Oven",
+        "description": "",
+        "rotation": "",
+        "archetype": "Oven",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Wriothesley",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Thoma",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Xingqiu",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Nahida", "Aether", "Baizhu", "Yaoyao"],
+            "build": ["Standard", "Standard", "Standard", "Standard"]
+        }
+    },
+
+    "147": {
+        "name": "Wriothesley Oven",
+        "description": "",
+        "rotation": "",
+        "archetype": "Oven",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Wriothesley",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Thoma",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Yelan",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Nahida", "Aether", "Baizhu", "Yaoyao"],
+            "build": ["Standard", "Standard", "Standard", "Standard"]
+        }
     }
     
 }
