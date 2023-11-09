@@ -4431,7 +4431,7 @@ const teams = {
 
     "176": {
         "name": "Yoimiya Furina Vape",
-        "description": "Yoimiya + Furina + Bennet + Flex Slot Healer.",
+        "description": "Yoimiya + Furina + Bennet + Flex Slot Healer. Furina has enough hydro app for Yoimiya.",
         "rotation": "",
         "archetype": "Vaporize",
         "viability": "Viable",
@@ -4445,7 +4445,7 @@ const teams = {
             "build": "Standard"
         },
         "character_3": {
-            "name": "Bennet",
+            "name": "Bennett",
             "build": "Standard"
         },
         "character_4": {
@@ -4455,14 +4455,14 @@ const teams = {
     },
 
     "177": {
-        "name": "Yoimiya Furina Vape",
-        "description": "Due to Jean's ultimate, Furina will be the one vaping",
+        "name": "Dehya Furina Vape",
+        "description": "Dehya + Furina + Bennet + Flex Slot Healer. Furina has enough hydro app for Dehya",
         "rotation": "",
         "archetype": "Vaporize",
-        "viability": "Viable",
+        "viability": "Troll",
 
         "character_1": {
-            "name": "Yoimiya",
+            "name": "Dehya",
             "build": "Standard"
         },
         "character_2": {
@@ -4470,14 +4470,90 @@ const teams = {
             "build": "Standard"
         },
         "character_3": {
-            "name": "Bennet",
+            "name": "Bennett",
             "build": "Standard"
         },
         "character_4": {
-            "name": ["Jean"],
-            "build": ["Standard"]
+            "name": ["Mika", "Charlotte", "Sayu", "Barbara"],
+            "build": ["Standard", "Standard", "Standard", "Standard"]
         }
     },
+
+    "178": {
+        "name": "Furina Vape",
+        "description": "Due to Jean's ultimate, Furina will be the one vaping",
+        "rotation": "",
+        "archetype": "Vaporize",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Bennett",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Jean",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Diluc", "Klee", "Xiangling", "Yanfei", "Yoimiya", "Hu Tao", "Dehya"],
+            "build": ["Standard", "Standard", "Standard", "Standard", "Standard", "Standard", "Standard"]
+        }
+    },
+
+    "179": {
+        "name": "Dehya Doble Hydro Vape",
+        "description": "",
+        "rotation": "",
+        "archetype": "Vaporize",
+        "viability": "Troll",
+
+        "character_1": {
+            "name": "Dehya",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Mona",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Jean", "Sayu", "Charlotte", "Mika"],
+            "build": ["Standard", "Standard", "Standard", "Standard"]
+        }
+    },
+
+        //Lo mismo pero con Yelan, y poner o no Jean/Sayu/Mika/etc de flex en vez del pyro
+  //   "180": {
+     //    "name": "Pyro Carry Furina Doble Hydro Vape",
+     //    "description": "",
+     //    "rotation": "",
+     //    "archetype": "Vaporize",
+      //   "viability": "Meta",
+
+      //   "character_1": {
+      //       "name": "Furina",
+      //       "build": "Standard"
+   //      },
+    //     "character_2": {
+     //        "name": "Xingqiu",
+     //        "build": "Standard"
+     //    },
+    //     "character_3": {
+     //        "name": "Jean",
+       //      "build": "Standard"
+     //    },
+     //    "character_4": {
+      //       "name": ["Diluc", "Klee", "Xiangling", "Yanfei", "Yoimiya", "Hu Tao"],
+       //      "build": ["Standard", "Standard", "Standard", "Standard", "Standard", "Standard"]
+     //   }
+    //},
 }
 
 //"34": {
