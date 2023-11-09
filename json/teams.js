@@ -3833,7 +3833,7 @@ const teams = {
         "name": "Neuvillette Furina Hyperbloom",
         "description": "In this team is recommended playing Neuvillette with Prototype Amber to have enough healing with Furina Passive and Shinobu/Dori/Diona",
         "rotation": "",
-        "archetype": "Hypercarry",
+        "archetype": "Hyperbloom",
         "viability": "Meta",
 
         "character_1": {
@@ -3858,7 +3858,7 @@ const teams = {
         "name": "Neuvillette Furina Hyperbloom",
         "description": "",
         "rotation": "",
-        "archetype": "Hypercarry",
+        "archetype": "Hyperbloom",
         "viability": "Meta",
 
         "character_1": {
@@ -3883,7 +3883,7 @@ const teams = {
         "name": "Neuvillette Furina Hyperbloom",
         "description": "",
         "rotation": "",
-        "archetype": "Hypercarry",
+        "archetype": "Hyperbloom",
         "viability": "Meta",
 
         "character_1": {
@@ -3903,7 +3903,381 @@ const teams = {
             "build": ["Standard", "Standard"]
         }
     },
-        
+
+    "155": {
+        "name": "Furina Raiden Hyperbloom",
+        "description": "",
+        "rotation": "",
+        "archetype": "Hyperbloom",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Xingqiu",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Shogun Raiden",
+            "build": "EM"
+        },
+        "character_4": {
+            "name": ["Yaoyao", "Baizhu"],
+            "build": ["Standard", "Standard"]
+        }
+    },
+
+    "156": {
+        "name": "Furina Raiden Hyperbloom",
+        "description": "",
+        "rotation": "",
+        "archetype": "Hyperbloom",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Yelan",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Shogun Raiden",
+            "build": "EM"
+        },
+        "character_4": {
+            "name": ["Yaoyao", "Baizhu"],
+            "build": ["Standard", "Standard"]
+        }
+    },
+
+    "157": {
+        "name": "Furina Shinobu Hyperbloom",
+        "description": "",
+        "rotation": "",
+        "archetype": "Hyperbloom",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Xingqiu",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Kuki Shinobu",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Yaoyao", "Baizhu"],
+            "build": ["Standard", "Standard"]
+        }
+    },
+
+    "158": {
+        "name": "Furina Shinobu Hyperbloom",
+        "description": "",
+        "rotation": "",
+        "archetype": "Hyperbloom",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Yelan",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Kuki Shinobu",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Yaoyao", "Baizhu"],
+            "build": ["Standard", "Standard"]
+        }
+    },
+
+    "159": {
+        "name": "Furina Dori Hyperbloom",
+        "description": "Dori can be used in hyperbloom but she has a lot of downtime",
+        "rotation": "",
+        "archetype": "Hyperbloom",
+        "viability": "Troll",
+
+        "character_1": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Xingqiu",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Dori",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Yaoyao", "Baizhu"],
+            "build": ["Standard", "Standard"]
+        }
+    },
+
+    "160": {
+        "name": "Furina Dori Hyperbloom",
+        "description": "Dori can be used in hyperbloom but she has a lot of downtime",
+        "rotation": "",
+        "archetype": "Hyperbloom",
+        "viability": "Troll",
+
+        "character_1": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Yelan",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Dori",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Yaoyao", "Baizhu"],
+            "build": ["Standard", "Standard"]
+        }
+    },
+
+    "161": {
+        "name": "Furina Hyperbloom",
+        "description": "",
+        "rotation": "",
+        "archetype": "Hyperbloom",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Sangonomiya Kokomi",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Nahida",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Kuki Shinobu", "Shogun Raiden"],
+            "build": ["Standard", "EM"]
+        }
+    },
+
+    "162": {
+        "name": "Furina Hyperbloom",
+        "description": "",
+        "rotation": "",
+        "archetype": "Hyperbloom",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Sangonomiya Kokomi",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Aether",
+            "build": "Dendro"
+        },
+        "character_4": {
+            "name": ["Kuki Shinobu", "Shogun Raiden"],
+            "build": ["Standard", "EM"]
+        }
+    },
+
+    "163": {
+        "name": "Cyno Furina Hyperbloom",
+        "description": "",
+        "rotation": "",
+        "archetype": "Hyperbloom",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Cyno",
+            "build": "SoloElectro"
+        },
+        "character_2": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "YaoYao",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Xingqiu", "Yelan"],
+            "build": ["Standard", "Standard"]
+        }
+    },
+
+    "164": {
+        "name": "Cyno Furina Hyperbloom",
+        "description": "",
+        "rotation": "",
+        "archetype": "Hyperbloom",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Cyno",
+            "build": "SoloElectro"
+        },
+        "character_2": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Baizhu",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Xingqiu", "Yelan"],
+            "build": ["Standard", "Standard"]
+        }
+    },
+
+    "165": {
+        "name": "Cyno Furina Quickbloom",
+        "description": "",
+        "rotation": "",
+        "archetype": "Quickbloom",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Cyno",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Fischl",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Yaoyao", "Baizhu"],
+            "build": ["Standard", "Standard"]
+        }
+    },
+
+    "166": {
+        "name": "Cyno Furina Quickbloom",
+        "description": "",
+        "rotation": "",
+        "archetype": "Quickbloom",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Cyno",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Kuki Shinobu",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Yaoyao", "Baizhu"],
+            "build": ["Standard", "Standard"]
+        }
+    },
+
+    "167": {
+        "name": "Cyno Furina Quickbloom",
+        "description": "",
+        "rotation": "",
+        "archetype": "Quickbloom",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Cyno",
+            "build": "SoloElectro"
+        },
+        "character_2": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "YaoYao",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Nahida", "Aether"],
+            "build": ["Standard", "Dendro"]
+        }
+    },
+
+    "168": {
+        "name": "Cyno Furina Quickbloom",
+        "description": "",
+        "rotation": "",
+        "archetype": "Quickbloom",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Cyno",
+            "build": "SoloElectro"
+        },
+        "character_2": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Baizhu",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Nahida", "Aether"],
+            "build": ["Standard", "Dendro"]
+        }
+    },
+
+    "169": {
+        "name": "Cyno Furina Quickbloom",
+        "description": "Cyno Furina hyperbloom but with a Flex Healer slot. ",
+        "rotation": "",
+        "archetype": "Quickbloom",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Cyno",
+            "build": "SoloElectro"
+        },
+        "character_2": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Nahida",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Mika", "Charlotte", "Jean", "Sayu", "Barbara"],
+            "build": ["Standard", "Standard", "Standard", "Standard", "Standard"]
+        }
+    },
     
 }
 
