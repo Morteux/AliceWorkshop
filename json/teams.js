@@ -4378,6 +4378,106 @@ const teams = {
             "build": ["Standard", "Standard"]
         }
     },
+
+    "174": {
+        "name": "Tighnari Furina Quickbloom",
+        "description": "",
+        "rotation": "",
+        "archetype": "Quickbloom",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Tighnari",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Shogun Raiden",
+            "build": "EM"
+        },
+        "character_4": {
+            "name": ["Yaoyao", "Baizhu"],
+            "build": ["Standard", "Standard"]
+        }
+    },
+
+    "175": {
+        "name": "Tighnari Furina Quickbloom",
+        "description": "",
+        "rotation": "",
+        "archetype": "Quickbloom",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Tighnari",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Kuki Shinobu",
+            "build": "EM"
+        },
+        "character_4": {
+            "name": ["Yaoyao", "Baizhu"],
+            "build": ["Standard", "Standard"]
+        }
+    },
+
+    "176": {
+        "name": "Yoimiya Furina Vape",
+        "description": "Yoimiya + Furina + Bennet + Flex Slot Healer.",
+        "rotation": "",
+        "archetype": "Vaporize",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Yoimiya",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Bennet",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Mika", "Charlotte", "Sayu", "Barbara"],
+            "build": ["Standard", "Standard", "Standard", "Standard"]
+        }
+    },
+
+    "177": {
+        "name": "Yoimiya Furina Vape",
+        "description": "Due to Jean's ultimate, Furina will be the one vaping",
+        "rotation": "",
+        "archetype": "Vaporize",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Yoimiya",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Bennet",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Jean"],
+            "build": ["Standard"]
+        }
+    },
 }
 
 //"34": {
