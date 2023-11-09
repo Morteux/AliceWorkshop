@@ -4220,7 +4220,7 @@ const teams = {
             "build": "Standard"
         },
         "character_3": {
-            "name": "YaoYao",
+            "name": "Yaoyao",
             "build": "Standard"
         },
         "character_4": {
@@ -4278,7 +4278,106 @@ const teams = {
             "build": ["Standard", "Standard", "Standard", "Standard", "Standard"]
         }
     },
-    
+
+    "170": {
+        "name": "Cyno Furina Quickbloom",
+        "description": "Cyno Furina hyperbloom but with a Flex Healer slot. ",
+        "rotation": "",
+        "archetype": "Quickbloom",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Cyno",
+            "build": "SoloElectro"
+        },
+        "character_2": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Aether",
+            "build": "Dendro"
+        },
+        "character_4": {
+            "name": ["Mika", "Charlotte", "Jean", "Sayu", "Barbara"],
+            "build": ["Standard", "Standard", "Standard", "Standard", "Standard"]
+        }
+    },
+
+    "171": {
+        "name": "Kequeen Furina Quickbloom",
+        "description": "",
+        "rotation": "",
+        "archetype": "Quickbloom",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Keqing",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Fischl",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Yaoyao", "Baizhu"],
+            "build": ["Standard", "Standard"]
+        }
+    },
+
+    "172": {
+        "name": "Alhaitham Furina Quickbloom",
+        "description": "",
+        "rotation": "",
+        "archetype": "Quickbloom",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Alhaitham",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Kuki Shinobu",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Yaoyao", "Baizhu"],
+            "build": ["Standard", "Standard"]
+        }
+    },
+
+    "173": {
+        "name": "Alhaitham Furina Quickbloom",
+        "description": "",
+        "rotation": "",
+        "archetype": "Quickbloom",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Alhaitham",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Shogun Raiden",
+            "build": "EM"
+        },
+        "character_4": {
+            "name": ["Yaoyao", "Baizhu"],
+            "build": ["Standard", "Standard"]
+        }
+    },
 }
 
 //"34": {
