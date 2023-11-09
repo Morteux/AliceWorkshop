@@ -3727,7 +3727,183 @@ const teams = {
             "name": ["Nahida", "Aether", "Baizhu", "Yaoyao"],
             "build": ["Standard", "Standard", "Standard", "Standard"]
         }
-    }
+    },
+
+    "148": {
+        "name": "Neuvillette Furina Carry",
+        "description": "",
+        "rotation": "",
+        "archetype": "Hypercarry",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Neuvillette",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Fischl",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Jean", "Sayu"],
+            "build": ["Standard", "Standard"]
+        }
+    },
+
+    "149": {
+        "name": "Neuvillette Furina Carry",
+        "description": "",
+        "rotation": "",
+        "archetype": "Hypercarry",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Neuvillette",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Zhongli",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Jean", "Sayu"],
+            "build": ["Standard", "Standard"]
+        }
+    },
+
+    "150": {
+        "name": "Neuvillette Furina Carry",
+        "description": "In this team is recommended playing Neuvillette with Prototype Amber to have enough healing with Furina Passive and Shinobu/Dori/Diona",
+        "rotation": "",
+        "archetype": "Hypercarry",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Neuvillette",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Kaedehara Kazuha",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Kuki Shinobu", "Dori", "Diona"],
+            "build": ["Standard", "Standard", "Standard"]
+        }
+    },
+
+    "151": {
+        "name": "Neuvillette Furina Carry",
+        "description": "",
+        "rotation": "",
+        "archetype": "Hypercarry",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Neuvillette",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Kaedehara Kazuha",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Charlotte", "Mika"],
+            "build": ["Standard", "Standard"]
+        }
+    },
+
+    "152": {
+        "name": "Neuvillette Furina Hyperbloom",
+        "description": "In this team is recommended playing Neuvillette with Prototype Amber to have enough healing with Furina Passive and Shinobu/Dori/Diona",
+        "rotation": "",
+        "archetype": "Hypercarry",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Neuvillette",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Kuki Shinobu",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Aether", "Nahida"],
+            "build": ["Dendro", "Standard"]
+        }
+    },
+
+    "153": {
+        "name": "Neuvillette Furina Hyperbloom",
+        "description": "",
+        "rotation": "",
+        "archetype": "Hypercarry",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Neuvillette",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Kuki Shinobu",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Yaoyao", "Baizhu"],
+            "build": ["Standard", "Standard"]
+        }
+    },
+
+    "154": {
+        "name": "Neuvillette Furina Hyperbloom",
+        "description": "",
+        "rotation": "",
+        "archetype": "Hypercarry",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Neuvillette",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Shogun Raiden",
+            "build": "EM"
+        },
+        "character_4": {
+            "name": ["Yaoyao", "Baizhu"],
+            "build": ["Standard", "Standard"]
+        }
+    },
+        
     
 }
 
