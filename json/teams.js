@@ -3649,7 +3649,7 @@ const teams = {
         },
         "character_4": {
             "name": ["Yaoyao", "Baizhu"],
-            "build": ["Standard". "Standard"]
+            "build": ["Standard", "Standard"]
         }
     },
     
