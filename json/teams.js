@@ -3576,6 +3576,7 @@ const teams = {
         "character_4": {
             "name": ["Shenhe", "Kaeya", "Diona", "Charlotte", "Layla", "Mika"],
             "build": ["Standard", "Standard", "Standard", "Standard", "Standard", "Standard"]
+        }
     },
         
     "142": {
@@ -4527,7 +4528,7 @@ const teams = {
             "name": ["Jean", "Sayu", "Charlotte", "Mika"],
             "build": ["Standard", "Standard", "Standard", "Standard"]
         }
-    },
+    }
 
         //Lo mismo pero con Yelan, y poner o no Jean/Sayu/Mika/etc de flex en vez del pyro
   //   "180": {
