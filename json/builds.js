@@ -228,6 +228,17 @@ const builds = {
                 "Circlet": "",
             },
             "subs_stat": ["", "", "", ""]
+        },
+        "SoloElectro": {
+            "constellation": "",
+            "weapon": "",
+            "set": "",
+            "main_stat": {
+                "Sands": "ER",
+                "Goblet": "",
+                "Circlet": "",
+            },
+            "subs_stat": ["", "", "", ""]
         }
     },
     "Dehya": {
