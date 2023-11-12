@@ -5707,6 +5707,106 @@ const teams = {
         }
     },
 
+    "228": {
+        "name": "Raiden Furina Hypercarry",
+        "description": "",
+        "rotation": "Furina Q > Jean Q",
+        "archetype": "Hypercarry",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Shogun Raiden",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Jean",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Bennett", "Sara"],
+            "build": ["Standard", "Standard"]
+        }
+    },
+
+    "229": {
+        "name": "Noelle Furina Hypercarry",
+        "description": "",
+        "rotation": "",
+        "archetype": "Hypercarry",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Noelle",
+            "build": "DPSFurina"
+        },
+        "character_2": {
+            "name": "Gorou",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Yelan", "Xingqiu", "Albedo", "Yunjin"],
+            "build": ["Standard", "Standard", "Standard", "Standard"]
+        }
+    },
+
+    "230": {
+        "name": "Wanderer Furina Hypercarry",
+        "description": "You can use standard Wanderer build or Marechaussee Hunter artifacts set thanks to Furina (that might be better). This team is SO much better with Faruzan c6. Mika > Charlotte.",
+        "rotation": "Furina Q > Healer Q/Healing",
+        "archetype": "Hypercarry",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Wanderer",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Faruzan",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Mika", "Charlotte"],
+            "build": ["Standard", "Standard"]
+        }
+    },
+
+    "231": {
+        "name": "Wanderer Furina Hypercarry",
+        "description": "You can use standard Wanderer build or Marechaussee Hunter artifacts set thanks to Furina (that might be better). If you don't have Faruzan c6, Jean can helps with ER requirements.",
+        "rotation": "Furina Q > Healer Q/Healing",
+        "archetype": "Hypercarry",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Wanderer",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Faruzan",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Jean"],
+            "build": ["Standard"]
+        }
+    },
+
 
 }   
 
