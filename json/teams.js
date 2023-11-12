@@ -4528,7 +4528,7 @@ const teams = {
             "name": ["Jean", "Sayu", "Charlotte", "Mika"],
             "build": ["Standard", "Standard", "Standard", "Standard"]
         }
-    }
+    },
 
     "180": {
         "name": "Furina National",
