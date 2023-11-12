@@ -5473,7 +5473,7 @@ const teams = {
             "build": "Standard"
         },
         "character_3": {
-            "name": "Raiden Shogun",
+            "name": "Shogun Raiden",
             "build": "EM"
         },
         "character_4": {
