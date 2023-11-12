@@ -351,7 +351,7 @@ function testTeams() {
         }
     }
 
-    test_separator = "<br><br>=================== " + (json_validator_result == "" ? "OK - testBuilds" : "KO - testBuilds") + " ===================<br><br>";
+    test_separator = "<br><br>=================== " + (json_validator_result == "" ? "OK - testTeams" : "KO - testTeams") + " ===================<br><br>";
 
     return "<div class='" + (json_validator_result == "" ? "test_ok" : "test_ko") + "'>" + json_validator_result + test_separator + "</div>";
 }
