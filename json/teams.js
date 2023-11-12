@@ -3858,7 +3858,7 @@ const teams = {
     "153": {
         "name": "Neuvillette Furina Hyperbloom",
         "description": "",
-        "rotation": "",
+        "rotation": "Furina Q > Healer Q/healing",
         "archetype": "Hyperbloom",
         "viability": "Meta",
 
@@ -3883,7 +3883,7 @@ const teams = {
     "154": {
         "name": "Neuvillette Furina Hyperbloom",
         "description": "",
-        "rotation": "",
+        "rotation": "Furina Q > Healer Q/healing",
         "archetype": "Hyperbloom",
         "viability": "Meta",
 
@@ -3908,7 +3908,7 @@ const teams = {
     "155": {
         "name": "Furina Raiden Hyperbloom",
         "description": "",
-        "rotation": "",
+        "rotation": "Furina Q > Healer Q/healing",
         "archetype": "Hyperbloom",
         "viability": "Meta",
 
@@ -3933,7 +3933,7 @@ const teams = {
     "156": {
         "name": "Furina Raiden Hyperbloom",
         "description": "",
-        "rotation": "",
+        "rotation": "Furina Q > Healer Q/healing",
         "archetype": "Hyperbloom",
         "viability": "Meta",
 
@@ -3958,7 +3958,7 @@ const teams = {
     "157": {
         "name": "Furina Shinobu Hyperbloom",
         "description": "",
-        "rotation": "",
+        "rotation": "Furina Q > Healer Q/healing",
         "archetype": "Hyperbloom",
         "viability": "Meta",
 
@@ -3983,7 +3983,7 @@ const teams = {
     "158": {
         "name": "Furina Shinobu Hyperbloom",
         "description": "",
-        "rotation": "",
+        "rotation": "Furina Q > Healer Q/healing",
         "archetype": "Hyperbloom",
         "viability": "Meta",
 
@@ -4008,7 +4008,7 @@ const teams = {
     "159": {
         "name": "Furina Dori Hyperbloom",
         "description": "Dori can be used in hyperbloom but she has a lot of downtime",
-        "rotation": "",
+        "rotation": "Furina Q > Healer Q/healing",
         "archetype": "Hyperbloom",
         "viability": "Troll",
 
@@ -4033,7 +4033,7 @@ const teams = {
     "160": {
         "name": "Furina Dori Hyperbloom",
         "description": "Dori can be used in hyperbloom but she has a lot of downtime",
-        "rotation": "",
+        "rotation": "Furina Q > Healer Q/healing",
         "archetype": "Hyperbloom",
         "viability": "Troll",
 
@@ -4108,7 +4108,7 @@ const teams = {
     "163": {
         "name": "Cyno Furina Hyperbloom",
         "description": "",
-        "rotation": "",
+        "rotation": "Furina Q > Healer Q/healing",
         "archetype": "Hyperbloom",
         "viability": "Meta",
 
@@ -4158,7 +4158,7 @@ const teams = {
     "165": {
         "name": "Cyno Furina Quickbloom",
         "description": "",
-        "rotation": "",
+        "rotation": "Furina Q > Healer Q/healing",
         "archetype": "Quickbloom",
         "viability": "Meta",
 
@@ -4183,7 +4183,7 @@ const teams = {
     "166": {
         "name": "Cyno Furina Quickbloom",
         "description": "",
-        "rotation": "",
+        "rotation": "Furina Q > Healer Q/healing",
         "archetype": "Quickbloom",
         "viability": "Viable",
 
@@ -4208,7 +4208,7 @@ const teams = {
     "167": {
         "name": "Cyno Furina Quickbloom",
         "description": "",
-        "rotation": "",
+        "rotation": "Furina Q > Healer Q/healing",
         "archetype": "Quickbloom",
         "viability": "Meta",
 
@@ -4258,7 +4258,7 @@ const teams = {
     "169": {
         "name": "Cyno Furina Quickbloom",
         "description": "Cyno Furina hyperbloom but with a Flex Healer slot. ",
-        "rotation": "",
+        "rotation": "Furina Q > Healer Q/healing",
         "archetype": "Quickbloom",
         "viability": "Viable",
 
@@ -4283,7 +4283,7 @@ const teams = {
     "170": {
         "name": "Cyno Furina Quickbloom",
         "description": "Cyno Furina hyperbloom but with a Flex Healer slot. ",
-        "rotation": "",
+        "rotation": "Furina Q > Healer Q/healing",
         "archetype": "Quickbloom",
         "viability": "Viable",
 
@@ -4308,7 +4308,7 @@ const teams = {
     "171": {
         "name": "Kequeen Furina Quickbloom",
         "description": "",
-        "rotation": "",
+        "rotation": "Furina Q > Healer Q/healing",
         "archetype": "Quickbloom",
         "viability": "Meta",
 
@@ -4333,7 +4333,7 @@ const teams = {
     "172": {
         "name": "Alhaitham Furina Quickbloom",
         "description": "",
-        "rotation": "",
+        "rotation": "Furina Q > Healer Q/healing",
         "archetype": "Quickbloom",
         "viability": "Meta",
 
@@ -4358,7 +4358,7 @@ const teams = {
     "173": {
         "name": "Alhaitham Furina Quickbloom",
         "description": "",
-        "rotation": "",
+        "rotation": "Furina Q > Healer Q/healing",
         "archetype": "Quickbloom",
         "viability": "Meta",
 
@@ -4383,7 +4383,7 @@ const teams = {
     "174": {
         "name": "Tighnari Furina Quickbloom",
         "description": "",
-        "rotation": "",
+        "rotation": "Furina Q > Healer Q/healing",
         "archetype": "Quickbloom",
         "viability": "Viable",
 
@@ -4408,7 +4408,7 @@ const teams = {
     "175": {
         "name": "Tighnari Furina Quickbloom",
         "description": "",
-        "rotation": "",
+        "rotation": "Furina Q > Healer Q/healing",
         "archetype": "Quickbloom",
         "viability": "Viable",
 
@@ -4433,7 +4433,7 @@ const teams = {
     "176": {
         "name": "Yoimiya Furina Vape",
         "description": "Yoimiya + Furina + Bennet + Flex Slot Healer. Furina has enough hydro app for Yoimiya.",
-        "rotation": "",
+        "rotation": "Remember: Furina Q > Healer Q/healing",
         "archetype": "Vaporize",
         "viability": "Viable",
 
@@ -4458,7 +4458,7 @@ const teams = {
     "177": {
         "name": "Dehya Furina Vape",
         "description": "Dehya + Furina + Bennet + Flex Slot Healer. Furina has enough hydro app for Dehya",
-        "rotation": "",
+        "rotation": "Remember: Furina Q > Healer Q/healing",
         "archetype": "Vaporize",
         "viability": "Troll",
 
@@ -4483,7 +4483,7 @@ const teams = {
     "178": {
         "name": "Furina Forward Vape",
         "description": "Due to Jean's ultimate, Furina will be the one vaping",
-        "rotation": "",
+        "rotation": "Remember: Furina Q > Healer Q/healing. Do Jean ults after bennett ults.",
         "archetype": "Vaporize",
         "viability": "Viable",
 
@@ -4508,7 +4508,7 @@ const teams = {
     "179": {
         "name": "Dehya Doble Hydro Vape",
         "description": "",
-        "rotation": "",
+        "rotation": "Remember: Furina Q > Healer Q/healing",
         "archetype": "Vaporize",
         "viability": "Troll",
 
@@ -4583,7 +4583,7 @@ const teams = {
     "182": {
         "name": "Yoimiya Furina Vape",
         "description": "",
-        "rotation": "",
+        "rotation": "Remember: Furina Q > Healer Q/healing",
         "archetype": "Vaporize",
         "viability": "Viable",
 
@@ -4608,7 +4608,7 @@ const teams = {
     "183": {
         "name": "Yoimiya Furina Vape",
         "description": "",
-        "rotation": "",
+        "rotation": "Remember: Furina Q > Healer Q/healing",
         "archetype": "Vaporize",
         "viability": "Viable",
 
@@ -4633,7 +4633,7 @@ const teams = {
     "184": {
         "name": "Yoimiya Furina Vape",
         "description": "",
-        "rotation": "",
+        "rotation": "Remember: Furina Q > Healer Q/healing",
         "archetype": "Overvape",
         "viability": "Viable",
 
@@ -4658,7 +4658,7 @@ const teams = {
     "185": {
         "name": "Yoimiya Furina Vape",
         "description": "",
-        "rotation": "",
+        "rotation": "Remember: Furina Q > Healer Q/healing",
         "archetype": "Vaporize",
         "viability": "Viable",
 
@@ -4683,7 +4683,7 @@ const teams = {
     "186": {
         "name": "Yoimiya Furina Vape",
         "description": "",
-        "rotation": "",
+        "rotation": "Remember: Furina Q > Healer Q/healing",
         "archetype": "Vaporize",
         "viability": "Viable",
 
@@ -4708,7 +4708,7 @@ const teams = {
     "187": {
         "name": "Yoimiya Furina Doble Hydro Vape",
         "description": "Yoimiya Doble Hydro plus a flex healer. The dendro ones could generate some seeds but its okay. ",
-        "rotation": "",
+        "rotation": "Remember: Furina Q > Healer Q/healing",
         "archetype": "Vaporize",
         "viability": "Meta",
 
@@ -4733,7 +4733,7 @@ const teams = {
     "188": {
         "name": "Yoimiya Furina Doble Hydro Vape",
         "description": "Yoimiya Doble Hydro plus a flex healer. The dendro ones could generate some seeds but its okay. ",
-        "rotation": "",
+        "rotation": "Remember: Furina Q > Healer Q/healing",
         "archetype": "Vaporize",
         "viability": "Meta",
 
@@ -4758,7 +4758,7 @@ const teams = {
     "189": {
         "name": "Hu Tao Furina Doble Hydro Vape",
         "description": "Hu Tao Doble Hydro plus a flex healer. The dendro ones could generate some seeds but its okay. ",
-        "rotation": "",
+        "rotation": "Remember: Furina Q > Healer Q/healing",
         "archetype": "Vaporize",
         "viability": "Meta",
 
@@ -4783,7 +4783,7 @@ const teams = {
     "190": {
         "name": "Hu Tao Furina Doble Hydro Vape",
         "description": "Hu Tao Doble Hydro plus a flex healer. The dendro ones could generate some seeds but its okay. ",
-        "rotation": "",
+        "rotation": "Remember: Furina Q > Healer Q/healing",
         "archetype": "Vaporize",
         "viability": "Meta",
 
@@ -4808,7 +4808,7 @@ const teams = {
     "191": {
         "name": "Diluc Furina Doble Hydro Vape",
         "description": "Diluc Doble Hydro plus a flex healer. The dendro ones could generate some seeds but its okay. ",
-        "rotation": "",
+        "rotation": "Remember: Furina Q > Healer Q/healing",
         "archetype": "Vaporize",
         "viability": "Meta",
 
@@ -4833,7 +4833,7 @@ const teams = {
     "192": {
         "name": "Diluc Furina Doble Hydro Vape",
         "description": "Diluc Doble Hydro plus a flex healer. The dendro ones could generate some seeds but its okay. ",
-        "rotation": "",
+        "rotation": "Remember: Furina Q > Healer Q/healing",
         "archetype": "Vaporize",
         "viability": "Meta",
 
@@ -4858,7 +4858,7 @@ const teams = {
     "193": {
         "name": "Yanfei Furina Doble Hydro Vape",
         "description": "Yanfei Doble Hydro plus a flex healer. The dendro ones could generate some seeds but its okay. ",
-        "rotation": "",
+        "rotation": "Remember: Furina Q > Healer Q/healing",
         "archetype": "Vaporize",
         "viability": "Meta",
 
@@ -4883,7 +4883,7 @@ const teams = {
     "194": {
         "name": "Yanfei Furina Doble Hydro Vape",
         "description": "Yanfei Doble Hydro plus a flex healer. The dendro ones could generate some seeds but its okay. ",
-        "rotation": "",
+        "rotation": "Remember: Furina Q > Healer Q/healing",
         "archetype": "Vaporize",
         "viability": "Meta",
 
@@ -4908,7 +4908,7 @@ const teams = {
     "195": {
         "name": "Klee Furina Doble Hydro Vape",
         "description": "Klee Doble Hydro plus a flex healer. The dendro ones could generate some seeds but its okay. ",
-        "rotation": "",
+        "rotation": "Remember: Furina Q > Healer Q/healing",
         "archetype": "Vaporize",
         "viability": "Meta",
 
@@ -4933,7 +4933,7 @@ const teams = {
     "196": {
         "name": "Klee Furina Doble Hydro Vape",
         "description": "Klee Doble Hydro plus a flex healer. The dendro ones could generate some seeds but its okay. ",
-        "rotation": "",
+        "rotation": "Remember: Furina Q > Healer Q/healing",
         "archetype": "Vaporize",
         "viability": "Meta",
 
@@ -4952,6 +4952,56 @@ const teams = {
         "character_4": {
             "name": ["Jean", "Sayu", "Mika", "Charlotte", "Yaoyao", "Baizhu"],
             "build": ["Standard", "Standard", "Standard", "Standard", "Standard", "Standard"]
+        }
+    },
+
+    "197": {
+        "name": "Hu Tao Triple Hydro with Mona Healer",
+        "description": "A fun and surprisingly good team, where Mona is the healers thanks to Prototype amber, the Maiden set, and Healing Bonus Circlet. Not gonna fully stack Fanfare, but its ok.",
+        "rotation": "",
+        "archetype": "Vaporize",
+        "viability": "Unique",
+
+        "character_1": {
+            "name": "Hu Tao",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Mona",
+            "build": "Healer"
+        },
+        "character_3": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Yelan", "Xinqgiu"],
+            "build": ["Standard", "Standard"]
+        }
+    },
+
+    "198": {
+        "name": "Jean Furina MonoHydro",
+        "description": "",
+        "rotation": "Remember: Furina Q > Healer Q/healing",
+        "archetype": "MonoHydro",
+        "viability": "Unique",
+
+        "character_1": {
+            "name": "Hu Tao",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Mona",
+            "build": "Healer"
+        },
+        "character_3": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Yelan", "Xinqgiu"],
+            "build": ["Standard", "Standard"]
         }
     },
     
