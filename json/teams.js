@@ -5915,7 +5915,7 @@ const teams = {
         "viability": "Meta",
 
         "character_1": {
-            "name": "Ayato",
+            "name": "Kamisato Ayato",
             "build": "Standard"
         },
         "character_2": {
@@ -5940,7 +5940,7 @@ const teams = {
         "viability": "Meta",
 
         "character_1": {
-            "name": "Ayato",
+            "name": "Kamisato Ayato",
             "build": "Standard"
         },
         "character_2": {
@@ -5965,7 +5965,7 @@ const teams = {
         "viability": "Meta",
 
         "character_1": {
-            "name": "Ayato",
+            "name": "Kamisato Ayato",
             "build": "Standard"
         },
         "character_2": {
@@ -6040,7 +6040,7 @@ const teams = {
         "viability": "Meta",
 
         "character_1": {
-            "name": "Ayato",
+            "name": "Kamisato Ayato",
             "build": "Standard"
         },
         "character_2": {
