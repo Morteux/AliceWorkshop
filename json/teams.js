@@ -2101,7 +2101,7 @@ const teams = {
         }
     },
 
-        "84": {
+    "84": {
         "name": "Lyney MonoPyro",
         "description": "If you love Xinyan, she can be use in monopyro with Lyney. C2 is not obbligatory but almost required.",
         "rotation": "",
@@ -2301,30 +2301,6 @@ const teams = {
         }
     },
 
-        "91": {
-        "name": "Neuvillette Hyperbloom",
-        "description": "Neuvillette is very strong in this archetype. With Raiden, you can do kite and trigger seeds.",
-        "rotation": "",
-        "archetype": "Hyperbloom",
-        "viability": "Meta",
-
-        "character_1": {
-            "name": "Neuvillette",
-            "build": "Standard"
-        },
-        "character_2": {
-            "name": "Nahida",
-            "build": "Standard"
-        },
-        "character_3": {
-            "name": "Raiden Shogun",
-            "build": "Standard"
-        },
-        "character_4": {
-            "name": ["Yae Miko", "Fischl", "Beidou", "Venti"],
-            "build": ["Standard", "Standard", "Standard", "Standard"]
-        }
-    },
     
     "92": {
         "name": "Neuvillette Hyperbloom",
@@ -3499,8 +3475,8 @@ const teams = {
             "build": "Standard"
         },
         "character_4": {
-            "name": ["Shenhe", "Kaeya"],
-            "build": ["Standard", "Standard"]
+            "name": ["Shenhe", "Kaeya", "Rosaria"],
+            "build": ["Standard", "Standard", "Standard"]
         }
     },
     
@@ -3524,8 +3500,8 @@ const teams = {
             "build": "Standard"
         },
         "character_4": {
-            "name": ["Shenhe", "Kaeya"],
-            "build": ["Standard", "Kaeya"]
+            "name": ["Shenhe", "Kaeya", "Rosaria"],
+            "build": ["Standard", "Standard", "Standard"]
         }
     },
     
@@ -3858,7 +3834,7 @@ const teams = {
     "153": {
         "name": "Neuvillette Furina Hyperbloom",
         "description": "",
-        "rotation": "",
+        "rotation": "Furina Q > Healer Q/healing",
         "archetype": "Hyperbloom",
         "viability": "Meta",
 
@@ -3883,7 +3859,7 @@ const teams = {
     "154": {
         "name": "Neuvillette Furina Hyperbloom",
         "description": "",
-        "rotation": "",
+        "rotation": "Furina Q > Healer Q/healing",
         "archetype": "Hyperbloom",
         "viability": "Meta",
 
@@ -3908,7 +3884,7 @@ const teams = {
     "155": {
         "name": "Furina Raiden Hyperbloom",
         "description": "",
-        "rotation": "",
+        "rotation": "Furina Q > Healer Q/healing",
         "archetype": "Hyperbloom",
         "viability": "Meta",
 
@@ -3933,7 +3909,7 @@ const teams = {
     "156": {
         "name": "Furina Raiden Hyperbloom",
         "description": "",
-        "rotation": "",
+        "rotation": "Furina Q > Healer Q/healing",
         "archetype": "Hyperbloom",
         "viability": "Meta",
 
@@ -3958,7 +3934,7 @@ const teams = {
     "157": {
         "name": "Furina Shinobu Hyperbloom",
         "description": "",
-        "rotation": "",
+        "rotation": "Furina Q > Healer Q/healing",
         "archetype": "Hyperbloom",
         "viability": "Meta",
 
@@ -3983,7 +3959,7 @@ const teams = {
     "158": {
         "name": "Furina Shinobu Hyperbloom",
         "description": "",
-        "rotation": "",
+        "rotation": "Furina Q > Healer Q/healing",
         "archetype": "Hyperbloom",
         "viability": "Meta",
 
@@ -4008,7 +3984,7 @@ const teams = {
     "159": {
         "name": "Furina Dori Hyperbloom",
         "description": "Dori can be used in hyperbloom but she has a lot of downtime",
-        "rotation": "",
+        "rotation": "Furina Q > Healer Q/healing",
         "archetype": "Hyperbloom",
         "viability": "Troll",
 
@@ -4033,7 +4009,7 @@ const teams = {
     "160": {
         "name": "Furina Dori Hyperbloom",
         "description": "Dori can be used in hyperbloom but she has a lot of downtime",
-        "rotation": "",
+        "rotation": "Furina Q > Healer Q/healing",
         "archetype": "Hyperbloom",
         "viability": "Troll",
 
@@ -4108,7 +4084,7 @@ const teams = {
     "163": {
         "name": "Cyno Furina Hyperbloom",
         "description": "",
-        "rotation": "",
+        "rotation": "Furina Q > Healer Q/healing",
         "archetype": "Hyperbloom",
         "viability": "Meta",
 
@@ -4158,7 +4134,7 @@ const teams = {
     "165": {
         "name": "Cyno Furina Quickbloom",
         "description": "",
-        "rotation": "",
+        "rotation": "Furina Q > Healer Q/healing",
         "archetype": "Quickbloom",
         "viability": "Meta",
 
@@ -4183,7 +4159,7 @@ const teams = {
     "166": {
         "name": "Cyno Furina Quickbloom",
         "description": "",
-        "rotation": "",
+        "rotation": "Furina Q > Healer Q/healing",
         "archetype": "Quickbloom",
         "viability": "Viable",
 
@@ -4208,7 +4184,7 @@ const teams = {
     "167": {
         "name": "Cyno Furina Quickbloom",
         "description": "",
-        "rotation": "",
+        "rotation": "Furina Q > Healer Q/healing",
         "archetype": "Quickbloom",
         "viability": "Meta",
 
@@ -4258,7 +4234,7 @@ const teams = {
     "169": {
         "name": "Cyno Furina Quickbloom",
         "description": "Cyno Furina hyperbloom but with a Flex Healer slot. ",
-        "rotation": "",
+        "rotation": "Furina Q > Healer Q/healing",
         "archetype": "Quickbloom",
         "viability": "Viable",
 
@@ -4283,7 +4259,7 @@ const teams = {
     "170": {
         "name": "Cyno Furina Quickbloom",
         "description": "Cyno Furina hyperbloom but with a Flex Healer slot. ",
-        "rotation": "",
+        "rotation": "Furina Q > Healer Q/healing",
         "archetype": "Quickbloom",
         "viability": "Viable",
 
@@ -4308,7 +4284,7 @@ const teams = {
     "171": {
         "name": "Kequeen Furina Quickbloom",
         "description": "",
-        "rotation": "",
+        "rotation": "Furina Q > Healer Q/healing",
         "archetype": "Quickbloom",
         "viability": "Meta",
 
@@ -4333,7 +4309,7 @@ const teams = {
     "172": {
         "name": "Alhaitham Furina Quickbloom",
         "description": "",
-        "rotation": "",
+        "rotation": "Furina Q > Healer Q/healing",
         "archetype": "Quickbloom",
         "viability": "Meta",
 
@@ -4358,7 +4334,7 @@ const teams = {
     "173": {
         "name": "Alhaitham Furina Quickbloom",
         "description": "",
-        "rotation": "",
+        "rotation": "Furina Q > Healer Q/healing",
         "archetype": "Quickbloom",
         "viability": "Meta",
 
@@ -4383,7 +4359,7 @@ const teams = {
     "174": {
         "name": "Tighnari Furina Quickbloom",
         "description": "",
-        "rotation": "",
+        "rotation": "Furina Q > Healer Q/healing",
         "archetype": "Quickbloom",
         "viability": "Viable",
 
@@ -4408,7 +4384,7 @@ const teams = {
     "175": {
         "name": "Tighnari Furina Quickbloom",
         "description": "",
-        "rotation": "",
+        "rotation": "Furina Q > Healer Q/healing",
         "archetype": "Quickbloom",
         "viability": "Viable",
 
@@ -4433,7 +4409,7 @@ const teams = {
     "176": {
         "name": "Yoimiya Furina Vape",
         "description": "Yoimiya + Furina + Bennet + Flex Slot Healer. Furina has enough hydro app for Yoimiya.",
-        "rotation": "",
+        "rotation": "Remember: Furina Q > Healer Q/healing",
         "archetype": "Vaporize",
         "viability": "Viable",
 
@@ -4458,7 +4434,7 @@ const teams = {
     "177": {
         "name": "Dehya Furina Vape",
         "description": "Dehya + Furina + Bennet + Flex Slot Healer. Furina has enough hydro app for Dehya",
-        "rotation": "",
+        "rotation": "Remember: Furina Q > Healer Q/healing",
         "archetype": "Vaporize",
         "viability": "Troll",
 
@@ -4483,7 +4459,7 @@ const teams = {
     "178": {
         "name": "Furina Forward Vape",
         "description": "Due to Jean's ultimate, Furina will be the one vaping",
-        "rotation": "",
+        "rotation": "Remember: Furina Q > Healer Q/healing. Do Jean ults after bennett ults.",
         "archetype": "Vaporize",
         "viability": "Viable",
 
@@ -4508,7 +4484,7 @@ const teams = {
     "179": {
         "name": "Dehya Doble Hydro Vape",
         "description": "",
-        "rotation": "",
+        "rotation": "Remember: Furina Q > Healer Q/healing",
         "archetype": "Vaporize",
         "viability": "Troll",
 
@@ -4583,7 +4559,7 @@ const teams = {
     "182": {
         "name": "Yoimiya Furina Vape",
         "description": "",
-        "rotation": "",
+        "rotation": "Remember: Furina Q > Healer Q/healing",
         "archetype": "Vaporize",
         "viability": "Viable",
 
@@ -4608,7 +4584,7 @@ const teams = {
     "183": {
         "name": "Yoimiya Furina Vape",
         "description": "",
-        "rotation": "",
+        "rotation": "Remember: Furina Q > Healer Q/healing",
         "archetype": "Vaporize",
         "viability": "Viable",
 
@@ -4633,7 +4609,7 @@ const teams = {
     "184": {
         "name": "Yoimiya Furina Vape",
         "description": "",
-        "rotation": "",
+        "rotation": "Remember: Furina Q > Healer Q/healing",
         "archetype": "Overvape",
         "viability": "Viable",
 
@@ -4658,7 +4634,7 @@ const teams = {
     "185": {
         "name": "Yoimiya Furina Vape",
         "description": "",
-        "rotation": "",
+        "rotation": "Remember: Furina Q > Healer Q/healing",
         "archetype": "Vaporize",
         "viability": "Viable",
 
@@ -4683,7 +4659,7 @@ const teams = {
     "186": {
         "name": "Yoimiya Furina Vape",
         "description": "",
-        "rotation": "",
+        "rotation": "Remember: Furina Q > Healer Q/healing",
         "archetype": "Vaporize",
         "viability": "Viable",
 
@@ -4708,7 +4684,7 @@ const teams = {
     "187": {
         "name": "Yoimiya Furina Doble Hydro Vape",
         "description": "Yoimiya Doble Hydro plus a flex healer. The dendro ones could generate some seeds but its okay. ",
-        "rotation": "",
+        "rotation": "Remember: Furina Q > Healer Q/healing",
         "archetype": "Vaporize",
         "viability": "Meta",
 
@@ -4733,7 +4709,7 @@ const teams = {
     "188": {
         "name": "Yoimiya Furina Doble Hydro Vape",
         "description": "Yoimiya Doble Hydro plus a flex healer. The dendro ones could generate some seeds but its okay. ",
-        "rotation": "",
+        "rotation": "Remember: Furina Q > Healer Q/healing",
         "archetype": "Vaporize",
         "viability": "Meta",
 
@@ -4758,7 +4734,7 @@ const teams = {
     "189": {
         "name": "Hu Tao Furina Doble Hydro Vape",
         "description": "Hu Tao Doble Hydro plus a flex healer. The dendro ones could generate some seeds but its okay. ",
-        "rotation": "",
+        "rotation": "Remember: Furina Q > Healer Q/healing",
         "archetype": "Vaporize",
         "viability": "Meta",
 
@@ -4783,7 +4759,7 @@ const teams = {
     "190": {
         "name": "Hu Tao Furina Doble Hydro Vape",
         "description": "Hu Tao Doble Hydro plus a flex healer. The dendro ones could generate some seeds but its okay. ",
-        "rotation": "",
+        "rotation": "Remember: Furina Q > Healer Q/healing",
         "archetype": "Vaporize",
         "viability": "Meta",
 
@@ -4808,7 +4784,7 @@ const teams = {
     "191": {
         "name": "Diluc Furina Doble Hydro Vape",
         "description": "Diluc Doble Hydro plus a flex healer. The dendro ones could generate some seeds but its okay. ",
-        "rotation": "",
+        "rotation": "Remember: Furina Q > Healer Q/healing",
         "archetype": "Vaporize",
         "viability": "Meta",
 
@@ -4833,7 +4809,7 @@ const teams = {
     "192": {
         "name": "Diluc Furina Doble Hydro Vape",
         "description": "Diluc Doble Hydro plus a flex healer. The dendro ones could generate some seeds but its okay. ",
-        "rotation": "",
+        "rotation": "Remember: Furina Q > Healer Q/healing",
         "archetype": "Vaporize",
         "viability": "Meta",
 
@@ -4858,7 +4834,7 @@ const teams = {
     "193": {
         "name": "Yanfei Furina Doble Hydro Vape",
         "description": "Yanfei Doble Hydro plus a flex healer. The dendro ones could generate some seeds but its okay. ",
-        "rotation": "",
+        "rotation": "Remember: Furina Q > Healer Q/healing",
         "archetype": "Vaporize",
         "viability": "Meta",
 
@@ -4883,7 +4859,7 @@ const teams = {
     "194": {
         "name": "Yanfei Furina Doble Hydro Vape",
         "description": "Yanfei Doble Hydro plus a flex healer. The dendro ones could generate some seeds but its okay. ",
-        "rotation": "",
+        "rotation": "Remember: Furina Q > Healer Q/healing",
         "archetype": "Vaporize",
         "viability": "Meta",
 
@@ -4908,7 +4884,7 @@ const teams = {
     "195": {
         "name": "Klee Furina Doble Hydro Vape",
         "description": "Klee Doble Hydro plus a flex healer. The dendro ones could generate some seeds but its okay. ",
-        "rotation": "",
+        "rotation": "Remember: Furina Q > Healer Q/healing",
         "archetype": "Vaporize",
         "viability": "Meta",
 
@@ -4933,7 +4909,7 @@ const teams = {
     "196": {
         "name": "Klee Furina Doble Hydro Vape",
         "description": "Klee Doble Hydro plus a flex healer. The dendro ones could generate some seeds but its okay. ",
-        "rotation": "",
+        "rotation": "Remember: Furina Q > Healer Q/healing",
         "archetype": "Vaporize",
         "viability": "Meta",
 
@@ -4954,7 +4930,882 @@ const teams = {
             "build": ["Standard", "Standard", "Standard", "Standard", "Standard", "Standard"]
         }
     },
+
+    "197": {
+        "name": "Hu Tao Triple Hydro with Mona Healer",
+        "description": "A fun and surprisingly good team, where Mona is the healers thanks to Prototype amber, the Maiden set, and Healing Bonus Circlet. Not gonna fully stack Fanfare, but its ok.",
+        "rotation": "",
+        "archetype": "Vaporize",
+        "viability": "Unique",
+
+        "character_1": {
+            "name": "Hu Tao",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Mona",
+            "build": "Healer"
+        },
+        "character_3": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Yelan", "Xinqgiu"],
+            "build": ["Standard", "Standard"]
+        }
+    },
+
+    "198": {
+        "name": "Jean Furina MonoHydro",
+        "description": "You can On-Field Yelan so she has her own buff and do pretty high damage",
+        "rotation": "Furina Q > Healer Q/healing",
+        "archetype": "MonoHydro",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Jean",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Xingqiu",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Yelan"],
+            "build": ["Standard"]
+        }
+    },
+
+    "199": {
+        "name": "Kokomi Furina MonoHydro",
+        "description": "",
+        "rotation": "",
+        "archetype": "MonoHydro",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Sangonomiya Kokomi",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Xingqiu",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Kaedehara Kazuha", "Venti", "Zhongli"],
+            "build": ["Standard", "Standard", "Standard"]
+        }
+    },
+
+    "200": {
+        "name": "Kokomi Furina MonoHydro",
+        "description": "",
+        "rotation": "",
+        "archetype": "MonoHydro",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Sangonomiya Kokomi",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Yelan",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Kaedehara Kazuha", "Venti", "Zhongli"],
+            "build": ["Standard", "Standard", "Standard"]
+        }
+    },
+
+    "201": {
+        "name": "Sayu Furina MonoHydro",
+        "description": "You can On-Field Yelan so she has her own buff and do pretty high damage",
+        "rotation": "Furina Q > Healer Q/healing",
+        "archetype": "MonoHydro",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Sayu",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Xingqiu",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Yelan"],
+            "build": ["Standard"]
+        }
+    },
+
+    "202": {
+        "name": "Noelle Furina MonoHydro",
+        "description": "",
+        "rotation": "",
+        "archetype": "MonoHydro",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Noelle",
+            "build": "Petra"
+        },
+        "character_2": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Xingqiu",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Yelan"],
+            "build": ["Standard"]
+        }
+    },
+
+    "203": {
+        "name": "MonoHydro but the real one",
+        "description": "",
+        "rotation": "",
+        "archetype": "MonoHydro",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Sangonomiya Kokomi",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Xingqiu",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Yelan"],
+            "build": ["Standard"]
+        }
+    },
+
+    "204": {
+        "name": "Ayaka Furina Freeze",
+        "description": "",
+        "rotation": "",
+        "archetype": "Freeze",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Ayaka",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Jean",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Shenhe", "Kaeya", "Rosaria"],
+            "build": ["Standard", "Standard", "Standard"]
+        }
+    },
+
+    "205": {
+        "name": "Ayaka Furina Freeze",
+        "description": "",
+        "rotation": "",
+        "archetype": "Freeze",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Ayaka",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Kaedehara Kazuha",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Charlotte", "Mika"],
+            "build": ["Standard", "Standard"]
+        }
+    },
+
+    "206": {
+        "name": "Ganyu Furina Freeze",
+        "description": "No grouping. Useful in single-target enemies that can freeze.",
+        "rotation": "",
+        "archetype": "Freeze",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Ganyu",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Jean",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Shenhe", "Rosaria"],
+            "build": ["Standard","Standard"]
+        }
+    },
+
+    "207": {
+        "name": "Ganyu Furina Freeze",
+        "description": "",
+        "rotation": "",
+        "archetype": "Freeze",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Ganyu",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Kaedehara Kazuha",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Charlotte", "Mika"],
+            "build": ["Standard", "Standard"]
+        }
+    },
+
+    "208": {
+        "name": "Ganyu Furina Freeze",
+        "description": "",
+        "rotation": "",
+        "archetype": "Freeze",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Ganyu",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Venti",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Charlotte", "Mika"],
+            "build": ["Standard", "Standard"]
+        }
+    },
+
     
+    "209": {
+        "name": "Neuvillette Hyperbloom",
+        "description": "Neuvillette is very strong in this archetype. With Raiden, you can do kite and trigger seeds.",
+        "rotation": "",
+        "archetype": "Hyperbloom",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Neuvillette",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Nahida",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Raiden Shogun",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Yae Miko", "Fischl", "Beidou", "Venti"],
+            "build": ["Standard", "Standard", "Standard", "Standard"]
+        }
+    },
+
+    "210": {
+        "name": "Freminet Freeze",
+        "description": "",
+        "rotation": "Off field characters  > Freminet: E, BURST, Spam skill (NA when Skill on CD(1s))",
+        "archetype": "Freeze",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Freminet",
+            "build": "Freeze"
+        },
+        "character_2": {
+            "name": "Sangonomiya Kokomi",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Kaedehara Kazuha",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Layla", "Shenhe", "Chongyun", "Rosaria", "Ganyu","Kaeya"],
+            "build": ["Standard","Standard","Standard","Standard","Ultimate","Standard"]
+        }
+    },
+
+    "211": {
+        "name": "Freminet Furina Freeze",
+        "description": "",
+        "rotation": "",
+        "archetype": "Freeze",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Freminet",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Jean",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Shenhe", "Kaeya", "Rosaria", "Xingqiu", "Yelan"],
+            "build": ["Standard", "Standard", "Standard", "Standard", "Standard"]
+        }
+    },
+
+    "212": {
+        "name": "Freminet Furina Freeze",
+        "description": "",
+        "rotation": "",
+        "archetype": "Freeze",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Freminet",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Kaedehara Kazuha",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Charlotte", "Mika"],
+            "build": ["Standard", "Standard"]
+        }
+    },
+
+    "213": {
+        "name": "Kaeya Furina Freeze",
+        "description": "",
+        "rotation": "",
+        "archetype": "Freeze",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Kaeya",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Jean",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Shenhe", "Rosaria", "Xingqiu", "Yelan", "Chongyun"],
+            "build": ["Standard", "Standard", "Standard", "Standard", "Standard"]
+        }
+    },
+
+    "214": {
+        "name": "Kaeya Furina Freeze",
+        "description": "",
+        "rotation": "",
+        "archetype": "Freeze",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Kaeya",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Kaedehara Kazuha",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Charlotte", "Mika"],
+            "build": ["Standard", "Standard"]
+        }
+    },
+
+    "215": {
+        "name": "Furina Shinobu Quickbloom",
+        "description": "",
+        "rotation": "Furina Q > Healer Q/healing",
+        "archetype": "Quickbloom",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Yaoyao",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Kuki Shinobu",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Beidou", "Fischl", "Yae Miko"],
+            "build": ["Standard", "Standard", "Standard"]
+        }
+    },
+    
+    "216": {
+        "name": "Furina Shinobu Quickbloom",
+        "description": "",
+        "rotation": "Furina Q > Healer Q/healing",
+        "archetype": "Quickbloom",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Baizhu",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Kuki Shinobu",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Beidou", "Fischl", "Yae Miko"],
+            "build": ["Standard", "Standard", "Standard"]
+        }
+    },
+
+    "217": {
+        "name": "Furina Raiden Quickbloom",
+        "description": "",
+        "rotation": "Furina Q > Healer Q/healing",
+        "archetype": "Quickbloom",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Yaoyao",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Raiden Shogun",
+            "build": "EM"
+        },
+        "character_4": {
+            "name": ["Beidou", "Fischl", "Yae Miko"],
+            "build": ["Standard", "Standard", "Standard"]
+        }
+    },
+    
+    "218": {
+        "name": "Furina Raiden Quickbloom",
+        "description": "",
+        "rotation": "Furina Q > Healer Q/healing",
+        "archetype": "Quickbloom",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Baizhu",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Raiden Shogun",
+            "build": "EM"
+        },
+        "character_4": {
+            "name": ["Beidou", "Fischl", "Yae Miko"],
+            "build": ["Standard", "Standard", "Standard"]
+        }
+    },
+
+    "219": {
+        "name": "Furina Taser",
+        "description": "",
+        "rotation": "",
+        "archetype": "Taser",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Fischl",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Beidou",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Jean", "Sayu"],
+            "build": ["Standard", "Standard"]
+        }
+    },
+
+    "220": {
+        "name": "Miko Furina Taser",
+        "description": "",
+        "rotation": "",
+        "archetype": "Taser",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Fischl",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Yae Miko",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Jean", "Sayu"],
+            "build": ["Standard", "Standard"]
+        }
+    },
+
+    "221": {
+        "name": "Raiden Furina Taser",
+        "description": "",
+        "rotation": "",
+        "archetype": "Taser",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Fischl",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Shogun Raiden",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Jean", "Sayu"],
+            "build": ["Standard", "Standard"]
+        }
+    },
+
+    "222": {
+        "name": "Raiden Furina Taser",
+        "description": "",
+        "rotation": "",
+        "archetype": "Taser",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Xingqiu",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Shogun Raiden",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Jean", "Sayu"],
+            "build": ["Standard", "Standard"]
+        }
+    },
+
+    "223": {
+        "name": "Raiden Furina Taser",
+        "description": "",
+        "rotation": "",
+        "archetype": "Taser",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Yelan",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Shogun Raiden",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Jean", "Sayu"],
+            "build": ["Standard", "Standard"]
+        }
+    },
+
+    "224": {
+        "name": "Qiqi Furina Taser",
+        "description": "Qiqi onfield to have enough healing and ER. ",
+        "rotation": "",
+        "archetype": "Taser",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Qiqi",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Fischl",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Yelan", "Xingqiu", "Beidou", "Yae Miko"],
+            "build": ["Standard", "Standard", "Standard", "Standard"]
+        }
+    },
+
+    "225": {
+        "name": "Kokomi Furina Taser",
+        "description": "Kokomi On-Field",
+        "rotation": "",
+        "archetype": "Taser",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Sangonomiya Kokomi",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Fischl",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Kaedehara Kazuha", "Venti"],
+            "build": ["Standard", "Standard"]
+        }
+    },
+
+    "226": {
+        "name": "Nilou Furina",
+        "description": "",
+        "rotation": "",
+        "archetype": "Bloom",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Nilou",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Nahida",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Yaoyao", "Baizhu"],
+            "build": ["Standard", "Standard"]
+        }
+    },
+
+    "227": {
+        "name": "Nilou Furina",
+        "description": "",
+        "rotation": "",
+        "archetype": "Bloom",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Nilou",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Aether",
+            "build": "Dendro"
+        },
+        "character_4": {
+            "name": ["Yaoyao", "Baizhu"],
+            "build": ["Standard", "Standard"]
+        }
+    },
+
+    "228": {
+        "name": "Raiden Furina Hypercarry",
+        "description": "",
+        "rotation": "Furina Q > Jean Q",
+        "archetype": "Hypercarry",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Shogun Raiden",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Jean",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Bennett", "Sara"],
+            "build": ["Standard", "Standard"]
+        }
+    },
+
+    "229": {
+        "name": "Noelle Furina Hypercarry",
+        "description": "",
+        "rotation": "",
+        "archetype": "Hypercarry",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Noelle",
+            "build": "DPSFurina"
+        },
+        "character_2": {
+            "name": "Gorou",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Yelan", "Xingqiu", "Albedo", "Yunjin"],
+            "build": ["Standard", "Standard", "Standard", "Standard"]
+        }
+    },
+
+    "230": {
+        "name": "Wanderer Furina Hypercarry",
+        "description": "You can use standard Wanderer build or Marechaussee Hunter artifacts set thanks to Furina (that might be better). This team is SO much better with Faruzan c6. Mika > Charlotte.",
+        "rotation": "Furina Q > Healer Q/Healing",
+        "archetype": "Hypercarry",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Wanderer",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Faruzan",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Mika", "Charlotte"],
+            "build": ["Standard", "Standard"]
+        }
+    },
+
+    "231": {
+        "name": "Wanderer Furina Hypercarry",
+        "description": "You can use standard Wanderer build or Marechaussee Hunter artifacts set thanks to Furina (that might be better). If you don't have Faruzan c6, Jean can helps with ER requirements.",
+        "rotation": "Furina Q > Healer Q/Healing",
+        "archetype": "Hypercarry",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Wanderer",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Faruzan",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Jean"],
+            "build": ["Standard"]
+        }
+    },
 
 
 }   

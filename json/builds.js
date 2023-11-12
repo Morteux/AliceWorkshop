@@ -719,6 +719,17 @@ const builds = {
                 "Circlet": "Crit"
             },
             "subs_stat": ["ER", "Crit", "ATK%"]
+        },
+        "Healer": {
+            "constellation": "",
+            "weapon": "Prototype Amber",
+            "set": "Maiden Beloved",
+            "main_stat": {
+                "Sands": "",
+                "Goblet": "",
+                "Circlet": "Healing Bonus"
+            },
+            "subs_stat": ["ER", "Crit", "ATK%"]
         }
     },
     "Nahida": {
@@ -795,7 +806,30 @@ const builds = {
                 "Circlet": "",
             },
             "subs_stat": ["", "", "", ""]
-        }
+        },
+        "Petra": {
+            "constellation": "",
+            "weapon": "",
+            "set": "",
+            "main_stat": {
+                "Sands": "",
+                "Goblet": "",
+                "Circlet": "",
+            },
+            "subs_stat": ["", "", "", ""]
+        },
+        "DPSFurina": {
+            "constellation": "",
+            "weapon": "",
+            "set": "Marechaussee Hunter",
+            "main_stat": {
+                "Sands": "",
+                "Goblet": "",
+                "Circlet": "",
+            },
+            "subs_stat": ["", "", "", ""]
+        },
+        
     },
     "Qiqi": {
         "Standard": {
