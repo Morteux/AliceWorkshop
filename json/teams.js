@@ -5114,7 +5114,7 @@ const teams = {
         "viability": "Meta",
 
         "character_1": {
-            "name": "Ayaka",
+            "name": "Kamisato Ayaka",
             "build": "Standard"
         },
         "character_2": {
@@ -5139,7 +5139,7 @@ const teams = {
         "viability": "Meta",
 
         "character_1": {
-            "name": "Ayaka",
+            "name": "Kamisato Ayaka",
             "build": "Standard"
         },
         "character_2": {
@@ -5806,6 +5806,234 @@ const teams = {
             "build": ["Standard"]
         }
     },
+
+    "232": {
+        "name": "Ayato Furina MonoHydro",
+        "description": "",
+        "rotation": "Furina Q > Healer Q/healing",
+        "archetype": "MonoHydro",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Kamisato Ayato",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Xingqiu",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Jean", "Sayu"],
+            "build": ["Standard", "Standard"]
+        }
+    },
+
+    "233": {
+        "name": "Ayato Furina MonoHydro",
+        "description": "",
+        "rotation": "Furina Q > Healer Q/healing",
+        "archetype": "MonoHydro",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Kamisato Ayato",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Yelan",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Jean", "Sayu"],
+            "build": ["Standard", "Standard"]
+        }
+    },
+
+    "234": {
+        "name": "Tartaglia Furina MonoHydro",
+        "description": "",
+        "rotation": "Furina Q > Healer Q/healing",
+        "archetype": "MonoHydro",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Tartaglia",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Xingqiu",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Jean", "Sayu"],
+            "build": ["Standard", "Standard"]
+        }
+    },
+
+    "235": {
+        "name": "Tartaglia Furina MonoHydro",
+        "description": "",
+        "rotation": "Furina Q > Healer Q/healing",
+        "archetype": "MonoHydro",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Tartaglia",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Yelan",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Jean", "Sayu"],
+            "build": ["Standard", "Standard"]
+        }
+    },
+
+    "236": {
+        "name": "Ayato Furina Hyperbloom",
+        "description": "",
+        "rotation": "Furina Q > Healer Q/healing",
+        "archetype": "Hyperbloom",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Ayato",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Kuki Shinobu",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Yaoyao", "Baizhu"],
+            "build": ["Standard", "Standard"]
+        }
+    },
+
+    "237": {
+        "name": "Ayato Furina Hyperbloom",
+        "description": "",
+        "rotation": "Furina Q > Healer Q/healing",
+        "archetype": "Hyperbloom",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Ayato",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Raiden Shogun",
+            "build": "EM"
+        },
+        "character_4": {
+            "name": ["Yaoyao", "Baizhu"],
+            "build": ["Standard", "Standard"]
+        }
+    },
+
+    "238": {
+        "name": "Ayato Furina Taser",
+        "description": "",
+        "rotation": "Furina Q > Healer Q/healing",
+        "archetype": "Taser",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Ayato",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Fischl",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Jean", "Sayu"],
+            "build": ["Standard", "Standard"]
+        }
+    },
+
+    "239": {
+        "name": "Xiao Furina Hypercarry",
+        "description": "",
+        "rotation": "Furina Q > Healer Q/Healing",
+        "archetype": "Hypercarry",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Xiao",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Faruzan",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Mika", "Charlotte"],
+            "build": ["Standard", "Standard"]
+        }
+    },
+
+    "240": {
+        "name": "Xiao Furina Hypercarry",
+        "description": "If you don't have Faruzan c6 maybe Jean's particle generation would help, otherwise Mika/Charlotte are better options.",
+        "rotation": "Furina Q > Healer Q/Healing",
+        "archetype": "Hypercarry",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Xiao",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Faruzan",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Jean"],
+            "build": ["Standard"]
+        }
+    },
+
+
+    
 
 
 }   
