@@ -806,7 +806,30 @@ const builds = {
                 "Circlet": "",
             },
             "subs_stat": ["", "", "", ""]
-        }
+        },
+        "Petra": {
+            "constellation": "",
+            "weapon": "",
+            "set": "",
+            "main_stat": {
+                "Sands": "",
+                "Goblet": "",
+                "Circlet": "",
+            },
+            "subs_stat": ["", "", "", ""]
+        },
+        "DPSFurina": {
+            "constellation": "",
+            "weapon": "",
+            "set": "Marechaussee Hunter",
+            "main_stat": {
+                "Sands": "",
+                "Goblet": "",
+                "Circlet": "",
+            },
+            "subs_stat": ["", "", "", ""]
+        },
+        
     },
     "Qiqi": {
         "Standard": {
