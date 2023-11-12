@@ -3872,7 +3872,7 @@ const teams = {
             "build": "Standard"
         },
         "character_3": {
-            "name": "Shogun Raiden",
+            "name": "Raiden Shogun",
             "build": "EM"
         },
         "character_4": {
@@ -3897,7 +3897,7 @@ const teams = {
             "build": "Standard"
         },
         "character_3": {
-            "name": "Shogun Raiden",
+            "name": "Raiden Shogun",
             "build": "EM"
         },
         "character_4": {
@@ -3922,7 +3922,7 @@ const teams = {
             "build": "Standard"
         },
         "character_3": {
-            "name": "Shogun Raiden",
+            "name": "Raiden Shogun",
             "build": "EM"
         },
         "character_4": {
@@ -4051,7 +4051,7 @@ const teams = {
             "build": "Standard"
         },
         "character_4": {
-            "name": ["Kuki Shinobu", "Shogun Raiden"],
+            "name": ["Kuki Shinobu", "Raiden Shogun"],
             "build": ["Standard", "EM"]
         }
     },
@@ -4076,7 +4076,7 @@ const teams = {
             "build": "Dendro"
         },
         "character_4": {
-            "name": ["Kuki Shinobu", "Shogun Raiden"],
+            "name": ["Kuki Shinobu", "Raiden Shogun"],
             "build": ["Standard", "EM"]
         }
     },
@@ -4097,7 +4097,7 @@ const teams = {
             "build": "Standard"
         },
         "character_3": {
-            "name": "YaoYao",
+            "name": "Yaoyao",
             "build": "Standard"
         },
         "character_4": {
@@ -4347,7 +4347,7 @@ const teams = {
             "build": "Standard"
         },
         "character_3": {
-            "name": "Shogun Raiden",
+            "name": "Raiden Shogun",
             "build": "EM"
         },
         "character_4": {
@@ -4372,7 +4372,7 @@ const teams = {
             "build": "Standard"
         },
         "character_3": {
-            "name": "Shogun Raiden",
+            "name": "Raiden Shogun",
             "build": "EM"
         },
         "character_4": {
@@ -4951,7 +4951,7 @@ const teams = {
             "build": "Standard"
         },
         "character_4": {
-            "name": ["Yelan", "Xinqgiu"],
+            "name": ["Yelan", "Xingqiu"],
             "build": ["Standard", "Standard"]
         }
     },
@@ -5473,7 +5473,7 @@ const teams = {
             "build": "Standard"
         },
         "character_3": {
-            "name": "Shogun Raiden",
+            "name": "Raiden Shogun",
             "build": "EM"
         },
         "character_4": {
@@ -5548,7 +5548,7 @@ const teams = {
             "build": "Standard"
         },
         "character_3": {
-            "name": "Shogun Raiden",
+            "name": "Raiden Shogun",
             "build": "Standard"
         },
         "character_4": {
@@ -5573,7 +5573,7 @@ const teams = {
             "build": "Standard"
         },
         "character_3": {
-            "name": "Shogun Raiden",
+            "name": "Raiden Shogun",
             "build": "Standard"
         },
         "character_4": {
@@ -5598,7 +5598,7 @@ const teams = {
             "build": "Standard"
         },
         "character_3": {
-            "name": "Shogun Raiden",
+            "name": "Raiden Shogun",
             "build": "Standard"
         },
         "character_4": {
@@ -5715,7 +5715,7 @@ const teams = {
         "viability": "Meta",
 
         "character_1": {
-            "name": "Shogun Raiden",
+            "name": "Raiden Shogun",
             "build": "Standard"
         },
         "character_2": {
@@ -5727,7 +5727,7 @@ const teams = {
             "build": "Standard"
         },
         "character_4": {
-            "name": ["Bennett", "Sara"],
+            "name": ["Bennett", "Kujou Sara"],
             "build": ["Standard", "Standard"]
         }
     },
@@ -6029,6 +6029,31 @@ const teams = {
         "character_4": {
             "name": ["Jean"],
             "build": ["Standard"]
+        }
+    },
+
+    "241": {
+        "name": "Ayato Furina Hypercarry",
+        "description": "",
+        "rotation": "Furina Q > Healer Q/healing",
+        "archetype": "Hypercarry",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Ayato",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Yun Jin",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Jean", "Sayu"],
+            "build": ["Standard", "Standard"]
         }
     },
 
