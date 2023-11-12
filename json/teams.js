@@ -4481,7 +4481,7 @@ const teams = {
     },
 
     "178": {
-        "name": "Furina Vape",
+        "name": "Furina Forward Vape",
         "description": "Due to Jean's ultimate, Furina will be the one vaping",
         "rotation": "",
         "archetype": "Vaporize",
@@ -4530,32 +4530,436 @@ const teams = {
         }
     }
 
-        //Lo mismo pero con Yelan, y poner o no Jean/Sayu/Mika/etc de flex en vez del pyro
-  //   "180": {
-     //    "name": "Pyro Carry Furina Doble Hydro Vape",
-     //    "description": "",
-     //    "rotation": "",
-     //    "archetype": "Vaporize",
-      //   "viability": "Meta",
+    "180": {
+        "name": "Furina National",
+        "description": "You have to swap all the time between the characters in order to bennett heal all the allies. ",
+        "rotation": "",
+        "archetype": "National",
+        "viability": "Meta",
 
-      //   "character_1": {
-      //       "name": "Furina",
-      //       "build": "Standard"
-   //      },
-    //     "character_2": {
-     //        "name": "Xingqiu",
-     //        "build": "Standard"
-     //    },
-    //     "character_3": {
-     //        "name": "Jean",
-       //      "build": "Standard"
-     //    },
-     //    "character_4": {
-      //       "name": ["Diluc", "Klee", "Xiangling", "Yanfei", "Yoimiya", "Hu Tao"],
-       //      "build": ["Standard", "Standard", "Standard", "Standard", "Standard", "Standard"]
-     //   }
-    //},
-}
+        "character_1": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Bennett",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Xiangling",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Sucrose", "Kaedehara Kazuha"],
+            "build": ["Standard", "Standard"]
+        }
+    },
+
+    "181": {
+        "name": "Furina National",
+        "description": "You have to swap all the time between the characters in order to bennett heal all the allies. Lynette and Heizou are good due to VV, but other anemo like Sucrose may be better. ",
+        "rotation": "",
+        "archetype": "National",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Bennett",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Xiangling",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Lynette", "Shikanoin Heizou"],
+            "build": ["Standard", "Standard"]
+        }
+    },
+
+    "182": {
+        "name": "Yoimiya Furina Vape",
+        "description": "",
+        "rotation": "",
+        "archetype": "Vaporize",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Yoimiya",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Zhongli",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Mika", "Charlotte", "Sayu", "Barbara", "Jean"],
+            "build": ["Standard", "Standard", "Standard", "Standard", "Standard"]
+        }
+    },
+
+    "183": {
+        "name": "Yoimiya Furina Vape",
+        "description": "",
+        "rotation": "",
+        "archetype": "Vaporize",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Yoimiya",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Yunjin",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Mika", "Charlotte", "Sayu", "Barbara", "Jean"],
+            "build": ["Standard", "Standard", "Standard", "Standard", "Standard"]
+        }
+    },
+
+    "184": {
+        "name": "Yoimiya Furina Vape",
+        "description": "",
+        "rotation": "",
+        "archetype": "Overvape",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Yoimiya",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Fischl",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Mika", "Charlotte", "Sayu", "Barbara", "Jean"],
+            "build": ["Standard", "Standard", "Standard", "Standard", "Standard"]
+        }
+    },
+
+    "185": {
+        "name": "Yoimiya Furina Vape",
+        "description": "",
+        "rotation": "",
+        "archetype": "Vaporize",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Yoimiya",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Kaedehara Kazuha",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Mika", "Charlotte", "Barbara"],
+            "build": ["Standard", "Standard", "Standard"]
+        }
+    },
+
+    "186": {
+        "name": "Yoimiya Furina Vape",
+        "description": "",
+        "rotation": "",
+        "archetype": "Vaporize",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Yoimiya",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Sucrose",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Mika", "Charlotte", "Barbara"],
+            "build": ["Standard", "Standard", "Standard"]
+        }
+    },
+
+    "187": {
+        "name": "Yoimiya Furina Doble Hydro Vape",
+        "description": "Yoimiya Doble Hydro plus a flex healer. The dendro ones could generate some seeds but its okay. ",
+        "rotation": "",
+        "archetype": "Vaporize",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Yoimiya",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Xingqiu",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Jean", "Sayu", "Mika", "Charlotte", "Yaoyao", "Baizhu"],
+            "build": ["Standard", "Standard", "Standard", "Standard", "Standard", "Standard"]
+        }
+    },
+
+    "188": {
+        "name": "Yoimiya Furina Doble Hydro Vape",
+        "description": "Yoimiya Doble Hydro plus a flex healer. The dendro ones could generate some seeds but its okay. ",
+        "rotation": "",
+        "archetype": "Vaporize",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Yoimiya",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Yelan",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Jean", "Sayu", "Mika", "Charlotte", "Yaoyao", "Baizhu"],
+            "build": ["Standard", "Standard", "Standard", "Standard", "Standard", "Standard"]
+        }
+    },
+
+    "189": {
+        "name": "Hu Tao Furina Doble Hydro Vape",
+        "description": "Hu Tao Doble Hydro plus a flex healer. The dendro ones could generate some seeds but its okay. ",
+        "rotation": "",
+        "archetype": "Vaporize",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Hu Tao",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Xingqiu",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Jean", "Sayu", "Mika", "Charlotte", "Yaoyao", "Baizhu"],
+            "build": ["Standard", "Standard", "Standard", "Standard", "Standard", "Standard"]
+        }
+    },
+
+    "190": {
+        "name": "Hu Tao Furina Doble Hydro Vape",
+        "description": "Hu Tao Doble Hydro plus a flex healer. The dendro ones could generate some seeds but its okay. ",
+        "rotation": "",
+        "archetype": "Vaporize",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Hu Tao",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Yelan",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Jean", "Sayu", "Mika", "Charlotte", "Yaoyao", "Baizhu"],
+            "build": ["Standard", "Standard", "Standard", "Standard", "Standard", "Standard"]
+        }
+    },
+
+    "191": {
+        "name": "Diluc Furina Doble Hydro Vape",
+        "description": "Diluc Doble Hydro plus a flex healer. The dendro ones could generate some seeds but its okay. ",
+        "rotation": "",
+        "archetype": "Vaporize",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Diluc",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Xingqiu",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Jean", "Sayu", "Mika", "Charlotte", "Yaoyao", "Baizhu"],
+            "build": ["Standard", "Standard", "Standard", "Standard", "Standard", "Standard"]
+        }
+    },
+
+    "192": {
+        "name": "Diluc Furina Doble Hydro Vape",
+        "description": "Diluc Doble Hydro plus a flex healer. The dendro ones could generate some seeds but its okay. ",
+        "rotation": "",
+        "archetype": "Vaporize",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Diluc",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Yelan",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Jean", "Sayu", "Mika", "Charlotte", "Yaoyao", "Baizhu"],
+            "build": ["Standard", "Standard", "Standard", "Standard", "Standard", "Standard"]
+        }
+    },
+
+    "193": {
+        "name": "Yanfei Furina Doble Hydro Vape",
+        "description": "Yanfei Doble Hydro plus a flex healer. The dendro ones could generate some seeds but its okay. ",
+        "rotation": "",
+        "archetype": "Vaporize",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Yanfei",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Xingqiu",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Jean", "Sayu", "Mika", "Charlotte", "Yaoyao", "Baizhu"],
+            "build": ["Standard", "Standard", "Standard", "Standard", "Standard", "Standard"]
+        }
+    },
+
+    "194": {
+        "name": "Yanfei Furina Doble Hydro Vape",
+        "description": "Yanfei Doble Hydro plus a flex healer. The dendro ones could generate some seeds but its okay. ",
+        "rotation": "",
+        "archetype": "Vaporize",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Yanfei",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Yelan",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Jean", "Sayu", "Mika", "Charlotte", "Yaoyao", "Baizhu"],
+            "build": ["Standard", "Standard", "Standard", "Standard", "Standard", "Standard"]
+        }
+    },
+
+    "195": {
+        "name": "Klee Furina Doble Hydro Vape",
+        "description": "Klee Doble Hydro plus a flex healer. The dendro ones could generate some seeds but its okay. ",
+        "rotation": "",
+        "archetype": "Vaporize",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Klee",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Xingqiu",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Jean", "Sayu", "Mika", "Charlotte", "Yaoyao", "Baizhu"],
+            "build": ["Standard", "Standard", "Standard", "Standard", "Standard", "Standard"]
+        }
+    },
+
+    "196": {
+        "name": "Klee Furina Doble Hydro Vape",
+        "description": "Klee Doble Hydro plus a flex healer. The dendro ones could generate some seeds but its okay. ",
+        "rotation": "",
+        "archetype": "Vaporize",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Klee",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Yelan",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Jean", "Sayu", "Mika", "Charlotte", "Yaoyao", "Baizhu"],
+            "build": ["Standard", "Standard", "Standard", "Standard", "Standard", "Standard"]
+        }
+    },
+    
+
+
+}   
+
+
 
 //"34": {
 //    "name": "",
