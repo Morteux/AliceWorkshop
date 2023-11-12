@@ -4982,29 +4982,153 @@ const teams = {
 
     "198": {
         "name": "Jean Furina MonoHydro",
-        "description": "",
-        "rotation": "Remember: Furina Q > Healer Q/healing",
+        "description": "You can On-Field Yelan so she has her own buff and do pretty high damage",
+        "rotation": "Furina Q > Healer Q/healing",
         "archetype": "MonoHydro",
-        "viability": "Unique",
+        "viability": "Meta",
 
         "character_1": {
-            "name": "Hu Tao",
+            "name": "Jean",
             "build": "Standard"
         },
         "character_2": {
-            "name": "Mona",
-            "build": "Healer"
-        },
-        "character_3": {
             "name": "Furina",
             "build": "Standard"
         },
+        "character_3": {
+            "name": "Xingqiu",
+            "build": "Standard"
+        },
         "character_4": {
-            "name": ["Yelan", "Xinqgiu"],
-            "build": ["Standard", "Standard"]
+            "name": ["Yelan"],
+            "build": ["Standard"]
         }
     },
-    
+
+    "199": {
+        "name": "Kokomi Furina MonoHydro",
+        "description": "",
+        "rotation": "",
+        "archetype": "MonoHydro",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Kokomi",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Xingqiu",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Kaedehara Kazuha", "Venti", "Zhongli"],
+            "build": ["Standard", "Standard", "Standard"]
+        }
+    },
+
+    "200": {
+        "name": "Kokomi Furina MonoHydro",
+        "description": "",
+        "rotation": "",
+        "archetype": "MonoHydro",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Kokomi",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Yelan",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Kaedehara Kazuha", "Venti", "Zhongli"],
+            "build": ["Standard", "Standard", "Standard"]
+        }
+    },
+
+    "201": {
+        "name": "Sayu Furina MonoHydro",
+        "description": "You can On-Field Yelan so she has her own buff and do pretty high damage",
+        "rotation": "Furina Q > Healer Q/healing",
+        "archetype": "MonoHydro",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Sayu",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Xingqiu",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Yelan"],
+            "build": ["Standard"]
+        }
+    },
+
+    "202": {
+        "name": "Noelle Furina MonoHydro",
+        "description": "",
+        "rotation": "",
+        "archetype": "MonoHydro",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Noelle",
+            "build": "Petra"
+        },
+        "character_2": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Xingqiu",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Yelan"],
+            "build": ["Standard"]
+        }
+    },
+
+    "203": {
+        "name": "MonoHydro but the real one",
+        "description": "",
+        "rotation": "",
+        "archetype": "MonoHydro",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Kokomi",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Xingqiu",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Yelan"],
+            "build": ["Standard"]
+        }
+    },
 
 
 }   
