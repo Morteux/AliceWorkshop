@@ -2,13 +2,14 @@
 
 //     let json_validator_result = "";
 
-//     json_validator_result += testArtifacts();
-//     json_validator_result += testBestTeams();
-//     json_validator_result += testBuilds();
-//     json_validator_result += testCharactersOrderPriority();
-//     json_validator_result += testCharacters();
 //     json_validator_result += testTeams();
-//     json_validator_result += testWeapons();
+//     json_validator_result += testBuilds();
+
+//     // json_validator_result += testArtifacts();
+//     // json_validator_result += testBestTeams();
+//     // json_validator_result += testCharactersOrderPriority();
+//     // json_validator_result += testCharacters();
+//     // json_validator_result += testWeapons();
 
 //     document.getElementById("json_validator_result").value += `
     
@@ -62,7 +63,7 @@
 // }
 
 // function testTeams() {
-
+//     teams
 // }
 
 // function testWeapons() {

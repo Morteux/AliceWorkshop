@@ -40,7 +40,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
     printTeamCreator();
 
 
-    
+
     // Team user configuration
 
     for (let menu_index in menu_tabs) {
@@ -180,7 +180,7 @@ function getCharacterCheckHTML(character_data) {
 function printCharactersCheck() {
     let menu_characters_check = "";
 
-    for(let index = Object.keys(characters_order_priority).length - 1; index >= 0; --index) {
+    for (let index = Object.keys(characters_order_priority).length - 1; index >= 0; --index) {
         menu_characters_check += getCharacterCheckHTML(characters[characters_order_priority[index]]);
     }
 
@@ -252,13 +252,13 @@ function toggleCharacterUser(character_name) {
 
 function isJSONObjectEmpty(obj) {
     for (const prop in obj) {
-      if (Object.hasOwn(obj, prop)) {
-        return false;
-      }
+        if (Object.hasOwn(obj, prop)) {
+            return false;
+        }
     }
-  
+
     return true;
-  }
+}
 
 function validateJSON() {
 
@@ -292,22 +292,22 @@ function testBuilds() {
     // Test if Aether and Lumine has "element" field in each build
 
     for (let build_index in builds["Aether"]) {
-        if( !builds["Aether"][build_index].hasOwnProperty("element") ) {
+        if (!builds["Aether"][build_index].hasOwnProperty("element")) {
             json_validator_result += "<br>testBuilds: Aether build " + build_index + " has no \"element\" field ";
         }
     }
 
     for (let build_index in builds["Lumine"]) {
-        if( !builds["Lumine"][build_index].hasOwnProperty("element") ) {
+        if (!builds["Lumine"][build_index].hasOwnProperty("element")) {
             json_validator_result += "<br>testBuilds: Lumine build " + build_index + " has no \"element\" field ";
         }
     }
-    
+
     for (let build_index in builds) {
 
         // Test if each character has at least one build
 
-        if( isJSONObjectEmpty(builds[build_index]) ) {
+        if (isJSONObjectEmpty(builds[build_index])) {
             json_validator_result += "<br>testBuilds: No build found for " + build_index;
         }
     }
@@ -329,7 +329,31 @@ function testCharacters() {
 
 function testTeams() {
     let json_validator_result = "";
-    return json_validator_result;
+
+
+    for (let team_index in teams) {
+        if (!characters.hasOwnProperty(teams[team_index]["character_1"]["name"])) {
+            json_validator_result += "<br>Team " + team_index + " - ERROR: character 1 does not exist: " + teams[team_index]["character_1"]["name"];
+        }
+
+        if (!characters.hasOwnProperty(teams[team_index]["character_2"]["name"])) {
+            json_validator_result += "<br>Team " + team_index + " - ERROR: character 2 does not exist: " + teams[team_index]["character_2"]["name"];
+        }
+
+        if (!characters.hasOwnProperty(teams[team_index]["character_3"]["name"])) {
+            json_validator_result += "<br>Team " + team_index + " - ERROR: character 3 does not exist: " + teams[team_index]["character_3"]["name"];
+        }
+
+        for (let character_4_index in teams[team_index]["character_4"]["name"]) {
+            if (!characters.hasOwnProperty(teams[team_index]["character_4"]["name"][character_4_index])) {
+                json_validator_result += "<br>Team " + team_index + " - ERROR: character 4 with index " + character_4_index + " does not exist: " + teams[team_index]["character_4"]["name"][character_4_index];
+            }
+        }
+    }
+
+    test_separator = "<br><br>=================== " + (json_validator_result == "" ? "OK - testBuilds" : "KO - testBuilds") + " ===================<br><br>";
+
+    return "<div class='" + (json_validator_result == "" ? "test_ok" : "test_ko") + "'>" + json_validator_result + test_separator + "</div>";
 }
 
 function testWeapons() {
