@@ -4597,7 +4597,7 @@ const teams = {
             "build": "Standard"
         },
         "character_3": {
-            "name": "Yunjin",
+            "name": "Yun Jin",
             "build": "Standard"
         },
         "character_4": {
@@ -5752,7 +5752,7 @@ const teams = {
             "build": "Standard"
         },
         "character_4": {
-            "name": ["Yelan", "Xingqiu", "Albedo", "Yunjin"],
+            "name": ["Yelan", "Xingqiu", "Albedo", "Yun Jin"],
             "build": ["Standard", "Standard", "Standard", "Standard"]
         }
     },
