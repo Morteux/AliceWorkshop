@@ -3331,8 +3331,8 @@ const teams = {
     },
     
     "133": {
-        "name": "Wriothesley HyperFridge",
-        "description": "Just OP. You can't play with the raiden EM version, as Wriothesley need a bit of healing himself.",
+        "name": "Wriothesley Furina HyperFridge",
+        "description": "In this team, Nahida needs to have Prototype Amber so with Shinobu they can heal for Furina",
         "rotation": "",
         "archetype": "HyperFridge",
         "viability": "Meta",
@@ -3350,8 +3350,8 @@ const teams = {
             "build": "Standard"
         },
         "character_4": {
-            "name": ["Nahida", "Aether"],
-            "build": ["Standard", "Dendro"]
+            "name": ["Nahida"],
+            "build": ["Standard"]
         }
     },
     
@@ -4201,8 +4201,8 @@ const teams = {
             "build": "Standard"
         },
         "character_4": {
-            "name": ["Nahida", "Aether"],
-            "build": ["Standard", "Dendro"]
+            "name": ["Nahida", "Aether", "Albedo", "Zhongli"],
+            "build": ["Standard", "Dendro", "Standard", "Standard"]
         }
     },
 
@@ -4226,8 +4226,8 @@ const teams = {
             "build": "Standard"
         },
         "character_4": {
-            "name": ["Nahida", "Aether"],
-            "build": ["Standard", "Dendro"]
+            "name": ["Nahida", "Aether", "Albedo", "Zhongli"],
+            "build": ["Standard", "Dendro", "Standard", "Standard"]
         }
     },
 
@@ -4786,7 +4786,7 @@ const teams = {
         "description": "Diluc Doble Hydro plus a flex healer. The dendro ones could generate some seeds but its okay. ",
         "rotation": "Remember: Furina Q > Healer Q/healing",
         "archetype": "Vaporize",
-        "viability": "Meta",
+        "viability": "Viable",
 
         "character_1": {
             "name": "Diluc",
@@ -4811,7 +4811,7 @@ const teams = {
         "description": "Diluc Doble Hydro plus a flex healer. The dendro ones could generate some seeds but its okay. ",
         "rotation": "Remember: Furina Q > Healer Q/healing",
         "archetype": "Vaporize",
-        "viability": "Meta",
+        "viability": "Viable",
 
         "character_1": {
             "name": "Diluc",
@@ -4836,7 +4836,7 @@ const teams = {
         "description": "Yanfei Doble Hydro plus a flex healer. The dendro ones could generate some seeds but its okay. ",
         "rotation": "Remember: Furina Q > Healer Q/healing",
         "archetype": "Vaporize",
-        "viability": "Meta",
+        "viability": "Viable",
 
         "character_1": {
             "name": "Yanfei",
@@ -4861,7 +4861,7 @@ const teams = {
         "description": "Yanfei Doble Hydro plus a flex healer. The dendro ones could generate some seeds but its okay. ",
         "rotation": "Remember: Furina Q > Healer Q/healing",
         "archetype": "Vaporize",
-        "viability": "Meta",
+        "viability": "Viable",
 
         "character_1": {
             "name": "Yanfei",
@@ -4886,7 +4886,7 @@ const teams = {
         "description": "Klee Doble Hydro plus a flex healer. The dendro ones could generate some seeds but its okay. ",
         "rotation": "Remember: Furina Q > Healer Q/healing",
         "archetype": "Vaporize",
-        "viability": "Meta",
+        "viability": "Viable",
 
         "character_1": {
             "name": "Klee",
@@ -4911,7 +4911,7 @@ const teams = {
         "description": "Klee Doble Hydro plus a flex healer. The dendro ones could generate some seeds but its okay. ",
         "rotation": "Remember: Furina Q > Healer Q/healing",
         "archetype": "Vaporize",
-        "viability": "Meta",
+        "viability": "Viable",
 
         "character_1": {
             "name": "Klee",
@@ -5402,8 +5402,8 @@ const teams = {
             "build": "Standard"
         },
         "character_4": {
-            "name": ["Beidou", "Fischl", "Yae Miko"],
-            "build": ["Standard", "Standard", "Standard"]
+            "name": ["Beidou", "Fischl", "Yae Miko", "Albedo", "Zhongli"],
+            "build": ["Standard", "Standard", "Standard", "Standard", "Standard"]
         }
     },
     
@@ -5452,8 +5452,8 @@ const teams = {
             "build": "EM"
         },
         "character_4": {
-            "name": ["Beidou", "Fischl", "Yae Miko"],
-            "build": ["Standard", "Standard", "Standard"]
+            "name": ["Beidou", "Fischl", "Yae Miko", "Albedo", "Zhongli"],
+            "build": ["Standard", "Standard", "Standard", "Standard", "Standard"]
         }
     },
     
@@ -5477,8 +5477,8 @@ const teams = {
             "build": "EM"
         },
         "character_4": {
-            "name": ["Beidou", "Fischl", "Yae Miko"],
-            "build": ["Standard", "Standard", "Standard"]
+            "name": ["Beidou", "Fischl", "Yae Miko", "Albedo"],
+            "build": ["Standard", "Standard", "Standard", "Standard"]
         }
     },
 
@@ -6056,6 +6056,685 @@ const teams = {
             "build": ["Standard", "Standard"]
         }
     },
+
+    "242": {
+        "name": "Wriothesley Freeze",
+        "description": "",
+        "rotation": "",
+        "archetype": "Freeze",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Wriothesley",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Jean",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Xingqiu", "Yelan"],
+            "build": ["Standard", "Standard"]
+        }
+    },
+
+    "243": {
+        "name": "Raiden Furina Hypercarry",
+        "description": "",
+        "rotation": "Furina Q > Sayu Q",
+        "archetype": "Hypercarry",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Raiden Shogun",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Sayu",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Bennett", "Kujou Sara"],
+            "build": ["Standard", "Standard"]
+        }
+    },
+
+    "244": {
+        "name": "Eula Furina Hypercarry",
+        "description": "",
+        "rotation": "",
+        "archetype": "Hypercarry",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Eula",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Mika",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Fischl", "Raiden Shogun"],
+            "build": ["Standard", "Standard"]
+        }
+    },
+
+    "245": {
+        "name": "Eula Furina Hypercarry",
+        "description": "",
+        "rotation": "",
+        "archetype": "Hypercarry",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Eula",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Charlotte",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Fischl", "Raiden Shogun"],
+            "build": ["Standard", "Standard"]
+        }
+    },
+
+    "246": {
+        "name": "Charlotte Furina HyperFridge",
+        "description": "",
+        "rotation": "",
+        "archetype": "HyperFridge",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Charlotte",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Nahida",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Kuki Shinobu", "Raiden Shogun"],
+            "build": ["Standard", "EM"]
+        }
+    },
+
+    "247": {
+        "name": "Charlotte Furina HyperFridge",
+        "description": "",
+        "rotation": "",
+        "archetype": "HyperFridge",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Charlotte",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Aether",
+            "build": "Dendro"
+        },
+        "character_4": {
+            "name": ["Kuki Shinobu", "Raiden Shogun"],
+            "build": ["Standard", "EM"]
+        }
+    },
+
+    "248": {
+        "name": "Wriothesley Furina HyperFridge",
+        "description": "",
+        "rotation": "",
+        "archetype": "HyperFridge",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Wriothesley",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Kuki Shinobu",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Yaoyao", "Baizhu"],
+            "build": ["Standard", "Standard"]
+        }
+    },
+
+    "249": {
+        "name": "Wriothesley Furina HyperFridge",
+        "description": "",
+        "rotation": "",
+        "archetype": "HyperFridge",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Wriothesley",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Raiden Shogun",
+            "build": "EM"
+        },
+        "character_3": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Yaoyao", "Baizhu"],
+            "build": ["Standard", "Standard"]
+        }
+    },
+
+    "250": {
+        "name": "Cryo Furina HyperFridge",
+        "description": "",
+        "rotation": "",
+        "archetype": "HyperFridge",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Yaoyao",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Kuki Shinobu",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Kaeya", "Rosaria", "Ganyu", "Layla", "Kamisato Ayaka", "Eula", "Freminet"],
+            "build": ["Standard","Standard","Ultimate","Standard", "Standard", "Standard", "Standard"]
+        }
+    },
+
+    "251": {
+        "name": "Cryo Furina HyperFridge",
+        "description": "",
+        "rotation": "",
+        "archetype": "HyperFridge",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Baizhu",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Kuki Shinobu",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Kaeya", "Rosaria", "Ganyu", "Kamisato Ayaka", "Eula", "Freminet"],
+            "build": ["Standard","Standard","Ultimate", "Standard", "Standard", "Standard"]
+        }
+    },
+
+    "252": {
+        "name": "Cryo Furina HyperFridge",
+        "description": "",
+        "rotation": "",
+        "archetype": "HyperFridge",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Yaoyao",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Raiden Shogun",
+            "build": "EM"
+        },
+        "character_4": {
+            "name": ["Kaeya", "Rosaria", "Ganyu", "Layla", "Kamisato Ayaka", "Eula", "Freminet"],
+            "build": ["Standard","Standard","Ultimate","Standard", "Standard", "Standard", "Standard"]
+        }
+    },
+
+    "253": {
+        "name": "Cryo Furina HyperFridge",
+        "description": "",
+        "rotation": "",
+        "archetype": "HyperFridge",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Baizhu",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Raiden Shogun",
+            "build": "EM"
+        },
+        "character_4": {
+            "name": ["Kaeya", "Rosaria", "Ganyu", "Kamisato Ayaka", "Eula", "Freminet"],
+            "build": ["Standard","Standard","Ultimate", "Standard", "Standard", "Standard"]
+        }
+    },
+
+    "254": {
+        "name": "Kokomi Furina Burgeon",
+        "description": "",
+        "rotation": "",
+        "archetype": "Burgeon",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Sangonomiya Kokomi",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Thoma",
+            "build": "EM"
+        },
+        "character_4": {
+            "name": ["Nahida", "Aether"],
+            "build": ["Standard","Dendro"]
+        }
+    },
+
+    "255": {
+        "name": "Ayato Furina Burgeon",
+        "description": "",
+        "rotation": "",
+        "archetype": "Burgeon",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Kamisato Ayato",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Thoma",
+            "build": "EM"
+        },
+        "character_4": {
+            "name": ["Yaoyao", "Baizhu"],
+            "build": ["Standard","Standard"]
+        }
+    },
+
+    "256": {
+        "name": "Tartaglia Furina Burgeon",
+        "description": "",
+        "rotation": "",
+        "archetype": "Burgeon",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Tartaglia",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Thoma",
+            "build": "EM"
+        },
+        "character_4": {
+            "name": ["Yaoyao", "Baizhu"],
+            "build": ["Standard","Standard"]
+        }
+    },
+
+    "257": {
+        "name": "Furina Doble Hydro Burgeon",
+        "description": "",
+        "rotation": "",
+        "archetype": "Burgeon",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Xingqiu",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Thoma",
+            "build": "EM"
+        },
+        "character_4": {
+            "name": ["Yaoyao", "Baizhu"],
+            "build": ["Standard","Standard"]
+        }
+    },
+
+    "258": {
+        "name": "Furina Doble Hydro Burgeon",
+        "description": "",
+        "rotation": "",
+        "archetype": "Burgeon",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Yelan",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Thoma",
+            "build": "EM"
+        },
+        "character_4": {
+            "name": ["Yaoyao", "Baizhu"],
+            "build": ["Standard","Standard"]
+        }
+    },
+
+    "259": {
+        "name": "Furina Burgeon",
+        "description": "",
+        "rotation": "",
+        "archetype": "Burgeon",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Nahida",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Thoma",
+            "build": "EM"
+        },
+        "character_4": {
+            "name": ["Yaoyao", "Baizhu"],
+            "build": ["Standard","Standard"]
+        }
+    },
+
+    "260": {
+        "name": "Furina Curry",
+        "description": "",
+        "rotation": "",
+        "archetype": "Curry",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Yaoyao",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Thoma",
+            "build": "EM"
+        },
+        "character_4": {
+            "name": ["Fischl", "Beidou", "Yae Miko", "Kuki Shinobu", "Shogun Raiden"],
+            "build": ["Standard","SoloElectro", "Standard", "Standard", "EM"]
+        }
+    },
+
+    "261": {
+        "name": "Furina Curry",
+        "description": "",
+        "rotation": "",
+        "archetype": "Curry",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Baizhu",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Thoma",
+            "build": "EM"
+        },
+        "character_4": {
+            "name": ["Fischl", "Beidou", "Yae Miko", "Kuki Shinobu", "Shogun Raiden"],
+            "build": ["Standard","SoloElectro", "Standard", "Standard", "EM"]
+        }
+    },
+
+    "262": {
+        "name": "Furina Curry",
+        "description": "",
+        "rotation": "",
+        "archetype": "Curry",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Yaoyao",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Xiangling",
+            "build": "SoloPyro"
+        },
+        "character_4": {
+            "name": ["Fischl", "Beidou", "Yae Miko", "Kuki Shinobu", "Shogun Raiden"],
+            "build": ["Standard","SoloElectro", "Standard", "Standard", "EM"]
+        }
+    },
+
+    "263": {
+        "name": "Furina Curry",
+        "description": "",
+        "rotation": "",
+        "archetype": "Curry",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Baizhu",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Xiangling",
+            "build": "SoloPyro"
+        },
+        "character_4": {
+            "name": ["Fischl", "Beidou", "Yae Miko", "Kuki Shinobu", "Shogun Raiden"],
+            "build": ["Standard","SoloElectro", "Standard", "Standard", "EM"]
+        }
+    },
+
+    "264": {
+        "name": "Furina Sauté",
+        "description": "Furina will generate pretty low seeds, in exchange, she will fordward vape, doing a lot of damage. ",
+        "rotation": "",
+        "archetype": "Sauté",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Bennett",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Jean",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Nahida"],
+            "build": ["Standard"]
+        }
+    },
+
+    "265": {
+        "name": "Furina Sauté",
+        "description": "Furina will generate pretty low seeds, in exchange, she will fordward vape, doing a lot of damage. ",
+        "rotation": "",
+        "archetype": "Sauté",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Bennett",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Kaedehara Kazuha",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Yaoyao", "Baizhu"],
+            "build": ["Standard", "Standard"]
+        }
+    },
+
+    "266": {
+        "name": "Furina Sauté",
+        "description": "Prototype Amber Nahida is recommended. Quickswap team so bennett can heal all the team, but you won't be able to full stack Fanfare without prototype. Furina will generate pretty low seeds, in exchange, she will fordward vape, doing a lot of damage. ",
+        "rotation": "",
+        "archetype": "Sauté",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Bennett",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Kaedehara Kazuha",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Nahida"],
+            "build": ["Standard"]
+        }
+    },
+
+    "267": {
+        "name": "Auto Play Archon Team",
+        "description": "Press all elemental skill and go afk to buy milk. ",
+        "rotation": "",
+        "archetype": "Hyperbloom",
+        "viability": "Unique",
+
+        "character_1": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Nahida",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Raiden Shogun",
+            "build": "EM"
+        },
+        "character_4": {
+            "name": ["Zhongli"],
+            "build": ["Standard"]
+        }
+    },
+
+    "268": {
+        "name": "Furina Salad",
+        "description": "",
+        "rotation": "",
+        "archetype": "Salad",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Sucrose",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Fischl",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Yaoyao", "Baizhu"],
+            "build": ["Standard", "Standard"]
+        }
+    },
+
+
+
+
 
 
     
