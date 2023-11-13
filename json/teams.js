@@ -6609,7 +6609,7 @@ const teams = {
 
     "264": {
         "name": "Furina Sauté",
-        "description": "",
+        "description": "Furina will generate pretty low seeds, in exchange, she will fordward vape, doing a lot of damage. ",
         "rotation": "",
         "archetype": "Sauté",
         "viability": "Meta",
@@ -6634,7 +6634,7 @@ const teams = {
 
     "265": {
         "name": "Furina Sauté",
-        "description": "",
+        "description": "Furina will generate pretty low seeds, in exchange, she will fordward vape, doing a lot of damage. ",
         "rotation": "",
         "archetype": "Sauté",
         "viability": "Meta",
@@ -6659,7 +6659,7 @@ const teams = {
 
     "266": {
         "name": "Furina Sauté",
-        "description": "Prototype Amber Nahida is recommended. Quickswap team so bennett can heal all the team, but you won't be able to full stack Fanfare without prototype. ",
+        "description": "Prototype Amber Nahida is recommended. Quickswap team so bennett can heal all the team, but you won't be able to full stack Fanfare without prototype. Furina will generate pretty low seeds, in exchange, she will fordward vape, doing a lot of damage. ",
         "rotation": "",
         "archetype": "Sauté",
         "viability": "Meta",
