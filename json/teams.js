@@ -6707,6 +6707,31 @@ const teams = {
         }
     },
 
+    "268": {
+        "name": "Furina Salad",
+        "description": "",
+        "rotation": "",
+        "archetype": "Salad",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Sucrose",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Fischl",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Yaoyao", "Baizhu"],
+            "build": ["Standard", "Standard"]
+        }
+    },
+
 
 
 
