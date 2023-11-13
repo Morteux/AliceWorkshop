@@ -6527,7 +6527,7 @@ const teams = {
             "build": "EM"
         },
         "character_4": {
-            "name": ["Fischl", "Beidou", "Yae Miko", "Kuki Shinobu", "Shogun Raiden"],
+            "name": ["Fischl", "Beidou", "Yae Miko", "Kuki Shinobu", "Raiden Shogun"],
             "build": ["Standard","SoloElectro", "Standard", "Standard", "EM"]
         }
     },
@@ -6552,7 +6552,7 @@ const teams = {
             "build": "EM"
         },
         "character_4": {
-            "name": ["Fischl", "Beidou", "Yae Miko", "Kuki Shinobu", "Shogun Raiden"],
+            "name": ["Fischl", "Beidou", "Yae Miko", "Kuki Shinobu", "Raiden Shogun"],
             "build": ["Standard","SoloElectro", "Standard", "Standard", "EM"]
         }
     },
@@ -6577,7 +6577,7 @@ const teams = {
             "build": "SoloPyro"
         },
         "character_4": {
-            "name": ["Fischl", "Beidou", "Yae Miko", "Kuki Shinobu", "Shogun Raiden"],
+            "name": ["Fischl", "Beidou", "Yae Miko", "Kuki Shinobu", "Raiden Shogun"],
             "build": ["Standard","SoloElectro", "Standard", "Standard", "EM"]
         }
     },
@@ -6602,7 +6602,7 @@ const teams = {
             "build": "SoloPyro"
         },
         "character_4": {
-            "name": ["Fischl", "Beidou", "Yae Miko", "Kuki Shinobu", "Shogun Raiden"],
+            "name": ["Fischl", "Beidou", "Yae Miko", "Kuki Shinobu", "Raiden Shogun"],
             "build": ["Standard","SoloElectro", "Standard", "Standard", "EM"]
         }
     },
