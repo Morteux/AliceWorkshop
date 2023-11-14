@@ -353,20 +353,29 @@ function testTeams() {
 
     // Check if characters in team exists
     for (let team_index in teams) {
-        if (!characters.hasOwnProperty(teams[team_index]["character_1"]["name"])) {
+
+        if(!ARCHETYPES.includes(teams[team_index]["archetype"])) {
+            json_validator_result += "<br>Team " + team_index + " - ERROR: archetype does not exist: " + teams[team_index]["archetype"];
+        }
+
+        if(!VIABILITIES.includes(teams[team_index]["viability"])) {
+            json_validator_result += "<br>Team " + team_index + " - ERROR: viability does not exist: " + teams[team_index]["viability"];
+        }
+        
+        if (!CHARACTER_NAMES.includes(teams[team_index]["character_1"]["name"])) {
             json_validator_result += "<br>Team " + team_index + " - ERROR: character 1 does not exist: " + teams[team_index]["character_1"]["name"];
         }
 
-        if (!characters.hasOwnProperty(teams[team_index]["character_2"]["name"])) {
+        if (!CHARACTER_NAMES.includes(teams[team_index]["character_2"]["name"])) {
             json_validator_result += "<br>Team " + team_index + " - ERROR: character 2 does not exist: " + teams[team_index]["character_2"]["name"];
         }
 
-        if (!characters.hasOwnProperty(teams[team_index]["character_3"]["name"])) {
+        if (!CHARACTER_NAMES.includes(teams[team_index]["character_3"]["name"])) {
             json_validator_result += "<br>Team " + team_index + " - ERROR: character 3 does not exist: " + teams[team_index]["character_3"]["name"];
         }
 
         for (let character_4_index in teams[team_index]["character_4"]["name"]) {
-            if (!characters.hasOwnProperty(teams[team_index]["character_4"]["name"][character_4_index])) {
+            if (!CHARACTER_NAMES.includes(teams[team_index]["character_4"]["name"][character_4_index])) {
                 json_validator_result += "<br>Team " + team_index + " - ERROR: character 4 with index " + character_4_index + " does not exist: " + teams[team_index]["character_4"]["name"][character_4_index];
             }
         }
