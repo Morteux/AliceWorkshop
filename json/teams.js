@@ -6527,7 +6527,7 @@ const teams = {
             "build": "EM"
         },
         "character_4": {
-            "name": ["Fischl", "Beidou", "Yae Miko", "Kuki Shinobu", "Shogun Raiden"],
+            "name": ["Fischl", "Beidou", "Yae Miko", "Kuki Shinobu", "Raiden Shogun"],
             "build": ["Standard","SoloElectro", "Standard", "Standard", "EM"]
         }
     },
@@ -6552,7 +6552,7 @@ const teams = {
             "build": "EM"
         },
         "character_4": {
-            "name": ["Fischl", "Beidou", "Yae Miko", "Kuki Shinobu", "Shogun Raiden"],
+            "name": ["Fischl", "Beidou", "Yae Miko", "Kuki Shinobu", "Raiden Shogun"],
             "build": ["Standard","SoloElectro", "Standard", "Standard", "EM"]
         }
     },
@@ -6577,7 +6577,7 @@ const teams = {
             "build": "SoloPyro"
         },
         "character_4": {
-            "name": ["Fischl", "Beidou", "Yae Miko", "Kuki Shinobu", "Shogun Raiden"],
+            "name": ["Fischl", "Beidou", "Yae Miko", "Kuki Shinobu", "Raiden Shogun"],
             "build": ["Standard","SoloElectro", "Standard", "Standard", "EM"]
         }
     },
@@ -6602,7 +6602,7 @@ const teams = {
             "build": "SoloPyro"
         },
         "character_4": {
-            "name": ["Fischl", "Beidou", "Yae Miko", "Kuki Shinobu", "Shogun Raiden"],
+            "name": ["Fischl", "Beidou", "Yae Miko", "Kuki Shinobu", "Raiden Shogun"],
             "build": ["Standard","SoloElectro", "Standard", "Standard", "EM"]
         }
     },
@@ -6729,6 +6729,81 @@ const teams = {
         "character_4": {
             "name": ["Yaoyao", "Baizhu"],
             "build": ["Standard", "Standard"]
+        }
+    },
+
+    "269": {
+        "name": "Cryo Furina Oven",
+        "description": "",
+        "rotation": "",
+        "archetype": "Oven",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Yaoyao",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Thoma",
+            "build": "EM"
+        },
+        "character_4": {
+            "name": ["Kaeya", "Rosaria", "Ganyu", "Layla", "Kamisato Ayaka"],
+            "build": ["Standard","Standard","Ultimate","Standard", "Standard"]
+        }
+    },
+
+    "270": {
+        "name": "Cryo Furina Oven",
+        "description": "",
+        "rotation": "",
+        "archetype": "Oven",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Baizhu",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Thoma",
+            "build": "EM"
+        },
+        "character_4": {
+            "name": ["Kaeya", "Rosaria", "Ganyu", "Layla", "Kamisato Ayaka"],
+            "build": ["Standard","Standard","Ultimate","Standard", "Standard"]
+        }
+    },
+
+    "271": {
+        "name": "Charlotte Furina Oven",
+        "description": "",
+        "rotation": "",
+        "archetype": "Oven",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Charlotte",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Thoma",
+            "build": "EM"
+        },
+        "character_4": {
+            "name": ["Nahida", "Aether"],
+            "build": ["Standard","Dendro"]
         }
     },
 
