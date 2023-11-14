@@ -306,9 +306,29 @@ function testBuilds() {
     for (let build_index in builds) {
 
         // Test if each character has at least one build
-
         if (isJSONObjectEmpty(builds[build_index])) {
             json_validator_result += "<br>testBuilds: No build found for " + build_index;
+        }
+    }
+
+    // Check if builds in team exists
+    for (let team_index in teams) {
+        if (builds.hasOwnProperty(teams[team_index]["character_1"]["name"]) && !builds[teams[team_index]["character_1"]["name"]].hasOwnProperty(teams[team_index]["character_1"]["build"])) {
+            json_validator_result += "<br>Team " + team_index + " - ERROR: " + teams[team_index]["character_1"]["name"] + " build 1 does not exist: " + teams[team_index]["character_1"]["build"];
+        }
+
+        if (builds.hasOwnProperty(teams[team_index]["character_2"]["name"]) && !builds[teams[team_index]["character_2"]["name"]].hasOwnProperty(teams[team_index]["character_2"]["build"])) {
+            json_validator_result += "<br>Team " + team_index + " - ERROR: " + teams[team_index]["character_2"]["name"] + " build 2 does not exist: " + teams[team_index]["character_2"]["build"];
+        }
+
+        if (builds.hasOwnProperty(teams[team_index]["character_2"]["name"]) && !builds[teams[team_index]["character_3"]["name"]].hasOwnProperty(teams[team_index]["character_3"]["build"])) {
+            json_validator_result += "<br>Team " + team_index + " - ERROR: " + teams[team_index]["character_3"]["name"] + " build 3 does not exist: " + teams[team_index]["character_3"]["build"];
+        }
+
+        for (let build_4_index in teams[team_index]["character_4"]["name"]) {
+            if (builds.hasOwnProperty(teams[team_index]["character_4"]["name"][build_4_index]) && !builds[teams[team_index]["character_4"]["name"][build_4_index]].hasOwnProperty(teams[team_index]["character_4"]["build"][build_4_index])) {
+                json_validator_result += "<br>Team " + team_index + " - ERROR: " + teams[team_index]["character_4"]["name"][build_4_index] + " build 4 with index " + build_4_index + " does not exist: " + teams[team_index]["character_4"]["build"][build_4_index];
+            }
         }
     }
 
@@ -348,28 +368,6 @@ function testTeams() {
         for (let character_4_index in teams[team_index]["character_4"]["name"]) {
             if (!characters.hasOwnProperty(teams[team_index]["character_4"]["name"][character_4_index])) {
                 json_validator_result += "<br>Team " + team_index + " - ERROR: character 4 with index " + character_4_index + " does not exist: " + teams[team_index]["character_4"]["name"][character_4_index];
-            }
-        }
-    }
-
-
-    // Check if builds in team exists
-    for (let team_index in teams) {
-        if (builds.hasOwnProperty(teams[team_index]["character_1"]["name"]) && !builds[teams[team_index]["character_1"]["name"]].hasOwnProperty(teams[team_index]["character_1"]["build"])) {
-            json_validator_result += "<br>Team " + team_index + " - ERROR: " + teams[team_index]["character_1"]["name"] + " build 1 does not exist: " + teams[team_index]["character_1"]["build"];
-        }
-
-        if (builds.hasOwnProperty(teams[team_index]["character_2"]["name"]) && !builds[teams[team_index]["character_2"]["name"]].hasOwnProperty(teams[team_index]["character_2"]["build"])) {
-            json_validator_result += "<br>Team " + team_index + " - ERROR: " + teams[team_index]["character_2"]["name"] + " build 2 does not exist: " + teams[team_index]["character_2"]["build"];
-        }
-
-        if (builds.hasOwnProperty(teams[team_index]["character_2"]["name"]) && !builds[teams[team_index]["character_3"]["name"]].hasOwnProperty(teams[team_index]["character_3"]["build"])) {
-            json_validator_result += "<br>Team " + team_index + " - ERROR: " + teams[team_index]["character_3"]["name"] + " build 3 does not exist: " + teams[team_index]["character_3"]["build"];
-        }
-
-        for (let build_4_index in teams[team_index]["character_4"]["name"]) {
-            if (builds.hasOwnProperty(teams[team_index]["character_4"]["name"][build_4_index]) && !builds[teams[team_index]["character_4"]["name"][build_4_index]].hasOwnProperty(teams[team_index]["character_4"]["build"][build_4_index])) {
-                json_validator_result += "<br>Team " + team_index + " - ERROR: " + teams[team_index]["character_4"]["name"][build_4_index] + " build 4 with index " + build_4_index + " does not exist: " + teams[team_index]["character_4"]["build"][build_4_index];
             }
         }
     }
