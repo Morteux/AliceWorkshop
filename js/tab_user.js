@@ -369,7 +369,7 @@ function testTeams() {
 
         for (let build_4_index in teams[team_index]["character_4"]["name"]) {
             if (builds.hasOwnProperty(teams[team_index]["character_4"]["name"][build_4_index]) && !builds[teams[team_index]["character_4"]["name"][build_4_index]].hasOwnProperty(teams[team_index]["character_4"]["build"][build_4_index])) {
-                json_validator_result += "<br>Team " + team_index + " - ERROR: " + teams[team_index]["character_4"]["build"][build_4_index] + " build 4 with index " + build_4_index + " does not exist: " + teams[team_index]["character_4"]["build"][build_4_index];
+                json_validator_result += "<br>Team " + team_index + " - ERROR: " + teams[team_index]["character_4"]["name"][build_4_index] + " build 4 with index " + build_4_index + " does not exist: " + teams[team_index]["character_4"]["build"][build_4_index];
             }
         }
     }
