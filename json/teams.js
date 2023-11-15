@@ -6807,6 +6807,55 @@ const teams = {
         }
     },
 
+    "272": {
+        "name": "Keqing Furina Hyperbloom",
+        "description": "",
+        "rotation": "",
+        "archetype": "Hyperbloom",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Keqing",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Baizhu",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Nahida", "Aether"],
+            "build": ["Standard","Dendro"]
+        }
+    },
+
+    "273": {
+        "name": "Keqing Furina Hyperbloom",
+        "description": "",
+        "rotation": "",
+        "archetype": "Hyperbloom",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Keqing",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Yaoyao",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Nahida", "Aether"],
+            "build": ["Standard","Dendro"]
+        }
+    }
 
 
 
