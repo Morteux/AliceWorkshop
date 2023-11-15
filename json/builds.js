@@ -252,7 +252,18 @@ const builds = {
                 "Circlet": "Crit",
             },
             "subs_stat": ["Crit", "ATK%", "EM"]
-        }
+        },
+        "EM": {
+            "constellation": "",
+            "weapon": "Beacon of the Reed Sea",
+            "set": "Emblem of Severed Fate",
+            "main_stat": {
+                "Sands": "ATK%",
+                "Goblet": "Pyro",
+                "Circlet": "Crit",
+            },
+            "subs_stat": ["Crit", "ATK%", "EM"]
+        },
     },
     "Diluc": {
         "Standard": {
