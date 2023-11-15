@@ -4398,7 +4398,7 @@ const teams = {
         },
         "character_3": {
             "name": "Kuki Shinobu",
-            "build": "EM"
+            "build": "Standard"
         },
         "character_4": {
             "name": ["Yaoyao", "Baizhu"],
@@ -5291,7 +5291,7 @@ const teams = {
 
         "character_1": {
             "name": "Freminet",
-            "build": "Standard"
+            "build": "Freeze"
         },
         "character_2": {
             "name": "Furina",
@@ -5316,7 +5316,7 @@ const teams = {
 
         "character_1": {
             "name": "Freminet",
-            "build": "Standard"
+            "build": "Freeze"
         },
         "character_2": {
             "name": "Furina",
@@ -6278,7 +6278,7 @@ const teams = {
         },
         "character_4": {
             "name": ["Kaeya", "Rosaria", "Ganyu", "Layla", "Kamisato Ayaka", "Eula", "Freminet"],
-            "build": ["Standard","Standard","Ultimate","Standard", "Standard", "Standard", "Standard"]
+            "build": ["Standard","Standard","Ultimate","Standard", "Standard", "Standard", "Physical"]
         }
     },
 
@@ -6303,7 +6303,7 @@ const teams = {
         },
         "character_4": {
             "name": ["Kaeya", "Rosaria", "Ganyu", "Kamisato Ayaka", "Eula", "Freminet"],
-            "build": ["Standard","Standard","Ultimate", "Standard", "Standard", "Standard"]
+            "build": ["Standard","Standard","Ultimate", "Standard", "Standard", "Physical"]
         }
     },
 
@@ -6328,7 +6328,7 @@ const teams = {
         },
         "character_4": {
             "name": ["Kaeya", "Rosaria", "Ganyu", "Layla", "Kamisato Ayaka", "Eula", "Freminet"],
-            "build": ["Standard","Standard","Ultimate","Standard", "Standard", "Standard", "Standard"]
+            "build": ["Standard","Standard","Ultimate","Standard", "Standard", "Standard", "Physical"]
         }
     },
 
@@ -6353,7 +6353,7 @@ const teams = {
         },
         "character_4": {
             "name": ["Kaeya", "Rosaria", "Ganyu", "Kamisato Ayaka", "Eula", "Freminet"],
-            "build": ["Standard","Standard","Ultimate", "Standard", "Standard", "Standard"]
+            "build": ["Standard","Standard","Ultimate", "Standard", "Standard", "Physical"]
         }
     },
 
