@@ -271,6 +271,7 @@ function validateJSON() {
     json_validator_result += testCharacters();
     json_validator_result += testTeams();
     json_validator_result += testWeapons();
+    json_validator_result += testJSONSyntax();
 
     document.getElementById("json_validator_result").innerHTML = json_validator_result;
 }
@@ -389,4 +390,51 @@ function testTeams() {
 function testWeapons() {
     let json_validator_result = "";
     return json_validator_result;
+}
+
+function testJSONSyntax() {
+    let json_validator_result = "";
+
+    let teams_string = JSON.stringify(teams);
+    let duplicate_index = check_json_for_dupes(teams_string);
+
+    console.log(duplicate_index);
+
+    if(duplicate_index != -1) {
+        json_validator_result = "<br>Duplicate keys exists: <br>" + teams_string.substring(duplicate_index, duplicate_index + 30) + "<br>";
+    }
+
+    test_separator = "<br><br>=================== " + (json_validator_result == "" ? "OK - testJSONSyntax" : "KO - testJSONSyntax") + " ===================<br><br>";
+
+    return "<div class='" + (json_validator_result == "" ? "test_ok" : "test_ko") + "'>" + json_validator_result + test_separator + "</div>";
+
+}
+
+// This function will return -1 if 's' is a valid JSON string with no duplicate keys. It will return an index into 's' of the problem if there are duplicate keys. And it will throw an exception if 's' is not valid JSON.
+function check_json_for_dupes(s) {
+    let ob = JSON.parse(s);
+    let s2 = JSON.stringify(ob);
+    let a = 0;
+    let b = 0;
+    while (a < s.length && b < s2.length) {
+        if (s[a] === s2[b]) {
+            a++;
+            b++;
+        } else if (s[a] === ' ' ||
+                   s[a] === '\n' ||
+                   s[a] === '\r' ||
+                   s[a] === '\t' ||
+                   s[a] === '\v') {
+            a++;
+        } else if (s2[b] === ' ' || 
+                   s2[b] === '\n' || 
+                   s2[b] === '\r' || 
+                   s2[b] === '\t' || 
+                   s2[b] === '\v') {
+            b++;
+        } else {
+            return a;
+        }
+    }
+    return -1;
 }
