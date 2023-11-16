@@ -398,7 +398,7 @@ function testJSONSyntax() {
     let teams_string = JSON.stringify(teams);
     let duplicate_index = check_json_for_dupes(teams_string);
 
-    console.log(duplicate_index);
+    // console.log(duplicate_index);
 
     if(duplicate_index != -1) {
         json_validator_result = "<br>Duplicate keys exists: <br>" + teams_string.substring(duplicate_index, duplicate_index + 30) + "<br>";
@@ -407,7 +407,6 @@ function testJSONSyntax() {
     test_separator = "<br><br>=================== " + (json_validator_result == "" ? "OK - testJSONSyntax" : "KO - testJSONSyntax") + " ===================<br><br>";
 
     return "<div class='" + (json_validator_result == "" ? "test_ok" : "test_ko") + "'>" + json_validator_result + test_separator + "</div>";
-
 }
 
 // This function will return -1 if 's' is a valid JSON string with no duplicate keys. It will return an index into 's' of the problem if there are duplicate keys. And it will throw an exception if 's' is not valid JSON.
