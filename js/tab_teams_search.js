@@ -320,17 +320,17 @@ function printRandomTeam() {
 }
 
 function getCharacterHTML(id, character_team, character_data) {
-    if (character_team == null || character_data == null) {
-        console.log(id);
-        console.log(character_team);
-        console.log(character_data);
-    }
+    // if (character_team == null || character_data == null) {
+    //     console.log(id);
+    //     console.log(character_team);
+    //     console.log(character_data);
+    // }
 
-    console.log(character_team.name);
-    console.log(character_team.build);
-    console.log(builds[character_team.name]);
-    console.log(builds[character_team.name][character_team.build]);
-    console.log(builds[character_team.name][character_team.build].constellation);
+    // console.log(character_team.name);
+    // console.log(character_team.build);
+    // console.log(builds[character_team.name]);
+    // console.log(builds[character_team.name][character_team.build]);
+    // console.log(builds[character_team.name][character_team.build].constellation);
 
     return `
     <div id="` + id + `" class="character_container ` + character_data.name.replaceAll(" ", "_") + `">
