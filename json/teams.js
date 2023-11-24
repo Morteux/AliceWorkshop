@@ -6855,13 +6855,59 @@ const teams = {
             "name": ["Nahida", "Aether"],
             "build": ["Standard","Dendro"]
         }
+    },
+
+    "274": {
+        "name": "Dori C6 Furina Hyperbloom",
+        "description": "Dori On-Field has enough healing for Furina teams",
+        "rotation": "",
+        "archetype": "Hyperbloom",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Dori",
+            "build": "C6"
+        },
+        "character_2": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Nahida",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Yelan", "Xingqiu", "Aether"],
+            "build": ["Standard","Standard", "Dendro"]
+        }
+    },
+
+    "275": {
+        "name": "Dori C6 Furina Hyperbloom",
+        "description": "Dori On-Field has enough healing for Furina teams",
+        "rotation": "",
+        "archetype": "Hyperbloom",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Dori",
+            "build": "C6"
+        },
+        "character_2": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Aether",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Collei", "Xingqiu", "Yelan"],
+            "build": ["Standard","Standard", "Standard"]
+        }
     }
 
 
-
-
-
-    
 
 
 }   
