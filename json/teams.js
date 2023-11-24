@@ -6808,10 +6808,10 @@ const teams = {
     },
 
     "272": {
-        "name": "Keqing Furina Hyperbloom",
-        "description": "",
+        "name": "Keqing Furina Quickbloom",
+        "description": "You can build also Keqing hybrid with EM and dmg. ",
         "rotation": "",
-        "archetype": "Hyperbloom",
+        "archetype": "Quickbloom",
         "viability": "Meta",
 
         "character_1": {
@@ -6833,10 +6833,10 @@ const teams = {
     },
 
     "273": {
-        "name": "Keqing Furina Hyperbloom",
-        "description": "",
+        "name": "Keqing Furina Quickbloom",
+        "description": "You can build also Keqing hybrid with EM and dmg.",
         "rotation": "",
-        "archetype": "Hyperbloom",
+        "archetype": "Quickbloom",
         "viability": "Meta",
 
         "character_1": {
@@ -6905,7 +6905,108 @@ const teams = {
             "name": ["Collei", "Xingqiu", "Yelan"],
             "build": ["Standard","Standard", "Standard"]
         }
+    },
+
+    "276": {
+        "name": "Raiden Furina Quickbloom",
+        "description": "You can build also Raiden hybrid with EM and dmg.",
+        "rotation": "",
+        "archetype": "Quickbloom",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Raiden",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Baizhu",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Nahida", "Aether"],
+            "build": ["Standard","Dendro"]
+        }
+    },
+
+    "277": {
+        "name": "Raiden Furina Quickbloom",
+        "description": "You can build also Raiden hybrid with EM and dmg.",
+        "rotation": "",
+        "archetype": "Quickbloom",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Raiden",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Yaoyao",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Nahida", "Aether"],
+            "build": ["Standard","Dendro"]
+        }
+    },
+
+    "278": {
+        "name": "Yae Miko Furina Quickbloom",
+        "description": "",
+        "rotation": "",
+        "archetype": "Quickbloom",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Yae Miko",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Baizhu",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Nahida", "Aether"],
+            "build": ["Standard","Dendro"]
+        }
+    },
+
+    "279": {
+        "name": "Yae Miko Furina Quickbloom",
+        "description": "",
+        "rotation": "",
+        "archetype": "Quickbloom",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Yae Miko",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Yaoyao",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Nahida", "Aether"],
+            "build": ["Standard","Dendro"]
+        }
     }
+
 
 
 
