@@ -7005,6 +7005,31 @@ const teams = {
             "name": ["Nahida", "Aether"],
             "build": ["Standard","Dendro"]
         }
+    },
+
+    "280": {
+        "name": "Lyney Furina",
+        "description": "With Xiangling, you will keep enough pyro application for Lyney's passive and Furina vapes. Problem: Squishiest team in the world.",
+        "rotation": "",
+        "archetype": "Quickbloom",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Lyney",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Xiangling",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Bennett"],
+            "build": ["Standard"]
+        }
     }
 
 
