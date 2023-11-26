@@ -3733,7 +3733,7 @@ const teams = {
 
     "149": {
         "name": "Neuvillette Furina Carry",
-        "description": "",
+        "description": "This team is very good, but is OMEGA BROKEN if yo fight vs enemies that applies to yourself some element, so jean can swirl it and proc Neuvillette pasive.",
         "rotation": "",
         "archetype": "Hypercarry",
         "viability": "Meta",
@@ -3751,8 +3751,8 @@ const teams = {
             "build": "Standard"
         },
         "character_4": {
-            "name": ["Jean", "Sayu"],
-            "build": ["Standard", "Standard"]
+            "name": ["Jean"],
+            "build": ["Standard"]
         }
     },
 
@@ -7056,6 +7056,31 @@ const teams = {
             "build": ["Standard"]
         }
     },
+
+    "282": {
+        "name": "Neuvillette Furina Carry",
+        "description": "",
+        "rotation": "",
+        "archetype": "Hypercarry",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Neuvillette",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Zhongli",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Sayu"],
+            "build": ["Standard"]
+        }
+    }
 
 
 
