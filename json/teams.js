@@ -6659,7 +6659,7 @@ const teams = {
 
     "266": {
         "name": "Furina Sauté",
-        "description": "Prototype Amber Nahida is recommended. Quickswap team so bennett can heal all the team, but you won't be able to full stack Fanfare without prototype. Furina will generate pretty low seeds, in exchange, she will fordward vape, doing a lot of damage. ",
+        "description": "Prototype Amber Nahida is recommended or Bennettt full healing. Furina will generate pretty low seeds, in exchange, she will fordward vape, doing a lot of damage. ",
         "rotation": "",
         "archetype": "Sauté",
         "viability": "Meta",
@@ -7031,6 +7031,31 @@ const teams = {
             "build": ["Standard"]
         }
     }
+
+    "281": {
+        "name": "Neuvillette Furina Hyperbloom",
+        "description": "Nahida AND Neuvillette has to be on Prototype Amber. With that, is enough healing to max Furina's buff. ",
+        "rotation": "Furina Q > Healer Q/healing",
+        "archetype": "Hyperbloom",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Neuvillette",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Raiden Shogun",
+            "build": "EM"
+        },
+        "character_4": {
+            "name": ["Nahida"],
+            "build": ["Standard"]
+        }
+    },
 
 
 
