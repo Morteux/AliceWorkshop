@@ -7080,6 +7080,56 @@ const teams = {
             "name": ["Sayu"],
             "build": ["Standard"]
         }
+    },
+
+    "283": {
+        "name": "Yoimiya Furina Vape",
+        "description": "Bennett has to be full healing, i mean, a lot. ",
+        "rotation": "",
+        "archetype": "Vaporize",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Yoimiya",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Kaedehara Kazuha",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Bennett"],
+            "build": ["Standard"]
+        }
+    },
+
+    "284": {
+        "name": "Dehya Furina Vape",
+        "description": "Bennett has to be full healing, i mean, a lot. ",
+        "rotation": "",
+        "archetype": "Vaporize",
+        "viability": "Troll",
+
+        "character_1": {
+            "name": "Dehya",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Kaedehara Kazuha",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Bennett"],
+            "build": ["Standard"]
+        }
     }
 
 
