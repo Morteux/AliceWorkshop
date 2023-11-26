@@ -3733,7 +3733,7 @@ const teams = {
 
     "149": {
         "name": "Neuvillette Furina Carry",
-        "description": "",
+        "description": "This team is very good, but is OMEGA BROKEN if yo fight vs enemies that applies to yourself some element, so jean can swirl it and proc Neuvillette pasive.",
         "rotation": "",
         "archetype": "Hypercarry",
         "viability": "Meta",
@@ -3751,8 +3751,8 @@ const teams = {
             "build": "Standard"
         },
         "character_4": {
-            "name": ["Jean", "Sayu"],
-            "build": ["Standard", "Standard"]
+            "name": ["Jean"],
+            "build": ["Standard"]
         }
     },
 
@@ -6659,7 +6659,7 @@ const teams = {
 
     "266": {
         "name": "Furina Sauté",
-        "description": "Prototype Amber Nahida is recommended. Quickswap team so bennett can heal all the team, but you won't be able to full stack Fanfare without prototype. Furina will generate pretty low seeds, in exchange, she will fordward vape, doing a lot of damage. ",
+        "description": "Prototype Amber Nahida is recommended or Bennettt full healing. Furina will generate pretty low seeds, in exchange, she will fordward vape, doing a lot of damage. ",
         "rotation": "",
         "archetype": "Sauté",
         "viability": "Meta",
@@ -6808,10 +6808,10 @@ const teams = {
     },
 
     "272": {
-        "name": "Keqing Furina Hyperbloom",
-        "description": "",
+        "name": "Keqing Furina Quickbloom",
+        "description": "You can build also Keqing hybrid with EM and dmg. ",
         "rotation": "",
-        "archetype": "Hyperbloom",
+        "archetype": "Quickbloom",
         "viability": "Meta",
 
         "character_1": {
@@ -6833,10 +6833,10 @@ const teams = {
     },
 
     "273": {
-        "name": "Keqing Furina Hyperbloom",
-        "description": "",
+        "name": "Keqing Furina Quickbloom",
+        "description": "You can build also Keqing hybrid with EM and dmg.",
         "rotation": "",
-        "archetype": "Hyperbloom",
+        "archetype": "Quickbloom",
         "viability": "Meta",
 
         "character_1": {
@@ -6855,13 +6855,285 @@ const teams = {
             "name": ["Nahida", "Aether"],
             "build": ["Standard","Dendro"]
         }
+    },
+
+    "274": {
+        "name": "Dori C6 Furina Hyperbloom",
+        "description": "Dori On-Field has enough healing for Furina teams",
+        "rotation": "",
+        "archetype": "Hyperbloom",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Dori",
+            "build": "C6"
+        },
+        "character_2": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Nahida",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Yelan", "Xingqiu", "Aether"],
+            "build": ["Standard","Standard", "Dendro"]
+        }
+    },
+
+    "275": {
+        "name": "Dori C6 Furina Hyperbloom",
+        "description": "Dori On-Field has enough healing for Furina teams",
+        "rotation": "",
+        "archetype": "Hyperbloom",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Dori",
+            "build": "C6"
+        },
+        "character_2": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Aether",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Collei", "Xingqiu", "Yelan"],
+            "build": ["Standard","Standard", "Standard"]
+        }
+    },
+
+    "276": {
+        "name": "Raiden Furina Quickbloom",
+        "description": "You can build also Raiden hybrid with EM and dmg.",
+        "rotation": "",
+        "archetype": "Quickbloom",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Raiden",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Baizhu",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Nahida", "Aether"],
+            "build": ["Standard","Dendro"]
+        }
+    },
+
+    "277": {
+        "name": "Raiden Furina Quickbloom",
+        "description": "You can build also Raiden hybrid with EM and dmg.",
+        "rotation": "",
+        "archetype": "Quickbloom",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Raiden",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Yaoyao",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Nahida", "Aether"],
+            "build": ["Standard","Dendro"]
+        }
+    },
+
+    "278": {
+        "name": "Yae Miko Furina Quickbloom",
+        "description": "",
+        "rotation": "",
+        "archetype": "Quickbloom",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Yae Miko",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Baizhu",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Nahida", "Aether"],
+            "build": ["Standard","Dendro"]
+        }
+    },
+
+    "279": {
+        "name": "Yae Miko Furina Quickbloom",
+        "description": "",
+        "rotation": "",
+        "archetype": "Quickbloom",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Yae Miko",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Yaoyao",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Nahida", "Aether"],
+            "build": ["Standard","Dendro"]
+        }
+    },
+
+    "280": {
+        "name": "Lyney Furina",
+        "description": "With Xiangling, you will keep enough pyro application for Lyney's passive and Furina vapes. Problem: Squishiest team in the world.",
+        "rotation": "",
+        "archetype": "Quickbloom",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Lyney",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Xiangling",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Bennett"],
+            "build": ["Standard"]
+        }
+    }
+
+    "281": {
+        "name": "Neuvillette Furina Hyperbloom",
+        "description": "Nahida AND Neuvillette has to be on Prototype Amber. With that, is enough healing to max Furina's buff. ",
+        "rotation": "Furina Q > Healer Q/healing",
+        "archetype": "Hyperbloom",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Neuvillette",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Raiden Shogun",
+            "build": "EM"
+        },
+        "character_4": {
+            "name": ["Nahida"],
+            "build": ["Standard"]
+        }
+    },
+
+    "282": {
+        "name": "Neuvillette Furina Carry",
+        "description": "",
+        "rotation": "",
+        "archetype": "Hypercarry",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Neuvillette",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Zhongli",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Sayu"],
+            "build": ["Standard"]
+        }
+    },
+
+    "283": {
+        "name": "Yoimiya Furina Vape",
+        "description": "Bennett has to be full healing, i mean, a lot. ",
+        "rotation": "",
+        "archetype": "Vaporize",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Yoimiya",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Kaedehara Kazuha",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Bennett"],
+            "build": ["Standard"]
+        }
+    },
+
+    "284": {
+        "name": "Dehya Furina Vape",
+        "description": "Bennett has to be full healing, i mean, a lot. ",
+        "rotation": "",
+        "archetype": "Vaporize",
+        "viability": "Troll",
+
+        "character_1": {
+            "name": "Dehya",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Kaedehara Kazuha",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Bennett"],
+            "build": ["Standard"]
+        }
     }
 
 
 
-
-
-    
 
 
 }   
