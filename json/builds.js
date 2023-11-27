@@ -167,7 +167,7 @@ const builds = {
         "Healer": {
             "constellation": "",
             "weapon": "Aquila Favonia",
-            "set": "Noblesse Oblige",
+            "set": "Maiden",
             "main_stat": {
                 "Sands": "ER",
                 "Goblet": "HP%",
