@@ -163,7 +163,18 @@ const builds = {
                 "Circlet": "Crit",
             },
             "subs_stat": ["", "", "", ""]
-        }
+        },
+        "Healer": {
+            "constellation": "",
+            "weapon": "Aquila Favonia",
+            "set": "Noblesse Oblige",
+            "main_stat": {
+                "Sands": "ER",
+                "Goblet": "HP%",
+                "Circlet": "HB"
+            },
+            "subs_stat": ["ER", "HP%"]
+        },
     },
     "Candace": {
         "Standard": {
