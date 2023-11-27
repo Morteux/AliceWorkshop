@@ -4508,7 +4508,7 @@ const teams = {
 
     "180": {
         "name": "Furina National",
-        "description": "You have to swap all the time between the characters in order to bennett heal all the allies. ",
+        "description": "You have to swap all the time between the characters in order to bennett heal all the allies. Bennett healer build.",
         "rotation": "",
         "archetype": "National",
         "viability": "Meta",
@@ -4519,7 +4519,7 @@ const teams = {
         },
         "character_2": {
             "name": "Bennett",
-            "build": "Standard"
+            "build": "Healer"
         },
         "character_3": {
             "name": "Xiangling",
@@ -4533,7 +4533,7 @@ const teams = {
 
     "181": {
         "name": "Furina National",
-        "description": "You have to swap all the time between the characters in order to bennett heal all the allies. Lynette and Heizou are good due to VV, but other anemo like Sucrose may be better. ",
+        "description": "You have to swap all the time between the characters in order to bennett heal all the allies. Bennett healer build. Lynette and Heizou are good due to VV, but other anemo like Sucrose may be better. ",
         "rotation": "",
         "archetype": "National",
         "viability": "Viable",
@@ -4544,7 +4544,7 @@ const teams = {
         },
         "character_2": {
             "name": "Bennett",
-            "build": "Standard"
+            "build": "Healer"
         },
         "character_3": {
             "name": "Xiangling",
@@ -7009,7 +7009,7 @@ const teams = {
 
     "280": {
         "name": "Lyney Furina",
-        "description": "With Xiangling, you will keep enough pyro application for Lyney's passive and Furina vapes. Problem: Squishiest team in the world.",
+        "description": "With Xiangling, you will keep enough pyro application for Lyney's passive and Furina vapes. Problem: Squishiest team in the world. Bennett healer.",
         "rotation": "",
         "archetype": "Quickbloom",
         "viability": "Meta",
@@ -7028,7 +7028,7 @@ const teams = {
         },
         "character_4": {
             "name": ["Bennett"],
-            "build": ["Standard"]
+            "build": ["healer"]
         }
     }
 
@@ -7084,7 +7084,7 @@ const teams = {
 
     "283": {
         "name": "Yoimiya Furina Vape",
-        "description": "Bennett has to be full healing, i mean, a lot. ",
+        "description": "Bennett has to be full healing.",
         "rotation": "",
         "archetype": "Vaporize",
         "viability": "Viable",
@@ -7098,18 +7098,18 @@ const teams = {
             "build": "Standard"
         },
         "character_3": {
-            "name": "Kaedehara Kazuha",
-            "build": "Standard"
+            "name": "Bennett",
+            "build": "Healer"
         },
         "character_4": {
-            "name": ["Bennett"],
-            "build": ["Standard"]
+            "name": ["Zhongli", "Kaedehara Kazuha", "Sucrose", "Venti"],
+            "build": ["Standard", "Standard", "Standard", "Standard"]
         }
     },
 
     "284": {
         "name": "Dehya Furina Vape",
-        "description": "Bennett has to be full healing, i mean, a lot. ",
+        "description": "Bennett has to be full healing. ",
         "rotation": "",
         "archetype": "Vaporize",
         "viability": "Troll",
@@ -7128,9 +7128,112 @@ const teams = {
         },
         "character_4": {
             "name": ["Bennett"],
-            "build": ["Standard"]
+            "build": ["Healer"]
         }
-    }
+    },
+
+    "285": {
+        "name": "Rational Furina",
+        "description": "Bennett has to be full healing. ",
+        "rotation": "",
+        "archetype": "Vaporize",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Raiden Shogun",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Xiangling",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Bennett"],
+            "build": ["Healer"]
+        }
+    },
+
+    "286": {
+        "name": "Raiden Furina Hypercarry",
+        "description": "Bennett healer.",
+        "rotation": "",
+        "archetype": "Hypercarry",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Raiden Shogun",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Bennett",
+            "build": "Healer"
+        },
+        "character_3": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Fischl", "Kujou Sara"],
+            "build": ["Standard", "Standard"]
+        }
+    },
+
+    "287": {
+        "name": "Furina National Doble Hydro",
+        "description": "You have to swap all the time between the characters in order to bennett heal all the allies. Bennett healer build.",
+        "rotation": "",
+        "archetype": "National",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Bennett",
+            "build": "Healer"
+        },
+        "character_3": {
+            "name": "Xiangling",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Kamisato Ayato", "Xingqiu", "Yelan"],
+            "build": ["Standard", "Standard", "Standard"]
+        }
+    },
+
+    "288": {
+        "name": "Yanfei Furina Doble Hydro",
+        "description": "You have to swap all the time between the characters in order to bennett heal all the allies. Bennett healer build.",
+        "rotation": "",
+        "archetype": "National",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Yanfei",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Bennett",
+            "build": "Healer"
+        },
+        "character_3": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Xingqiu", "Yelan"],
+            "build": ["Standard", "Standard"]
+        }
+    },
+
+    
+
 
 
 
