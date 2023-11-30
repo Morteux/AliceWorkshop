@@ -7030,7 +7030,7 @@ const teams = {
             "name": ["Bennett"],
             "build": ["healer"]
         }
-    }
+    },
 
     "281": {
         "name": "Neuvillette Furina Hyperbloom",
@@ -7231,13 +7231,6 @@ const teams = {
             "build": ["Standard", "Standard"]
         }
     },
-
-    
-
-
-
-
-
 
 }   
 
