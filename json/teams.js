@@ -2256,7 +2256,7 @@ const teams = {
         "description": "",
         "rotation": "Off field characters  > Freminet: E, BURST, Spam skill (NA when Skill on CD(1s))",
         "archetype": "Freeze",
-        "viability": "Viable",
+        "viability": "Troll",
 
         "character_1": {
             "name": "Freminet",
