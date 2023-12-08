@@ -2351,7 +2351,7 @@ const characters = {
         },
         "version": "4.2"
     },
-    "Charlotte": {
+    "Chevreuse": {
         "name": "Chevreuse",
         "fullname": "Chevreuse",
         "title": "Lens of Verity",
