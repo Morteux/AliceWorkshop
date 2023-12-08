@@ -11,6 +11,8 @@ git fetch; git pull; git push -u origin dev; git checkout main; git merge dev; g
 
 https://genshindb-ia.netlify.app/
 
+https://genshindb-ia.vercel.app/
+
 ## Features
 ### To do
 - Show last version of Genshin supported.
