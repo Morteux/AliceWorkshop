@@ -74,5 +74,7 @@ const characters_order_priority = {
     72: "Neuvillette",
     73: "Wriothesley",
     74: "Furina",
-    75: "Charlotte"
+    75: "Charlotte",
+    76: "Navia",
+    77: "Chevreuse"
 }

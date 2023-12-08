@@ -9,6 +9,8 @@ git push -u origin dev; git checkout main; git merge dev; git push -u origin mai
 
 git fetch; git pull; git push -u origin dev; git checkout main; git merge dev; git push -u origin main; git checkout dev
 
+git push -u origin dev; git checkout main; git fetch; git pull; git push -u origin main; git merge dev; git push -u origin main; git checkout dev
+
 https://genshindb-ia.netlify.app/
 
 ## Features
