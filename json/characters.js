@@ -2185,30 +2185,159 @@ const characters = {
         },
         "version": "3.0"
     },
-    "Charlotte":{
+    "Charlotte": {
         "name": "Charlotte",
         "fullname": "Charlotte",
-        "title": "",
-        "description": "",
+        "title": "Lens of Verity",
+        "description": "Indefatigable reporter of The Steambird, constantly on the hunt for the \"truth.\"",
         "rarity": "4",
         "element": "Cryo",
         "weapontype": "Catalyst",
-        "substat": "CRIT Rate",
+        "substat": "ATK",
         "gender": "Female",
         "body": "GIRL",
-        "association": "LIYUE",
-        "region": "Liyue",
-        "affiliation": "Yuehai Pavilion",
-        "birthdaymmdd": "12/2",
-        "birthday": "December 2",
-        "constellation": "Sinae Unicornis",
+        "association": "FONTAINE",
+        "region": "Fontaine",
+        "affiliation": "The Steambird",
+        "birthdaymmdd": "4/10",
+        "birthday": "April 10",
+        "constellation": "Hualina Veritas",
         "cv": {
-            "english": "Jennifer Losi",
-            "chinese": "林簌",
-            "japanese": "上田麗奈",
-            "korean": "Kim Seon-hye"
+            "english": "Maya Aoki Tuttle",
+            "chinese": "阮从青",
+            "japanese": "和氣あず未",
+            "korean": "Shin On-yu"
         },
-        "costs": {},
+        "costs": {
+            "ascend1": [
+                {
+                    "name": "Mora",
+                    "count": 20000
+                },
+                {
+                    "name": "Shivada Jade Sliver",
+                    "count": 1
+                },
+                {
+                    "name": "Beryl Conch",
+                    "count": 3
+                },
+                {
+                    "name": "Meshing Gear",
+                    "count": 3
+                }
+            ],
+            "ascend2": [
+                {
+                    "name": "Mora",
+                    "count": 40000
+                },
+                {
+                    "name": "Shivada Jade Fragment",
+                    "count": 3
+                },
+                {
+                    "name": "\"Tourbillon Device\"",
+                    "count": 2
+                },
+                {
+                    "name": "Beryl Conch",
+                    "count": 10
+                },
+                {
+                    "name": "Meshing Gear",
+                    "count": 15
+                }
+            ],
+            "ascend3": [
+                {
+                    "name": "Mora",
+                    "count": 60000
+                },
+                {
+                    "name": "Shivada Jade Fragment",
+                    "count": 6
+                },
+                {
+                    "name": "\"Tourbillon Device\"",
+                    "count": 4
+                },
+                {
+                    "name": "Beryl Conch",
+                    "count": 20
+                },
+                {
+                    "name": "Mechanical Spur Gear",
+                    "count": 12
+                }
+            ],
+            "ascend4": [
+                {
+                    "name": "Mora",
+                    "count": 80000
+                },
+                {
+                    "name": "Shivada Jade Chunk",
+                    "count": 3
+                },
+                {
+                    "name": "\"Tourbillon Device\"",
+                    "count": 8
+                },
+                {
+                    "name": "Beryl Conch",
+                    "count": 30
+                },
+                {
+                    "name": "Mechanical Spur Gear",
+                    "count": 18
+                }
+            ],
+            "ascend5": [
+                {
+                    "name": "Mora",
+                    "count": 100000
+                },
+                {
+                    "name": "Shivada Jade Chunk",
+                    "count": 6
+                },
+                {
+                    "name": "\"Tourbillon Device\"",
+                    "count": 12
+                },
+                {
+                    "name": "Beryl Conch",
+                    "count": 45
+                },
+                {
+                    "name": "Artificed Dynamic Gear",
+                    "count": 12
+                }
+            ],
+            "ascend6": [
+                {
+                    "name": "Mora",
+                    "count": 120000
+                },
+                {
+                    "name": "Shivada Jade Gemstone",
+                    "count": 6
+                },
+                {
+                    "name": "\"Tourbillon Device\"",
+                    "count": 20
+                },
+                {
+                    "name": "Beryl Conch",
+                    "count": 60
+                },
+                {
+                    "name": "Artificed Dynamic Gear",
+                    "count": 24
+                }
+            ]
+        },
         "images": {
             "nameicon": "UI_AvatarIcon_Charlotte",
             "nameiconcard": "UI_AvatarIcon_Charlotte_Card",
@@ -2216,9 +2345,177 @@ const characters = {
             "namegachaslice": "UI_Gacha_AvatarIcon_Charlotte",
             "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Charlotte.png",
             "namesideicon": "UI_AvatarIcon_Side_Charlotte",
-            "sideicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Charlotte.png"
+            "sideicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Charlotte.png",
+            "cover1": "https://fastcdn.hoyoverse.com/content-v2/hk4e/113448/f4c603b5b2e3dbb901922ad592d00abb_5941873373722590118.png",
+            "cover2": "https://fastcdn.hoyoverse.com/content-v2/hk4e/113448/431275f6404757189fc6545306f52b86_2915839935932664773.png"
         },
-        "version": "4.0"
+        "version": "4.2"
+    },
+    "Charlotte": {
+        "name": "Chevreuse",
+        "fullname": "Chevreuse",
+        "title": "Lens of Verity",
+        "description": "Indefatigable reporter of The Steambird, constantly on the hunt for the \"truth.\"",
+        "rarity": "4",
+        "element": "Pyro",
+        "weapontype": "Polearm",
+        "substat": "ATK",
+        "gender": "Female",
+        "body": "GIRL",
+        "association": "FONTAINE",
+        "region": "Fontaine",
+        "affiliation": "The Steambird",
+        "birthdaymmdd": "4/10",
+        "birthday": "April 10",
+        "constellation": "Hualina Veritas",
+        "cv": {
+            "english": "Maya Aoki Tuttle",
+            "chinese": "阮从青",
+            "japanese": "和氣あず未",
+            "korean": "Shin On-yu"
+        },
+        "costs": {
+            "ascend1": [
+                {
+                    "name": "Mora",
+                    "count": 20000
+                },
+                {
+                    "name": "Shivada Jade Sliver",
+                    "count": 1
+                },
+                {
+                    "name": "Beryl Conch",
+                    "count": 3
+                },
+                {
+                    "name": "Meshing Gear",
+                    "count": 3
+                }
+            ],
+            "ascend2": [
+                {
+                    "name": "Mora",
+                    "count": 40000
+                },
+                {
+                    "name": "Shivada Jade Fragment",
+                    "count": 3
+                },
+                {
+                    "name": "\"Tourbillon Device\"",
+                    "count": 2
+                },
+                {
+                    "name": "Beryl Conch",
+                    "count": 10
+                },
+                {
+                    "name": "Meshing Gear",
+                    "count": 15
+                }
+            ],
+            "ascend3": [
+                {
+                    "name": "Mora",
+                    "count": 60000
+                },
+                {
+                    "name": "Shivada Jade Fragment",
+                    "count": 6
+                },
+                {
+                    "name": "\"Tourbillon Device\"",
+                    "count": 4
+                },
+                {
+                    "name": "Beryl Conch",
+                    "count": 20
+                },
+                {
+                    "name": "Mechanical Spur Gear",
+                    "count": 12
+                }
+            ],
+            "ascend4": [
+                {
+                    "name": "Mora",
+                    "count": 80000
+                },
+                {
+                    "name": "Shivada Jade Chunk",
+                    "count": 3
+                },
+                {
+                    "name": "\"Tourbillon Device\"",
+                    "count": 8
+                },
+                {
+                    "name": "Beryl Conch",
+                    "count": 30
+                },
+                {
+                    "name": "Mechanical Spur Gear",
+                    "count": 18
+                }
+            ],
+            "ascend5": [
+                {
+                    "name": "Mora",
+                    "count": 100000
+                },
+                {
+                    "name": "Shivada Jade Chunk",
+                    "count": 6
+                },
+                {
+                    "name": "\"Tourbillon Device\"",
+                    "count": 12
+                },
+                {
+                    "name": "Beryl Conch",
+                    "count": 45
+                },
+                {
+                    "name": "Artificed Dynamic Gear",
+                    "count": 12
+                }
+            ],
+            "ascend6": [
+                {
+                    "name": "Mora",
+                    "count": 120000
+                },
+                {
+                    "name": "Shivada Jade Gemstone",
+                    "count": 6
+                },
+                {
+                    "name": "\"Tourbillon Device\"",
+                    "count": 20
+                },
+                {
+                    "name": "Beryl Conch",
+                    "count": 60
+                },
+                {
+                    "name": "Artificed Dynamic Gear",
+                    "count": 24
+                }
+            ]
+        },
+        "images": {
+            "nameicon": "UI_AvatarIcon_Chevreuse",
+            "nameiconcard": "UI_AvatarIcon_Chevreuse_Card",
+            "namegachasplash": "UI_Gacha_AvatarImg_Chevreuse",
+            "namegachaslice": "UI_Gacha_AvatarIcon_Chevreuse",
+            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Chevreuse.png",
+            "namesideicon": "UI_AvatarIcon_Side_Chevreuse",
+            "sideicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Chevreuse.png",
+            "cover1": "https://fastcdn.hoyoverse.com/content-v2/hk4e/113448/f4c603b5b2e3dbb901922ad592d00abb_5941873373722590118.png",
+            "cover2": "https://fastcdn.hoyoverse.com/content-v2/hk4e/113448/431275f6404757189fc6545306f52b86_2915839935932664773.png"
+        },
+        "version": "4.2"
     },
     "Cyno": {
         "name": "Cyno",
@@ -3736,30 +4033,159 @@ const characters = {
         },
         "version": "4.0"
     },
-    "Furina":{
+    "Furina": {
         "name": "Furina",
         "fullname": "Furina",
-        "title": "",
-        "description": "",
+        "title": "Endless Solo of Solitude",
+        "description": "The absolute focus of the stage of judgment, until the final applause sounds.",
         "rarity": "5",
         "element": "Hydro",
         "weapontype": "Sword",
         "substat": "CRIT Rate",
         "gender": "Female",
         "body": "GIRL",
-        "association": "LIYUE",
-        "region": "Liyue",
-        "affiliation": "Yuehai Pavilion",
-        "birthdaymmdd": "12/2",
-        "birthday": "December 2",
-        "constellation": "Sinae Unicornis",
+        "association": "FONTAINE",
+        "region": "Fontaine",
+        "affiliation": "Court of Fontaine",
+        "birthdaymmdd": "10/13",
+        "birthday": "October 13",
+        "constellation": "Animula Choragi",
         "cv": {
-            "english": "Jennifer Losi",
-            "chinese": "林簌",
-            "japanese": "上田麗奈",
-            "korean": "Kim Seon-hye"
+            "english": "Amber Lee Connors",
+            "chinese": "钱琛",
+            "japanese": "水瀬いのり",
+            "korean": "Kim Ha-young"
         },
-        "costs": {},
+        "costs": {
+            "ascend1": [
+                {
+                    "name": "Mora",
+                    "count": 20000
+                },
+                {
+                    "name": "Varunada Lazurite Sliver",
+                    "count": 1
+                },
+                {
+                    "name": "Lakelight Lily",
+                    "count": 3
+                },
+                {
+                    "name": "Whopperflower Nectar",
+                    "count": 3
+                }
+            ],
+            "ascend2": [
+                {
+                    "name": "Mora",
+                    "count": 40000
+                },
+                {
+                    "name": "Varunada Lazurite Fragment",
+                    "count": 3
+                },
+                {
+                    "name": "Water That Failed To Transcend",
+                    "count": 2
+                },
+                {
+                    "name": "Lakelight Lily",
+                    "count": 10
+                },
+                {
+                    "name": "Whopperflower Nectar",
+                    "count": 15
+                }
+            ],
+            "ascend3": [
+                {
+                    "name": "Mora",
+                    "count": 60000
+                },
+                {
+                    "name": "Varunada Lazurite Fragment",
+                    "count": 6
+                },
+                {
+                    "name": "Water That Failed To Transcend",
+                    "count": 4
+                },
+                {
+                    "name": "Lakelight Lily",
+                    "count": 20
+                },
+                {
+                    "name": "Shimmering Nectar",
+                    "count": 12
+                }
+            ],
+            "ascend4": [
+                {
+                    "name": "Mora",
+                    "count": 80000
+                },
+                {
+                    "name": "Varunada Lazurite Chunk",
+                    "count": 3
+                },
+                {
+                    "name": "Water That Failed To Transcend",
+                    "count": 8
+                },
+                {
+                    "name": "Lakelight Lily",
+                    "count": 30
+                },
+                {
+                    "name": "Shimmering Nectar",
+                    "count": 18
+                }
+            ],
+            "ascend5": [
+                {
+                    "name": "Mora",
+                    "count": 100000
+                },
+                {
+                    "name": "Varunada Lazurite Chunk",
+                    "count": 6
+                },
+                {
+                    "name": "Water That Failed To Transcend",
+                    "count": 12
+                },
+                {
+                    "name": "Lakelight Lily",
+                    "count": 45
+                },
+                {
+                    "name": "Energy Nectar",
+                    "count": 12
+                }
+            ],
+            "ascend6": [
+                {
+                    "name": "Mora",
+                    "count": 120000
+                },
+                {
+                    "name": "Varunada Lazurite Gemstone",
+                    "count": 6
+                },
+                {
+                    "name": "Water That Failed To Transcend",
+                    "count": 20
+                },
+                {
+                    "name": "Lakelight Lily",
+                    "count": 60
+                },
+                {
+                    "name": "Energy Nectar",
+                    "count": 24
+                }
+            ]
+        },
         "images": {
             "nameicon": "UI_AvatarIcon_Furina",
             "nameiconcard": "UI_AvatarIcon_Furina_Card",
@@ -3767,9 +4193,11 @@ const characters = {
             "namegachaslice": "UI_Gacha_AvatarIcon_Furina",
             "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Furina.png",
             "namesideicon": "UI_AvatarIcon_Side_Furina",
-            "sideicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Furina.png"
+            "sideicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Furina.png",
+            "cover1": "https://fastcdn.hoyoverse.com/content-v2/hk4e/113447/e8d153da1a2dca7a07fd76397cd60612_2043628622447437530.png",
+            "cover2": "https://fastcdn.hoyoverse.com/content-v2/hk4e/113447/a28573fbba728cd873a56337bf83ff31_2734275279164942426.png"
         },
-        "version": "4.0"
+        "version": "4.2"
     },
     "Ganyu": {
         "name": "Ganyu",
@@ -7474,6 +7902,172 @@ const characters = {
         },
         "version": "3.2"
     },
+    "Navia": {
+        "name": "Navia",
+        "fullname": "Navia",
+        "title": "Physic of Purity",
+        "description": "A caged bird secluded within the confines of the Sanctuary of Surasthana who can only see the world in her dreams.",
+        "rarity": "5",
+        "element": "Geo",
+        "weapontype": "Claymore",
+        "substat": "Elemental Mastery",
+        "gender": "Female",
+        "body": "LOLI",
+        "association": "SUMERU",
+        "region": "Sumeru",
+        "affiliation": "Sumeru City",
+        "birthdaymmdd": "10/27",
+        "birthday": "October 27",
+        "constellation": "Sapientia Oromasdis",
+        "cv": {
+            "english": "Kimberley Anne Campbell",
+            "chinese": "花玲",
+            "japanese": "田村ゆかり",
+            "korean": "Park Shi-yoon"
+        },
+        "costs": {
+            "ascend1": [
+                {
+                    "name": "Mora",
+                    "count": 20000
+                },
+                {
+                    "name": "Nagadus Emerald Sliver",
+                    "count": 1
+                },
+                {
+                    "name": "Kalpalata Lotus",
+                    "count": 3
+                },
+                {
+                    "name": "Fungal Spores",
+                    "count": 3
+                }
+            ],
+            "ascend2": [
+                {
+                    "name": "Mora",
+                    "count": 40000
+                },
+                {
+                    "name": "Nagadus Emerald Fragment",
+                    "count": 3
+                },
+                {
+                    "name": "Quelled Creeper",
+                    "count": 2
+                },
+                {
+                    "name": "Kalpalata Lotus",
+                    "count": 10
+                },
+                {
+                    "name": "Fungal Spores",
+                    "count": 15
+                }
+            ],
+            "ascend3": [
+                {
+                    "name": "Mora",
+                    "count": 60000
+                },
+                {
+                    "name": "Nagadus Emerald Fragment",
+                    "count": 6
+                },
+                {
+                    "name": "Quelled Creeper",
+                    "count": 4
+                },
+                {
+                    "name": "Kalpalata Lotus",
+                    "count": 20
+                },
+                {
+                    "name": "Luminescent Pollen",
+                    "count": 12
+                }
+            ],
+            "ascend4": [
+                {
+                    "name": "Mora",
+                    "count": 80000
+                },
+                {
+                    "name": "Nagadus Emerald Chunk",
+                    "count": 3
+                },
+                {
+                    "name": "Quelled Creeper",
+                    "count": 8
+                },
+                {
+                    "name": "Kalpalata Lotus",
+                    "count": 30
+                },
+                {
+                    "name": "Luminescent Pollen",
+                    "count": 18
+                }
+            ],
+            "ascend5": [
+                {
+                    "name": "Mora",
+                    "count": 100000
+                },
+                {
+                    "name": "Nagadus Emerald Chunk",
+                    "count": 6
+                },
+                {
+                    "name": "Quelled Creeper",
+                    "count": 12
+                },
+                {
+                    "name": "Kalpalata Lotus",
+                    "count": 45
+                },
+                {
+                    "name": "Crystalline Cyst Dust",
+                    "count": 12
+                }
+            ],
+            "ascend6": [
+                {
+                    "name": "Mora",
+                    "count": 120000
+                },
+                {
+                    "name": "Nagadus Emerald Gemstone",
+                    "count": 6
+                },
+                {
+                    "name": "Quelled Creeper",
+                    "count": 20
+                },
+                {
+                    "name": "Kalpalata Lotus",
+                    "count": 60
+                },
+                {
+                    "name": "Crystalline Cyst Dust",
+                    "count": 24
+                }
+            ]
+        },
+        "images": {
+            "nameicon": "UI_AvatarIcon_Navia",
+            "nameiconcard": "UI_AvatarIcon_Navia_Card",
+            "namegachasplash": "UI_Gacha_AvatarImg_Navia",
+            "namegachaslice": "UI_Gacha_AvatarIcon_Navia",
+            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Navia.png",
+            "namesideicon": "UI_AvatarIcon_Side_Navia",
+            "sideicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Navia.png",
+            "cover1": "https://webstatic.hoyoverse.com/upload/contentweb/2022/10/26/fe684624008db25ac4b44ea4704f9ba0_3756826627935711351.png",
+            "cover2": "https://webstatic.hoyoverse.com/upload/contentweb/2022/10/24/27e20ed23e1c42678538e40d93a31179_2119350427386020474.png"
+        },
+        "version": "3.2"
+    },
     "Neuvillette": {
         "name": "Neuvillette",
         "fullname": "Neuvillette",
@@ -10531,7 +11125,7 @@ const characters = {
         },
         "version": "3.3"
     },
-    "Wriothesley":{
+    "Wriothesley": {
         "name": "Wriothesley",
         "fullname": "Wriothesley",
         "title": "Emissary of Solitary Iniquity",
@@ -10549,149 +11143,149 @@ const characters = {
         "birthday": "November 23",
         "constellation": "Cerberus",
         "cv": {
-          "english": "Joe Zieja",
-          "chinese": "刘北辰",
-          "japanese": "小野大輔",
-          "korean": "Kwon Chang-wook"
+            "english": "Joe Zieja",
+            "chinese": "刘北辰",
+            "japanese": "小野大輔",
+            "korean": "Kwon Chang-wook"
         },
         "costs": {
-          "ascend1": [
-            {
-              "name": "Mora",
-              "count": 20000
-            },
-            {
-              "name": "Shivada Jade Sliver",
-              "count": 1
-            },
-            {
-              "name": "Subdetection Unit",
-              "count": 3
-            },
-            {
-              "name": "Meshing Gear",
-              "count": 3
-            }
-          ],
-          "ascend2": [
-            {
-              "name": "Mora",
-              "count": 40000
-            },
-            {
-              "name": "Shivada Jade Fragment",
-              "count": 3
-            },
-            {
-              "name": "\"Tourbillon Device\"",
-              "count": 2
-            },
-            {
-              "name": "Subdetection Unit",
-              "count": 10
-            },
-            {
-              "name": "Meshing Gear",
-              "count": 15
-            }
-          ],
-          "ascend3": [
-            {
-              "name": "Mora",
-              "count": 60000
-            },
-            {
-              "name": "Shivada Jade Fragment",
-              "count": 6
-            },
-            {
-              "name": "\"Tourbillon Device\"",
-              "count": 4
-            },
-            {
-              "name": "Subdetection Unit",
-              "count": 20
-            },
-            {
-              "name": "Mechanical Spur Gear",
-              "count": 12
-            }
-          ],
-          "ascend4": [
-            {
-              "name": "Mora",
-              "count": 80000
-            },
-            {
-              "name": "Shivada Jade Chunk",
-              "count": 3
-            },
-            {
-              "name": "\"Tourbillon Device\"",
-              "count": 8
-            },
-            {
-              "name": "Subdetection Unit",
-              "count": 30
-            },
-            {
-              "name": "Mechanical Spur Gear",
-              "count": 18
-            }
-          ],
-          "ascend5": [
-            {
-              "name": "Mora",
-              "count": 100000
-            },
-            {
-              "name": "Shivada Jade Chunk",
-              "count": 6
-            },
-            {
-              "name": "\"Tourbillon Device\"",
-              "count": 12
-            },
-            {
-              "name": "Subdetection Unit",
-              "count": 45
-            },
-            {
-              "name": "Artificed Dynamic Gear",
-              "count": 12
-            }
-          ],
-          "ascend6": [
-            {
-              "name": "Mora",
-              "count": 120000
-            },
-            {
-              "name": "Shivada Jade Gemstone",
-              "count": 6
-            },
-            {
-              "name": "\"Tourbillon Device\"",
-              "count": 20
-            },
-            {
-              "name": "Subdetection Unit",
-              "count": 60
-            },
-            {
-              "name": "Artificed Dynamic Gear",
-              "count": 24
-            }
-          ]
+            "ascend1": [
+                {
+                    "name": "Mora",
+                    "count": 20000
+                },
+                {
+                    "name": "Shivada Jade Sliver",
+                    "count": 1
+                },
+                {
+                    "name": "Subdetection Unit",
+                    "count": 3
+                },
+                {
+                    "name": "Meshing Gear",
+                    "count": 3
+                }
+            ],
+            "ascend2": [
+                {
+                    "name": "Mora",
+                    "count": 40000
+                },
+                {
+                    "name": "Shivada Jade Fragment",
+                    "count": 3
+                },
+                {
+                    "name": "\"Tourbillon Device\"",
+                    "count": 2
+                },
+                {
+                    "name": "Subdetection Unit",
+                    "count": 10
+                },
+                {
+                    "name": "Meshing Gear",
+                    "count": 15
+                }
+            ],
+            "ascend3": [
+                {
+                    "name": "Mora",
+                    "count": 60000
+                },
+                {
+                    "name": "Shivada Jade Fragment",
+                    "count": 6
+                },
+                {
+                    "name": "\"Tourbillon Device\"",
+                    "count": 4
+                },
+                {
+                    "name": "Subdetection Unit",
+                    "count": 20
+                },
+                {
+                    "name": "Mechanical Spur Gear",
+                    "count": 12
+                }
+            ],
+            "ascend4": [
+                {
+                    "name": "Mora",
+                    "count": 80000
+                },
+                {
+                    "name": "Shivada Jade Chunk",
+                    "count": 3
+                },
+                {
+                    "name": "\"Tourbillon Device\"",
+                    "count": 8
+                },
+                {
+                    "name": "Subdetection Unit",
+                    "count": 30
+                },
+                {
+                    "name": "Mechanical Spur Gear",
+                    "count": 18
+                }
+            ],
+            "ascend5": [
+                {
+                    "name": "Mora",
+                    "count": 100000
+                },
+                {
+                    "name": "Shivada Jade Chunk",
+                    "count": 6
+                },
+                {
+                    "name": "\"Tourbillon Device\"",
+                    "count": 12
+                },
+                {
+                    "name": "Subdetection Unit",
+                    "count": 45
+                },
+                {
+                    "name": "Artificed Dynamic Gear",
+                    "count": 12
+                }
+            ],
+            "ascend6": [
+                {
+                    "name": "Mora",
+                    "count": 120000
+                },
+                {
+                    "name": "Shivada Jade Gemstone",
+                    "count": 6
+                },
+                {
+                    "name": "\"Tourbillon Device\"",
+                    "count": 20
+                },
+                {
+                    "name": "Subdetection Unit",
+                    "count": 60
+                },
+                {
+                    "name": "Artificed Dynamic Gear",
+                    "count": 24
+                }
+            ]
         },
         "images": {
-          "nameicon": "UI_AvatarIcon_Wriothesley",
-          "nameiconcard": "UI_AvatarIcon_Wriothesley_Card",
-          "namegachasplash": "UI_Gacha_AvatarImg_Wriothesley",
-          "namegachaslice": "UI_Gacha_AvatarIcon_Wriothesley",
-          "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Wriothesley.png",
-          "namesideicon": "UI_AvatarIcon_Side_Wriothesley",
-          "sideicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Wriothesley.png"
+            "nameicon": "UI_AvatarIcon_Wriothesley",
+            "nameiconcard": "UI_AvatarIcon_Wriothesley_Card",
+            "namegachasplash": "UI_Gacha_AvatarImg_Wriothesley",
+            "namegachaslice": "UI_Gacha_AvatarIcon_Wriothesley",
+            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Wriothesley.png",
+            "namesideicon": "UI_AvatarIcon_Side_Wriothesley",
+            "sideicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Wriothesley.png"
         },
         "version": "4.1"
     },

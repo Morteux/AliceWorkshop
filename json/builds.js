@@ -202,6 +202,19 @@ const builds = {
             "subs_stat": ["", "", "", ""]
         }
     },
+    "Chevreuse": {
+        "Standard": {
+            "constellation": "",
+            "weapon": "",
+            "set": "",
+            "main_stat": {
+                "Sands": "",
+                "Goblet": "",
+                "Circlet": "",
+            },
+            "subs_stat": ["", "", "", ""]
+        }
+    },
     "Chongyun": {
         "Standard": {
             "constellation": "",
@@ -778,6 +791,19 @@ const builds = {
             "subs_stat": ["", "", "", ""]
         },
         "EM": {
+            "constellation": "",
+            "weapon": "",
+            "set": "",
+            "main_stat": {
+                "Sands": "",
+                "Goblet": "",
+                "Circlet": "",
+            },
+            "subs_stat": ["", "", "", ""]
+        }
+    },
+    "Navia": {
+        "Standard": {
             "constellation": "",
             "weapon": "",
             "set": "",
