@@ -4359,9 +4359,9 @@ const teams = {
     "174": {
         "name": "Tighnari Furina Quickbloom",
         "description": "",
-        "rotation": "Furina Q > Healer Q/healing",
+        "rotation": " Raiden E - Furina E+Q - Tignari E - Baizhu/YaoYao E/Q (4-5s) - Tignari Q + NA3 + E + NA3 - Repeat",
         "archetype": "Quickbloom",
-        "viability": "Viable",
+        "viability": "Meta",
 
         "character_1": {
             "name": "Tighnari",
@@ -4386,7 +4386,7 @@ const teams = {
         "description": "",
         "rotation": "Furina E+Q - Shinobu E - Tignari E - Baizhu/YaoYao E/Q (4-5s) - Tignari Q + NA3 + E + NA3 - Repeat",
         "archetype": "Quickbloom",
-        "viability": "Viable",
+        "viability": "Meta",
 
         "character_1": {
             "name": "Tighnari",
