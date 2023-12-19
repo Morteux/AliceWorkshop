@@ -7280,7 +7280,183 @@ const teams = {
             "name": ["Jean", "Sayu"],
             "build": ["Standard", "Standard"]
         }
-    }
+    },
+
+    "291": {
+        "name": "Raiden Chevreuse",
+        "description": "Good in single-target scenarios where enemies don't explode with overload and vs infused enemies whose you can't swirl.",
+        "rotation": "",
+        "archetype": "Hypercarry",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Raiden Shogun",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Chevreuse",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Bennett",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Kujou Sara", "Fischl"],
+            "build": ["Standard", "Standard"]
+        }
+    },
+
+    "292": {
+        "name": "Rational Overload",
+        "description": "Good in single-target scenarios where enemies don't explode with overload and vs infused enemies whose you can't swirl.",
+        "rotation": "",
+        "archetype": "National",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Raiden Shogun",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Chevreuse",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Bennett",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Xiangling"],
+            "build": ["Standard"]
+        }
+    },
+
+    "293": {
+        "name": "Yoimiya Chevreuse",
+        "description": "Good in single-target scenarios where enemies don't explode with overload and vs infused enemies whose you can't swirl.",
+        "rotation": "",
+        "archetype": "Overload",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Yoimiya",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Chevreuse",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Fischl",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Bennett"],
+            "build": ["Standard"]
+        }
+    },
+
+    "294": {
+        "name": "Yoimiya Chevreuse",
+        "description": "Good in single-target scenarios where enemies don't explode with overload and vs infused enemies whose you can't swirl.",
+        "rotation": "",
+        "archetype": "Overload",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Yoimiya",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Chevreuse",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Fischl",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Beidou", "Xiangling"],
+            "build": ["Standard", "Standard"]
+        }
+    },
+
+    "295": {
+        "name": "Klee Chevreuse",
+        "description": "Good in single-target scenarios where enemies don't explode with overload and vs infused enemies whose you can't swirl.",
+        "rotation": "",
+        "archetype": "Overload",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Klee",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Chevreuse",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Fischl",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Beidou", "Xiangling"],
+            "build": ["Standard", "Standard"]
+        }
+    },
+
+    "296": {
+        "name": "Klee Chevreuse",
+        "description": "Good in single-target scenarios where enemies don't explode with overload and vs infused enemies whose you can't swirl.",
+        "rotation": "",
+        "archetype": "Overload",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Klee",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Chevreuse",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Fischl",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Bennett"],
+            "build": ["Standard"]
+        }
+    },
+
+    "297": {
+        "name": "Hu Tao Chevreuse",
+        "description": "Good in single-target scenarios where enemies don't explode with overload and vs infused enemies whose you can't swirl.",
+        "rotation": "",
+        "archetype": "Overload",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Hu Tao",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Chevreuse",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Fischl",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Xiangling"],
+            "build": ["Standard"]
+        }
+    },
+
 
 }   
 
