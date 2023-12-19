@@ -7527,8 +7527,8 @@ const teams = {
             "build": "Standard"
         },
         "character_4": {
-            "name": ["Beidou", "Xiangling"],
-            "build": ["Standard", "Standard"]
+            "name": ["Xiangling"],
+            "build": ["Standard"]
         }
     },
 
