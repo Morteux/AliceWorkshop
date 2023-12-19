@@ -7387,7 +7387,7 @@ const teams = {
         "description": "Good in single-target scenarios where enemies don't explode with overload and vs infused enemies whose you can't swirl.",
         "rotation": "",
         "archetype": "Overload",
-        "viability": "Meta",
+        "viability": "Viable",
 
         "character_1": {
             "name": "Klee",
@@ -7412,7 +7412,7 @@ const teams = {
         "description": "Good in single-target scenarios where enemies don't explode with overload and vs infused enemies whose you can't swirl.",
         "rotation": "",
         "archetype": "Overload",
-        "viability": "Meta",
+        "viability": "Viable",
 
         "character_1": {
             "name": "Klee",
@@ -7456,6 +7456,206 @@ const teams = {
             "build": ["Standard"]
         }
     },
+
+    "298": {
+        "name": "Yanfei Chevreuse",
+        "description": "Good in single-target scenarios where enemies don't explode with overload and vs infused enemies whose you can't swirl.",
+        "rotation": "",
+        "archetype": "Overload",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Yanfei",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Chevreuse",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Fischl",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Beidou", "Xiangling"],
+            "build": ["Standard", "Standard"]
+        }
+    },
+
+    "299": {
+        "name": "Yanfei Chevreuse",
+        "description": "Good in single-target scenarios where enemies don't explode with overload and vs infused enemies whose you can't swirl.",
+        "rotation": "",
+        "archetype": "Overload",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Yanfei",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Chevreuse",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Fischl",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Bennett"],
+            "build": ["Standard"]
+        }
+    },
+
+    "300": {
+        "name": "Dehya Chevreuse",
+        "description": "Good in single-target scenarios where enemies don't explode with overload and vs infused enemies whose you can't swirl.",
+        "rotation": "",
+        "archetype": "Overload",
+        "viability": "Troll",
+
+        "character_1": {
+            "name": "Dehya",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Chevreuse",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Fischl",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Beidou", "Xiangling"],
+            "build": ["Standard", "Standard"]
+        }
+    },
+
+    "301": {
+        "name": "Dehya Chevreuse",
+        "description": "Good in single-target scenarios where enemies don't explode with overload and vs infused enemies whose you can't swirl.",
+        "rotation": "",
+        "archetype": "Overload",
+        "viability": "Troll",
+
+        "character_1": {
+            "name": "Dehya",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Chevreuse",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Fischl",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Bennett"],
+            "build": ["Standard"]
+        }
+    },
+
+    "302": {
+        "name": "Diluc Chevreuse",
+        "description": "Good in single-target scenarios where enemies don't explode with overload and vs infused enemies whose you can't swirl.",
+        "rotation": "",
+        "archetype": "Overload",
+        "viability": "Troll",
+
+        "character_1": {
+            "name": "Diluc",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Chevreuse",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Fischl",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Beidou", "Xiangling"],
+            "build": ["Standard", "Standard"]
+        }
+    },
+
+    "303": {
+        "name": "Diluc Chevreuse",
+        "description": "Good in single-target scenarios where enemies don't explode with overload and vs infused enemies whose you can't swirl.",
+        "rotation": "",
+        "archetype": "Overload",
+        "viability": "Troll",
+
+        "character_1": {
+            "name": "Diluc",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Chevreuse",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Fischl",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Bennett"],
+            "build": ["Standard"]
+        }
+    },
+
+    "304": {
+        "name": "Raiden Miko Overload",
+        "description": "Good in single-target scenarios where enemies don't explode with overload and vs infused enemies whose you can't swirl.",
+        "rotation": "",
+        "archetype": "Overload",
+        "viability": "Troll",
+
+        "character_1": {
+            "name": "Yae Miko",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Chevreuse",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Raiden Shogun",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Bennett", "Xiangling"],
+            "build": ["Standard", "Standard"]
+        }
+    },
+
+    "305": {
+        "name": "Fischl Miko Overload",
+        "description": "Good in single-target scenarios where enemies don't explode with overload and vs infused enemies whose you can't swirl.",
+        "rotation": "",
+        "archetype": "Overload",
+        "viability": "Troll",
+
+        "character_1": {
+            "name": "Yae Miko",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Chevreuse",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Fischl",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Bennett", "Xiangling"],
+            "build": ["Standard", "Standard"]
+        }
+    }
 
 
 }   
