@@ -7655,7 +7655,33 @@ const teams = {
             "name": ["Bennett", "Xiangling"],
             "build": ["Standard", "Standard"]
         }
+    },
+
+    "306": {
+        "name": "Raiden Chevreuse",
+        "description": "Good in single-target scenarios where enemies don't explode with overload and vs infused enemies whose you can't swirl.",
+        "rotation": "",
+        "archetype": "Overload",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Raiden Shogun",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Chevreuse",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Xiangling",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Fischl", "Kujou Sara"],
+            "build": ["Standard", "Standard"]
+        }
     }
+
 
 
 }   
