@@ -7680,8 +7680,157 @@ const teams = {
             "name": ["Fischl", "Kujou Sara"],
             "build": ["Standard", "Standard"]
         }
-    }
+    },
 
+    "307": {
+        "name": "Naviational Furina",
+        "description": "You can change Navia's artifacts for Marechaussee Hunter and Bennett healer build",
+        "rotation": "",
+        "archetype": "National",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Navia",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Xiangling",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Bennett"],
+            "build": ["Healer"]
+        }
+    },
+
+    "308": {
+        "name": "Naviational Xingqiu",
+        "description": "",
+        "rotation": "",
+        "archetype": "National",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Navia",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Xingqiu",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Xiangling",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Bennett"],
+            "build": ["Standard"]
+        }
+    },
+
+    "309": {
+        "name": "Navia Doble Hydro Furina",
+        "description": "You can change Navia's artifacts for Marechaussee Hunter and Bennett healer build",
+        "rotation": "",
+        "archetype": "Hypercarry",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Navia",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Yelan",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Bennett", "Noelle"],
+            "build": ["Healer", "Furina"]
+        }
+    },
+
+    "309": {
+        "name": "Navia Hot Rock",
+        "description": "",
+        "rotation": "",
+        "archetype": "Hypercarry",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Navia",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Bennett",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Xiangling",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Zhongli", "Albedo", "Ningguang", "Noelle"],
+            "build": ["Standard", "Standard", "Standard", "Furina"]
+        }
+    },
+
+    "310": {
+        "name": "Navia Furina Carry",
+        "description": "You can change Navia's artifacts for Marechaussee Hunter and Bennett healer build",
+        "rotation": "",
+        "archetype": "Hypercarry",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Navia",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Bennett",
+            "build": "Healer"
+        },
+        "character_3": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Kaedehara Kazuha", "Zhongli"],
+            "build": ["Standard", "Standard"]
+        }
+    },
+
+    "311": {
+        "name": "Navia Furina Carry",
+        "description": "You can change Navia's artifacts for Marechaussee Hunter",
+        "rotation": "",
+        "archetype": "Hypercarry",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Navia",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Furina",
+            "build": "Healer"
+        },
+        "character_3": {
+            "name": "Jean",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Albedo", "Zhongli", "Ningguang", "Yelan"],
+            "build": ["Standard", "Standard", "Standard", "Standard"]
+        }
+    }
 
 
 }   
