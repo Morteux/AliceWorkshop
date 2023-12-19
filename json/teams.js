@@ -7753,11 +7753,11 @@ const teams = {
         },
         "character_4": {
             "name": ["Bennett", "Noelle"],
-            "build": ["Healer", "Furina"]
+            "build": ["Healer", "DPSFurina"]
         }
     },
 
-    "309": {
+    "310": {
         "name": "Navia Hot Rock",
         "description": "",
         "rotation": "",
@@ -7778,11 +7778,11 @@ const teams = {
         },
         "character_4": {
             "name": ["Zhongli", "Albedo", "Ningguang", "Noelle"],
-            "build": ["Standard", "Standard", "Standard", "Furina"]
+            "build": ["Standard", "Standard", "Standard", "DPSFurina"]
         }
     },
 
-    "310": {
+    "311": {
         "name": "Navia Furina Carry",
         "description": "You can change Navia's artifacts for Marechaussee Hunter and Bennett healer build",
         "rotation": "",
@@ -7807,7 +7807,7 @@ const teams = {
         }
     },
 
-    "311": {
+    "312": {
         "name": "Navia Furina Carry",
         "description": "You can change Navia's artifacts for Marechaussee Hunter",
         "rotation": "",
@@ -7820,7 +7820,7 @@ const teams = {
         },
         "character_2": {
             "name": "Furina",
-            "build": "Healer"
+            "build": "Standard"
         },
         "character_3": {
             "name": "Jean",
