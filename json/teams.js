@@ -7830,6 +7830,106 @@ const teams = {
             "name": ["Albedo", "Zhongli", "Ningguang", "Yelan"],
             "build": ["Standard", "Standard", "Standard", "Standard"]
         }
+    },
+
+    "313": {
+        "name": "Navia Doble Electro",
+        "description": "",
+        "rotation": "",
+        "archetype": "Hypercarry",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Navia",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Fischl",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Yae Miko",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Zhongli", "Albedo", "Ningguang", "Noelle"],
+            "build": ["Standard", "Standard", "Standard", "DPSFurina"]
+        }
+    },
+
+    "314": {
+        "name": "Navia Doble Electro",
+        "description": "",
+        "rotation": "",
+        "archetype": "Hypercarry",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Navia",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Fischl",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Beidou",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Zhongli", "Albedo", "Ningguang", "Noelle"],
+            "build": ["Standard", "Standard", "Standard", "DPSFurina"]
+        }
+    },
+
+    "315": {
+        "name": "Navia Doble Electro",
+        "description": "",
+        "rotation": "",
+        "archetype": "Hypercarry",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Navia",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Bennett",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Fischl",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Yae Miko", "Beidou"],
+            "build": ["Standard", "Standard]
+        }
+    },
+
+    "316": {
+        "name": "Navia Doble Hydro",
+        "description": "",
+        "rotation": "",
+        "archetype": "Hypercarry",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Navia",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Yelan",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Xingqiu",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Zhongli", "Albedo", "Ningguang", "Noelle"],
+            "build": ["Standard", "Standard", "Standard", "Standard"]
+        }
     }
 
 
