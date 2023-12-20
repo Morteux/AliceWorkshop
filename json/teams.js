@@ -7903,7 +7903,7 @@ const teams = {
         },
         "character_4": {
             "name": ["Yae Miko", "Beidou"],
-            "build": ["Standard", "Standard]
+            "build": ["Standard", "Standard"]
         }
     },
 
