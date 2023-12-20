@@ -7930,7 +7930,133 @@ const teams = {
             "name": ["Zhongli", "Albedo", "Ningguang", "Noelle"],
             "build": ["Standard", "Standard", "Standard", "Standard"]
         }
+    },
+
+    "317": {
+        "name": "Navia Hyperbloom",
+        "description": "",
+        "rotation": "",
+        "archetype": "Hyperbloom",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Navia",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Xingqiu",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Nahida",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Raiden Shogun", "Kuki Shinobu"],
+            "build": ["EM", "Standard"]
+        }
+    },
+
+    "318": {
+        "name": "Navia Hyperbloom",
+        "description": "",
+        "rotation": "",
+        "archetype": "Hyperbloom",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Navia",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Xingqiu",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Aether",
+            "build": "Dendro"
+        },
+        "character_4": {
+            "name": ["Raiden Shogun", "Kuki Shinobu"],
+            "build": ["EM", "Standard"]
+        }
+    },
+
+    "319": {
+        "name": "Navia Hyperbloom Furina",
+        "description": "",
+        "rotation": "",
+        "archetype": "Hyperbloom",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Navia",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Yaoyao",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Raiden Shogun", "Kuki Shinobu"],
+            "build": ["EM", "Standard"]
+        }
+    },
+
+    "320": {
+        "name": "Navia Hyperbloom Furina",
+        "description": "",
+        "rotation": "",
+        "archetype": "Hyperbloom",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Navia",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Baizhu",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Raiden Shogun", "Kuki Shinobu"],
+            "build": ["EM", "Standard"]
+        }
+    },
+
+    "321": {
+        "name": "Navia Burgeon",
+        "description": "",
+        "rotation": "",
+        "archetype": "Burgeon",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Navia",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Xingqiu",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Nahida",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Dehya", "Thoma"],
+            "build": ["EM", "EM"]
+        }
     }
+
 
 
 }   
