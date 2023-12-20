@@ -298,7 +298,6 @@
 }
 
 .character_container {
-    flex: 1 1 1;
     position: relative;
 
     display: flex;
@@ -310,6 +309,8 @@
 
     border-radius: 8%;
     background-color: var(--light_background);
+
+    max-width: 7vw;
 }
 
 .character_container:hover {
@@ -318,6 +319,7 @@
 
 .character_icon {
     width: 13vh;
+    max-width: inherit;
     border-top-left-radius: 8%;
     border-top-right-radius: 8%;
     border-bottom-right-radius: 20%;
