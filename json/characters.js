@@ -4199,6 +4199,204 @@ const characters = {
         },
         "version": "4.2"
     },
+
+
+
+
+
+
+
+
+
+
+
+
+    "Gaming": {
+        "name": "Gaming",
+        "fullname": "Gaming",
+        "title": "Plenilune Gaze",
+        "description": "The secretary at Yuehai Pavilion. The blood of the qilin, an illuminated beast, flows within her veins.",
+        "rarity": "4",
+        "element": "Pyro",
+        "weapontype": "Bow",
+        "substat": "CRIT DMG",
+        "gender": "Female",
+        "body": "GIRL",
+        "association": "LIYUE",
+        "region": "Liyue",
+        "affiliation": "Yuehai Pavilion",
+        "birthdaymmdd": "12/2",
+        "birthday": "December 2",
+        "constellation": "Sinae Unicornis",
+        "cv": {
+            "english": "Jennifer Losi",
+            "chinese": "林簌",
+            "japanese": "上田麗奈",
+            "korean": "Kim Seon-hye"
+        },
+        "costs": {
+            "ascend1": [
+                {
+                    "name": "Mora",
+                    "count": 20000
+                },
+                {
+                    "name": "Shivada Jade Sliver",
+                    "count": 1
+                },
+                {
+                    "name": "Qingxin",
+                    "count": 3
+                },
+                {
+                    "name": "Whopperflower Nectar",
+                    "count": 3
+                }
+            ],
+            "ascend2": [
+                {
+                    "name": "Mora",
+                    "count": 40000
+                },
+                {
+                    "name": "Shivada Jade Fragment",
+                    "count": 3
+                },
+                {
+                    "name": "Hoarfrost Core",
+                    "count": 2
+                },
+                {
+                    "name": "Qingxin",
+                    "count": 10
+                },
+                {
+                    "name": "Whopperflower Nectar",
+                    "count": 15
+                }
+            ],
+            "ascend3": [
+                {
+                    "name": "Mora",
+                    "count": 60000
+                },
+                {
+                    "name": "Shivada Jade Fragment",
+                    "count": 6
+                },
+                {
+                    "name": "Hoarfrost Core",
+                    "count": 4
+                },
+                {
+                    "name": "Qingxin",
+                    "count": 20
+                },
+                {
+                    "name": "Shimmering Nectar",
+                    "count": 12
+                }
+            ],
+            "ascend4": [
+                {
+                    "name": "Mora",
+                    "count": 80000
+                },
+                {
+                    "name": "Shivada Jade Chunk",
+                    "count": 3
+                },
+                {
+                    "name": "Hoarfrost Core",
+                    "count": 8
+                },
+                {
+                    "name": "Qingxin",
+                    "count": 30
+                },
+                {
+                    "name": "Shimmering Nectar",
+                    "count": 18
+                }
+            ],
+            "ascend5": [
+                {
+                    "name": "Mora",
+                    "count": 100000
+                },
+                {
+                    "name": "Shivada Jade Chunk",
+                    "count": 6
+                },
+                {
+                    "name": "Hoarfrost Core",
+                    "count": 12
+                },
+                {
+                    "name": "Qingxin",
+                    "count": 45
+                },
+                {
+                    "name": "Energy Nectar",
+                    "count": 12
+                }
+            ],
+            "ascend6": [
+                {
+                    "name": "Mora",
+                    "count": 120000
+                },
+                {
+                    "name": "Shivada Jade Gemstone",
+                    "count": 6
+                },
+                {
+                    "name": "Hoarfrost Core",
+                    "count": 20
+                },
+                {
+                    "name": "Qingxin",
+                    "count": 60
+                },
+                {
+                    "name": "Energy Nectar",
+                    "count": 24
+                }
+            ]
+        },
+        "images": {
+            "card": "https://static.wikia.nocookie.net/gensin-impact/images/8/8d/Character_Gaming_Card.png",
+            "portrait": "https://static.wikia.nocookie.net/gensin-impact/images/a/a0/Character_Gaming_Portrait.png",
+            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Gaming.png",
+            "sideicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Gaming.png",
+            "cover1": "https://webstatic.hoyoverse.com/upload/contentweb/2022/07/22/1ae0d0aaad9ee9b55652ea7ec67f0465_3602224572622981451.png",
+            "cover2": "https://webstatic.hoyoverse.com/upload/uploadstatic/contentweb/20210105/2021010519280045054.png",
+            "hoyolab-avatar": "https://img-os-static.hoyolab.com/communityWeb/upload/4af4adf192a35db2dd76d9718acc7bc8.png",
+            "nameicon": "UI_AvatarIcon_Gaming",
+            "nameiconcard": "UI_AvatarIcon_Gaming_Card",
+            "namegachasplash": "UI_Gacha_AvatarImg_Gaming",
+            "namegachaslice": "UI_Gacha_AvatarIcon_Gaming",
+            "namesideicon": "UI_AvatarIcon_Side_Gaming"
+        },
+        "url": {
+            "fandom": "https://genshin-impact.fandom.com/wiki/Gaming"
+        },
+        "version": "1.2"
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     "Ganyu": {
         "name": "Ganyu",
         "fullname": "Ganyu",
@@ -11461,6 +11659,210 @@ const characters = {
         },
         "version": "1.0"
     },
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+    "Xianyun": {
+        "name": "Xianyun",
+        "fullname": "Xianyun",
+        "title": "Exquisite Delicacy",
+        "description": "A renowned chef from Liyue. She's extremely passionate about cooking and excels at making her signature hot and spicy dishes.",
+        "rarity": "5",
+        "element": "Anemo",
+        "weapontype": "Polearm",
+        "substat": "Elemental Mastery",
+        "gender": "Female",
+        "body": "GIRL",
+        "association": "LIYUE",
+        "region": "Liyue",
+        "affiliation": "Wanmin Restaurant",
+        "birthdaymmdd": "11/2",
+        "birthday": "November 2",
+        "constellation": "Trulla",
+        "cv": {
+            "english": "Jackie Lastra",
+            "chinese": "小N",
+            "japanese": "小澤亜李",
+            "korean": "Yoon Ah-young"
+        },
+        "costs": {
+            "ascend1": [
+                {
+                    "name": "Mora",
+                    "count": 20000
+                },
+                {
+                    "name": "Agnidus Agate Sliver",
+                    "count": 1
+                },
+                {
+                    "name": "Jueyun Chili",
+                    "count": 3
+                },
+                {
+                    "name": "Slime Condensate",
+                    "count": 3
+                }
+            ],
+            "ascend2": [
+                {
+                    "name": "Mora",
+                    "count": 40000
+                },
+                {
+                    "name": "Agnidus Agate Fragment",
+                    "count": 3
+                },
+                {
+                    "name": "Everflame Seed",
+                    "count": 2
+                },
+                {
+                    "name": "Jueyun Chili",
+                    "count": 10
+                },
+                {
+                    "name": "Slime Condensate",
+                    "count": 15
+                }
+            ],
+            "ascend3": [
+                {
+                    "name": "Mora",
+                    "count": 60000
+                },
+                {
+                    "name": "Agnidus Agate Fragment",
+                    "count": 6
+                },
+                {
+                    "name": "Everflame Seed",
+                    "count": 4
+                },
+                {
+                    "name": "Jueyun Chili",
+                    "count": 20
+                },
+                {
+                    "name": "Slime Secretions",
+                    "count": 12
+                }
+            ],
+            "ascend4": [
+                {
+                    "name": "Mora",
+                    "count": 80000
+                },
+                {
+                    "name": "Agnidus Agate Chunk",
+                    "count": 3
+                },
+                {
+                    "name": "Everflame Seed",
+                    "count": 8
+                },
+                {
+                    "name": "Jueyun Chili",
+                    "count": 30
+                },
+                {
+                    "name": "Slime Secretions",
+                    "count": 18
+                }
+            ],
+            "ascend5": [
+                {
+                    "name": "Mora",
+                    "count": 100000
+                },
+                {
+                    "name": "Agnidus Agate Chunk",
+                    "count": 6
+                },
+                {
+                    "name": "Everflame Seed",
+                    "count": 12
+                },
+                {
+                    "name": "Jueyun Chili",
+                    "count": 45
+                },
+                {
+                    "name": "Slime Concentrate",
+                    "count": 12
+                }
+            ],
+            "ascend6": [
+                {
+                    "name": "Mora",
+                    "count": 120000
+                },
+                {
+                    "name": "Agnidus Agate Gemstone",
+                    "count": 6
+                },
+                {
+                    "name": "Everflame Seed",
+                    "count": 20
+                },
+                {
+                    "name": "Jueyun Chili",
+                    "count": 60
+                },
+                {
+                    "name": "Slime Concentrate",
+                    "count": 24
+                }
+            ]
+        },
+        "images": {
+            "card": "https://static.wikia.nocookie.net/gensin-impact/images/f/f1/Character_Liuyun_Card.jpg",
+            "portrait": "https://static.wikia.nocookie.net/gensin-impact/images/2/22/Character_Liuyun_Portrait.png",
+            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Liuyun.png",
+            "sideicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Liuyun.png",
+            "cover1": "https://webstatic.hoyoverse.com/upload/contentweb/2022/07/22/1169862f9fa35734b06ce09c96dad9ae_3683516363976115873.png",
+            "cover2": "https://webstatic.hoyoverse.com/upload/uploadstatic/contentweb/20200325/2020032510443747968.png",
+            "hoyolab-avatar": "https://img-os-static.hoyolab.com/communityWeb/upload/f406695ce989bda634c6d952eb15493a.png",
+            "nameicon": "UI_AvatarIcon_Liuyun",
+            "nameiconcard": "UI_AvatarIcon_Liuyun_Card",
+            "namegachasplash": "UI_Gacha_AvatarImg_Liuyun",
+            "namegachaslice": "UI_Gacha_AvatarIcon_Liuyun",
+            "namesideicon": "UI_AvatarIcon_Side_Liuyun"
+        },
+        "url": {
+            "fandom": "https://genshin-impact.fandom.com/wiki/Liuyun"
+        },
+        "version": "1.0"
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     "Xiao": {
         "name": "Xiao",
         "fullname": "Xiao",

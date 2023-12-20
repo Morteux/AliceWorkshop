@@ -426,6 +426,19 @@ const builds = {
             "subs_stat": ["", "", "", ""]
         }
     },
+    "Gaming": {
+        "Standard": {
+            "constellation": "",
+            "weapon": "",
+            "set": "",
+            "main_stat": {
+                "Sands": "",
+                "Goblet": "",
+                "Circlet": "",
+            },
+            "subs_stat": ["", "", "", ""]
+        }
+    },
     "Ganyu": {
         "Standard": {
             "constellation": "",
@@ -1162,6 +1175,19 @@ const builds = {
                 "Circlet": "Crit"
             },
             "subs_stat": ["ER", "Crit", "ATK%", "EM"]
+        }
+    },
+    "Xianyun": {
+        "Standard": {
+            "constellation": "",
+            "weapon": "",
+            "set": "",
+            "main_stat": {
+                "Sands": "",
+                "Goblet": "",
+                "Circlet": "",
+            },
+            "subs_stat": ["", "", "", ""]
         }
     },
     "Xiao": {
