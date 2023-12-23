@@ -22,6 +22,8 @@ https://genshindb-ia.vercel.app/
 
 ## Tab Archetypes
 ### To do
+- Añadir un estilo general como página inicial de los distintos arquetipos existentes, para que el usuario pueda ser capaz de buildear siguiendo estas reglas.
+- Poder buscar por un personaje, saliendo los mejores arquetipos para dicho personaje con plantillas (Por ejemplo busqueda de Itto: "Mono Geo: Itto, Gorou, Geo, Flex").
 
 ## Tab Teams Search
 ### To do
