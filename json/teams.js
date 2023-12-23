@@ -8055,8 +8055,57 @@ const teams = {
             "name": ["Dehya", "Thoma"],
             "build": ["EM", "EM"]
         }
-    }
+    },
 
+    "322": {
+        "name": "Navia Hypercarry",
+        "description": "",
+        "rotation": "",
+        "archetype": "Hypercarry",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Navia",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Bennett",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Fischl",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Zhongli", "Albedo", "Ningguang"],
+            "build": ["Standard", "Standard", "Standard"]
+        }
+    },
+
+    "323": {
+        "name": "Navia Hypercarry",
+        "description": "",
+        "rotation": "",
+        "archetype": "Hypercarry",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Navia",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Rosaria",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Kaeya",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Zhongli", "Albedo", "Ningguang"],
+            "build": ["Standard", "Standard", "Standard"]
+        }
+    }
 
 
 }   
