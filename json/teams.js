@@ -7136,7 +7136,7 @@ const teams = {
         "name": "Rational Furina",
         "description": "Bennett has to be full healing. ",
         "rotation": "",
-        "archetype": "Vaporize",
+        "archetype": "National",
         "viability": "Meta",
 
         "character_1": {
