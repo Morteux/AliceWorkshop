@@ -8130,7 +8130,32 @@ const teams = {
             "name": ["Xingqiu", "Yelan"],
             "build": ["Standard", "Standard"]
         }
-    }
+    },
+
+    "325": {
+        "name": "Navia with Barbara",
+        "description": "Unironically a GOOD barbara team and a decent Navia team. Barbara with TTDS and A LOT, i mean, A LOT, of ER so you can ult every rotation.",
+        "rotation": "",
+        "archetype": "Hypercarry",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Navia",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Barbara",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Albedo", "Zhongli"],
+            "build": ["Standard", "Standard"]
+        }
+    },
 
 
 }   
