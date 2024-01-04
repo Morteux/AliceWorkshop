@@ -8207,6 +8207,31 @@ const teams = {
         }
     },
 
+    "328": {
+        "name": "Raiden Furina National",
+        "description": "",
+        "rotation": "",
+        "archetype": "National",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Shogun Raiden",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Xiangling",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Bennett"],
+            "build": ["Healer"]
+        }
+    }
+
 
 }   
 
