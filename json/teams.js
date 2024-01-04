@@ -8157,6 +8157,31 @@ const teams = {
         }
     },
 
+    "326": {
+        "name": "Itto Navia",
+        "description": "Normal Itto rotation but with Navia quickswaping. 4th slot can be other flex unit that applies an element (So navia can pick cristalization)",
+        "rotation": "",
+        "archetype": "Hypercarry",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Arataki Itto",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Gorou",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Navia",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Fischl", "Xiangling", "Yelan"],
+            "build": ["Standard", "SoloPyro", "Standard"]
+        }
+    }
+
 
 }   
 
