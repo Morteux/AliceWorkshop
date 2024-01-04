@@ -7777,8 +7777,8 @@ const teams = {
             "build": "Standard"
         },
         "character_4": {
-            "name": ["Zhongli", "Albedo", "Ningguang", "Noelle"],
-            "build": ["Standard", "Standard", "Standard", "DPSFurina"]
+            "name": ["Zhongli", "Albedo", "Ningguang", "Noelle", "Aether"],
+            "build": ["Standard", "Standard", "Standard", "DPSFurina", "Geo"]
         }
     },
 
@@ -7802,8 +7802,8 @@ const teams = {
             "build": "Standard"
         },
         "character_4": {
-            "name": ["Kaedehara Kazuha", "Zhongli"],
-            "build": ["Standard", "Standard"]
+            "name": ["Kaedehara Kazuha", "Zhongli", "Albedo", "Ningguang", "Aether"],
+            "build": ["Standard", "Standard", "Standard", "Standard", "Geo"]
         }
     },
 
@@ -7927,8 +7927,8 @@ const teams = {
             "build": "Standard"
         },
         "character_4": {
-            "name": ["Zhongli", "Albedo", "Ningguang", "Noelle"],
-            "build": ["Standard", "Standard", "Standard", "Standard"]
+            "name": ["Zhongli", "Albedo", "Ningguang", "Noelle", "Aether"],
+            "build": ["Standard", "Standard", "Standard", "Standard", "Geo"]
         }
     },
 
@@ -8077,8 +8077,8 @@ const teams = {
             "build": "Standard"
         },
         "character_4": {
-            "name": ["Zhongli", "Albedo", "Ningguang"],
-            "build": ["Standard", "Standard", "Standard"]
+            "name": ["Zhongli", "Albedo", "Ningguang", "Aether"],
+            "build": ["Standard", "Standard", "Standard", "Geo"]
         }
     },
 
@@ -8102,8 +8102,8 @@ const teams = {
             "build": "Standard"
         },
         "character_4": {
-            "name": ["Zhongli", "Albedo", "Ningguang"],
-            "build": ["Standard", "Standard", "Standard"]
+            "name": ["Zhongli", "Albedo", "Ningguang", "Aether"],
+            "build": ["Standard", "Standard", "Standard", "Geo"]
         }
     },
 
@@ -8180,7 +8180,32 @@ const teams = {
             "name": ["Fischl", "Xiangling", "Yelan"],
             "build": ["Standard", "SoloPyro", "Standard"]
         }
-    }
+    },
+
+    "327": {
+        "name": "Navia taser",
+        "description": "",
+        "rotation": "",
+        "archetype": "Taser",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Navia",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Xingqiu",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Fischl",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Beidou", "Yae Miko"],
+            "build": ["Standard", "Standard"]
+        }
+    },
 
 
 }   
