@@ -8215,7 +8215,7 @@ const teams = {
         "viability": "Meta",
 
         "character_1": {
-            "name": "Shogun Raiden",
+            "name": "Raiden Shogun",
             "build": "Standard"
         },
         "character_2": {
