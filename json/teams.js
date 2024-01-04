@@ -7752,8 +7752,8 @@ const teams = {
             "build": "Standard"
         },
         "character_4": {
-            "name": ["Bennett", "Noelle"],
-            "build": ["Healer", "DPSFurina"]
+            "name": ["Bennett"],
+            "build": ["Healer"]
         }
     },
 
@@ -8104,6 +8104,31 @@ const teams = {
         "character_4": {
             "name": ["Zhongli", "Albedo", "Ningguang"],
             "build": ["Standard", "Standard", "Standard"]
+        }
+    },
+
+    "324": {
+        "name": "Navia Noelle Doble Hydro Furina",
+        "description": "Noelle On-Field, with Navia quickswap doing Q/E",
+        "rotation": "Navia's Q + Yelan/Xingqiu + Furina + Navia E + Noelle Q E NA + Navia E",
+        "archetype": "Hypercarry",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Noelle",
+            "build": "DPSFurina"
+        },
+        "character_2": {
+            "name": "Navia",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Xingqiu", "Yelan"],
+            "build": ["Standard", "Standard"]
         }
     }
 
