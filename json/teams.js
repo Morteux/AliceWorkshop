@@ -8205,6 +8205,31 @@ const teams = {
             "name": ["Beidou", "Yae Miko"],
             "build": ["Standard", "Standard"]
         }
+    },
+
+    "328": {
+        "name": "Lyney Jean",
+        "description": "OP in abyss where there are Hydro infused enemies or bosses.",
+        "rotation": "",
+        "archetype": "MonoPyro",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Lyney",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Jean",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Xiangling",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Bennett"],
+            "build": ["Standard"]
+        }
     }
 
 }   
