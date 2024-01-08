@@ -8230,6 +8230,31 @@ const teams = {
             "name": ["Bennett"],
             "build": ["Standard"]
         }
+    },
+
+    "329": {
+        "name": "Diluc Furina Vape",
+        "description": "Bennett has to be full healing.",
+        "rotation": "",
+        "archetype": "Vaporize",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Diluc",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Bennett",
+            "build": "Healer"
+        },
+        "character_4": {
+            "name": ["Kaedehara Kazuha", "Sucrose", "Venti"],
+            "build": ["Standard", "Standard", "Standard"]
+        }
     }
 
 }   
