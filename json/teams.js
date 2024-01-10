@@ -8280,7 +8280,32 @@ const teams = {
             "name": ["Rosaria"],
             "build": ["Standard"]
         }
-    }
+    },
+
+    "331": {
+        "name": "Diluc Vaporize",
+        "description": "",
+        "rotation": "",
+        "archetype": "Vaporize",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Diluc",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Bennett",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Kaedehara Kazuha",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Yelan", "Xingqiu"],
+            "build": ["Standard", "Standard"]
+        }
+    },
 
     
 
