@@ -8255,7 +8255,34 @@ const teams = {
             "name": ["Kaedehara Kazuha", "Sucrose", "Venti"],
             "build": ["Standard", "Standard", "Standard"]
         }
+    },
+
+    "330": {
+        "name": "Diluc Forward Melt",
+        "description": "A team where Diluc procs the melt reaction",
+        "rotation": "Rosaria E > Kazuha Q > Bennet E/Q > Kazuha E > Rosaria E/Q > Diluc E+NA (3 times) + Q",
+        "archetype": "Melt",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Diluc",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Bennett",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Kaedehara Kazuha",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Rosaria"],
+            "build": ["Standard"]
+        }
     }
+
+    
 
 }   
 
