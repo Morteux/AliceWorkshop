@@ -24,7 +24,19 @@ const builds = {
                 "Circlet": "",
             },
             "subs_stat": ["", "", "", ""]
-        }
+        },
+        "Geo": {
+            "element": "Geo",
+            "constellation": "",
+            "weapon": "",
+            "set": "",
+            "main_stat": {
+                "Sands": "",
+                "Goblet": "",
+                "Circlet": "",
+            },
+            "subs_stat": ["", "", "", ""]
+        },
     },
     "Albedo": {
         "Standard": {

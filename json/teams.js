@@ -5752,8 +5752,8 @@ const teams = {
             "build": "Standard"
         },
         "character_4": {
-            "name": ["Yelan", "Xingqiu", "Albedo", "Yun Jin"],
-            "build": ["Standard", "Standard", "Standard", "Standard"]
+            "name": ["Yelan", "Xingqiu", "Albedo", "Yun Jin", "Navia"],
+            "build": ["Standard", "Standard", "Standard", "Standard", "Standard"]
         }
     },
 
@@ -7136,7 +7136,7 @@ const teams = {
         "name": "Rational Furina",
         "description": "Bennett has to be full healing. ",
         "rotation": "",
-        "archetype": "Vaporize",
+        "archetype": "National",
         "viability": "Meta",
 
         "character_1": {
@@ -7752,8 +7752,8 @@ const teams = {
             "build": "Standard"
         },
         "character_4": {
-            "name": ["Bennett", "Noelle"],
-            "build": ["Healer", "DPSFurina"]
+            "name": ["Bennett"],
+            "build": ["Healer"]
         }
     },
 
@@ -7777,8 +7777,8 @@ const teams = {
             "build": "Standard"
         },
         "character_4": {
-            "name": ["Zhongli", "Albedo", "Ningguang", "Noelle"],
-            "build": ["Standard", "Standard", "Standard", "DPSFurina"]
+            "name": ["Zhongli", "Albedo", "Ningguang", "Noelle", "Aether"],
+            "build": ["Standard", "Standard", "Standard", "DPSFurina", "Geo"]
         }
     },
 
@@ -7802,8 +7802,8 @@ const teams = {
             "build": "Standard"
         },
         "character_4": {
-            "name": ["Kaedehara Kazuha", "Zhongli"],
-            "build": ["Standard", "Standard"]
+            "name": ["Kaedehara Kazuha", "Zhongli", "Albedo", "Ningguang", "Aether"],
+            "build": ["Standard", "Standard", "Standard", "Standard", "Geo"]
         }
     },
 
@@ -7927,8 +7927,8 @@ const teams = {
             "build": "Standard"
         },
         "character_4": {
-            "name": ["Zhongli", "Albedo", "Ningguang", "Noelle"],
-            "build": ["Standard", "Standard", "Standard", "Standard"]
+            "name": ["Zhongli", "Albedo", "Ningguang", "Noelle", "Aether"],
+            "build": ["Standard", "Standard", "Standard", "Standard", "Geo"]
         }
     },
 
@@ -8055,9 +8055,259 @@ const teams = {
             "name": ["Dehya", "Thoma"],
             "build": ["EM", "EM"]
         }
-    }
+    },
 
+    "322": {
+        "name": "Navia Hypercarry",
+        "description": "",
+        "rotation": "",
+        "archetype": "Hypercarry",
+        "viability": "Meta",
 
+        "character_1": {
+            "name": "Navia",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Bennett",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Fischl",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Zhongli", "Albedo", "Ningguang", "Aether"],
+            "build": ["Standard", "Standard", "Standard", "Geo"]
+        }
+    },
+
+    "323": {
+        "name": "Navia Hypercarry",
+        "description": "",
+        "rotation": "",
+        "archetype": "Hypercarry",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Navia",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Rosaria",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Kaeya",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Zhongli", "Albedo", "Ningguang", "Aether"],
+            "build": ["Standard", "Standard", "Standard", "Geo"]
+        }
+    },
+
+    "324": {
+        "name": "Navia Noelle Doble Hydro Furina",
+        "description": "Noelle On-Field, with Navia quickswap doing Q/E",
+        "rotation": "Navia's Q + Yelan/Xingqiu + Furina + Navia E + Noelle Q E NA + Navia E",
+        "archetype": "Hypercarry",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Noelle",
+            "build": "DPSFurina"
+        },
+        "character_2": {
+            "name": "Navia",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Xingqiu", "Yelan"],
+            "build": ["Standard", "Standard"]
+        }
+    },
+
+    "325": {
+        "name": "Navia with Barbara",
+        "description": "Unironically a GOOD barbara team and a decent Navia team. Barbara with TTDS and A LOT, i mean, A LOT, of ER so you can ult every rotation.",
+        "rotation": "",
+        "archetype": "Hypercarry",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Navia",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Barbara",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Albedo", "Zhongli"],
+            "build": ["Standard", "Standard"]
+        }
+    },
+
+    "326": {
+        "name": "Itto Navia",
+        "description": "Normal Itto rotation but with Navia quickswaping. 4th slot can be other flex unit that applies an element (So navia can pick cristalization)",
+        "rotation": "",
+        "archetype": "Hypercarry",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Arataki Itto",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Gorou",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Navia",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Fischl", "Xiangling", "Yelan"],
+            "build": ["Standard", "SoloPyro", "Standard"]
+        }
+    },
+
+    "327": {
+        "name": "Navia taser",
+        "description": "",
+        "rotation": "",
+        "archetype": "Taser",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Navia",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Xingqiu",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Fischl",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Beidou", "Yae Miko"],
+            "build": ["Standard", "Standard"]
+        }
+    },
+
+    "328": {
+        "name": "Lyney Jean",
+        "description": "OP in abyss where there are Hydro infused enemies or bosses.",
+        "rotation": "",
+        "archetype": "MonoPyro",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Lyney",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Jean",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Xiangling",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Bennett"],
+            "build": ["Standard"]
+        }
+    },
+
+    "329": {
+        "name": "Diluc Furina Vape",
+        "description": "Bennett has to be full healing.",
+        "rotation": "",
+        "archetype": "Vaporize",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Diluc",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Bennett",
+            "build": "Healer"
+        },
+        "character_4": {
+            "name": ["Kaedehara Kazuha", "Sucrose", "Venti"],
+            "build": ["Standard", "Standard", "Standard"]
+        }
+    },
+
+    "330": {
+        "name": "Diluc Forward Melt",
+        "description": "A team where Diluc procs the melt reaction",
+        "rotation": "Rosaria E > Kazuha Q > Bennet E/Q > Kazuha E > Rosaria E/Q > Diluc E+NA (3 times) + Q",
+        "archetype": "Melt",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Diluc",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Bennett",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Kaedehara Kazuha",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Rosaria"],
+            "build": ["Standard"]
+        }
+    },
+
+    "331": {
+        "name": "Diluc Vaporize",
+        "description": "",
+        "rotation": "",
+        "archetype": "Vaporize",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Diluc",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Bennett",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Kaedehara Kazuha",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Yelan", "Xingqiu"],
+            "build": ["Standard", "Standard"]
+        }
+    },
+
+    
 
 }   
 
