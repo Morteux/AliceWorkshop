@@ -139,6 +139,17 @@ const builds = {
                 "Circlet": "Crit"
             },
             "subs_stat": ["ER", "Crit", "ATK%", ""]
+        },
+        "Nacho": {
+            "constellation": "6",
+            "weapon": "Serpent Spine / Wolf's Gravestone",
+            "set": "Emblem of Severed Fate",
+            "main_stat": {
+                "Sands": "ATK%",
+                "Goblet": "Electro Bonus",
+                "Circlet": "Crit Rate"
+            },
+            "subs_stat": ["ER", "Crit Rate", "Crit Damage", "ATK%"]
         }
     },
     "Bennett": {
@@ -191,15 +202,15 @@ const builds = {
     },
     "Charlotte": {
         "Standard": {
-            "constellation": "",
-            "weapon": "",
-            "set": "",
+            "constellation": "6",
+            "weapon": "Prototype Amber / Favonius Codex",
+            "set": "Noblesse Oblige",
             "main_stat": {
-                "Sands": "",
-                "Goblet": "",
-                "Circlet": "",
+                "Sands": "ER",
+                "Goblet": "ATK%",
+                "Circlet": "Prob Rate",
             },
-            "subs_stat": ["", "", "", ""]
+            "subs_stat": ["ER", "ATK%", "Prob Rate", "Prob Damage"]
         }
     },
     "Chevreuse": {
@@ -313,6 +324,17 @@ const builds = {
                 "Circlet": "",
             },
             "subs_stat": ["", "", "", ""]
+        },
+        "Nacho": {
+            "constellation": "6",
+            "weapon": "Favonius Warbow / Sacrificial Bow",
+            "set": "Noblesse Oblige",
+            "main_stat": {
+                "Sands": "HP%",
+                "Goblet": "HP%",
+                "Circlet": "Healing Bonus",
+            },
+            "subs_stat": ["HP%", "ER", "EM", "HP"]
         }
     },
     "Dori": {
@@ -348,6 +370,17 @@ const builds = {
                 "Circlet": "",
             },
             "subs_stat": ["", "", "", ""]
+        },
+        "Nacho": {
+            "constellation": "6",
+            "weapon": "Favonius Greatsword / Sacrificial Greatsword",
+            "set": "Noblesse Oblige",
+            "main_stat": {
+                "Sands": "ER",
+                "Goblet": "HP%",
+                "Circlet": "Healing Bonus",
+            },
+            "subs_stat": ["ER", "HP%", "Crit Rate", ""]
         }
     },
     "Eula": {
@@ -387,6 +420,17 @@ const builds = {
                 "Circlet": "Crit"
             },
             "subs_stat": ["ER", "Crit", "ATK%", ""]
+        },
+        "Nacho": {
+            "constellation": "6",
+            "weapon": "Polar Star",
+            "set": "Golden Troupe",
+            "main_stat": {
+                "Sands": "ATK%",
+                "Goblet": "Electro Bonus",
+                "Circlet": "Crit Rate"
+            },
+            "subs_stat": ["ER", "Crit Rate", "Crit Damage", "ATK%"]
         }
     },
     "Freminet": {
@@ -461,6 +505,17 @@ const builds = {
                 "Circlet": "",
             },
             "subs_stat": ["", "", "", ""]
+        },
+        "Nacho": {
+            "constellation": "0",
+            "weapon": "Amo's Bow / Prototype Crescent",
+            "set": "Wanderer's Troupe",
+            "main_stat": {
+                "Sands": "ATK%",
+                "Goblet": "Cryo Bonus",
+                "Circlet": "Crit Rate",
+            },
+            "subs_stat": ["Crit Rate", "Crit Damage", "ATK%", "EM"]
         }
     },
     "Gorou": {
@@ -511,12 +566,34 @@ const builds = {
                 "Circlet": "",
             },
             "subs_stat": ["", "", "", ""]
+        },
+        "Nacho": {
+            "constellation": "0",
+            "weapon": "Primordial Jade Cutter / Festering Desire R5",
+            "set": "Viridescent Venerer",
+            "main_stat": {
+                "Sands": "ATK%",
+                "Goblet": "Anemo Bonus",
+                "Circlet": "Crit Rate"
+            },
+            "subs_stat": ["ER", "Crit Rate", "Crit Damage", "ATK%"]
         }
     },
     "Kaedehara Kazuha": {
         "Standard": {
             "constellation": "",
             "weapon": "Favonious Sword",
+            "set": "Viridescent Venerer",
+            "main_stat": {
+                "Sands": "EM",
+                "Goblet": "EM",
+                "Circlet": "EM"
+            },
+            "subs_stat": ["Crit Rate", "EM", "ER", "Crit Damage"]
+        },
+        "Nacho": {
+            "constellation": "0",
+            "weapon": "Freedom-Sworn / Favonious Sword",
             "set": "Viridescent Venerer",
             "main_stat": {
                 "Sands": "EM",
@@ -562,6 +639,17 @@ const builds = {
                 "Circlet": "",
             },
             "subs_stat": ["", "", "", ""]
+        },
+        "Nacho": {
+            "constellation": "0",
+            "weapon": "Mistsplitter Reforged / Primordial Jade Cutter / Amenoma Kageuchi",
+            "set": "Blizzard Strayer",
+            "main_stat": {
+                "Sands": "ATK%",
+                "Goblet": "Cryo Bonus",
+                "Circlet": "Prob Rate",
+            },
+            "subs_stat": ["ER", "Prob Rate", "Prob Damage", "ATK%"]
         }
     },
     "Kamisato Ayato": {
@@ -601,6 +689,17 @@ const builds = {
                 "Circlet": "",
             },
             "subs_stat": ["", "", "", ""]
+        },
+        "Nacho": {
+            "constellation": "0",
+            "weapon": "Primordial Jade Cutter / Lion's Roar",
+            "set": "Thundering Fury",
+            "main_stat": {
+                "Sands": "ATK%",
+                "Goblet": "Electro Bonus",
+                "Circlet": "Crit Rate",
+            },
+            "subs_stat": ["Crit Rate", "Crit Damage", "ATK%", "ER"]
         }
     },
     "Kirara": {
@@ -614,6 +713,17 @@ const builds = {
                 "Circlet": "",
             },
             "subs_stat": ["", "", "", ""]
+        },
+        "Nacho": {
+            "constellation": "6",
+            "weapon": "Favonius Sword / Key of Khaj-Nisut / Sacrificial Sword",
+            "set": "Tenacity of the Millelith + Vourukasha's Glow",
+            "main_stat": {
+                "Sands": "ER",
+                "Goblet": "HP%",
+                "Circlet": "HP%",
+            },
+            "subs_stat": ["ER", "HP%", "HP", ""]
         }
     },
     "Klee": {
@@ -660,6 +770,17 @@ const builds = {
                 "Circlet": "",
             },
             "subs_stat": ["", "", "", ""]
+        },
+        "Nacho": {
+            "constellation": "0",
+            "weapon": "The Widsith",
+            "set": "Crimson Witch of Flames",
+            "main_stat": {
+                "Sands": "ATK%",
+                "Goblet": "Pyro Bonus",
+                "Circlet": "Crit Rate",
+            },
+            "subs_stat": ["Crit Rate", "Crit Damage", "EM", "ER"]
         }
     },
     "Kujou Sara": {
@@ -673,6 +794,17 @@ const builds = {
                 "Circlet": "",
             },
             "subs_stat": ["", "", "", ""]
+        },
+        "Nacho": {
+            "constellation": "6",
+            "weapon": "Elegy for the End / Fading Twilight",
+            "set": "Emblem of Severed Fate",
+            "main_stat": {
+                "Sands": "ER / ATK%",
+                "Goblet": "Electro Bonus",
+                "Circlet": "Crit Rate / Crit Damage",
+            },
+            "subs_stat": ["ER", "Crit Rate", "Crit Damage", "ATK%"]
         }
     },
     "Kuki Shinobu": {
@@ -686,6 +818,17 @@ const builds = {
                 "Circlet": "",
             },
             "subs_stat": ["", "", "", ""]
+        },
+        "Nacho": {
+            "constellation": "6",
+            "weapon": "Favonius Sword",
+            "set": "Gilded Dreams",
+            "main_stat": {
+                "Sands": "EM",
+                "Goblet": "EM",
+                "Circlet": "EM",
+            },
+            "subs_stat": ["EM", "HP%", "ER", ""]
         }
     },
     "Layla": {
@@ -699,6 +842,17 @@ const builds = {
                 "Circlet": "",
             },
             "subs_stat": ["", "", "", ""]
+        },
+        "Nacho": {
+            "constellation": "6",
+            "weapon": "Key of Khaj-Nisut / Favonius Sword",
+            "set": "Tenacity of the Millelith",
+            "main_stat": {
+                "Sands": "HP%",
+                "Goblet": "HP%",
+                "Circlet": "HP%",
+            },
+            "subs_stat": ["ER", "HP%", "HP", "Crit Rate / Crit Damage"]
         }
     },
     "Lisa": {
@@ -789,6 +943,17 @@ const builds = {
                 "Circlet": "Healing Bonus"
             },
             "subs_stat": ["ER", "Crit", "ATK%"]
+        },
+        "Nacho": {
+            "constellation": "0",
+            "weapon": "Skyward Atlas / Favonius Codex",
+            "set": "Emblem of Severed Fate",
+            "main_stat": {
+                "Sands": "ER",
+                "Goblet": "Hydro Bonus",
+                "Circlet": "Prob Rate"
+            },
+            "subs_stat": ["Prob Rate", "Prob Damage", "ATK%", "ER"]
         }
     },
     "Nahida": {
@@ -813,6 +978,17 @@ const builds = {
                 "Circlet": "",
             },
             "subs_stat": ["", "", "", ""]
+        },
+        "Nacho": {
+            "constellation": "0",
+            "weapon": "A Thousand Floating Dreams / Kagura's Verity / Sacrificial Fragments",
+            "set": "Deepwood Memories",
+            "main_stat": {
+                "Sands": "EM",
+                "Goblet": "EM",
+                "Circlet": "EM",
+            },
+            "subs_stat": ["ER", "EM", "Crit Rate", "Crit Damage"]
         }
     },
     "Navia": {
@@ -852,6 +1028,17 @@ const builds = {
                 "Circlet": "",
             },
             "subs_stat": ["", "", "", ""]
+        },
+        "Nacho": {
+            "constellation": "0",
+            "weapon": "Key of Khaj-Nisut / Sacrificial Sword / Favonius Sword",
+            "set": "Gilded Dreams",
+            "main_stat": {
+                "Sands": "HP%",
+                "Goblet": "HP%",
+                "Circlet": "HP%",
+            },
+            "subs_stat": ["ER", "HP%", "HP", "EM"]
         }
     },
     "Ningguang": {
@@ -914,6 +1101,17 @@ const builds = {
                 "Circlet": "",
             },
             "subs_stat": ["", "", "", ""]
+        },
+        "Nacho": {
+            "constellation": "0",
+            "weapon": "Skyward Blade / Lion's Roar",
+            "set": "Ocean-Hued Clam",
+            "main_stat": {
+                "Sands": "ATK%",
+                "Goblet": "ATK%",
+                "Circlet": "ATK%",
+            },
+            "subs_stat": ["ATK%", "ER", "Crit Rate", "Crit Damage"]
         }
     },
     "Raiden Shogun": {
@@ -931,6 +1129,17 @@ const builds = {
         "EM": {
             "constellation": "",
             "weapon": "",
+            "set": "",
+            "main_stat": {
+                "Sands": "",
+                "Goblet": "",
+                "Circlet": "",
+            },
+            "subs_stat": ["", "", "", ""]
+        },
+        "Nacho": {
+            "constellation": "0",
+            "weapon": "Engulfing Lightning / Skyward Spine",
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -1012,6 +1221,17 @@ const builds = {
                 "Circlet": "",
             },
             "subs_stat": ["", "", "", ""]
+        },
+        "Nacho": {
+            "constellation": "6",
+            "weapon": "Wolf's Gravestone / Mailed Flower / Luxurious Sea-Lord",
+            "set": "Viridescent Venerer",
+            "main_stat": {
+                "Sands": "EM",
+                "Goblet": "EM",
+                "Circlet": "EM",
+            },
+            "subs_stat": ["ER", "EM", "ATK%", "ATK"]
         }
     },
     "Shenhe": {
@@ -1025,6 +1245,17 @@ const builds = {
                 "Circlet": "",
             },
             "subs_stat": ["", "", "", ""]
+        },
+        "Nacho": {
+            "constellation": "0",
+            "weapon": "Calamity Queller / Primordial Jade Winged-Spear / Skyward Spine / Favonius Lance",
+            "set": "Noblesse Oblige",
+            "main_stat": {
+                "Sands": "ATK%",
+                "Goblet": "ATK%",
+                "Circlet": "ATK%",
+            },
+            "subs_stat": ["ER", "ATK%", "Crit Rate", "Crit Damage"]
         }
     },
     "Shikanoin Heizou": {
@@ -1038,6 +1269,17 @@ const builds = {
                 "Circlet": "",
             },
             "subs_stat": ["", "", "", ""]
+        },
+        "Nacho": {
+            "constellation": "6",
+            "weapon": "The Widsith",
+            "set": "Viridescent Venerer",
+            "main_stat": {
+                "Sands": "ATK%",
+                "Goblet": "Anemo Bonus",
+                "Circlet": "Crit Rate",
+            },
+            "subs_stat": ["Crit Rate", "Crit Damage", "ATK%", "EM"]
         }
     },
     "Sucrose": {
@@ -1051,6 +1293,17 @@ const builds = {
                 "Circlet": "",
             },
             "subs_stat": ["", "", "", ""]
+        },
+        "Nacho": {
+            "constellation": "6",
+            "weapon": "Thrilling Tales of Dragon Slayers",
+            "set": "Viridescent Venerer",
+            "main_stat": {
+                "Sands": "EM",
+                "Goblet": "EM",
+                "Circlet": "EM",
+            },
+            "subs_stat": ["EM", "ER", "ATK%", "ATK"]
         }
     },
     "Tartaglia": {
@@ -1088,6 +1341,17 @@ const builds = {
                 "Circlet": "",
             },
             "subs_stat": ["", "", "", ""]
+        },
+        "Nacho": {
+            "constellation": "6",
+            "weapon": "Skyward Spine / The Catch",
+            "set": "Noblesse Oblige",
+            "main_stat": {
+                "Sands": "ER",
+                "Goblet": "HP%",
+                "Circlet": "HP%",
+            },
+            "subs_stat": ["HP%", "HP", "ER", ""]
         }
     },
     "Tighnari": {
@@ -1114,6 +1378,17 @@ const builds = {
                 "Circlet": "",
             },
             "subs_stat": ["", "", "", ""]
+        },
+        "Nacho": {
+            "constellation": "0",
+            "weapon": "Elegy for the End / The Stringless",
+            "set": "Viridescent Venerer",
+            "main_stat": {
+                "Sands": "EM",
+                "Goblet": "EM",
+                "Circlet": "EM"
+            },
+            "subs_stat": ["EM", "ER", "ATK%", "Crit Rate / Crit Damage"]
         }
     },
     "Wanderer": {
@@ -1175,6 +1450,17 @@ const builds = {
                 "Circlet": "Crit"
             },
             "subs_stat": ["ER", "Crit", "ATK%", "EM"]
+        },
+        "Nacho": {
+            "constellation": "6",
+            "weapon": "Staff of Homa / The Catch",
+            "set": "Emblem of Severed Fate",
+            "main_stat": {
+                "Sands": "ATK%",
+                "Goblet": "Pyro Bonus",
+                "Circlet": "Crit Rate"
+            },
+            "subs_stat": ["Crit Rate", "Crit Damage", "ATK%", "ER"]
         }
     },
     "Xianyun": {
@@ -1214,6 +1500,17 @@ const builds = {
                 "Circlet": "Crit"
             },
             "subs_stat": ["Crit", "ATK%", "ER"]
+        },
+        "Nacho": {
+            "constellation": "6",
+            "weapon": "Primordial Jade Cutter / Favonius Sword / Sacrificial Sword R3",
+            "set": "Emblem of Severed Fate",
+            "main_stat": {
+                "Sands": "ER",
+                "Goblet": "Hydro Bonus",
+                "Circlet": "Crit Rate"
+            },
+            "subs_stat": ["ER", "Crit Rate", "Crit Damage", "ATK%"]
         }
     },
     "Xinyan": {
@@ -1251,6 +1548,17 @@ const builds = {
                 "Circlet": "",
             },
             "subs_stat": ["", "", "", ""]
+        },
+        "Nacho": {
+            "constellation": "0",
+            "weapon": "Kagura's Verity / Lost Prayer to the Sacred Winds / Oathsworn Eye R5",
+            "set": "Emblem of Severed Fate",
+            "main_stat": {
+                "Sands": "ATK%",
+                "Goblet": "Electro Bonus",
+                "Circlet": "Crit Rate",
+            },
+            "subs_stat": ["Crit Rate", "Crit Damage", "ATK%", "ER"]
         }
     },
     "Yanfei": {
@@ -1288,6 +1596,17 @@ const builds = {
                 "Circlet": "",
             },
             "subs_stat": ["", "", "", ""]
+        },
+        "Nacho": {
+            "constellation": "6",
+            "weapon": "Favonius Lance",
+            "set": "Deepwood Memories",
+            "main_stat": {
+                "Sands": "ER",
+                "Goblet": "HP%",
+                "Circlet": "Healing Bonus",
+            },
+            "subs_stat": ["HP%", "ER", "HP", ""]
         }
     },
     "Yelan": {
@@ -1301,6 +1620,17 @@ const builds = {
                 "Circlet": "",
             },
             "subs_stat": ["", "", "", ""]
+        },
+        "Nacho": {
+            "constellation": "0",
+            "weapon": "Elegy for the End / Favonius Warbow",
+            "set": "Emblem of Severed Fate",
+            "main_stat": {
+                "Sands": "ER",
+                "Goblet": "Hydro Bonus",
+                "Circlet": "Crit Rate",
+            },
+            "subs_stat": ["Crit Rate", "Crit Damage", "ER", "HP%"]
         }
     },
     "Yoimiya": {
@@ -1314,6 +1644,17 @@ const builds = {
                 "Circlet": "Crit",
             },
             "subs_stat": ["Crit", "ATK", "EM", "ER"]
+        },
+        "Nacho": {
+            "constellation": "0",
+            "weapon": "Thundering Pulse",
+            "set": "Shimenawa's Reminiscence",
+            "main_stat": {
+                "Sands": "ATK%",
+                "Goblet": "Pyro Bonus",
+                "Circlet": "Crit Rate",
+            },
+            "subs_stat": ["Crit Rate", "Crit Damage", "ATK%", "ER"]
         }
     },
     "Yun Jin": {
