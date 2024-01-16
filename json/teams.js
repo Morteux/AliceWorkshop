@@ -8307,6 +8307,31 @@ const teams = {
         }
     },
 
+    "332": {
+        "name": "Sucrose Salad",
+        "description": "",
+        "rotation": "",
+        "archetype": "Salad",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Sucrose",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Xingqiu",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Aether",
+            "build": "Dendro"
+        },
+        "character_4": {
+            "name": ["Fischl"],
+            "build": ["Standard"]
+        }
+    }
+
     
 
 }   
