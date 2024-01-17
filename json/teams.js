@@ -7877,8 +7877,8 @@ const teams = {
             "build": "Standard"
         },
         "character_4": {
-            "name": ["Zhongli", "Albedo", "Ningguang", "Noelle"],
-            "build": ["Standard", "Standard", "Standard", "DPSFurina"]
+            "name": ["Zhongli", "Albedo", "Noelle"],
+            "build": ["Standard", "Standard",  "DPSFurina"]
         }
     },
 
@@ -7927,8 +7927,8 @@ const teams = {
             "build": "Standard"
         },
         "character_4": {
-            "name": ["Zhongli", "Albedo", "Ningguang", "Noelle", "Aether"],
-            "build": ["Standard", "Standard", "Standard", "Standard", "Geo"]
+            "name": ["Zhongli", "Albedo", "Noelle", "Aether"],
+            "build": ["Standard", "Standard", "Standard", "Geo"]
         }
     },
 
