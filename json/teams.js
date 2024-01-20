@@ -8752,7 +8752,7 @@ const teams = {
             "build": "Standard"
         },
         "character_4": {
-            "name": ["Yelan", "Xingqiu", "Candance"],
+            "name": ["Yelan", "Xingqiu", "Candace"],
             "build": ["Standard", "Standard", "Standard"]
         }
     },
