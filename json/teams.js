@@ -8380,7 +8380,410 @@ const teams = {
             "name": ["Yae Miko", "Fischl", "Raiden Shogun", "Beidou"],
             "build": ["Standard", "Standard", "EM", "SoloElectro"]
         }
+    },
+
+    "335": {
+        "name": "Rational",
+        "description": "You can use fav in Raiden and with her ults, give a lot of ER. ",
+        "rotation": "",
+        "archetype": "National",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Raiden Shogun",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Xiangling",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Bennett",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Yelan", "Xingqiu"],
+            "build": ["Standard", "Standard"]
+        }
+    },
+
+    "336": {
+        "name": "Keqing Taser",
+        "description": "",
+        "rotation": "",
+        "archetype": "Taser",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Keqing",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Fischl",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Kaedehara Kazuha",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Yelan", "Xingqiu"],
+            "build": ["Standard", "Standard"]
+        }
+    },
+
+    "337": {
+        "name": "Yae Taser",
+        "description": "",
+        "rotation": "",
+        "archetype": "Taser",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Yae Miko",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Fischl",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Kaedehara Kazuha",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Yelan", "Xingqiu"],
+            "build": ["Standard", "Standard"]
+        }
+    },
+
+    "338": {
+        "name": "Yae Taser",
+        "description": "Sucrose On-Field",
+        "rotation": "",
+        "archetype": "Taser",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Yae Miko",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Fischl",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Sucrose",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Yelan", "Xingqiu"],
+            "build": ["Standard", "Standard"]
+        }
+    },
+
+    "339": {
+        "name": "Raiden Yae Hypercarry",
+        "description": "",
+        "rotation": "",
+        "archetype": "Hypercarry",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Raiden Shogun",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Yae Miko",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Kaedehara Kazuha",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Bennett"],
+            "build": ["Standard"]
+        }
+    },
+
+    "340": {
+        "name": "Sucrose Taser",
+        "description": "",
+        "rotation": "",
+        "archetype": "Taser",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Sucrose",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Xingqiu",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Fischl",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Beidou"],
+            "build": ["Standard"]
+        }
+    },
+
+    "341": {
+        "name": "Ganyu MonoCryo",
+        "description": "",
+        "rotation": "",
+        "archetype": "MonoCryo",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Ganyu",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Shenhe",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Diona",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Kaedehara Kazuha", "Venti"],
+            "build": ["Standard", "Standard"]
+        }
+    },
+
+    "342": {
+        "name": "Ganyu Freeze, Morgana",
+        "description": "",
+        "rotation": "",
+        "archetype": "Freeze",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Ganyu",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Venti",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Diona",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Mona"],
+            "build": ["Standard"]
+        }
+    },
+
+    "343": {
+        "name": "Ganyu Freeze",
+        "description": "",
+        "rotation": "",
+        "archetype": "Freeze",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Ganyu",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Mona",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Venti",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Diona", "Layla", "Shenhe", "Rosaria"],
+            "build": ["Standard", "Standard", "Standard", "Standard"]
+        }
+    },
+
+    "344": {
+        "name": "Ganyu Freeze",
+        "description": "",
+        "rotation": "",
+        "archetype": "Freeze",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Ganyu",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Mona",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Kaedehara Kazuha",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Diona", "Layla", "Shenhe", "Rosaria"],
+            "build": ["Standard", "Standard", "Standard", "Standard"]
+        }
+    },
+
+    "345": {
+        "name": "Ganyu Melt",
+        "description": "",
+        "rotation": "",
+        "archetype": "Melt",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Ganyu",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Bennett",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Xiangling",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Kaeya", "Diona", "Shenhe", "Rosaria", "Layla"],
+            "build": ["Standard", "Standard", "Standard", "Standard", "Standard"]
+        }
+    },
+
+    "346": {
+        "name": "Sayu enabler",
+        "description": "Sayu doing brum brum",
+        "rotation": "",
+        "archetype": "MonoPyro",
+        "viability": "Troll",
+
+        "character_1": {
+            "name": "Sayu",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Kaedehara Kazuha",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Xiangling",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Bennett"],
+            "build": ["Standard"]
+        }
+    },
+
+    "347": {
+        "name": "Heizou Salad",
+        "description": "",
+        "rotation": "",
+        "archetype": "Salad",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Shikanoin Heizou",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Fischl",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Aether",
+            "build": "Dendro"
+        },
+        "character_4": {
+            "name": ["Xingqiu"],
+            "build": ["Standard"]
+        }
+    },
+
+    "348": {
+        "name": "Raiden Doble Hydro",
+        "description": "",
+        "rotation": "",
+        "archetype": "Taser",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Raiden Shogun",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Xingqiu",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Yelan",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Jean", "Kaedehara Kazuha"],
+            "build": ["Standard", "Standard"]
+        }
+    },
+
+     "349": {
+        "name": "Nilou Bloom",
+        "description": "",
+        "rotation": "",
+        "archetype": "Bloom",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Nilou",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Nahida",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Yaoyao",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Yelan", "Xingqiu", "Candance"],
+            "build": ["Standard", "Standard", "Standard"]
+        }
+    },
+
+    "350": {
+        "name": "Thoma Curry",
+        "description": "",
+        "rotation": "",
+        "archetype": "Curry",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Nahida",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Thoma",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Fischl",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Yelan", "Xingqiu"],
+            "build": ["Standard", "Standard"]
+        }
     }
+
+
+
 
 
     
