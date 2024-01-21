@@ -8884,7 +8884,7 @@ const teams = {
 
     "355": {
         "name": "Gaming Vape",
-        "description": "This is such a good team, but the problem is that you cannot control the hydro application of Furina, so doing a pyro swirl with Kazuha will be... well, good luck. If you have C6 bennett, look at #356.",
+        "description": "This is such a good team, but the problem is that you cannot control the hydro application of Furina, so doing a pyro swirl with Xianyun will be... well, good luck. If you have C6 bennett, look at #356.",
         "rotation": "",
         "archetype": "Vaporize",
         "viability": "Viable",
@@ -8953,6 +8953,107 @@ const teams = {
         },
         "character_4": {
             "name": ["Jean"],
+            "build": ["Standard"]
+        }
+    },
+
+    "358": {
+        "name": "Gaming Vape",
+        "description": "",
+        "rotation": "",
+        "archetype": "Vaporize",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Gaming",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Bennett",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Xianyun",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Xingqiu", "Yelan"],
+            "build": ["Standard", "Standard"]
+        }
+    },
+
+    "359": {
+        "name": "Gaming Vape",
+        "description": "",
+        "rotation": "",
+        "archetype": "Vaporize",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Gaming",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Bennett",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Kaedehara Kazuha",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Xingqiu", "Yelan"],
+            "build": ["Standard", "Standard"]
+        }
+    },
+
+    
+    "360": {
+        "name": "Gaming MonoPyro",
+        "description": "",
+        "rotation": "",
+        "archetype": "MonoPyro",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Gaming",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Bennett",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Xiangling",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Kaedehara Kazuha", "Xianyun"],
+            "build": ["Standard", "Standard"]
+        }
+    },
+
+    "361": {
+        "name": "Gaming Chevreuse",
+        "description": "Good in single-target scenarios where enemies don't explode with overload and vs infused enemies whose you can't swirl.",
+        "rotation": "",
+        "archetype": "Overload",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Gaming",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Bennett",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Chevreuse",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Fischl"],
             "build": ["Standard"]
         }
     }
