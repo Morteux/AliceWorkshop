@@ -8834,10 +8834,10 @@ const teams = {
 
     "353": {
         "name": "Gaming Vape",
-        "description": "",
+        "description": "This is such a good team, but the problem is that you cannot control the hydro application of Furina, so doing a pyro swirl with Kazuha will be... well, good luck. If you have C6 bennett, look at #354.",
         "rotation": "",
         "archetype": "Vaporize",
-        "viability": "Meta",
+        "viability": "Viable",
 
         "character_1": {
             "name": "Gaming",
@@ -8859,10 +8859,35 @@ const teams = {
 
     "354": {
         "name": "Gaming Vape",
-        "description": "",
-        "rotation": "",
+        "description": "If you have Bennett c6, you can do a rotation that can do pyro swirl easily. You also can do NAs with Gaming while the pet return.",
+        "rotation": "Furina E/Q + Bennett Q/E (wait until pyro disappear) 1NA + Kazuha E",
         "archetype": "Vaporize",
         "viability": "Meta",
+
+        "character_1": {
+            "name": "Gaming",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Bennett",
+            "build": "C6"
+        },
+        "character_3": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Kaedehara Kazuha"],
+            "build": ["Standard"]
+        }
+    },
+
+    "355": {
+        "name": "Gaming Vape",
+        "description": "This is such a good team, but the problem is that you cannot control the hydro application of Furina, so doing a pyro swirl with Kazuha will be... well, good luck. If you have C6 bennett, look at #356.",
+        "rotation": "",
+        "archetype": "Vaporize",
+        "viability": "Viable",
 
         "character_1": {
             "name": "Gaming",
@@ -8882,12 +8907,37 @@ const teams = {
         }
     },
 
-    "355": {
+    "356": {
         "name": "Gaming Vape",
-        "description": "",
+        "description": "If you have Bennett c6, you can do a rotation that can do pyro swirl easily. You also can do a plunge attack with Gaming while the pet return.",
         "rotation": "",
         "archetype": "Vaporize",
-        "viability": "Viable",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Gaming",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Bennett",
+            "build": "C6"
+        },
+        "character_3": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Xianyun"],
+            "build": ["Standard"]
+        }
+    },
+
+    "357": {
+        "name": "Gaming Vape",
+        "description": "With Jean you can do double swirl thanks to bennett and Jean's infusion.",
+        "rotation": "Furina E/Q + Bennett E/Q + Jean E/Q",
+        "archetype": "Vaporize",
+        "viability": "Meta",
 
         "character_1": {
             "name": "Gaming",
