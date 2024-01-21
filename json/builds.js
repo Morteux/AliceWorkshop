@@ -176,6 +176,17 @@ const builds = {
             },
             "subs_stat": ["ER"]
         },
+        "C6": {
+            "constellation": "6",
+            "weapon": "Aquila Favonia",
+            "set": "Noblesse Oblige",
+            "main_stat": {
+                "Sands": "ER",
+                "Goblet": "Pyro",
+                "Circlet": "Crit"
+            },
+            "subs_stat": ["ER"]
+        },
         "TF": {
             "constellation": "",
             "weapon": "Iron Sting",
