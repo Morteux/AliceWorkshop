@@ -5527,7 +5527,7 @@ const teams = {
             "build": "Standard"
         },
         "character_4": {
-            "name": ["Jean", "Sayu", "Xianyun],
+            "name": ["Jean", "Sayu", "Xianyun"],
             "build": ["Standard", "Standard", "Standard"]
         }
     },
