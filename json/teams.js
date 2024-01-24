@@ -3751,8 +3751,8 @@ const teams = {
             "build": "Standard"
         },
         "character_4": {
-            "name": ["Jean"],
-            "build": ["Standard"]
+            "name": ["Jean", "Xianyun"],
+            "build": ["Standard", "Standard"]
         }
     },
 
@@ -4251,8 +4251,8 @@ const teams = {
             "build": "Standard"
         },
         "character_4": {
-            "name": ["Mika", "Charlotte", "Jean", "Sayu", "Barbara"],
-            "build": ["Standard", "Standard", "Standard", "Standard", "Standard"]
+            "name": ["Mika", "Charlotte", "Jean", "Sayu", "Barbara", "Xianyun"],
+            "build": ["Standard", "Standard", "Standard", "Standard", "Standard", "Standard"]
         }
     },
 
@@ -4276,8 +4276,8 @@ const teams = {
             "build": "Dendro"
         },
         "character_4": {
-            "name": ["Mika", "Charlotte", "Jean", "Sayu", "Barbara"],
-            "build": ["Standard", "Standard", "Standard", "Standard", "Standard"]
+            "name": ["Mika", "Charlotte", "Jean", "Sayu", "Barbara", "Xianyun"],
+            "build": ["Standard", "Standard", "Standard", "Standard", "Standard", "Standard"]
         }
     },
 
@@ -4576,8 +4576,8 @@ const teams = {
             "build": "Standard"
         },
         "character_4": {
-            "name": ["Mika", "Charlotte", "Sayu", "Barbara", "Jean"],
-            "build": ["Standard", "Standard", "Standard", "Standard", "Standard"]
+            "name": ["Mika", "Charlotte", "Sayu", "Barbara", "Jean", "Xianyun"],
+            "build": ["Standard", "Standard", "Standard", "Standard", "Standard", "Standard"]
         }
     },
 
@@ -4601,8 +4601,8 @@ const teams = {
             "build": "Standard"
         },
         "character_4": {
-            "name": ["Mika", "Charlotte", "Sayu", "Barbara", "Jean"],
-            "build": ["Standard", "Standard", "Standard", "Standard", "Standard"]
+            "name": ["Mika", "Charlotte", "Sayu", "Barbara", "Jean", "Xianyun"],
+            "build": ["Standard", "Standard", "Standard", "Standard", "Standard", "Standard"]
         }
     },
 
@@ -4626,8 +4626,8 @@ const teams = {
             "build": "Standard"
         },
         "character_4": {
-            "name": ["Mika", "Charlotte", "Sayu", "Barbara", "Jean"],
-            "build": ["Standard", "Standard", "Standard", "Standard", "Standard"]
+            "name": ["Mika", "Charlotte", "Sayu", "Barbara", "Jean", "Xianyun"],
+            "build": ["Standard", "Standard", "Standard", "Standard", "Standard", "Standard"]
         }
     },
 
@@ -4701,8 +4701,8 @@ const teams = {
             "build": "Standard"
         },
         "character_4": {
-            "name": ["Jean", "Sayu", "Mika", "Charlotte", "Yaoyao", "Baizhu"],
-            "build": ["Standard", "Standard", "Standard", "Standard", "Standard", "Standard"]
+            "name": ["Jean", "Sayu", "Mika", "Charlotte", "Yaoyao", "Baizhu", "Xianyun"],
+            "build": ["Standard", "Standard", "Standard", "Standard", "Standard", "Standard", "Standard"]
         }
     },
 
@@ -4726,8 +4726,8 @@ const teams = {
             "build": "Standard"
         },
         "character_4": {
-            "name": ["Jean", "Sayu", "Mika", "Charlotte", "Yaoyao", "Baizhu"],
-            "build": ["Standard", "Standard", "Standard", "Standard", "Standard", "Standard"]
+            "name": ["Jean", "Sayu", "Mika", "Charlotte", "Yaoyao", "Baizhu", "Xianyun"],
+            "build": ["Standard", "Standard", "Standard", "Standard", "Standard", "Standard", "Standard"]
         }
     },
 
@@ -4801,8 +4801,8 @@ const teams = {
             "build": "Standard"
         },
         "character_4": {
-            "name": ["Jean", "Sayu", "Mika", "Charlotte", "Yaoyao", "Baizhu"],
-            "build": ["Standard", "Standard", "Standard", "Standard", "Standard", "Standard"]
+            "name": ["Jean", "Sayu", "Mika", "Charlotte", "Yaoyao", "Baizhu", "Xianyun"],
+            "build": ["Standard", "Standard", "Standard", "Standard", "Standard", "Standard", "Standard"]
         }
     },
 
@@ -4826,8 +4826,8 @@ const teams = {
             "build": "Standard"
         },
         "character_4": {
-            "name": ["Jean", "Sayu", "Mika", "Charlotte", "Yaoyao", "Baizhu"],
-            "build": ["Standard", "Standard", "Standard", "Standard", "Standard", "Standard"]
+            "name": ["Jean", "Sayu", "Mika", "Charlotte", "Yaoyao", "Baizhu", "Xianyun"],
+            "build": ["Standard", "Standard", "Standard", "Standard", "Standard", "Standard", "Standard"]
         }
     },
 
@@ -4851,8 +4851,8 @@ const teams = {
             "build": "Standard"
         },
         "character_4": {
-            "name": ["Jean", "Sayu", "Mika", "Charlotte", "Yaoyao", "Baizhu"],
-            "build": ["Standard", "Standard", "Standard", "Standard", "Standard", "Standard"]
+            "name": ["Jean", "Sayu", "Mika", "Charlotte", "Yaoyao", "Baizhu", "Xianyun"],
+            "build": ["Standard", "Standard", "Standard", "Standard", "Standard", "Standard", "Standard"]
         }
     },
 
@@ -4876,8 +4876,8 @@ const teams = {
             "build": "Standard"
         },
         "character_4": {
-            "name": ["Jean", "Sayu", "Mika", "Charlotte", "Yaoyao", "Baizhu"],
-            "build": ["Standard", "Standard", "Standard", "Standard", "Standard", "Standard"]
+            "name": ["Jean", "Sayu", "Mika", "Charlotte", "Yaoyao", "Baizhu", "Xianyun"],
+            "build": ["Standard", "Standard", "Standard", "Standard", "Standard", "Standard", "Standard"]
         }
     },
 
@@ -4901,8 +4901,8 @@ const teams = {
             "build": "Standard"
         },
         "character_4": {
-            "name": ["Jean", "Sayu", "Mika", "Charlotte", "Yaoyao", "Baizhu"],
-            "build": ["Standard", "Standard", "Standard", "Standard", "Standard", "Standard"]
+            "name": ["Jean", "Sayu", "Mika", "Charlotte", "Yaoyao", "Baizhu", "Xianyun"],
+            "build": ["Standard", "Standard", "Standard", "Standard", "Standard", "Standard", "Standard"]
         }
     },
 
@@ -4926,8 +4926,8 @@ const teams = {
             "build": "Standard"
         },
         "character_4": {
-            "name": ["Jean", "Sayu", "Mika", "Charlotte", "Yaoyao", "Baizhu"],
-            "build": ["Standard", "Standard", "Standard", "Standard", "Standard", "Standard"]
+            "name": ["Jean", "Sayu", "Mika", "Charlotte", "Yaoyao", "Baizhu", "Xianyun"],
+            "build": ["Standard", "Standard", "Standard", "Standard", "Standard", "Standard", "Standard"]
         }
     },
 
@@ -4964,7 +4964,7 @@ const teams = {
         "viability": "Meta",
 
         "character_1": {
-            "name": "Jean",
+            "name": "Yelan",
             "build": "Standard"
         },
         "character_2": {
@@ -4976,8 +4976,8 @@ const teams = {
             "build": "Standard"
         },
         "character_4": {
-            "name": ["Yelan"],
-            "build": ["Standard"]
+            "name": ["Jean", "Xianyun"],
+            "build": ["Standard", "Standard"]
         }
     },
 
@@ -5502,8 +5502,8 @@ const teams = {
             "build": "Standard"
         },
         "character_4": {
-            "name": ["Jean", "Sayu"],
-            "build": ["Standard", "Standard"]
+            "name": ["Jean", "Sayu", "Xianyun"],
+            "build": ["Standard", "Standard", "Standard"]
         }
     },
 
@@ -5527,8 +5527,8 @@ const teams = {
             "build": "Standard"
         },
         "character_4": {
-            "name": ["Jean", "Sayu"],
-            "build": ["Standard", "Standard"]
+            "name": ["Jean", "Sayu", "Xianyun],
+            "build": ["Standard", "Standard", "Standard"]
         }
     },
 
@@ -5552,8 +5552,8 @@ const teams = {
             "build": "Standard"
         },
         "character_4": {
-            "name": ["Jean", "Sayu"],
-            "build": ["Standard", "Standard"]
+            "name": ["Jean", "Sayu", "Xianyun"],
+            "build": ["Standard", "Standard", "Standard"]
         }
     },
 
@@ -5577,8 +5577,8 @@ const teams = {
             "build": "Standard"
         },
         "character_4": {
-            "name": ["Jean", "Sayu"],
-            "build": ["Standard", "Standard"]
+            "name": ["Jean", "Sayu", "Xianyun"],
+            "build": ["Standard", "Standard", "Standard"]
         }
     },
 
@@ -5784,7 +5784,7 @@ const teams = {
 
     "231": {
         "name": "Wanderer Furina Hypercarry",
-        "description": "You can use standard Wanderer build or Marechaussee Hunter artifacts set thanks to Furina (that might be better). If you don't have Faruzan c6, Jean can helps with ER requirements.",
+        "description": "You can use standard Wanderer build or Marechaussee Hunter artifacts set thanks to Furina (that might be better). If you don't have Faruzan c6, Jean or Xianyun can helps with ER requirements.",
         "rotation": "Furina Q > Healer Q/Healing",
         "archetype": "Hypercarry",
         "viability": "Viable",
@@ -5802,8 +5802,8 @@ const teams = {
             "build": "Standard"
         },
         "character_4": {
-            "name": ["Jean"],
-            "build": ["Standard"]
+            "name": ["Jean", "Xianyun"],
+            "build": ["Standard", "Standard"]
         }
     },
 
@@ -5827,8 +5827,8 @@ const teams = {
             "build": "Standard"
         },
         "character_4": {
-            "name": ["Jean", "Sayu"],
-            "build": ["Standard", "Standard"]
+            "name": ["Jean", "Sayu", "Xianyun"],
+            "build": ["Standard", "Standard", "Standard"]
         }
     },
 
@@ -5852,8 +5852,8 @@ const teams = {
             "build": "Standard"
         },
         "character_4": {
-            "name": ["Jean", "Sayu"],
-            "build": ["Standard", "Standard"]
+            "name": ["Jean", "Sayu", "Xianyun"],
+            "build": ["Standard", "Standard", "Standard"]
         }
     },
 
@@ -5877,8 +5877,8 @@ const teams = {
             "build": "Standard"
         },
         "character_4": {
-            "name": ["Jean", "Sayu"],
-            "build": ["Standard", "Standard"]
+            "name": ["Jean", "Sayu", "Xianyun"],
+            "build": ["Standard", "Standard", "Standard"]
         }
     },
 
@@ -5902,8 +5902,8 @@ const teams = {
             "build": "Standard"
         },
         "character_4": {
-            "name": ["Jean", "Sayu"],
-            "build": ["Standard", "Standard"]
+            "name": ["Jean", "Sayu", "Xianyun"],
+            "build": ["Standard", "Standard", "Standard"]
         }
     },
 
@@ -5977,8 +5977,8 @@ const teams = {
             "build": "Standard"
         },
         "character_4": {
-            "name": ["Jean", "Sayu"],
-            "build": ["Standard", "Standard"]
+            "name": ["Jean", "Sayu", "Xianyun"],
+            "build": ["Standard", "Standard", "Standard"]
         }
     },
 
@@ -6052,8 +6052,8 @@ const teams = {
             "build": "Standard"
         },
         "character_4": {
-            "name": ["Jean", "Sayu"],
-            "build": ["Standard", "Standard"]
+            "name": ["Jean", "Sayu", "Xianyun"],
+            "build": ["Standard", "Standard", "Standard"]
         }
     },
 
@@ -9056,7 +9056,158 @@ const teams = {
             "name": ["Fischl"],
             "build": ["Standard"]
         }
+    },
+
+    "362": {
+        "name": "Ayaka Furina Freeze",
+        "description": "",
+        "rotation": "",
+        "archetype": "Freeze",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Kamisato Ayaka",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Xianyun",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Shenhe", "Kaeya", "Rosaria"],
+            "build": ["Standard", "Standard", "Standard"]
+        }
+    },
+
+    "363": {
+        "name": "Ganyu Furina Freeze",
+        "description": "No grouping. Useful in single-target enemies that can freeze. Use Xianyun as a Jean, so you don't have to plunge.",
+        "rotation": "",
+        "archetype": "Freeze",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Ganyu",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Xianyun",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Shenhe", "Rosaria"],
+            "build": ["Standard","Standard"]
+        }
+    },
+
+    "364": {
+        "name": "Freminet Furina Freeze",
+        "description": "",
+        "rotation": "",
+        "archetype": "Freeze",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Freminet",
+            "build": "Freeze"
+        },
+        "character_2": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Xianyun",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Shenhe", "Kaeya", "Rosaria", "Xingqiu", "Yelan"],
+            "build": ["Standard", "Standard", "Standard", "Standard", "Standard"]
+        }
+    },
+
+    "365": {
+        "name": "Kaeya Furina Freeze",
+        "description": "",
+        "rotation": "",
+        "archetype": "Freeze",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Kaeya",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Xianyun",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Shenhe", "Rosaria", "Xingqiu", "Yelan", "Chongyun"],
+            "build": ["Standard", "Standard", "Standard", "Standard", "Standard"]
+        }
+    },
+
+    "366": {
+        "name": "Raiden Furina Hypercarry",
+        "description": "",
+        "rotation": "Furina Q > Xianyun E/Q",
+        "archetype": "Hypercarry",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Raiden Shogun",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Xianyun",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Bennett", "Kujou Sara"],
+            "build": ["Standard", "Standard"]
+        }
+    },
+
+    "367": {
+        "name": "Wriothesley Freeze",
+        "description": "",
+        "rotation": "",
+        "archetype": "Freeze",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Wriothesley",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Xianyun",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Xingqiu", "Yelan"],
+            "build": ["Standard", "Standard"]
+        }
     }
+
     
 
 }   
