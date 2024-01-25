@@ -9631,6 +9631,56 @@ const teams = {
             "name": ["Kaeya", "Rosaria", "Ganyu"],
             "build": ["Standard", "Standard", "Ultimate"]
         }
+    },
+
+    "386": {
+        "name": "Ningguang 'Hypercarry'",
+        "description": "Okeish i think",
+        "rotation": "",
+        "archetype": "Hypercarry",
+        "viability": "Troll",
+
+        "character_1": {
+            "name": "Ningguang",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Zhongli",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Bennett"],
+            "build": ["Standard"]
+        }
+    },
+
+    "387": {
+        "name": "Thundering Furry",
+        "description": "Best Razor team so far",
+        "rotation": "",
+        "archetype": "Curry",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Razor",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Nahida",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Xingqiu",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Bennett"],
+            "build": ["C6"]
+        }
     }
 
 }   
