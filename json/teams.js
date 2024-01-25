@@ -6877,8 +6877,8 @@ const teams = {
             "build": "Standard"
         },
         "character_4": {
-            "name": ["Yelan", "Xingqiu", "Aether"],
-            "build": ["Standard","Standard", "Dendro"]
+            "name": ["Yelan", "Xingqiu", "Aether", "Fischl"],
+            "build": ["Standard","Standard", "Dendro", "Standard"]
         }
     },
 
@@ -6887,7 +6887,7 @@ const teams = {
         "description": "Dori On-Field has enough healing for Furina teams",
         "rotation": "",
         "archetype": "Hyperbloom",
-        "viability": "Viable",
+        "viability": "Troll",
 
         "character_1": {
             "name": "Dori",
@@ -9558,7 +9558,80 @@ const teams = {
         }
     },
 
-    
+    "383": {
+        "name": "Bennett Burgeon",
+        "description": "",
+        "rotation": "Bennett On-Field spamming E+NA",
+        "archetype": "Burgeon",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Bennett",
+            "build": "EM"
+        },
+        "character_2": {
+            "name": "Nahida",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Xingqiu",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Yelan"],
+            "build": ["Standard"]
+        }
+    },
+
+    "384": {
+        "name": "Bennett Curry",
+        "description": "",
+        "rotation": "Bennett On-Field spamming E+NA",
+        "archetype": "Curry",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Bennett",
+            "build": "EM"
+        },
+        "character_2": {
+            "name": "Nahida",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Xingqiu",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Fischl"],
+            "build": ["Standard"]
+        }
+    },
+
+    "385": {
+        "name": "Bennett HyperFridge",
+        "description": "",
+        "rotation": "Bennett On-Field spamming E+NA",
+        "archetype": "HyperFridge",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Bennett",
+            "build": "EM"
+        },
+        "character_2": {
+            "name": "Nahida",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Xingqiu",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Kaeya", "Rosaria", "Ganyu"],
+            "build": ["Standard", "Standard", "Ultimate"]
+        }
+    }
 
 }   
 
