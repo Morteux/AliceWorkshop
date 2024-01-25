@@ -7637,7 +7637,7 @@ const teams = {
         "description": "Good in single-target scenarios where enemies don't explode with overload and vs infused enemies whose you can't swirl.",
         "rotation": "",
         "archetype": "Overload",
-        "viability": "Viable",
+        "viability": "Meta",
 
         "character_1": {
             "name": "Yae Miko",
