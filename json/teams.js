@@ -7211,7 +7211,7 @@ const teams = {
         "name": "Yanfei Furina Doble Hydro",
         "description": "You have to swap all the time between the characters in order to bennett heal all the allies. Bennett healer build.",
         "rotation": "",
-        "archetype": "National",
+        "archetype": "Vaporize",
         "viability": "Viable",
 
         "character_1": {
