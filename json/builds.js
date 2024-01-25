@@ -398,7 +398,7 @@ const builds = {
         "C6": {
             "constellation": "6",
             "weapon": "",
-            "set": "",
+            "set": "Thundering Fury",
             "main_stat": {
                 "Sands": "",
                 "Goblet": "",
