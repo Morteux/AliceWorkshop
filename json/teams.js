@@ -5709,9 +5709,9 @@ const teams = {
 
     "228": {
         "name": "Raiden Furina Hypercarry",
-        "description": "",
+        "description": "Jean Sunfire plus Raiden doing a lot of damage. ",
         "rotation": "Furina Q > Jean Q",
-        "archetype": "Hypercarry",
+        "archetype": "Overvape",
         "viability": "Meta",
 
         "character_1": {
@@ -5727,8 +5727,8 @@ const teams = {
             "build": "Standard"
         },
         "character_4": {
-            "name": ["Bennett", "Kujou Sara"],
-            "build": ["Standard", "Standard"]
+            "name": ["Bennett"],
+            "build": ["Standard"]
         }
     },
 
@@ -9205,6 +9205,31 @@ const teams = {
         "character_4": {
             "name": ["Xingqiu", "Yelan"],
             "build": ["Standard", "Standard"]
+        }
+    },
+
+    "368": {
+        "name": "Raiden Furina Hypercarry",
+        "description": "",
+        "rotation": "Furina Q > Jean Q",
+        "archetype": "Hypercarry",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Raiden Shogun",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Jean",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Kujou Sara"],
+            "build": ["Standard"]
         }
     }
 
