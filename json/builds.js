@@ -209,6 +209,18 @@ const builds = {
             },
             "subs_stat": ["ER", "HP%"]
         },
+
+        "EM": {
+            "constellation": "6",
+            "weapon": "Aquila Favonia",
+            "set": "Maiden",
+            "main_stat": {
+                "Sands": "ER",
+                "Goblet": "EM%",
+                "Circlet": "EM"
+            },
+            "subs_stat": ["EM", "ER%"]
+        },
     },
     "Candace": {
         "Standard": {
