@@ -7252,8 +7252,8 @@ const teams = {
             "build": "Standard"
         },
         "character_4": {
-            "name": ["Jean", "Sayu"],
-            "build": ["Standard", "Standard"]
+            "name": ["Jean", "Sayu", "Xianyun"],
+            "build": ["Standard", "Standard", "Standard"]
         }
     },
 
@@ -7277,8 +7277,8 @@ const teams = {
             "build": "Standard"
         },
         "character_4": {
-            "name": ["Jean", "Sayu"],
-            "build": ["Standard", "Standard"]
+            "name": ["Jean", "Sayu", "Xianyun"],
+            "build": ["Standard", "Standard", "Standard"]
         }
     },
 
@@ -8209,7 +8209,7 @@ const teams = {
 
     "328": {
         "name": "Lyney Jean",
-        "description": "OP in abyss where there are Hydro infused enemies or bosses.",
+        "description": "OP in abyss where there are Hydro infused enemies or bosses due to Jean pyro swirl.",
         "rotation": "",
         "archetype": "MonoPyro",
         "viability": "Viable",
@@ -8727,8 +8727,8 @@ const teams = {
             "build": "Standard"
         },
         "character_4": {
-            "name": ["Jean", "Kaedehara Kazuha"],
-            "build": ["Standard", "Standard"]
+            "name": ["Jean", "Kaedehara Kazuha", "Xianyun"],
+            "build": ["Standard", "Standard", "Standard"]
         }
     },
 
@@ -9231,7 +9231,332 @@ const teams = {
             "name": ["Kujou Sara"],
             "build": ["Standard"]
         }
-    }
+    },
+
+    "369": {
+        "name": "Navia Furina Carry",
+        "description": "You can change Navia's artifacts for Marechaussee Hunter",
+        "rotation": "",
+        "archetype": "Hypercarry",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Navia",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Xianyun",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Albedo", "Zhongli", "Ningguang", "Yelan"],
+            "build": ["Standard", "Standard", "Standard", "Standard"]
+        }
+    },
+
+    "371": {
+        "name": "Hu Tao Xianyun Doble Hydro",
+        "description": "Best Hu Tao Doble Hydro team.",
+        "rotation": "Do Hu Tao NA2CJ PA combo (2 Normal attacks into 1 Charge attack, jumping to cancel de CA and doing a Plunge which can cancel too into another NA)",
+        "archetype": "Vaporize",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Hu Tao",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Xingqiu",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Xianyun"],
+            "build": ["Standard"]
+        }
+    },
+
+    "372": {
+        "name": "Hu Tao Xianyun Doble Hydrp",
+        "description": "With yelan instead Xingqiu, you don't have defense utility and you won't vape all plunges due to slower hydro app.",
+        "rotation": "Do Hu Tao NA2CJ PA combo (2 Normal attacks into 1 Charge attack, jumping to cancel de CA and doing a Plunge which can cancel too into another NA)",
+        "archetype": "Vaporize",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Hu Tao",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Yelan",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Xianyun"],
+            "build": ["Standard"]
+        }
+    },
+
+    "373": {
+        "name": "Hu Tao Xianyun VV Vape",
+        "description": "",
+        "rotation": "",
+        "archetype": "Vaporize",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Hu Tao",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Bennett",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Xianyun",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Xingqiu"],
+            "build": ["Standard"]
+        }
+    },
+
+    "374": {
+        "name": "Bennett Carry Xianyun",
+        "description": "Xingqiu might provide better vaporize numbers due to higher hydro app",
+        "rotation": "Alternate between bennett's E and PA",
+        "archetype": "Vaporize",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Bennett",
+            "build": "C6"
+        },
+        "character_2": {
+            "name": "Xianyun",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Xingqiu", "Yelan"],
+            "build": ["Standard", "Standard"]
+        }
+    },
+
+    "375": {
+        "name": "Xiao Triple Anemo Hypercarry",
+        "description": "",
+        "rotation": "",
+        "archetype": "Hypercarry",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Xiao",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Xianyun",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Faruzan",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Furina", "Bennett"],
+            "build": ["Standard", "Standard"]
+        }
+    },
+
+    "376": {
+        "name": "Diluc Xianyun",
+        "description": "If you have bennett c6, look #377",
+        "rotation": "You can cancel the PA end hitlag with a dash, so you can jump another time faster.",
+        "archetype": "Vaporize",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Diluc",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Xianyun",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Bennett"],
+            "build": ["Standard"]
+        }
+    },
+
+    "377": {
+        "name": "Diluc Xianyun",
+        "description": "This teams is stronger with Bennett C6, due to pyro infusion, you can swirl easily and have better pyro uptime. Diluc PAs are pretty strong.",
+        "rotation": "You can cancel the PA end hitlag with a dash, so you can jump another time faster.",
+        "archetype": "Vaporize",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Diluc",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Xianyun",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Bennett"],
+            "build": ["C6"]
+        }
+    },
+
+    "378": {
+        "name": "Noelle Furina",
+        "description": "",
+        "rotation": "You can cancel the PA end hitlag with a dash, so you can jump another time faster.",
+        "archetype": "Hypercarry",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Noelle",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Xianyun",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Yelan", "Xingqiu", "Gorou", "Albedo", "Fischl"],
+            "build": ["Standard", "Standard", "Standard", "Standard", "Standard"]
+        }
+    },
+
+    "379": {
+        "name": "Chongyun Rev Melt Xianyun",
+        "description": "",
+        "rotation": "",
+        "archetype": "Melt",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Chongyun",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Xianyun",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Xiangling",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Bennett"],
+            "build": ["Standard"]
+        }
+    },
+
+    "380": {
+        "name": "Ayaka Rev Melt Xianyun",
+        "description": "",
+        "rotation": "",
+        "archetype": "Melt",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Kamisato Ayaka",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Xianyun",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Xiangling",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Bennett"],
+            "build": ["Standard"]
+        }
+    },
+
+    "381": {
+        "name": "Wriothesley Rev Melt Xianyun",
+        "description": "",
+        "rotation": "",
+        "archetype": "Melt",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Wriothesley",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Xianyun",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Xiangling",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Bennett"],
+            "build": ["Standard"]
+        }
+    },
+
+    "382": {
+        "name": "Barbara Forward Vape Xianyun",
+        "description": "",
+        "rotation": "",
+        "archetype": "Vaporize",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Barbara",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Xianyun",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Xiangling",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Bennett"],
+            "build": ["Standard"]
+        }
+    },
 
     
 
