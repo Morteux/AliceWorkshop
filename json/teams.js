@@ -9686,7 +9686,7 @@ const teams = {
     "388": {
         "name": "Diluc Forward Melt",
         "description": "A team where Diluc procs the melt reaction",
-        "rotation": "",
+        "rotation": "Diluc Q > PA. If Bennett C6, just use PA, don't need burst. ",
         "archetype": "Melt",
         "viability": "Meta",
 
