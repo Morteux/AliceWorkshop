@@ -9681,6 +9681,31 @@ const teams = {
             "name": ["Bennett"],
             "build": ["C6"]
         }
+    },
+
+    "388": {
+        "name": "Diluc Forward Melt",
+        "description": "A team where Diluc procs the melt reaction",
+        "rotation": "",
+        "archetype": "Melt",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Diluc",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Rosaria",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Xianyun",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Bennett"],
+            "build": ["Standard"]
+        }
     }
 
 }   
