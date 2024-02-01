@@ -9578,8 +9578,8 @@ const teams = {
             "build": "Standard"
         },
         "character_4": {
-            "name": ["Yelan"],
-            "build": ["Standard"]
+            "name": ["Yelan", "Kaedehara Kazuha"],
+            "build": ["Standard", "Standard"]
         }
     },
 
