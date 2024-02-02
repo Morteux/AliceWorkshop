@@ -9260,10 +9260,10 @@ const teams = {
 
     "370": {
         "name": "Xianyun goes brrrrrr",
-        "description": "",
-        "rotation": "",
-        "archetype": "Hypercarry",
-        "viability": "Meta",
+        "description": "With Bennett C6, Xianyun and Furina, you can add almost any other character of the game to do plunge attacks and vaporize. Just build it with EM/Pyro/Crit%, and any character in the game could be a viable option to clear abbys. Just be careful to not overwrite bennett's pyro infusion. You only have to do PA with the 4º character, but can do E/Q if you think it could be useful.",
+        "rotation": "Furina E+Q > Xianyun Q > Bennett Q+E (wait until pyro disappear) 1NA > Xianyun NA1 E > Flex Character PA",
+        "archetype": "Vaporize",
+        "viability": "Viable",
 
         "character_1": {
             "name": "Xianyun",
