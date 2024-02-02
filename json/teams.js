@@ -9335,8 +9335,8 @@ const teams = {
 
     "374": {
         "name": "Bennett Carry Xianyun",
-        "description": "Xingqiu might provide better vaporize numbers due to higher hydro app",
-        "rotation": "Alternate between bennett's E and PA",
+        "description": "",
+        "rotation": "Furina EQ, Yelan/Xingqiu EQ, Xianyun EQ, Bennett Q > PA + NA1 + E (repeat)",
         "archetype": "Vaporize",
         "viability": "Meta",
 
@@ -9385,10 +9385,10 @@ const teams = {
 
     "376": {
         "name": "Diluc Xianyun",
-        "description": "If you have bennett c6, look #377",
-        "rotation": "You can cancel the PA end hitlag with a dash, so you can jump another time faster.",
+        "description": "If you have bennett c6, look rotation at #377, which is a bit stronger. You can cancel the PA end hitlag with a dash, so you can jump another time faster.",
+        "rotation": "Furina E+Q > Xianyun Q > Bennett Q + Hold E 1 charge > Xianyun NA1 E > Diluc Q + PA",
         "archetype": "Vaporize",
-        "viability": "Viable",
+        "viability": "Meta",
 
         "character_1": {
             "name": "Diluc",
@@ -9410,8 +9410,8 @@ const teams = {
 
     "377": {
         "name": "Diluc Xianyun",
-        "description": "This teams is stronger with Bennett C6, due to pyro infusion, you can swirl easily and have better pyro uptime. Diluc PAs are pretty strong.",
-        "rotation": "You can cancel the PA end hitlag with a dash, so you can jump another time faster.",
+        "description": "If you have Bennett C6, don't use dilucs Q, just PA. You can cancel the PA end hitlag with a dash, so you can jump another time faster.",
+        "rotation": "Furina E+Q > Xianyun Q > Bennett Q+E (wait until pyro disappear) 1NA > Xianyun NA1 E > Diluc PA",
         "archetype": "Vaporize",
         "viability": "Meta",
 
