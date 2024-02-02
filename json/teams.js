@@ -8887,7 +8887,7 @@ const teams = {
         "description": "If you have C6 bennett, look at #356, which is way better. With Bennett C4, you can also do Hold E 2 Charge to have more time.",
         "rotation": "Furina E+Q > Xianyun Q > Bennett Q + Hold E 1 charge > Xianyun NA1 E > Gaming Q + E",
         "archetype": "Vaporize",
-        "viability": "Meta",
+        "viability": "Viable",
 
         "character_1": {
             "name": "Gaming",
