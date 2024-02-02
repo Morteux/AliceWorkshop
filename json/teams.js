@@ -9806,6 +9806,31 @@ const teams = {
             "name": ["Xianyun"],
             "build": ["Standard"]
         }
+    },
+
+    "392": {
+        "name": "Ayato Vape Xianyun",
+        "description": "Let's Ayato has the Bennett's pyro infusion, don't do E to have the hydro infusion when PA. ",
+        "rotation": "Ayato E+1NA+Q > Furina E+Q > Xianyun E+Q > Bennett E+Q > Ayato 1NA CA PA (repeat 1NCJP)",
+        "archetype": "Vaporize",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Kamisato Ayato",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Bennett",
+            "build": "C6"
+        },
+        "character_3": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Xianyun"],
+            "build": ["Standard"]
+        }
     }
 }   
 
