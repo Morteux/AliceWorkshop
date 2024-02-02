@@ -9534,18 +9534,18 @@ const teams = {
     },
 
     "382": {
-        "name": "Barbara Forward Vape Xianyun",
+        "name": "Hydro Forward Vape Xianyun",
         "description": "",
         "rotation": "",
         "archetype": "Vaporize",
         "viability": "Viable",
 
         "character_1": {
-            "name": "Barbara",
+            "name": "Xianyun",
             "build": "Standard"
         },
         "character_2": {
-            "name": "Xianyun",
+            "name": "Bennett",
             "build": "Standard"
         },
         "character_3": {
@@ -9553,8 +9553,8 @@ const teams = {
             "build": "Standard"
         },
         "character_4": {
-            "name": ["Bennett"],
-            "build": ["Standard"]
+            "name": ["Barbara", "Candace", "Mona"],
+            "build": ["Standard", "Standard", "Standard"]
         }
     },
 
@@ -9755,6 +9755,31 @@ const teams = {
         "character_4": {
             "name": ["Rosaria", "Kaeya", "Shenhe"],
             "build": ["Standard", "Standard", "Standard"]
+        }
+    },
+
+    "391": {
+        "name": "Neuvillette Forward Vape Xianyun",
+        "description": "Build Neuvillette with full ATK/EM/CRIT build (instead HP) to do PAs.",
+        "rotation": "",
+        "archetype": "Vaporize",
+        "viability": "Unique",
+
+        "character_1": {
+            "name": "Neuvillette",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Bennett",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Xiangling",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Xianyun"],
+            "build": ["Standard"]
         }
     }
 }   
