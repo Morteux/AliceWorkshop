@@ -8785,7 +8785,7 @@ const teams = {
     "351": {
         "name": "Gaming Melt",
         "description": "",
-        "rotation": "",
+        "rotation": "Rosaria E > Kazuha Q > Bennet E/Q > Kazuha E > Rosaria E/Q > Gaming Q+E.",
         "archetype": "Melt",
         "viability": "Meta",
 
@@ -8810,7 +8810,7 @@ const teams = {
     "352": {
         "name": "Gaming Melt",
         "description": "",
-        "rotation": "",
+        "rotation": "Rosaria E > Xianyun Q > Bennet E/Q > Xianyun E > Rosaria E/Q > Gaming Q+E (PA until E returns)",
         "archetype": "Melt",
         "viability": "Meta",
 
@@ -8834,8 +8834,8 @@ const teams = {
 
     "353": {
         "name": "Gaming Vape",
-        "description": "This is such a good team, but the problem is that you cannot control the hydro application of Furina, so doing a pyro swirl with Kazuha will be... well, good luck. If you have C6 bennett, look at #354.",
-        "rotation": "",
+        "description": "If you have C6 bennett, look at #354. With Bennett C4, you can also do Hold E 2 Charge to have more time.",
+        "rotation": "Furina E+Q > Bennett Q + Hold E 1 charge > Kazuha E > Gaming Q+E",
         "archetype": "Vaporize",
         "viability": "Viable",
 
@@ -8884,10 +8884,10 @@ const teams = {
 
     "355": {
         "name": "Gaming Vape",
-        "description": "This is such a good team, but the problem is that you cannot control the hydro application of Furina, so doing a pyro swirl with Xianyun will be... well, good luck. If you have C6 bennett, look at #356.",
-        "rotation": "",
+        "description": "If you have C6 bennett, look at #356. With Bennett C4, you can also do Hold E 2 Charge to have more time.",
+        "rotation": "Furina E+Q > Xianyun Q > Bennett Q + Hold E 1 charge > Xianyun NA1 E > Gaming Q + E",
         "archetype": "Vaporize",
-        "viability": "Viable",
+        "viability": "Meta",
 
         "character_1": {
             "name": "Gaming",
@@ -8909,8 +8909,8 @@ const teams = {
 
     "356": {
         "name": "Gaming Vape",
-        "description": "If you have Bennett c6, you can do a rotation that can do pyro swirl easily. You also can do a plunge attack with Gaming while the pet return.",
-        "rotation": "",
+        "description": "You can do a plunge attack with Gaming while the pet return.",
+        "rotation": "Furina E+Q > Xianyun Q > Bennett Q+E (wait until pyro disappear) 1NA > Xianyun NA1 E > Gaming Q E PA",
         "archetype": "Vaporize",
         "viability": "Meta",
 
@@ -9385,7 +9385,7 @@ const teams = {
 
     "376": {
         "name": "Diluc Xianyun",
-        "description": "If you have bennett c6, look rotation at #377, which is a bit stronger. You can cancel the PA end hitlag with a dash, so you can jump another time faster.",
+        "description": "If you have bennett c6, look rotation at #377, which is a bit stronger. With Bennett C4, you can also do Hold E 2 Charge to have more time. You can cancel the PA end hitlag with a dash, so you can jump another time faster.",
         "rotation": "Furina E+Q > Xianyun Q > Bennett Q + Hold E 1 charge > Xianyun NA1 E > Diluc Q + PA",
         "archetype": "Vaporize",
         "viability": "Meta",
