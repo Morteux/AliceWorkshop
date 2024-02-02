@@ -1,6 +1,6 @@
 var sort_value = "";
 
-var isAscending = true; // Default order direction
+var isAscending = false; // Default order direction
 
 document.addEventListener("DOMContentLoaded", (event) => {
     // Default sort mode
