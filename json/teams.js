@@ -9186,7 +9186,7 @@ const teams = {
     "367": {
         "name": "Wriothesley Freeze",
         "description": "",
-        "rotation": "Wriothesley N3C + N1 PA (repeat N1 PA). Do N1 C PA if you have passive",
+        "rotation": "Wriothesley N1 PA (repeat). Do N1 C PA if you have passive",
         "archetype": "Freeze",
         "viability": "Meta",
 
@@ -9736,7 +9736,7 @@ const teams = {
     "390": {
         "name": "Wriothesley Freeze",
         "description": "",
-        "rotation": "Wriothesley N3C + N1 PA (repeat N1 PA). Do N1 C PA if you have passive",
+        "rotation": "Wriothesley N1 PA (repeat). Do N1 C PA if you have passive",
         "archetype": "Freeze",
         "viability": "Meta",
 
