@@ -3200,8 +3200,8 @@ const teams = {
             "build": "Standard"
         },
         "character_4": {
-            "name": ["Kaedehara Kazuha", "Jean"],
-            "build": ["Standard", "Standard"]
+            "name": ["Kaedehara Kazuha", "Jean", "Xianyun"],
+            "build": ["Standard", "Standard", "Standard"]
         }
     },
     
@@ -3751,8 +3751,8 @@ const teams = {
             "build": "Standard"
         },
         "character_4": {
-            "name": ["Jean", "Xianyun"],
-            "build": ["Standard", "Standard"]
+            "name": ["Jean"],
+            "build": ["Standard"]
         }
     },
 
@@ -4809,7 +4809,7 @@ const teams = {
     "192": {
         "name": "Diluc Furina Doble Hydro Vape",
         "description": "Diluc Doble Hydro plus a flex healer. The dendro ones could generate some seeds but its okay. ",
-        "rotation": "Remember: Furina Q > Healer Q/healing",
+        "rotation": "Remember: Furina Q > Healer Q/healing ",
         "archetype": "Vaporize",
         "viability": "Viable",
 
@@ -5535,7 +5535,7 @@ const teams = {
     "221": {
         "name": "Raiden Furina Taser",
         "description": "",
-        "rotation": "",
+        "rotation": "With Xianyun: Raiden N1CJP (1 Normal Attack + 1 Charge Attack + Jump + Pungle Attack)",
         "archetype": "Taser",
         "viability": "Meta",
 
@@ -5559,7 +5559,7 @@ const teams = {
 
     "222": {
         "name": "Raiden Furina Taser",
-        "description": "",
+        "description": "With Xianyun: Raiden N1CJP (1 Normal Attack + 1 Charge Attack + Jump + Pungle Attack)",
         "rotation": "",
         "archetype": "Taser",
         "viability": "Meta",
@@ -5859,7 +5859,7 @@ const teams = {
 
     "234": {
         "name": "Tartaglia Furina MonoHydro",
-        "description": "",
+        "description": "If you use Xianyun instead of Jean, you don't have to plunge",
         "rotation": "Furina Q > Healer Q/healing",
         "archetype": "MonoHydro",
         "viability": "Viable",
@@ -5884,7 +5884,7 @@ const teams = {
 
     "235": {
         "name": "Tartaglia Furina MonoHydro",
-        "description": "",
+        "description": "If you use Xianyun instead of Jean, you don't have to plunge",
         "rotation": "Furina Q > Healer Q/healing",
         "archetype": "MonoHydro",
         "viability": "Viable",
@@ -7234,7 +7234,7 @@ const teams = {
 
     "289": {
         "name": "Furina Doble Hydro Taser",
-        "description": "",
+        "description": "If you use Xianyun instead of Jean, you don't have to plunge",
         "rotation": "",
         "archetype": "Taser",
         "viability": "Meta",
@@ -7259,7 +7259,7 @@ const teams = {
 
     "290": {
         "name": "Furina Doble Hydro Taser",
-        "description": "",
+        "description": "If you use Xianyun instead of Jean, you don't have to plunge",
         "rotation": "",
         "archetype": "Taser",
         "viability": "Meta",
@@ -8709,7 +8709,7 @@ const teams = {
 
     "348": {
         "name": "Raiden Doble Hydro",
-        "description": "",
+        "description": "If you use Xianyun instead of Jean, you don't have to plunge",
         "rotation": "",
         "archetype": "Taser",
         "viability": "Meta",
@@ -9161,7 +9161,7 @@ const teams = {
     "366": {
         "name": "Raiden Furina Hypercarry",
         "description": "",
-        "rotation": "Furina Q > Xianyun E/Q",
+        "rotation": "With Xianyun: Raiden N1CJP (1 Normal Attack + 1 Charge Attack + Jump + Pungle Attack)",
         "archetype": "Hypercarry",
         "viability": "Meta",
 
@@ -9186,7 +9186,7 @@ const teams = {
     "367": {
         "name": "Wriothesley Freeze",
         "description": "",
-        "rotation": "",
+        "rotation": "Wriothesley N3C + N1 PA (repeat N1 PA). Do N1 C PA if you have passive",
         "archetype": "Freeze",
         "viability": "Meta",
 
@@ -9284,7 +9284,7 @@ const teams = {
     },
 
     "372": {
-        "name": "Hu Tao Xianyun Doble Hydrp",
+        "name": "Hu Tao Xianyun Doble Hydro",
         "description": "With yelan instead Xingqiu, you don't have defense utility and you won't vape all plunges due to slower hydro app.",
         "rotation": "Do Hu Tao NA2CJ PA combo (2 Normal attacks into 1 Charge attack, jumping to cancel de CA and doing a Plunge which can cancel too into another NA)",
         "archetype": "Vaporize",
@@ -9360,7 +9360,7 @@ const teams = {
 
     "375": {
         "name": "Xiao Triple Anemo Hypercarry",
-        "description": "",
+        "description": "This teams performs significantly better with Faruzan C6.",
         "rotation": "",
         "archetype": "Hypercarry",
         "viability": "Meta",
@@ -9511,7 +9511,7 @@ const teams = {
     "381": {
         "name": "Wriothesley Rev Melt Xianyun",
         "description": "",
-        "rotation": "",
+        "rotation": "Bennett > Xianyun > Xiangling > Wriothesley N3C + N1 PA (repeat N1 PA). Do N1 C PA if you have passive",
         "archetype": "Melt",
         "viability": "Meta",
 
@@ -9685,8 +9685,8 @@ const teams = {
 
     "388": {
         "name": "Diluc Forward Melt",
-        "description": "A team where Diluc procs the melt reaction",
-        "rotation": "Diluc Q > PA. If Bennett C6, just use PA, don't need burst. ",
+        "description": "A team where Diluc procs the melt reaction. Don't do Diluc's Burst if you have Bennett C6.",
+        "rotation": "Rosaria E > Xianyun Q > Bennet E/Q > Xianyun E > Rosaria E/Q > Diluc Q + PA",
         "archetype": "Melt",
         "viability": "Meta",
 
@@ -9706,8 +9706,57 @@ const teams = {
             "name": ["Bennett"],
             "build": ["Standard"]
         }
-    }
+    },
 
+    "389": {
+        "name": "Xiao Xianyun",
+        "description": "A good Xiao team if you don't have Faruzan C6.",
+        "rotation": "",
+        "archetype": "Hypercarry",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Xiao",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Xianyun",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Bennett",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Furina"],
+            "build": ["Standard"]
+        }
+    },
+
+    "390": {
+        "name": "Wriothesley Freeze",
+        "description": "",
+        "rotation": "Wriothesley N3C + N1 PA (repeat N1 PA). Do N1 C PA if you have passive",
+        "archetype": "Freeze",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Wriothesley",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Xianyun",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Rosaria", "Kaeya", "Shenhe"],
+            "build": ["Standard", "Standard", "Standard"]
+        }
+    }
 }   
 
 
