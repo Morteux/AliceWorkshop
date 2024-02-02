@@ -469,6 +469,17 @@ const builds = {
         }
     },
     "Freminet": {
+        "Standard": {
+            "constellation": "",
+            "weapon": "",
+            "set": "",
+            "main_stat": {
+                "Sands": "",
+                "Goblet": "",
+                "Circlet": "",
+            },
+            "subs_stat": ["", "", "", ""]
+        },
         "Physical": {
             "constellation": "",
             "weapon": "",
