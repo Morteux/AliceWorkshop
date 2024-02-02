@@ -237,7 +237,7 @@ const builds = {
     },
     "Charlotte": {
         "Standard": {
-            "constellation": "6",
+            "constellation": "",
             "weapon": "Prototype Amber / Favonius Codex",
             "set": "Noblesse Oblige",
             "main_stat": {
