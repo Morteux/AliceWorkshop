@@ -9078,8 +9078,8 @@ const teams = {
             "build": "Standard"
         },
         "character_4": {
-            "name": ["Shenhe", "Kaeya", "Rosaria"],
-            "build": ["Standard", "Standard", "Standard"]
+            "name": ["Shenhe", "Kaeya", "Rosaria", "Layla"],
+            "build": ["Standard", "Standard", "Standard", "Standard"]
         }
     },
 
