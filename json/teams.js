@@ -9536,7 +9536,7 @@ const teams = {
     "381": {
         "name": "Wriothesley Rev Melt Xianyun",
         "description": "",
-        "rotation": "Bennett > Xianyun > Xiangling > Wriothesley N3C + N1 PA (repeat N1 PA). Do N1 C PA if you have passive",
+        "rotation": "Xianyun Q > Bennett > Xianyun E > Xiangling > Wriothesley N3C + N1 PA (repeat N1 PA). Do N1 C PA if you have passive",
         "archetype": "Melt",
         "viability": "Meta",
 
