@@ -15,7 +15,7 @@ const teams = {
             "build": "Standard"
         },
         "character_3": {
-            "name": "Beidou",
+            "name": "Beidou",F
             "build": "Standard"
         },
         "character_4": {
@@ -9279,7 +9279,7 @@ const teams = {
         },
         "character_4": {
             "name": ["Aether", "Aether", "Aether", "Aether", "Aether", "Keqing", "Chongyun", "Qiqi", "Noelle", "Xingqiu", "Beidou", "Xiangling", "Razor", "Kaeya", "Jean", "Xinyan", "Zhongli", "Albedo", "Xiao", "Hu Tao", "Rosaria", "Eula", "Kaedehara Kazuha", "Kamisato Ayaka", "Sayu", "Raiden Shogun", "Thoma", "Arataki Itto",  "Yun Jin", "Shenhe", "Yelan", "Kuki Shinobu", "Dori", "Candace", "Cyno", "Nilou", "Layla", "Alhaitham", "Yaoyao", "Dehya", "Mika", "Kaveh", "Kirara", "Lynette", "Freminet", "Navia", "Chevreuse"],
-            "build": ["Anemo", "Dentro", "Geo", "Hydro", "Electro", "Standard", "Standard", "Standard", "Standard", "Standard", "Standard", "Standard", "Standard", "Standard", "Standard", "Standard", "Standard", "Standard", "Standard", "Standard", "Standard", "Standard", "Standard", "Standard", "Standard", "Standard", "Standard", "Standard",  "Standard", "Standard", "Standard", "Standard", "Standard", "Standard", "Standard", "Standard", "Standard", "Standard", "Standard", "Standard", "Standard", "Standard", "Standard", "Standard", "Standard", "Standard", "Standard"]
+            "build": ["Anemo", "Dendro", "Geo", "Hydro", "Electro", "Standard", "Standard", "Standard", "Standard", "Standard", "Standard", "Standard", "Standard", "Standard", "Standard", "Standard", "Standard", "Standard", "Standard", "Standard", "Standard", "Standard", "Standard", "Standard", "Standard", "Standard", "Standard", "Standard",  "Standard", "Standard", "Standard", "Standard", "Standard", "Standard", "Standard", "Standard", "Standard", "Standard", "Standard", "Standard", "Standard", "Standard", "Standard", "Standard", "Standard", "Standard", "Standard"]
         }
     },
 
