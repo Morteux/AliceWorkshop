@@ -15,7 +15,7 @@ const teams = {
             "build": "Standard"
         },
         "character_3": {
-            "name": "Beidou",F
+            "name": "Beidou",
             "build": "Standard"
         },
         "character_4": {
