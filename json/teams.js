@@ -9275,11 +9275,11 @@ const teams = {
         },
         "character_3": {
             "name": "Bennett",
-            "build": "Standard"
+            "build": "C6"
         },
         "character_4": {
-            "name": ["Aether", "Lumine", "Keqing", "Mona", "Chongyun", "Qiqi", "Noelle", "Xingqiu", "Beidou", "Xiangling", "Razor", "Diluc", "Kaeya", "Jean", "Diona", "Tartaglia", "Xinyan", "Zhongli", "Albedo", "Xiao", "Hu Tao", "Rosaria", "Eula", "Kaedehara Kazuha", "Kamisato Ayaka", "Sayu", "Raiden Shogun", "Thoma", "Arataki Itto", "Gorou", "Yun Jin", "Shenhe", "Kamisato Ayato", "Yelan", "Kuki Shinobu", "Dori", "Candace", "Cyno", "Nilou", "Layla", "Alhaitham", "Yaoyao", "Dehya", "Mika", "Kaveh", "Kirara", "Lynette", "Freminet", "Navia", "Chevreuse", "Gaming"],
-            "build": ["Standard", "Standard", "Standard", "Standard", "Standard", "Standard", "Standard", "Standard", "Standard", "Standard", "Standard", "Standard", "Standard", "Standard", "Standard", "Standard", "Standard", "Standard", "Standard", "Standard", "Standard", "Standard", "Standard", "Standard", "Standard", "Standard", "Standard", "Standard", "Standard", "Standard", "Standard", "Standard", "Standard", "Standard", "Standard", "Standard", "Standard", "Standard", "Standard", "Standard", "Standard", "Standard", "Standard", "Standard", "Standard", "Standard", "Standard", "Standard", "Standard", "Standard", "Standard"]
+            "name": ["Aether", "Aether", "Aether", "Aether", "Aether", "Keqing", "Chongyun", "Qiqi", "Noelle", "Xingqiu", "Beidou", "Xiangling", "Razor", "Kaeya", "Jean", "Xinyan", "Zhongli", "Albedo", "Xiao", "Hu Tao", "Rosaria", "Eula", "Kaedehara Kazuha", "Kamisato Ayaka", "Sayu", "Raiden Shogun", "Thoma", "Arataki Itto",  "Yun Jin", "Shenhe", "Yelan", "Kuki Shinobu", "Dori", "Candace", "Cyno", "Nilou", "Layla", "Alhaitham", "Yaoyao", "Dehya", "Mika", "Kaveh", "Kirara", "Lynette", "Freminet", "Navia", "Chevreuse"],
+            "build": ["Anemo", "Dentro", "Geo", "Hydro", "Electro", "Standard", "Standard", "Standard", "Standard", "Standard", "Standard", "Standard", "Standard", "Standard", "Standard", "Standard", "Standard", "Standard", "Standard", "Standard", "Standard", "Standard", "Standard", "Standard", "Standard", "Standard", "Standard", "Standard",  "Standard", "Standard", "Standard", "Standard", "Standard", "Standard", "Standard", "Standard", "Standard", "Standard", "Standard", "Standard", "Standard", "Standard", "Standard", "Standard", "Standard", "Standard", "Standard"]
         }
     },
 
