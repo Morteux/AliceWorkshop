@@ -1,8 +1,8 @@
 const builds = {
 
     "Aether": {
-        "Standard": {
-            "element": "Dendro",
+        "Anemo": {
+            "element": "Anemo",
             "constellation": "",
             "weapon": "",
             "set": "",
@@ -27,6 +27,42 @@ const builds = {
         },
         "Geo": {
             "element": "Geo",
+            "constellation": "",
+            "weapon": "",
+            "set": "",
+            "main_stat": {
+                "Sands": "",
+                "Goblet": "",
+                "Circlet": "",
+            },
+            "subs_stat": ["", "", "", ""]
+        },
+        "Anemo": {
+            "element": "Anemo",
+            "constellation": "",
+            "weapon": "",
+            "set": "",
+            "main_stat": {
+                "Sands": "",
+                "Goblet": "",
+                "Circlet": "",
+            },
+            "subs_stat": ["", "", "", ""]
+        },
+        "Electro": {
+            "element": "Electro",
+            "constellation": "",
+            "weapon": "",
+            "set": "",
+            "main_stat": {
+                "Sands": "",
+                "Goblet": "",
+                "Circlet": "",
+            },
+            "subs_stat": ["", "", "", ""]
+        },
+        "Hydro": {
+            "element": "Hydro",
             "constellation": "",
             "weapon": "",
             "set": "",
