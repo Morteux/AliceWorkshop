@@ -1,6 +1,18 @@
 const builds = {
 
     "Aether": {
+        "Standard": {
+            "element": "Dendro",
+            "constellation": "",
+            "weapon": "",
+            "set": "",
+            "main_stat": {
+                "Sands": "",
+                "Goblet": "",
+                "Circlet": "",
+            },
+            "subs_stat": ["", "", "", ""]
+        },
         "Anemo": {
             "element": "Anemo",
             "constellation": "",
