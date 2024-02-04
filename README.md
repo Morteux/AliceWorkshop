@@ -33,19 +33,19 @@ https://genshindb-ia.vercel.app/
 - Hide/show "flex" artifacts and weapons in each build.
 - Set birthday party hat to characters in their birthday.
 - 1. Poder filtrar de 2 a 4 personajes..
-- Cambiar los colores para que indiquen los arquetipos. Asimismo, añadir un identificador para la viabilidad.
+- 4. Cambiar los colores para que indiquen los arquetipos. Asimismo, añadir un identificador para la viabilidad.
 - Arreglar para que al buscar por X personaje salga aunque no lo tengamos, con la opción "characters owned" activa (Saldrá todos los equipos del personaje X + los nuestros).
 
 ## Tab Nueva Search
 ### To do
 - Character build
-- 2. Character Arquetipes
+- 3. Character Arquetipes
 - Character stats
 
 ## Tab Configuration
 ### To do
 - Configuration buttons (reset cookies, select traveler, etc)
-- 3. Check equipos repetidos. 
+- 2. Check equipos repetidos. 
 - Add user custom teams, so they can create a 4-character team (stored in sessions? need db).
 - User custom team mentioned above could have tags (1. viable team, 2. monoelectro, 3. raiden, f.e).
 - Add user custom list, so they can have a list with X characters to filter. 
