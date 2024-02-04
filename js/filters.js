@@ -200,14 +200,19 @@ function filterByViability(team) {
 
 function filterByUserCharacter(team) {
     let hasNotUserCharacter = false;
+    let user_and_search_characters = user_characters;
+    user_and_search_characters[document.getElementById("search_form_text_input_1").value] = {};
+    user_and_search_characters[document.getElementById("search_form_text_input_2").value] = {};
+    user_and_search_characters[document.getElementById("search_form_text_input_3").value] = {};
+    user_and_search_characters[document.getElementById("search_form_text_input_4").value] = {};
 
     if (filter_characters_owned) {
 
-        hasNotUserCharacter = user_characters[team.character_1.name] == null || user_characters[team.character_2.name] == null || user_characters[team.character_3.name] == null;
+        hasNotUserCharacter = user_and_search_characters[team.character_1.name] == null || user_and_search_characters[team.character_2.name] == null || user_and_search_characters[team.character_3.name] == null;
 
         if (!hasNotUserCharacter) {
             for (let character_index in team.character_4.name) {
-                if (user_characters[team.character_4.name[character_index]] == null) {
+                if (user_and_search_characters[team.character_4.name[character_index]] == null) {
                     hasNotUserCharacter = true;
                 }
             }
