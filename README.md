@@ -32,14 +32,14 @@ https://genshindb-ia.vercel.app/
 - Hide/show character stats behind icons for each team.
 - Hide/show "flex" artifacts and weapons in each build.
 - Set birthday party hat to characters in their birthday.
-- 2. Poder filtrar de 2 a 4 personajes..
+- 1. Poder filtrar de 2 a 4 personajes..
 - Cambiar los colores para que indiquen los arquetipos. Asimismo, añadir un identificador para la viabilidad.
 - Arreglar para que al buscar por X personaje salga aunque no lo tengamos, con la opción "characters owned" activa (Saldrá todos los equipos del personaje X + los nuestros).
 
 ## Tab Nueva Search
 ### To do
 - Character build
-- 1. Character Arquetipes
+- 2. Character Arquetipes
 - Character stats
 
 ## Tab Configuration
