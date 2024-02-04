@@ -12,7 +12,10 @@ document.addEventListener("DOMContentLoaded", (event) => {
     sort_viability = document.getElementById("sort_viability");
     sort_team_name = document.getElementById("sort_team_name");
 
-    autocomplete(document.getElementById("search_form_text_input"), CHARACTER_NAMES);
+    autocomplete(document.getElementById("search_form_text_input_1"), CHARACTER_NAMES);
+    autocomplete(document.getElementById("search_form_text_input_2"), CHARACTER_NAMES);
+    autocomplete(document.getElementById("search_form_text_input_3"), CHARACTER_NAMES);
+    autocomplete(document.getElementById("search_form_text_input_4"), CHARACTER_NAMES);
 
     // Show all teams on page load
     searchQuery();
@@ -27,7 +30,28 @@ document.addEventListener("DOMContentLoaded", (event) => {
         }
     });
 
-    document.getElementById("search_form_text_input").addEventListener('keyup', function (e) {
+    document.getElementById("search_form_text_input_1").addEventListener('keyup', function (e) {
+        if (e.key === ENTER_KEY_CODE) {
+            resetResult();
+            searchQuery();
+        }
+    });
+
+    document.getElementById("search_form_text_input_2").addEventListener('keyup', function (e) {
+        if (e.key === ENTER_KEY_CODE) {
+            resetResult();
+            searchQuery();
+        }
+    });
+
+    document.getElementById("search_form_text_input_3").addEventListener('keyup', function (e) {
+        if (e.key === ENTER_KEY_CODE) {
+            resetResult();
+            searchQuery();
+        }
+    });
+
+    document.getElementById("search_form_text_input_4").addEventListener('keyup', function (e) {
         if (e.key === ENTER_KEY_CODE) {
             resetResult();
             searchQuery();
@@ -58,6 +82,16 @@ function isTeamName(team, search_form_text_input) {
     return team.name.toUpperCase().includes(search_form_text_input.toUpperCase())
 }
 
+function containCharacters(team, characters) {
+    let contain = true; 
+
+    for(let index in characters) {
+        contain = contain && containCharacter(team, characters[index].toUpperCase())
+    }
+
+    return contain;
+}
+
 function containCharacter(team, character) {
     return character.length == 0 || team.character_1.name.toUpperCase() == character || team.character_2.name.toUpperCase() == character || team.character_3.name.toUpperCase() == character || team.character_4.name.map(function (x) { return x.toUpperCase(); }).includes(character);
 }
@@ -65,8 +99,11 @@ function containCharacter(team, character) {
 function searchRandom() {
     document.getElementById("result_container").style.display = "none";
 
-    if (/\d/.test(document.getElementById("search_form_text_input").value)) {
-        document.getElementById("search_form_text_input").value = "";
+    if (/\d/.test(document.getElementById("search_form_text_input_id").value)) {
+        document.getElementById("search_form_text_input_1").value = "";
+        document.getElementById("search_form_text_input_2").value = "";
+        document.getElementById("search_form_text_input_3").value = "";
+        document.getElementById("search_form_text_input_4").value = "";
     }
 
     getTeamsByTextInput();
@@ -79,7 +116,7 @@ function searchRandom() {
 function searchQuery() {
     document.getElementById("result_container").style.display = "none";
 
-    if (/\d/.test(document.getElementById("search_form_text_input").value)) {
+    if (/\d/.test(document.getElementById("search_form_text_input_id").value)) {
         getTeamsById();
     } else {
         getTeamsByTextInput();
@@ -91,7 +128,7 @@ function searchQuery() {
 }
 
 function getTeamsById() {
-    let search_form_text_input = document.getElementById("search_form_text_input").value;
+    let search_form_text_input = document.getElementById("search_form_text_input_id").value;
     let showAllFlex = false;
 
     let team_index = 0;
@@ -138,7 +175,12 @@ function getTeamsById() {
 }
 
 function getTeamsByTextInput() {
-    let search_form_text_input = document.getElementById("search_form_text_input").value;
+    let search_form_text_input = [
+        document.getElementById("search_form_text_input_1").value,
+        document.getElementById("search_form_text_input_2").value,
+        document.getElementById("search_form_text_input_3").value,
+        document.getElementById("search_form_text_input_4").value
+    ];
 
     // Reset collection for a new search
     teams_search_matches = [];
@@ -155,7 +197,7 @@ function getTeamsByTextInput() {
             team.character_4.name = [JSON.parse(JSON.stringify(teams[team_index].character_4.name[character_4_index]))];
             team.character_4.build = [JSON.parse(JSON.stringify(teams[team_index].character_4.build[character_4_index]))];
 
-            if (doFilter(team_index, team) && containCharacter(team, search_form_text_input.toUpperCase())) {
+            if (doFilter(team_index, team) && containCharacters(team, search_form_text_input)) {
                 // console.log("Coincidence for: " + teams[team_index].name);
                 teams_search_matches[team.id] = JSON.parse(JSON.stringify(team));
             }

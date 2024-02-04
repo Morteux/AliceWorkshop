@@ -11,6 +11,20 @@
     color: var(--light_text);
 }
 
+.search_form_characters_container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 80%;
+
+    color: var(--light_text);
+
+    margin-top: 1vh;
+    margin-bottom: 3vh;
+}
+
 .sort_container {
     flex: 1 1 0;
     display: flex;
@@ -38,6 +52,10 @@
 
     background-color: var(--light_background);
     color: var(--dark_text);
+}
+
+.small_input {
+    width: 30% !important;
 }
 
 .search_button {
