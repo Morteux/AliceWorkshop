@@ -384,19 +384,13 @@ function testTeams() {
 
     // Check for repeated teams
     for (let actual_index in teams) {
-        console.log("=============================================");
         let teams_indexes = Object.keys(teams);
-        // for (let index in teams) {
         for (let index = parseInt(actual_index) + 1; index < Object.keys(teams).length; ++index) {
-            // console.log(teams_indexes[index]);
             for (let character_4_index in teams[actual_index]["character_4"]["name"]) {
                 for (let actual_character_4_index in teams[teams_indexes[index]]["character_4"]["name"]) {
                     let temp_actual_team = [teams[actual_index]["character_1"]["name"], teams[actual_index]["character_2"]["name"], teams[actual_index]["character_3"]["name"], teams[actual_index]["character_4"]["name"][character_4_index]].sort();
                     let temp_team = [teams[teams_indexes[index]]["character_1"]["name"], teams[teams_indexes[index]]["character_2"]["name"], teams[teams_indexes[index]]["character_3"]["name"], teams[teams_indexes[index]]["character_4"]["name"][actual_character_4_index]].sort();
                     let areEquals = true;
-
-                    // console.log(actual_index + " - " + teams_indexes[index]);
-                    // console.log(temp_actual_team + " - " + temp_team);
 
                     for (let i = 0; i < temp_actual_team.length; i++) {
                         if (temp_actual_team[i] !== temp_team[i]) {
@@ -406,8 +400,6 @@ function testTeams() {
 
                     if (areEquals && actual_index != teams_indexes[index]) {
                         json_validator_result += "<br>Team " + actual_index + (teams[actual_index]["character_4"]["name"].length > 1 ? "-" + (parseInt(actual_character_4_index) + 1) : "") + " is equal to " + teams_indexes[index] + (teams[teams_indexes[index]]["character_4"]["name"].length > 1 ? "-" + (parseInt(character_4_index) + 1) : "");
-                        // console.log(actual_index + "!=" + teams_indexes[index]);
-                        // console.log(temp_actual_team + "!=" + temp_team);
                     }
                 }
             }
