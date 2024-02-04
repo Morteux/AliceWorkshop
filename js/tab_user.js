@@ -355,14 +355,14 @@ function testTeams() {
     // Check if characters in team exists
     for (let team_index in teams) {
 
-        if(!ARCHETYPES.includes(teams[team_index]["archetype"])) {
+        if (!ARCHETYPES.includes(teams[team_index]["archetype"])) {
             json_validator_result += "<br>Team " + team_index + " - ERROR: archetype does not exist: " + teams[team_index]["archetype"];
         }
 
-        if(!VIABILITIES.includes(teams[team_index]["viability"])) {
+        if (!VIABILITIES.includes(teams[team_index]["viability"])) {
             json_validator_result += "<br>Team " + team_index + " - ERROR: viability does not exist: " + teams[team_index]["viability"];
         }
-        
+
         if (!CHARACTER_NAMES.includes(teams[team_index]["character_1"]["name"])) {
             json_validator_result += "<br>Team " + team_index + " - ERROR: character 1 does not exist: " + teams[team_index]["character_1"]["name"];
         }
@@ -379,6 +379,45 @@ function testTeams() {
             if (!CHARACTER_NAMES.includes(teams[team_index]["character_4"]["name"][character_4_index])) {
                 json_validator_result += "<br>Team " + team_index + " - ERROR: character 4 with index " + character_4_index + " does not exist: " + teams[team_index]["character_4"]["name"][character_4_index];
             }
+        }
+    }
+
+    // Check for repeated teams
+    for (let actual_index in teams) {
+        console.log("=============================================");
+        let teams_indexes = Object.keys(teams);
+        // for (let index in teams) {
+        for (let index = parseInt(actual_index) + 1; index < Object.keys(teams).length; ++index) {
+            // console.log(teams_indexes[index]);
+            for (let character_4_index in teams[actual_index]["character_4"]["name"]) {
+                for (let actual_character_4_index in teams[teams_indexes[index]]["character_4"]["name"]) {
+                    let temp_actual_team = [teams[actual_index]["character_1"]["name"], teams[actual_index]["character_2"]["name"], teams[actual_index]["character_3"]["name"], teams[actual_index]["character_4"]["name"][character_4_index]].sort();
+                    let temp_team = [teams[teams_indexes[index]]["character_1"]["name"], teams[teams_indexes[index]]["character_2"]["name"], teams[teams_indexes[index]]["character_3"]["name"], teams[teams_indexes[index]]["character_4"]["name"][actual_character_4_index]].sort();
+                    let areEquals = true;
+
+                    // console.log(actual_index + " - " + teams_indexes[index]);
+                    // console.log(temp_actual_team + " - " + temp_team);
+
+                    for (let i = 0; i < temp_actual_team.length; i++) {
+                        if (temp_actual_team[i] !== temp_team[i]) {
+                            areEquals = false;
+                        }
+                    }
+
+                    if (areEquals && actual_index != teams_indexes[index]) {
+                        json_validator_result += "<br>Team " + actual_index + (teams[actual_index]["character_4"]["name"].length > 1 ? "-" + (parseInt(actual_character_4_index) + 1) : "") + " is equal to " + teams_indexes[index] + (teams[teams_indexes[index]]["character_4"]["name"].length > 1 ? "-" + (parseInt(character_4_index) + 1) : "");
+                        // console.log(actual_index + "!=" + teams_indexes[index]);
+                        // console.log(temp_actual_team + "!=" + temp_team);
+                    }
+                }
+            }
+        }
+    }
+
+    // Check if teams keys has number skipped
+    for (let index = 0; index < Object.keys(teams).length; ++index) {
+        if(teams[index + 1] == undefined) {
+            json_validator_result += "<br>Team index #" + (index + 1) + " has been not found - There are " + Object.keys(teams).length + " team indexes, but last one is " + Object.keys(teams)[Object.keys(teams).length - 1];
         }
     }
 
@@ -400,7 +439,7 @@ function testJSONSyntax() {
 
     // console.log(duplicate_index);
 
-    if(duplicate_index != -1) {
+    if (duplicate_index != -1) {
         json_validator_result = "<br>Duplicate keys exists: <br>" + teams_string.substring(duplicate_index, duplicate_index + 30) + "<br>";
     }
 
@@ -420,16 +459,16 @@ function check_json_for_dupes(s) {
             a++;
             b++;
         } else if (s[a] === ' ' ||
-                   s[a] === '\n' ||
-                   s[a] === '\r' ||
-                   s[a] === '\t' ||
-                   s[a] === '\v') {
+            s[a] === '\n' ||
+            s[a] === '\r' ||
+            s[a] === '\t' ||
+            s[a] === '\v') {
             a++;
-        } else if (s2[b] === ' ' || 
-                   s2[b] === '\n' || 
-                   s2[b] === '\r' || 
-                   s2[b] === '\t' || 
-                   s2[b] === '\v') {
+        } else if (s2[b] === ' ' ||
+            s2[b] === '\n' ||
+            s2[b] === '\r' ||
+            s2[b] === '\t' ||
+            s2[b] === '\v') {
             b++;
         } else {
             return a;
