@@ -39,6 +39,7 @@ https://genshindb-ia.vercel.app/
 ## Tab Configuration
 ### To do
 - Configuration buttons (reset cookies, select traveler, etc)
-- Add user custom teams (stored in sessions? need db).
+- Add user custom teams, so they can create a 4-character team (stored in sessions? need db).
 - User custom team mentioned above could have tags (1. viable team, 2. monoelectro, 3. raiden, f.e).
+- Add user custom list, so they can have a list with X characters to filter. 
 - troll: random team name generator.
