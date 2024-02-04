@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
 
 function printExtraFilters() {
     filters_element = ELEMENTS.slice();             // Copy by value, not by reference
-    filters_archetype = ARCHETYPES.slice();         // Copy by value, not by reference
+    filters_archetype = ARCHETYPES_NAMES.slice();         // Copy by value, not by reference
     filters_viability = VIABILITIES.slice();        // Copy by value, not by reference
     filters_character = CHARACTER_NAMES.slice();    // Copy by value, not by reference
 
@@ -44,8 +44,8 @@ function printExtraFilters() {
     
     <button id="toggle_all_archetypes_button" class="primary_button" onclick="toggleAllArchetypes()">+</button>
     `;
-    for (let archetype_index in ARCHETYPES) {
-        let archetype = ARCHETYPES[archetype_index];
+    for (let archetype_index in ARCHETYPES_NAMES) {
+        let archetype = ARCHETYPES_NAMES[archetype_index];
 
         filters += `
         <div class="checkbox_filter">
@@ -126,7 +126,7 @@ function doFilter(id, team) {
     //     if (builds[team.character_4.name[character_index]][team.character_4.build[character_index]] == null) { console.log("character_4 build KO: " + team.character_4.build[character_index] + " in team #" + id); }
     // }
 
-    // if (ARCHETYPES.includes(team.archetype) == null) { console.log("archetype KO: " + team.archetype + " in team #" + id); }
+    // if (ARCHETYPES_NAMES.includes(team.archetype) == null) { console.log("archetype KO: " + team.archetype + " in team #" + id); }
     // if (VIABILITIES.includes(team.viability) == null) { console.log("viability KO: " + team.viability + " in team #" + id); }
 
 
@@ -256,10 +256,10 @@ function toggleAllArchetypes() {
     } else {
         document.getElementById("toggle_all_archetypes_button").innerHTML = "+";
 
-        for (let archetype_index in ARCHETYPES) {
-            if (!filters_archetype.includes(ARCHETYPES[archetype_index])) {
-                document.getElementById("filter_archetype_" + ARCHETYPES[archetype_index].toLowerCase()).checked = true;
-                toggleFilterArchetype(ARCHETYPES[archetype_index]);
+        for (let archetype_index in ARCHETYPES_NAMES) {
+            if (!filters_archetype.includes(ARCHETYPES_NAMES[archetype_index])) {
+                document.getElementById("filter_archetype_" + ARCHETYPES_NAMES[archetype_index].toLowerCase()).checked = true;
+                toggleFilterArchetype(ARCHETYPES_NAMES[archetype_index]);
             }
         }
     }

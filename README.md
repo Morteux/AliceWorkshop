@@ -28,6 +28,7 @@ https://genshindb-ia.vercel.app/
   
 ## Tab Teams Search
 ### To do
+- Multi archetypes for teams.
 - Mark for user created teams.
 - URL to team with characters in url params OR download team auto screenshot image.
 - Hide/show character stats behind icons for each team.
@@ -39,13 +40,12 @@ https://genshindb-ia.vercel.app/
 ## Tab Nueva Search
 ### To do
 - Character build
-- 3. Character Arquetipes
+- 3. Character archetypes
 - Character stats
 
 ## Tab Configuration
 ### To do
 - Configuration buttons (reset cookies, select traveler, etc)
-- 2. Check equipos repetidos. 
 - Add user custom teams, so they can create a 4-character team (stored in sessions? need db).
 - User custom team mentioned above could have tags (1. viable team, 2. monoelectro, 3. raiden, f.e).
 - Add user custom list, so they can have a list with X characters to filter. 

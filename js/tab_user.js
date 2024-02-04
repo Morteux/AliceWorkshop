@@ -355,7 +355,7 @@ function testTeams() {
     // Check if characters in team exists
     for (let team_index in teams) {
 
-        if (!ARCHETYPES.includes(teams[team_index]["archetype"])) {
+        if (!ARCHETYPES_NAMES.includes(teams[team_index]["archetype"])) {
             json_validator_result += "<br>Team " + team_index + " - ERROR: archetype does not exist: " + teams[team_index]["archetype"];
         }
 
