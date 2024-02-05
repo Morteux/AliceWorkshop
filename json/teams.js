@@ -9837,7 +9837,7 @@ const teams = {
         "name": "Gaming Overvape",
         "description": "Fischl helps clearing Pyro auras and trigger electrocharged so Gaming can still vaporizing with bennett c6. ",
         "rotation": "Furina E/Q > Bennett E/Q > Fischl E or Q > Gaming Q/E",
-        "archetype": "OverVape",
+        "archetype": "Overvape",
         "viability": "Meta",
 
         "character_1": {
