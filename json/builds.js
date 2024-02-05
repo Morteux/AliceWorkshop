@@ -575,6 +575,18 @@ const builds = {
                 "Circlet": "",
             },
             "subs_stat": ["", "", "", ""]
+        },
+
+        "EM": {
+            "constellation": "",
+            "weapon": "",
+            "set": "",
+            "main_stat": {
+                "Sands": "",
+                "Goblet": "",
+                "Circlet": "",
+            },
+            "subs_stat": ["", "", "", ""]
         }
     },
     "Ganyu": {
