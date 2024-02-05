@@ -9878,8 +9878,8 @@ const teams = {
             "build": "Standard"
         },
         "character_4": {
-            "name": ["Furina", "Yelan", "Yaoyao", "Baizhu", "Aether"],
-            "build": ["Standard", "Standard", "Standard", "Standard", "Dendro"]
+            "name": ["Bennett","Yaoyao", "Baizhu"],
+            "build": ["Standard", "Standard", "Standard"]
         }
     },
 
@@ -9928,8 +9928,8 @@ const teams = {
             "build": "Standard"
         },
         "character_4": {
-            "name": ["Fischl", "Kuki Shinobu"],
-            "build": ["Standard", "Standard"]
+            "name": ["Kuki Shinobu"],
+            "build": ["Standard"]
         }
     },
 
@@ -9953,8 +9953,8 @@ const teams = {
             "build": "Standard"
         },
         "character_4": {
-            "name": ["Rosaria", "Ganyu", "Layla", "Chongyun", "Charlotte"],
-            "build": ["Standard", "Ultimate", "Standard", "Standard", "Standard"]
+            "name": ["Layla", "Diona", "Charlotte"],
+            "build": ["Standard", "Standard", "Standard"]
         }
     },
 
@@ -9981,7 +9981,132 @@ const teams = {
             "name": ["Charlotte"],
             "build": ["Standard"]
         }
-    }
+    },
+
+    "399": {
+        "name": "Gaming Oven",
+        "description": "You can trigger Melt and Burgeon.",
+        "rotation": "",
+        "archetype": "Oven",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Gaming",
+            "build": "EM"
+        },
+        "character_2": {
+            "name": "Baizhu",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Xingqiu",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Rosaria", "Ganyu", "Layla", "Chongyun"],
+            "build": ["Standard", "Ultimate", "Standard", "Standard"]
+        }
+    },
+
+    "400": {
+        "name": "Gaming Oven",
+        "description": "You can trigger Melt and Burgeon.",
+        "rotation": "",
+        "archetype": "Oven",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Gaming",
+            "build": "EM"
+        },
+        "character_2": {
+            "name": "Yaoyao",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Xingqiu",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Rosaria", "Ganyu", "Layla", "Chongyun"],
+            "build": ["Standard", "Ultimate", "Standard", "Standard"]
+        }
+    },
+
+    "401": {
+        "name": "Gaming Oven",
+        "description": "You can trigger Melt and Burgeon.",
+        "rotation": "",
+        "archetype": "Oven",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Gaming",
+            "build": "EM"
+        },
+        "character_2": {
+            "name": "Baizhu",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Rosaria", "Ganyu", "Layla", "Chongyun"],
+            "build": ["Standard", "Ultimate", "Standard", "Standard"]
+        }
+    },
+
+    "402": {
+        "name": "Gaming Oven",
+        "description": "You can trigger Melt and Burgeon.",
+        "rotation": "",
+        "archetype": "Oven",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Gaming",
+            "build": "EM"
+        },
+        "character_2": {
+            "name": "Yaoyao",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Rosaria", "Ganyu", "Layla", "Chongyun"],
+            "build": ["Standard", "Ultimate", "Standard", "Standard"]
+        }
+    },
+
+    "403": {
+        "name": "Gaming Curry",
+        "description": "",
+        "rotation": "",
+        "archetype": "Curry",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Gaming",
+            "build": "EM"
+        },
+        "character_2": {
+            "name": "Fischl",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Baizhu", "Yaoyao"],
+            "build": ["Standard", "Standard"]
+        }
+    },
 }   
 
 
