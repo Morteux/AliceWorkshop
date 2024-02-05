@@ -10107,6 +10107,31 @@ const teams = {
             "build": ["Standard", "Standard"]
         }
     },
+
+    "404": {
+        "name": "Eula MonoCryo",
+        "description": "An exception to the clasical monoCryo team. Thanks to Shenhe and Rosaria C6, Eula has enough source for the Physical resistance shred. Also, 100% uptime on Cryo resonance and low ER requirements",
+        "rotation": "",
+        "archetype": "MonoCryo",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Eula",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Shenhe",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Rosaria",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Zhongli", "Layla"],
+            "build": ["Standard", "Standard"]
+        }
+    },
 }   
 
 
