@@ -9931,6 +9931,56 @@ const teams = {
             "name": ["Fischl", "Kuki Shinobu"],
             "build": ["Standard", "Standard"]
         }
+    },
+
+    "397": {
+        "name": "Gaming Oven",
+        "description": "You can trigger Melt and Burgeon.",
+        "rotation": "",
+        "archetype": "Oven",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Gaming",
+            "build": "EM"
+        },
+        "character_2": {
+            "name": "Nahida",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Xingqiu",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Rosaria", "Ganyu", "Layla", "Chongyun", "Charlotte"],
+            "build": ["Standard", "Ultimate", "Standard", "Standard", "Standard"]
+        }
+    },
+
+    "398": {
+        "name": "Gaming Oven",
+        "description": "You can trigger Melt and Burgeon.",
+        "rotation": "",
+        "archetype": "Oven",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Gaming",
+            "build": "EM"
+        },
+        "character_2": {
+            "name": "Nahida",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Charlotte"],
+            "build": ["Standard"]
+        }
     }
 }   
 
