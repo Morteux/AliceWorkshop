@@ -9831,6 +9831,106 @@ const teams = {
             "name": ["Xianyun"],
             "build": ["Standard"]
         }
+    },
+
+    "393": {
+        "name": "Gaming Overvape",
+        "description": "Fischl helps clearing Pyro auras and trigger electrocharged so Gaming can still vaporizing with bennett c6. ",
+        "rotation": "Furina E/Q > Bennett E/Q > Fischl E or Q > Gaming Q/E",
+        "archetype": "OverVape",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Gaming",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Bennett",
+            "build": "Healer"
+        },
+        "character_3": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Fischl"],
+            "build": ["Standard"]
+        }
+    },
+
+    "394": {
+        "name": "Gaming Burgeon",
+        "description": "",
+        "rotation": "",
+        "archetype": "Burgeon",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Gaming",
+            "build": "EM"
+        },
+        "character_2": {
+            "name": "Nahida",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Xingqiu",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Furina", "Yelan", "Yaoyao", "Baizhu", "Aether"],
+            "build": ["Standard", "Standard", "Standard", "Standard", "Dendro"]
+        }
+    },
+
+    "395": {
+        "name": "Gaming Burgeon",
+        "description": "",
+        "rotation": "",
+        "archetype": "Burgeon",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Gaming",
+            "build": "EM"
+        },
+        "character_2": {
+            "name": "Nahida",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Yaoyao", "Baizhu"],
+            "build": ["Standard", "Standard"]
+        }
+    },
+
+    "396": {
+        "name": "Gaming Curry",
+        "description": "",
+        "rotation": "",
+        "archetype": "Curry",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Gaming",
+            "build": "EM"
+        },
+        "character_2": {
+            "name": "Nahida",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Xingqiu",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Fischl", "Kuki Shinobu"],
+            "build": ["Standard", "Standard"]
+        }
     }
 }   
 
