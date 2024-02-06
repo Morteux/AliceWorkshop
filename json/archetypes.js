@@ -80,36 +80,36 @@ const archetypes = {
         forced_characters: []
     },
     "Overvape": {
-        description: "",
-        elements: [],
-        pros_cons: "",
+        description: "Se puede considerar un subarquetipo de Vaporize. Básicamente, al añadir un personaje Electro al arquetipo Vaporize, se forma este arquetipo. Con esto, ganaremos tanto la reacción electrocargado como sobrecargados, y seguiremos haciendo vaporizados de forma aún mas consistente gracias a la interacción entre estos elementos.",
+        elements: ["Pyro", "Hydro", "Electro", "Flex"],
+        pros_cons: "Muy buena combinación de elemento para realizar las tres reacciones mencionadas, ya que el personaje Pyro hará tanto vaporizados como sobrecargados al mismo tiempo. Eso si, hay que tener cuidado de que los enemigos no salgan disparados con los sobrecargados, asi que no siempre es óptimo.",
         example_teams: [],
         color: "",
         forced_characters: []
     },
     "Taser": {
-        description: "",
-        elements: [],
-        pros_cons: "",
+        description: "Cualquier combinación entre 1-2 personajes electro y 1-2 personajes hydro mas un personaje anemo. Su reacción principal es electrocargados y torbellinos, pero no son su fuente principal de daño, ya que no es un equipo basado daño de la reacción. ",
+        elements: ["Electro", ["Electro", "Hydro"], "Hydro", "Anemo"],
+        pros_cons: "Gracias al aura de electrocargados, el personaje anemo podrá aplicar VV a ambos elementos. En la mayoría de equipos no suelen llevar opciones defensivas, por lo que los hace dificiles de jugar.",
         example_teams: [],
         color: "",
         forced_characters: []
     },
     "Soup": {
-        description: "",
-        elements: [],
-        pros_cons: "",
+        description: "Batiburrillo de reacciones, se suele llevar un anemo on-field con el que puedes aplicar VV a los tres elementos y mantener a los enemigos agrupados. Es famoso por el equipo Pokemon: Sacarosa, Kokomi, Xiangling, Fischl",
+        elements: ["Anemo", "Hydro", "Pyro", "Electro"],
+        pros_cons: "Empujas a los enemigos con overload, pero lo compensas con el agrupar de los personajes anemo.",
         example_teams: [],
         color: "",
         forced_characters: []
     },
     "Melt": {
-        description: "",
-        elements: [],
+        description: "Arquetipo basado en la reacción de derretidos. Puedes hacer tanto derretidos con un personaje pyro, como derretidos inversos con un carry cryo.",
+        elements: ["Cryo", "Pyro", "Flex", "Flex"],
         pros_cons: "",
         example_teams: [],
         color: "",
-        forced_characters: []
+        forced_characters: ["Bennett"]
     },
     "Aggravate": {
         description: "",
