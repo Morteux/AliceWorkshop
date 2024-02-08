@@ -3761,7 +3761,7 @@ const teams = {
         "description": "In this team is recommended playing Neuvillette with Prototype Amber to have enough healing with Furina Passive and Shinobu/Dori/Diona",
         "rotation": "",
         "archetype": "Hypercarry",
-        "viability": "Meta",
+        "viability": "Viable",
 
         "character_1": {
             "name": "Neuvillette",
@@ -6862,7 +6862,7 @@ const teams = {
         "description": "Dori On-Field has enough healing for Furina teams",
         "rotation": "",
         "archetype": "Hyperbloom",
-        "viability": "Viable",
+        "viability": "Meta",
 
         "character_1": {
             "name": "Dori",
@@ -6887,7 +6887,7 @@ const teams = {
         "description": "Dori On-Field has enough healing for Furina teams",
         "rotation": "",
         "archetype": "Hyperbloom",
-        "viability": "Troll",
+        "viability": "Viable",
 
         "character_1": {
             "name": "Dori",
