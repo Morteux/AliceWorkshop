@@ -8823,12 +8823,12 @@ const teams = {
             "build": "Standard"
         },
         "character_3": {
-            "name": "Rosaria",
+            "name": "Xianyun",
             "build": "Standard"
         },
         "character_4": {
-            "name": ["Xianyun"],
-            "build": ["Standard"]
+            "name": ["Rosaria", "Layla"],
+            "build": ["Standard", "Standard"]
         }
     },
 
@@ -9720,7 +9720,7 @@ const teams = {
             "build": "Standard"
         },
         "character_2": {
-            "name": "Rosaria",
+            "name": "Bennett",
             "build": "Standard"
         },
         "character_3": {
@@ -9728,8 +9728,8 @@ const teams = {
             "build": "Standard"
         },
         "character_4": {
-            "name": ["Bennett"],
-            "build": ["Standard"]
+            "name": ["Rosaria", "Layla"],
+            "build": ["Standard", "Standard"]
         }
     },
 
@@ -9935,7 +9935,7 @@ const teams = {
 
     "397": {
         "name": "Gaming Oven",
-        "description": "You can trigger Melt and Burgeon.",
+        "description": "You can trigger Melt and Burgeon. If you use Diona, her C6 it's very useful.",
         "rotation": "",
         "archetype": "Oven",
         "viability": "Viable",
@@ -10132,6 +10132,281 @@ const teams = {
             "build": ["Standard", "Standard"]
         }
     },
+
+    "405": {
+        "name": "Alhaitham Plunge Spread",
+        "description": "Alhaitham doesn't have an especial sinergy with Xianyun, but it's an alternative to his other teams.",
+        "rotation": "",
+        "archetype": "Spread",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Alhaitham",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Nahida",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Xianyun",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Fischl", "Yae Miko"],
+            "build": ["Standard", "Standard"]
+        }
+    },
+
+    "406": {
+        "name": "Alhaitham Plunge QuicklBloom",
+        "description": "Alhaitham doesn't have an especial sinergy with Xianyun, but it's an alternative to his other teams.",
+        "rotation": "",
+        "archetype": "Quickbloom",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Alhaitham",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Xianyun",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Kuki Shinobu"],
+            "build": ["Standard"]
+        }
+    },
+
+    "407": {
+        "name": "Raiden Aggravatte Plunge",
+        "description": "",
+        "rotation": "Raiden N1CJP (1 Normal Attack + 1 Charge Attack + Jump + Pungle Attack)",
+        "archetype": "Aggravate",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Raiden Shogun",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Fischl",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Xianyun",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Aether", "Nahida"],
+            "build": ["Dendro", "Standard"]
+        }
+    },
+
+    "408": {
+        "name": "Raiden Aggravatte Plunge",
+        "description": "",
+        "rotation": "Raiden N1CJP (1 Normal Attack + 1 Charge Attack + Jump + Pungle Attack)",
+        "archetype": "Aggravate",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Raiden Shogun",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Bennett",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Xianyun",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Aether", "Nahida"],
+            "build": ["Dendro", "Standard"]
+        }
+    },
+
+    "409": {
+        "name": "Yae Miko Aggravatte Plunge",
+        "description": "",
+        "rotation": "",
+        "archetype": "Aggravate",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Yae Miko",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Fischl",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Xianyun",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Aether", "Nahida"],
+            "build": ["Dendro", "Standard"]
+        }
+    },
+
+    "410": {
+        "name": "Keqing Aggravatte Plunge",
+        "description": "",
+        "rotation": "",
+        "archetype": "Aggravate",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Keqing",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Fischl",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Xianyun",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Aether", "Nahida"],
+            "build": ["Dendro", "Standard"]
+        }
+    },
+
+    "411": {
+        "name": "Keqing Aggravatte Plunge",
+        "description": "",
+        "rotation": "",
+        "archetype": "Aggravate",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Cyno",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Fischl",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Xianyun",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Aether", "Nahida"],
+            "build": ["Dendro", "Standard"]
+        }
+    },
+
+    "412": {
+        "name": "Raiden MonoElectro Plunge",
+        "description": "",
+        "rotation": "Raiden N1CJP (1 Normal Attack + 1 Charge Attack + Jump + Pungle Attack)",
+        "archetype": "MonoElectro",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Raiden Shogun",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Fischl",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Kujou Sara",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Xianyun"],
+            "build": ["Standard"]
+        }
+    },
+
+    "413": {
+        "name": "Chongyun Freeze Plunge",
+        "description": "",
+        "rotation": "",
+        "archetype": "Freeze",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Chongyun",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Xianyun",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Shenhe", "Rosaria", "Layla"],
+            "build": ["Standard", "Standard", "Standard"]
+        }
+    },
+
+    "414": {
+        "name": "Kaveh Spread Plunge",
+        "description": "",
+        "rotation": "",
+        "archetype": "Spread",
+        "viability": "Troll",
+
+        "character_1": {
+            "name": "Kaveh",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Nahida",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Fischl",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Xianyun"],
+            "build": ["Standard"]
+        }
+    },
+
+    "415": {
+        "name": "Wriothesley Bain-Marie",
+        "description": "New OP archetype thanks to Wriothesley and Furina. Vaps + Melts + Burgeon in the same team. ",
+        "rotation": "",
+        "archetype": "Bain-Marie",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Wriothesley",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Thoma",
+            "build": "EM"
+        },
+        "character_4": {
+            "name": ["Baizhu", "Yaoyao"],
+            "build": ["Standard", "Standard"]
+        }
+    }
 }   
 
 

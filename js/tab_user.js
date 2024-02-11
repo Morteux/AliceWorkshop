@@ -290,47 +290,59 @@ function testBestTeams() {
 function testBuilds() {
     let json_validator_result = "";
     let test_separator = "";
-    // Test if Aether and Lumine has "element" field in each build
 
-    for (let build_index in builds["Aether"]) {
-        if (!builds["Aether"][build_index].hasOwnProperty("element")) {
-            json_validator_result += "<br>testBuilds: Aether build " + build_index + " has no \"element\" field ";
-        }
-    }
-
-    for (let build_index in builds["Lumine"]) {
-        if (!builds["Lumine"][build_index].hasOwnProperty("element")) {
-            json_validator_result += "<br>testBuilds: Lumine build " + build_index + " has no \"element\" field ";
-        }
-    }
-
-    for (let build_index in builds) {
-
-        // Test if each character has at least one build
-        if (isJSONObjectEmpty(builds[build_index])) {
-            json_validator_result += "<br>testBuilds: No build found for " + build_index;
-        }
-    }
-
-    // Check if builds in team exists
-    for (let team_index in teams) {
-        if (builds.hasOwnProperty(teams[team_index]["character_1"]["name"]) && !builds[teams[team_index]["character_1"]["name"]].hasOwnProperty(teams[team_index]["character_1"]["build"])) {
-            json_validator_result += "<br>Team " + team_index + " - ERROR: " + teams[team_index]["character_1"]["name"] + " build 1 does not exist: " + teams[team_index]["character_1"]["build"];
-        }
-
-        if (builds.hasOwnProperty(teams[team_index]["character_2"]["name"]) && !builds[teams[team_index]["character_2"]["name"]].hasOwnProperty(teams[team_index]["character_2"]["build"])) {
-            json_validator_result += "<br>Team " + team_index + " - ERROR: " + teams[team_index]["character_2"]["name"] + " build 2 does not exist: " + teams[team_index]["character_2"]["build"];
-        }
-
-        if (builds.hasOwnProperty(teams[team_index]["character_2"]["name"]) && !builds[teams[team_index]["character_3"]["name"]].hasOwnProperty(teams[team_index]["character_3"]["build"])) {
-            json_validator_result += "<br>Team " + team_index + " - ERROR: " + teams[team_index]["character_3"]["name"] + " build 3 does not exist: " + teams[team_index]["character_3"]["build"];
-        }
-
-        for (let build_4_index in teams[team_index]["character_4"]["name"]) {
-            if (builds.hasOwnProperty(teams[team_index]["character_4"]["name"][build_4_index]) && !builds[teams[team_index]["character_4"]["name"][build_4_index]].hasOwnProperty(teams[team_index]["character_4"]["build"][build_4_index])) {
-                json_validator_result += "<br>Team " + team_index + " - ERROR: " + teams[team_index]["character_4"]["name"][build_4_index] + " build 4 with index " + build_4_index + " does not exist: " + teams[team_index]["character_4"]["build"][build_4_index];
+    try {
+        // Test if Aether and Lumine has "element" field in each build
+        for (let build_index in builds["Aether"]) {
+            if (!builds["Aether"][build_index].hasOwnProperty("element")) {
+                json_validator_result += "<br>testBuilds: Aether build " + build_index + " has no \"element\" field ";
             }
         }
+
+        for (let build_index in builds["Lumine"]) {
+            if (!builds["Lumine"][build_index].hasOwnProperty("element")) {
+                json_validator_result += "<br>testBuilds: Lumine build " + build_index + " has no \"element\" field ";
+            }
+        }
+    } catch (error) {
+        json_validator_result += "Execution error while checking: Test if Aether and Lumine has 'element' field in each build. " + error;
+    }
+
+    try {
+        for (let build_index in builds) {
+
+            // Test if each character has at least one build
+            if (isJSONObjectEmpty(builds[build_index])) {
+                json_validator_result += "<br>testBuilds: No build found for " + build_index;
+            }
+        }
+    } catch (error) {
+        json_validator_result += "Execution error while checking: Test if each character has at least one build. " + error;
+    }
+
+    try {
+        // Check if builds in team exists
+        for (let team_index in teams) {
+            if (builds.hasOwnProperty(teams[team_index]["character_1"]["name"]) && !builds[teams[team_index]["character_1"]["name"]].hasOwnProperty(teams[team_index]["character_1"]["build"])) {
+                json_validator_result += "<br>Team " + team_index + " - ERROR: " + teams[team_index]["character_1"]["name"] + " build 1 does not exist: " + teams[team_index]["character_1"]["build"];
+            }
+
+            if (builds.hasOwnProperty(teams[team_index]["character_2"]["name"]) && !builds[teams[team_index]["character_2"]["name"]].hasOwnProperty(teams[team_index]["character_2"]["build"])) {
+                json_validator_result += "<br>Team " + team_index + " - ERROR: " + teams[team_index]["character_2"]["name"] + " build 2 does not exist: " + teams[team_index]["character_2"]["build"];
+            }
+
+            if (builds.hasOwnProperty(teams[team_index]["character_2"]["name"]) && !builds[teams[team_index]["character_3"]["name"]].hasOwnProperty(teams[team_index]["character_3"]["build"])) {
+                json_validator_result += "<br>Team " + team_index + " - ERROR: " + teams[team_index]["character_3"]["name"] + " build 3 does not exist: " + teams[team_index]["character_3"]["build"];
+            }
+
+            for (let build_4_index in teams[team_index]["character_4"]["name"]) {
+                if (builds.hasOwnProperty(teams[team_index]["character_4"]["name"][build_4_index]) && !builds[teams[team_index]["character_4"]["name"][build_4_index]].hasOwnProperty(teams[team_index]["character_4"]["build"][build_4_index])) {
+                    json_validator_result += "<br>Team " + team_index + " - ERROR: " + teams[team_index]["character_4"]["name"][build_4_index] + " build 4 with index " + build_4_index + " does not exist: " + teams[team_index]["character_4"]["build"][build_4_index];
+                }
+            }
+        }
+    } catch (error) {
+        json_validator_result += "Execution error while checking: Check if builds in team exists. " + error;
     }
 
     test_separator = "<br>=================== " + (json_validator_result == "" ? "OK - testBuilds" : "KO - testBuilds") + " ===================<br><br>";
@@ -351,66 +363,78 @@ function testCharacters() {
 function testTeams() {
     let json_validator_result = "";
 
+    try {
+        // Check if characters in team exists
+        for (let team_index in teams) {
 
-    // Check if characters in team exists
-    for (let team_index in teams) {
+            if (!ARCHETYPES_NAMES.includes(teams[team_index]["archetype"])) {
+                json_validator_result += "<br>Team " + team_index + " - ERROR: archetype does not exist: " + teams[team_index]["archetype"];
+            }
 
-        if (!ARCHETYPES_NAMES.includes(teams[team_index]["archetype"])) {
-            json_validator_result += "<br>Team " + team_index + " - ERROR: archetype does not exist: " + teams[team_index]["archetype"];
-        }
+            if (!VIABILITIES.includes(teams[team_index]["viability"])) {
+                json_validator_result += "<br>Team " + team_index + " - ERROR: viability does not exist: " + teams[team_index]["viability"];
+            }
 
-        if (!VIABILITIES.includes(teams[team_index]["viability"])) {
-            json_validator_result += "<br>Team " + team_index + " - ERROR: viability does not exist: " + teams[team_index]["viability"];
-        }
+            if (!CHARACTER_NAMES.includes(teams[team_index]["character_1"]["name"])) {
+                json_validator_result += "<br>Team " + team_index + " - ERROR: character 1 does not exist: " + teams[team_index]["character_1"]["name"];
+            }
 
-        if (!CHARACTER_NAMES.includes(teams[team_index]["character_1"]["name"])) {
-            json_validator_result += "<br>Team " + team_index + " - ERROR: character 1 does not exist: " + teams[team_index]["character_1"]["name"];
-        }
+            if (!CHARACTER_NAMES.includes(teams[team_index]["character_2"]["name"])) {
+                json_validator_result += "<br>Team " + team_index + " - ERROR: character 2 does not exist: " + teams[team_index]["character_2"]["name"];
+            }
 
-        if (!CHARACTER_NAMES.includes(teams[team_index]["character_2"]["name"])) {
-            json_validator_result += "<br>Team " + team_index + " - ERROR: character 2 does not exist: " + teams[team_index]["character_2"]["name"];
-        }
+            if (!CHARACTER_NAMES.includes(teams[team_index]["character_3"]["name"])) {
+                json_validator_result += "<br>Team " + team_index + " - ERROR: character 3 does not exist: " + teams[team_index]["character_3"]["name"];
+            }
 
-        if (!CHARACTER_NAMES.includes(teams[team_index]["character_3"]["name"])) {
-            json_validator_result += "<br>Team " + team_index + " - ERROR: character 3 does not exist: " + teams[team_index]["character_3"]["name"];
-        }
-
-        for (let character_4_index in teams[team_index]["character_4"]["name"]) {
-            if (!CHARACTER_NAMES.includes(teams[team_index]["character_4"]["name"][character_4_index])) {
-                json_validator_result += "<br>Team " + team_index + " - ERROR: character 4 with index " + character_4_index + " does not exist: " + teams[team_index]["character_4"]["name"][character_4_index];
+            for (let character_4_index in teams[team_index]["character_4"]["name"]) {
+                if (!CHARACTER_NAMES.includes(teams[team_index]["character_4"]["name"][character_4_index])) {
+                    json_validator_result += "<br>Team " + team_index + " - ERROR: character 4 with index " + character_4_index + " does not exist: " + teams[team_index]["character_4"]["name"][character_4_index];
+                }
             }
         }
+    } catch (error) {
+        json_validator_result += "Execution error while checking: Check if characters in team exists. " + error;
     }
 
-    // Check for repeated teams
-    for (let actual_index in teams) {
-        let teams_indexes = Object.keys(teams);
-        for (let index = parseInt(actual_index) + 1; index < Object.keys(teams).length; ++index) {
-            for (let character_4_index in teams[actual_index]["character_4"]["name"]) {
-                for (let actual_character_4_index in teams[teams_indexes[index]]["character_4"]["name"]) {
-                    let temp_actual_team = [teams[actual_index]["character_1"]["name"], teams[actual_index]["character_2"]["name"], teams[actual_index]["character_3"]["name"], teams[actual_index]["character_4"]["name"][character_4_index]].sort();
-                    let temp_team = [teams[teams_indexes[index]]["character_1"]["name"], teams[teams_indexes[index]]["character_2"]["name"], teams[teams_indexes[index]]["character_3"]["name"], teams[teams_indexes[index]]["character_4"]["name"][actual_character_4_index]].sort();
-                    let areEquals = true;
 
-                    for (let i = 0; i < temp_actual_team.length; i++) {
-                        if (temp_actual_team[i] !== temp_team[i]) {
-                            areEquals = false;
+    try {
+        // Check for repeated teams
+        for (let actual_index in teams) {
+            let teams_indexes = Object.keys(teams);
+            for (let index = parseInt(actual_index) + 1; index < Object.keys(teams).length; ++index) {
+                for (let character_4_index in teams[actual_index]["character_4"]["name"]) {
+                    for (let actual_character_4_index in teams[teams_indexes[index]]["character_4"]["name"]) {
+                        let temp_actual_team = [teams[actual_index]["character_1"]["name"], teams[actual_index]["character_2"]["name"], teams[actual_index]["character_3"]["name"], teams[actual_index]["character_4"]["name"][character_4_index]].sort();
+                        let temp_team = [teams[teams_indexes[index]]["character_1"]["name"], teams[teams_indexes[index]]["character_2"]["name"], teams[teams_indexes[index]]["character_3"]["name"], teams[teams_indexes[index]]["character_4"]["name"][actual_character_4_index]].sort();
+                        let areEquals = true;
+
+                        for (let i = 0; i < temp_actual_team.length; i++) {
+                            if (temp_actual_team[i] !== temp_team[i]) {
+                                areEquals = false;
+                            }
                         }
-                    }
 
-                    if (areEquals && actual_index != teams_indexes[index]) {
-                        json_validator_result += "<br>Team " + actual_index + (teams[actual_index]["character_4"]["name"].length > 1 ? "-" + (parseInt(actual_character_4_index) + 1) : "") + " is equal to " + teams_indexes[index] + (teams[teams_indexes[index]]["character_4"]["name"].length > 1 ? "-" + (parseInt(character_4_index) + 1) : "");
+                        if (areEquals && actual_index != teams_indexes[index]) {
+                            json_validator_result += "<br>Team " + actual_index + (teams[actual_index]["character_4"]["name"].length > 1 ? "-" + (parseInt(actual_character_4_index) + 1) : "") + " is equal to " + teams_indexes[index] + (teams[teams_indexes[index]]["character_4"]["name"].length > 1 ? "-" + (parseInt(character_4_index) + 1) : "");
+                        }
                     }
                 }
             }
         }
+    } catch (error) {
+        json_validator_result += "Execution error while checking: Check for repeated teams. " + error;
     }
 
-    // Check if teams keys has number skipped
-    for (let index = 0; index < Object.keys(teams).length; ++index) {
-        if(teams[index + 1] == undefined) {
-            json_validator_result += "<br>Team index #" + (index + 1) + " has been not found - There are " + Object.keys(teams).length + " team indexes, but last one is " + Object.keys(teams)[Object.keys(teams).length - 1];
+    try {
+        // Check if teams keys has skipped a number
+        for (let index = 0; index < Object.keys(teams).length; ++index) {
+            if (teams[index + 1] == undefined) {
+                json_validator_result += "<br>Team index #" + (index + 1) + " has been not found - There are " + Object.keys(teams).length + " team indexes, but last one is " + Object.keys(teams)[Object.keys(teams).length - 1];
+            }
         }
+    } catch (error) {
+        json_validator_result += "Execution error while checking: Check if teams keys has skipped a number. " + error;
     }
 
     test_separator = "<br><br>=================== " + (json_validator_result == "" ? "OK - testTeams" : "KO - testTeams") + " ===================<br><br>";
