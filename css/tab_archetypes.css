@@ -18,8 +18,6 @@
     justify-content: center;
 
     width: 80%;
-
-    /* color: var(--light_text); */
 }
 
 .archetype_title {
@@ -28,11 +26,9 @@
     align-items: center;
     justify-content: center;
 
-    /* margin-top: 2vh; */
     margin-bottom: 1vh;
 
     width: 100%;
-    /* min-height: 100%; */
 
     font-size: 5vh;
     font-family: GenshinImpact;
@@ -45,12 +41,9 @@
     justify-content: center;
 
     margin-top: 1vh;
-    /* margin-bottom: 1vh; */
 
     width: 100%;
-    /* min-height: 100%; */
 
-    /* font-size: 2vh; */
     font-size: x-large;
     font-family: GenshinImpact;
 }
