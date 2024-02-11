@@ -29,13 +29,13 @@ document.addEventListener("DOMContentLoaded", (event) => {
     });
 
     // Hide all tabs. Activate default tab
-    // disableTab(tab_archetype_search, tab_archetype_search_button);
-    // activateTab(tab_teams_search, tab_teams_search_button); // Active by default
-    // disableTab(tab_user, tab_user_button);
-
-    activateTab(tab_archetype_search, tab_archetype_search_button);
-    disableTab(tab_teams_search, tab_teams_search_button); // Active by default
+    disableTab(tab_archetype_search, tab_archetype_search_button);
+    activateTab(tab_teams_search, tab_teams_search_button); // Active by default
     disableTab(tab_user, tab_user_button);
+
+    // activateTab(tab_archetype_search, tab_archetype_search_button);
+    // disableTab(tab_teams_search, tab_teams_search_button); // Active by default
+    // disableTab(tab_user, tab_user_button);
 });
 
 function setTabActive(active_tab, unactive_tabs) {
