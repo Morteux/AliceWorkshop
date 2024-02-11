@@ -10324,7 +10324,7 @@ const teams = {
             "build": "Standard"
         },
         "character_3": {
-            "name": "Sara",
+            "name": "Kujou Sara",
             "build": "Standard"
         },
         "character_4": {
