@@ -124,6 +124,12 @@
     max-width: inherit;
 }
 
+.archetype_character_icon {
+    width: 10vh;
+    /* padding: 1vh; */
+    max-width: inherit;
+}
+
 .team_elements_container {
     display: flex;
     flex-direction: row;

@@ -32,7 +32,7 @@ function getRandomTeamByArchetype(archetype) {
         let team = teams[team_index];
         let character_4_int_index = 0;
         let character_4_index = Object.keys(team.character_4.name)[character_4_int_index];
-    
+
         let character_4 = {
             "name": team.character_4.name[character_4_index],
             "build": team.character_4.build[character_4_index]
@@ -93,6 +93,70 @@ function getRandomTeamByArchetype(archetype) {
     return team_output;
 }
 
+function printElement(element) {
+    let element_HTML = "";
+
+    if (!Array.isArray(element)) {
+        if (ELEMENTS.includes(element)) {
+            element_HTML = `
+            <div class="element_container">
+                <img class="archetype_element_icon" src="images/elements/` + element.toLowerCase() + `.png" alt="Element icon for ` + element + `">
+            </div>
+        `;
+        } else if(CHARACTER_NAMES.includes(element)) {
+            element_HTML = `
+            <div class="element_container">
+                <img class="archetype_character_icon" src="https://api.ambr.top/assets/UI/` + characters[element].images.nameicon + `.png" alt="Flex icon">
+            </div>
+        `;
+        } else {
+            element_HTML = `
+            <div class="element_container">
+                <img class="archetype_element_icon" src="images/icons/user.png" alt="Flex icon">
+            </div>
+        `;
+        }
+        
+    } else if (element.length == 2) {
+        element_HTML = `
+            <div class="double_element_container">
+                <img class="" src="images/elements/` + element[0].toLowerCase() + `.png" alt="Element icon for ` + element[0] + `">
+                
+                <svg class="svg_divisor_line">
+                    <line class="divisor_line" x1='0' y1='100%' x2='100%' y2='0' />
+                </svg>
+
+                <img class="" src="images/elements/` + element[1].toLowerCase() + `.png" alt="Element icon for ` + element[1] + `">
+            </div>
+        `;
+    } else {
+        element_HTML = `
+            <div class="element_container">
+                <img class="archetype_element_icon" src="images/icons/user.png" alt="Flex icon">
+            </div>
+        `;
+    }
+
+    return element_HTML;
+}
+
+function printForcedCharacter() {
+
+}
+
+function printElementsOrForcedCharacter(archetype) {
+    let elements_HTML = "";
+
+    elements_HTML = `
+        ` + printElement(archetype["elements"][0]) + `
+        ` + printElement(archetype["elements"][1]) + `
+        ` + printElement(archetype["elements"][2]) + `
+        ` + printElement(archetype["elements"][3]) + `
+    `;
+
+    return elements_HTML;
+}
+
 function printArchetypes() {
     // Reset Archetypes container
     document.getElementById("archetypes_container").innerHTML = ``;
@@ -103,36 +167,13 @@ function printArchetypes() {
 
         archetypes_HTML += `
         <div id="archetype_container" class="archetype_container">
-    
-            <div id="teams_example" class="teams_example">
-    
-                <div id="" class="team_elements_container">
-                
-                    <div class="element_container">
-                        <img class="archetype_element_icon" src="images/elements/` + "electro" + `.png" alt="Element icon for ` + "Electro" + `">
-                    </div>
-                    
-                    <div class="double_element_container">
-                        <img class="" src="images/elements/` + "electro" + `.png" alt="Element icon for ` + "Electro" + `">
-                        
-                        <svg class="svg_divisor_line">
-                            <line class="divisor_line" x1='0' y1='100%' x2='100%' y2='0' />
-                        </svg>
-    
-                        <img class="" src="images/elements/` + "hydro" + `.png" alt="Element icon for ` + "Hydro" + `">
-                    </div>
-                    
-                    <div class="element_container">
-                        <img class="archetype_element_icon" src="images/elements/` + "hydro" + `.png" alt="Element icon for ` + "Hydro" + `">
-                    </div>
-                    
-                    <div class="element_container">
-                        <img class="archetype_element_icon" src="images/elements/` + "anemo" + `.png" alt="Element icon for ` + "Anemo" + `">
-                    </div>
-    
+
+            <div class="teams_example">
+                <div class="team_elements_container">
+                    ` + printElementsOrForcedCharacter(archetypes[archetype_index]) + `
                 </div>
-    
-                ` + getRandomTeamByArchetype(archetype_index) + `
+
+                    ` + getRandomTeamByArchetype(archetype_index) + `
             </div>
             
             <div class="archetype_info">
@@ -157,7 +198,7 @@ function printArchetypes() {
                 </div>
     
                 <div class="">
-                    forced_characters:` + archetypes[archetype_index]["forced_characters"] + `
+                    recommended_characters:` + archetypes[archetype_index]["recommended_characters"] + `
                 </div>
             </div>
         </div>
