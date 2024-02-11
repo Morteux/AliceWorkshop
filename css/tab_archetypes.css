@@ -6,7 +6,9 @@
 
     width: 80%;
 
-    /* color: var(--light_text); */
+    margin: 7vh 0vw;
+
+    color: var(--light_text);
 }
 
 .teams_example {
@@ -33,6 +35,23 @@
     /* min-height: 100%; */
 
     font-size: 5vh;
+    font-family: GenshinImpact;
+}
+
+.archetype_subtitle {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+
+    margin-top: 1vh;
+    /* margin-bottom: 1vh; */
+
+    width: 100%;
+    /* min-height: 100%; */
+
+    /* font-size: 2vh; */
+    font-size: x-large;
     font-family: GenshinImpact;
 }
 
@@ -137,6 +156,4 @@
     justify-content: space-evenly;
 
     height: 40vh;
-
-    color: var(--light_text);
 }
