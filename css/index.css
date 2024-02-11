@@ -272,6 +272,13 @@ input[type=text] {
     background-color: var(--dark_background) !important;
 }
 
+.scrollable_div {
+    /* padding: 2vh 2vw; */
+    height: 10vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-align: justify;
+}
 
 
 

@@ -1,0 +1,142 @@
+.archetype_container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    width: 80%;
+
+    /* color: var(--light_text); */
+}
+
+.teams_example {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    width: 80%;
+
+    /* color: var(--light_text); */
+}
+
+.archetype_title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    /* margin-top: 2vh; */
+    margin-bottom: 1vh;
+
+    width: 100%;
+    /* min-height: 100%; */
+
+    font-size: 5vh;
+    font-family: GenshinImpact;
+}
+
+
+.element_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background-color: var(--primary_color);
+
+    border-top-left-radius: 8%;
+    border-top-right-radius: 8%;
+    border-bottom-right-radius: 20%;
+
+    /* border-radius: 50%; */
+}
+
+.double_element_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+
+    width: 10vh;
+    height: 10vh;
+
+    background-color: var(--primary_color);
+    
+    border-top-left-radius: 8%;
+    border-bottom-right-radius: 8%;
+}
+
+.double_element_container :first-child {
+
+    width: 4vh;
+    max-width: inherit;
+    border-top-left-radius: 8%;
+    border-top-right-radius: 8%;
+    border-bottom-right-radius: 20%;
+
+    position: absolute;
+    top: 0.7vh;
+    left: 0.7vh;
+}
+
+.double_element_container :last-child {
+    width: 4vh;
+    max-width: inherit;
+    border-top-left-radius: 8%;
+    border-top-right-radius: 8%;
+    border-bottom-right-radius: 20%;
+
+    position: absolute;
+    bottom: 0.7vh;
+    right: 0.7vh;
+}
+
+.svg_divisor_line {
+    width: 10vh;
+    height: 10vh;
+    /* height: 100%; */
+    position: absolute;
+}
+
+.divisor_line {
+    stroke: #e2e2e2;
+    stroke-width: 3;
+}
+
+.archetype_element_icon {
+    width: 8vh;
+    padding: 1vh;
+    max-width: inherit;
+}
+
+.team_elements_container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+
+    border-radius: 3%;
+    margin: 1vh;
+    margin-left: 4vh;
+    margin-right: 4vh;
+
+    padding: 2vh 0vw;
+
+    width: 30vw;
+
+    background-color: var(--tertiary_color);
+}
+
+.archetype_info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+
+    height: 40vh;
+
+    color: var(--light_text);
+}
