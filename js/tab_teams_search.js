@@ -234,10 +234,10 @@ function printTeams() {
                 <div id="team_container" class="team_container viability_` + team.viability.toLowerCase() + `">
 
                     <div id="toolbox_container" class="toolbox_container">
-                        <div id="team_id" class="team_id" onclick="showCopiedPopup('copied_popup_` + orderedKeys[team_index] + (team.character_4.name.length > 1 ? `-` + character_4_int_index++ : ``) + `'); copyTextToClipboard('` + orderedKeys[team_index] + (team.character_4.name.length > 1 ? `-` + character_4_int_index++ : ``) + `');">
-                            #` + orderedKeys[team_index] + (team.character_4.name.length > 1 ? `-` + character_4_int_index++ : ``) + `
+                        <div id="team_id" class="team_id" onclick="showCopiedPopup('copied_popup_` + orderedKeys[team_index] + (team.character_4.name.length > 1 ? `-` + (character_4_int_index + 1) : ``) + `'); copyTextToClipboard('` + orderedKeys[team_index] + (team.character_4.name.length > 1 ? `-` + (character_4_int_index + 1) : ``) + `');">
+                            #` + orderedKeys[team_index] + (team.character_4.name.length > 1 ? `-` + (character_4_int_index + 1) : ``) + `
                             <div class="popup">
-                                <span class="popuptext" id="copied_popup_` + orderedKeys[team_index] + (team.character_4.name.length > 1 ? `-` + character_4_int_index++ : ``) + `">Copied!</span>
+                                <span class="popuptext" id="copied_popup_` + orderedKeys[team_index] + (team.character_4.name.length > 1 ? `-` + (character_4_int_index + 1) : ``) + `">Copied!</span>
                             </div>
                         </div>
 
@@ -278,6 +278,8 @@ function printTeams() {
                 </div>
                 `;
 
+            character_4_int_index++;
+
             document.getElementById("result_container").innerHTML += team_output;
         }
 
@@ -300,7 +302,7 @@ function printRandomTeam() {
     let team_index = Object.keys(teams_search_matches)[Math.floor(Math.random() * Object.keys(teams_search_matches).length)];
 
     let team = teams_search_matches[team_index];
-    let character_4_int_index = 0;
+    let character_4_int_index = Math.floor(Math.random() * Object.keys(team.character_4.name).length);
     let character_4_index = Object.keys(team.character_4.name)[character_4_int_index];
 
     let character_4 = {
@@ -312,8 +314,8 @@ function printRandomTeam() {
         <div id="team_container" class="team_container viability_` + team.viability.toLowerCase() + `">
 
             <div id="toolbox_container" class="toolbox_container">
-                <div id="team_id" class="team_id popup" onclick="showCopiedPopup('copied_popup_` + team_index + `'); copyTextToClipboard('` + team_index + `');">
-                    #` + team_index + `
+                <div id="team_id" class="team_id popup" onclick="showCopiedPopup('copied_popup_` + team_index + `'); copyTextToClipboard('` + team_index + (team.character_4.name.length > 1 ? `-` + (character_4_int_index + 1) : ``) + `');">
+                    #` + team_index + (team.character_4.name.length > 1 ? `-` + (character_4_int_index + 1) : ``) + `
                     <div class="popup">
                         <span class="popuptext" id="copied_popup_` + team_index + `">Copied!</span>
                     </div>

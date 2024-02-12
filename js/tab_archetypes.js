@@ -13,6 +13,11 @@ document.addEventListener("DOMContentLoaded", (event) => {
     printArchetypes();
 });
 
+function getNewRandomTeam(container, archetype) {
+    teams_keys = shuffle(Object.keys(teams));
+    document.getElementById(container).innerHTML = getRandomTeamByArchetype(archetype);
+}
+
 function getRandomTeamByArchetype(archetype) {
     let team_output = "";
 
@@ -30,7 +35,7 @@ function getRandomTeamByArchetype(archetype) {
     if (team_index > -1) {
 
         let team = teams[team_index];
-        let character_4_int_index = 0;
+        let character_4_int_index = Math.floor(Math.random() * Object.keys(team.character_4.name).length);
         let character_4_index = Object.keys(team.character_4.name)[character_4_int_index];
 
         let character_4 = {
@@ -42,8 +47,8 @@ function getRandomTeamByArchetype(archetype) {
         <div id="team_container" class="team_container viability_` + team.viability.toLowerCase() + `">
 
             <div id="toolbox_container" class="toolbox_container">
-                <div id="team_id" class="team_id popup" onclick="showCopiedPopup('copied_popup_` + team_index + `'); copyTextToClipboard('` + team_index + `');">
-                    #` + team_index + `
+                <div id="team_id" class="team_id popup" onclick="showCopiedPopup('copied_popup_` + team_index + `'); copyTextToClipboard('` + team_index + (team.character_4.name.length > 1 ? `-` + (character_4_int_index + 1) : ``) + `');">
+                    #` + team_index + (team.character_4.name.length > 1 ? `-` + (character_4_int_index + 1) : ``) + `
                     <div class="popup">
                         <span class="popuptext" id="copied_popup_` + team_index + `">Copied!</span>
                     </div>
@@ -103,9 +108,9 @@ function printElement(element) {
                 <img class="archetype_element_icon" src="images/elements/` + element.toLowerCase() + `.png" alt="Element icon for ` + element + `">
             </div>
         `;
-        } else if(CHARACTER_NAMES.includes(element)) {
+        } else if (CHARACTER_NAMES.includes(element)) {
             element_HTML = `
-            <div class="element_container">
+            <div class="element_character_container">
                 <img class="archetype_character_icon" src="https://api.ambr.top/assets/UI/` + characters[element].images.nameicon + `.png" alt="Flex icon">
             </div>
         `;
@@ -116,7 +121,7 @@ function printElement(element) {
             </div>
         `;
         }
-        
+
     } else if (element.length == 2) {
         element_HTML = `
             <div class="double_element_container">
@@ -140,10 +145,6 @@ function printElement(element) {
     return element_HTML;
 }
 
-function printForcedCharacter() {
-
-}
-
 function printElementsOrForcedCharacter(archetype) {
     let elements_HTML = "";
 
@@ -155,6 +156,29 @@ function printElementsOrForcedCharacter(archetype) {
     `;
 
     return elements_HTML;
+}
+
+function printRecommendedCharacters(recommended_characters) {
+    let characters_HTML = "";
+    
+    for(let index in recommended_characters) {
+        let character = characters[recommended_characters[index]];
+        
+        characters_HTML += `
+            <div class="character_container ` + character.name.replaceAll(" ", "_") + `">
+                <img class="character_icon ` + (character.rarity == "5" ? "character_5_stars" : "character_4_stars") + `" src="https://api.ambr.top/assets/UI/` + character.images.nameicon + `.png" alt="Character icon for ` + character.name + `">
+                <img class="element_icon" src="images/elements/glow_` + (character.element != "None" ? character.element.toLowerCase() : builds[character_team.name][character_team.build].element.toLowerCase()) + `.png">
+                <div class="rarity_container">` + STAR_SVG + STAR_SVG + STAR_SVG + STAR_SVG + (character.rarity == "5" ? STAR_SVG : "") + `</div>
+                <div class="character_name ` + (character.name.length < SHORT_NAME_LENGTH ? "character_name_short" : (character.name.length < MEDIUM_NAME_LENGTH ? "character_name_medium" : "character_name_long")) + `">` + character.name + `</div>
+            </div>
+        `;
+    }
+
+    if(characters_HTML == "") {
+        characters_HTML = "No recommended character for this archetype.";
+    }
+
+    return characters_HTML;
 }
 
 function printArchetypes() {
@@ -169,36 +193,43 @@ function printArchetypes() {
         <div id="archetype_container" class="archetype_container">
 
             <div class="teams_example">
+                <div class="archetype_title">
+                    ` + archetype_index + ` <button type="submit" class="search_random_button" onclick="getNewRandomTeam('random_` + archetype_index + `', '` + archetype_index + `')"></button>
+                </div>
                 <div class="team_elements_container">
                     ` + printElementsOrForcedCharacter(archetypes[archetype_index]) + `
                 </div>
 
+                <div id="random_` + archetype_index + `">
                     ` + getRandomTeamByArchetype(archetype_index) + `
+                </div>
             </div>
             
             <div class="archetype_info">
-                <div class="archetype_title">
-                    ` + archetype_index + `
-                </div>
     
-                <div class="">
+                <div>
                     <div class="archetype_subtitle">
                         Description:
                     </div>
                     ` + archetypes[archetype_index]["description"] + `
                 </div>
     
-                <div class="">
-                <div class="archetype_subtitle">
-                    Pros/Cons:
-                </div>
+                <div>
+                    <div class="archetype_subtitle">
+                        Pros/Cons:
+                    </div>
                     <div scrollable_div="">
                         ` + archetypes[archetype_index]["pros_cons"] + `
                     </div>
                 </div>
     
-                <div class="">
-                    recommended_characters:` + archetypes[archetype_index]["recommended_characters"] + `
+                <div>
+                    <div class="archetype_subtitle">
+                        Recommended characters:
+                    </div>
+                    <div class="recommended_characters_container">
+                        ` + printRecommendedCharacters(archetypes[archetype_index]["recommended_characters"]) + `
+                    </div>
                 </div>
             </div>
         </div>

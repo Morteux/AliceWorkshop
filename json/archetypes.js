@@ -37,7 +37,7 @@ const archetypes = {
         pros_cons: "Yae Miko y Raiden entre otros suelen aprovechar este arquetipo, aunque normalmente el uso de un equipo Hypercarry suele dar mejores resultados.",
         example_teams: [],
         color: "",
-        recommended_characters: ["Sara"]
+        recommended_characters: ["Kujou Sara"]
     },
     "MonoAnemo": {
         description: "Estoy pensando en quitarlo",

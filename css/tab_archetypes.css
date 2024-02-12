@@ -22,9 +22,9 @@
 
 .archetype_title {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
 
     margin-bottom: 1vh;
 
@@ -48,7 +48,6 @@
     font-family: GenshinImpact;
 }
 
-
 .element_container {
     display: flex;
     flex-direction: column;
@@ -64,6 +63,21 @@
     /* border-radius: 50%; */
 }
 
+.element_character_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background-color: var(--primary_color);
+
+    border-top-left-radius: 8%;
+    border-top-right-radius: 8%;
+    /* border-bottom-right-radius: 20%; */
+
+    /* border-radius: 50%; */
+}
+
 .double_element_container {
     display: flex;
     flex-direction: column;
@@ -72,18 +86,20 @@
 
     position: relative;
 
-    width: 10vh;
-    height: 10vh;
+    width: 12vh;
+    height: 12vh;
+    padding: 1vh;
 
     background-color: var(--primary_color);
     
     border-top-left-radius: 8%;
-    border-bottom-right-radius: 8%;
+    border-top-right-radius: 8%;
+    border-bottom-right-radius: 20%;
 }
 
 .double_element_container :first-child {
 
-    width: 4vh;
+    width: 6vh;
     max-width: inherit;
     border-top-left-radius: 8%;
     border-top-right-radius: 8%;
@@ -95,7 +111,7 @@
 }
 
 .double_element_container :last-child {
-    width: 4vh;
+    width: 6vh;
     max-width: inherit;
     border-top-left-radius: 8%;
     border-top-right-radius: 8%;
@@ -119,13 +135,13 @@
 }
 
 .archetype_element_icon {
-    width: 8vh;
+    width: 12vh;
     padding: 1vh;
     max-width: inherit;
 }
 
 .archetype_character_icon {
-    width: 10vh;
+    width: 14vh;
     /* padding: 1vh; */
     max-width: inherit;
 }
@@ -155,4 +171,13 @@
     justify-content: space-evenly;
 
     height: 40vh;
+}
+
+.recommended_characters_container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+
+    flex-wrap: wrap;
 }
