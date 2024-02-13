@@ -129,6 +129,18 @@
     width: 90%;
 }
 
+.tags {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.viability_tag {
+    margin-left: 1vw;
+    color: var(--light_text);
+}
+
 .filters_elements,
 .filters_archetypes,
 .filters_viabilities,
@@ -191,42 +203,6 @@
     margin-right: 4vh;
 
     width: 30vw;
-}
-
-.viability_meta {
-    background: linear-gradient(to bottom right, var(--secondary_color) 40%, var(--meta_team));
-    /* background: red; */
-}
-
-.viability_viable {
-    background: linear-gradient(to bottom right, var(--secondary_color) 40%, var(--viable_team));
-    /* background: blue; */
-}
-
-.viability_troll {
-    background: linear-gradient(to bottom right, var(--secondary_color) 40%, var(--troll_team));
-    /* background: green; */
-}
-
-.viability_unique {
-    background: linear-gradient(to bottom right, var(--secondary_color) 40%, var(--unique_team));
-    /* background: orange; */
-}
-
-.viability_meta_illuminated {
-    background: var(--meta_collapsible_team);
-}
-
-.viability_viable_illuminated {
-    background: var(--viable_collapsible_team);
-}
-
-.viability_troll_illuminated {
-    background: var(--troll_collapsible_team);
-}
-
-.viability_unique_illuminated {
-    background: var(--unique_collapsible_team);
 }
 
 .toolbox_container {

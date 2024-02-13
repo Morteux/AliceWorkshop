@@ -7,13 +7,13 @@
     /* Teams colors */
     --meta_team: #dc1414;
     --viable_team: #00c0e2;
-    --troll_team: #b1c51b;
+    --offmeta_team: #b1c51b;
     --unique_team: #ff6701;
 
     /* Teams collapsible colors */
     --meta_collapsible_team: #ee4f4f;
     --viable_collapsible_team: #5acbdf;
-    --troll_collapsible_team: #b3c04e;
+    --offmeta_collapsible_team: #b3c04e;
     --unique_collapsible_team: #ff9650;
 
     /* Text color */
@@ -31,6 +31,25 @@
 
     /* Extra */
     --star_shadow: #e3721b;
+
+    /* Archetypes */
+    --pyro: rgb(177, 46, 48);
+    --electro: rgb(132, 16, 233);
+    --dendro: rgb(145, 201, 14);
+    --anemo: rgb(14, 192, 103);
+    --cryo: rgb(163, 227, 239);
+    --geo: rgb(255, 216, 59);
+    --hydro: rgb(1, 229, 255);
+    --flex: rgb(255, 100, 172);
+
+    --pyro_collapsible: rgb(224, 117, 119);
+    --electro_collapsible: rgb(170, 104, 228);
+    --dendro_collapsible: rgb(169, 202, 92);
+    --anemo_collapsible: rgb(85, 184, 134);
+    --cryo_collapsible: rgb(187, 226, 233);
+    --geo_collapsible: rgb(250, 227, 133);
+    --hydro_collapsible: rgb(119, 220, 231);
+    --flex_collapsible: rgb(255, 181, 215);
 }
 
 @font-face {

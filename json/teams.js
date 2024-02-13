@@ -54,7 +54,7 @@ const teams = {
         "description": "Basically Dehya and her powerfull damage carring the whole abyss. Since Dehya cds, you can alter the rotation in order to fix her E cooldown. For example, doing Kazuha's ult at the end of the rotation to gain time. ",
         "rotation": "E Dehya >  E + Q Bennett > E + (Q) Kazuha  > Q + E Mona > Q Dehya (and click so hard)",
         "archetype": "Vaporize",
-        "viability": "Troll",
+        "viability": "Offmeta",
 
         "character_1": {
             "name": "Dehya",
@@ -228,7 +228,7 @@ const teams = {
         "description": "Fast rotations",
         "rotation": "Kaeya E > Tartaglia E+1NA > Kazuha Q + hold E > Rosaria E + Q > Kaeya E + Q > Tartaglia Q + E",
         "archetype": "Freeze",
-        "viability": "Troll",
+        "viability": "Offmeta",
 
         "character_1": {
             "name": "Tartaglia",
@@ -253,7 +253,7 @@ const teams = {
         "description": "Fast rotations",
         "rotation": "Cryo E > Tartaglia E+1NA > Kazuha Q + hold E > Cryo (E)+Q > Ayaka Dash + CA + E + Q > Tartaglia Q + E + NA",
         "archetype": "Freeze",
-        "viability": "Troll",
+        "viability": "Offmeta",
 
         "character_1": {
             "name": "Tartaglia",
@@ -279,7 +279,7 @@ const teams = {
         "description": "An no meta team, similar to Kokomi MonoHydro, but without healer. MonoHydro is not usually optimal, see monohydro archetype for more. Fun vs pyro content.",
         "rotation": "",
         "archetype": "MonoHydro",
-        "viability": "Troll",
+        "viability": "Offmeta",
 
         "character_1": {
             "name": "Tartaglia",
@@ -303,7 +303,7 @@ const teams = {
         "name": "Tartaglia MonoHydro",
         "description": "",
         "archetype": "MonoHydro",
-        "viability": "Troll",
+        "viability": "Offmeta",
 
         "character_1": {
             "name": "Tartaglia",
@@ -327,7 +327,7 @@ const teams = {
         "name": "Tartaglia MonoHydro",
         "description": "",
         "archetype": "MonoHydro",
-        "viability": "Troll",
+        "viability": "Offmeta",
 
         "character_1": {
             "name": "Tartaglia",
@@ -351,7 +351,7 @@ const teams = {
         "name": "Kokomi MonoHydro",
         "description": "",
         "archetype": "MonoHydro",
-        "viability": "Troll",
+        "viability": "Offmeta",
 
         "character_1": {
             "name": "Sangonomiya Kokomi",
@@ -527,7 +527,7 @@ const teams = {
         "description": "Tartaglia is good in Burgeon and similars due to AoE Hydro application. To have enough dendro without nahida, you have to pick two of them,",
         "rotation": "",
         "archetype": "Burgeon",
-        "viability": "Troll",
+        "viability": "Offmeta",
 
         "character_1": {
             "name": "Tartaglia",
@@ -602,7 +602,7 @@ const teams = {
         "description": "Tartaglia is good in Burgeon and similars due to AoE Hydro application. Add a cryo to have more seeds. Yaoyao could not have enough AoE dendro aplication for Burgeon",
         "rotation": "",
         "archetype": "Oven",
-        "viability": "Troll",
+        "viability": "Offmeta",
 
         "character_1": {
             "name": "Tartaglia",
@@ -627,7 +627,7 @@ const teams = {
         "description": "Tartaglia is good in Burgeon and similars due to AoE Hydro application. Add a cryo to have more seeds. Baizhu could not have enough AoE dendro aplication for Burgeon",
         "rotation": "",
         "archetype": "Oven",
-        "viability": "Troll",
+        "viability": "Offmeta",
 
         "character_1": {
             "name": "Tartaglia",
@@ -677,7 +677,7 @@ const teams = {
         "description": "Tartaglia is good in Burgeon and similars due to AoE Hydro application. Shinobu, Raiden or similars can do hyperbloom to do both reactions.",
         "rotation": "",
         "archetype": "Curry",
-        "viability": "Troll",
+        "viability": "Offmeta",
 
         "character_1": {
             "name": "Tartaglia",
@@ -727,7 +727,7 @@ const teams = {
         "description": "Tartaglia is good in Burgeon and similars due to AoE Hydro application. Shinobu, Raiden or similars can do hyperbloom to do both reactions.",
         "rotation": "",
         "archetype": "Curry",
-        "viability": "Troll",
+        "viability": "Offmeta",
 
         "character_1": {
             "name": "Tartaglia",
@@ -802,7 +802,7 @@ const teams = {
         "description": "International team but swapping Xiangling with Dendro MC. Be Carefull to waste MC ultimates with pyro.",
         "rotation": "E Childe > E + Q Dendro MC > E + Q Bennett > E + Q Kazuha > E + Q Childe 2NA+CA (2-3 times)",
         "archetype": "Sauté",
-        "viability": "Troll",
+        "viability": "Offmeta",
 
         "character_1": {
             "name": "Tartaglia",
@@ -1428,7 +1428,7 @@ const teams = {
         "description": "Klee has better archetypes than vaporize. ",
         "rotation": "When using Xingqiu as the sole Hydro applicator, it is recommended as Klee to use N2C N1C combos.",
         "archetype": "Vaporize",
-        "viability": "Troll",
+        "viability": "Offmeta",
 
         "character_1": {
             "name": "Klee",
@@ -1453,7 +1453,7 @@ const teams = {
         "description": "Yelan may not has enough hydro application for Klee, this team is not recomended. Klee also has better archetypes than vaporize. ",
         "rotation": "",
         "archetype": "Vaporize",
-        "viability": "Troll",
+        "viability": "Offmeta",
 
         "character_1": {
             "name": "Klee",
@@ -1478,7 +1478,7 @@ const teams = {
         "description": "Klee has better archetypes than vaporize. You can use Thoma for shielding, but don't expecto high damage.",
         "rotation": "When using Xingqiu as the sole Hydro applicator, it is recommended as Klee to use N2C N1C combos.",
         "archetype": "Vaporize",
-        "viability": "Troll",
+        "viability": "Offmeta",
 
         "character_1": {
             "name": "Klee",
@@ -1503,7 +1503,7 @@ const teams = {
         "description": "One of the worst Klee teams. Use only if you love the characters or if don't have other ways to use Klee.",
         "rotation": "",
         "archetype": "Vaporize",
-        "viability": "Troll",
+        "viability": "Offmeta",
 
         "character_1": {
             "name": "Klee",
@@ -1579,7 +1579,7 @@ const teams = {
         "description": "",
         "rotation": "",
         "archetype": "Melt",
-        "viability": "Troll",
+        "viability": "Offmeta",
 
         "character_1": {
             "name": "Klee",
@@ -1604,7 +1604,7 @@ const teams = {
         "description": "",
         "rotation": "",
         "archetype": "Overload",
-        "viability": "Troll",
+        "viability": "Offmeta",
 
         "character_1": {
             "name": "Klee",
@@ -1629,7 +1629,7 @@ const teams = {
         "description": "An odd variation of taser, using Klee instead of Sucrose. ",
         "rotation": "",
         "archetype": "Overvape",
-        "viability": "Troll",
+        "viability": "Offmeta",
 
         "character_1": {
             "name": "Klee",
@@ -1654,7 +1654,7 @@ const teams = {
         "description": "",
         "rotation": "",
         "archetype": "Overvape",
-        "viability": "Troll",
+        "viability": "Offmeta",
 
         "character_1": {
             "name": "Klee",
@@ -1831,7 +1831,7 @@ const teams = {
         "description": "You can use Lyney en Reverse Melt. You could have not enough pyro application to keep pyro, but it can be a useful team.",
         "rotation": "",
         "archetype": "Melt",
-        "viability": "Troll",
+        "viability": "Offmeta",
 
         "character_1": {
             "name": "Lyney",
@@ -1906,7 +1906,7 @@ const teams = {
         "description": "Layla, Diona, Kirara or Baizhu can be the shielder of Lyney, because cryo/dendro doesn't interrupt the pyro aura. Better with Kazuha.",
         "rotation": "Layla > Bennett > Anemo > Lyney (2-3CA) + Q + E",
         "archetype": "MonoPyro",
-        "viability": "Troll",
+        "viability": "Offmeta",
 
         "character_1": {
             "name": "Lyney",
@@ -2056,7 +2056,7 @@ const teams = {
         "description": "Be careful, Albedo + Zhongli can interrupt Pyro aura with crystalize. Useful when VV/Grouping don't needed.",
         "rotation": "",
         "archetype": "MonoPyro",
-        "viability": "Troll",
+        "viability": "Offmeta",
 
         "character_1": {
             "name": "Lyney",
@@ -2081,7 +2081,7 @@ const teams = {
         "description": "Lyney with Klee support. Klee C2 needed... I will say nothing more.",
         "rotation": "",
         "archetype": "MonoPyro",
-        "viability": "Troll",
+        "viability": "Offmeta",
 
         "character_1": {
             "name": "Lyney",
@@ -2256,7 +2256,7 @@ const teams = {
         "description": "",
         "rotation": "Off field characters  > Freminet: E, BURST, Spam skill (NA when Skill on CD(1s))",
         "archetype": "Freeze",
-        "viability": "Troll",
+        "viability": "Offmeta",
 
         "character_1": {
             "name": "Freminet",
@@ -2281,7 +2281,7 @@ const teams = {
         "description": "Not recommended, since Freminet E share ICD",
         "rotation": "Off field characters  > Freminet: E, BURST, Spam skill (NA when Skill on CD(1s))",
         "archetype": "Melt",
-        "viability": "Troll",
+        "viability": "Offmeta",
 
         "character_1": {
             "name": "Freminet",
@@ -3986,7 +3986,7 @@ const teams = {
         "description": "Dori can be used in hyperbloom but she has a lot of downtime",
         "rotation": "Furina Q > Healer Q/healing",
         "archetype": "Hyperbloom",
-        "viability": "Troll",
+        "viability": "Offmeta",
 
         "character_1": {
             "name": "Furina",
@@ -4011,7 +4011,7 @@ const teams = {
         "description": "Dori can be used in hyperbloom but she has a lot of downtime",
         "rotation": "Furina Q > Healer Q/healing",
         "archetype": "Hyperbloom",
-        "viability": "Troll",
+        "viability": "Offmeta",
 
         "character_1": {
             "name": "Furina",
@@ -4436,7 +4436,7 @@ const teams = {
         "description": "Dehya + Furina + Bennet + Flex Slot Healer. Furina has enough hydro app for Dehya",
         "rotation": "Remember: Furina Q > Healer Q/healing",
         "archetype": "Vaporize",
-        "viability": "Troll",
+        "viability": "Offmeta",
 
         "character_1": {
             "name": "Dehya",
@@ -4486,7 +4486,7 @@ const teams = {
         "description": "",
         "rotation": "Remember: Furina Q > Healer Q/healing",
         "archetype": "Vaporize",
-        "viability": "Troll",
+        "viability": "Offmeta",
 
         "character_1": {
             "name": "Dehya",
@@ -7112,7 +7112,7 @@ const teams = {
         "description": "Bennett has to be full healing. ",
         "rotation": "",
         "archetype": "Vaporize",
-        "viability": "Troll",
+        "viability": "Offmeta",
 
         "character_1": {
             "name": "Dehya",
@@ -7512,7 +7512,7 @@ const teams = {
         "description": "Good in single-target scenarios where enemies don't explode with overload and vs infused enemies whose you can't swirl.",
         "rotation": "",
         "archetype": "Overload",
-        "viability": "Troll",
+        "viability": "Offmeta",
 
         "character_1": {
             "name": "Dehya",
@@ -7537,7 +7537,7 @@ const teams = {
         "description": "Good in single-target scenarios where enemies don't explode with overload and vs infused enemies whose you can't swirl.",
         "rotation": "",
         "archetype": "Overload",
-        "viability": "Troll",
+        "viability": "Offmeta",
 
         "character_1": {
             "name": "Dehya",
@@ -7562,7 +7562,7 @@ const teams = {
         "description": "Good in single-target scenarios where enemies don't explode with overload and vs infused enemies whose you can't swirl.",
         "rotation": "",
         "archetype": "Overload",
-        "viability": "Troll",
+        "viability": "Offmeta",
 
         "character_1": {
             "name": "Diluc",
@@ -7587,7 +7587,7 @@ const teams = {
         "description": "Good in single-target scenarios where enemies don't explode with overload and vs infused enemies whose you can't swirl.",
         "rotation": "",
         "archetype": "Overload",
-        "viability": "Troll",
+        "viability": "Offmeta",
 
         "character_1": {
             "name": "Diluc",
@@ -8662,7 +8662,7 @@ const teams = {
         "description": "Sayu doing brum brum",
         "rotation": "",
         "archetype": "MonoPyro",
-        "viability": "Troll",
+        "viability": "Offmeta",
 
         "character_1": {
             "name": "Sayu",
@@ -9663,7 +9663,7 @@ const teams = {
         "description": "Okeish i think",
         "rotation": "",
         "archetype": "Hypercarry",
-        "viability": "Troll",
+        "viability": "Offmeta",
 
         "character_1": {
             "name": "Ningguang",
@@ -10363,7 +10363,7 @@ const teams = {
         "description": "",
         "rotation": "",
         "archetype": "Spread",
-        "viability": "Troll",
+        "viability": "Offmeta",
 
         "character_1": {
             "name": "Kaveh",

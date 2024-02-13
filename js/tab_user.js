@@ -5,7 +5,7 @@ var menu_tabs_buttons = ["menu_configuration_button", "menu_characters_check_but
 
 var team_creator_meta;
 var team_creator_viable;
-var team_creator_troll;
+var team_creator_offmeta;
 var team_creator_unique;
 
 var favorites = {};
@@ -60,8 +60,8 @@ function getViability() {
 
     if (team_creator_viable.checked) {
         viability = team_creator_viable.value;
-    } else if (team_creator_troll.checked) {
-        viability = team_creator_troll.value;
+    } else if (team_creator_offmeta.checked) {
+        viability = team_creator_offmeta.value;
     } else if (team_creator_unique.checked) {
         viability = team_creator_unique.value;
     }
@@ -100,7 +100,7 @@ function disableMenuTab(tab, tab_button) {
 function printTeamCreator() {
     team_creator_meta = document.getElementById("team_creator_meta");
     team_creator_viable = document.getElementById("team_creator_viable");
-    team_creator_troll = document.getElementById("team_creator_troll");
+    team_creator_offmeta = document.getElementById("team_creator_offmeta");
     team_creator_unique = document.getElementById("team_creator_unique");
 
     document.getElementById("id_input").value = team_count + 1;

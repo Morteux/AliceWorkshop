@@ -83,9 +83,9 @@ function isTeamName(team, search_form_text_input) {
 }
 
 function containCharacters(team, characters) {
-    let contain = true; 
+    let contain = true;
 
-    for(let index in characters) {
+    for (let index in characters) {
         contain = contain && containCharacter(team, characters[index].toUpperCase())
     }
 
@@ -231,13 +231,18 @@ function printTeams() {
             };
 
             team_output = `
-                <div id="team_container" class="team_container viability_` + team.viability.toLowerCase() + `">
+            <div class="team_container ` + archetypes[team.archetype].color + `">
 
-                    <div id="toolbox_container" class="toolbox_container">
-                        <div id="team_id" class="team_id" onclick="showCopiedPopup('copied_popup_` + orderedKeys[team_index] + (team.character_4.name.length > 1 ? `-` + (character_4_int_index + 1) : ``) + `'); copyTextToClipboard('` + orderedKeys[team_index] + (team.character_4.name.length > 1 ? `-` + (character_4_int_index + 1) : ``) + `');">
-                            #` + orderedKeys[team_index] + (team.character_4.name.length > 1 ? `-` + (character_4_int_index + 1) : ``) + `
-                            <div class="popup">
-                                <span class="popuptext" id="copied_popup_` + orderedKeys[team_index] + (team.character_4.name.length > 1 ? `-` + (character_4_int_index + 1) : ``) + `">Copied!</span>
+                <div id="toolbox_container" class="toolbox_container">
+                        <div class="tags">
+                            <div id="team_id" class="team_id" onclick="showCopiedPopup('copied_popup_` + orderedKeys[team_index] + (team.character_4.name.length > 1 ? `-` + (character_4_int_index + 1) : ``) + `'); copyTextToClipboard('` + orderedKeys[team_index] + (team.character_4.name.length > 1 ? `-` + (character_4_int_index + 1) : ``) + `');">
+                                #` + orderedKeys[team_index] + (team.character_4.name.length > 1 ? `-` + (character_4_int_index + 1) : ``) + `
+                                <div class="popup">
+                                    <span class="popuptext" id="copied_popup_` + orderedKeys[team_index] + (team.character_4.name.length > 1 ? `-` + (character_4_int_index + 1) : ``) + `">Copied!</span>
+                                </div>
+                            </div>
+                            <div class="viability_tag">
+                                ` + team.viability + `
                             </div>
                         </div>
 
@@ -258,7 +263,7 @@ function printTeams() {
                     <button class="collapsible" onclick="toggleCollapse(this)">
                         <img class="collapsible_image" src="images/icons/bottom_arrow.png">
                     </button>
-                    <div class="collapsible_content viability_` + team.viability.toLowerCase() + `_illuminated">
+                    <div class="collapsible_content ` + archetypes[team.archetype].color_illuminated + `">
                         <div id="team_name_container" class="team_name_container">
                             ` + team.name + `
                         </div>
@@ -311,7 +316,7 @@ function printRandomTeam() {
     };
 
     team_output = `
-        <div id="team_container" class="team_container viability_` + team.viability.toLowerCase() + `">
+        <div class="team_container ` + archetypes[team.archetype].color + `">
 
             <div id="toolbox_container" class="toolbox_container">
                 <div id="team_id" class="team_id popup" onclick="showCopiedPopup('copied_popup_` + team_index + `'); copyTextToClipboard('` + team_index + (team.character_4.name.length > 1 ? `-` + (character_4_int_index + 1) : ``) + `');">
@@ -338,7 +343,7 @@ function printRandomTeam() {
             <button class="collapsible" onclick="toggleCollapse(this)">
                 <img class="collapsible_image" src="images/icons/bottom_arrow.png">
             </button>
-            <div class="collapsible_content viability_` + team.viability.toLowerCase() + `_illuminated">
+            <div class="collapsible_content ` + archetypes[team.archetype].color_illuminated + `">
                 <div id="team_name_container" class="team_name_container">
                     ` + team.name + `
                 </div>
@@ -348,7 +353,7 @@ function printRandomTeam() {
                 </div>
 
                 <div id="team_archetype_container" class="team_archetype_container">
-                    ` + team.archetype + `
+                    ` + team.viability + ` - ` + team.archetype + `
                 </div>
 
                 <div class="team_desc_container">

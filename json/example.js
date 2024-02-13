@@ -20,7 +20,7 @@ const teams_example = {
         "description": "",      // -
         "rotation": "",         // -
         "archetype": "",        // -
-        "viability": "",        // Meta, viable, troll, unique
+        "viability": "",        // Meta, viable, offmeta, unique
 
         "character_1": {
             "name": "",         // Any literal key string in characters.js

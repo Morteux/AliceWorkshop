@@ -44,7 +44,7 @@ function getRandomTeamByArchetype(archetype) {
         };
 
         team_output = `
-        <div id="team_container" class="team_container viability_` + team.viability.toLowerCase() + `">
+        <div class="team_container ` + archetypes[team.archetype].color + `">
 
             <div id="toolbox_container" class="toolbox_container">
                 <div id="team_id" class="team_id popup" onclick="showCopiedPopup('copied_popup_` + team_index + `'); copyTextToClipboard('` + team_index + (team.character_4.name.length > 1 ? `-` + (character_4_int_index + 1) : ``) + `');">
@@ -71,7 +71,7 @@ function getRandomTeamByArchetype(archetype) {
             <button class="collapsible" onclick="toggleCollapse(this)">
                 <img class="collapsible_image" src="images/icons/bottom_arrow.png">
             </button>
-            <div class="collapsible_content viability_` + team.viability.toLowerCase() + `_illuminated">
+            <div class="collapsible_content ` + archetypes[team.archetype].color_illuminated + `">
                 <div id="team_name_container" class="team_name_container">
                     ` + team.name + `
                 </div>
@@ -92,7 +92,7 @@ function getRandomTeamByArchetype(archetype) {
         `;
     }
     else {
-        team_output = "No teams for archetype " + archetype + " found.";
+        team_output = '<div class="archetype_subtitle">No teams for archetype ' + archetype + ' found.</div>';
     }
 
     return team_output;
@@ -160,10 +160,10 @@ function printElementsOrForcedCharacter(archetype) {
 
 function printRecommendedCharacters(recommended_characters) {
     let characters_HTML = "";
-    
-    for(let index in recommended_characters) {
+
+    for (let index in recommended_characters) {
         let character = characters[recommended_characters[index]];
-        
+
         characters_HTML += `
             <div class="character_container ` + character.name.replaceAll(" ", "_") + `">
                 <img class="character_icon ` + (character.rarity == "5" ? "character_5_stars" : "character_4_stars") + `" src="https://api.ambr.top/assets/UI/` + character.images.nameicon + `.png" alt="Character icon for ` + character.name + `">
@@ -174,7 +174,7 @@ function printRecommendedCharacters(recommended_characters) {
         `;
     }
 
-    if(characters_HTML == "") {
+    if (characters_HTML == "") {
         characters_HTML = "No recommended character for this archetype.";
     }
 

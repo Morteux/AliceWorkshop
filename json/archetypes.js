@@ -4,7 +4,8 @@ const archetypes = {
         elements: ["Geo", "Geo", "Geo", "Flex"],
         pros_cons: "Fáciles de jugar, no se ve bloqueado por ningún tipo de escudo elemental, aunque no suelen ser muy efectivos contra estos",
         example_teams: [],
-        color: "",
+        color: "color_geo",
+        color_illuminated: "color_geo_illuminated",
         recommended_characters: []
     },
     "MonoHydro": {
@@ -12,7 +13,8 @@ const archetypes = {
         elements: ["Hydro", "Hydro", "Hydro", "Flex"],
         pros_cons: "Gracias a Furina este arquetipo ha mejorado muchísimo, y ya no depende de Xingqiu y Yelan, existiendo muchas alternativas. Destaca al romper escudos de fuego, y suelen tener un daño single-target muy potente. En algunas situaciones, añadir un personaje electro puede resultar en un mejor equipo.",
         example_teams: [],
-        color: "",
+        color: "color_hydro",
+        color_illuminated: "color_hydro_illuminated",
         recommended_characters: []
     },
     "MonoCryo": {
@@ -20,7 +22,8 @@ const archetypes = {
         elements: ["Cryo", "Cryo", "Cryo", "Anemo"],
         pros_cons: "Es objetivamente inferior al arquetipo Freeze... a no ser que el enemigo no se pueda congelar. En estos casos, lo supera y se convierte en una muy buena alternativa, por ejemplo, contra jefes.",
         example_teams: [],
-        color: "",
+        color: "color_cryo",
+        color_illuminated: "color_cryo_illuminated",
         recommended_characters: ["Kaedehara Kazuha", "Shenhe"]
     },
     "MonoPyro": {
@@ -28,7 +31,8 @@ const archetypes = {
         elements: ["Pyro", "Pyro", "Pyro", "Anemo"],
         pros_cons: "Muy fuerte y menos situacional que la mayoría de equipos mono elementos. Gracias a que suelen usar personajes como Bennett, Xiangling o Kazuha, tienen muchísimo daño base en cualquier situación. Unica desventaja, cuidado con los escudos pyro.",
         example_teams: [],
-        color: "",
+        color: "color_pyro",
+        color_illuminated: "color_pyro_illuminated",
         recommended_characters: ["Bennett", "Kaedehara Kazuha"]
     },
     "MonoElectro": {
@@ -36,7 +40,8 @@ const archetypes = {
         elements: ["Electro", "Electro", "Electro", "Flex"],
         pros_cons: "Yae Miko y Raiden entre otros suelen aprovechar este arquetipo, aunque normalmente el uso de un equipo Hypercarry suele dar mejores resultados.",
         example_teams: [],
-        color: "",
+        color: "color_electro",
+        color_illuminated: "color_electro_illuminated",
         recommended_characters: ["Kujou Sara"]
     },
     "MonoAnemo": {
@@ -44,7 +49,8 @@ const archetypes = {
         elements: [],
         pros_cons: "",
         example_teams: [],
-        color: "",
+        color: "color_anemo",
+        color_illuminated: "color_anemo_illuminated",
         recommended_characters: []
     },
     "Hypercarry": {
@@ -52,7 +58,8 @@ const archetypes = {
         elements: ["Flex", "Flex", "Flex", "Flex"],
         pros_cons: "Todo el daño depende del investment del carry principal, para bien o para mal, y suelen necesitar vertical investment. La gran mayoría del tiempo onfield es del carry, por lo que si te gusta mucho el personaje es un buen arquetipo.",
         example_teams: [],
-        color: "",
+        color: "color_hypercarry",
+        color_illuminated: "color_hypercarry_illuminated",
         recommended_characters: []
     },
     "Freeze": {
@@ -60,7 +67,8 @@ const archetypes = {
         elements: ["Cryo", ["Cryo", "Hydro"], "Hydro", "Anemo"],
         pros_cons: "Es un arquetipo MUY potente cuando funciona. Y digo cuando funciona, porque hoyoverse está haciendo todo lo posible para que en muchos de los abismos no lo haga, como método de balance suelen poner enemigos inmunes al congelar.",
         example_teams: [],
-        color: "",
+        color: "color_cryo",
+        color_illuminated: "color_cryo_illuminated",
         recommended_characters: []
     },
     "National": {
@@ -68,7 +76,8 @@ const archetypes = {
         elements: ["Xiangling", "Bennett", "Hydro", "Flex"],
         pros_cons: "No tiene ninguna desventaja, suele funcionar donde sea cuando sea ya que tiene muchas variantes que se adaptan a distintas situaciones.",
         example_teams: [],
-        color: "",
+        color: "color_pyro",
+        color_illuminated: "color_pyro_illuminated",
         recommended_characters: []
     },
     "Vaporize": {
@@ -76,7 +85,8 @@ const archetypes = {
         elements: ["Pyro", "Hydro", "Flex", "Flex"],
         pros_cons: "Es un arquetipo que se puede adaptar bien a distintas necesidades, al haber dos slots para personajes Flex, dependiendo de las necesidades del Carry o del abismo.",
         example_teams: [],
-        color: "",
+        color: "color_pyro",
+        color_illuminated: "color_hydro_illuminated",
         recommended_characters: []
     },
     "Overvape": {
@@ -84,7 +94,8 @@ const archetypes = {
         elements: ["Pyro", "Hydro", "Electro", "Flex"],
         pros_cons: "Muy buena combinación de elemento para realizar las tres reacciones mencionadas, ya que el personaje Pyro hará tanto vaporizados como sobrecargados al mismo tiempo. Eso si, hay que tener cuidado de que los enemigos no salgan disparados con los sobrecargados, asi que no siempre es óptimo.",
         example_teams: [],
-        color: "",
+        color: "color_pyro",
+        color_illuminated: "color_hydro_illuminated",
         recommended_characters: []
     },
     "Taser": {
@@ -92,7 +103,8 @@ const archetypes = {
         elements: ["Electro", ["Electro", "Hydro"], "Hydro", "Anemo"],
         pros_cons: "Gracias al aura de electrocargados, el personaje anemo podrá aplicar VV a ambos elementos. En la mayoría de equipos no suelen llevar opciones defensivas, por lo que los hace dificiles de jugar.",
         example_teams: [],
-        color: "",
+        color: "color_electro",
+        color_illuminated: "color_hydro_illuminated",
         recommended_characters: []
     },
     "Soup": {
@@ -100,7 +112,8 @@ const archetypes = {
         elements: ["Anemo", "Hydro", "Pyro", "Electro"],
         pros_cons: "Empujas a los enemigos con overload, pero lo compensas con el agrupar de los personajes anemo.",
         example_teams: [],
-        color: "",
+        color: "color_flex",
+        color_illuminated: "color_flex_illuminated",
         recommended_characters: []
     },
     "Melt": {
@@ -108,7 +121,8 @@ const archetypes = {
         elements: ["Cryo", "Pyro", "Flex", "Flex"],
         pros_cons: "",
         example_teams: [],
-        color: "",
+        color: "color_cryo",
+        color_illuminated: "color_pyro_illuminated",
         recommended_characters: ["Bennett"]
     },
     "Aggravate": {
@@ -116,7 +130,8 @@ const archetypes = {
         elements: [],
         pros_cons: "",
         example_teams: [],
-        color: "",
+        color: "color_electro",
+        color_illuminated: "color_electro_illuminated",
         recommended_characters: []
     },
     "Spread": {
@@ -124,7 +139,8 @@ const archetypes = {
         elements: [],
         pros_cons: "",
         example_teams: [],
-        color: "",
+        color: "color_dendro",
+        color_illuminated: "color_dendro_illuminated",
         recommended_characters: []
     },
     "Bloom": {
@@ -132,7 +148,8 @@ const archetypes = {
         elements: [],
         pros_cons: "",
         example_teams: [],
-        color: "",
+        color: "color_dendro",
+        color_illuminated: "color_hydro_illuminated",
         recommended_characters: []
     },
     "Burgeon": {
@@ -140,7 +157,8 @@ const archetypes = {
         elements: [],
         pros_cons: "",
         example_teams: [],
-        color: "",
+        color: "color_pyro",
+        color_illuminated: "color_dendro_illuminated",
         recommended_characters: []
     },
     "Oven": {
@@ -148,7 +166,8 @@ const archetypes = {
         elements: [],
         pros_cons: "",
         example_teams: [],
-        color: "",
+        color: "color_pyro",
+        color_illuminated: "color_cryo_illuminated",
         recommended_characters: []
     },
     "Curry": {
@@ -156,7 +175,8 @@ const archetypes = {
         elements: [],
         pros_cons: "",
         example_teams: [],
-        color: "",
+        color: "color_pyro",
+        color_illuminated: "color_electro_illuminated",
         recommended_characters: []
     },
     "Sauté": {
@@ -164,7 +184,8 @@ const archetypes = {
         elements: [],
         pros_cons: "",
         example_teams: [],
-        color: "",
+        color: "color_anemo",
+        color_illuminated: "color_dendro_illuminated",
         recommended_characters: []
     },
     "Fridge": {
@@ -172,7 +193,8 @@ const archetypes = {
         elements: [],
         pros_cons: "",
         example_teams: [],
-        color: "",
+        color: "color_dendro",
+        color_illuminated: "color_cryo_illuminated",
         recommended_characters: []
     },
     "Salad": {
@@ -180,7 +202,8 @@ const archetypes = {
         elements: [],
         pros_cons: "",
         example_teams: [],
-        color: "",
+        color: "color_anemo",
+        color_illuminated: "color_dendro_illuminated",
         recommended_characters: []
     },
     "Airfryer": {
@@ -188,7 +211,8 @@ const archetypes = {
         elements: [],
         pros_cons: "",
         example_teams: [],
-        color: "",
+        color: "color_anemo",
+        color_illuminated: "color_pyro_illuminated",
         recommended_characters: []
     },
     "Hyperbloom": {
@@ -196,7 +220,8 @@ const archetypes = {
         elements: [],
         pros_cons: "",
         example_teams: [],
-        color: "",
+        color: "color_dendro",
+        color_illuminated: "color_electro_illuminated",
         recommended_characters: []
     },
     "Quickbloom": {
@@ -204,7 +229,8 @@ const archetypes = {
         elements: [],
         pros_cons: "",
         example_teams: [],
-        color: "",
+        color: "color_dendro",
+        color_illuminated: "color_electro_illuminated",
         recommended_characters: []
     },
     "HyperFridge": {
@@ -212,7 +238,8 @@ const archetypes = {
         elements: [],
         pros_cons: "",
         example_teams: [],
-        color: "",
+        color: "color_dendro",
+        color_illuminated: "color_cryo_illuminated",
         recommended_characters: []
     },
     "Overload": {
@@ -220,7 +247,8 @@ const archetypes = {
         elements: [],
         pros_cons: "",
         example_teams: [],
-        color: "",
+        color: "color_pyro",
+        color_illuminated: "color_electro_illuminated",
         recommended_characters: []
     },
     "Bain-Marie": {
@@ -228,7 +256,8 @@ const archetypes = {
         elements: [],
         pros_cons: "",
         example_teams: [],
-        color: "",
+        color: "color_cryo",
+        color_illuminated: "color_dendro_illuminated",
         recommended_characters: []
-    },
+    }
 };
