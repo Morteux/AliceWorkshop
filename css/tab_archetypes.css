@@ -14,8 +14,6 @@
     justify-content: center;
 
     width: 80%;
-
-    margin: 7vh 0vw;
 }
 
 .teams_example {
@@ -25,6 +23,10 @@
     justify-content: center;
 
     width: 80%;
+}
+
+#show_all_archetypes_button {
+    margin-right: 1vw;
 }
 
 .archetype_title {

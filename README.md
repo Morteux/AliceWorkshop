@@ -16,7 +16,6 @@ https://genshindb-ia.vercel.app/
 
 ## Tab Archetypes
 ### To do
-- 5. Los arquetipos muestras toda la información en pantalla en modo lista. Imagenes como la de los equipos pero elementos en vez de pjs. Inclusión y exclusión forzosa de pjs en cada posición.
 - Poder buscar por un personaje, saliendo los mejores arquetipos para dicho personaje con plantillas (Por ejemplo busqueda de Itto: "Mono Geo: Itto, Gorou, Geo, Flex").
 - Filtrar por characters owned.
   

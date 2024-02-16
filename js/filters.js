@@ -14,11 +14,11 @@ document.addEventListener("DOMContentLoaded", (event) => {
 
 function printExtraFilters() {
     filters_element = ELEMENTS.slice();             // Copy by value, not by reference
-    filters_archetype = ARCHETYPES_NAMES.slice();         // Copy by value, not by reference
+    filters_archetype = ARCHETYPES_NAMES.slice();   // Copy by value, not by reference
     filters_viability = VIABILITIES.slice();        // Copy by value, not by reference
     filters_character = CHARACTER_NAMES.slice();    // Copy by value, not by reference
 
-    extra_filters_container = document.getElementById("extra_filters_container");
+    let extra_filters_container = document.getElementById("extra_filters_container");
 
     let filters = "";
 
@@ -34,7 +34,7 @@ function printExtraFilters() {
         <div class="checkbox_filter">
             <input type="checkbox" onclick="toggleFilterElement('` + element + `'); resetResult(); searchQuery()" name="filter_element_` + element.toLowerCase() + `" id="filter_element_` + element.toLowerCase() + `" ` + (filters_element.includes(element) ? `checked` : ``) + `>
             <label for="filter_element_` + element.toLowerCase() + `">` + element + `</label></input>
-        </div>`
+        </div>`;
     }
     filters += `</div>`;
 
@@ -51,7 +51,7 @@ function printExtraFilters() {
         <div class="checkbox_filter">
             <input type="checkbox" onclick="toggleFilterArchetype('` + archetype + `'); resetResult(); searchQuery()" name="filter_archetype_` + archetype.toLowerCase() + `" id="filter_archetype_` + archetype.toLowerCase() + `" ` + (filters_archetype.includes(archetype) ? `checked` : ``) + `>
             <label for="filter_archetype_` + archetype.toLowerCase() + `">` + archetype + `</label></input>
-        </div>`
+        </div>`;
     }
     filters += `</div>`;
 
@@ -68,7 +68,7 @@ function printExtraFilters() {
         <div class="checkbox_filter">
             <input type="checkbox" onclick="toggleFilterViability('` + viability + `'); resetResult(); searchQuery()" name="filter_viability_` + viability.toLowerCase() + `" id="filter_viability_` + viability.toLowerCase() + `" ` + (filters_viability.includes(viability) ? `checked` : ``) + `>
             <label for="filter_viability_` + viability.toLowerCase() + `">` + viability + `</label></input>
-        </div>`
+        </div>`;
     }
     filters += `</div>`;
 
@@ -85,7 +85,7 @@ function printExtraFilters() {
         <div class="checkbox_filter">
             <input type="checkbox" onclick="toggleFilterCharacter('` + character + `'); resetResult(); searchQuery()" name="filter_character_` + character.toLowerCase() + `" id="filter_character_` + character.toLowerCase() + `" ` + (filters_character.includes(character) ? `checked` : ``) + `>
             <label for="filter_character_` + character.toLowerCase() + `">` + character + `</label></input>
-        </div>`
+        </div>`;
     }
     filters += `</div>`;
 

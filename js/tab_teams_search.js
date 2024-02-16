@@ -230,58 +230,8 @@ function printTeams() {
                 "build": team.character_4.build[character_4_index]
             };
 
-            team_output = `
-            <div class="team_container ` + archetypes[team.archetype].color + `">
-
-                <div id="toolbox_container" class="toolbox_container">
-                        <div class="tags">
-                            <div id="team_id" class="team_id" onclick="showCopiedPopup('copied_popup_` + orderedKeys[team_index] + (team.character_4.name.length > 1 ? `-` + (character_4_int_index + 1) : ``) + `'); copyTextToClipboard('` + orderedKeys[team_index] + (team.character_4.name.length > 1 ? `-` + (character_4_int_index + 1) : ``) + `');">
-                                #` + orderedKeys[team_index] + (team.character_4.name.length > 1 ? `-` + (character_4_int_index + 1) : ``) + `
-                                <div class="popup">
-                                    <span class="popuptext" id="copied_popup_` + orderedKeys[team_index] + (team.character_4.name.length > 1 ? `-` + (character_4_int_index + 1) : ``) + `">Copied!</span>
-                                </div>
-                            </div>
-                            <div class="viability_tag">
-                                ` + team.viability + `
-                            </div>
-                        </div>
-
-                        <button class="fav_button" onclick="toggleFavorite(this, ` + orderedKeys[team_index] + `)">
-                            <img class="` + (favorites[orderedKeys[team_index]] === null || favorites[orderedKeys[team_index]] === undefined ? `empty` : `filled`) + `" src="images/icons/star_` + (favorites[orderedKeys[team_index]] === null || favorites[orderedKeys[team_index]] === undefined ? `empty` : `filled`) + `.png">
-                        </button>
-                    </div>
-
-                    <div id="characters_container" class="characters_container">
-                    ` +
-                getCharacterHTML("character_1", team.character_1, characters[team.character_1.name]) +
-                getCharacterHTML("character_2", team.character_2, characters[team.character_2.name]) +
-                getCharacterHTML("character_3", team.character_3, characters[team.character_3.name]) +
-                getCharacterHTML("character_4", character_4, characters[character_4.name]) +
-                `
-                    </div>
-                    
-                    <button class="collapsible" onclick="toggleCollapse(this)">
-                        <img class="collapsible_image" src="images/icons/bottom_arrow.png">
-                    </button>
-                    <div class="collapsible_content ` + archetypes[team.archetype].color_illuminated + `">
-                        <div id="team_name_container" class="team_name_container">
-                            ` + team.name + `
-                        </div>
-
-                        <div id="team_rotation_container" class="team_rotation_container">
-                            ` + team.rotation + `
-                        </div>
-
-                        <div id="team_archetype_container" class="team_archetype_container">
-                            ` + team.archetype + `
-                        </div>
-
-                        <div class="team_desc_container">
-                            ` + team.description + `
-                        </div>
-                    </div>
-                </div>
-                `;
+            let team_id = orderedKeys[team_index] + (team.character_4.name.length > 1 ? `-` + (character_4_int_index + 1) : ``);
+            team_output = getTeamHTML(team, team_index, team_id, character_4);
 
             character_4_int_index++;
 
@@ -315,19 +265,45 @@ function printRandomTeam() {
         "build": team.character_4.build[character_4_index]
     };
 
-    team_output = `
-        <div class="team_container ` + archetypes[team.archetype].color + `">
+    let team_id = team_index + (team.character_4.name.length > 1 ? `-` + (character_4_int_index + 1) : ``);
+    team_output = getTeamHTML(team, team_index, team_id, character_4);
 
-            <div id="toolbox_container" class="toolbox_container">
-                <div id="team_id" class="team_id popup" onclick="showCopiedPopup('copied_popup_` + team_index + `'); copyTextToClipboard('` + team_index + (team.character_4.name.length > 1 ? `-` + (character_4_int_index + 1) : ``) + `');">
-                    #` + team_index + (team.character_4.name.length > 1 ? `-` + (character_4_int_index + 1) : ``) + `
-                    <div class="popup">
-                        <span class="popuptext" id="copied_popup_` + team_index + `">Copied!</span>
+    document.getElementById("result_container").innerHTML += team_output;
+
+    document.getElementById("result_counter_container").style.display = "none";
+}
+
+function getCharacterHTML(id, character_team, character_data) {
+    return `
+    <div id="` + id + `" class="character_container ` + character_data.name.replaceAll(" ", "_") + `">
+        <img class="character_icon ` + (character_data.rarity == "5" ? "character_5_stars" : "character_4_stars") + `" src="https://api.ambr.top/assets/UI/` + character_data.images.nameicon + `.png" alt="Character icon for ` + character_data.name + `">
+        <img class="element_icon" src="images/elements/glow_` + (character_data.element != "None" ? character_data.element.toLowerCase() : builds[character_team.name][character_team.build].element.toLowerCase()) + `.png">
+        ` + (builds[character_team.name][character_team.build].constellation != "" ? `<div class="constellation">` + builds[character_team.name][character_team.build].constellation + `</div>` : ``) + `
+        <div class="rarity_container">` + STAR_SVG + STAR_SVG + STAR_SVG + STAR_SVG + (character_data.rarity == "5" ? STAR_SVG : "") + `</div>
+        <div class="character_name ` + (character_data.name.length < SHORT_NAME_LENGTH ? "character_name_short" : (character_data.name.length < MEDIUM_NAME_LENGTH ? "character_name_medium" : "character_name_long")) + `">` + character_data.name + `</div>
+    </div>
+    `;
+}
+
+function getTeamHTML(team, team_index, team_id, character_4) {
+    return `
+    <div class="team_container ` + archetypes[team.archetype].color + `">
+
+        <div id="toolbox_container" class="toolbox_container">
+                <div class="tags">
+                    <div id="team_id" class="team_id" onclick="showCopiedPopup('copied_popup_` + team_id + `'); copyTextToClipboard('` + team_id + `');">
+                        #` + team_id + `
+                        <div class="popup">
+                            <span class="popuptext" id="copied_popup_` + team_id + `">Copied!</span>
+                        </div>
+                    </div>
+                    <div class="viability_tag">
+                        ` + team.viability + `
                     </div>
                 </div>
 
-                <button class="fav_button" onclick="toggleFavorite(this, ` + teams_search_matches[team_index] + `)">
-                    <img class="` + (favorites[teams_search_matches[team_index]] === null || favorites[teams_search_matches[team_index]] === undefined ? `empty` : `filled`) + `" src="images/icons/star_` + (favorites[teams_search_matches[team_index]] === null || favorites[teams_search_matches[team_index]] === undefined ? `empty` : `filled`) + `.png">
+                <button class="fav_button" onclick="toggleFavorite(this, ` + orderedKeys[team_index] + `)">
+                    <img class="` + (favorites[orderedKeys[team_index]] === null || favorites[orderedKeys[team_index]] === undefined ? `empty` : `filled`) + `" src="images/icons/star_` + (favorites[orderedKeys[team_index]] === null || favorites[orderedKeys[team_index]] === undefined ? `empty` : `filled`) + `.png">
                 </button>
             </div>
 
@@ -353,7 +329,7 @@ function printRandomTeam() {
                 </div>
 
                 <div id="team_archetype_container" class="team_archetype_container">
-                    ` + team.viability + ` - ` + team.archetype + `
+                    ` + team.archetype + `
                 </div>
 
                 <div class="team_desc_container">
@@ -361,34 +337,6 @@ function printRandomTeam() {
                 </div>
             </div>
         </div>
-        `;
-
-    document.getElementById("result_container").innerHTML += team_output;
-
-    document.getElementById("result_counter_container").style.display = "none";
-}
-
-function getCharacterHTML(id, character_team, character_data) {
-    // if (character_team == null || character_data == null) {
-    //     console.log(id);
-    //     console.log(character_team);
-    //     console.log(character_data);
-    // }
-
-    // console.log(character_team.name);
-    // console.log(character_team.build);
-    // console.log(builds[character_team.name]);
-    // console.log(builds[character_team.name][character_team.build]);
-    // console.log(builds[character_team.name][character_team.build].constellation);
-
-    return `
-    <div id="` + id + `" class="character_container ` + character_data.name.replaceAll(" ", "_") + `">
-        <img class="character_icon ` + (character_data.rarity == "5" ? "character_5_stars" : "character_4_stars") + `" src="https://api.ambr.top/assets/UI/` + character_data.images.nameicon + `.png" alt="Character icon for ` + character_data.name + `">
-        <img class="element_icon" src="images/elements/glow_` + (character_data.element != "None" ? character_data.element.toLowerCase() : builds[character_team.name][character_team.build].element.toLowerCase()) + `.png">
-        ` + (builds[character_team.name][character_team.build].constellation != "" ? `<div class="constellation">` + builds[character_team.name][character_team.build].constellation + `</div>` : ``) + `
-        <div class="rarity_container">` + STAR_SVG + STAR_SVG + STAR_SVG + STAR_SVG + (character_data.rarity == "5" ? STAR_SVG : "") + `</div>
-        <div class="character_name ` + (character_data.name.length < SHORT_NAME_LENGTH ? "character_name_short" : (character_data.name.length < MEDIUM_NAME_LENGTH ? "character_name_medium" : "character_name_long")) + `">` + character_data.name + `</div>
-    </div>
     `;
 }
 
