@@ -7011,7 +7011,7 @@ const teams = {
         "name": "Lyney Furina",
         "description": "With Xiangling, you will keep enough pyro application for Lyney's passive and Furina vapes. Problem: Squishiest team in the world. Bennett healer.",
         "rotation": "",
-        "archetype": "Quickbloom",
+        "archetype": "MonoPyro",
         "viability": "Meta",
 
         "character_1": {
