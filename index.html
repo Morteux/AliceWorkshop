@@ -12,10 +12,11 @@
 
     <!-- CSS style -->
     <link rel="stylesheet" href="css/index.css">
-    <link rel="stylesheet" href="css/navegation.css">
+    <link rel="stylesheet" href="css/navigation.css">
     <link rel="stylesheet" href="css/collapsible.css">
     <link rel="stylesheet" href="css/tab_archetypes.css">
     <link rel="stylesheet" href="css/tab_teams_search.css">
+    <link rel="stylesheet" href="css/tab_characters.css">
     <link rel="stylesheet" href="css/tab_user.css">
 
     <!-- JSON data -->
@@ -34,7 +35,7 @@
 
     <!-- JavaScript logic -->
     <script src="js/index.js"></script>
-    <script src="js/navegation.js"></script>
+    <script src="js/navigation.js"></script>
     <script src="js/collapsible.js"></script>
     <script src="js/autocomplete.js"></script>
     <script src="js/filters.js"></script>
@@ -42,6 +43,7 @@
 
     <script src="js/tab_archetypes.js"></script>
     <script src="js/tab_teams_search.js"></script>
+    <script src="js/tab_characters.js"></script>
     <script src="js/tab_user.js"></script>
 
     <title>Alice Workshop</title>
@@ -54,13 +56,18 @@
     <div id="main" class="main">
 
         <div id="tabs_container" class="tabs_container">
-            <div id="tab_archetype_search_button">Archetypes</div>
-            <div id="tab_teams_search_button">Teams</div>
-            <div id="tab_user_button">User</div>
+            <div id="tab_archetype_search_button" class="disabled_tab_button">Archetypes</div>
+            <div id="tab_teams_search_button" class="disabled_tab_button">Teams</div>
+            <div id="tab_characters_button" class="disabled_tab_button">Characters</div>
+            <div id="tab_user_button" class="disabled_tab_button">User</div>
         </div>
 
         <div id="tab_archetype_search" class="tab_archetype_search">
 
+            <div id="archetypes_container_filters" class="archetypes_container">
+                
+            </div>
+            
             <div id="archetypes_container" class="archetypes_container">
                 
             </div>
@@ -180,9 +187,14 @@
 
         </div>
 
+        <div id="tab_characters" class="tab_characters">
+            <div id="menu_characters" class="menu_characters">
+            </div>
+        </div>
+
         <div id="tab_user" class="tab_user">
 
-            <div id="navegation_menu" class="navegation_menu">
+            <div id="navigation_menu" class="navigation_menu">
                 <div id="menu_configuration_button" class="">Configuration</div>
                 <div id="menu_characters_check_button" class="">Characters</div>
                 <div id="menu_teams_creator_button" class="">Team creator</div>

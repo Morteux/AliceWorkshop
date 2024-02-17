@@ -29,31 +29,30 @@ if (localStorage.getItem("user_characters") !== null && localStorage.getItem("us
 document.addEventListener("DOMContentLoaded", (event) => {
 
     // Configuration
-
+    printConfiguration();
 
     // Characters
-
     printCharactersCheck();
 
     // Team creator
-
     printTeamCreator();
-
-
 
     // Team user configuration
 
     for (let menu_index in menu_tabs) {
         // Set on click event listener for each tab button
-        document.getElementById(menu_tabs_buttons[menu_index]).addEventListener('click', function (event) {
-            setMenuTabActive(document.getElementById(menu_tabs[menu_index]), document.getElementById(menu_tabs_buttons[menu_index]));
+        document.getElementById(menu_tabs[menu_index] + "_button").addEventListener('click', function (event) {
+            setMenuTabActive(document.getElementById(menu_tabs[menu_index]), document.getElementById(menu_tabs[menu_index] + "_button"));
         });
     }
 
     // Hide all tabs. Activate default tab
-    // setMenuTabActive(document.getElementById("menu_characters_check"), document.getElementById("menu_characters_check_button"));
     setMenuTabActive(document.getElementById("menu_teams_creator"), document.getElementById("menu_teams_creator_button"));
 });
+
+function printConfiguration() {
+
+}
 
 function getViability() {
     let viability = "Meta";
@@ -72,7 +71,7 @@ function getViability() {
 function setMenuTabActive(menu_tab, menu_tab_button) {
     if (!menu_tab.classList.contains('active_tab_button')) {
         for (let tab_index in menu_tabs) {
-            disableMenuTab(document.getElementById(menu_tabs[tab_index]), document.getElementById(menu_tabs_buttons[tab_index]));
+            disableMenuTab(document.getElementById(menu_tabs[tab_index]), document.getElementById(menu_tabs[tab_index] + "_button"));
         }
 
         activateMenuTab(menu_tab, menu_tab_button);

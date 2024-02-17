@@ -16,10 +16,7 @@ https://genshindb-ia.vercel.app/
 
 ## Tab Archetypes
 ### To do
-- 5. Los arquetipos muestras toda la información en pantalla en modo lista. Imagenes como la de los equipos pero elementos en vez de pjs. Inclusión y exclusión forzosa de pjs en cada posición.
-- Poder buscar por un personaje, saliendo los mejores arquetipos para dicho personaje con plantillas (Por ejemplo busqueda de Itto: "Mono Geo: Itto, Gorou, Geo, Flex").
-- Filtrar por characters owned.
-  
+
 ## Tab Teams Search
 ### To do
 - Multi archetypes for teams.
@@ -28,14 +25,14 @@ https://genshindb-ia.vercel.app/
 - Hide/show character stats behind icons for each team.
 - Hide/show "flex" artifacts and weapons in each build.
 - Set birthday party hat to characters in their birthday.
-- 4. Cambiar los colores para que indiquen los arquetipos. Asimismo, añadir un identificador para la viabilidad.
-- 6. Arreglar para que al buscar por X personaje salga aunque no lo tengamos, con la opción "characters owned" activa (Saldrá todos los equipos del personaje X + los nuestros).
 
-## Tab Nueva Search
+## Tab Characters
 ### To do
 - Character build
 - 3. Character archetypes
 - Character stats
+- Poder buscar por un personaje, saliendo los mejores arquetipos para dicho personaje con plantillas (Por ejemplo busqueda de Itto: "Mono Geo: Itto, Gorou, Geo, Flex").
+- Filtrar por characters owned.
 
 ## Tab Configuration
 ### To do

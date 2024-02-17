@@ -1,3 +1,5 @@
+var filters_tab_archetype = [];
+
 // declare the function 
 const shuffle = (array) => {
     for (let i = array.length - 1; i > 0; i--) {
@@ -10,8 +12,73 @@ const shuffle = (array) => {
 var teams_keys = shuffle(Object.keys(teams));
 
 document.addEventListener("DOMContentLoaded", (event) => {
+    
+    filters_tab_archetype = ARCHETYPES_NAMES.slice();   // Copy by value, not by reference
+
+    printTabArchetypesFilters();
+
     printArchetypes();
 });
+
+function printTabArchetypesFilters() {
+    let filters = `<div class="filters_archetypes">
+    
+        <button id="show_all_archetypes_button" class="primary_button" onclick="showAllTabArchetypes()">+</button>
+        `;
+
+    for (let archetype_index in ARCHETYPES_NAMES) {
+        let archetype = ARCHETYPES_NAMES[archetype_index];
+
+        filters += `
+        <div class="checkbox_filter">
+            <input type="checkbox" onclick="showFilterArchetype('` + archetype + `');" name="filter_tab_archetype_` + archetype.toLowerCase() + `" id="filter_tab_archetype_` + archetype.toLowerCase() + `" ` + (filters_tab_archetype.includes(archetype) ? `checked` : ``) + `>
+            <label for="filter_tab_archetype_` + archetype.toLowerCase() + `">` + archetype + `</label></input>
+        </div>
+        `;
+    }
+
+    filters += `</div>`;
+
+    document.getElementById("archetypes_container_filters").innerHTML = filters;
+}
+
+function showFilterArchetype(archetype) {
+    let archetype_container = document.getElementById("archetype_container_" + archetype.toLowerCase());
+
+    if (filters_tab_archetype.includes(archetype)) {
+        archetype_container.style.display = "none";
+
+        const index = filters_tab_archetype.indexOf(archetype);
+        if (index > -1) {           // only splice array when item is found
+            filters_tab_archetype.splice(index, 1);   // 2nd parameter means remove one item only
+        }
+    }
+    else {
+        archetype_container.style.display = "flex";
+
+        filters_tab_archetype.push(archetype);
+    }
+}
+
+function showAllTabArchetypes() {
+    if (filters_tab_archetype.length > 0) {
+        document.getElementById("show_all_archetypes_button").innerHTML = "-";
+
+        while (filters_tab_archetype[0] != null) {
+            document.getElementById("filter_tab_archetype_" + filters_tab_archetype[0].toLowerCase()).checked = false;
+            showFilterArchetype(filters_tab_archetype[0]);
+        }
+    } else {
+        document.getElementById("show_all_archetypes_button").innerHTML = "+";
+
+        for (let archetype_index in ARCHETYPES_NAMES) {
+            if (!filters_tab_archetype.includes(ARCHETYPES_NAMES[archetype_index])) {
+                document.getElementById("filter_tab_archetype_" + ARCHETYPES_NAMES[archetype_index].toLowerCase()).checked = true;
+                showFilterArchetype(ARCHETYPES_NAMES[archetype_index]);
+            }
+        }
+    }
+}
 
 function getNewRandomTeam(container, archetype) {
     teams_keys = shuffle(Object.keys(teams));
@@ -43,53 +110,8 @@ function getRandomTeamByArchetype(archetype) {
             "build": team.character_4.build[character_4_index]
         };
 
-        team_output = `
-        <div class="team_container ` + archetypes[team.archetype].color + `">
-
-            <div id="toolbox_container" class="toolbox_container">
-                <div id="team_id" class="team_id popup" onclick="showCopiedPopup('copied_popup_` + team_index + `'); copyTextToClipboard('` + team_index + (team.character_4.name.length > 1 ? `-` + (character_4_int_index + 1) : ``) + `');">
-                    #` + team_index + (team.character_4.name.length > 1 ? `-` + (character_4_int_index + 1) : ``) + `
-                    <div class="popup">
-                        <span class="popuptext" id="copied_popup_` + team_index + `">Copied!</span>
-                    </div>
-                </div>
-
-                <button class="fav_button" onclick="toggleFavorite(this, ` + teams_search_matches[team_index] + `)">
-                    <img class="` + (favorites[teams_search_matches[team_index]] === null || favorites[teams_search_matches[team_index]] === undefined ? `empty` : `filled`) + `" src="images/icons/star_` + (favorites[teams_search_matches[team_index]] === null || favorites[teams_search_matches[team_index]] === undefined ? `empty` : `filled`) + `.png">
-                </button>
-            </div>
-
-            <div id="characters_container" class="characters_container">
-            ` +
-            getCharacterHTML("character_1", team.character_1, characters[team.character_1.name]) +
-            getCharacterHTML("character_2", team.character_2, characters[team.character_2.name]) +
-            getCharacterHTML("character_3", team.character_3, characters[team.character_3.name]) +
-            getCharacterHTML("character_4", character_4, characters[character_4.name]) +
-            `
-            </div>
-            
-            <button class="collapsible" onclick="toggleCollapse(this)">
-                <img class="collapsible_image" src="images/icons/bottom_arrow.png">
-            </button>
-            <div class="collapsible_content ` + archetypes[team.archetype].color_illuminated + `">
-                <div id="team_name_container" class="team_name_container">
-                    ` + team.name + `
-                </div>
-
-                <div id="team_rotation_container" class="team_rotation_container">
-                    ` + team.rotation + `
-                </div>
-
-                <div id="team_archetype_container" class="team_archetype_container">
-                    ` + team.archetype + `
-                </div>
-
-                <div class="team_desc_container">
-                    ` + team.description + `
-                </div>
-            </div>
-        </div>
-        `;
+        let team_id = team_index + (team.character_4.name.length > 1 ? `-` + (character_4_int_index + 1) : ``);
+        team_output = getTeamHTML(team, team_index, team_id, character_4);
     }
     else {
         team_output = '<div class="archetype_subtitle">No teams for archetype ' + archetype + ' found.</div>';
@@ -190,7 +212,7 @@ function printArchetypes() {
     for (let archetype_index in archetypes) {
 
         archetypes_HTML += `
-        <div id="archetype_container" class="archetype_container">
+        <div id="archetype_container_` + archetype_index.toLowerCase() + `" class="archetype_container">
 
             <div class="teams_example">
                 <div class="archetype_title">
