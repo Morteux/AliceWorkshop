@@ -16,8 +16,6 @@ https://genshindb-ia.vercel.app/
 
 ## Tab Archetypes
 ### To do
-- Poder buscar por un personaje, saliendo los mejores arquetipos para dicho personaje con plantillas (Por ejemplo busqueda de Itto: "Mono Geo: Itto, Gorou, Geo, Flex").
-- Filtrar por characters owned.
 
 ## Tab Teams Search
 ### To do
@@ -28,11 +26,13 @@ https://genshindb-ia.vercel.app/
 - Hide/show "flex" artifacts and weapons in each build.
 - Set birthday party hat to characters in their birthday.
 
-## Tab Nueva Search
+## Tab Characters
 ### To do
 - Character build
 - 3. Character archetypes
 - Character stats
+- Poder buscar por un personaje, saliendo los mejores arquetipos para dicho personaje con plantillas (Por ejemplo busqueda de Itto: "Mono Geo: Itto, Gorou, Geo, Flex").
+- Filtrar por characters owned.
 
 ## Tab Configuration
 ### To do
