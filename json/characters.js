@@ -1,5 +1,6 @@
 const characters = {
     "Aether": {
+        "id": 10000005,
         "name": "Aether",
         "fullname": "Aether",
         "title": "",
@@ -25,122 +26,139 @@ const characters = {
         "costs": {
             "ascend1": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 20000
                 },
                 {
+                    "id": 104101,
                     "name": "Brilliant Diamond Sliver",
                     "count": 1
                 },
                 {
+                    "id": 100024,
                     "name": "Windwheel Aster",
                     "count": 3
                 },
                 {
+                    "id": 112005,
                     "name": "Damaged Mask",
                     "count": 3
                 }
             ],
             "ascend2": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 40000
                 },
                 {
+                    "id": 104102,
                     "name": "Brilliant Diamond Fragment",
                     "count": 3
                 },
                 {
+                    "id": 100024,
                     "name": "Windwheel Aster",
                     "count": 10
                 },
                 {
+                    "id": 112005,
                     "name": "Damaged Mask",
                     "count": 15
                 }
             ],
             "ascend3": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 60000
                 },
                 {
+                    "id": 104102,
                     "name": "Brilliant Diamond Fragment",
                     "count": 6
                 },
                 {
+                    "id": 100024,
                     "name": "Windwheel Aster",
                     "count": 20
                 },
                 {
+                    "id": 112006,
                     "name": "Stained Mask",
                     "count": 12
                 }
             ],
             "ascend4": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 80000
                 },
                 {
+                    "id": 104103,
                     "name": "Brilliant Diamond Chunk",
                     "count": 3
                 },
                 {
+                    "id": 100024,
                     "name": "Windwheel Aster",
                     "count": 30
                 },
                 {
+                    "id": 112006,
                     "name": "Stained Mask",
                     "count": 18
                 }
             ],
             "ascend5": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 100000
                 },
                 {
+                    "id": 104103,
                     "name": "Brilliant Diamond Chunk",
                     "count": 6
                 },
                 {
+                    "id": 100024,
                     "name": "Windwheel Aster",
                     "count": 45
                 },
                 {
+                    "id": 112007,
                     "name": "Ominous Mask",
                     "count": 12
                 }
             ],
             "ascend6": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 120000
                 },
                 {
+                    "id": 104104,
                     "name": "Brilliant Diamond Gemstone",
                     "count": 6
                 },
                 {
+                    "id": 100024,
                     "name": "Windwheel Aster",
                     "count": 60
                 },
                 {
+                    "id": 112007,
                     "name": "Ominous Mask",
                     "count": 24
                 }
             ]
         },
         "images": {
-            "image": "https://static.wikia.nocookie.net/gensin-impact/images/7/71/Character_Traveler_Thumb.png",
-            "card": "https://static.wikia.nocookie.net/gensin-impact/images/1/1c/Traveler_Male_Card.jpg",
-            "portrait": "https://static.wikia.nocookie.net/gensin-impact/images/4/47/Character_Traveler_%28Male%29_Portrait.png",
-            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_PlayerBoy.png",
-            "sideicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_PlayerBoy.png",
-            "hoyolab-avatar": "https://img-os-static.hoyolab.com/communityWeb/upload/762377aee992cb1dfd4e0e0a7911096d.png",
             "nameicon": "UI_AvatarIcon_PlayerBoy",
-            "nameiconcard": "UI_AvatarIcon_PlayerBoy_Card",
             "namesideicon": "UI_AvatarIcon_Side_PlayerBoy"
         },
         "url": {
@@ -149,6 +167,7 @@ const characters = {
         "version": "1.0"
     },
     "Albedo": {
+        "id": 10000038,
         "name": "Albedo",
         "fullname": "Albedo",
         "title": "Kreideprinz",
@@ -174,146 +193,167 @@ const characters = {
         "costs": {
             "ascend1": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 20000
                 },
                 {
+                    "id": 104171,
                     "name": "Prithiva Topaz Sliver",
                     "count": 1
                 },
                 {
+                    "id": 100023,
                     "name": "Cecilia",
                     "count": 3
                 },
                 {
+                    "id": 112008,
                     "name": "Divining Scroll",
                     "count": 3
                 }
             ],
             "ascend2": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 40000
                 },
                 {
+                    "id": 104172,
                     "name": "Prithiva Topaz Fragment",
                     "count": 3
                 },
                 {
+                    "id": 113009,
                     "name": "Basalt Pillar",
                     "count": 2
                 },
                 {
+                    "id": 100023,
                     "name": "Cecilia",
                     "count": 10
                 },
                 {
+                    "id": 112008,
                     "name": "Divining Scroll",
                     "count": 15
                 }
             ],
             "ascend3": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 60000
                 },
                 {
+                    "id": 104172,
                     "name": "Prithiva Topaz Fragment",
                     "count": 6
                 },
                 {
+                    "id": 113009,
                     "name": "Basalt Pillar",
                     "count": 4
                 },
                 {
+                    "id": 100023,
                     "name": "Cecilia",
                     "count": 20
                 },
                 {
+                    "id": 112009,
                     "name": "Sealed Scroll",
                     "count": 12
                 }
             ],
             "ascend4": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 80000
                 },
                 {
+                    "id": 104173,
                     "name": "Prithiva Topaz Chunk",
                     "count": 3
                 },
                 {
+                    "id": 113009,
                     "name": "Basalt Pillar",
                     "count": 8
                 },
                 {
+                    "id": 100023,
                     "name": "Cecilia",
                     "count": 30
                 },
                 {
+                    "id": 112009,
                     "name": "Sealed Scroll",
                     "count": 18
                 }
             ],
             "ascend5": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 100000
                 },
                 {
+                    "id": 104173,
                     "name": "Prithiva Topaz Chunk",
                     "count": 6
                 },
                 {
+                    "id": 113009,
                     "name": "Basalt Pillar",
                     "count": 12
                 },
                 {
+                    "id": 100023,
                     "name": "Cecilia",
                     "count": 45
                 },
                 {
+                    "id": 112010,
                     "name": "Forbidden Curse Scroll",
                     "count": 12
                 }
             ],
             "ascend6": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 120000
                 },
                 {
+                    "id": 104174,
                     "name": "Prithiva Topaz Gemstone",
                     "count": 6
                 },
                 {
+                    "id": 113009,
                     "name": "Basalt Pillar",
                     "count": 20
                 },
                 {
+                    "id": 100023,
                     "name": "Cecilia",
                     "count": 60
                 },
                 {
+                    "id": 112010,
                     "name": "Forbidden Curse Scroll",
                     "count": 24
                 }
             ]
         },
         "images": {
-            "card": "https://static.wikia.nocookie.net/gensin-impact/images/f/f8/Character_Albedo_Card.png",
-            "portrait": "https://static.wikia.nocookie.net/gensin-impact/images/2/23/Character_Albedo_Portrait.png",
-            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Albedo.png",
-            "sideicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Albedo.png",
-            "cover1": "https://webstatic.hoyoverse.com/upload/contentweb/2022/07/22/f95b03a7d7370aa4f5de3ac9a5f161bc_9195254471817551468.png",
-            "cover2": "https://webstatic.hoyoverse.com/upload/uploadstatic/contentweb/20201216/2020121611271023422.png",
-            "hoyolab-avatar": "https://img-os-static.hoyolab.com/communityWeb/upload/94dd9e0cc9d8311e58887a45b9b14861.png",
             "nameicon": "UI_AvatarIcon_Albedo",
-            "nameiconcard": "UI_AvatarIcon_Albedo_Card",
+            "namesideicon": "UI_AvatarIcon_Side_Albedo",
             "namegachasplash": "UI_Gacha_AvatarImg_Albedo",
-            "namegachaslice": "UI_Gacha_AvatarIcon_Albedo",
-            "namesideicon": "UI_AvatarIcon_Side_Albedo"
+            "namegachaslice": "UI_Gacha_AvatarIcon_Albedo"
         },
         "url": {
             "fandom": "https://genshin-impact.fandom.com/wiki/Albedo"
@@ -321,6 +361,7 @@ const characters = {
         "version": "1.2"
     },
     "Alhaitham": {
+        "id": 10000078,
         "name": "Alhaitham",
         "fullname": "Alhaitham",
         "title": "Admonishing Instruction",
@@ -346,147 +387,172 @@ const characters = {
         "costs": {
             "ascend1": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 20000
                 },
                 {
+                    "id": 104131,
                     "name": "Nagadus Emerald Sliver",
                     "count": 1
                 },
                 {
+                    "id": 101222,
                     "name": "Sand Grease Pupa",
                     "count": 3
                 },
                 {
+                    "id": 112065,
                     "name": "Faded Red Satin",
                     "count": 3
                 }
             ],
             "ascend2": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 40000
                 },
                 {
+                    "id": 104132,
                     "name": "Nagadus Emerald Fragment",
                     "count": 3
                 },
                 {
+                    "id": 113044,
                     "name": "Pseudo-Stamens",
                     "count": 2
                 },
                 {
+                    "id": 101222,
                     "name": "Sand Grease Pupa",
                     "count": 10
                 },
                 {
+                    "id": 112065,
                     "name": "Faded Red Satin",
                     "count": 15
                 }
             ],
             "ascend3": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 60000
                 },
                 {
+                    "id": 104132,
                     "name": "Nagadus Emerald Fragment",
                     "count": 6
                 },
                 {
+                    "id": 113044,
                     "name": "Pseudo-Stamens",
                     "count": 4
                 },
                 {
+                    "id": 101222,
                     "name": "Sand Grease Pupa",
                     "count": 20
                 },
                 {
+                    "id": 112066,
                     "name": "Trimmed Red Silk",
                     "count": 12
                 }
             ],
             "ascend4": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 80000
                 },
                 {
+                    "id": 104133,
                     "name": "Nagadus Emerald Chunk",
                     "count": 3
                 },
                 {
+                    "id": 113044,
                     "name": "Pseudo-Stamens",
                     "count": 8
                 },
                 {
+                    "id": 101222,
                     "name": "Sand Grease Pupa",
                     "count": 30
                 },
                 {
+                    "id": 112066,
                     "name": "Trimmed Red Silk",
                     "count": 18
                 }
             ],
             "ascend5": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 100000
                 },
                 {
+                    "id": 104133,
                     "name": "Nagadus Emerald Chunk",
                     "count": 6
                 },
                 {
+                    "id": 113044,
                     "name": "Pseudo-Stamens",
                     "count": 12
                 },
                 {
+                    "id": 101222,
                     "name": "Sand Grease Pupa",
                     "count": 45
                 },
                 {
+                    "id": 112067,
                     "name": "Rich Red Brocade",
                     "count": 12
                 }
             ],
             "ascend6": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 120000
                 },
                 {
+                    "id": 104134,
                     "name": "Nagadus Emerald Gemstone",
                     "count": 6
                 },
                 {
+                    "id": 113044,
                     "name": "Pseudo-Stamens",
                     "count": 20
                 },
                 {
+                    "id": 101222,
                     "name": "Sand Grease Pupa",
                     "count": 60
                 },
                 {
+                    "id": 112067,
                     "name": "Rich Red Brocade",
                     "count": 24
                 }
             ]
         },
         "images": {
-            "cover1": "https://webstatic.hoyoverse.com/upload/op-public/2023/01/09/1f3bc8199884ff93a04e713809e4aef3_3593570822868469375.png",
-            "cover2": "https://webstatic.hoyoverse.com/upload/op-public/2023/01/09/d3703af33a9184dcb49655262a8a084e_7932317409184358400.png",
             "nameicon": "UI_AvatarIcon_Alhatham",
-            "nameiconcard": "UI_AvatarIcon_Alhatham_Card",
-            "namegachasplash": "UI_Gacha_AvatarImg_Alhatham",
-            "namegachaslice": "UI_Gacha_AvatarIcon_Alhatham",
-            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Alhatham.png",
             "namesideicon": "UI_AvatarIcon_Side_Alhatham",
-            "sideicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Alhatham.png"
+            "namegachasplash": "UI_Gacha_AvatarImg_Alhatham",
+            "namegachaslice": "UI_Gacha_AvatarIcon_Alhatham"
         },
         "version": "3.4"
     },
     "Aloy": {
+        "id": 10000062,
         "name": "Aloy",
         "fullname": "Aloy",
         "title": "Savior From Another World",
@@ -512,143 +578,167 @@ const characters = {
         "costs": {
             "ascend1": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 20000
                 },
                 {
+                    "id": 104161,
                     "name": "Shivada Jade Sliver",
                     "count": 1
                 },
                 {
+                    "id": 101203,
                     "name": "Crystal Marrow",
                     "count": 3
                 },
                 {
+                    "id": 112053,
                     "name": "Spectral Husk",
                     "count": 3
                 }
             ],
             "ascend2": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 40000
                 },
                 {
+                    "id": 104162,
                     "name": "Shivada Jade Fragment",
                     "count": 3
                 },
                 {
+                    "id": 113020,
                     "name": "Crystalline Bloom",
                     "count": 2
                 },
                 {
+                    "id": 101203,
                     "name": "Crystal Marrow",
                     "count": 10
                 },
                 {
+                    "id": 112053,
                     "name": "Spectral Husk",
                     "count": 15
                 }
             ],
             "ascend3": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 60000
                 },
                 {
+                    "id": 104162,
                     "name": "Shivada Jade Fragment",
                     "count": 6
                 },
                 {
+                    "id": 113020,
                     "name": "Crystalline Bloom",
                     "count": 4
                 },
                 {
+                    "id": 101203,
                     "name": "Crystal Marrow",
                     "count": 20
                 },
                 {
+                    "id": 112054,
                     "name": "Spectral Heart",
                     "count": 12
                 }
             ],
             "ascend4": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 80000
                 },
                 {
+                    "id": 104163,
                     "name": "Shivada Jade Chunk",
                     "count": 3
                 },
                 {
+                    "id": 113020,
                     "name": "Crystalline Bloom",
                     "count": 8
                 },
                 {
+                    "id": 101203,
                     "name": "Crystal Marrow",
                     "count": 30
                 },
                 {
+                    "id": 112054,
                     "name": "Spectral Heart",
                     "count": 18
                 }
             ],
             "ascend5": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 100000
                 },
                 {
+                    "id": 104163,
                     "name": "Shivada Jade Chunk",
                     "count": 6
                 },
                 {
+                    "id": 113020,
                     "name": "Crystalline Bloom",
                     "count": 12
                 },
                 {
+                    "id": 101203,
                     "name": "Crystal Marrow",
                     "count": 45
                 },
                 {
+                    "id": 112055,
                     "name": "Spectral Nucleus",
                     "count": 12
                 }
             ],
             "ascend6": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 120000
                 },
                 {
+                    "id": 104164,
                     "name": "Shivada Jade Gemstone",
                     "count": 6
                 },
                 {
+                    "id": 113020,
                     "name": "Crystalline Bloom",
                     "count": 20
                 },
                 {
+                    "id": 101203,
                     "name": "Crystal Marrow",
                     "count": 60
                 },
                 {
+                    "id": 112055,
                     "name": "Spectral Nucleus",
                     "count": 24
                 }
             ]
         },
         "images": {
-            "cover1": "https://webstatic.hoyoverse.com/upload/contentweb/2022/07/22/9344fdabebf5e14d8ecaf34253d838c0_5896806722384038228.png",
-            "cover2": "https://webstatic.hoyoverse.com/upload/contentweb/2022/07/20/8ef5a843157d2bba1073f1f15e99ab88_559558664955241387.png",
-            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Aloy.png",
-            "sideicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Aloy.png",
             "nameicon": "UI_AvatarIcon_Aloy",
-            "nameiconcard": "UI_AvatarIcon_Aloy_Card",
+            "namesideicon": "UI_AvatarIcon_Side_Aloy",
             "namegachasplash": "UI_Gacha_AvatarImg_Aloy",
-            "namegachaslice": "UI_Gacha_AvatarIcon_Aloy",
-            "namesideicon": "UI_AvatarIcon_Side_Aloy"
+            "namegachaslice": "UI_Gacha_AvatarIcon_Aloy"
         },
         "url": {
             "fandom": "https://genshin-impact.fandom.com/wiki/Aloy"
@@ -656,6 +746,7 @@ const characters = {
         "version": "2.1"
     },
     "Amber": {
+        "id": 10000021,
         "name": "Amber",
         "fullname": "Amber",
         "title": "Gliding Champion",
@@ -681,146 +772,167 @@ const characters = {
         "costs": {
             "ascend1": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 20000
                 },
                 {
+                    "id": 104111,
                     "name": "Agnidus Agate Sliver",
                     "count": 1
                 },
                 {
+                    "id": 100055,
                     "name": "Small Lamp Grass",
                     "count": 3
                 },
                 {
+                    "id": 112011,
                     "name": "Firm Arrowhead",
                     "count": 3
                 }
             ],
             "ascend2": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 40000
                 },
                 {
+                    "id": 104112,
                     "name": "Agnidus Agate Fragment",
                     "count": 3
                 },
                 {
+                    "id": 113011,
                     "name": "Everflame Seed",
                     "count": 2
                 },
                 {
+                    "id": 100055,
                     "name": "Small Lamp Grass",
                     "count": 10
                 },
                 {
+                    "id": 112011,
                     "name": "Firm Arrowhead",
                     "count": 15
                 }
             ],
             "ascend3": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 60000
                 },
                 {
+                    "id": 104112,
                     "name": "Agnidus Agate Fragment",
                     "count": 6
                 },
                 {
+                    "id": 113011,
                     "name": "Everflame Seed",
                     "count": 4
                 },
                 {
+                    "id": 100055,
                     "name": "Small Lamp Grass",
                     "count": 20
                 },
                 {
+                    "id": 112012,
                     "name": "Sharp Arrowhead",
                     "count": 12
                 }
             ],
             "ascend4": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 80000
                 },
                 {
+                    "id": 104113,
                     "name": "Agnidus Agate Chunk",
                     "count": 3
                 },
                 {
+                    "id": 113011,
                     "name": "Everflame Seed",
                     "count": 8
                 },
                 {
+                    "id": 100055,
                     "name": "Small Lamp Grass",
                     "count": 30
                 },
                 {
+                    "id": 112012,
                     "name": "Sharp Arrowhead",
                     "count": 18
                 }
             ],
             "ascend5": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 100000
                 },
                 {
+                    "id": 104113,
                     "name": "Agnidus Agate Chunk",
                     "count": 6
                 },
                 {
+                    "id": 113011,
                     "name": "Everflame Seed",
                     "count": 12
                 },
                 {
+                    "id": 100055,
                     "name": "Small Lamp Grass",
                     "count": 45
                 },
                 {
+                    "id": 112013,
                     "name": "Weathered Arrowhead",
                     "count": 12
                 }
             ],
             "ascend6": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 120000
                 },
                 {
+                    "id": 104114,
                     "name": "Agnidus Agate Gemstone",
                     "count": 6
                 },
                 {
+                    "id": 113011,
                     "name": "Everflame Seed",
                     "count": 20
                 },
                 {
+                    "id": 100055,
                     "name": "Small Lamp Grass",
                     "count": 60
                 },
                 {
+                    "id": 112013,
                     "name": "Weathered Arrowhead",
                     "count": 24
                 }
             ]
         },
         "images": {
-            "card": "https://static.wikia.nocookie.net/gensin-impact/images/2/26/Character_Amber_Card.jpg",
-            "portrait": "https://static.wikia.nocookie.net/gensin-impact/images/0/00/Character_Amber_Portrait.png",
-            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Ambor.png",
-            "sideicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Ambor.png",
-            "cover1": "https://webstatic.hoyoverse.com/upload/contentweb/2022/07/22/6f0ef40157e95b0d59455c12f4d3f270_6966278935690800707.png",
-            "cover2": "https://webstatic.hoyoverse.com/upload/contentweb/2022/06/28/4f598572016e3177da5d4256fe9c1f5e_8765525983470991811.png",
-            "hoyolab-avatar": "https://img-os-static.hoyolab.com/communityWeb/upload/b7c1e4d14fdaac060eb86e3ad09bbf78.png",
             "nameicon": "UI_AvatarIcon_Ambor",
-            "nameiconcard": "UI_AvatarIcon_Ambor_Card",
+            "namesideicon": "UI_AvatarIcon_Side_Ambor",
             "namegachasplash": "UI_Gacha_AvatarImg_Ambor",
-            "namegachaslice": "UI_Gacha_AvatarIcon_Ambor",
-            "namesideicon": "UI_AvatarIcon_Side_Ambor"
+            "namegachaslice": "UI_Gacha_AvatarIcon_Ambor"
         },
         "url": {
             "fandom": "https://genshin-impact.fandom.com/wiki/Amber"
@@ -828,6 +940,7 @@ const characters = {
         "version": "1.0"
     },
     "Arataki Itto": {
+        "id": 10000057,
         "name": "Arataki Itto",
         "fullname": "Arataki Itto",
         "title": "Hanamizaka Heroics",
@@ -853,128 +966,157 @@ const characters = {
         "costs": {
             "ascend1": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 20000
                 },
                 {
+                    "id": 104171,
                     "name": "Prithiva Topaz Sliver",
                     "count": 1
                 },
                 {
+                    "id": 101201,
                     "name": "Onikabuto",
                     "count": 3
                 },
                 {
+                    "id": 112002,
                     "name": "Slime Condensate",
                     "count": 3
                 }
             ],
             "ascend2": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 40000
                 },
                 {
+                    "id": 104172,
                     "name": "Prithiva Topaz Fragment",
                     "count": 3
                 },
                 {
+                    "id": 113030,
                     "name": "Riftborn Regalia",
                     "count": 2
                 },
                 {
+                    "id": 101201,
                     "name": "Onikabuto",
                     "count": 10
                 },
                 {
+                    "id": 112002,
                     "name": "Slime Condensate",
                     "count": 15
                 }
             ],
             "ascend3": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 60000
                 },
                 {
+                    "id": 104172,
                     "name": "Prithiva Topaz Fragment",
                     "count": 6
                 },
                 {
+                    "id": 113030,
                     "name": "Riftborn Regalia",
                     "count": 4
                 },
                 {
+                    "id": 101201,
                     "name": "Onikabuto",
                     "count": 20
                 },
                 {
+                    "id": 112003,
                     "name": "Slime Secretions",
                     "count": 12
                 }
             ],
             "ascend4": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 80000
                 },
                 {
+                    "id": 104173,
                     "name": "Prithiva Topaz Chunk",
                     "count": 3
                 },
                 {
+                    "id": 113030,
                     "name": "Riftborn Regalia",
                     "count": 8
                 },
                 {
+                    "id": 101201,
                     "name": "Onikabuto",
                     "count": 30
                 },
                 {
+                    "id": 112003,
                     "name": "Slime Secretions",
                     "count": 18
                 }
             ],
             "ascend5": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 100000
                 },
                 {
+                    "id": 104173,
                     "name": "Prithiva Topaz Chunk",
                     "count": 6
                 },
                 {
+                    "id": 113030,
                     "name": "Riftborn Regalia",
                     "count": 12
                 },
                 {
+                    "id": 101201,
                     "name": "Onikabuto",
                     "count": 45
                 },
                 {
+                    "id": 112004,
                     "name": "Slime Concentrate",
                     "count": 12
                 }
             ],
             "ascend6": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 120000
                 },
                 {
+                    "id": 104174,
                     "name": "Prithiva Topaz Gemstone",
                     "count": 6
                 },
                 {
+                    "id": 113030,
                     "name": "Riftborn Regalia",
                     "count": 20
                 },
                 {
+                    "id": 101201,
                     "name": "Onikabuto",
                     "count": 60
                 },
                 {
+                    "id": 112004,
                     "name": "Slime Concentrate",
                     "count": 24
                 }
@@ -982,15 +1124,9 @@ const characters = {
         },
         "images": {
             "nameicon": "UI_AvatarIcon_Itto",
-            "nameiconcard": "UI_AvatarIcon_Itto_Card",
-            "namegachasplash": "UI_Gacha_AvatarImg_Itto",
-            "namegachaslice": "UI_Gacha_AvatarIcon_Itto",
-            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Itto.png",
             "namesideicon": "UI_AvatarIcon_Side_Itto",
-            "sideicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Itto.png",
-            "cover1": "https://webstatic.hoyoverse.com/upload/uploadstatic/contentweb/20211203/2021120311564937286.png",
-            "cover2": "https://webstatic.hoyoverse.com/upload/contentweb/2022/06/29/80c603323013d50fba419fe48b049a85_1179446160895359895.png",
-            "hoyolab-avatar": "https://img-os-static.hoyolab.com/communityWeb/upload/c71eda86923329c3f286e959205178bb.png"
+            "namegachasplash": "UI_Gacha_AvatarImg_Itto",
+            "namegachaslice": "UI_Gacha_AvatarIcon_Itto"
         },
         "url": {
             "fandom": "https://genshin-impact.fandom.com/wiki/Arataki_Itto"
@@ -998,6 +1134,7 @@ const characters = {
         "version": "2.3"
     },
     "Baizhu": {
+        "id": 10000082,
         "name": "Baizhu",
         "fullname": "Baizhu",
         "title": "Beyond Mortality",
@@ -1023,128 +1160,157 @@ const characters = {
         "costs": {
             "ascend1": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 20000
                 },
                 {
+                    "id": 104131,
                     "name": "Nagadus Emerald Sliver",
                     "count": 1
                 },
                 {
+                    "id": 100034,
                     "name": "Violetgrass",
                     "count": 3
                 },
                 {
+                    "id": 112059,
                     "name": "Fungal Spores",
                     "count": 3
                 }
             ],
             "ascend2": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 40000
                 },
                 {
+                    "id": 104132,
                     "name": "Nagadus Emerald Fragment",
                     "count": 3
                 },
                 {
+                    "id": 113045,
                     "name": "Evergloom Ring",
                     "count": 2
                 },
                 {
+                    "id": 100034,
                     "name": "Violetgrass",
                     "count": 10
                 },
                 {
+                    "id": 112059,
                     "name": "Fungal Spores",
                     "count": 15
                 }
             ],
             "ascend3": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 60000
                 },
                 {
+                    "id": 104132,
                     "name": "Nagadus Emerald Fragment",
                     "count": 6
                 },
                 {
+                    "id": 113045,
                     "name": "Evergloom Ring",
                     "count": 4
                 },
                 {
+                    "id": 100034,
                     "name": "Violetgrass",
                     "count": 20
                 },
                 {
+                    "id": 112060,
                     "name": "Luminescent Pollen",
                     "count": 12
                 }
             ],
             "ascend4": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 80000
                 },
                 {
+                    "id": 104133,
                     "name": "Nagadus Emerald Chunk",
                     "count": 3
                 },
                 {
+                    "id": 113045,
                     "name": "Evergloom Ring",
                     "count": 8
                 },
                 {
+                    "id": 100034,
                     "name": "Violetgrass",
                     "count": 30
                 },
                 {
+                    "id": 112060,
                     "name": "Luminescent Pollen",
                     "count": 18
                 }
             ],
             "ascend5": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 100000
                 },
                 {
+                    "id": 104133,
                     "name": "Nagadus Emerald Chunk",
                     "count": 6
                 },
                 {
+                    "id": 113045,
                     "name": "Evergloom Ring",
                     "count": 12
                 },
                 {
+                    "id": 100034,
                     "name": "Violetgrass",
                     "count": 45
                 },
                 {
+                    "id": 112061,
                     "name": "Crystalline Cyst Dust",
                     "count": 12
                 }
             ],
             "ascend6": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 120000
                 },
                 {
+                    "id": 104134,
                     "name": "Nagadus Emerald Gemstone",
                     "count": 6
                 },
                 {
+                    "id": 113045,
                     "name": "Evergloom Ring",
                     "count": 20
                 },
                 {
+                    "id": 100034,
                     "name": "Violetgrass",
                     "count": 60
                 },
                 {
+                    "id": 112061,
                     "name": "Crystalline Cyst Dust",
                     "count": 24
                 }
@@ -1152,18 +1318,14 @@ const characters = {
         },
         "images": {
             "nameicon": "UI_AvatarIcon_Baizhuer",
-            "nameiconcard": "UI_AvatarIcon_Baizhuer_Card",
-            "namegachasplash": "UI_Gacha_AvatarImg_Baizhuer",
-            "namegachaslice": "UI_Gacha_AvatarIcon_Baizhuer",
-            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Baizhuer.png",
             "namesideicon": "UI_AvatarIcon_Side_Baizhuer",
-            "sideicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Baizhuer.png",
-            "cover1": "https://webstatic.hoyoverse.com/upload/op-public/2023/03/27/7e0096b8907484d2c530a57a0d0bda80_6830097800800736702.png",
-            "cover2": "https://webstatic.hoyoverse.com/upload/op-public/2023/03/27/7f741e68d13763893e9765114653dbba_6767301111904721877.png"
+            "namegachasplash": "UI_Gacha_AvatarImg_Baizhuer",
+            "namegachaslice": "UI_Gacha_AvatarIcon_Baizhuer"
         },
         "version": "3.6"
     },
     "Barbara": {
+        "id": 10000014,
         "name": "Barbara",
         "fullname": "Barbara",
         "title": "Shining Idol",
@@ -1189,146 +1351,167 @@ const characters = {
         "costs": {
             "ascend1": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 20000
                 },
                 {
+                    "id": 104121,
                     "name": "Varunada Lazurite Sliver",
                     "count": 1
                 },
                 {
+                    "id": 100025,
                     "name": "Philanemo Mushroom",
                     "count": 3
                 },
                 {
+                    "id": 112008,
                     "name": "Divining Scroll",
                     "count": 3
                 }
             ],
             "ascend2": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 40000
                 },
                 {
+                    "id": 104122,
                     "name": "Varunada Lazurite Fragment",
                     "count": 3
                 },
                 {
+                    "id": 113012,
                     "name": "Cleansing Heart",
                     "count": 2
                 },
                 {
+                    "id": 100025,
                     "name": "Philanemo Mushroom",
                     "count": 10
                 },
                 {
+                    "id": 112008,
                     "name": "Divining Scroll",
                     "count": 15
                 }
             ],
             "ascend3": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 60000
                 },
                 {
+                    "id": 104122,
                     "name": "Varunada Lazurite Fragment",
                     "count": 6
                 },
                 {
+                    "id": 113012,
                     "name": "Cleansing Heart",
                     "count": 4
                 },
                 {
+                    "id": 100025,
                     "name": "Philanemo Mushroom",
                     "count": 20
                 },
                 {
+                    "id": 112009,
                     "name": "Sealed Scroll",
                     "count": 12
                 }
             ],
             "ascend4": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 80000
                 },
                 {
+                    "id": 104123,
                     "name": "Varunada Lazurite Chunk",
                     "count": 3
                 },
                 {
+                    "id": 113012,
                     "name": "Cleansing Heart",
                     "count": 8
                 },
                 {
+                    "id": 100025,
                     "name": "Philanemo Mushroom",
                     "count": 30
                 },
                 {
+                    "id": 112009,
                     "name": "Sealed Scroll",
                     "count": 18
                 }
             ],
             "ascend5": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 100000
                 },
                 {
+                    "id": 104123,
                     "name": "Varunada Lazurite Chunk",
                     "count": 6
                 },
                 {
+                    "id": 113012,
                     "name": "Cleansing Heart",
                     "count": 12
                 },
                 {
+                    "id": 100025,
                     "name": "Philanemo Mushroom",
                     "count": 45
                 },
                 {
+                    "id": 112010,
                     "name": "Forbidden Curse Scroll",
                     "count": 12
                 }
             ],
             "ascend6": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 120000
                 },
                 {
+                    "id": 104124,
                     "name": "Varunada Lazurite Gemstone",
                     "count": 6
                 },
                 {
+                    "id": 113012,
                     "name": "Cleansing Heart",
                     "count": 20
                 },
                 {
+                    "id": 100025,
                     "name": "Philanemo Mushroom",
                     "count": 60
                 },
                 {
+                    "id": 112010,
                     "name": "Forbidden Curse Scroll",
                     "count": 24
                 }
             ]
         },
         "images": {
-            "card": "https://static.wikia.nocookie.net/gensin-impact/images/9/93/Character_Barbara_Card.jpg",
-            "portrait": "https://static.wikia.nocookie.net/gensin-impact/images/4/4a/Character_Barbara_Portrait.png",
-            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Barbara.png",
-            "sideicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Barbara.png",
-            "cover1": "https://webstatic.hoyoverse.com/upload/contentweb/2022/07/22/6c009f0631eb71e697c2da76b608a51e_679009763713991286.png",
-            "cover2": "https://webstatic.hoyoverse.com/upload/uploadstatic/contentweb/20200609/2020060915102571828.png",
-            "hoyolab-avatar": "https://img-os-static.hoyolab.com/communityweb/upload/2adac6e4e0195c39d90696955f9a7902.png",
             "nameicon": "UI_AvatarIcon_Barbara",
-            "nameiconcard": "UI_AvatarIcon_Barbara_Card",
+            "namesideicon": "UI_AvatarIcon_Side_Barbara",
             "namegachasplash": "UI_Gacha_AvatarImg_Barbara",
-            "namegachaslice": "UI_Gacha_AvatarIcon_Barbara",
-            "namesideicon": "UI_AvatarIcon_Side_Barbara"
+            "namegachaslice": "UI_Gacha_AvatarIcon_Barbara"
         },
         "url": {
             "fandom": "https://genshin-impact.fandom.com/wiki/Barbara"
@@ -1336,6 +1519,7 @@ const characters = {
         "version": "1.0"
     },
     "Beidou": {
+        "id": 10000024,
         "name": "Beidou",
         "fullname": "Beidou",
         "title": "Uncrowned Lord of the Ocean",
@@ -1361,146 +1545,167 @@ const characters = {
         "costs": {
             "ascend1": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 20000
                 },
                 {
+                    "id": 104141,
                     "name": "Vajrada Amethyst Sliver",
                     "count": 1
                 },
                 {
+                    "id": 100028,
                     "name": "Noctilucous Jade",
                     "count": 3
                 },
                 {
+                    "id": 112035,
                     "name": "Treasure Hoarder Insignia",
                     "count": 3
                 }
             ],
             "ascend2": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 40000
                 },
                 {
+                    "id": 104142,
                     "name": "Vajrada Amethyst Fragment",
                     "count": 3
                 },
                 {
+                    "id": 113002,
                     "name": "Lightning Prism",
                     "count": 2
                 },
                 {
+                    "id": 100028,
                     "name": "Noctilucous Jade",
                     "count": 10
                 },
                 {
+                    "id": 112035,
                     "name": "Treasure Hoarder Insignia",
                     "count": 15
                 }
             ],
             "ascend3": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 60000
                 },
                 {
+                    "id": 104142,
                     "name": "Vajrada Amethyst Fragment",
                     "count": 6
                 },
                 {
+                    "id": 113002,
                     "name": "Lightning Prism",
                     "count": 4
                 },
                 {
+                    "id": 100028,
                     "name": "Noctilucous Jade",
                     "count": 20
                 },
                 {
+                    "id": 112036,
                     "name": "Silver Raven Insignia",
                     "count": 12
                 }
             ],
             "ascend4": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 80000
                 },
                 {
+                    "id": 104143,
                     "name": "Vajrada Amethyst Chunk",
                     "count": 3
                 },
                 {
+                    "id": 113002,
                     "name": "Lightning Prism",
                     "count": 8
                 },
                 {
+                    "id": 100028,
                     "name": "Noctilucous Jade",
                     "count": 30
                 },
                 {
+                    "id": 112036,
                     "name": "Silver Raven Insignia",
                     "count": 18
                 }
             ],
             "ascend5": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 100000
                 },
                 {
+                    "id": 104143,
                     "name": "Vajrada Amethyst Chunk",
                     "count": 6
                 },
                 {
+                    "id": 113002,
                     "name": "Lightning Prism",
                     "count": 12
                 },
                 {
+                    "id": 100028,
                     "name": "Noctilucous Jade",
                     "count": 45
                 },
                 {
+                    "id": 112037,
                     "name": "Golden Raven Insignia",
                     "count": 12
                 }
             ],
             "ascend6": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 120000
                 },
                 {
+                    "id": 104144,
                     "name": "Vajrada Amethyst Gemstone",
                     "count": 6
                 },
                 {
+                    "id": 113002,
                     "name": "Lightning Prism",
                     "count": 20
                 },
                 {
+                    "id": 100028,
                     "name": "Noctilucous Jade",
                     "count": 60
                 },
                 {
+                    "id": 112037,
                     "name": "Golden Raven Insignia",
                     "count": 24
                 }
             ]
         },
         "images": {
-            "card": "https://static.wikia.nocookie.net/gensin-impact/images/8/84/Character_Beidou_Card.jpg",
-            "portrait": "https://static.wikia.nocookie.net/gensin-impact/images/7/74/Character_Beidou_Portrait.png",
-            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Beidou.png",
-            "sideicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Beidou.png",
-            "cover1": "https://webstatic.hoyoverse.com/upload/contentweb/2022/07/22/01d9b164e0de2611c84ccdec5b84ced8_6933755020052845255.png",
-            "cover2": "https://webstatic.hoyoverse.com/upload/uploadstatic/contentweb/20200227/2020022720104965706.png",
-            "hoyolab-avatar": "https://img-os-static.hoyolab.com/communityWeb/upload/515effa5bfabb8fc03a52cbf76a4a79e.png",
             "nameicon": "UI_AvatarIcon_Beidou",
-            "nameiconcard": "UI_AvatarIcon_Beidou_Card",
+            "namesideicon": "UI_AvatarIcon_Side_Beidou",
             "namegachasplash": "UI_Gacha_AvatarImg_Beidou",
-            "namegachaslice": "UI_Gacha_AvatarIcon_Beidou",
-            "namesideicon": "UI_AvatarIcon_Side_Beidou"
+            "namegachaslice": "UI_Gacha_AvatarIcon_Beidou"
         },
         "url": {
             "fandom": "https://genshin-impact.fandom.com/wiki/Beidou"
@@ -1508,6 +1713,7 @@ const characters = {
         "version": "1.0"
     },
     "Bennett": {
+        "id": 10000032,
         "name": "Bennett",
         "fullname": "Bennett",
         "title": "Trial by Fire",
@@ -1533,146 +1739,167 @@ const characters = {
         "costs": {
             "ascend1": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 20000
                 },
                 {
+                    "id": 104111,
                     "name": "Agnidus Agate Sliver",
                     "count": 1
                 },
                 {
+                    "id": 100024,
                     "name": "Windwheel Aster",
                     "count": 3
                 },
                 {
+                    "id": 112035,
                     "name": "Treasure Hoarder Insignia",
                     "count": 3
                 }
             ],
             "ascend2": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 40000
                 },
                 {
+                    "id": 104112,
                     "name": "Agnidus Agate Fragment",
                     "count": 3
                 },
                 {
+                    "id": 113011,
                     "name": "Everflame Seed",
                     "count": 2
                 },
                 {
+                    "id": 100024,
                     "name": "Windwheel Aster",
                     "count": 10
                 },
                 {
+                    "id": 112035,
                     "name": "Treasure Hoarder Insignia",
                     "count": 15
                 }
             ],
             "ascend3": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 60000
                 },
                 {
+                    "id": 104112,
                     "name": "Agnidus Agate Fragment",
                     "count": 6
                 },
                 {
+                    "id": 113011,
                     "name": "Everflame Seed",
                     "count": 4
                 },
                 {
+                    "id": 100024,
                     "name": "Windwheel Aster",
                     "count": 20
                 },
                 {
+                    "id": 112036,
                     "name": "Silver Raven Insignia",
                     "count": 12
                 }
             ],
             "ascend4": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 80000
                 },
                 {
+                    "id": 104113,
                     "name": "Agnidus Agate Chunk",
                     "count": 3
                 },
                 {
+                    "id": 113011,
                     "name": "Everflame Seed",
                     "count": 8
                 },
                 {
+                    "id": 100024,
                     "name": "Windwheel Aster",
                     "count": 30
                 },
                 {
+                    "id": 112036,
                     "name": "Silver Raven Insignia",
                     "count": 18
                 }
             ],
             "ascend5": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 100000
                 },
                 {
+                    "id": 104113,
                     "name": "Agnidus Agate Chunk",
                     "count": 6
                 },
                 {
+                    "id": 113011,
                     "name": "Everflame Seed",
                     "count": 12
                 },
                 {
+                    "id": 100024,
                     "name": "Windwheel Aster",
                     "count": 45
                 },
                 {
+                    "id": 112037,
                     "name": "Golden Raven Insignia",
                     "count": 12
                 }
             ],
             "ascend6": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 120000
                 },
                 {
+                    "id": 104114,
                     "name": "Agnidus Agate Gemstone",
                     "count": 6
                 },
                 {
+                    "id": 113011,
                     "name": "Everflame Seed",
                     "count": 20
                 },
                 {
+                    "id": 100024,
                     "name": "Windwheel Aster",
                     "count": 60
                 },
                 {
+                    "id": 112037,
                     "name": "Golden Raven Insignia",
                     "count": 24
                 }
             ]
         },
         "images": {
-            "card": "https://static.wikia.nocookie.net/gensin-impact/images/7/7f/Character_Bennett_Card.jpg",
-            "portrait": "https://static.wikia.nocookie.net/gensin-impact/images/7/73/Character_Bennett_Portrait.png",
-            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Bennett.png",
-            "sideicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Bennett.png",
-            "cover1": "https://webstatic.hoyoverse.com/upload/uploadstatic/contentweb/20200312/2020031220001589124.png",
-            "cover2": "https://webstatic.hoyoverse.com/upload/uploadstatic/contentweb/20200312/2020031220015487912.png",
-            "hoyolab-avatar": "https://img-os-static.hoyolab.com/communityWeb/upload/661fca5d5165dee41fd29c142a59c2f9.png",
             "nameicon": "UI_AvatarIcon_Bennett",
-            "nameiconcard": "UI_AvatarIcon_Bennett_Card",
+            "namesideicon": "UI_AvatarIcon_Side_Bennett",
             "namegachasplash": "UI_Gacha_AvatarImg_Bennett",
-            "namegachaslice": "UI_Gacha_AvatarIcon_Bennett",
-            "namesideicon": "UI_AvatarIcon_Side_Bennett"
+            "namegachaslice": "UI_Gacha_AvatarIcon_Bennett"
         },
         "url": {
             "fandom": "https://genshin-impact.fandom.com/wiki/Bennett"
@@ -1680,6 +1907,7 @@ const characters = {
         "version": "1.0"
     },
     "Candace": {
+        "id": 10000072,
         "name": "Candace",
         "fullname": "Candace",
         "title": "Golden Vow",
@@ -1705,128 +1933,157 @@ const characters = {
         "costs": {
             "ascend1": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 20000
                 },
                 {
+                    "id": 104121,
                     "name": "Varunada Lazurite Sliver",
                     "count": 1
                 },
                 {
+                    "id": 101220,
                     "name": "Henna Berry",
                     "count": 3
                 },
                 {
+                    "id": 112065,
                     "name": "Faded Red Satin",
                     "count": 3
                 }
             ],
             "ascend2": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 40000
                 },
                 {
+                    "id": 104122,
                     "name": "Varunada Lazurite Fragment",
                     "count": 3
                 },
                 {
+                    "id": 113039,
                     "name": "Light Guiding Tetrahedron",
                     "count": 2
                 },
                 {
+                    "id": 101220,
                     "name": "Henna Berry",
                     "count": 10
                 },
                 {
+                    "id": 112065,
                     "name": "Faded Red Satin",
                     "count": 15
                 }
             ],
             "ascend3": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 60000
                 },
                 {
+                    "id": 104122,
                     "name": "Varunada Lazurite Fragment",
                     "count": 6
                 },
                 {
+                    "id": 113039,
                     "name": "Light Guiding Tetrahedron",
                     "count": 4
                 },
                 {
+                    "id": 101220,
                     "name": "Henna Berry",
                     "count": 20
                 },
                 {
+                    "id": 112066,
                     "name": "Trimmed Red Silk",
                     "count": 12
                 }
             ],
             "ascend4": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 80000
                 },
                 {
+                    "id": 104123,
                     "name": "Varunada Lazurite Chunk",
                     "count": 3
                 },
                 {
+                    "id": 113039,
                     "name": "Light Guiding Tetrahedron",
                     "count": 8
                 },
                 {
+                    "id": 101220,
                     "name": "Henna Berry",
                     "count": 30
                 },
                 {
+                    "id": 112066,
                     "name": "Trimmed Red Silk",
                     "count": 18
                 }
             ],
             "ascend5": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 100000
                 },
                 {
+                    "id": 104123,
                     "name": "Varunada Lazurite Chunk",
                     "count": 6
                 },
                 {
+                    "id": 113039,
                     "name": "Light Guiding Tetrahedron",
                     "count": 12
                 },
                 {
+                    "id": 101220,
                     "name": "Henna Berry",
                     "count": 45
                 },
                 {
+                    "id": 112067,
                     "name": "Rich Red Brocade",
                     "count": 12
                 }
             ],
             "ascend6": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 120000
                 },
                 {
+                    "id": 104124,
                     "name": "Varunada Lazurite Gemstone",
                     "count": 6
                 },
                 {
+                    "id": 113039,
                     "name": "Light Guiding Tetrahedron",
                     "count": 20
                 },
                 {
+                    "id": 101220,
                     "name": "Henna Berry",
                     "count": 60
                 },
                 {
+                    "id": 112067,
                     "name": "Rich Red Brocade",
                     "count": 24
                 }
@@ -1834,19 +2091,14 @@ const characters = {
         },
         "images": {
             "nameicon": "UI_AvatarIcon_Candace",
-            "nameiconcard": "UI_AvatarIcon_Candace_Card",
-            "namegachasplash": "UI_Gacha_AvatarImg_Candace",
-            "namegachaslice": "UI_Gacha_AvatarIcon_Candace",
-            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Candace.png",
             "namesideicon": "UI_AvatarIcon_Side_Candace",
-            "sideicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Candace.png",
-            "cover1": "https://webstatic.hoyoverse.com/upload/contentweb/2022/09/22/d0226e61c64dbd14f3041775ceebb59a_2656769579196461401.png",
-            "cover2": "https://webstatic.hoyoverse.com/upload/contentweb/2022/09/22/c12a433c36d75fbbf77a6e7619d86cc5_2978398623185018654.png",
-            "hoyolab-avatar": "https://upload-os-bbs.hoyolab.com/upload/2022/09/27/776150fc42d323732b988b6a80150f34_8066483729031867205.png"
+            "namegachasplash": "UI_Gacha_AvatarImg_Candace",
+            "namegachaslice": "UI_Gacha_AvatarIcon_Candace"
         },
         "version": "3.1"
     },
     "Chongyun": {
+        "id": 10000036,
         "name": "Chongyun",
         "fullname": "Chongyun",
         "title": "Frozen Ardor",
@@ -1872,146 +2124,167 @@ const characters = {
         "costs": {
             "ascend1": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 20000
                 },
                 {
+                    "id": 104161,
                     "name": "Shivada Jade Sliver",
                     "count": 1
                 },
                 {
+                    "id": 100058,
                     "name": "Cor Lapis",
                     "count": 3
                 },
                 {
+                    "id": 112005,
                     "name": "Damaged Mask",
                     "count": 3
                 }
             ],
             "ascend2": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 40000
                 },
                 {
+                    "id": 104162,
                     "name": "Shivada Jade Fragment",
                     "count": 3
                 },
                 {
+                    "id": 113010,
                     "name": "Hoarfrost Core",
                     "count": 2
                 },
                 {
+                    "id": 100058,
                     "name": "Cor Lapis",
                     "count": 10
                 },
                 {
+                    "id": 112005,
                     "name": "Damaged Mask",
                     "count": 15
                 }
             ],
             "ascend3": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 60000
                 },
                 {
+                    "id": 104162,
                     "name": "Shivada Jade Fragment",
                     "count": 6
                 },
                 {
+                    "id": 113010,
                     "name": "Hoarfrost Core",
                     "count": 4
                 },
                 {
+                    "id": 100058,
                     "name": "Cor Lapis",
                     "count": 20
                 },
                 {
+                    "id": 112006,
                     "name": "Stained Mask",
                     "count": 12
                 }
             ],
             "ascend4": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 80000
                 },
                 {
+                    "id": 104163,
                     "name": "Shivada Jade Chunk",
                     "count": 3
                 },
                 {
+                    "id": 113010,
                     "name": "Hoarfrost Core",
                     "count": 8
                 },
                 {
+                    "id": 100058,
                     "name": "Cor Lapis",
                     "count": 30
                 },
                 {
+                    "id": 112006,
                     "name": "Stained Mask",
                     "count": 18
                 }
             ],
             "ascend5": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 100000
                 },
                 {
+                    "id": 104163,
                     "name": "Shivada Jade Chunk",
                     "count": 6
                 },
                 {
+                    "id": 113010,
                     "name": "Hoarfrost Core",
                     "count": 12
                 },
                 {
+                    "id": 100058,
                     "name": "Cor Lapis",
                     "count": 45
                 },
                 {
+                    "id": 112007,
                     "name": "Ominous Mask",
                     "count": 12
                 }
             ],
             "ascend6": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 120000
                 },
                 {
+                    "id": 104164,
                     "name": "Shivada Jade Gemstone",
                     "count": 6
                 },
                 {
+                    "id": 113010,
                     "name": "Hoarfrost Core",
                     "count": 20
                 },
                 {
+                    "id": 100058,
                     "name": "Cor Lapis",
                     "count": 60
                 },
                 {
+                    "id": 112007,
                     "name": "Ominous Mask",
                     "count": 24
                 }
             ]
         },
         "images": {
-            "card": "https://static.wikia.nocookie.net/gensin-impact/images/f/fa/Character_Chongyun_Card.jpg",
-            "portrait": "https://static.wikia.nocookie.net/gensin-impact/images/a/aa/Character_Chongyun_Portrait.png",
-            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Chongyun.png",
-            "sideicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Chongyun.png",
-            "cover1": "https://webstatic.hoyoverse.com/upload/contentweb/2022/07/22/d0accc6031019427d20d2f009169d7cd_1874773208585953392.png",
-            "cover2": "https://webstatic.hoyoverse.com/upload/uploadstatic/contentweb/20200602/2020060220205013044.png",
-            "hoyolab-avatar": "https://img-os-static.hoyolab.com/communityWeb/upload/af335b6e68883e7e40237040aa020cf1.png",
             "nameicon": "UI_AvatarIcon_Chongyun",
-            "nameiconcard": "UI_AvatarIcon_Chongyun_Card",
+            "namesideicon": "UI_AvatarIcon_Side_Chongyun",
             "namegachasplash": "UI_Gacha_AvatarImg_Chongyun",
-            "namegachaslice": "UI_Gacha_AvatarIcon_Chongyun",
-            "namesideicon": "UI_AvatarIcon_Side_Chongyun"
+            "namegachaslice": "UI_Gacha_AvatarIcon_Chongyun"
         },
         "url": {
             "fandom": "https://genshin-impact.fandom.com/wiki/Chongyun"
@@ -2019,6 +2292,7 @@ const characters = {
         "version": "1.0"
     },
     "Collei": {
+        "id": 10000067,
         "name": "Collei",
         "fullname": "Collei",
         "title": "Sprout of Rebirth",
@@ -2044,128 +2318,157 @@ const characters = {
         "costs": {
             "ascend1": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 20000
                 },
                 {
+                    "id": 104131,
                     "name": "Nagadus Emerald Sliver",
                     "count": 1
                 },
                 {
+                    "id": 101213,
                     "name": "Rukkhashava Mushrooms",
                     "count": 3
                 },
                 {
+                    "id": 112011,
                     "name": "Firm Arrowhead",
                     "count": 3
                 }
             ],
             "ascend2": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 40000
                 },
                 {
+                    "id": 104132,
                     "name": "Nagadus Emerald Fragment",
                     "count": 3
                 },
                 {
+                    "id": 113036,
                     "name": "Majestic Hooked Beak",
                     "count": 2
                 },
                 {
+                    "id": 101213,
                     "name": "Rukkhashava Mushrooms",
                     "count": 10
                 },
                 {
+                    "id": 112011,
                     "name": "Firm Arrowhead",
                     "count": 15
                 }
             ],
             "ascend3": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 60000
                 },
                 {
+                    "id": 104132,
                     "name": "Nagadus Emerald Fragment",
                     "count": 6
                 },
                 {
+                    "id": 113036,
                     "name": "Majestic Hooked Beak",
                     "count": 4
                 },
                 {
+                    "id": 101213,
                     "name": "Rukkhashava Mushrooms",
                     "count": 20
                 },
                 {
+                    "id": 112012,
                     "name": "Sharp Arrowhead",
                     "count": 12
                 }
             ],
             "ascend4": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 80000
                 },
                 {
+                    "id": 104133,
                     "name": "Nagadus Emerald Chunk",
                     "count": 3
                 },
                 {
+                    "id": 113036,
                     "name": "Majestic Hooked Beak",
                     "count": 8
                 },
                 {
+                    "id": 101213,
                     "name": "Rukkhashava Mushrooms",
                     "count": 30
                 },
                 {
+                    "id": 112012,
                     "name": "Sharp Arrowhead",
                     "count": 18
                 }
             ],
             "ascend5": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 100000
                 },
                 {
+                    "id": 104133,
                     "name": "Nagadus Emerald Chunk",
                     "count": 6
                 },
                 {
+                    "id": 113036,
                     "name": "Majestic Hooked Beak",
                     "count": 12
                 },
                 {
+                    "id": 101213,
                     "name": "Rukkhashava Mushrooms",
                     "count": 45
                 },
                 {
+                    "id": 112013,
                     "name": "Weathered Arrowhead",
                     "count": 12
                 }
             ],
             "ascend6": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 120000
                 },
                 {
+                    "id": 104134,
                     "name": "Nagadus Emerald Gemstone",
                     "count": 6
                 },
                 {
+                    "id": 113036,
                     "name": "Majestic Hooked Beak",
                     "count": 20
                 },
                 {
+                    "id": 101213,
                     "name": "Rukkhashava Mushrooms",
                     "count": 60
                 },
                 {
+                    "id": 112013,
                     "name": "Weathered Arrowhead",
                     "count": 24
                 }
@@ -2173,19 +2476,14 @@ const characters = {
         },
         "images": {
             "nameicon": "UI_AvatarIcon_Collei",
-            "nameiconcard": "UI_AvatarIcon_Collei_Card",
-            "namegachasplash": "UI_Gacha_AvatarImg_Collei",
-            "namegachaslice": "UI_Gacha_AvatarIcon_Collei",
-            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Collei.png",
             "namesideicon": "UI_AvatarIcon_Side_Collei",
-            "sideicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Collei.png",
-            "cover1": "https://webstatic.hoyoverse.com/upload/contentweb/2022/08/23/2c752da0a5921583011a4ec36f83703c_2223942731920819478.png",
-            "cover2": "https://webstatic.hoyoverse.com/upload/contentweb/2022/08/23/2466e194064e0306c4290a252269593c_8578361332348289831.png",
-            "hoyolab-avatar": "https://img-os-static.hoyolab.com/communityWeb/upload/7d6142936ebd4cfd4b5501f187cc4be7.png"
+            "namegachasplash": "UI_Gacha_AvatarImg_Collei",
+            "namegachaslice": "UI_Gacha_AvatarIcon_Collei"
         },
         "version": "3.0"
     },
     "Charlotte": {
+        "id": 10000088,
         "name": "Charlotte",
         "fullname": "Charlotte",
         "title": "Lens of Verity",
@@ -2211,128 +2509,157 @@ const characters = {
         "costs": {
             "ascend1": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 20000
                 },
                 {
+                    "id": 104161,
                     "name": "Shivada Jade Sliver",
                     "count": 1
                 },
                 {
+                    "id": 101232,
                     "name": "Beryl Conch",
                     "count": 3
                 },
                 {
+                    "id": 112083,
                     "name": "Meshing Gear",
                     "count": 3
                 }
             ],
             "ascend2": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 40000
                 },
                 {
+                    "id": 104162,
                     "name": "Shivada Jade Fragment",
                     "count": 3
                 },
                 {
+                    "id": 113052,
                     "name": "\"Tourbillon Device\"",
                     "count": 2
                 },
                 {
+                    "id": 101232,
                     "name": "Beryl Conch",
                     "count": 10
                 },
                 {
+                    "id": 112083,
                     "name": "Meshing Gear",
                     "count": 15
                 }
             ],
             "ascend3": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 60000
                 },
                 {
+                    "id": 104162,
                     "name": "Shivada Jade Fragment",
                     "count": 6
                 },
                 {
+                    "id": 113052,
                     "name": "\"Tourbillon Device\"",
                     "count": 4
                 },
                 {
+                    "id": 101232,
                     "name": "Beryl Conch",
                     "count": 20
                 },
                 {
+                    "id": 112084,
                     "name": "Mechanical Spur Gear",
                     "count": 12
                 }
             ],
             "ascend4": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 80000
                 },
                 {
+                    "id": 104163,
                     "name": "Shivada Jade Chunk",
                     "count": 3
                 },
                 {
+                    "id": 113052,
                     "name": "\"Tourbillon Device\"",
                     "count": 8
                 },
                 {
+                    "id": 101232,
                     "name": "Beryl Conch",
                     "count": 30
                 },
                 {
+                    "id": 112084,
                     "name": "Mechanical Spur Gear",
                     "count": 18
                 }
             ],
             "ascend5": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 100000
                 },
                 {
+                    "id": 104163,
                     "name": "Shivada Jade Chunk",
                     "count": 6
                 },
                 {
+                    "id": 113052,
                     "name": "\"Tourbillon Device\"",
                     "count": 12
                 },
                 {
+                    "id": 101232,
                     "name": "Beryl Conch",
                     "count": 45
                 },
                 {
+                    "id": 112085,
                     "name": "Artificed Dynamic Gear",
                     "count": 12
                 }
             ],
             "ascend6": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 120000
                 },
                 {
+                    "id": 104164,
                     "name": "Shivada Jade Gemstone",
                     "count": 6
                 },
                 {
+                    "id": 113052,
                     "name": "\"Tourbillon Device\"",
                     "count": 20
                 },
                 {
+                    "id": 101232,
                     "name": "Beryl Conch",
                     "count": 60
                 },
                 {
+                    "id": 112085,
                     "name": "Artificed Dynamic Gear",
                     "count": 24
                 }
@@ -2340,165 +2667,190 @@ const characters = {
         },
         "images": {
             "nameicon": "UI_AvatarIcon_Charlotte",
-            "nameiconcard": "UI_AvatarIcon_Charlotte_Card",
-            "namegachasplash": "UI_Gacha_AvatarImg_Charlotte",
-            "namegachaslice": "UI_Gacha_AvatarIcon_Charlotte",
-            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Charlotte.png",
             "namesideicon": "UI_AvatarIcon_Side_Charlotte",
-            "sideicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Charlotte.png",
-            "cover1": "https://fastcdn.hoyoverse.com/content-v2/hk4e/113448/f4c603b5b2e3dbb901922ad592d00abb_5941873373722590118.png",
-            "cover2": "https://fastcdn.hoyoverse.com/content-v2/hk4e/113448/431275f6404757189fc6545306f52b86_2915839935932664773.png"
+            "namegachasplash": "UI_Gacha_AvatarImg_Charlotte",
+            "namegachaslice": "UI_Gacha_AvatarIcon_Charlotte"
         },
         "version": "4.2"
     },
     "Chevreuse": {
+        "id": 10000090,
         "name": "Chevreuse",
         "fullname": "Chevreuse",
-        "title": "Lens of Verity",
-        "description": "Indefatigable reporter of The Steambird, constantly on the hunt for the \"truth.\"",
+        "title": "Executor of Justice",
+        "description": "The captain of the Special Security and Surveillance Patrol, who wears justice as an ever-present seal upon her heart. Her musket shall only ever point at the guilty.",
         "rarity": "4",
         "element": "Pyro",
         "weapontype": "Polearm",
-        "substat": "ATK",
+        "substat": "HP",
         "gender": "Female",
         "body": "GIRL",
         "association": "FONTAINE",
         "region": "Fontaine",
-        "affiliation": "The Steambird",
-        "birthdaymmdd": "4/10",
-        "birthday": "April 10",
-        "constellation": "Hualina Veritas",
+        "affiliation": "Special Security and Surveillance Patrol",
+        "birthdaymmdd": "1/10",
+        "birthday": "January 10",
+        "constellation": "Sclopetum Ensiferum",
         "cv": {
-            "english": "Maya Aoki Tuttle",
-            "chinese": "阮从青",
-            "japanese": "和氣あず未",
-            "korean": "Shin On-yu"
+            "english": "Erica Lindbeck",
+            "chinese": "潘丹妮",
+            "japanese": "下地紫野",
+            "korean": "Chae Min-ji"
         },
         "costs": {
             "ascend1": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 20000
                 },
                 {
-                    "name": "Shivada Jade Sliver",
+                    "id": 104111,
+                    "name": "Agnidus Agate Sliver",
                     "count": 1
                 },
                 {
-                    "name": "Beryl Conch",
+                    "id": 101235,
+                    "name": "Lumidouce Bell",
                     "count": 3
                 },
                 {
+                    "id": 112083,
                     "name": "Meshing Gear",
                     "count": 3
                 }
             ],
             "ascend2": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 40000
                 },
                 {
-                    "name": "Shivada Jade Fragment",
+                    "id": 104112,
+                    "name": "Agnidus Agate Fragment",
                     "count": 3
                 },
                 {
-                    "name": "\"Tourbillon Device\"",
+                    "id": 113053,
+                    "name": "Fontemer Unihorn",
                     "count": 2
                 },
                 {
-                    "name": "Beryl Conch",
+                    "id": 101235,
+                    "name": "Lumidouce Bell",
                     "count": 10
                 },
                 {
+                    "id": 112083,
                     "name": "Meshing Gear",
                     "count": 15
                 }
             ],
             "ascend3": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 60000
                 },
                 {
-                    "name": "Shivada Jade Fragment",
+                    "id": 104112,
+                    "name": "Agnidus Agate Fragment",
                     "count": 6
                 },
                 {
-                    "name": "\"Tourbillon Device\"",
+                    "id": 113053,
+                    "name": "Fontemer Unihorn",
                     "count": 4
                 },
                 {
-                    "name": "Beryl Conch",
+                    "id": 101235,
+                    "name": "Lumidouce Bell",
                     "count": 20
                 },
                 {
+                    "id": 112084,
                     "name": "Mechanical Spur Gear",
                     "count": 12
                 }
             ],
             "ascend4": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 80000
                 },
                 {
-                    "name": "Shivada Jade Chunk",
+                    "id": 104113,
+                    "name": "Agnidus Agate Chunk",
                     "count": 3
                 },
                 {
-                    "name": "\"Tourbillon Device\"",
+                    "id": 113053,
+                    "name": "Fontemer Unihorn",
                     "count": 8
                 },
                 {
-                    "name": "Beryl Conch",
+                    "id": 101235,
+                    "name": "Lumidouce Bell",
                     "count": 30
                 },
                 {
+                    "id": 112084,
                     "name": "Mechanical Spur Gear",
                     "count": 18
                 }
             ],
             "ascend5": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 100000
                 },
                 {
-                    "name": "Shivada Jade Chunk",
+                    "id": 104113,
+                    "name": "Agnidus Agate Chunk",
                     "count": 6
                 },
                 {
-                    "name": "\"Tourbillon Device\"",
+                    "id": 113053,
+                    "name": "Fontemer Unihorn",
                     "count": 12
                 },
                 {
-                    "name": "Beryl Conch",
+                    "id": 101235,
+                    "name": "Lumidouce Bell",
                     "count": 45
                 },
                 {
+                    "id": 112085,
                     "name": "Artificed Dynamic Gear",
                     "count": 12
                 }
             ],
             "ascend6": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 120000
                 },
                 {
-                    "name": "Shivada Jade Gemstone",
+                    "id": 104114,
+                    "name": "Agnidus Agate Gemstone",
                     "count": 6
                 },
                 {
-                    "name": "\"Tourbillon Device\"",
+                    "id": 113053,
+                    "name": "Fontemer Unihorn",
                     "count": 20
                 },
                 {
-                    "name": "Beryl Conch",
+                    "id": 101235,
+                    "name": "Lumidouce Bell",
                     "count": 60
                 },
                 {
+                    "id": 112085,
                     "name": "Artificed Dynamic Gear",
                     "count": 24
                 }
@@ -2506,18 +2858,14 @@ const characters = {
         },
         "images": {
             "nameicon": "UI_AvatarIcon_Chevreuse",
-            "nameiconcard": "UI_AvatarIcon_Chevreuse_Card",
-            "namegachasplash": "UI_Gacha_AvatarImg_Chevreuse",
-            "namegachaslice": "UI_Gacha_AvatarIcon_Chevreuse",
-            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Chevreuse.png",
             "namesideicon": "UI_AvatarIcon_Side_Chevreuse",
-            "sideicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Chevreuse.png",
-            "cover1": "https://fastcdn.hoyoverse.com/content-v2/hk4e/113448/f4c603b5b2e3dbb901922ad592d00abb_5941873373722590118.png",
-            "cover2": "https://fastcdn.hoyoverse.com/content-v2/hk4e/113448/431275f6404757189fc6545306f52b86_2915839935932664773.png"
+            "namegachasplash": "UI_Gacha_AvatarImg_Chevreuse",
+            "namegachaslice": "UI_Gacha_AvatarIcon_Chevreuse"
         },
-        "version": "4.2"
+        "version": "4.3"
     },
     "Cyno": {
+        "id": 10000071,
         "name": "Cyno",
         "fullname": "Cyno",
         "title": "Judicator of Secrets",
@@ -2543,128 +2891,157 @@ const characters = {
         "costs": {
             "ascend1": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 20000
                 },
                 {
+                    "id": 104141,
                     "name": "Vajrada Amethyst Sliver",
                     "count": 1
                 },
                 {
+                    "id": 101225,
                     "name": "Scarab",
                     "count": 3
                 },
                 {
+                    "id": 112008,
                     "name": "Divining Scroll",
                     "count": 3
                 }
             ],
             "ascend2": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 40000
                 },
                 {
+                    "id": 104142,
                     "name": "Vajrada Amethyst Fragment",
                     "count": 3
                 },
                 {
+                    "id": 113037,
                     "name": "Thunderclap Fruitcore",
                     "count": 2
                 },
                 {
+                    "id": 101225,
                     "name": "Scarab",
                     "count": 10
                 },
                 {
+                    "id": 112008,
                     "name": "Divining Scroll",
                     "count": 15
                 }
             ],
             "ascend3": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 60000
                 },
                 {
+                    "id": 104142,
                     "name": "Vajrada Amethyst Fragment",
                     "count": 6
                 },
                 {
+                    "id": 113037,
                     "name": "Thunderclap Fruitcore",
                     "count": 4
                 },
                 {
+                    "id": 101225,
                     "name": "Scarab",
                     "count": 20
                 },
                 {
+                    "id": 112009,
                     "name": "Sealed Scroll",
                     "count": 12
                 }
             ],
             "ascend4": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 80000
                 },
                 {
+                    "id": 104143,
                     "name": "Vajrada Amethyst Chunk",
                     "count": 3
                 },
                 {
+                    "id": 113037,
                     "name": "Thunderclap Fruitcore",
                     "count": 8
                 },
                 {
+                    "id": 101225,
                     "name": "Scarab",
                     "count": 30
                 },
                 {
+                    "id": 112009,
                     "name": "Sealed Scroll",
                     "count": 18
                 }
             ],
             "ascend5": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 100000
                 },
                 {
+                    "id": 104143,
                     "name": "Vajrada Amethyst Chunk",
                     "count": 6
                 },
                 {
+                    "id": 113037,
                     "name": "Thunderclap Fruitcore",
                     "count": 12
                 },
                 {
+                    "id": 101225,
                     "name": "Scarab",
                     "count": 45
                 },
                 {
+                    "id": 112010,
                     "name": "Forbidden Curse Scroll",
                     "count": 12
                 }
             ],
             "ascend6": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 120000
                 },
                 {
+                    "id": 104144,
                     "name": "Vajrada Amethyst Gemstone",
                     "count": 6
                 },
                 {
+                    "id": 113037,
                     "name": "Thunderclap Fruitcore",
                     "count": 20
                 },
                 {
+                    "id": 101225,
                     "name": "Scarab",
                     "count": 60
                 },
                 {
+                    "id": 112010,
                     "name": "Forbidden Curse Scroll",
                     "count": 24
                 }
@@ -2672,19 +3049,14 @@ const characters = {
         },
         "images": {
             "nameicon": "UI_AvatarIcon_Cyno",
-            "nameiconcard": "UI_AvatarIcon_Cyno_Card",
-            "namegachasplash": "UI_Gacha_AvatarImg_Cyno",
-            "namegachaslice": "UI_Gacha_AvatarIcon_Cyno",
-            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Cyno.png",
             "namesideicon": "UI_AvatarIcon_Side_Cyno",
-            "sideicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Cyno.png",
-            "cover1": "https://webstatic.hoyoverse.com/upload/contentweb/2022/09/20/c4f05fb0c04afac045171c27c7d03cdc_3872571629427575985.png",
-            "cover2": "https://webstatic.hoyoverse.com/upload/contentweb/2022/09/20/e3bf32076e4144083d84320cda30dc82_5932460027027482354.png",
-            "hoyolab-avatar": "https://upload-os-bbs.hoyolab.com/upload/2022/09/27/4c1d9bbfdfcb964080600105ac6f37a9_8216471529097708423.png"
+            "namegachasplash": "UI_Gacha_AvatarImg_Cyno",
+            "namegachaslice": "UI_Gacha_AvatarIcon_Cyno"
         },
         "version": "3.1"
     },
     "Dehya": {
+        "id": 10000079,
         "name": "Dehya",
         "fullname": "Dehya",
         "title": "Flame-Mane",
@@ -2710,128 +3082,157 @@ const characters = {
         "costs": {
             "ascend1": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 20000
                 },
                 {
+                    "id": 104111,
                     "name": "Agnidus Agate Sliver",
                     "count": 1
                 },
                 {
+                    "id": 101222,
                     "name": "Sand Grease Pupa",
                     "count": 3
                 },
                 {
+                    "id": 112065,
                     "name": "Faded Red Satin",
                     "count": 3
                 }
             ],
             "ascend2": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 40000
                 },
                 {
+                    "id": 104112,
                     "name": "Agnidus Agate Fragment",
                     "count": 3
                 },
                 {
+                    "id": 113039,
                     "name": "Light Guiding Tetrahedron",
                     "count": 2
                 },
                 {
+                    "id": 101222,
                     "name": "Sand Grease Pupa",
                     "count": 10
                 },
                 {
+                    "id": 112065,
                     "name": "Faded Red Satin",
                     "count": 15
                 }
             ],
             "ascend3": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 60000
                 },
                 {
+                    "id": 104112,
                     "name": "Agnidus Agate Fragment",
                     "count": 6
                 },
                 {
+                    "id": 113039,
                     "name": "Light Guiding Tetrahedron",
                     "count": 4
                 },
                 {
+                    "id": 101222,
                     "name": "Sand Grease Pupa",
                     "count": 20
                 },
                 {
+                    "id": 112066,
                     "name": "Trimmed Red Silk",
                     "count": 12
                 }
             ],
             "ascend4": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 80000
                 },
                 {
+                    "id": 104113,
                     "name": "Agnidus Agate Chunk",
                     "count": 3
                 },
                 {
+                    "id": 113039,
                     "name": "Light Guiding Tetrahedron",
                     "count": 8
                 },
                 {
+                    "id": 101222,
                     "name": "Sand Grease Pupa",
                     "count": 30
                 },
                 {
+                    "id": 112066,
                     "name": "Trimmed Red Silk",
                     "count": 18
                 }
             ],
             "ascend5": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 100000
                 },
                 {
+                    "id": 104113,
                     "name": "Agnidus Agate Chunk",
                     "count": 6
                 },
                 {
+                    "id": 113039,
                     "name": "Light Guiding Tetrahedron",
                     "count": 12
                 },
                 {
+                    "id": 101222,
                     "name": "Sand Grease Pupa",
                     "count": 45
                 },
                 {
+                    "id": 112067,
                     "name": "Rich Red Brocade",
                     "count": 12
                 }
             ],
             "ascend6": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 120000
                 },
                 {
+                    "id": 104114,
                     "name": "Agnidus Agate Gemstone",
                     "count": 6
                 },
                 {
+                    "id": 113039,
                     "name": "Light Guiding Tetrahedron",
                     "count": 20
                 },
                 {
+                    "id": 101222,
                     "name": "Sand Grease Pupa",
                     "count": 60
                 },
                 {
+                    "id": 112067,
                     "name": "Rich Red Brocade",
                     "count": 24
                 }
@@ -2839,18 +3240,14 @@ const characters = {
         },
         "images": {
             "nameicon": "UI_AvatarIcon_Dehya",
-            "nameiconcard": "UI_AvatarIcon_Dehya_Card",
-            "namegachasplash": "UI_Gacha_AvatarImg_Dehya",
-            "namegachaslice": "UI_Gacha_AvatarIcon_Dehya",
-            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Dehya.png",
             "namesideicon": "UI_AvatarIcon_Side_Dehya",
-            "sideicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Dehya.png",
-            "cover1": "https://webstatic.hoyoverse.com/upload/op-public/2023/02/13/28d4e40c6f27105a444d7477229f8ced_231237967790442426.png",
-            "cover2": "https://webstatic.hoyoverse.com/upload/op-public/2023/02/13/8b5b13ca240afcf402a1a5416bd4061d_4232493337163537060.png"
+            "namegachasplash": "UI_Gacha_AvatarImg_Dehya",
+            "namegachaslice": "UI_Gacha_AvatarIcon_Dehya"
         },
         "version": "3.5"
     },
     "Diluc": {
+        "id": 10000016,
         "name": "Diluc",
         "fullname": "Diluc",
         "title": "Dark Side of Dawn",
@@ -2876,146 +3273,167 @@ const characters = {
         "costs": {
             "ascend1": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 20000
                 },
                 {
+                    "id": 104111,
                     "name": "Agnidus Agate Sliver",
                     "count": 1
                 },
                 {
+                    "id": 100055,
                     "name": "Small Lamp Grass",
                     "count": 3
                 },
                 {
+                    "id": 112032,
                     "name": "Recruit's Insignia",
                     "count": 3
                 }
             ],
             "ascend2": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 40000
                 },
                 {
+                    "id": 104112,
                     "name": "Agnidus Agate Fragment",
                     "count": 3
                 },
                 {
+                    "id": 113011,
                     "name": "Everflame Seed",
                     "count": 2
                 },
                 {
+                    "id": 100055,
                     "name": "Small Lamp Grass",
                     "count": 10
                 },
                 {
+                    "id": 112032,
                     "name": "Recruit's Insignia",
                     "count": 15
                 }
             ],
             "ascend3": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 60000
                 },
                 {
+                    "id": 104112,
                     "name": "Agnidus Agate Fragment",
                     "count": 6
                 },
                 {
+                    "id": 113011,
                     "name": "Everflame Seed",
                     "count": 4
                 },
                 {
+                    "id": 100055,
                     "name": "Small Lamp Grass",
                     "count": 20
                 },
                 {
+                    "id": 112033,
                     "name": "Sergeant's Insignia",
                     "count": 12
                 }
             ],
             "ascend4": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 80000
                 },
                 {
+                    "id": 104113,
                     "name": "Agnidus Agate Chunk",
                     "count": 3
                 },
                 {
+                    "id": 113011,
                     "name": "Everflame Seed",
                     "count": 8
                 },
                 {
+                    "id": 100055,
                     "name": "Small Lamp Grass",
                     "count": 30
                 },
                 {
+                    "id": 112033,
                     "name": "Sergeant's Insignia",
                     "count": 18
                 }
             ],
             "ascend5": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 100000
                 },
                 {
+                    "id": 104113,
                     "name": "Agnidus Agate Chunk",
                     "count": 6
                 },
                 {
+                    "id": 113011,
                     "name": "Everflame Seed",
                     "count": 12
                 },
                 {
+                    "id": 100055,
                     "name": "Small Lamp Grass",
                     "count": 45
                 },
                 {
+                    "id": 112034,
                     "name": "Lieutenant's Insignia",
                     "count": 12
                 }
             ],
             "ascend6": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 120000
                 },
                 {
+                    "id": 104114,
                     "name": "Agnidus Agate Gemstone",
                     "count": 6
                 },
                 {
+                    "id": 113011,
                     "name": "Everflame Seed",
                     "count": 20
                 },
                 {
+                    "id": 100055,
                     "name": "Small Lamp Grass",
                     "count": 60
                 },
                 {
+                    "id": 112034,
                     "name": "Lieutenant's Insignia",
                     "count": 24
                 }
             ]
         },
         "images": {
-            "card": "https://static.wikia.nocookie.net/gensin-impact/images/4/45/Character_Diluc_Card.jpg",
-            "portrait": "https://static.wikia.nocookie.net/gensin-impact/images/b/bc/Character_Diluc_Portrait.png",
-            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Diluc.png",
-            "sideicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Diluc.png",
-            "cover1": "https://webstatic.hoyoverse.com/upload/contentweb/2022/07/22/f5ae62eff2cf426e98626c882dd0cf0d_3240767163310397909.png",
-            "cover2": "https://webstatic.hoyoverse.com/upload/uploadstatic/contentweb/20200609/2020060915105012670.png",
-            "hoyolab-avatar": "https://img-os-static.hoyolab.com/communityWeb/upload/7f68f45a650bbcf804215fc7890c7f35.png",
             "nameicon": "UI_AvatarIcon_Diluc",
-            "nameiconcard": "UI_AvatarIcon_Diluc_Card",
+            "namesideicon": "UI_AvatarIcon_Side_Diluc",
             "namegachasplash": "UI_Gacha_AvatarImg_Diluc",
-            "namegachaslice": "UI_Gacha_AvatarIcon_Diluc",
-            "namesideicon": "UI_AvatarIcon_Side_Diluc"
+            "namegachaslice": "UI_Gacha_AvatarIcon_Diluc"
         },
         "url": {
             "fandom": "https://genshin-impact.fandom.com/wiki/Diluc"
@@ -3023,6 +3441,7 @@ const characters = {
         "version": "1.0"
     },
     "Diona": {
+        "id": 10000039,
         "name": "Diona",
         "fullname": "Diona",
         "title": "Kätzlein Cocktail",
@@ -3048,146 +3467,167 @@ const characters = {
         "costs": {
             "ascend1": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 20000
                 },
                 {
+                    "id": 104161,
                     "name": "Shivada Jade Sliver",
                     "count": 1
                 },
                 {
+                    "id": 100056,
                     "name": "Calla Lily",
                     "count": 3
                 },
                 {
+                    "id": 112011,
                     "name": "Firm Arrowhead",
                     "count": 3
                 }
             ],
             "ascend2": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 40000
                 },
                 {
+                    "id": 104162,
                     "name": "Shivada Jade Fragment",
                     "count": 3
                 },
                 {
+                    "id": 113010,
                     "name": "Hoarfrost Core",
                     "count": 2
                 },
                 {
+                    "id": 100056,
                     "name": "Calla Lily",
                     "count": 10
                 },
                 {
+                    "id": 112011,
                     "name": "Firm Arrowhead",
                     "count": 15
                 }
             ],
             "ascend3": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 60000
                 },
                 {
+                    "id": 104162,
                     "name": "Shivada Jade Fragment",
                     "count": 6
                 },
                 {
+                    "id": 113010,
                     "name": "Hoarfrost Core",
                     "count": 4
                 },
                 {
+                    "id": 100056,
                     "name": "Calla Lily",
                     "count": 20
                 },
                 {
+                    "id": 112012,
                     "name": "Sharp Arrowhead",
                     "count": 12
                 }
             ],
             "ascend4": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 80000
                 },
                 {
+                    "id": 104163,
                     "name": "Shivada Jade Chunk",
                     "count": 3
                 },
                 {
+                    "id": 113010,
                     "name": "Hoarfrost Core",
                     "count": 8
                 },
                 {
+                    "id": 100056,
                     "name": "Calla Lily",
                     "count": 30
                 },
                 {
+                    "id": 112012,
                     "name": "Sharp Arrowhead",
                     "count": 18
                 }
             ],
             "ascend5": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 100000
                 },
                 {
+                    "id": 104163,
                     "name": "Shivada Jade Chunk",
                     "count": 6
                 },
                 {
+                    "id": 113010,
                     "name": "Hoarfrost Core",
                     "count": 12
                 },
                 {
+                    "id": 100056,
                     "name": "Calla Lily",
                     "count": 45
                 },
                 {
+                    "id": 112013,
                     "name": "Weathered Arrowhead",
                     "count": 12
                 }
             ],
             "ascend6": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 120000
                 },
                 {
+                    "id": 104164,
                     "name": "Shivada Jade Gemstone",
                     "count": 6
                 },
                 {
+                    "id": 113010,
                     "name": "Hoarfrost Core",
                     "count": 20
                 },
                 {
+                    "id": 100056,
                     "name": "Calla Lily",
                     "count": 60
                 },
                 {
+                    "id": 112013,
                     "name": "Weathered Arrowhead",
                     "count": 24
                 }
             ]
         },
         "images": {
-            "card": "https://static.wikia.nocookie.net/gensin-impact/images/0/08/Character_Diona_Card.png",
-            "portrait": "https://static.wikia.nocookie.net/gensin-impact/images/c/ce/Character_Diona_Portrait.png",
-            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Diona.png",
-            "sideicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Diona.png",
-            "cover1": "https://webstatic.hoyoverse.com/upload/contentweb/2022/07/22/fb11c57bf9789d760d70d35ce634ebe1_7535039246777100657.png",
-            "cover2": "https://webstatic.hoyoverse.com/upload/uploadstatic/contentweb/20201106/2020110618595613115.png",
-            "hoyolab-avatar": "https://img-os-static.hoyolab.com/communityWeb/upload/d4e511080346c2ce43636eeb10dd7226.png",
             "nameicon": "UI_AvatarIcon_Diona",
-            "nameiconcard": "UI_AvatarIcon_Diona_Card",
+            "namesideicon": "UI_AvatarIcon_Side_Diona",
             "namegachasplash": "UI_Gacha_AvatarImg_Diona",
-            "namegachaslice": "UI_Gacha_AvatarIcon_Diona",
-            "namesideicon": "UI_AvatarIcon_Side_Diona"
+            "namegachaslice": "UI_Gacha_AvatarIcon_Diona"
         },
         "url": {
             "fandom": "https://genshin-impact.fandom.com/wiki/Diona"
@@ -3195,6 +3635,7 @@ const characters = {
         "version": "1.1"
     },
     "Dori": {
+        "id": 10000068,
         "name": "Dori",
         "fullname": "Dori",
         "title": "Treasure of Dream Garden",
@@ -3220,128 +3661,157 @@ const characters = {
         "costs": {
             "ascend1": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 20000
                 },
                 {
+                    "id": 104141,
                     "name": "Vajrada Amethyst Sliver",
                     "count": 1
                 },
                 {
+                    "id": 101217,
                     "name": "Kalpalata Lotus",
                     "count": 3
                 },
                 {
+                    "id": 112065,
                     "name": "Faded Red Satin",
                     "count": 3
                 }
             ],
             "ascend2": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 40000
                 },
                 {
+                    "id": 104142,
                     "name": "Vajrada Amethyst Fragment",
                     "count": 3
                 },
                 {
+                    "id": 113037,
                     "name": "Thunderclap Fruitcore",
                     "count": 2
                 },
                 {
+                    "id": 101217,
                     "name": "Kalpalata Lotus",
                     "count": 10
                 },
                 {
+                    "id": 112065,
                     "name": "Faded Red Satin",
                     "count": 15
                 }
             ],
             "ascend3": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 60000
                 },
                 {
+                    "id": 104142,
                     "name": "Vajrada Amethyst Fragment",
                     "count": 6
                 },
                 {
+                    "id": 113037,
                     "name": "Thunderclap Fruitcore",
                     "count": 4
                 },
                 {
+                    "id": 101217,
                     "name": "Kalpalata Lotus",
                     "count": 20
                 },
                 {
+                    "id": 112066,
                     "name": "Trimmed Red Silk",
                     "count": 12
                 }
             ],
             "ascend4": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 80000
                 },
                 {
+                    "id": 104143,
                     "name": "Vajrada Amethyst Chunk",
                     "count": 3
                 },
                 {
+                    "id": 113037,
                     "name": "Thunderclap Fruitcore",
                     "count": 8
                 },
                 {
+                    "id": 101217,
                     "name": "Kalpalata Lotus",
                     "count": 30
                 },
                 {
+                    "id": 112066,
                     "name": "Trimmed Red Silk",
                     "count": 18
                 }
             ],
             "ascend5": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 100000
                 },
                 {
+                    "id": 104143,
                     "name": "Vajrada Amethyst Chunk",
                     "count": 6
                 },
                 {
+                    "id": 113037,
                     "name": "Thunderclap Fruitcore",
                     "count": 12
                 },
                 {
+                    "id": 101217,
                     "name": "Kalpalata Lotus",
                     "count": 45
                 },
                 {
+                    "id": 112067,
                     "name": "Rich Red Brocade",
                     "count": 12
                 }
             ],
             "ascend6": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 120000
                 },
                 {
+                    "id": 104144,
                     "name": "Vajrada Amethyst Gemstone",
                     "count": 6
                 },
                 {
+                    "id": 113037,
                     "name": "Thunderclap Fruitcore",
                     "count": 20
                 },
                 {
+                    "id": 101217,
                     "name": "Kalpalata Lotus",
                     "count": 60
                 },
                 {
+                    "id": 112067,
                     "name": "Rich Red Brocade",
                     "count": 24
                 }
@@ -3349,19 +3819,14 @@ const characters = {
         },
         "images": {
             "nameicon": "UI_AvatarIcon_Dori",
-            "nameiconcard": "UI_AvatarIcon_Dori_Card",
-            "namegachasplash": "UI_Gacha_AvatarImg_Dori",
-            "namegachaslice": "UI_Gacha_AvatarIcon_Dori",
-            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Dori.png",
             "namesideicon": "UI_AvatarIcon_Side_Dori",
-            "sideicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Dori.png",
-            "cover1": "https://webstatic.hoyoverse.com/upload/contentweb/2022/08/30/9b5c8d26504c19154056175bbb7e287a_5787324797772373669.png",
-            "cover2": "https://webstatic.hoyoverse.com/upload/contentweb/2022/08/30/2cff1eeb6d74ff8e00813614cb9d7635_8541812394706368377.png",
-            "hoyolab-avatar": "https://img-os-static.hoyolab.com/communityWeb/upload/ff9085c679cf2c31bd8428eee1c026ce.png"
+            "namegachasplash": "UI_Gacha_AvatarImg_Dori",
+            "namegachaslice": "UI_Gacha_AvatarIcon_Dori"
         },
         "version": "3.0"
     },
     "Eula": {
+        "id": 10000051,
         "name": "Eula",
         "fullname": "Eula",
         "title": "Dance of the Shimmering Wave",
@@ -3387,144 +3852,167 @@ const characters = {
         "costs": {
             "ascend1": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 20000
                 },
                 {
+                    "id": 104161,
                     "name": "Shivada Jade Sliver",
                     "count": 1
                 },
                 {
+                    "id": 100057,
                     "name": "Dandelion Seed",
                     "count": 3
                 },
                 {
+                    "id": 112005,
                     "name": "Damaged Mask",
                     "count": 3
                 }
             ],
             "ascend2": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 40000
                 },
                 {
+                    "id": 104162,
                     "name": "Shivada Jade Fragment",
                     "count": 3
                 },
                 {
+                    "id": 113020,
                     "name": "Crystalline Bloom",
                     "count": 2
                 },
                 {
+                    "id": 100057,
                     "name": "Dandelion Seed",
                     "count": 10
                 },
                 {
+                    "id": 112005,
                     "name": "Damaged Mask",
                     "count": 15
                 }
             ],
             "ascend3": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 60000
                 },
                 {
+                    "id": 104162,
                     "name": "Shivada Jade Fragment",
                     "count": 6
                 },
                 {
+                    "id": 113020,
                     "name": "Crystalline Bloom",
                     "count": 4
                 },
                 {
+                    "id": 100057,
                     "name": "Dandelion Seed",
                     "count": 20
                 },
                 {
+                    "id": 112006,
                     "name": "Stained Mask",
                     "count": 12
                 }
             ],
             "ascend4": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 80000
                 },
                 {
+                    "id": 104163,
                     "name": "Shivada Jade Chunk",
                     "count": 3
                 },
                 {
+                    "id": 113020,
                     "name": "Crystalline Bloom",
                     "count": 8
                 },
                 {
+                    "id": 100057,
                     "name": "Dandelion Seed",
                     "count": 30
                 },
                 {
+                    "id": 112006,
                     "name": "Stained Mask",
                     "count": 18
                 }
             ],
             "ascend5": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 100000
                 },
                 {
+                    "id": 104163,
                     "name": "Shivada Jade Chunk",
                     "count": 6
                 },
                 {
+                    "id": 113020,
                     "name": "Crystalline Bloom",
                     "count": 12
                 },
                 {
+                    "id": 100057,
                     "name": "Dandelion Seed",
                     "count": 45
                 },
                 {
+                    "id": 112007,
                     "name": "Ominous Mask",
                     "count": 12
                 }
             ],
             "ascend6": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 120000
                 },
                 {
+                    "id": 104164,
                     "name": "Shivada Jade Gemstone",
                     "count": 6
                 },
                 {
+                    "id": 113020,
                     "name": "Crystalline Bloom",
                     "count": 20
                 },
                 {
+                    "id": 100057,
                     "name": "Dandelion Seed",
                     "count": 60
                 },
                 {
+                    "id": 112007,
                     "name": "Ominous Mask",
                     "count": 24
                 }
             ]
         },
         "images": {
-            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Eula.png",
-            "sideicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Eula.png",
-            "cover1": "https://webstatic.hoyoverse.com/upload/contentweb/2022/07/22/4c4b8babc68ffedce9bd5766b60e1ae5_8042598886702510210.png",
-            "cover2": "https://webstatic.hoyoverse.com/upload/contentweb/2022/06/28/2c3a966eca931163af47670403ea8e50_2166620963369140642.png",
-            "hoyolab-avatar": "https://img-os-static.hoyolab.com/communityWeb/upload/6840f27db9745020aad45853bff79c7c.png",
             "nameicon": "UI_AvatarIcon_Eula",
-            "nameiconcard": "UI_AvatarIcon_Eula_Card",
+            "namesideicon": "UI_AvatarIcon_Side_Eula",
             "namegachasplash": "UI_Gacha_AvatarImg_Eula",
-            "namegachaslice": "UI_Gacha_AvatarIcon_Eula",
-            "namesideicon": "UI_AvatarIcon_Side_Eula"
+            "namegachaslice": "UI_Gacha_AvatarIcon_Eula"
         },
         "url": {
             "fandom": "https://genshin-impact.fandom.com/wiki/Eula"
@@ -3532,6 +4020,7 @@ const characters = {
         "version": "1.5"
     },
     "Faruzan": {
+        "id": 10000076,
         "name": "Faruzan",
         "fullname": "Faruzan",
         "title": "Enigmatic Machinist",
@@ -3557,128 +4046,157 @@ const characters = {
         "costs": {
             "ascend1": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 20000
                 },
                 {
+                    "id": 104151,
                     "name": "Vayuda Turquoise Sliver",
                     "count": 1
                 },
                 {
+                    "id": 101220,
                     "name": "Henna Berry",
                     "count": 3
                 },
                 {
+                    "id": 112065,
                     "name": "Faded Red Satin",
                     "count": 3
                 }
             ],
             "ascend2": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 40000
                 },
                 {
+                    "id": 104152,
                     "name": "Vayuda Turquoise Fragment",
                     "count": 3
                 },
                 {
+                    "id": 113039,
                     "name": "Light Guiding Tetrahedron",
                     "count": 2
                 },
                 {
+                    "id": 101220,
                     "name": "Henna Berry",
                     "count": 10
                 },
                 {
+                    "id": 112065,
                     "name": "Faded Red Satin",
                     "count": 15
                 }
             ],
             "ascend3": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 60000
                 },
                 {
+                    "id": 104152,
                     "name": "Vayuda Turquoise Fragment",
                     "count": 6
                 },
                 {
+                    "id": 113039,
                     "name": "Light Guiding Tetrahedron",
                     "count": 4
                 },
                 {
+                    "id": 101220,
                     "name": "Henna Berry",
                     "count": 20
                 },
                 {
+                    "id": 112066,
                     "name": "Trimmed Red Silk",
                     "count": 12
                 }
             ],
             "ascend4": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 80000
                 },
                 {
+                    "id": 104153,
                     "name": "Vayuda Turquoise Chunk",
                     "count": 3
                 },
                 {
+                    "id": 113039,
                     "name": "Light Guiding Tetrahedron",
                     "count": 8
                 },
                 {
+                    "id": 101220,
                     "name": "Henna Berry",
                     "count": 30
                 },
                 {
+                    "id": 112066,
                     "name": "Trimmed Red Silk",
                     "count": 18
                 }
             ],
             "ascend5": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 100000
                 },
                 {
+                    "id": 104153,
                     "name": "Vayuda Turquoise Chunk",
                     "count": 6
                 },
                 {
+                    "id": 113039,
                     "name": "Light Guiding Tetrahedron",
                     "count": 12
                 },
                 {
+                    "id": 101220,
                     "name": "Henna Berry",
                     "count": 45
                 },
                 {
+                    "id": 112067,
                     "name": "Rich Red Brocade",
                     "count": 12
                 }
             ],
             "ascend6": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 120000
                 },
                 {
+                    "id": 104154,
                     "name": "Vayuda Turquoise Gemstone",
                     "count": 6
                 },
                 {
+                    "id": 113039,
                     "name": "Light Guiding Tetrahedron",
                     "count": 20
                 },
                 {
+                    "id": 101220,
                     "name": "Henna Berry",
                     "count": 60
                 },
                 {
+                    "id": 112067,
                     "name": "Rich Red Brocade",
                     "count": 24
                 }
@@ -3686,18 +4204,14 @@ const characters = {
         },
         "images": {
             "nameicon": "UI_AvatarIcon_Faruzan",
-            "nameiconcard": "UI_AvatarIcon_Faruzan_Card",
-            "namegachasplash": "UI_Gacha_AvatarImg_Faruzan",
-            "namegachaslice": "UI_Gacha_AvatarIcon_Faruzan",
-            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Faruzan.png",
             "namesideicon": "UI_AvatarIcon_Side_Faruzan",
-            "sideicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Faruzan.png",
-            "cover1": "https://webstatic.hoyoverse.com/upload/contentweb/2022/12/03/820230e5076f0cba1837d7bca81d8483_183851182002256600.png",
-            "cover2": "https://webstatic.hoyoverse.com/upload/contentweb/2022/12/01/cfbfca72a20d9e80e6995c27df20d4a0_7483278288635891945.png"
+            "namegachasplash": "UI_Gacha_AvatarImg_Faruzan",
+            "namegachaslice": "UI_Gacha_AvatarIcon_Faruzan"
         },
         "version": "3.3"
     },
     "Fischl": {
+        "id": 10000031,
         "name": "Fischl",
         "fullname": "Fischl",
         "title": "Prinzessin der Verurteilung!",
@@ -3723,146 +4237,167 @@ const characters = {
         "costs": {
             "ascend1": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 20000
                 },
                 {
+                    "id": 104141,
                     "name": "Vajrada Amethyst Sliver",
                     "count": 1
                 },
                 {
+                    "id": 100055,
                     "name": "Small Lamp Grass",
                     "count": 3
                 },
                 {
+                    "id": 112011,
                     "name": "Firm Arrowhead",
                     "count": 3
                 }
             ],
             "ascend2": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 40000
                 },
                 {
+                    "id": 104142,
                     "name": "Vajrada Amethyst Fragment",
                     "count": 3
                 },
                 {
+                    "id": 113002,
                     "name": "Lightning Prism",
                     "count": 2
                 },
                 {
+                    "id": 100055,
                     "name": "Small Lamp Grass",
                     "count": 10
                 },
                 {
+                    "id": 112011,
                     "name": "Firm Arrowhead",
                     "count": 15
                 }
             ],
             "ascend3": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 60000
                 },
                 {
+                    "id": 104142,
                     "name": "Vajrada Amethyst Fragment",
                     "count": 6
                 },
                 {
+                    "id": 113002,
                     "name": "Lightning Prism",
                     "count": 4
                 },
                 {
+                    "id": 100055,
                     "name": "Small Lamp Grass",
                     "count": 20
                 },
                 {
+                    "id": 112012,
                     "name": "Sharp Arrowhead",
                     "count": 12
                 }
             ],
             "ascend4": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 80000
                 },
                 {
+                    "id": 104143,
                     "name": "Vajrada Amethyst Chunk",
                     "count": 3
                 },
                 {
+                    "id": 113002,
                     "name": "Lightning Prism",
                     "count": 8
                 },
                 {
+                    "id": 100055,
                     "name": "Small Lamp Grass",
                     "count": 30
                 },
                 {
+                    "id": 112012,
                     "name": "Sharp Arrowhead",
                     "count": 18
                 }
             ],
             "ascend5": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 100000
                 },
                 {
+                    "id": 104143,
                     "name": "Vajrada Amethyst Chunk",
                     "count": 6
                 },
                 {
+                    "id": 113002,
                     "name": "Lightning Prism",
                     "count": 12
                 },
                 {
+                    "id": 100055,
                     "name": "Small Lamp Grass",
                     "count": 45
                 },
                 {
+                    "id": 112013,
                     "name": "Weathered Arrowhead",
                     "count": 12
                 }
             ],
             "ascend6": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 120000
                 },
                 {
+                    "id": 104144,
                     "name": "Vajrada Amethyst Gemstone",
                     "count": 6
                 },
                 {
+                    "id": 113002,
                     "name": "Lightning Prism",
                     "count": 20
                 },
                 {
+                    "id": 100055,
                     "name": "Small Lamp Grass",
                     "count": 60
                 },
                 {
+                    "id": 112013,
                     "name": "Weathered Arrowhead",
                     "count": 24
                 }
             ]
         },
         "images": {
-            "card": "https://static.wikia.nocookie.net/gensin-impact/images/4/48/Character_Fischl_Card.jpg",
-            "portrait": "https://static.wikia.nocookie.net/gensin-impact/images/3/34/Character_Fischl_Portrait.png",
-            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Fischl.png",
-            "sideicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Fischl.png",
-            "cover1": "https://webstatic.hoyoverse.com/upload/contentweb/2022/07/22/96297a7f2679bf0dce4fb9d11120b882_6701280931940281887.png",
-            "cover2": "https://webstatic.hoyoverse.com/upload/uploadstatic/contentweb/20200402/2020040211242065763.png",
-            "hoyolab-avatar": "https://img-os-static.hoyolab.com/communityWeb/upload/0bb4e376b31993e6fdab02786bc6a20a.png",
             "nameicon": "UI_AvatarIcon_Fischl",
-            "nameiconcard": "UI_AvatarIcon_Fischl_Card",
+            "namesideicon": "UI_AvatarIcon_Side_Fischl",
             "namegachasplash": "UI_Gacha_AvatarImg_Fischl",
-            "namegachaslice": "UI_Gacha_AvatarIcon_Fischl",
-            "namesideicon": "UI_AvatarIcon_Side_Fischl"
+            "namegachaslice": "UI_Gacha_AvatarIcon_Fischl"
         },
         "url": {
             "fandom": "https://genshin-impact.fandom.com/wiki/Fischl"
@@ -3870,6 +4405,7 @@ const characters = {
         "version": "1.0"
     },
     "Freminet": {
+        "id": 10000085,
         "name": "Freminet",
         "fullname": "Freminet",
         "title": "Yearning for Unseen Depths",
@@ -3895,128 +4431,157 @@ const characters = {
         "costs": {
             "ascend1": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 20000
                 },
                 {
+                    "id": 104161,
                     "name": "Shivada Jade Sliver",
                     "count": 1
                 },
                 {
+                    "id": 101233,
                     "name": "Romaritime Flower",
                     "count": 3
                 },
                 {
+                    "id": 112080,
                     "name": "Transoceanic Pearl",
                     "count": 3
                 }
             ],
             "ascend2": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 40000
                 },
                 {
+                    "id": 104162,
                     "name": "Shivada Jade Fragment",
                     "count": 3
                 },
                 {
+                    "id": 113050,
                     "name": "Artificed Spare Clockwork Component — Coppelius",
                     "count": 2
                 },
                 {
+                    "id": 101233,
                     "name": "Romaritime Flower",
                     "count": 10
                 },
                 {
+                    "id": 112080,
                     "name": "Transoceanic Pearl",
                     "count": 15
                 }
             ],
             "ascend3": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 60000
                 },
                 {
+                    "id": 104162,
                     "name": "Shivada Jade Fragment",
                     "count": 6
                 },
                 {
+                    "id": 113050,
                     "name": "Artificed Spare Clockwork Component — Coppelius",
                     "count": 4
                 },
                 {
+                    "id": 101233,
                     "name": "Romaritime Flower",
                     "count": 20
                 },
                 {
+                    "id": 112081,
                     "name": "Transoceanic Chunk",
                     "count": 12
                 }
             ],
             "ascend4": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 80000
                 },
                 {
+                    "id": 104163,
                     "name": "Shivada Jade Chunk",
                     "count": 3
                 },
                 {
+                    "id": 113050,
                     "name": "Artificed Spare Clockwork Component — Coppelius",
                     "count": 8
                 },
                 {
+                    "id": 101233,
                     "name": "Romaritime Flower",
                     "count": 30
                 },
                 {
+                    "id": 112081,
                     "name": "Transoceanic Chunk",
                     "count": 18
                 }
             ],
             "ascend5": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 100000
                 },
                 {
+                    "id": 104163,
                     "name": "Shivada Jade Chunk",
                     "count": 6
                 },
                 {
+                    "id": 113050,
                     "name": "Artificed Spare Clockwork Component — Coppelius",
                     "count": 12
                 },
                 {
+                    "id": 101233,
                     "name": "Romaritime Flower",
                     "count": 45
                 },
                 {
+                    "id": 112082,
                     "name": "Xenochromatic Crystal",
                     "count": 12
                 }
             ],
             "ascend6": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 120000
                 },
                 {
+                    "id": 104164,
                     "name": "Shivada Jade Gemstone",
                     "count": 6
                 },
                 {
+                    "id": 113050,
                     "name": "Artificed Spare Clockwork Component — Coppelius",
                     "count": 20
                 },
                 {
+                    "id": 101233,
                     "name": "Romaritime Flower",
                     "count": 60
                 },
                 {
+                    "id": 112082,
                     "name": "Xenochromatic Crystal",
                     "count": 24
                 }
@@ -4024,16 +4589,14 @@ const characters = {
         },
         "images": {
             "nameicon": "UI_AvatarIcon_Freminet",
-            "nameiconcard": "UI_AvatarIcon_Freminet_Card",
-            "namegachasplash": "UI_Gacha_AvatarImg_Freminet",
-            "namegachaslice": "UI_Gacha_AvatarIcon_Freminet",
-            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Freminet.png",
             "namesideicon": "UI_AvatarIcon_Side_Freminet",
-            "sideicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Freminet.png"
+            "namegachasplash": "UI_Gacha_AvatarImg_Freminet",
+            "namegachaslice": "UI_Gacha_AvatarIcon_Freminet"
         },
         "version": "4.0"
     },
     "Furina": {
+        "id": 10000089,
         "name": "Furina",
         "fullname": "Furina",
         "title": "Endless Solo of Solitude",
@@ -4059,128 +4622,157 @@ const characters = {
         "costs": {
             "ascend1": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 20000
                 },
                 {
+                    "id": 104121,
                     "name": "Varunada Lazurite Sliver",
                     "count": 1
                 },
                 {
+                    "id": 101238,
                     "name": "Lakelight Lily",
                     "count": 3
                 },
                 {
+                    "id": 112038,
                     "name": "Whopperflower Nectar",
                     "count": 3
                 }
             ],
             "ascend2": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 40000
                 },
                 {
+                    "id": 104122,
                     "name": "Varunada Lazurite Fragment",
                     "count": 3
                 },
                 {
+                    "id": 113057,
                     "name": "Water That Failed To Transcend",
                     "count": 2
                 },
                 {
+                    "id": 101238,
                     "name": "Lakelight Lily",
                     "count": 10
                 },
                 {
+                    "id": 112038,
                     "name": "Whopperflower Nectar",
                     "count": 15
                 }
             ],
             "ascend3": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 60000
                 },
                 {
+                    "id": 104122,
                     "name": "Varunada Lazurite Fragment",
                     "count": 6
                 },
                 {
+                    "id": 113057,
                     "name": "Water That Failed To Transcend",
                     "count": 4
                 },
                 {
+                    "id": 101238,
                     "name": "Lakelight Lily",
                     "count": 20
                 },
                 {
+                    "id": 112039,
                     "name": "Shimmering Nectar",
                     "count": 12
                 }
             ],
             "ascend4": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 80000
                 },
                 {
+                    "id": 104123,
                     "name": "Varunada Lazurite Chunk",
                     "count": 3
                 },
                 {
+                    "id": 113057,
                     "name": "Water That Failed To Transcend",
                     "count": 8
                 },
                 {
+                    "id": 101238,
                     "name": "Lakelight Lily",
                     "count": 30
                 },
                 {
+                    "id": 112039,
                     "name": "Shimmering Nectar",
                     "count": 18
                 }
             ],
             "ascend5": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 100000
                 },
                 {
+                    "id": 104123,
                     "name": "Varunada Lazurite Chunk",
                     "count": 6
                 },
                 {
+                    "id": 113057,
                     "name": "Water That Failed To Transcend",
                     "count": 12
                 },
                 {
+                    "id": 101238,
                     "name": "Lakelight Lily",
                     "count": 45
                 },
                 {
+                    "id": 112040,
                     "name": "Energy Nectar",
                     "count": 12
                 }
             ],
             "ascend6": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 120000
                 },
                 {
+                    "id": 104124,
                     "name": "Varunada Lazurite Gemstone",
                     "count": 6
                 },
                 {
+                    "id": 113057,
                     "name": "Water That Failed To Transcend",
                     "count": 20
                 },
                 {
+                    "id": 101238,
                     "name": "Lakelight Lily",
                     "count": 60
                 },
                 {
+                    "id": 112040,
                     "name": "Energy Nectar",
                     "count": 24
                 }
@@ -4188,216 +4780,205 @@ const characters = {
         },
         "images": {
             "nameicon": "UI_AvatarIcon_Furina",
-            "nameiconcard": "UI_AvatarIcon_Furina_Card",
-            "namegachasplash": "UI_Gacha_AvatarImg_Furina",
-            "namegachaslice": "UI_Gacha_AvatarIcon_Furina",
-            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Furina.png",
             "namesideicon": "UI_AvatarIcon_Side_Furina",
-            "sideicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Furina.png",
-            "cover1": "https://fastcdn.hoyoverse.com/content-v2/hk4e/113447/e8d153da1a2dca7a07fd76397cd60612_2043628622447437530.png",
-            "cover2": "https://fastcdn.hoyoverse.com/content-v2/hk4e/113447/a28573fbba728cd873a56337bf83ff31_2734275279164942426.png"
+            "namegachasplash": "UI_Gacha_AvatarImg_Furina",
+            "namegachaslice": "UI_Gacha_AvatarIcon_Furina"
         },
         "version": "4.2"
     },
-
-
-
-
-
-
-
-
-
-
-
-
     "Gaming": {
+        "id": 10000092,
         "name": "Gaming",
         "fullname": "Gaming",
-        "title": "Plenilune Gaze",
-        "description": "The secretary at Yuehai Pavilion. The blood of the qilin, an illuminated beast, flows within her veins.",
+        "title": "Leonine Vanguard",
+        "description": "Guard of the Sword and Strongbox Secure Transport Agency, and the head of the \"Mighty Mythical Beasts\" Wushou troupe.",
         "rarity": "4",
         "element": "Pyro",
-        "weapontype": "Bow",
-        "substat": "CRIT DMG",
-        "gender": "Female",
-        "body": "GIRL",
+        "weapontype": "Claymore",
+        "substat": "ATK",
+        "gender": "Male",
+        "body": "BOY",
         "association": "LIYUE",
         "region": "Liyue",
-        "affiliation": "Yuehai Pavilion",
-        "birthdaymmdd": "12/2",
-        "birthday": "December 2",
-        "constellation": "Sinae Unicornis",
+        "affiliation": "Sword and Strongbox Secure Transport Agency",
+        "birthdaymmdd": "12/22",
+        "birthday": "December 22",
+        "constellation": "Leo Expergiscens",
         "cv": {
-            "english": "Jennifer Losi",
-            "chinese": "林簌",
-            "japanese": "上田麗奈",
-            "korean": "Kim Seon-hye"
+            "english": "Caleb Yen",
+            "chinese": "谢莹",
+            "japanese": "小松昌平",
+            "korean": "Kim Yoon-Gi"
         },
         "costs": {
             "ascend1": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 20000
                 },
                 {
-                    "name": "Shivada Jade Sliver",
+                    "id": 104111,
+                    "name": "Agnidus Agate Sliver",
                     "count": 1
                 },
                 {
-                    "name": "Qingxin",
+                    "id": 100033,
+                    "name": "Starconch",
                     "count": 3
                 },
                 {
-                    "name": "Whopperflower Nectar",
+                    "id": 112002,
+                    "name": "Slime Condensate",
                     "count": 3
                 }
             ],
             "ascend2": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 40000
                 },
                 {
-                    "name": "Shivada Jade Fragment",
+                    "id": 104112,
+                    "name": "Agnidus Agate Fragment",
                     "count": 3
                 },
                 {
-                    "name": "Hoarfrost Core",
+                    "id": 113051,
+                    "name": "Emperor's Resolution",
                     "count": 2
                 },
                 {
-                    "name": "Qingxin",
+                    "id": 100033,
+                    "name": "Starconch",
                     "count": 10
                 },
                 {
-                    "name": "Whopperflower Nectar",
+                    "id": 112002,
+                    "name": "Slime Condensate",
                     "count": 15
                 }
             ],
             "ascend3": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 60000
                 },
                 {
-                    "name": "Shivada Jade Fragment",
+                    "id": 104112,
+                    "name": "Agnidus Agate Fragment",
                     "count": 6
                 },
                 {
-                    "name": "Hoarfrost Core",
+                    "id": 113051,
+                    "name": "Emperor's Resolution",
                     "count": 4
                 },
                 {
-                    "name": "Qingxin",
+                    "id": 100033,
+                    "name": "Starconch",
                     "count": 20
                 },
                 {
-                    "name": "Shimmering Nectar",
+                    "id": 112003,
+                    "name": "Slime Secretions",
                     "count": 12
                 }
             ],
             "ascend4": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 80000
                 },
                 {
-                    "name": "Shivada Jade Chunk",
+                    "id": 104113,
+                    "name": "Agnidus Agate Chunk",
                     "count": 3
                 },
                 {
-                    "name": "Hoarfrost Core",
+                    "id": 113051,
+                    "name": "Emperor's Resolution",
                     "count": 8
                 },
                 {
-                    "name": "Qingxin",
+                    "id": 100033,
+                    "name": "Starconch",
                     "count": 30
                 },
                 {
-                    "name": "Shimmering Nectar",
+                    "id": 112003,
+                    "name": "Slime Secretions",
                     "count": 18
                 }
             ],
             "ascend5": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 100000
                 },
                 {
-                    "name": "Shivada Jade Chunk",
+                    "id": 104113,
+                    "name": "Agnidus Agate Chunk",
                     "count": 6
                 },
                 {
-                    "name": "Hoarfrost Core",
+                    "id": 113051,
+                    "name": "Emperor's Resolution",
                     "count": 12
                 },
                 {
-                    "name": "Qingxin",
+                    "id": 100033,
+                    "name": "Starconch",
                     "count": 45
                 },
                 {
-                    "name": "Energy Nectar",
+                    "id": 112004,
+                    "name": "Slime Concentrate",
                     "count": 12
                 }
             ],
             "ascend6": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 120000
                 },
                 {
-                    "name": "Shivada Jade Gemstone",
+                    "id": 104114,
+                    "name": "Agnidus Agate Gemstone",
                     "count": 6
                 },
                 {
-                    "name": "Hoarfrost Core",
+                    "id": 113051,
+                    "name": "Emperor's Resolution",
                     "count": 20
                 },
                 {
-                    "name": "Qingxin",
+                    "id": 100033,
+                    "name": "Starconch",
                     "count": 60
                 },
                 {
-                    "name": "Energy Nectar",
+                    "id": 112004,
+                    "name": "Slime Concentrate",
                     "count": 24
                 }
             ]
         },
         "images": {
-            "card": "https://static.wikia.nocookie.net/gensin-impact/images/8/8d/Character_Gaming_Card.png",
-            "portrait": "https://static.wikia.nocookie.net/gensin-impact/images/a/a0/Character_Gaming_Portrait.png",
-            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Gaming.png",
-            "sideicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Gaming.png",
-            "cover1": "https://webstatic.hoyoverse.com/upload/contentweb/2022/07/22/1ae0d0aaad9ee9b55652ea7ec67f0465_3602224572622981451.png",
-            "cover2": "https://webstatic.hoyoverse.com/upload/uploadstatic/contentweb/20210105/2021010519280045054.png",
-            "hoyolab-avatar": "https://img-os-static.hoyolab.com/communityWeb/upload/4af4adf192a35db2dd76d9718acc7bc8.png",
             "nameicon": "UI_AvatarIcon_Gaming",
-            "nameiconcard": "UI_AvatarIcon_Gaming_Card",
+            "namesideicon": "UI_AvatarIcon_Side_Gaming",
             "namegachasplash": "UI_Gacha_AvatarImg_Gaming",
-            "namegachaslice": "UI_Gacha_AvatarIcon_Gaming",
-            "namesideicon": "UI_AvatarIcon_Side_Gaming"
+            "namegachaslice": "UI_Gacha_AvatarIcon_Gaming"
         },
-        "url": {
-            "fandom": "https://genshin-impact.fandom.com/wiki/Gaming"
-        },
-        "version": "1.2"
+        "version": "4.4"
     },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     "Ganyu": {
+        "id": 10000037,
         "name": "Ganyu",
         "fullname": "Ganyu",
         "title": "Plenilune Gaze",
@@ -4423,146 +5004,167 @@ const characters = {
         "costs": {
             "ascend1": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 20000
                 },
                 {
+                    "id": 104161,
                     "name": "Shivada Jade Sliver",
                     "count": 1
                 },
                 {
+                    "id": 100031,
                     "name": "Qingxin",
                     "count": 3
                 },
                 {
+                    "id": 112038,
                     "name": "Whopperflower Nectar",
                     "count": 3
                 }
             ],
             "ascend2": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 40000
                 },
                 {
+                    "id": 104162,
                     "name": "Shivada Jade Fragment",
                     "count": 3
                 },
                 {
+                    "id": 113010,
                     "name": "Hoarfrost Core",
                     "count": 2
                 },
                 {
+                    "id": 100031,
                     "name": "Qingxin",
                     "count": 10
                 },
                 {
+                    "id": 112038,
                     "name": "Whopperflower Nectar",
                     "count": 15
                 }
             ],
             "ascend3": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 60000
                 },
                 {
+                    "id": 104162,
                     "name": "Shivada Jade Fragment",
                     "count": 6
                 },
                 {
+                    "id": 113010,
                     "name": "Hoarfrost Core",
                     "count": 4
                 },
                 {
+                    "id": 100031,
                     "name": "Qingxin",
                     "count": 20
                 },
                 {
+                    "id": 112039,
                     "name": "Shimmering Nectar",
                     "count": 12
                 }
             ],
             "ascend4": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 80000
                 },
                 {
+                    "id": 104163,
                     "name": "Shivada Jade Chunk",
                     "count": 3
                 },
                 {
+                    "id": 113010,
                     "name": "Hoarfrost Core",
                     "count": 8
                 },
                 {
+                    "id": 100031,
                     "name": "Qingxin",
                     "count": 30
                 },
                 {
+                    "id": 112039,
                     "name": "Shimmering Nectar",
                     "count": 18
                 }
             ],
             "ascend5": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 100000
                 },
                 {
+                    "id": 104163,
                     "name": "Shivada Jade Chunk",
                     "count": 6
                 },
                 {
+                    "id": 113010,
                     "name": "Hoarfrost Core",
                     "count": 12
                 },
                 {
+                    "id": 100031,
                     "name": "Qingxin",
                     "count": 45
                 },
                 {
+                    "id": 112040,
                     "name": "Energy Nectar",
                     "count": 12
                 }
             ],
             "ascend6": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 120000
                 },
                 {
+                    "id": 104164,
                     "name": "Shivada Jade Gemstone",
                     "count": 6
                 },
                 {
+                    "id": 113010,
                     "name": "Hoarfrost Core",
                     "count": 20
                 },
                 {
+                    "id": 100031,
                     "name": "Qingxin",
                     "count": 60
                 },
                 {
+                    "id": 112040,
                     "name": "Energy Nectar",
                     "count": 24
                 }
             ]
         },
         "images": {
-            "card": "https://static.wikia.nocookie.net/gensin-impact/images/8/8d/Character_Ganyu_Card.png",
-            "portrait": "https://static.wikia.nocookie.net/gensin-impact/images/a/a0/Character_Ganyu_Portrait.png",
-            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Ganyu.png",
-            "sideicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Ganyu.png",
-            "cover1": "https://webstatic.hoyoverse.com/upload/contentweb/2022/07/22/1ae0d0aaad9ee9b55652ea7ec67f0465_3602224572622981451.png",
-            "cover2": "https://webstatic.hoyoverse.com/upload/uploadstatic/contentweb/20210105/2021010519280045054.png",
-            "hoyolab-avatar": "https://img-os-static.hoyolab.com/communityWeb/upload/4af4adf192a35db2dd76d9718acc7bc8.png",
             "nameicon": "UI_AvatarIcon_Ganyu",
-            "nameiconcard": "UI_AvatarIcon_Ganyu_Card",
+            "namesideicon": "UI_AvatarIcon_Side_Ganyu",
             "namegachasplash": "UI_Gacha_AvatarImg_Ganyu",
-            "namegachaslice": "UI_Gacha_AvatarIcon_Ganyu",
-            "namesideicon": "UI_AvatarIcon_Side_Ganyu"
+            "namegachaslice": "UI_Gacha_AvatarIcon_Ganyu"
         },
         "url": {
             "fandom": "https://genshin-impact.fandom.com/wiki/Ganyu"
@@ -4570,6 +5172,7 @@ const characters = {
         "version": "1.2"
     },
     "Gorou": {
+        "id": 10000055,
         "name": "Gorou",
         "fullname": "Gorou",
         "title": "Canine Warrior",
@@ -4595,128 +5198,157 @@ const characters = {
         "costs": {
             "ascend1": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 20000
                 },
                 {
+                    "id": 104171,
                     "name": "Prithiva Topaz Sliver",
                     "count": 1
                 },
                 {
+                    "id": 101207,
                     "name": "Sango Pearl",
                     "count": 3
                 },
                 {
+                    "id": 112053,
                     "name": "Spectral Husk",
                     "count": 3
                 }
             ],
             "ascend2": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 40000
                 },
                 {
+                    "id": 104172,
                     "name": "Prithiva Topaz Fragment",
                     "count": 3
                 },
                 {
+                    "id": 113023,
                     "name": "Perpetual Heart",
                     "count": 2
                 },
                 {
+                    "id": 101207,
                     "name": "Sango Pearl",
                     "count": 10
                 },
                 {
+                    "id": 112053,
                     "name": "Spectral Husk",
                     "count": 15
                 }
             ],
             "ascend3": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 60000
                 },
                 {
+                    "id": 104172,
                     "name": "Prithiva Topaz Fragment",
                     "count": 6
                 },
                 {
+                    "id": 113023,
                     "name": "Perpetual Heart",
                     "count": 4
                 },
                 {
+                    "id": 101207,
                     "name": "Sango Pearl",
                     "count": 20
                 },
                 {
+                    "id": 112054,
                     "name": "Spectral Heart",
                     "count": 12
                 }
             ],
             "ascend4": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 80000
                 },
                 {
+                    "id": 104173,
                     "name": "Prithiva Topaz Chunk",
                     "count": 3
                 },
                 {
+                    "id": 113023,
                     "name": "Perpetual Heart",
                     "count": 8
                 },
                 {
+                    "id": 101207,
                     "name": "Sango Pearl",
                     "count": 30
                 },
                 {
+                    "id": 112054,
                     "name": "Spectral Heart",
                     "count": 18
                 }
             ],
             "ascend5": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 100000
                 },
                 {
+                    "id": 104173,
                     "name": "Prithiva Topaz Chunk",
                     "count": 6
                 },
                 {
+                    "id": 113023,
                     "name": "Perpetual Heart",
                     "count": 12
                 },
                 {
+                    "id": 101207,
                     "name": "Sango Pearl",
                     "count": 45
                 },
                 {
+                    "id": 112055,
                     "name": "Spectral Nucleus",
                     "count": 12
                 }
             ],
             "ascend6": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 120000
                 },
                 {
+                    "id": 104174,
                     "name": "Prithiva Topaz Gemstone",
                     "count": 6
                 },
                 {
+                    "id": 113023,
                     "name": "Perpetual Heart",
                     "count": 20
                 },
                 {
+                    "id": 101207,
                     "name": "Sango Pearl",
                     "count": 60
                 },
                 {
+                    "id": 112055,
                     "name": "Spectral Nucleus",
                     "count": 24
                 }
@@ -4724,15 +5356,9 @@ const characters = {
         },
         "images": {
             "nameicon": "UI_AvatarIcon_Gorou",
-            "nameiconcard": "UI_AvatarIcon_Gorou_Card",
-            "namegachasplash": "UI_Gacha_AvatarImg_Gorou",
-            "namegachaslice": "UI_Gacha_AvatarIcon_Gorou",
-            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Gorou.png",
             "namesideicon": "UI_AvatarIcon_Side_Gorou",
-            "sideicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Gorou.png",
-            "cover1": "https://webstatic.hoyoverse.com/upload/contentweb/2022/07/22/33b7b5d2536416116765a3f55e47f51a_54142758600124938.png",
-            "cover2": "https://webstatic.hoyoverse.com/upload/contentweb/2022/06/29/3484c4fab13b8c8fec8ccbeff63ec50a_5464889942943679721.png",
-            "hoyolab-avatar": "https://img-os-static.hoyolab.com/communityWeb/upload/781be06fd7f2106fbc28711aa9a46663.png"
+            "namegachasplash": "UI_Gacha_AvatarImg_Gorou",
+            "namegachaslice": "UI_Gacha_AvatarIcon_Gorou"
         },
         "url": {
             "fandom": "https://genshin-impact.fandom.com/wiki/Gorou"
@@ -4740,6 +5366,7 @@ const characters = {
         "version": "2.3"
     },
     "Hu Tao": {
+        "id": 10000046,
         "name": "Hu Tao",
         "fullname": "Hu Tao",
         "title": "Fragrance in Thaw",
@@ -4765,146 +5392,167 @@ const characters = {
         "costs": {
             "ascend1": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 20000
                 },
                 {
+                    "id": 104111,
                     "name": "Agnidus Agate Sliver",
                     "count": 1
                 },
                 {
+                    "id": 100029,
                     "name": "Silk Flower",
                     "count": 3
                 },
                 {
+                    "id": 112038,
                     "name": "Whopperflower Nectar",
                     "count": 3
                 }
             ],
             "ascend2": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 40000
                 },
                 {
+                    "id": 104112,
                     "name": "Agnidus Agate Fragment",
                     "count": 3
                 },
                 {
+                    "id": 113016,
                     "name": "Juvenile Jade",
                     "count": 2
                 },
                 {
+                    "id": 100029,
                     "name": "Silk Flower",
                     "count": 10
                 },
                 {
+                    "id": 112038,
                     "name": "Whopperflower Nectar",
                     "count": 15
                 }
             ],
             "ascend3": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 60000
                 },
                 {
+                    "id": 104112,
                     "name": "Agnidus Agate Fragment",
                     "count": 6
                 },
                 {
+                    "id": 113016,
                     "name": "Juvenile Jade",
                     "count": 4
                 },
                 {
+                    "id": 100029,
                     "name": "Silk Flower",
                     "count": 20
                 },
                 {
+                    "id": 112039,
                     "name": "Shimmering Nectar",
                     "count": 12
                 }
             ],
             "ascend4": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 80000
                 },
                 {
+                    "id": 104113,
                     "name": "Agnidus Agate Chunk",
                     "count": 3
                 },
                 {
+                    "id": 113016,
                     "name": "Juvenile Jade",
                     "count": 8
                 },
                 {
+                    "id": 100029,
                     "name": "Silk Flower",
                     "count": 30
                 },
                 {
+                    "id": 112039,
                     "name": "Shimmering Nectar",
                     "count": 18
                 }
             ],
             "ascend5": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 100000
                 },
                 {
+                    "id": 104113,
                     "name": "Agnidus Agate Chunk",
                     "count": 6
                 },
                 {
+                    "id": 113016,
                     "name": "Juvenile Jade",
                     "count": 12
                 },
                 {
+                    "id": 100029,
                     "name": "Silk Flower",
                     "count": 45
                 },
                 {
+                    "id": 112040,
                     "name": "Energy Nectar",
                     "count": 12
                 }
             ],
             "ascend6": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 120000
                 },
                 {
+                    "id": 104114,
                     "name": "Agnidus Agate Gemstone",
                     "count": 6
                 },
                 {
+                    "id": 113016,
                     "name": "Juvenile Jade",
                     "count": 20
                 },
                 {
+                    "id": 100029,
                     "name": "Silk Flower",
                     "count": 60
                 },
                 {
+                    "id": 112040,
                     "name": "Energy Nectar",
                     "count": 24
                 }
             ]
         },
         "images": {
-            "card": "https://static.wikia.nocookie.net/gensin-impact/images/2/22/Character_Hu_Tao_Card.jpg",
-            "portrait": "https://static.wikia.nocookie.net/gensin-impact/images/5/50/Character_Hu_Tao_Portrait.png",
-            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Hutao.png",
-            "sideicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Hutao.png",
-            "cover1": "https://webstatic.hoyoverse.com/upload/contentweb/2022/07/22/300df2aed5060579f08d7db601d8710d_7586213496059203812.png",
-            "cover2": "https://webstatic.hoyoverse.com/upload/uploadstatic/contentweb/20210224/2021022411361082980.png",
-            "hoyolab-avatar": "https://img-os-static.hoyolab.com/communityWeb/upload/e160b5fac097d628f5b2227fd507373b.png",
             "nameicon": "UI_AvatarIcon_Hutao",
-            "nameiconcard": "UI_AvatarIcon_Hutao_Card",
+            "namesideicon": "UI_AvatarIcon_Side_Hutao",
             "namegachasplash": "UI_Gacha_AvatarImg_Hutao",
-            "namegachaslice": "UI_Gacha_AvatarIcon_Hutao",
-            "namesideicon": "UI_AvatarIcon_Side_Hutao"
+            "namegachaslice": "UI_Gacha_AvatarIcon_Hutao"
         },
         "url": {
             "fandom": "https://genshin-impact.fandom.com/wiki/Hu_Tao"
@@ -4912,6 +5560,7 @@ const characters = {
         "version": "1.3"
     },
     "Jean": {
+        "id": 10000003,
         "name": "Jean",
         "fullname": "Jean",
         "title": "Dandelion Knight",
@@ -4937,146 +5586,167 @@ const characters = {
         "costs": {
             "ascend1": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 20000
                 },
                 {
+                    "id": 104151,
                     "name": "Vayuda Turquoise Sliver",
                     "count": 1
                 },
                 {
+                    "id": 100057,
                     "name": "Dandelion Seed",
                     "count": 3
                 },
                 {
+                    "id": 112005,
                     "name": "Damaged Mask",
                     "count": 3
                 }
             ],
             "ascend2": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 40000
                 },
                 {
+                    "id": 104152,
                     "name": "Vayuda Turquoise Fragment",
                     "count": 3
                 },
                 {
+                    "id": 113001,
                     "name": "Hurricane Seed",
                     "count": 2
                 },
                 {
+                    "id": 100057,
                     "name": "Dandelion Seed",
                     "count": 10
                 },
                 {
+                    "id": 112005,
                     "name": "Damaged Mask",
                     "count": 15
                 }
             ],
             "ascend3": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 60000
                 },
                 {
+                    "id": 104152,
                     "name": "Vayuda Turquoise Fragment",
                     "count": 6
                 },
                 {
+                    "id": 113001,
                     "name": "Hurricane Seed",
                     "count": 4
                 },
                 {
+                    "id": 100057,
                     "name": "Dandelion Seed",
                     "count": 20
                 },
                 {
+                    "id": 112006,
                     "name": "Stained Mask",
                     "count": 12
                 }
             ],
             "ascend4": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 80000
                 },
                 {
+                    "id": 104153,
                     "name": "Vayuda Turquoise Chunk",
                     "count": 3
                 },
                 {
+                    "id": 113001,
                     "name": "Hurricane Seed",
                     "count": 8
                 },
                 {
+                    "id": 100057,
                     "name": "Dandelion Seed",
                     "count": 30
                 },
                 {
+                    "id": 112006,
                     "name": "Stained Mask",
                     "count": 18
                 }
             ],
             "ascend5": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 100000
                 },
                 {
+                    "id": 104153,
                     "name": "Vayuda Turquoise Chunk",
                     "count": 6
                 },
                 {
+                    "id": 113001,
                     "name": "Hurricane Seed",
                     "count": 12
                 },
                 {
+                    "id": 100057,
                     "name": "Dandelion Seed",
                     "count": 45
                 },
                 {
+                    "id": 112007,
                     "name": "Ominous Mask",
                     "count": 12
                 }
             ],
             "ascend6": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 120000
                 },
                 {
+                    "id": 104154,
                     "name": "Vayuda Turquoise Gemstone",
                     "count": 6
                 },
                 {
+                    "id": 113001,
                     "name": "Hurricane Seed",
                     "count": 20
                 },
                 {
+                    "id": 100057,
                     "name": "Dandelion Seed",
                     "count": 60
                 },
                 {
+                    "id": 112007,
                     "name": "Ominous Mask",
                     "count": 24
                 }
             ]
         },
         "images": {
-            "card": "https://static.wikia.nocookie.net/gensin-impact/images/0/0e/Character_Jean_Card.jpg",
-            "portrait": "https://static.wikia.nocookie.net/gensin-impact/images/0/02/Character_Jean_Portrait.png",
-            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Qin.png",
-            "sideicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Qin.png",
-            "cover1": "https://webstatic.hoyoverse.com/upload/contentweb/2022/07/22/b51565c6f1298e534e90b6e63332e9c1_4240077663550682265.png",
-            "cover2": "https://webstatic.hoyoverse.com/upload/contentweb/2022/06/28/6d512d56ac7ee8181b6fecb8b53c8941_692004913353329817.png",
-            "hoyolab-avatar": "https://img-os-static.hoyolab.com/communityWeb/upload/e15d789a558b128c05763495d35d55b9.png",
             "nameicon": "UI_AvatarIcon_Qin",
-            "nameiconcard": "UI_AvatarIcon_Qin_Card",
+            "namesideicon": "UI_AvatarIcon_Side_Qin",
             "namegachasplash": "UI_Gacha_AvatarImg_Qin",
-            "namegachaslice": "UI_Gacha_AvatarIcon_Qin",
-            "namesideicon": "UI_AvatarIcon_Side_Qin"
+            "namegachaslice": "UI_Gacha_AvatarIcon_Qin"
         },
         "url": {
             "fandom": "https://genshin-impact.fandom.com/wiki/Jean"
@@ -5084,6 +5754,7 @@ const characters = {
         "version": "1.0"
     },
     "Kaedehara Kazuha": {
+        "id": 10000047,
         "name": "Kaedehara Kazuha",
         "fullname": "Kaedehara Kazuha",
         "title": "Scarlet Leaves Pursue Wild Waves",
@@ -5109,144 +5780,167 @@ const characters = {
         "costs": {
             "ascend1": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 20000
                 },
                 {
+                    "id": 104151,
                     "name": "Vayuda Turquoise Sliver",
                     "count": 1
                 },
                 {
+                    "id": 101206,
                     "name": "Sea Ganoderma",
                     "count": 3
                 },
                 {
+                    "id": 112035,
                     "name": "Treasure Hoarder Insignia",
                     "count": 3
                 }
             ],
             "ascend2": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 40000
                 },
                 {
+                    "id": 104152,
                     "name": "Vayuda Turquoise Fragment",
                     "count": 3
                 },
                 {
+                    "id": 113022,
                     "name": "Marionette Core",
                     "count": 2
                 },
                 {
+                    "id": 101206,
                     "name": "Sea Ganoderma",
                     "count": 10
                 },
                 {
+                    "id": 112035,
                     "name": "Treasure Hoarder Insignia",
                     "count": 15
                 }
             ],
             "ascend3": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 60000
                 },
                 {
+                    "id": 104152,
                     "name": "Vayuda Turquoise Fragment",
                     "count": 6
                 },
                 {
+                    "id": 113022,
                     "name": "Marionette Core",
                     "count": 4
                 },
                 {
+                    "id": 101206,
                     "name": "Sea Ganoderma",
                     "count": 20
                 },
                 {
+                    "id": 112036,
                     "name": "Silver Raven Insignia",
                     "count": 12
                 }
             ],
             "ascend4": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 80000
                 },
                 {
+                    "id": 104153,
                     "name": "Vayuda Turquoise Chunk",
                     "count": 3
                 },
                 {
+                    "id": 113022,
                     "name": "Marionette Core",
                     "count": 8
                 },
                 {
+                    "id": 101206,
                     "name": "Sea Ganoderma",
                     "count": 30
                 },
                 {
+                    "id": 112036,
                     "name": "Silver Raven Insignia",
                     "count": 18
                 }
             ],
             "ascend5": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 100000
                 },
                 {
+                    "id": 104153,
                     "name": "Vayuda Turquoise Chunk",
                     "count": 6
                 },
                 {
+                    "id": 113022,
                     "name": "Marionette Core",
                     "count": 12
                 },
                 {
+                    "id": 101206,
                     "name": "Sea Ganoderma",
                     "count": 45
                 },
                 {
+                    "id": 112037,
                     "name": "Golden Raven Insignia",
                     "count": 12
                 }
             ],
             "ascend6": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 120000
                 },
                 {
+                    "id": 104154,
                     "name": "Vayuda Turquoise Gemstone",
                     "count": 6
                 },
                 {
+                    "id": 113022,
                     "name": "Marionette Core",
                     "count": 20
                 },
                 {
+                    "id": 101206,
                     "name": "Sea Ganoderma",
                     "count": 60
                 },
                 {
+                    "id": 112037,
                     "name": "Golden Raven Insignia",
                     "count": 24
                 }
             ]
         },
         "images": {
-            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Kazuha.png",
-            "sideicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Kazuha.png",
-            "cover1": "https://webstatic.hoyoverse.com/upload/contentweb/2022/07/22/44e2d916d9c13bca863d56423004fd98_6715584262683208581.png",
-            "cover2": "https://webstatic.hoyoverse.com/upload/uploadstatic/contentweb/20210622/2021062217460699632.png",
-            "hoyolab-avatar": "https://img-os-static.hoyolab.com/communityWeb/upload/d2df66ab1ab047fd2392ab816c77ea19.png",
             "nameicon": "UI_AvatarIcon_Kazuha",
-            "nameiconcard": "UI_AvatarIcon_Kazuha_Card",
+            "namesideicon": "UI_AvatarIcon_Side_Kazuha",
             "namegachasplash": "UI_Gacha_AvatarImg_Kazuha",
-            "namegachaslice": "UI_Gacha_AvatarIcon_Kazuha",
-            "namesideicon": "UI_AvatarIcon_Side_Kazuha"
+            "namegachaslice": "UI_Gacha_AvatarIcon_Kazuha"
         },
         "url": {
             "fandom": "https://genshin-impact.fandom.com/wiki/Kaedehara_Kazuha"
@@ -5254,6 +5948,7 @@ const characters = {
         "version": "1.6"
     },
     "Kaeya": {
+        "id": 10000015,
         "name": "Kaeya",
         "fullname": "Kaeya",
         "title": "Frostwind Swordsman",
@@ -5279,146 +5974,167 @@ const characters = {
         "costs": {
             "ascend1": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 20000
                 },
                 {
+                    "id": 104161,
                     "name": "Shivada Jade Sliver",
                     "count": 1
                 },
                 {
+                    "id": 100056,
                     "name": "Calla Lily",
                     "count": 3
                 },
                 {
+                    "id": 112035,
                     "name": "Treasure Hoarder Insignia",
                     "count": 3
                 }
             ],
             "ascend2": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 40000
                 },
                 {
+                    "id": 104162,
                     "name": "Shivada Jade Fragment",
                     "count": 3
                 },
                 {
+                    "id": 113010,
                     "name": "Hoarfrost Core",
                     "count": 2
                 },
                 {
+                    "id": 100056,
                     "name": "Calla Lily",
                     "count": 10
                 },
                 {
+                    "id": 112035,
                     "name": "Treasure Hoarder Insignia",
                     "count": 15
                 }
             ],
             "ascend3": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 60000
                 },
                 {
+                    "id": 104162,
                     "name": "Shivada Jade Fragment",
                     "count": 6
                 },
                 {
+                    "id": 113010,
                     "name": "Hoarfrost Core",
                     "count": 4
                 },
                 {
+                    "id": 100056,
                     "name": "Calla Lily",
                     "count": 20
                 },
                 {
+                    "id": 112036,
                     "name": "Silver Raven Insignia",
                     "count": 12
                 }
             ],
             "ascend4": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 80000
                 },
                 {
+                    "id": 104163,
                     "name": "Shivada Jade Chunk",
                     "count": 3
                 },
                 {
+                    "id": 113010,
                     "name": "Hoarfrost Core",
                     "count": 8
                 },
                 {
+                    "id": 100056,
                     "name": "Calla Lily",
                     "count": 30
                 },
                 {
+                    "id": 112036,
                     "name": "Silver Raven Insignia",
                     "count": 18
                 }
             ],
             "ascend5": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 100000
                 },
                 {
+                    "id": 104163,
                     "name": "Shivada Jade Chunk",
                     "count": 6
                 },
                 {
+                    "id": 113010,
                     "name": "Hoarfrost Core",
                     "count": 12
                 },
                 {
+                    "id": 100056,
                     "name": "Calla Lily",
                     "count": 45
                 },
                 {
+                    "id": 112037,
                     "name": "Golden Raven Insignia",
                     "count": 12
                 }
             ],
             "ascend6": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 120000
                 },
                 {
+                    "id": 104164,
                     "name": "Shivada Jade Gemstone",
                     "count": 6
                 },
                 {
+                    "id": 113010,
                     "name": "Hoarfrost Core",
                     "count": 20
                 },
                 {
+                    "id": 100056,
                     "name": "Calla Lily",
                     "count": 60
                 },
                 {
+                    "id": 112037,
                     "name": "Golden Raven Insignia",
                     "count": 24
                 }
             ]
         },
         "images": {
-            "card": "https://static.wikia.nocookie.net/gensin-impact/images/6/64/Character_Kaeya_Card.jpg",
-            "portrait": "https://static.wikia.nocookie.net/gensin-impact/images/1/1c/Character_Kaeya_Portrait.png",
-            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Kaeya.png",
-            "sideicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Kaeya.png",
-            "cover1": "https://webstatic.hoyoverse.com/upload/contentweb/2022/07/22/cbce61ef1ee5586c4e77b2070348685f_2003673786618101140.png",
-            "cover2": "https://webstatic.hoyoverse.com/upload/uploadstatic/contentweb/20191009/2019100910351589464.png",
-            "hoyolab-avatar": "https://img-os-static.hoyolab.com/communityWeb/upload/428a3008f1d6fda010ccfcf7d83b08fe.png",
             "nameicon": "UI_AvatarIcon_Kaeya",
-            "nameiconcard": "UI_AvatarIcon_Kaeya_Card",
+            "namesideicon": "UI_AvatarIcon_Side_Kaeya",
             "namegachasplash": "UI_Gacha_AvatarImg_Kaeya",
-            "namegachaslice": "UI_Gacha_AvatarIcon_Kaeya",
-            "namesideicon": "UI_AvatarIcon_Side_Kaeya"
+            "namegachaslice": "UI_Gacha_AvatarIcon_Kaeya"
         },
         "url": {
             "fandom": "https://genshin-impact.fandom.com/wiki/Kaeya"
@@ -5426,6 +6142,7 @@ const characters = {
         "version": "1.0"
     },
     "Kamisato Ayaka": {
+        "id": 10000002,
         "name": "Kamisato Ayaka",
         "fullname": "Kamisato Ayaka",
         "title": "Frostflake Heron",
@@ -5451,144 +6168,167 @@ const characters = {
         "costs": {
             "ascend1": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 20000
                 },
                 {
+                    "id": 104161,
                     "name": "Shivada Jade Sliver",
                     "count": 1
                 },
                 {
+                    "id": 101202,
                     "name": "Sakura Bloom",
                     "count": 3
                 },
                 {
+                    "id": 112044,
                     "name": "Old Handguard",
                     "count": 3
                 }
             ],
             "ascend2": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 40000
                 },
                 {
+                    "id": 104162,
                     "name": "Shivada Jade Fragment",
                     "count": 3
                 },
                 {
+                    "id": 113023,
                     "name": "Perpetual Heart",
                     "count": 2
                 },
                 {
+                    "id": 101202,
                     "name": "Sakura Bloom",
                     "count": 10
                 },
                 {
+                    "id": 112044,
                     "name": "Old Handguard",
                     "count": 15
                 }
             ],
             "ascend3": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 60000
                 },
                 {
+                    "id": 104162,
                     "name": "Shivada Jade Fragment",
                     "count": 6
                 },
                 {
+                    "id": 113023,
                     "name": "Perpetual Heart",
                     "count": 4
                 },
                 {
+                    "id": 101202,
                     "name": "Sakura Bloom",
                     "count": 20
                 },
                 {
+                    "id": 112045,
                     "name": "Kageuchi Handguard",
                     "count": 12
                 }
             ],
             "ascend4": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 80000
                 },
                 {
+                    "id": 104163,
                     "name": "Shivada Jade Chunk",
                     "count": 3
                 },
                 {
+                    "id": 113023,
                     "name": "Perpetual Heart",
                     "count": 8
                 },
                 {
+                    "id": 101202,
                     "name": "Sakura Bloom",
                     "count": 30
                 },
                 {
+                    "id": 112045,
                     "name": "Kageuchi Handguard",
                     "count": 18
                 }
             ],
             "ascend5": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 100000
                 },
                 {
+                    "id": 104163,
                     "name": "Shivada Jade Chunk",
                     "count": 6
                 },
                 {
+                    "id": 113023,
                     "name": "Perpetual Heart",
                     "count": 12
                 },
                 {
+                    "id": 101202,
                     "name": "Sakura Bloom",
                     "count": 45
                 },
                 {
+                    "id": 112046,
                     "name": "Famed Handguard",
                     "count": 12
                 }
             ],
             "ascend6": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 120000
                 },
                 {
+                    "id": 104164,
                     "name": "Shivada Jade Gemstone",
                     "count": 6
                 },
                 {
+                    "id": 113023,
                     "name": "Perpetual Heart",
                     "count": 20
                 },
                 {
+                    "id": 101202,
                     "name": "Sakura Bloom",
                     "count": 60
                 },
                 {
+                    "id": 112046,
                     "name": "Famed Handguard",
                     "count": 24
                 }
             ]
         },
         "images": {
-            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Ayaka.png",
-            "sideicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Ayaka.png",
-            "cover1": "https://webstatic.hoyoverse.com/upload/uploadstatic/contentweb/20210715/2021071516533380974.png",
-            "cover2": "https://webstatic.hoyoverse.com/upload/contentweb/2022/06/29/3e70ceb4ff8af4cb953528cbe0ad978c_4989955667583935904.png",
-            "hoyolab-avatar": "https://img-os-static.hoyolab.com/communityWeb/upload/dbb893c26e20822aabd876a52361fffa.png",
             "nameicon": "UI_AvatarIcon_Ayaka",
-            "nameiconcard": "UI_AvatarIcon_Ayaka_Card",
+            "namesideicon": "UI_AvatarIcon_Side_Ayaka",
             "namegachasplash": "UI_Gacha_AvatarImg_Ayaka",
-            "namegachaslice": "UI_Gacha_AvatarIcon_Ayaka",
-            "namesideicon": "UI_AvatarIcon_Side_Ayaka"
+            "namegachaslice": "UI_Gacha_AvatarIcon_Ayaka"
         },
         "url": {
             "fandom": "https://genshin-impact.fandom.com/wiki/Kamisato_Ayaka"
@@ -5596,6 +6336,7 @@ const characters = {
         "version": "2.0"
     },
     "Kamisato Ayato": {
+        "id": 10000066,
         "name": "Kamisato Ayato",
         "fullname": "Kamisato Ayato",
         "title": "Pillar of Fortitude",
@@ -5621,128 +6362,157 @@ const characters = {
         "costs": {
             "ascend1": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 20000
                 },
                 {
+                    "id": 104121,
                     "name": "Varunada Lazurite Sliver",
                     "count": 1
                 },
                 {
+                    "id": 101202,
                     "name": "Sakura Bloom",
                     "count": 3
                 },
                 {
+                    "id": 112044,
                     "name": "Old Handguard",
                     "count": 3
                 }
             ],
             "ascend2": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 40000
                 },
                 {
+                    "id": 104122,
                     "name": "Varunada Lazurite Fragment",
                     "count": 3
                 },
                 {
+                    "id": 113028,
                     "name": "Dew of Repudiation",
                     "count": 2
                 },
                 {
+                    "id": 101202,
                     "name": "Sakura Bloom",
                     "count": 10
                 },
                 {
+                    "id": 112044,
                     "name": "Old Handguard",
                     "count": 15
                 }
             ],
             "ascend3": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 60000
                 },
                 {
+                    "id": 104122,
                     "name": "Varunada Lazurite Fragment",
                     "count": 6
                 },
                 {
+                    "id": 113028,
                     "name": "Dew of Repudiation",
                     "count": 4
                 },
                 {
+                    "id": 101202,
                     "name": "Sakura Bloom",
                     "count": 20
                 },
                 {
+                    "id": 112045,
                     "name": "Kageuchi Handguard",
                     "count": 12
                 }
             ],
             "ascend4": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 80000
                 },
                 {
+                    "id": 104123,
                     "name": "Varunada Lazurite Chunk",
                     "count": 3
                 },
                 {
+                    "id": 113028,
                     "name": "Dew of Repudiation",
                     "count": 8
                 },
                 {
+                    "id": 101202,
                     "name": "Sakura Bloom",
                     "count": 30
                 },
                 {
+                    "id": 112045,
                     "name": "Kageuchi Handguard",
                     "count": 18
                 }
             ],
             "ascend5": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 100000
                 },
                 {
+                    "id": 104123,
                     "name": "Varunada Lazurite Chunk",
                     "count": 6
                 },
                 {
+                    "id": 113028,
                     "name": "Dew of Repudiation",
                     "count": 12
                 },
                 {
+                    "id": 101202,
                     "name": "Sakura Bloom",
                     "count": 45
                 },
                 {
+                    "id": 112046,
                     "name": "Famed Handguard",
                     "count": 12
                 }
             ],
             "ascend6": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 120000
                 },
                 {
+                    "id": 104124,
                     "name": "Varunada Lazurite Gemstone",
                     "count": 6
                 },
                 {
+                    "id": 113028,
                     "name": "Dew of Repudiation",
                     "count": 20
                 },
                 {
+                    "id": 101202,
                     "name": "Sakura Bloom",
                     "count": 60
                 },
                 {
+                    "id": 112046,
                     "name": "Famed Handguard",
                     "count": 24
                 }
@@ -5750,15 +6520,9 @@ const characters = {
         },
         "images": {
             "nameicon": "UI_AvatarIcon_Ayato",
-            "nameiconcard": "UI_AvatarIcon_Ayato_Card",
-            "namegachasplash": "UI_Gacha_AvatarImg_Ayato",
-            "namegachaslice": "UI_Gacha_AvatarIcon_Ayato",
-            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Ayato.png",
             "namesideicon": "UI_AvatarIcon_Side_Ayato",
-            "sideicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Ayato.png",
-            "cover1": "https://webstatic.hoyoverse.com/upload/contentweb/2022/07/22/037d6fa79d3066c5bc8711187ad2f673_8716208043389620011.png",
-            "cover2": "https://webstatic.hoyoverse.com/upload/contentweb/2022/06/29/ac3c01655e5dd24fbaad117c72d48417_3671756749679510795.png",
-            "hoyolab-avatar": "https://img-os-static.hoyolab.com/communityWeb/upload/d94c5d749edd1e8c5e16696b25cb7697.png"
+            "namegachasplash": "UI_Gacha_AvatarImg_Ayato",
+            "namegachaslice": "UI_Gacha_AvatarIcon_Ayato"
         },
         "url": {
             "fandom": "https://genshin-impact.fandom.com/wiki/Kamisato_Ayato"
@@ -5766,6 +6530,7 @@ const characters = {
         "version": "2.6"
     },
     "Kaveh": {
+        "id": 10000081,
         "name": "Kaveh",
         "fullname": "Kaveh",
         "title": "Empyrean Reflection",
@@ -5791,128 +6556,157 @@ const characters = {
         "costs": {
             "ascend1": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 20000
                 },
                 {
+                    "id": 104131,
                     "name": "Nagadus Emerald Sliver",
                     "count": 1
                 },
                 {
+                    "id": 101223,
                     "name": "Mourning Flower",
                     "count": 3
                 },
                 {
+                    "id": 112059,
                     "name": "Fungal Spores",
                     "count": 3
                 }
             ],
             "ascend2": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 40000
                 },
                 {
+                    "id": 104132,
                     "name": "Nagadus Emerald Fragment",
                     "count": 3
                 },
                 {
+                    "id": 113040,
                     "name": "Quelled Creeper",
                     "count": 2
                 },
                 {
+                    "id": 101223,
                     "name": "Mourning Flower",
                     "count": 10
                 },
                 {
+                    "id": 112059,
                     "name": "Fungal Spores",
                     "count": 15
                 }
             ],
             "ascend3": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 60000
                 },
                 {
+                    "id": 104132,
                     "name": "Nagadus Emerald Fragment",
                     "count": 6
                 },
                 {
+                    "id": 113040,
                     "name": "Quelled Creeper",
                     "count": 4
                 },
                 {
+                    "id": 101223,
                     "name": "Mourning Flower",
                     "count": 20
                 },
                 {
+                    "id": 112060,
                     "name": "Luminescent Pollen",
                     "count": 12
                 }
             ],
             "ascend4": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 80000
                 },
                 {
+                    "id": 104133,
                     "name": "Nagadus Emerald Chunk",
                     "count": 3
                 },
                 {
+                    "id": 113040,
                     "name": "Quelled Creeper",
                     "count": 8
                 },
                 {
+                    "id": 101223,
                     "name": "Mourning Flower",
                     "count": 30
                 },
                 {
+                    "id": 112060,
                     "name": "Luminescent Pollen",
                     "count": 18
                 }
             ],
             "ascend5": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 100000
                 },
                 {
+                    "id": 104133,
                     "name": "Nagadus Emerald Chunk",
                     "count": 6
                 },
                 {
+                    "id": 113040,
                     "name": "Quelled Creeper",
                     "count": 12
                 },
                 {
+                    "id": 101223,
                     "name": "Mourning Flower",
                     "count": 45
                 },
                 {
+                    "id": 112061,
                     "name": "Crystalline Cyst Dust",
                     "count": 12
                 }
             ],
             "ascend6": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 120000
                 },
                 {
+                    "id": 104134,
                     "name": "Nagadus Emerald Gemstone",
                     "count": 6
                 },
                 {
+                    "id": 113040,
                     "name": "Quelled Creeper",
                     "count": 20
                 },
                 {
+                    "id": 101223,
                     "name": "Mourning Flower",
                     "count": 60
                 },
                 {
+                    "id": 112061,
                     "name": "Crystalline Cyst Dust",
                     "count": 24
                 }
@@ -5920,18 +6714,14 @@ const characters = {
         },
         "images": {
             "nameicon": "UI_AvatarIcon_Kaveh",
-            "nameiconcard": "UI_AvatarIcon_Kaveh_Card",
-            "namegachasplash": "UI_Gacha_AvatarImg_Kaveh",
-            "namegachaslice": "UI_Gacha_AvatarIcon_Kaveh",
-            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Kaveh.png",
             "namesideicon": "UI_AvatarIcon_Side_Kaveh",
-            "sideicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Kaveh.png",
-            "cover1": "https://webstatic.hoyoverse.com/upload/op-public/2023/03/27/4f486ee9943936bb8d8a8ebc9c9df9b2_800333136869382089.png",
-            "cover2": "https://webstatic.hoyoverse.com/upload/op-public/2023/03/27/a4d61e94a9ef987d9a90f569b3bc14f0_7192969562052229000.png"
+            "namegachasplash": "UI_Gacha_AvatarImg_Kaveh",
+            "namegachaslice": "UI_Gacha_AvatarIcon_Kaveh"
         },
         "version": "3.6"
     },
     "Keqing": {
+        "id": 10000042,
         "name": "Keqing",
         "fullname": "Keqing",
         "title": "Driving Thunder",
@@ -5957,146 +6747,167 @@ const characters = {
         "costs": {
             "ascend1": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 20000
                 },
                 {
+                    "id": 104141,
                     "name": "Vajrada Amethyst Sliver",
                     "count": 1
                 },
                 {
+                    "id": 100058,
                     "name": "Cor Lapis",
                     "count": 3
                 },
                 {
+                    "id": 112038,
                     "name": "Whopperflower Nectar",
                     "count": 3
                 }
             ],
             "ascend2": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 40000
                 },
                 {
+                    "id": 104142,
                     "name": "Vajrada Amethyst Fragment",
                     "count": 3
                 },
                 {
+                    "id": 113002,
                     "name": "Lightning Prism",
                     "count": 2
                 },
                 {
+                    "id": 100058,
                     "name": "Cor Lapis",
                     "count": 10
                 },
                 {
+                    "id": 112038,
                     "name": "Whopperflower Nectar",
                     "count": 15
                 }
             ],
             "ascend3": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 60000
                 },
                 {
+                    "id": 104142,
                     "name": "Vajrada Amethyst Fragment",
                     "count": 6
                 },
                 {
+                    "id": 113002,
                     "name": "Lightning Prism",
                     "count": 4
                 },
                 {
+                    "id": 100058,
                     "name": "Cor Lapis",
                     "count": 20
                 },
                 {
+                    "id": 112039,
                     "name": "Shimmering Nectar",
                     "count": 12
                 }
             ],
             "ascend4": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 80000
                 },
                 {
+                    "id": 104143,
                     "name": "Vajrada Amethyst Chunk",
                     "count": 3
                 },
                 {
+                    "id": 113002,
                     "name": "Lightning Prism",
                     "count": 8
                 },
                 {
+                    "id": 100058,
                     "name": "Cor Lapis",
                     "count": 30
                 },
                 {
+                    "id": 112039,
                     "name": "Shimmering Nectar",
                     "count": 18
                 }
             ],
             "ascend5": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 100000
                 },
                 {
+                    "id": 104143,
                     "name": "Vajrada Amethyst Chunk",
                     "count": 6
                 },
                 {
+                    "id": 113002,
                     "name": "Lightning Prism",
                     "count": 12
                 },
                 {
+                    "id": 100058,
                     "name": "Cor Lapis",
                     "count": 45
                 },
                 {
+                    "id": 112040,
                     "name": "Energy Nectar",
                     "count": 12
                 }
             ],
             "ascend6": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 120000
                 },
                 {
+                    "id": 104144,
                     "name": "Vajrada Amethyst Gemstone",
                     "count": 6
                 },
                 {
+                    "id": 113002,
                     "name": "Lightning Prism",
                     "count": 20
                 },
                 {
+                    "id": 100058,
                     "name": "Cor Lapis",
                     "count": 60
                 },
                 {
+                    "id": 112040,
                     "name": "Energy Nectar",
                     "count": 24
                 }
             ]
         },
         "images": {
-            "card": "https://static.wikia.nocookie.net/gensin-impact/images/f/f4/Character_Keqing_Card.jpg",
-            "portrait": "https://static.wikia.nocookie.net/gensin-impact/images/8/81/Character_Keqing_Portrait.png",
-            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Keqing.png",
-            "sideicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Keqing.png",
-            "cover1": "https://webstatic.hoyoverse.com/upload/contentweb/2022/07/22/d063646e97392638e07da24ce6b8c3cb_3663735388079282123.png",
-            "cover2": "https://webstatic.hoyoverse.com/upload/uploadstatic/contentweb/20200828/2020082817205925817.png",
-            "hoyolab-avatar": "https://img-os-static.hoyolab.com/communityWeb/upload/40d97fbb1ae120a4d97573aef702d0a3.png",
             "nameicon": "UI_AvatarIcon_Keqing",
-            "nameiconcard": "UI_AvatarIcon_Keqing_Card",
+            "namesideicon": "UI_AvatarIcon_Side_Keqing",
             "namegachasplash": "UI_Gacha_AvatarImg_Keqing",
-            "namegachaslice": "UI_Gacha_AvatarIcon_Keqing",
-            "namesideicon": "UI_AvatarIcon_Side_Keqing"
+            "namegachaslice": "UI_Gacha_AvatarIcon_Keqing"
         },
         "url": {
             "fandom": "https://genshin-impact.fandom.com/wiki/Keqing"
@@ -6104,6 +6915,7 @@ const characters = {
         "version": "1.0"
     },
     "Kirara": {
+        "id": 10000061,
         "name": "Kirara",
         "fullname": "Kirara",
         "title": "Cat Upon the Eaves",
@@ -6129,147 +6941,172 @@ const characters = {
         "costs": {
             "ascend1": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 20000
                 },
                 {
+                    "id": 104131,
                     "name": "Nagadus Emerald Sliver",
                     "count": 1
                 },
                 {
+                    "id": 101208,
                     "name": "Amakumo Fruit",
                     "count": 3
                 },
                 {
+                    "id": 112053,
                     "name": "Spectral Husk",
                     "count": 3
                 }
             ],
             "ascend2": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 40000
                 },
                 {
+                    "id": 104132,
                     "name": "Nagadus Emerald Fragment",
                     "count": 3
                 },
                 {
+                    "id": 113045,
                     "name": "Evergloom Ring",
                     "count": 2
                 },
                 {
+                    "id": 101208,
                     "name": "Amakumo Fruit",
                     "count": 10
                 },
                 {
+                    "id": 112053,
                     "name": "Spectral Husk",
                     "count": 15
                 }
             ],
             "ascend3": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 60000
                 },
                 {
+                    "id": 104132,
                     "name": "Nagadus Emerald Fragment",
                     "count": 6
                 },
                 {
+                    "id": 113045,
                     "name": "Evergloom Ring",
                     "count": 4
                 },
                 {
+                    "id": 101208,
                     "name": "Amakumo Fruit",
                     "count": 20
                 },
                 {
+                    "id": 112054,
                     "name": "Spectral Heart",
                     "count": 12
                 }
             ],
             "ascend4": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 80000
                 },
                 {
+                    "id": 104133,
                     "name": "Nagadus Emerald Chunk",
                     "count": 3
                 },
                 {
+                    "id": 113045,
                     "name": "Evergloom Ring",
                     "count": 8
                 },
                 {
+                    "id": 101208,
                     "name": "Amakumo Fruit",
                     "count": 30
                 },
                 {
+                    "id": 112054,
                     "name": "Spectral Heart",
                     "count": 18
                 }
             ],
             "ascend5": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 100000
                 },
                 {
+                    "id": 104133,
                     "name": "Nagadus Emerald Chunk",
                     "count": 6
                 },
                 {
+                    "id": 113045,
                     "name": "Evergloom Ring",
                     "count": 12
                 },
                 {
+                    "id": 101208,
                     "name": "Amakumo Fruit",
                     "count": 45
                 },
                 {
+                    "id": 112055,
                     "name": "Spectral Nucleus",
                     "count": 12
                 }
             ],
             "ascend6": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 120000
                 },
                 {
+                    "id": 104134,
                     "name": "Nagadus Emerald Gemstone",
                     "count": 6
                 },
                 {
+                    "id": 113045,
                     "name": "Evergloom Ring",
                     "count": 20
                 },
                 {
+                    "id": 101208,
                     "name": "Amakumo Fruit",
                     "count": 60
                 },
                 {
+                    "id": 112055,
                     "name": "Spectral Nucleus",
                     "count": 24
                 }
             ]
         },
         "images": {
-            "cover1": "https://webstatic.hoyoverse.com/upload/op-public/2023/05/17/58ed3bce339f53a535cec2e64898fb77_6359020412357438909.png",
-            "cover2": "https://webstatic.hoyoverse.com/upload/op-public/2023/05/17/8eaec8a513f04167ad4b9d58ab4974ea_295699587114986903.png",
             "nameicon": "UI_AvatarIcon_Momoka",
-            "nameiconcard": "UI_AvatarIcon_Momoka_Card",
-            "namegachasplash": "UI_Gacha_AvatarImg_Momoka",
-            "namegachaslice": "UI_Gacha_AvatarIcon_Momoka",
-            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Momoka.png",
             "namesideicon": "UI_AvatarIcon_Side_Momoka",
-            "sideicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Momoka.png"
+            "namegachasplash": "UI_Gacha_AvatarImg_Momoka",
+            "namegachaslice": "UI_Gacha_AvatarIcon_Momoka"
         },
         "version": "3.7"
     },
     "Klee": {
+        "id": 10000029,
         "name": "Klee",
         "fullname": "Klee",
         "title": "Fleeing Sunlight",
@@ -6295,146 +7132,167 @@ const characters = {
         "costs": {
             "ascend1": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 20000
                 },
                 {
+                    "id": 104111,
                     "name": "Agnidus Agate Sliver",
                     "count": 1
                 },
                 {
+                    "id": 100025,
                     "name": "Philanemo Mushroom",
                     "count": 3
                 },
                 {
+                    "id": 112008,
                     "name": "Divining Scroll",
                     "count": 3
                 }
             ],
             "ascend2": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 40000
                 },
                 {
+                    "id": 104112,
                     "name": "Agnidus Agate Fragment",
                     "count": 3
                 },
                 {
+                    "id": 113011,
                     "name": "Everflame Seed",
                     "count": 2
                 },
                 {
+                    "id": 100025,
                     "name": "Philanemo Mushroom",
                     "count": 10
                 },
                 {
+                    "id": 112008,
                     "name": "Divining Scroll",
                     "count": 15
                 }
             ],
             "ascend3": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 60000
                 },
                 {
+                    "id": 104112,
                     "name": "Agnidus Agate Fragment",
                     "count": 6
                 },
                 {
+                    "id": 113011,
                     "name": "Everflame Seed",
                     "count": 4
                 },
                 {
+                    "id": 100025,
                     "name": "Philanemo Mushroom",
                     "count": 20
                 },
                 {
+                    "id": 112009,
                     "name": "Sealed Scroll",
                     "count": 12
                 }
             ],
             "ascend4": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 80000
                 },
                 {
+                    "id": 104113,
                     "name": "Agnidus Agate Chunk",
                     "count": 3
                 },
                 {
+                    "id": 113011,
                     "name": "Everflame Seed",
                     "count": 8
                 },
                 {
+                    "id": 100025,
                     "name": "Philanemo Mushroom",
                     "count": 30
                 },
                 {
+                    "id": 112009,
                     "name": "Sealed Scroll",
                     "count": 18
                 }
             ],
             "ascend5": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 100000
                 },
                 {
+                    "id": 104113,
                     "name": "Agnidus Agate Chunk",
                     "count": 6
                 },
                 {
+                    "id": 113011,
                     "name": "Everflame Seed",
                     "count": 12
                 },
                 {
+                    "id": 100025,
                     "name": "Philanemo Mushroom",
                     "count": 45
                 },
                 {
+                    "id": 112010,
                     "name": "Forbidden Curse Scroll",
                     "count": 12
                 }
             ],
             "ascend6": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 120000
                 },
                 {
+                    "id": 104114,
                     "name": "Agnidus Agate Gemstone",
                     "count": 6
                 },
                 {
+                    "id": 113011,
                     "name": "Everflame Seed",
                     "count": 20
                 },
                 {
+                    "id": 100025,
                     "name": "Philanemo Mushroom",
                     "count": 60
                 },
                 {
+                    "id": 112010,
                     "name": "Forbidden Curse Scroll",
                     "count": 24
                 }
             ]
         },
         "images": {
-            "card": "https://static.wikia.nocookie.net/gensin-impact/images/7/78/Character_Klee_Card.jpg",
-            "portrait": "https://static.wikia.nocookie.net/gensin-impact/images/3/3f/Character_Klee_Portrait.png",
-            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Klee.png",
-            "sideicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Klee.png",
-            "cover1": "https://webstatic.hoyoverse.com/upload/contentweb/2022/07/22/16cff1c00f651f98427fc3fbab7fc855_1896139197098586359.png",
-            "cover2": "https://webstatic.hoyoverse.com/upload/uploadstatic/contentweb/20200103/2020010311014850622.png",
-            "hoyolab-avatar": "https://img-os-static.hoyolab.com/communityWeb/upload/cb31fe8dae809ebdbc72039cba527501.png",
             "nameicon": "UI_AvatarIcon_Klee",
-            "nameiconcard": "UI_AvatarIcon_Klee_Card",
+            "namesideicon": "UI_AvatarIcon_Side_Klee",
             "namegachasplash": "UI_Gacha_AvatarImg_Klee",
-            "namegachaslice": "UI_Gacha_AvatarIcon_Klee",
-            "namesideicon": "UI_AvatarIcon_Side_Klee"
+            "namegachaslice": "UI_Gacha_AvatarIcon_Klee"
         },
         "url": {
             "fandom": "https://genshin-impact.fandom.com/wiki/Klee"
@@ -6442,6 +7300,7 @@ const characters = {
         "version": "1.0"
     },
     "Kujou Sara": {
+        "id": 10000056,
         "name": "Kujou Sara",
         "fullname": "Kujou Sara",
         "title": "Crowfeather Kaburaya",
@@ -6467,144 +7326,167 @@ const characters = {
         "costs": {
             "ascend1": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 20000
                 },
                 {
+                    "id": 104141,
                     "name": "Vajrada Amethyst Sliver",
                     "count": 1
                 },
                 {
+                    "id": 101204,
                     "name": "Dendrobium",
                     "count": 3
                 },
                 {
+                    "id": 112005,
                     "name": "Damaged Mask",
                     "count": 3
                 }
             ],
             "ascend2": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 40000
                 },
                 {
+                    "id": 104142,
                     "name": "Vajrada Amethyst Fragment",
                     "count": 3
                 },
                 {
+                    "id": 113029,
                     "name": "Storm Beads",
                     "count": 2
                 },
                 {
+                    "id": 101204,
                     "name": "Dendrobium",
                     "count": 10
                 },
                 {
+                    "id": 112005,
                     "name": "Damaged Mask",
                     "count": 15
                 }
             ],
             "ascend3": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 60000
                 },
                 {
+                    "id": 104142,
                     "name": "Vajrada Amethyst Fragment",
                     "count": 6
                 },
                 {
+                    "id": 113029,
                     "name": "Storm Beads",
                     "count": 4
                 },
                 {
+                    "id": 101204,
                     "name": "Dendrobium",
                     "count": 20
                 },
                 {
+                    "id": 112006,
                     "name": "Stained Mask",
                     "count": 12
                 }
             ],
             "ascend4": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 80000
                 },
                 {
+                    "id": 104143,
                     "name": "Vajrada Amethyst Chunk",
                     "count": 3
                 },
                 {
+                    "id": 113029,
                     "name": "Storm Beads",
                     "count": 8
                 },
                 {
+                    "id": 101204,
                     "name": "Dendrobium",
                     "count": 30
                 },
                 {
+                    "id": 112006,
                     "name": "Stained Mask",
                     "count": 18
                 }
             ],
             "ascend5": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 100000
                 },
                 {
+                    "id": 104143,
                     "name": "Vajrada Amethyst Chunk",
                     "count": 6
                 },
                 {
+                    "id": 113029,
                     "name": "Storm Beads",
                     "count": 12
                 },
                 {
+                    "id": 101204,
                     "name": "Dendrobium",
                     "count": 45
                 },
                 {
+                    "id": 112007,
                     "name": "Ominous Mask",
                     "count": 12
                 }
             ],
             "ascend6": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 120000
                 },
                 {
+                    "id": 104144,
                     "name": "Vajrada Amethyst Gemstone",
                     "count": 6
                 },
                 {
+                    "id": 113029,
                     "name": "Storm Beads",
                     "count": 20
                 },
                 {
+                    "id": 101204,
                     "name": "Dendrobium",
                     "count": 60
                 },
                 {
+                    "id": 112007,
                     "name": "Ominous Mask",
                     "count": 24
                 }
             ]
         },
         "images": {
-            "cover1": "https://webstatic.hoyoverse.com/upload/contentweb/2022/07/22/f05d8a7e32075403340d0d2ea8e590ff_6962820971885112376.png",
-            "cover2": "https://webstatic.hoyoverse.com/upload/uploadstatic/contentweb/20210818/2021081815224926366.png",
-            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Sara.png",
-            "sideicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Sara.png",
-            "hoyolab-avatar": "https://img-os-static.hoyolab.com/communityWeb/upload/5ea7bdaf660c0da94ff445221daf483c.png",
             "nameicon": "UI_AvatarIcon_Sara",
-            "nameiconcard": "UI_AvatarIcon_Sara_Card",
+            "namesideicon": "UI_AvatarIcon_Side_Sara",
             "namegachasplash": "UI_Gacha_AvatarImg_Sara",
-            "namegachaslice": "UI_Gacha_AvatarIcon_Sara",
-            "namesideicon": "UI_AvatarIcon_Side_Sara"
+            "namegachaslice": "UI_Gacha_AvatarIcon_Sara"
         },
         "url": {
             "fandom": "https://genshin-impact.fandom.com/wiki/Kujou_Sara"
@@ -6612,6 +7494,7 @@ const characters = {
         "version": "2.1"
     },
     "Kuki Shinobu": {
+        "id": 10000065,
         "name": "Kuki Shinobu",
         "fullname": "Kuki Shinobu",
         "title": "Mender of Tribulations",
@@ -6637,128 +7520,157 @@ const characters = {
         "costs": {
             "ascend1": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 20000
                 },
                 {
+                    "id": 104141,
                     "name": "Vajrada Amethyst Sliver",
                     "count": 1
                 },
                 {
+                    "id": 101205,
                     "name": "Naku Weed",
                     "count": 3
                 },
                 {
+                    "id": 112053,
                     "name": "Spectral Husk",
                     "count": 3
                 }
             ],
             "ascend2": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 40000
                 },
                 {
+                    "id": 104142,
                     "name": "Vajrada Amethyst Fragment",
                     "count": 3
                 },
                 {
+                    "id": 113035,
                     "name": "Runic Fang",
                     "count": 2
                 },
                 {
+                    "id": 101205,
                     "name": "Naku Weed",
                     "count": 10
                 },
                 {
+                    "id": 112053,
                     "name": "Spectral Husk",
                     "count": 15
                 }
             ],
             "ascend3": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 60000
                 },
                 {
+                    "id": 104142,
                     "name": "Vajrada Amethyst Fragment",
                     "count": 6
                 },
                 {
+                    "id": 113035,
                     "name": "Runic Fang",
                     "count": 4
                 },
                 {
+                    "id": 101205,
                     "name": "Naku Weed",
                     "count": 20
                 },
                 {
+                    "id": 112054,
                     "name": "Spectral Heart",
                     "count": 12
                 }
             ],
             "ascend4": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 80000
                 },
                 {
+                    "id": 104143,
                     "name": "Vajrada Amethyst Chunk",
                     "count": 3
                 },
                 {
+                    "id": 113035,
                     "name": "Runic Fang",
                     "count": 8
                 },
                 {
+                    "id": 101205,
                     "name": "Naku Weed",
                     "count": 30
                 },
                 {
+                    "id": 112054,
                     "name": "Spectral Heart",
                     "count": 18
                 }
             ],
             "ascend5": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 100000
                 },
                 {
+                    "id": 104143,
                     "name": "Vajrada Amethyst Chunk",
                     "count": 6
                 },
                 {
+                    "id": 113035,
                     "name": "Runic Fang",
                     "count": 12
                 },
                 {
+                    "id": 101205,
                     "name": "Naku Weed",
                     "count": 45
                 },
                 {
+                    "id": 112055,
                     "name": "Spectral Nucleus",
                     "count": 12
                 }
             ],
             "ascend6": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 120000
                 },
                 {
+                    "id": 104144,
                     "name": "Vajrada Amethyst Gemstone",
                     "count": 6
                 },
                 {
+                    "id": 113035,
                     "name": "Runic Fang",
                     "count": 20
                 },
                 {
+                    "id": 101205,
                     "name": "Naku Weed",
                     "count": 60
                 },
                 {
+                    "id": 112055,
                     "name": "Spectral Nucleus",
                     "count": 24
                 }
@@ -6766,19 +7678,14 @@ const characters = {
         },
         "images": {
             "nameicon": "UI_AvatarIcon_Shinobu",
-            "nameiconcard": "UI_AvatarIcon_Shinobu_Card",
-            "namegachasplash": "UI_Gacha_AvatarImg_Shinobu",
-            "namegachaslice": "UI_Gacha_AvatarIcon_Shinobu",
-            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Shinobu.png",
             "namesideicon": "UI_AvatarIcon_Side_Shinobu",
-            "sideicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Shinobu.png",
-            "cover1": "https://webstatic.hoyoverse.com/upload/contentweb/2022/07/22/ef220a612a40dc5d4d7c9136345f4967_781122695746863474.png",
-            "cover2": "https://webstatic.hoyoverse.com/upload/contentweb/2022/06/29/e497caa0da05be3ef9ad4257397aac2b_2081488015651963536.png",
-            "hoyolab-avatar": "https://img-os-static.hoyolab.com/communityWeb/upload/be3096da72e3f1d86d6856f298a95147.png"
+            "namegachasplash": "UI_Gacha_AvatarImg_Shinobu",
+            "namegachaslice": "UI_Gacha_AvatarIcon_Shinobu"
         },
         "version": "2.7"
     },
     "Layla": {
+        "id": 10000074,
         "name": "Layla",
         "fullname": "Layla",
         "title": "Fantastical Evening Star",
@@ -6804,128 +7711,157 @@ const characters = {
         "costs": {
             "ascend1": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 20000
                 },
                 {
+                    "id": 104161,
                     "name": "Shivada Jade Sliver",
                     "count": 1
                 },
                 {
+                    "id": 101215,
                     "name": "Nilotpala Lotus",
                     "count": 3
                 },
                 {
+                    "id": 112008,
                     "name": "Divining Scroll",
                     "count": 3
                 }
             ],
             "ascend2": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 40000
                 },
                 {
+                    "id": 104162,
                     "name": "Shivada Jade Fragment",
                     "count": 3
                 },
                 {
+                    "id": 113038,
                     "name": "Perpetual Caliber",
                     "count": 2
                 },
                 {
+                    "id": 101215,
                     "name": "Nilotpala Lotus",
                     "count": 10
                 },
                 {
+                    "id": 112008,
                     "name": "Divining Scroll",
                     "count": 15
                 }
             ],
             "ascend3": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 60000
                 },
                 {
+                    "id": 104162,
                     "name": "Shivada Jade Fragment",
                     "count": 6
                 },
                 {
+                    "id": 113038,
                     "name": "Perpetual Caliber",
                     "count": 4
                 },
                 {
+                    "id": 101215,
                     "name": "Nilotpala Lotus",
                     "count": 20
                 },
                 {
+                    "id": 112009,
                     "name": "Sealed Scroll",
                     "count": 12
                 }
             ],
             "ascend4": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 80000
                 },
                 {
+                    "id": 104163,
                     "name": "Shivada Jade Chunk",
                     "count": 3
                 },
                 {
+                    "id": 113038,
                     "name": "Perpetual Caliber",
                     "count": 8
                 },
                 {
+                    "id": 101215,
                     "name": "Nilotpala Lotus",
                     "count": 30
                 },
                 {
+                    "id": 112009,
                     "name": "Sealed Scroll",
                     "count": 18
                 }
             ],
             "ascend5": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 100000
                 },
                 {
+                    "id": 104163,
                     "name": "Shivada Jade Chunk",
                     "count": 6
                 },
                 {
+                    "id": 113038,
                     "name": "Perpetual Caliber",
                     "count": 12
                 },
                 {
+                    "id": 101215,
                     "name": "Nilotpala Lotus",
                     "count": 45
                 },
                 {
+                    "id": 112010,
                     "name": "Forbidden Curse Scroll",
                     "count": 12
                 }
             ],
             "ascend6": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 120000
                 },
                 {
+                    "id": 104164,
                     "name": "Shivada Jade Gemstone",
                     "count": 6
                 },
                 {
+                    "id": 113038,
                     "name": "Perpetual Caliber",
                     "count": 20
                 },
                 {
+                    "id": 101215,
                     "name": "Nilotpala Lotus",
                     "count": 60
                 },
                 {
+                    "id": 112010,
                     "name": "Forbidden Curse Scroll",
                     "count": 24
                 }
@@ -6933,18 +7869,14 @@ const characters = {
         },
         "images": {
             "nameicon": "UI_AvatarIcon_Layla",
-            "nameiconcard": "UI_AvatarIcon_Layla_Card",
-            "namegachasplash": "UI_Gacha_AvatarImg_Layla",
-            "namegachaslice": "UI_Gacha_AvatarIcon_Layla",
-            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Layla.png",
             "namesideicon": "UI_AvatarIcon_Side_Layla",
-            "sideicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Layla.png",
-            "cover1": "https://webstatic.hoyoverse.com/upload/contentweb/2022/11/07/4322a175c30a3480092513ad73a8509a_7999456628883691964.png",
-            "cover2": "https://webstatic.hoyoverse.com/upload/contentweb/2022/11/07/9395372dd45888445540606a7a60ea1d_9133958794497567933.png"
+            "namegachasplash": "UI_Gacha_AvatarImg_Layla",
+            "namegachaslice": "UI_Gacha_AvatarIcon_Layla"
         },
         "version": "3.2"
     },
     "Lisa": {
+        "id": 10000006,
         "name": "Lisa",
         "fullname": "Lisa",
         "title": "Witch of Purple Rose",
@@ -6970,146 +7902,167 @@ const characters = {
         "costs": {
             "ascend1": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 20000
                 },
                 {
+                    "id": 104141,
                     "name": "Vajrada Amethyst Sliver",
                     "count": 1
                 },
                 {
+                    "id": 100022,
                     "name": "Valberry",
                     "count": 3
                 },
                 {
+                    "id": 112002,
                     "name": "Slime Condensate",
                     "count": 3
                 }
             ],
             "ascend2": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 40000
                 },
                 {
+                    "id": 104142,
                     "name": "Vajrada Amethyst Fragment",
                     "count": 3
                 },
                 {
+                    "id": 113002,
                     "name": "Lightning Prism",
                     "count": 2
                 },
                 {
+                    "id": 100022,
                     "name": "Valberry",
                     "count": 10
                 },
                 {
+                    "id": 112002,
                     "name": "Slime Condensate",
                     "count": 15
                 }
             ],
             "ascend3": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 60000
                 },
                 {
+                    "id": 104142,
                     "name": "Vajrada Amethyst Fragment",
                     "count": 6
                 },
                 {
+                    "id": 113002,
                     "name": "Lightning Prism",
                     "count": 4
                 },
                 {
+                    "id": 100022,
                     "name": "Valberry",
                     "count": 20
                 },
                 {
+                    "id": 112003,
                     "name": "Slime Secretions",
                     "count": 12
                 }
             ],
             "ascend4": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 80000
                 },
                 {
+                    "id": 104143,
                     "name": "Vajrada Amethyst Chunk",
                     "count": 3
                 },
                 {
+                    "id": 113002,
                     "name": "Lightning Prism",
                     "count": 8
                 },
                 {
+                    "id": 100022,
                     "name": "Valberry",
                     "count": 30
                 },
                 {
+                    "id": 112003,
                     "name": "Slime Secretions",
                     "count": 18
                 }
             ],
             "ascend5": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 100000
                 },
                 {
+                    "id": 104143,
                     "name": "Vajrada Amethyst Chunk",
                     "count": 6
                 },
                 {
+                    "id": 113002,
                     "name": "Lightning Prism",
                     "count": 12
                 },
                 {
+                    "id": 100022,
                     "name": "Valberry",
                     "count": 45
                 },
                 {
+                    "id": 112004,
                     "name": "Slime Concentrate",
                     "count": 12
                 }
             ],
             "ascend6": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 120000
                 },
                 {
+                    "id": 104144,
                     "name": "Vajrada Amethyst Gemstone",
                     "count": 6
                 },
                 {
+                    "id": 113002,
                     "name": "Lightning Prism",
                     "count": 20
                 },
                 {
+                    "id": 100022,
                     "name": "Valberry",
                     "count": 60
                 },
                 {
+                    "id": 112004,
                     "name": "Slime Concentrate",
                     "count": 24
                 }
             ]
         },
         "images": {
-            "card": "https://static.wikia.nocookie.net/gensin-impact/images/d/dc/Character_Lisa_Card.jpg",
-            "portrait": "https://static.wikia.nocookie.net/gensin-impact/images/f/fa/Character_Lisa_Portrait.png",
-            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Lisa.png",
-            "sideicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Lisa.png",
-            "cover1": "https://webstatic.hoyoverse.com/upload/contentweb/2022/07/22/43922f5162840c215638affedad0459a_3369229991804918602.png",
-            "cover2": "https://webstatic.hoyoverse.com/upload/uploadstatic/contentweb/20191009/2019100915140016827.png",
-            "hoyolab-avatar": "https://img-os-static.hoyolab.com/communityWeb/upload/06b5a07d8f98649e5e09c58aa7904752.png",
             "nameicon": "UI_AvatarIcon_Lisa",
-            "nameiconcard": "UI_AvatarIcon_Lisa_Card",
+            "namesideicon": "UI_AvatarIcon_Side_Lisa",
             "namegachasplash": "UI_Gacha_AvatarImg_Lisa",
-            "namegachaslice": "UI_Gacha_AvatarIcon_Lisa",
-            "namesideicon": "UI_AvatarIcon_Side_Lisa"
+            "namegachaslice": "UI_Gacha_AvatarIcon_Lisa"
         },
         "url": {
             "fandom": "https://genshin-impact.fandom.com/wiki/Lisa"
@@ -7117,6 +8070,7 @@ const characters = {
         "version": "1.0"
     },
     "Lumine": {
+        "id": 10000007,
         "name": "Lumine",
         "fullname": "Lumine",
         "title": "",
@@ -7142,121 +8096,139 @@ const characters = {
         "costs": {
             "ascend1": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 20000
                 },
                 {
+                    "id": 104101,
                     "name": "Brilliant Diamond Sliver",
                     "count": 1
                 },
                 {
+                    "id": 100024,
                     "name": "Windwheel Aster",
                     "count": 3
                 },
                 {
+                    "id": 112005,
                     "name": "Damaged Mask",
                     "count": 3
                 }
             ],
             "ascend2": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 40000
                 },
                 {
+                    "id": 104102,
                     "name": "Brilliant Diamond Fragment",
                     "count": 3
                 },
                 {
+                    "id": 100024,
                     "name": "Windwheel Aster",
                     "count": 10
                 },
                 {
+                    "id": 112005,
                     "name": "Damaged Mask",
                     "count": 15
                 }
             ],
             "ascend3": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 60000
                 },
                 {
+                    "id": 104102,
                     "name": "Brilliant Diamond Fragment",
                     "count": 6
                 },
                 {
+                    "id": 100024,
                     "name": "Windwheel Aster",
                     "count": 20
                 },
                 {
+                    "id": 112006,
                     "name": "Stained Mask",
                     "count": 12
                 }
             ],
             "ascend4": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 80000
                 },
                 {
+                    "id": 104103,
                     "name": "Brilliant Diamond Chunk",
                     "count": 3
                 },
                 {
+                    "id": 100024,
                     "name": "Windwheel Aster",
                     "count": 30
                 },
                 {
+                    "id": 112006,
                     "name": "Stained Mask",
                     "count": 18
                 }
             ],
             "ascend5": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 100000
                 },
                 {
+                    "id": 104103,
                     "name": "Brilliant Diamond Chunk",
                     "count": 6
                 },
                 {
+                    "id": 100024,
                     "name": "Windwheel Aster",
                     "count": 45
                 },
                 {
+                    "id": 112007,
                     "name": "Ominous Mask",
                     "count": 12
                 }
             ],
             "ascend6": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 120000
                 },
                 {
+                    "id": 104104,
                     "name": "Brilliant Diamond Gemstone",
                     "count": 6
                 },
                 {
+                    "id": 100024,
                     "name": "Windwheel Aster",
                     "count": 60
                 },
                 {
+                    "id": 112007,
                     "name": "Ominous Mask",
                     "count": 24
                 }
             ]
         },
         "images": {
-            "card": "https://static.wikia.nocookie.net/gensin-impact/images/c/c8/Traveler_Female_Card.jpg",
-            "portrait": "https://static.wikia.nocookie.net/gensin-impact/images/2/24/Character_Traveler_%28Female%29_Portrait.png",
-            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_PlayerGirl.png",
-            "sideicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_PlayerGirl.png",
-            "hoyolab-avatar": "https://img-os-static.hoyolab.com/communityWeb/upload/f11f153ff86acab65e3610f73b0d1728.png",
             "nameicon": "UI_AvatarIcon_PlayerGirl",
-            "nameiconcard": "UI_AvatarIcon_PlayerGirl_Card",
             "namesideicon": "UI_AvatarIcon_Side_PlayerGirl"
         },
         "url": {
@@ -7265,6 +8237,7 @@ const characters = {
         "version": "1.0"
     },
     "Lynette": {
+        "id": 10000083,
         "name": "Lynette",
         "fullname": "Lynette",
         "title": "Elegance in the Shadows",
@@ -7290,128 +8263,157 @@ const characters = {
         "costs": {
             "ascend1": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 20000
                 },
                 {
+                    "id": 104151,
                     "name": "Vayuda Turquoise Sliver",
                     "count": 1
                 },
                 {
+                    "id": 101235,
                     "name": "Lumidouce Bell",
                     "count": 3
                 },
                 {
+                    "id": 112083,
                     "name": "Meshing Gear",
                     "count": 3
                 }
             ],
             "ascend2": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 40000
                 },
                 {
+                    "id": 104152,
                     "name": "Vayuda Turquoise Fragment",
                     "count": 3
                 },
                 {
+                    "id": 113049,
                     "name": "Artificed Spare Clockwork Component — Coppelia",
                     "count": 2
                 },
                 {
+                    "id": 101235,
                     "name": "Lumidouce Bell",
                     "count": 10
                 },
                 {
+                    "id": 112083,
                     "name": "Meshing Gear",
                     "count": 15
                 }
             ],
             "ascend3": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 60000
                 },
                 {
+                    "id": 104152,
                     "name": "Vayuda Turquoise Fragment",
                     "count": 6
                 },
                 {
+                    "id": 113049,
                     "name": "Artificed Spare Clockwork Component — Coppelia",
                     "count": 4
                 },
                 {
+                    "id": 101235,
                     "name": "Lumidouce Bell",
                     "count": 20
                 },
                 {
+                    "id": 112084,
                     "name": "Mechanical Spur Gear",
                     "count": 12
                 }
             ],
             "ascend4": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 80000
                 },
                 {
+                    "id": 104153,
                     "name": "Vayuda Turquoise Chunk",
                     "count": 3
                 },
                 {
+                    "id": 113049,
                     "name": "Artificed Spare Clockwork Component — Coppelia",
                     "count": 8
                 },
                 {
+                    "id": 101235,
                     "name": "Lumidouce Bell",
                     "count": 30
                 },
                 {
+                    "id": 112084,
                     "name": "Mechanical Spur Gear",
                     "count": 18
                 }
             ],
             "ascend5": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 100000
                 },
                 {
+                    "id": 104153,
                     "name": "Vayuda Turquoise Chunk",
                     "count": 6
                 },
                 {
+                    "id": 113049,
                     "name": "Artificed Spare Clockwork Component — Coppelia",
                     "count": 12
                 },
                 {
+                    "id": 101235,
                     "name": "Lumidouce Bell",
                     "count": 45
                 },
                 {
+                    "id": 112085,
                     "name": "Artificed Dynamic Gear",
                     "count": 12
                 }
             ],
             "ascend6": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 120000
                 },
                 {
+                    "id": 104154,
                     "name": "Vayuda Turquoise Gemstone",
                     "count": 6
                 },
                 {
+                    "id": 113049,
                     "name": "Artificed Spare Clockwork Component — Coppelia",
                     "count": 20
                 },
                 {
+                    "id": 101235,
                     "name": "Lumidouce Bell",
                     "count": 60
                 },
                 {
+                    "id": 112085,
                     "name": "Artificed Dynamic Gear",
                     "count": 24
                 }
@@ -7419,18 +8421,14 @@ const characters = {
         },
         "images": {
             "nameicon": "UI_AvatarIcon_Linette",
-            "nameiconcard": "UI_AvatarIcon_Linette_Card",
-            "namegachasplash": "UI_Gacha_AvatarImg_Linette",
-            "namegachaslice": "UI_Gacha_AvatarIcon_Linette",
-            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Linette.png",
             "namesideicon": "UI_AvatarIcon_Side_Linette",
-            "sideicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Linette.png",
-            "cover1": "https://webstatic.hoyoverse.com/upload/op-public/2023/08/11/631514b481df43070c5d0f06a5d07a61_7671721879045200831.png",
-            "cover2": "https://webstatic.hoyoverse.com/upload/op-public/2023/08/11/8957ae5167e509ec0ce866295baf0a6f_4616749772837745471.png"
+            "namegachasplash": "UI_Gacha_AvatarImg_Linette",
+            "namegachaslice": "UI_Gacha_AvatarIcon_Linette"
         },
         "version": "4.0"
     },
     "Lyney": {
+        "id": 10000084,
         "name": "Lyney",
         "fullname": "Lyney",
         "title": "Spectacle of Phantasmagoria",
@@ -7456,128 +8454,157 @@ const characters = {
         "costs": {
             "ascend1": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 20000
                 },
                 {
+                    "id": 104111,
                     "name": "Agnidus Agate Sliver",
                     "count": 1
                 },
                 {
+                    "id": 101236,
                     "name": "Rainbow Rose",
                     "count": 3
                 },
                 {
+                    "id": 112032,
                     "name": "Recruit's Insignia",
                     "count": 3
                 }
             ],
             "ascend2": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 40000
                 },
                 {
+                    "id": 104112,
                     "name": "Agnidus Agate Fragment",
                     "count": 3
                 },
                 {
+                    "id": 113051,
                     "name": "Emperor's Resolution",
                     "count": 2
                 },
                 {
+                    "id": 101236,
                     "name": "Rainbow Rose",
                     "count": 10
                 },
                 {
+                    "id": 112032,
                     "name": "Recruit's Insignia",
                     "count": 15
                 }
             ],
             "ascend3": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 60000
                 },
                 {
+                    "id": 104112,
                     "name": "Agnidus Agate Fragment",
                     "count": 6
                 },
                 {
+                    "id": 113051,
                     "name": "Emperor's Resolution",
                     "count": 4
                 },
                 {
+                    "id": 101236,
                     "name": "Rainbow Rose",
                     "count": 20
                 },
                 {
+                    "id": 112033,
                     "name": "Sergeant's Insignia",
                     "count": 12
                 }
             ],
             "ascend4": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 80000
                 },
                 {
+                    "id": 104113,
                     "name": "Agnidus Agate Chunk",
                     "count": 3
                 },
                 {
+                    "id": 113051,
                     "name": "Emperor's Resolution",
                     "count": 8
                 },
                 {
+                    "id": 101236,
                     "name": "Rainbow Rose",
                     "count": 30
                 },
                 {
+                    "id": 112033,
                     "name": "Sergeant's Insignia",
                     "count": 18
                 }
             ],
             "ascend5": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 100000
                 },
                 {
+                    "id": 104113,
                     "name": "Agnidus Agate Chunk",
                     "count": 6
                 },
                 {
+                    "id": 113051,
                     "name": "Emperor's Resolution",
                     "count": 12
                 },
                 {
+                    "id": 101236,
                     "name": "Rainbow Rose",
                     "count": 45
                 },
                 {
+                    "id": 112034,
                     "name": "Lieutenant's Insignia",
                     "count": 12
                 }
             ],
             "ascend6": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 120000
                 },
                 {
+                    "id": 104114,
                     "name": "Agnidus Agate Gemstone",
                     "count": 6
                 },
                 {
+                    "id": 113051,
                     "name": "Emperor's Resolution",
                     "count": 20
                 },
                 {
+                    "id": 101236,
                     "name": "Rainbow Rose",
                     "count": 60
                 },
                 {
+                    "id": 112034,
                     "name": "Lieutenant's Insignia",
                     "count": 24
                 }
@@ -7585,18 +8612,14 @@ const characters = {
         },
         "images": {
             "nameicon": "UI_AvatarIcon_Liney",
-            "nameiconcard": "UI_AvatarIcon_Liney_Card",
-            "namegachasplash": "UI_Gacha_AvatarImg_Liney",
-            "namegachaslice": "UI_Gacha_AvatarIcon_Liney",
-            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Liney.png",
             "namesideicon": "UI_AvatarIcon_Side_Liney",
-            "sideicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Liney.png",
-            "cover1": "https://webstatic.hoyoverse.com/upload/op-public/2023/08/10/aed7f3d44289e8f796c19fc4cd13ad9b_8749199347718802064.png",
-            "cover2": "https://webstatic.hoyoverse.com/upload/op-public/2023/08/10/50b29ea6bbc104990541ad14d6deca77_2152538302683473813.png"
+            "namegachasplash": "UI_Gacha_AvatarImg_Liney",
+            "namegachaslice": "UI_Gacha_AvatarIcon_Liney"
         },
         "version": "4.0"
     },
     "Mika": {
+        "id": 10000080,
         "name": "Mika",
         "fullname": "Mika",
         "title": "Coordinates of Clear Frost",
@@ -7622,128 +8645,157 @@ const characters = {
         "costs": {
             "ascend1": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 20000
                 },
                 {
+                    "id": 104161,
                     "name": "Shivada Jade Sliver",
                     "count": 1
                 },
                 {
+                    "id": 100021,
                     "name": "Wolfhook",
                     "count": 3
                 },
                 {
+                    "id": 112032,
                     "name": "Recruit's Insignia",
                     "count": 3
                 }
             ],
             "ascend2": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 40000
                 },
                 {
+                    "id": 104162,
                     "name": "Shivada Jade Fragment",
                     "count": 3
                 },
                 {
+                    "id": 113044,
                     "name": "Pseudo-Stamens",
                     "count": 2
                 },
                 {
+                    "id": 100021,
                     "name": "Wolfhook",
                     "count": 10
                 },
                 {
+                    "id": 112032,
                     "name": "Recruit's Insignia",
                     "count": 15
                 }
             ],
             "ascend3": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 60000
                 },
                 {
+                    "id": 104162,
                     "name": "Shivada Jade Fragment",
                     "count": 6
                 },
                 {
+                    "id": 113044,
                     "name": "Pseudo-Stamens",
                     "count": 4
                 },
                 {
+                    "id": 100021,
                     "name": "Wolfhook",
                     "count": 20
                 },
                 {
+                    "id": 112033,
                     "name": "Sergeant's Insignia",
                     "count": 12
                 }
             ],
             "ascend4": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 80000
                 },
                 {
+                    "id": 104163,
                     "name": "Shivada Jade Chunk",
                     "count": 3
                 },
                 {
+                    "id": 113044,
                     "name": "Pseudo-Stamens",
                     "count": 8
                 },
                 {
+                    "id": 100021,
                     "name": "Wolfhook",
                     "count": 30
                 },
                 {
+                    "id": 112033,
                     "name": "Sergeant's Insignia",
                     "count": 18
                 }
             ],
             "ascend5": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 100000
                 },
                 {
+                    "id": 104163,
                     "name": "Shivada Jade Chunk",
                     "count": 6
                 },
                 {
+                    "id": 113044,
                     "name": "Pseudo-Stamens",
                     "count": 12
                 },
                 {
+                    "id": 100021,
                     "name": "Wolfhook",
                     "count": 45
                 },
                 {
+                    "id": 112034,
                     "name": "Lieutenant's Insignia",
                     "count": 12
                 }
             ],
             "ascend6": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 120000
                 },
                 {
+                    "id": 104164,
                     "name": "Shivada Jade Gemstone",
                     "count": 6
                 },
                 {
+                    "id": 113044,
                     "name": "Pseudo-Stamens",
                     "count": 20
                 },
                 {
+                    "id": 100021,
                     "name": "Wolfhook",
                     "count": 60
                 },
                 {
+                    "id": 112034,
                     "name": "Lieutenant's Insignia",
                     "count": 24
                 }
@@ -7751,18 +8803,14 @@ const characters = {
         },
         "images": {
             "nameicon": "UI_AvatarIcon_Mika",
-            "nameiconcard": "UI_AvatarIcon_Mika_Card",
-            "namegachasplash": "UI_Gacha_AvatarImg_Mika",
-            "namegachaslice": "UI_Gacha_AvatarIcon_Mika",
-            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Mika.png",
             "namesideicon": "UI_AvatarIcon_Side_Mika",
-            "sideicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Mika.png",
-            "cover1": "https://webstatic.hoyoverse.com/upload/op-public/2023/02/13/df329c62acad08953832134777166e57_8412092087979447029.png",
-            "cover2": "https://webstatic.hoyoverse.com/upload/op-public/2023/02/13/1e48750f7e23545246579cec4e0c1080_7700251263078617358.png"
+            "namegachasplash": "UI_Gacha_AvatarImg_Mika",
+            "namegachaslice": "UI_Gacha_AvatarIcon_Mika"
         },
         "version": "3.5"
     },
     "Mona": {
+        "id": 10000041,
         "name": "Mona",
         "fullname": "Mona",
         "title": "Astral Reflection",
@@ -7788,146 +8836,167 @@ const characters = {
         "costs": {
             "ascend1": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 20000
                 },
                 {
+                    "id": 104121,
                     "name": "Varunada Lazurite Sliver",
                     "count": 1
                 },
                 {
+                    "id": 100025,
                     "name": "Philanemo Mushroom",
                     "count": 3
                 },
                 {
+                    "id": 112038,
                     "name": "Whopperflower Nectar",
                     "count": 3
                 }
             ],
             "ascend2": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 40000
                 },
                 {
+                    "id": 104122,
                     "name": "Varunada Lazurite Fragment",
                     "count": 3
                 },
                 {
+                    "id": 113012,
                     "name": "Cleansing Heart",
                     "count": 2
                 },
                 {
+                    "id": 100025,
                     "name": "Philanemo Mushroom",
                     "count": 10
                 },
                 {
+                    "id": 112038,
                     "name": "Whopperflower Nectar",
                     "count": 15
                 }
             ],
             "ascend3": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 60000
                 },
                 {
+                    "id": 104122,
                     "name": "Varunada Lazurite Fragment",
                     "count": 6
                 },
                 {
+                    "id": 113012,
                     "name": "Cleansing Heart",
                     "count": 4
                 },
                 {
+                    "id": 100025,
                     "name": "Philanemo Mushroom",
                     "count": 20
                 },
                 {
+                    "id": 112039,
                     "name": "Shimmering Nectar",
                     "count": 12
                 }
             ],
             "ascend4": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 80000
                 },
                 {
+                    "id": 104123,
                     "name": "Varunada Lazurite Chunk",
                     "count": 3
                 },
                 {
+                    "id": 113012,
                     "name": "Cleansing Heart",
                     "count": 8
                 },
                 {
+                    "id": 100025,
                     "name": "Philanemo Mushroom",
                     "count": 30
                 },
                 {
+                    "id": 112039,
                     "name": "Shimmering Nectar",
                     "count": 18
                 }
             ],
             "ascend5": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 100000
                 },
                 {
+                    "id": 104123,
                     "name": "Varunada Lazurite Chunk",
                     "count": 6
                 },
                 {
+                    "id": 113012,
                     "name": "Cleansing Heart",
                     "count": 12
                 },
                 {
+                    "id": 100025,
                     "name": "Philanemo Mushroom",
                     "count": 45
                 },
                 {
+                    "id": 112040,
                     "name": "Energy Nectar",
                     "count": 12
                 }
             ],
             "ascend6": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 120000
                 },
                 {
+                    "id": 104124,
                     "name": "Varunada Lazurite Gemstone",
                     "count": 6
                 },
                 {
+                    "id": 113012,
                     "name": "Cleansing Heart",
                     "count": 20
                 },
                 {
+                    "id": 100025,
                     "name": "Philanemo Mushroom",
                     "count": 60
                 },
                 {
+                    "id": 112040,
                     "name": "Energy Nectar",
                     "count": 24
                 }
             ]
         },
         "images": {
-            "card": "https://static.wikia.nocookie.net/gensin-impact/images/6/69/Character_Mona_Card.jpg",
-            "portrait": "https://static.wikia.nocookie.net/gensin-impact/images/f/fe/Character_Mona_Portrait.png",
-            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Mona.png",
-            "sideicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Mona.png",
-            "cover1": "https://webstatic.hoyoverse.com/upload/contentweb/2022/07/22/9e4203089ad086d328973adf3f6e8c7b_1731345046482271564.png",
-            "cover2": "https://webstatic.hoyoverse.com/upload/contentweb/2022/06/28/247b5054c574b0ff69b27dfe5d18101b_5626904084481297773.png",
-            "hoyolab-avatar": "https://img-os-static.hoyolab.com/communityWeb/upload/1fa7a20fb3b391132e1132ab2a44e146.png",
             "nameicon": "UI_AvatarIcon_Mona",
-            "nameiconcard": "UI_AvatarIcon_Mona_Card",
+            "namesideicon": "UI_AvatarIcon_Side_Mona",
             "namegachasplash": "UI_Gacha_AvatarImg_Mona",
-            "namegachaslice": "UI_Gacha_AvatarIcon_Mona",
-            "namesideicon": "UI_AvatarIcon_Side_Mona"
+            "namegachaslice": "UI_Gacha_AvatarIcon_Mona"
         },
         "url": {
             "fandom": "https://genshin-impact.fandom.com/wiki/Mona"
@@ -7935,6 +9004,7 @@ const characters = {
         "version": "1.0"
     },
     "Nahida": {
+        "id": 10000073,
         "name": "Nahida",
         "fullname": "Nahida",
         "title": "Physic of Purity",
@@ -7960,128 +9030,157 @@ const characters = {
         "costs": {
             "ascend1": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 20000
                 },
                 {
+                    "id": 104131,
                     "name": "Nagadus Emerald Sliver",
                     "count": 1
                 },
                 {
+                    "id": 101217,
                     "name": "Kalpalata Lotus",
                     "count": 3
                 },
                 {
+                    "id": 112059,
                     "name": "Fungal Spores",
                     "count": 3
                 }
             ],
             "ascend2": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 40000
                 },
                 {
+                    "id": 104132,
                     "name": "Nagadus Emerald Fragment",
                     "count": 3
                 },
                 {
+                    "id": 113040,
                     "name": "Quelled Creeper",
                     "count": 2
                 },
                 {
+                    "id": 101217,
                     "name": "Kalpalata Lotus",
                     "count": 10
                 },
                 {
+                    "id": 112059,
                     "name": "Fungal Spores",
                     "count": 15
                 }
             ],
             "ascend3": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 60000
                 },
                 {
+                    "id": 104132,
                     "name": "Nagadus Emerald Fragment",
                     "count": 6
                 },
                 {
+                    "id": 113040,
                     "name": "Quelled Creeper",
                     "count": 4
                 },
                 {
+                    "id": 101217,
                     "name": "Kalpalata Lotus",
                     "count": 20
                 },
                 {
+                    "id": 112060,
                     "name": "Luminescent Pollen",
                     "count": 12
                 }
             ],
             "ascend4": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 80000
                 },
                 {
+                    "id": 104133,
                     "name": "Nagadus Emerald Chunk",
                     "count": 3
                 },
                 {
+                    "id": 113040,
                     "name": "Quelled Creeper",
                     "count": 8
                 },
                 {
+                    "id": 101217,
                     "name": "Kalpalata Lotus",
                     "count": 30
                 },
                 {
+                    "id": 112060,
                     "name": "Luminescent Pollen",
                     "count": 18
                 }
             ],
             "ascend5": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 100000
                 },
                 {
+                    "id": 104133,
                     "name": "Nagadus Emerald Chunk",
                     "count": 6
                 },
                 {
+                    "id": 113040,
                     "name": "Quelled Creeper",
                     "count": 12
                 },
                 {
+                    "id": 101217,
                     "name": "Kalpalata Lotus",
                     "count": 45
                 },
                 {
+                    "id": 112061,
                     "name": "Crystalline Cyst Dust",
                     "count": 12
                 }
             ],
             "ascend6": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 120000
                 },
                 {
+                    "id": 104134,
                     "name": "Nagadus Emerald Gemstone",
                     "count": 6
                 },
                 {
+                    "id": 113040,
                     "name": "Quelled Creeper",
                     "count": 20
                 },
                 {
+                    "id": 101217,
                     "name": "Kalpalata Lotus",
                     "count": 60
                 },
                 {
+                    "id": 112061,
                     "name": "Crystalline Cyst Dust",
                     "count": 24
                 }
@@ -8089,184 +9188,205 @@ const characters = {
         },
         "images": {
             "nameicon": "UI_AvatarIcon_Nahida",
-            "nameiconcard": "UI_AvatarIcon_Nahida_Card",
-            "namegachasplash": "UI_Gacha_AvatarImg_Nahida",
-            "namegachaslice": "UI_Gacha_AvatarIcon_Nahida",
-            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Nahida.png",
             "namesideicon": "UI_AvatarIcon_Side_Nahida",
-            "sideicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Nahida.png",
-            "cover1": "https://webstatic.hoyoverse.com/upload/contentweb/2022/10/26/fe684624008db25ac4b44ea4704f9ba0_3756826627935711351.png",
-            "cover2": "https://webstatic.hoyoverse.com/upload/contentweb/2022/10/24/27e20ed23e1c42678538e40d93a31179_2119350427386020474.png"
+            "namegachasplash": "UI_Gacha_AvatarImg_Nahida",
+            "namegachaslice": "UI_Gacha_AvatarIcon_Nahida"
         },
         "version": "3.2"
     },
     "Navia": {
+        "id": 10000091,
         "name": "Navia",
         "fullname": "Navia",
-        "title": "Physic of Purity",
-        "description": "A caged bird secluded within the confines of the Sanctuary of Surasthana who can only see the world in her dreams.",
+        "title": "Helm of the Radiant Rose",
+        "description": "The current President of Spina di Rosula, who is lovely, dutiful, and a great boss.",
         "rarity": "5",
         "element": "Geo",
         "weapontype": "Claymore",
-        "substat": "Elemental Mastery",
+        "substat": "CRIT DMG",
         "gender": "Female",
-        "body": "LOLI",
-        "association": "SUMERU",
-        "region": "Sumeru",
-        "affiliation": "Sumeru City",
-        "birthdaymmdd": "10/27",
-        "birthday": "October 27",
-        "constellation": "Sapientia Oromasdis",
+        "body": "LADY",
+        "association": "FONTAINE",
+        "region": "Fontaine",
+        "affiliation": "Spina di Rosula",
+        "birthdaymmdd": "8/16",
+        "birthday": "August 16",
+        "constellation": "Rosa Multiflora",
         "cv": {
-            "english": "Kimberley Anne Campbell",
-            "chinese": "花玲",
-            "japanese": "田村ゆかり",
-            "korean": "Park Shi-yoon"
+            "english": "Brenna Larsen",
+            "chinese": "小敢",
+            "japanese": "豊崎愛生",
+            "korean": "Jeong Hae-eun"
         },
         "costs": {
             "ascend1": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 20000
                 },
                 {
-                    "name": "Nagadus Emerald Sliver",
+                    "id": 104171,
+                    "name": "Prithiva Topaz Sliver",
                     "count": 1
                 },
                 {
-                    "name": "Kalpalata Lotus",
+                    "id": 101240,
+                    "name": "Spring of the First Dewdrop",
                     "count": 3
                 },
                 {
-                    "name": "Fungal Spores",
+                    "id": 112080,
+                    "name": "Transoceanic Pearl",
                     "count": 3
                 }
             ],
             "ascend2": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 40000
                 },
                 {
-                    "name": "Nagadus Emerald Fragment",
+                    "id": 104172,
+                    "name": "Prithiva Topaz Fragment",
                     "count": 3
                 },
                 {
-                    "name": "Quelled Creeper",
+                    "id": 113050,
+                    "name": "Artificed Spare Clockwork Component — Coppelius",
                     "count": 2
                 },
                 {
-                    "name": "Kalpalata Lotus",
+                    "id": 101240,
+                    "name": "Spring of the First Dewdrop",
                     "count": 10
                 },
                 {
-                    "name": "Fungal Spores",
+                    "id": 112080,
+                    "name": "Transoceanic Pearl",
                     "count": 15
                 }
             ],
             "ascend3": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 60000
                 },
                 {
-                    "name": "Nagadus Emerald Fragment",
+                    "id": 104172,
+                    "name": "Prithiva Topaz Fragment",
                     "count": 6
                 },
                 {
-                    "name": "Quelled Creeper",
+                    "id": 113050,
+                    "name": "Artificed Spare Clockwork Component — Coppelius",
                     "count": 4
                 },
                 {
-                    "name": "Kalpalata Lotus",
+                    "id": 101240,
+                    "name": "Spring of the First Dewdrop",
                     "count": 20
                 },
                 {
-                    "name": "Luminescent Pollen",
+                    "id": 112081,
+                    "name": "Transoceanic Chunk",
                     "count": 12
                 }
             ],
             "ascend4": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 80000
                 },
                 {
-                    "name": "Nagadus Emerald Chunk",
+                    "id": 104173,
+                    "name": "Prithiva Topaz Chunk",
                     "count": 3
                 },
                 {
-                    "name": "Quelled Creeper",
+                    "id": 113050,
+                    "name": "Artificed Spare Clockwork Component — Coppelius",
                     "count": 8
                 },
                 {
-                    "name": "Kalpalata Lotus",
+                    "id": 101240,
+                    "name": "Spring of the First Dewdrop",
                     "count": 30
                 },
                 {
-                    "name": "Luminescent Pollen",
+                    "id": 112081,
+                    "name": "Transoceanic Chunk",
                     "count": 18
                 }
             ],
             "ascend5": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 100000
                 },
                 {
-                    "name": "Nagadus Emerald Chunk",
+                    "id": 104173,
+                    "name": "Prithiva Topaz Chunk",
                     "count": 6
                 },
                 {
-                    "name": "Quelled Creeper",
+                    "id": 113050,
+                    "name": "Artificed Spare Clockwork Component — Coppelius",
                     "count": 12
                 },
                 {
-                    "name": "Kalpalata Lotus",
+                    "id": 101240,
+                    "name": "Spring of the First Dewdrop",
                     "count": 45
                 },
                 {
-                    "name": "Crystalline Cyst Dust",
+                    "id": 112082,
+                    "name": "Xenochromatic Crystal",
                     "count": 12
                 }
             ],
             "ascend6": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 120000
                 },
                 {
-                    "name": "Nagadus Emerald Gemstone",
+                    "id": 104174,
+                    "name": "Prithiva Topaz Gemstone",
                     "count": 6
                 },
                 {
-                    "name": "Quelled Creeper",
+                    "id": 113050,
+                    "name": "Artificed Spare Clockwork Component — Coppelius",
                     "count": 20
                 },
                 {
-                    "name": "Kalpalata Lotus",
+                    "id": 101240,
+                    "name": "Spring of the First Dewdrop",
                     "count": 60
                 },
                 {
-                    "name": "Crystalline Cyst Dust",
+                    "id": 112082,
+                    "name": "Xenochromatic Crystal",
                     "count": 24
                 }
             ]
         },
         "images": {
             "nameicon": "UI_AvatarIcon_Navia",
-            "nameiconcard": "UI_AvatarIcon_Navia_Card",
-            "namegachasplash": "UI_Gacha_AvatarImg_Navia",
-            "namegachaslice": "UI_Gacha_AvatarIcon_Navia",
-            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Navia.png",
             "namesideicon": "UI_AvatarIcon_Side_Navia",
-            "sideicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Navia.png",
-            "cover1": "https://webstatic.hoyoverse.com/upload/contentweb/2022/10/26/fe684624008db25ac4b44ea4704f9ba0_3756826627935711351.png",
-            "cover2": "https://webstatic.hoyoverse.com/upload/contentweb/2022/10/24/27e20ed23e1c42678538e40d93a31179_2119350427386020474.png"
+            "namegachasplash": "UI_Gacha_AvatarImg_Navia",
+            "namegachaslice": "UI_Gacha_AvatarIcon_Navia"
         },
-        "version": "3.2"
+        "version": "4.3"
     },
     "Neuvillette": {
+        "id": 10000087,
         "name": "Neuvillette",
         "fullname": "Neuvillette",
         "title": "Ordainer of Inexorable Judgment",
@@ -8292,147 +9412,172 @@ const characters = {
         "costs": {
             "ascend1": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 20000
                 },
                 {
+                    "id": 104121,
                     "name": "Varunada Lazurite Sliver",
                     "count": 1
                 },
                 {
+                    "id": 101237,
                     "name": "Lumitoile",
                     "count": 3
                 },
                 {
+                    "id": 112080,
                     "name": "Transoceanic Pearl",
                     "count": 3
                 }
             ],
             "ascend2": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 40000
                 },
                 {
+                    "id": 104122,
                     "name": "Varunada Lazurite Fragment",
                     "count": 3
                 },
                 {
+                    "id": 113053,
                     "name": "Fontemer Unihorn",
                     "count": 2
                 },
                 {
+                    "id": 101237,
                     "name": "Lumitoile",
                     "count": 10
                 },
                 {
+                    "id": 112080,
                     "name": "Transoceanic Pearl",
                     "count": 15
                 }
             ],
             "ascend3": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 60000
                 },
                 {
+                    "id": 104122,
                     "name": "Varunada Lazurite Fragment",
                     "count": 6
                 },
                 {
+                    "id": 113053,
                     "name": "Fontemer Unihorn",
                     "count": 4
                 },
                 {
+                    "id": 101237,
                     "name": "Lumitoile",
                     "count": 20
                 },
                 {
+                    "id": 112081,
                     "name": "Transoceanic Chunk",
                     "count": 12
                 }
             ],
             "ascend4": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 80000
                 },
                 {
+                    "id": 104123,
                     "name": "Varunada Lazurite Chunk",
                     "count": 3
                 },
                 {
+                    "id": 113053,
                     "name": "Fontemer Unihorn",
                     "count": 8
                 },
                 {
+                    "id": 101237,
                     "name": "Lumitoile",
                     "count": 30
                 },
                 {
+                    "id": 112081,
                     "name": "Transoceanic Chunk",
                     "count": 18
                 }
             ],
             "ascend5": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 100000
                 },
                 {
+                    "id": 104123,
                     "name": "Varunada Lazurite Chunk",
                     "count": 6
                 },
                 {
+                    "id": 113053,
                     "name": "Fontemer Unihorn",
                     "count": 12
                 },
                 {
+                    "id": 101237,
                     "name": "Lumitoile",
                     "count": 45
                 },
                 {
+                    "id": 112082,
                     "name": "Xenochromatic Crystal",
                     "count": 12
                 }
             ],
             "ascend6": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 120000
                 },
                 {
+                    "id": 104124,
                     "name": "Varunada Lazurite Gemstone",
                     "count": 6
                 },
                 {
+                    "id": 113053,
                     "name": "Fontemer Unihorn",
                     "count": 20
                 },
                 {
+                    "id": 101237,
                     "name": "Lumitoile",
                     "count": 60
                 },
                 {
+                    "id": 112082,
                     "name": "Xenochromatic Crystal",
                     "count": 24
                 }
             ]
         },
         "images": {
-            "cover1": "https://webstatic.hoyoverse.com/upload/op-public/2023/09/14/a542b56a05524520a116d57372fa6d3c_208786747272956585.png",
-            "cover2": "https://webstatic.hoyoverse.com/upload/op-public/2023/09/14/10047af490a5ea6cf897221c03d0eafb_2021555852782543920.png",
             "nameicon": "UI_AvatarIcon_Neuvillette",
-            "nameiconcard": "UI_AvatarIcon_Neuvillette_Card",
-            "namegachasplash": "UI_Gacha_AvatarImg_Neuvillette",
-            "namegachaslice": "UI_Gacha_AvatarIcon_Neuvillette",
-            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Neuvillette.png",
             "namesideicon": "UI_AvatarIcon_Side_Neuvillette",
-            "sideicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Neuvillette.png"
+            "namegachasplash": "UI_Gacha_AvatarImg_Neuvillette",
+            "namegachaslice": "UI_Gacha_AvatarIcon_Neuvillette"
         },
         "version": "4.1"
     },
     "Nilou": {
+        "id": 10000070,
         "name": "Nilou",
         "fullname": "Nilou",
         "title": "Dance of Lotuslight",
@@ -8458,128 +9603,157 @@ const characters = {
         "costs": {
             "ascend1": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 20000
                 },
                 {
+                    "id": 104121,
                     "name": "Varunada Lazurite Sliver",
                     "count": 1
                 },
                 {
+                    "id": 101214,
                     "name": "Padisarah",
                     "count": 3
                 },
                 {
+                    "id": 112059,
                     "name": "Fungal Spores",
                     "count": 3
                 }
             ],
             "ascend2": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 40000
                 },
                 {
+                    "id": 104122,
                     "name": "Varunada Lazurite Fragment",
                     "count": 3
                 },
                 {
+                    "id": 113038,
                     "name": "Perpetual Caliber",
                     "count": 2
                 },
                 {
+                    "id": 101214,
                     "name": "Padisarah",
                     "count": 10
                 },
                 {
+                    "id": 112059,
                     "name": "Fungal Spores",
                     "count": 15
                 }
             ],
             "ascend3": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 60000
                 },
                 {
+                    "id": 104122,
                     "name": "Varunada Lazurite Fragment",
                     "count": 6
                 },
                 {
+                    "id": 113038,
                     "name": "Perpetual Caliber",
                     "count": 4
                 },
                 {
+                    "id": 101214,
                     "name": "Padisarah",
                     "count": 20
                 },
                 {
+                    "id": 112060,
                     "name": "Luminescent Pollen",
                     "count": 12
                 }
             ],
             "ascend4": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 80000
                 },
                 {
+                    "id": 104123,
                     "name": "Varunada Lazurite Chunk",
                     "count": 3
                 },
                 {
+                    "id": 113038,
                     "name": "Perpetual Caliber",
                     "count": 8
                 },
                 {
+                    "id": 101214,
                     "name": "Padisarah",
                     "count": 30
                 },
                 {
+                    "id": 112060,
                     "name": "Luminescent Pollen",
                     "count": 18
                 }
             ],
             "ascend5": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 100000
                 },
                 {
+                    "id": 104123,
                     "name": "Varunada Lazurite Chunk",
                     "count": 6
                 },
                 {
+                    "id": 113038,
                     "name": "Perpetual Caliber",
                     "count": 12
                 },
                 {
+                    "id": 101214,
                     "name": "Padisarah",
                     "count": 45
                 },
                 {
+                    "id": 112061,
                     "name": "Crystalline Cyst Dust",
                     "count": 12
                 }
             ],
             "ascend6": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 120000
                 },
                 {
+                    "id": 104124,
                     "name": "Varunada Lazurite Gemstone",
                     "count": 6
                 },
                 {
+                    "id": 113038,
                     "name": "Perpetual Caliber",
                     "count": 20
                 },
                 {
+                    "id": 101214,
                     "name": "Padisarah",
                     "count": 60
                 },
                 {
+                    "id": 112061,
                     "name": "Crystalline Cyst Dust",
                     "count": 24
                 }
@@ -8587,19 +9761,14 @@ const characters = {
         },
         "images": {
             "nameicon": "UI_AvatarIcon_Nilou",
-            "nameiconcard": "UI_AvatarIcon_Nilou_Card",
-            "namegachasplash": "UI_Gacha_AvatarImg_Nilou",
-            "namegachaslice": "UI_Gacha_AvatarIcon_Nilou",
-            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Nilou.png",
             "namesideicon": "UI_AvatarIcon_Side_Nilou",
-            "sideicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Nilou.png",
-            "cover1": "https://webstatic.hoyoverse.com/upload/contentweb/2022/09/28/d978cf1ce85e372971bdcf6add639e8f_3351442670589638152.png",
-            "cover2": "https://webstatic.hoyoverse.com/upload/contentweb/2022/09/28/f1da8e801b8c23e250bb2e7d23fb49d5_2712267028161546061.png",
-            "hoyolab-avatar": "https://upload-os-bbs.hoyolab.com/upload/2022/09/27/31ed69d405cd0b83662fffb7ad065b36_4256098748428542260.png"
+            "namegachasplash": "UI_Gacha_AvatarImg_Nilou",
+            "namegachaslice": "UI_Gacha_AvatarIcon_Nilou"
         },
         "version": "3.1"
     },
     "Ningguang": {
+        "id": 10000027,
         "name": "Ningguang",
         "fullname": "Ningguang",
         "title": "Eclipsing Star",
@@ -8625,146 +9794,167 @@ const characters = {
         "costs": {
             "ascend1": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 20000
                 },
                 {
+                    "id": 104171,
                     "name": "Prithiva Topaz Sliver",
                     "count": 1
                 },
                 {
+                    "id": 100030,
                     "name": "Glaze Lily",
                     "count": 3
                 },
                 {
+                    "id": 112032,
                     "name": "Recruit's Insignia",
                     "count": 3
                 }
             ],
             "ascend2": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 40000
                 },
                 {
+                    "id": 104172,
                     "name": "Prithiva Topaz Fragment",
                     "count": 3
                 },
                 {
+                    "id": 113009,
                     "name": "Basalt Pillar",
                     "count": 2
                 },
                 {
+                    "id": 100030,
                     "name": "Glaze Lily",
                     "count": 10
                 },
                 {
+                    "id": 112032,
                     "name": "Recruit's Insignia",
                     "count": 15
                 }
             ],
             "ascend3": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 60000
                 },
                 {
+                    "id": 104172,
                     "name": "Prithiva Topaz Fragment",
                     "count": 6
                 },
                 {
+                    "id": 113009,
                     "name": "Basalt Pillar",
                     "count": 4
                 },
                 {
+                    "id": 100030,
                     "name": "Glaze Lily",
                     "count": 20
                 },
                 {
+                    "id": 112033,
                     "name": "Sergeant's Insignia",
                     "count": 12
                 }
             ],
             "ascend4": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 80000
                 },
                 {
+                    "id": 104173,
                     "name": "Prithiva Topaz Chunk",
                     "count": 3
                 },
                 {
+                    "id": 113009,
                     "name": "Basalt Pillar",
                     "count": 8
                 },
                 {
+                    "id": 100030,
                     "name": "Glaze Lily",
                     "count": 30
                 },
                 {
+                    "id": 112033,
                     "name": "Sergeant's Insignia",
                     "count": 18
                 }
             ],
             "ascend5": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 100000
                 },
                 {
+                    "id": 104173,
                     "name": "Prithiva Topaz Chunk",
                     "count": 6
                 },
                 {
+                    "id": 113009,
                     "name": "Basalt Pillar",
                     "count": 12
                 },
                 {
+                    "id": 100030,
                     "name": "Glaze Lily",
                     "count": 45
                 },
                 {
+                    "id": 112034,
                     "name": "Lieutenant's Insignia",
                     "count": 12
                 }
             ],
             "ascend6": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 120000
                 },
                 {
+                    "id": 104174,
                     "name": "Prithiva Topaz Gemstone",
                     "count": 6
                 },
                 {
+                    "id": 113009,
                     "name": "Basalt Pillar",
                     "count": 20
                 },
                 {
+                    "id": 100030,
                     "name": "Glaze Lily",
                     "count": 60
                 },
                 {
+                    "id": 112034,
                     "name": "Lieutenant's Insignia",
                     "count": 24
                 }
             ]
         },
         "images": {
-            "card": "https://static.wikia.nocookie.net/gensin-impact/images/3/3e/Character_Ningguang_Card.jpg/",
-            "portrait": "https://static.wikia.nocookie.net/gensin-impact/images/1/17/Character_Ningguang_Portrait.png",
-            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Ningguang.png",
-            "sideicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Ningguang.png",
-            "cover1": "https://webstatic.hoyoverse.com/upload/contentweb/2022/07/22/d35a0a1d13f821fd55a6951210c672ac_1444502949404659074.png",
-            "cover2": "https://webstatic.hoyoverse.com/upload/uploadstatic/contentweb/20200305/2020030519431658285.png",
-            "hoyolab-avatar": "https://img-os-static.hoyolab.com/communityWeb/upload/498b811beba3fbeb2549a5b362190d43.png",
             "nameicon": "UI_AvatarIcon_Ningguang",
-            "nameiconcard": "UI_AvatarIcon_Ningguang_Card",
+            "namesideicon": "UI_AvatarIcon_Side_Ningguang",
             "namegachasplash": "UI_Gacha_AvatarImg_Ningguang",
-            "namegachaslice": "UI_Gacha_AvatarIcon_Ningguang",
-            "namesideicon": "UI_AvatarIcon_Side_Ningguang"
+            "namegachaslice": "UI_Gacha_AvatarIcon_Ningguang"
         },
         "url": {
             "fandom": "https://genshin-impact.fandom.com/wiki/Ningguang"
@@ -8772,6 +9962,7 @@ const characters = {
         "version": "1.0"
     },
     "Noelle": {
+        "id": 10000034,
         "name": "Noelle",
         "fullname": "Noelle",
         "title": "Chivalric Blossom",
@@ -8797,146 +9988,167 @@ const characters = {
         "costs": {
             "ascend1": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 20000
                 },
                 {
+                    "id": 104171,
                     "name": "Prithiva Topaz Sliver",
                     "count": 1
                 },
                 {
+                    "id": 100022,
                     "name": "Valberry",
                     "count": 3
                 },
                 {
+                    "id": 112005,
                     "name": "Damaged Mask",
                     "count": 3
                 }
             ],
             "ascend2": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 40000
                 },
                 {
+                    "id": 104172,
                     "name": "Prithiva Topaz Fragment",
                     "count": 3
                 },
                 {
+                    "id": 113009,
                     "name": "Basalt Pillar",
                     "count": 2
                 },
                 {
+                    "id": 100022,
                     "name": "Valberry",
                     "count": 10
                 },
                 {
+                    "id": 112005,
                     "name": "Damaged Mask",
                     "count": 15
                 }
             ],
             "ascend3": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 60000
                 },
                 {
+                    "id": 104172,
                     "name": "Prithiva Topaz Fragment",
                     "count": 6
                 },
                 {
+                    "id": 113009,
                     "name": "Basalt Pillar",
                     "count": 4
                 },
                 {
+                    "id": 100022,
                     "name": "Valberry",
                     "count": 20
                 },
                 {
+                    "id": 112006,
                     "name": "Stained Mask",
                     "count": 12
                 }
             ],
             "ascend4": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 80000
                 },
                 {
+                    "id": 104173,
                     "name": "Prithiva Topaz Chunk",
                     "count": 3
                 },
                 {
+                    "id": 113009,
                     "name": "Basalt Pillar",
                     "count": 8
                 },
                 {
+                    "id": 100022,
                     "name": "Valberry",
                     "count": 30
                 },
                 {
+                    "id": 112006,
                     "name": "Stained Mask",
                     "count": 18
                 }
             ],
             "ascend5": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 100000
                 },
                 {
+                    "id": 104173,
                     "name": "Prithiva Topaz Chunk",
                     "count": 6
                 },
                 {
+                    "id": 113009,
                     "name": "Basalt Pillar",
                     "count": 12
                 },
                 {
+                    "id": 100022,
                     "name": "Valberry",
                     "count": 45
                 },
                 {
+                    "id": 112007,
                     "name": "Ominous Mask",
                     "count": 12
                 }
             ],
             "ascend6": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 120000
                 },
                 {
+                    "id": 104174,
                     "name": "Prithiva Topaz Gemstone",
                     "count": 6
                 },
                 {
+                    "id": 113009,
                     "name": "Basalt Pillar",
                     "count": 20
                 },
                 {
+                    "id": 100022,
                     "name": "Valberry",
                     "count": 60
                 },
                 {
+                    "id": 112007,
                     "name": "Ominous Mask",
                     "count": 24
                 }
             ]
         },
         "images": {
-            "card": "https://static.wikia.nocookie.net/gensin-impact/images/9/92/Character_Noelle_Card.jpg",
-            "portrait": "https://static.wikia.nocookie.net/gensin-impact/images/a/a5/Character_Noelle_Portrait.png",
-            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Noel.png",
-            "sideicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Noel.png",
-            "cover1": "https://webstatic.hoyoverse.com/upload/contentweb/2022/07/22/c8a5da498d29faa1c8f2e2bfb60efbd5_4363852007421467828.png",
-            "cover2": "https://webstatic.hoyoverse.com/upload/uploadstatic/contentweb/20200325/2020032510564718459.png",
-            "hoyolab-avatar": "https://img-os-static.hoyolab.com/communityWeb/upload/42120a5c88658419970a1e8f71d2b245.png",
             "nameicon": "UI_AvatarIcon_Noel",
-            "nameiconcard": "UI_AvatarIcon_Noel_Card",
+            "namesideicon": "UI_AvatarIcon_Side_Noel",
             "namegachasplash": "UI_Gacha_AvatarImg_Noel",
-            "namegachaslice": "UI_Gacha_AvatarIcon_Noel",
-            "namesideicon": "UI_AvatarIcon_Side_Noel"
+            "namegachaslice": "UI_Gacha_AvatarIcon_Noel"
         },
         "url": {
             "fandom": "https://genshin-impact.fandom.com/wiki/Noelle"
@@ -8944,6 +10156,7 @@ const characters = {
         "version": "1.0"
     },
     "Qiqi": {
+        "id": 10000035,
         "name": "Qiqi",
         "fullname": "Qiqi",
         "title": "Icy Resurrection",
@@ -8969,146 +10182,167 @@ const characters = {
         "costs": {
             "ascend1": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 20000
                 },
                 {
+                    "id": 104161,
                     "name": "Shivada Jade Sliver",
                     "count": 1
                 },
                 {
+                    "id": 100034,
                     "name": "Violetgrass",
                     "count": 3
                 },
                 {
+                    "id": 112008,
                     "name": "Divining Scroll",
                     "count": 3
                 }
             ],
             "ascend2": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 40000
                 },
                 {
+                    "id": 104162,
                     "name": "Shivada Jade Fragment",
                     "count": 3
                 },
                 {
+                    "id": 113010,
                     "name": "Hoarfrost Core",
                     "count": 2
                 },
                 {
+                    "id": 100034,
                     "name": "Violetgrass",
                     "count": 10
                 },
                 {
+                    "id": 112008,
                     "name": "Divining Scroll",
                     "count": 15
                 }
             ],
             "ascend3": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 60000
                 },
                 {
+                    "id": 104162,
                     "name": "Shivada Jade Fragment",
                     "count": 6
                 },
                 {
+                    "id": 113010,
                     "name": "Hoarfrost Core",
                     "count": 4
                 },
                 {
+                    "id": 100034,
                     "name": "Violetgrass",
                     "count": 20
                 },
                 {
+                    "id": 112009,
                     "name": "Sealed Scroll",
                     "count": 12
                 }
             ],
             "ascend4": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 80000
                 },
                 {
+                    "id": 104163,
                     "name": "Shivada Jade Chunk",
                     "count": 3
                 },
                 {
+                    "id": 113010,
                     "name": "Hoarfrost Core",
                     "count": 8
                 },
                 {
+                    "id": 100034,
                     "name": "Violetgrass",
                     "count": 30
                 },
                 {
+                    "id": 112009,
                     "name": "Sealed Scroll",
                     "count": 18
                 }
             ],
             "ascend5": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 100000
                 },
                 {
+                    "id": 104163,
                     "name": "Shivada Jade Chunk",
                     "count": 6
                 },
                 {
+                    "id": 113010,
                     "name": "Hoarfrost Core",
                     "count": 12
                 },
                 {
+                    "id": 100034,
                     "name": "Violetgrass",
                     "count": 45
                 },
                 {
+                    "id": 112010,
                     "name": "Forbidden Curse Scroll",
                     "count": 12
                 }
             ],
             "ascend6": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 120000
                 },
                 {
+                    "id": 104164,
                     "name": "Shivada Jade Gemstone",
                     "count": 6
                 },
                 {
+                    "id": 113010,
                     "name": "Hoarfrost Core",
                     "count": 20
                 },
                 {
+                    "id": 100034,
                     "name": "Violetgrass",
                     "count": 60
                 },
                 {
+                    "id": 112010,
                     "name": "Forbidden Curse Scroll",
                     "count": 24
                 }
             ]
         },
         "images": {
-            "card": "https://static.wikia.nocookie.net/gensin-impact/images/b/b9/Character_Qiqi_Card.jpg",
-            "portrait": "https://static.wikia.nocookie.net/gensin-impact/images/2/2a/Character_Qiqi_Portrait.png",
-            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Qiqi.png",
-            "sideicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Qiqi.png",
-            "cover1": "https://webstatic.hoyoverse.com/upload/uploadstatic/contentweb/20200828/2020082817145380161.png",
-            "cover2": "https://webstatic.hoyoverse.com/upload/uploadstatic/contentweb/20200828/2020082817153781489.png",
-            "hoyolab-avatar": "https://img-os-static.hoyolab.com/communityWeb/upload/d696551575bc6c117462563fc92eae6c.png",
             "nameicon": "UI_AvatarIcon_Qiqi",
-            "nameiconcard": "UI_AvatarIcon_Qiqi_Card",
+            "namesideicon": "UI_AvatarIcon_Side_Qiqi",
             "namegachasplash": "UI_Gacha_AvatarImg_Qiqi",
-            "namegachaslice": "UI_Gacha_AvatarIcon_Qiqi",
-            "namesideicon": "UI_AvatarIcon_Side_Qiqi"
+            "namegachaslice": "UI_Gacha_AvatarIcon_Qiqi"
         },
         "url": {
             "fandom": "https://genshin-impact.fandom.com/wiki/Qiqi"
@@ -9116,6 +10350,7 @@ const characters = {
         "version": "1.0"
     },
     "Raiden Shogun": {
+        "id": 10000052,
         "name": "Raiden Shogun",
         "fullname": "Raiden Shogun",
         "title": "Plane of Euthymia",
@@ -9141,144 +10376,167 @@ const characters = {
         "costs": {
             "ascend1": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 20000
                 },
                 {
+                    "id": 104141,
                     "name": "Vajrada Amethyst Sliver",
                     "count": 1
                 },
                 {
+                    "id": 101208,
                     "name": "Amakumo Fruit",
                     "count": 3
                 },
                 {
+                    "id": 112044,
                     "name": "Old Handguard",
                     "count": 3
                 }
             ],
             "ascend2": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 40000
                 },
                 {
+                    "id": 104142,
                     "name": "Vajrada Amethyst Fragment",
                     "count": 3
                 },
                 {
+                    "id": 113029,
                     "name": "Storm Beads",
                     "count": 2
                 },
                 {
+                    "id": 101208,
                     "name": "Amakumo Fruit",
                     "count": 10
                 },
                 {
+                    "id": 112044,
                     "name": "Old Handguard",
                     "count": 15
                 }
             ],
             "ascend3": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 60000
                 },
                 {
+                    "id": 104142,
                     "name": "Vajrada Amethyst Fragment",
                     "count": 6
                 },
                 {
+                    "id": 113029,
                     "name": "Storm Beads",
                     "count": 4
                 },
                 {
+                    "id": 101208,
                     "name": "Amakumo Fruit",
                     "count": 20
                 },
                 {
+                    "id": 112045,
                     "name": "Kageuchi Handguard",
                     "count": 12
                 }
             ],
             "ascend4": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 80000
                 },
                 {
+                    "id": 104143,
                     "name": "Vajrada Amethyst Chunk",
                     "count": 3
                 },
                 {
+                    "id": 113029,
                     "name": "Storm Beads",
                     "count": 8
                 },
                 {
+                    "id": 101208,
                     "name": "Amakumo Fruit",
                     "count": 30
                 },
                 {
+                    "id": 112045,
                     "name": "Kageuchi Handguard",
                     "count": 18
                 }
             ],
             "ascend5": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 100000
                 },
                 {
+                    "id": 104143,
                     "name": "Vajrada Amethyst Chunk",
                     "count": 6
                 },
                 {
+                    "id": 113029,
                     "name": "Storm Beads",
                     "count": 12
                 },
                 {
+                    "id": 101208,
                     "name": "Amakumo Fruit",
                     "count": 45
                 },
                 {
+                    "id": 112046,
                     "name": "Famed Handguard",
                     "count": 12
                 }
             ],
             "ascend6": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 120000
                 },
                 {
+                    "id": 104144,
                     "name": "Vajrada Amethyst Gemstone",
                     "count": 6
                 },
                 {
+                    "id": 113029,
                     "name": "Storm Beads",
                     "count": 20
                 },
                 {
+                    "id": 101208,
                     "name": "Amakumo Fruit",
                     "count": 60
                 },
                 {
+                    "id": 112046,
                     "name": "Famed Handguard",
                     "count": 24
                 }
             ]
         },
         "images": {
-            "cover1": "https://webstatic.hoyoverse.com/upload/contentweb/2022/07/22/fdcbc9ef8859b7077d92ae38d925e15e_4430297517104014075.png",
-            "cover2": "https://webstatic.hoyoverse.com/upload/contentweb/2022/06/29/dd1f208fdefbf57efcd4ecc2dd6db8af_3309729149523203215.png",
-            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Shougun.png",
-            "sideicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Shougun.png",
-            "hoyolab-avatar": "https://img-os-static.hoyolab.com/communityWeb/upload/af8df0bbece1be9ab90d3cf2cb0ee7bd.png",
             "nameicon": "UI_AvatarIcon_Shougun",
-            "nameiconcard": "UI_AvatarIcon_Shougun_Card",
+            "namesideicon": "UI_AvatarIcon_Side_Shougun",
             "namegachasplash": "UI_Gacha_AvatarImg_Shougun",
-            "namegachaslice": "UI_Gacha_AvatarIcon_Shougun",
-            "namesideicon": "UI_AvatarIcon_Side_Shougun"
+            "namegachaslice": "UI_Gacha_AvatarIcon_Shougun"
         },
         "url": {
             "fandom": "https://genshin-impact.fandom.com/wiki/Raiden_Shogun"
@@ -9286,6 +10544,7 @@ const characters = {
         "version": "2.1"
     },
     "Razor": {
+        "id": 10000020,
         "name": "Razor",
         "fullname": "Razor",
         "title": "Wolf Boy",
@@ -9311,146 +10570,167 @@ const characters = {
         "costs": {
             "ascend1": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 20000
                 },
                 {
+                    "id": 104141,
                     "name": "Vajrada Amethyst Sliver",
                     "count": 1
                 },
                 {
+                    "id": 100021,
                     "name": "Wolfhook",
                     "count": 3
                 },
                 {
+                    "id": 112005,
                     "name": "Damaged Mask",
                     "count": 3
                 }
             ],
             "ascend2": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 40000
                 },
                 {
+                    "id": 104142,
                     "name": "Vajrada Amethyst Fragment",
                     "count": 3
                 },
                 {
+                    "id": 113002,
                     "name": "Lightning Prism",
                     "count": 2
                 },
                 {
+                    "id": 100021,
                     "name": "Wolfhook",
                     "count": 10
                 },
                 {
+                    "id": 112005,
                     "name": "Damaged Mask",
                     "count": 15
                 }
             ],
             "ascend3": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 60000
                 },
                 {
+                    "id": 104142,
                     "name": "Vajrada Amethyst Fragment",
                     "count": 6
                 },
                 {
+                    "id": 113002,
                     "name": "Lightning Prism",
                     "count": 4
                 },
                 {
+                    "id": 100021,
                     "name": "Wolfhook",
                     "count": 20
                 },
                 {
+                    "id": 112006,
                     "name": "Stained Mask",
                     "count": 12
                 }
             ],
             "ascend4": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 80000
                 },
                 {
+                    "id": 104143,
                     "name": "Vajrada Amethyst Chunk",
                     "count": 3
                 },
                 {
+                    "id": 113002,
                     "name": "Lightning Prism",
                     "count": 8
                 },
                 {
+                    "id": 100021,
                     "name": "Wolfhook",
                     "count": 30
                 },
                 {
+                    "id": 112006,
                     "name": "Stained Mask",
                     "count": 18
                 }
             ],
             "ascend5": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 100000
                 },
                 {
+                    "id": 104143,
                     "name": "Vajrada Amethyst Chunk",
                     "count": 6
                 },
                 {
+                    "id": 113002,
                     "name": "Lightning Prism",
                     "count": 12
                 },
                 {
+                    "id": 100021,
                     "name": "Wolfhook",
                     "count": 45
                 },
                 {
+                    "id": 112007,
                     "name": "Ominous Mask",
                     "count": 12
                 }
             ],
             "ascend6": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 120000
                 },
                 {
+                    "id": 104144,
                     "name": "Vajrada Amethyst Gemstone",
                     "count": 6
                 },
                 {
+                    "id": 113002,
                     "name": "Lightning Prism",
                     "count": 20
                 },
                 {
+                    "id": 100021,
                     "name": "Wolfhook",
                     "count": 60
                 },
                 {
+                    "id": 112007,
                     "name": "Ominous Mask",
                     "count": 24
                 }
             ]
         },
         "images": {
-            "card": "https://static.wikia.nocookie.net/gensin-impact/images/6/68/Character_Razor_Card.jpg",
-            "portrait": "https://static.wikia.nocookie.net/gensin-impact/images/1/1e/Character_Razor_Portrait.png",
-            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Razor.png",
-            "sideicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Razor.png",
-            "cover1": "https://webstatic.hoyoverse.com/upload/contentweb/2022/07/22/a1594317bbd0cefeb7da501f9879375b_2033485936169222365.png",
-            "cover2": "https://webstatic.hoyoverse.com/upload/uploadstatic/contentweb/20191018/2019101811585976188.png",
-            "hoyolab-avatar": "https://img-os-static.hoyolab.com/communityWeb/upload/997709a43b4f8d80a58ac14d412bf2e7.png",
             "nameicon": "UI_AvatarIcon_Razor",
-            "nameiconcard": "UI_AvatarIcon_Razor_Card",
+            "namesideicon": "UI_AvatarIcon_Side_Razor",
             "namegachasplash": "UI_Gacha_AvatarImg_Razor",
-            "namegachaslice": "UI_Gacha_AvatarIcon_Razor",
-            "namesideicon": "UI_AvatarIcon_Side_Razor"
+            "namegachaslice": "UI_Gacha_AvatarIcon_Razor"
         },
         "url": {
             "fandom": "https://genshin-impact.fandom.com/wiki/Razor"
@@ -9458,6 +10738,7 @@ const characters = {
         "version": "1.0"
     },
     "Rosaria": {
+        "id": 10000045,
         "name": "Rosaria",
         "fullname": "Rosaria",
         "title": "Thorny Benevolence",
@@ -9483,144 +10764,167 @@ const characters = {
         "costs": {
             "ascend1": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 20000
                 },
                 {
+                    "id": 104161,
                     "name": "Shivada Jade Sliver",
                     "count": 1
                 },
                 {
+                    "id": 100022,
                     "name": "Valberry",
                     "count": 3
                 },
                 {
+                    "id": 112032,
                     "name": "Recruit's Insignia",
                     "count": 3
                 }
             ],
             "ascend2": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 40000
                 },
                 {
+                    "id": 104162,
                     "name": "Shivada Jade Fragment",
                     "count": 3
                 },
                 {
+                    "id": 113010,
                     "name": "Hoarfrost Core",
                     "count": 2
                 },
                 {
+                    "id": 100022,
                     "name": "Valberry",
                     "count": 10
                 },
                 {
+                    "id": 112032,
                     "name": "Recruit's Insignia",
                     "count": 15
                 }
             ],
             "ascend3": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 60000
                 },
                 {
+                    "id": 104162,
                     "name": "Shivada Jade Fragment",
                     "count": 6
                 },
                 {
+                    "id": 113010,
                     "name": "Hoarfrost Core",
                     "count": 4
                 },
                 {
+                    "id": 100022,
                     "name": "Valberry",
                     "count": 20
                 },
                 {
+                    "id": 112033,
                     "name": "Sergeant's Insignia",
                     "count": 12
                 }
             ],
             "ascend4": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 80000
                 },
                 {
+                    "id": 104163,
                     "name": "Shivada Jade Chunk",
                     "count": 3
                 },
                 {
+                    "id": 113010,
                     "name": "Hoarfrost Core",
                     "count": 8
                 },
                 {
+                    "id": 100022,
                     "name": "Valberry",
                     "count": 30
                 },
                 {
+                    "id": 112033,
                     "name": "Sergeant's Insignia",
                     "count": 18
                 }
             ],
             "ascend5": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 100000
                 },
                 {
+                    "id": 104163,
                     "name": "Shivada Jade Chunk",
                     "count": 6
                 },
                 {
+                    "id": 113010,
                     "name": "Hoarfrost Core",
                     "count": 12
                 },
                 {
+                    "id": 100022,
                     "name": "Valberry",
                     "count": 45
                 },
                 {
+                    "id": 112034,
                     "name": "Lieutenant's Insignia",
                     "count": 12
                 }
             ],
             "ascend6": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 120000
                 },
                 {
+                    "id": 104164,
                     "name": "Shivada Jade Gemstone",
                     "count": 6
                 },
                 {
+                    "id": 113010,
                     "name": "Hoarfrost Core",
                     "count": 20
                 },
                 {
+                    "id": 100022,
                     "name": "Valberry",
                     "count": 60
                 },
                 {
+                    "id": 112034,
                     "name": "Lieutenant's Insignia",
                     "count": 24
                 }
             ]
         },
         "images": {
-            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Rosaria.png",
-            "sideicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Rosaria.png",
-            "cover1": "https://webstatic.hoyoverse.com/upload/uploadstatic/contentweb/20210325/2021032515083899881.png",
-            "cover2": "https://webstatic.hoyoverse.com/upload/contentweb/2022/06/28/a41b9128c686df0f18008cc8d03e2710_3923950722138931917.png",
-            "hoyolab-avatar": "https://img-os-static.hoyolab.com/communityWeb/upload/da6ff2b868b5ff680484149c69518001.png",
             "nameicon": "UI_AvatarIcon_Rosaria",
-            "nameiconcard": "UI_AvatarIcon_Rosaria_Card",
+            "namesideicon": "UI_AvatarIcon_Side_Rosaria",
             "namegachasplash": "UI_Gacha_AvatarImg_Rosaria",
-            "namegachaslice": "UI_Gacha_AvatarIcon_Rosaria",
-            "namesideicon": "UI_AvatarIcon_Side_Rosaria"
+            "namegachaslice": "UI_Gacha_AvatarIcon_Rosaria"
         },
         "url": {
             "fandom": "https://genshin-impact.fandom.com/wiki/Rosaria"
@@ -9628,6 +10932,7 @@ const characters = {
         "version": "1.4"
     },
     "Sangonomiya Kokomi": {
+        "id": 10000054,
         "name": "Sangonomiya Kokomi",
         "fullname": "Sangonomiya Kokomi",
         "title": "Pearl of Wisdom",
@@ -9653,144 +10958,167 @@ const characters = {
         "costs": {
             "ascend1": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 20000
                 },
                 {
+                    "id": 104121,
                     "name": "Varunada Lazurite Sliver",
                     "count": 1
                 },
                 {
+                    "id": 101207,
                     "name": "Sango Pearl",
                     "count": 3
                 },
                 {
+                    "id": 112053,
                     "name": "Spectral Husk",
                     "count": 3
                 }
             ],
             "ascend2": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 40000
                 },
                 {
+                    "id": 104122,
                     "name": "Varunada Lazurite Fragment",
                     "count": 3
                 },
                 {
+                    "id": 113028,
                     "name": "Dew of Repudiation",
                     "count": 2
                 },
                 {
+                    "id": 101207,
                     "name": "Sango Pearl",
                     "count": 10
                 },
                 {
+                    "id": 112053,
                     "name": "Spectral Husk",
                     "count": 15
                 }
             ],
             "ascend3": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 60000
                 },
                 {
+                    "id": 104122,
                     "name": "Varunada Lazurite Fragment",
                     "count": 6
                 },
                 {
+                    "id": 113028,
                     "name": "Dew of Repudiation",
                     "count": 4
                 },
                 {
+                    "id": 101207,
                     "name": "Sango Pearl",
                     "count": 20
                 },
                 {
+                    "id": 112054,
                     "name": "Spectral Heart",
                     "count": 12
                 }
             ],
             "ascend4": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 80000
                 },
                 {
+                    "id": 104123,
                     "name": "Varunada Lazurite Chunk",
                     "count": 3
                 },
                 {
+                    "id": 113028,
                     "name": "Dew of Repudiation",
                     "count": 8
                 },
                 {
+                    "id": 101207,
                     "name": "Sango Pearl",
                     "count": 30
                 },
                 {
+                    "id": 112054,
                     "name": "Spectral Heart",
                     "count": 18
                 }
             ],
             "ascend5": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 100000
                 },
                 {
+                    "id": 104123,
                     "name": "Varunada Lazurite Chunk",
                     "count": 6
                 },
                 {
+                    "id": 113028,
                     "name": "Dew of Repudiation",
                     "count": 12
                 },
                 {
+                    "id": 101207,
                     "name": "Sango Pearl",
                     "count": 45
                 },
                 {
+                    "id": 112055,
                     "name": "Spectral Nucleus",
                     "count": 12
                 }
             ],
             "ascend6": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 120000
                 },
                 {
+                    "id": 104124,
                     "name": "Varunada Lazurite Gemstone",
                     "count": 6
                 },
                 {
+                    "id": 113028,
                     "name": "Dew of Repudiation",
                     "count": 20
                 },
                 {
+                    "id": 101207,
                     "name": "Sango Pearl",
                     "count": 60
                 },
                 {
+                    "id": 112055,
                     "name": "Spectral Nucleus",
                     "count": 24
                 }
             ]
         },
         "images": {
-            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Kokomi.png",
-            "sideicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Kokomi.png",
-            "hoyolab-avatar": "https://img-os-static.hoyolab.com/communityWeb/upload/fd94f2afc70ab075c727ce0805fd0201.png",
             "nameicon": "UI_AvatarIcon_Kokomi",
-            "nameiconcard": "UI_AvatarIcon_Kokomi_Card",
-            "namegachasplash": "UI_Gacha_AvatarImg_Kokomi",
-            "namegachaslice": "UI_Gacha_AvatarIcon_Kokomi",
             "namesideicon": "UI_AvatarIcon_Side_Kokomi",
-            "cover1": "https://webstatic.hoyoverse.com/upload/contentweb/2022/07/22/8ca5953fb331d71bc880496f5e8b7745_3256211802655370131.png",
-            "cover2": "https://webstatic.hoyoverse.com/upload/contentweb/2022/07/20/6b5d5658498d64378f6bc3a499be1061_5372222117088715540.png"
+            "namegachasplash": "UI_Gacha_AvatarImg_Kokomi",
+            "namegachaslice": "UI_Gacha_AvatarIcon_Kokomi"
         },
         "url": {
             "fandom": "https://genshin-impact.fandom.com/wiki/Sangonomiya_Kokomi"
@@ -9798,6 +11126,7 @@ const characters = {
         "version": "2.1"
     },
     "Sayu": {
+        "id": 10000053,
         "name": "Sayu",
         "fullname": "Sayu",
         "title": "Mujina Ninja",
@@ -9823,144 +11152,167 @@ const characters = {
         "costs": {
             "ascend1": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 20000
                 },
                 {
+                    "id": 104151,
                     "name": "Vayuda Turquoise Sliver",
                     "count": 1
                 },
                 {
+                    "id": 101203,
                     "name": "Crystal Marrow",
                     "count": 3
                 },
                 {
+                    "id": 112038,
                     "name": "Whopperflower Nectar",
                     "count": 3
                 }
             ],
             "ascend2": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 40000
                 },
                 {
+                    "id": 104152,
                     "name": "Vayuda Turquoise Fragment",
                     "count": 3
                 },
                 {
+                    "id": 113022,
                     "name": "Marionette Core",
                     "count": 2
                 },
                 {
+                    "id": 101203,
                     "name": "Crystal Marrow",
                     "count": 10
                 },
                 {
+                    "id": 112038,
                     "name": "Whopperflower Nectar",
                     "count": 15
                 }
             ],
             "ascend3": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 60000
                 },
                 {
+                    "id": 104152,
                     "name": "Vayuda Turquoise Fragment",
                     "count": 6
                 },
                 {
+                    "id": 113022,
                     "name": "Marionette Core",
                     "count": 4
                 },
                 {
+                    "id": 101203,
                     "name": "Crystal Marrow",
                     "count": 20
                 },
                 {
+                    "id": 112039,
                     "name": "Shimmering Nectar",
                     "count": 12
                 }
             ],
             "ascend4": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 80000
                 },
                 {
+                    "id": 104153,
                     "name": "Vayuda Turquoise Chunk",
                     "count": 3
                 },
                 {
+                    "id": 113022,
                     "name": "Marionette Core",
                     "count": 8
                 },
                 {
+                    "id": 101203,
                     "name": "Crystal Marrow",
                     "count": 30
                 },
                 {
+                    "id": 112039,
                     "name": "Shimmering Nectar",
                     "count": 18
                 }
             ],
             "ascend5": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 100000
                 },
                 {
+                    "id": 104153,
                     "name": "Vayuda Turquoise Chunk",
                     "count": 6
                 },
                 {
+                    "id": 113022,
                     "name": "Marionette Core",
                     "count": 12
                 },
                 {
+                    "id": 101203,
                     "name": "Crystal Marrow",
                     "count": 45
                 },
                 {
+                    "id": 112040,
                     "name": "Energy Nectar",
                     "count": 12
                 }
             ],
             "ascend6": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 120000
                 },
                 {
+                    "id": 104154,
                     "name": "Vayuda Turquoise Gemstone",
                     "count": 6
                 },
                 {
+                    "id": 113022,
                     "name": "Marionette Core",
                     "count": 20
                 },
                 {
+                    "id": 101203,
                     "name": "Crystal Marrow",
                     "count": 60
                 },
                 {
+                    "id": 112040,
                     "name": "Energy Nectar",
                     "count": 24
                 }
             ]
         },
         "images": {
-            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Sayu.png",
-            "sideicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Sayu.png",
-            "cover1": "https://webstatic.hoyoverse.com/upload/contentweb/2022/07/22/982542a6c0e2dfb628a4f087fa6bde5d_2557212138563128041.png",
-            "cover2": "https://webstatic.hoyoverse.com/upload/contentweb/2022/06/29/495b155d1878702b72fed652e17ae61c_4028255231138738337.png",
-            "hoyolab-avatar": "https://img-os-static.hoyolab.com/communityWeb/upload/94b60ed23cb102d39f99335e9658b17d.png",
             "nameicon": "UI_AvatarIcon_Sayu",
-            "nameiconcard": "UI_AvatarIcon_Sayu_Card",
+            "namesideicon": "UI_AvatarIcon_Side_Sayu",
             "namegachasplash": "UI_Gacha_AvatarImg_Sayu",
-            "namegachaslice": "UI_Gacha_AvatarIcon_Sayu",
-            "namesideicon": "UI_AvatarIcon_Side_Sayu"
+            "namegachaslice": "UI_Gacha_AvatarIcon_Sayu"
         },
         "url": {
             "fandom": "https://genshin-impact.fandom.com/wiki/Sayu"
@@ -9968,6 +11320,7 @@ const characters = {
         "version": "2.0"
     },
     "Shenhe": {
+        "id": 10000063,
         "name": "Shenhe",
         "fullname": "Shenhe",
         "title": "Lonesome Transcendence",
@@ -9993,128 +11346,157 @@ const characters = {
         "costs": {
             "ascend1": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 20000
                 },
                 {
+                    "id": 104161,
                     "name": "Shivada Jade Sliver",
                     "count": 1
                 },
                 {
+                    "id": 100031,
                     "name": "Qingxin",
                     "count": 3
                 },
                 {
+                    "id": 112038,
                     "name": "Whopperflower Nectar",
                     "count": 3
                 }
             ],
             "ascend2": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 40000
                 },
                 {
+                    "id": 104162,
                     "name": "Shivada Jade Fragment",
                     "count": 3
                 },
                 {
+                    "id": 113031,
                     "name": "Dragonheir's False Fin",
                     "count": 2
                 },
                 {
+                    "id": 100031,
                     "name": "Qingxin",
                     "count": 10
                 },
                 {
+                    "id": 112038,
                     "name": "Whopperflower Nectar",
                     "count": 15
                 }
             ],
             "ascend3": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 60000
                 },
                 {
+                    "id": 104162,
                     "name": "Shivada Jade Fragment",
                     "count": 6
                 },
                 {
+                    "id": 113031,
                     "name": "Dragonheir's False Fin",
                     "count": 4
                 },
                 {
+                    "id": 100031,
                     "name": "Qingxin",
                     "count": 20
                 },
                 {
+                    "id": 112039,
                     "name": "Shimmering Nectar",
                     "count": 12
                 }
             ],
             "ascend4": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 80000
                 },
                 {
+                    "id": 104163,
                     "name": "Shivada Jade Chunk",
                     "count": 3
                 },
                 {
+                    "id": 113031,
                     "name": "Dragonheir's False Fin",
                     "count": 8
                 },
                 {
+                    "id": 100031,
                     "name": "Qingxin",
                     "count": 30
                 },
                 {
+                    "id": 112039,
                     "name": "Shimmering Nectar",
                     "count": 18
                 }
             ],
             "ascend5": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 100000
                 },
                 {
+                    "id": 104163,
                     "name": "Shivada Jade Chunk",
                     "count": 6
                 },
                 {
+                    "id": 113031,
                     "name": "Dragonheir's False Fin",
                     "count": 12
                 },
                 {
+                    "id": 100031,
                     "name": "Qingxin",
                     "count": 45
                 },
                 {
+                    "id": 112040,
                     "name": "Energy Nectar",
                     "count": 12
                 }
             ],
             "ascend6": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 120000
                 },
                 {
+                    "id": 104164,
                     "name": "Shivada Jade Gemstone",
                     "count": 6
                 },
                 {
+                    "id": 113031,
                     "name": "Dragonheir's False Fin",
                     "count": 20
                 },
                 {
+                    "id": 100031,
                     "name": "Qingxin",
                     "count": 60
                 },
                 {
+                    "id": 112040,
                     "name": "Energy Nectar",
                     "count": 24
                 }
@@ -10122,15 +11504,9 @@ const characters = {
         },
         "images": {
             "nameicon": "UI_AvatarIcon_Shenhe",
-            "nameiconcard": "UI_AvatarIcon_Shenhe_Card",
-            "namegachasplash": "UI_Gacha_AvatarImg_Shenhe",
-            "namegachaslice": "UI_Gacha_AvatarIcon_Shenhe",
-            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Shenhe.png",
             "namesideicon": "UI_AvatarIcon_Side_Shenhe",
-            "sideicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Shenhe.png",
-            "cover1": "https://webstatic.hoyoverse.com/upload/contentweb/2022/07/22/cb95a5b5d57165a4970d801c5dcf0435_6784858246585696705.png",
-            "cover2": "https://webstatic.hoyoverse.com/upload/contentweb/2022/06/29/1346e716a5106af1799a0689dbb447d4_2694372439747645027.png",
-            "hoyolab-avatar": "https://img-os-static.hoyolab.com/communityWeb/upload/443ee6e42959bcdded66f453f50dc807.png"
+            "namegachasplash": "UI_Gacha_AvatarImg_Shenhe",
+            "namegachaslice": "UI_Gacha_AvatarIcon_Shenhe"
         },
         "url": {
             "fandom": "https://genshin-impact.fandom.com/wiki/Shenhe"
@@ -10138,6 +11514,7 @@ const characters = {
         "version": "2.4"
     },
     "Shikanoin Heizou": {
+        "id": 10000059,
         "name": "Shikanoin Heizou",
         "fullname": "Shikanoin Heizou",
         "title": "Analytical Harmony",
@@ -10163,128 +11540,157 @@ const characters = {
         "costs": {
             "ascend1": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 20000
                 },
                 {
+                    "id": 104151,
                     "name": "Vayuda Turquoise Sliver",
                     "count": 1
                 },
                 {
+                    "id": 101201,
                     "name": "Onikabuto",
                     "count": 3
                 },
                 {
+                    "id": 112035,
                     "name": "Treasure Hoarder Insignia",
                     "count": 3
                 }
             ],
             "ascend2": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 40000
                 },
                 {
+                    "id": 104152,
                     "name": "Vayuda Turquoise Fragment",
                     "count": 3
                 },
                 {
+                    "id": 113035,
                     "name": "Runic Fang",
                     "count": 2
                 },
                 {
+                    "id": 101201,
                     "name": "Onikabuto",
                     "count": 10
                 },
                 {
+                    "id": 112035,
                     "name": "Treasure Hoarder Insignia",
                     "count": 15
                 }
             ],
             "ascend3": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 60000
                 },
                 {
+                    "id": 104152,
                     "name": "Vayuda Turquoise Fragment",
                     "count": 6
                 },
                 {
+                    "id": 113035,
                     "name": "Runic Fang",
                     "count": 4
                 },
                 {
+                    "id": 101201,
                     "name": "Onikabuto",
                     "count": 20
                 },
                 {
+                    "id": 112036,
                     "name": "Silver Raven Insignia",
                     "count": 12
                 }
             ],
             "ascend4": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 80000
                 },
                 {
+                    "id": 104153,
                     "name": "Vayuda Turquoise Chunk",
                     "count": 3
                 },
                 {
+                    "id": 113035,
                     "name": "Runic Fang",
                     "count": 8
                 },
                 {
+                    "id": 101201,
                     "name": "Onikabuto",
                     "count": 30
                 },
                 {
+                    "id": 112036,
                     "name": "Silver Raven Insignia",
                     "count": 18
                 }
             ],
             "ascend5": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 100000
                 },
                 {
+                    "id": 104153,
                     "name": "Vayuda Turquoise Chunk",
                     "count": 6
                 },
                 {
+                    "id": 113035,
                     "name": "Runic Fang",
                     "count": 12
                 },
                 {
+                    "id": 101201,
                     "name": "Onikabuto",
                     "count": 45
                 },
                 {
+                    "id": 112037,
                     "name": "Golden Raven Insignia",
                     "count": 12
                 }
             ],
             "ascend6": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 120000
                 },
                 {
+                    "id": 104154,
                     "name": "Vayuda Turquoise Gemstone",
                     "count": 6
                 },
                 {
+                    "id": 113035,
                     "name": "Runic Fang",
                     "count": 20
                 },
                 {
+                    "id": 101201,
                     "name": "Onikabuto",
                     "count": 60
                 },
                 {
+                    "id": 112037,
                     "name": "Golden Raven Insignia",
                     "count": 24
                 }
@@ -10292,19 +11698,14 @@ const characters = {
         },
         "images": {
             "nameicon": "UI_AvatarIcon_Heizo",
-            "nameiconcard": "UI_AvatarIcon_Heizo_Card",
-            "namegachasplash": "UI_Gacha_AvatarImg_Heizo",
-            "namegachaslice": "UI_Gacha_AvatarIcon_Heizo",
-            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Heizo.png",
             "namesideicon": "UI_AvatarIcon_Side_Heizo",
-            "sideicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Heizo.png",
-            "cover1": "https://webstatic.hoyoverse.com/upload/contentweb/2022/07/07/c20ab407d9316480290f7c690836f35c_2106028234032197103.png",
-            "cover2": "https://webstatic.hoyoverse.com/upload/contentweb/2022/07/07/ec07d3511f0ebe503e83ef645acc333c_2276094340014227662.png",
-            "hoyolab-avatar": "https://img-os-static.hoyolab.com/communityWeb/upload/3669a189c4a2b374ee0730a8ae112704.png"
+            "namegachasplash": "UI_Gacha_AvatarImg_Heizo",
+            "namegachaslice": "UI_Gacha_AvatarIcon_Heizo"
         },
         "version": "2.8"
     },
     "Sucrose": {
+        "id": 10000043,
         "name": "Sucrose",
         "fullname": "Sucrose",
         "title": "Harmless Sweetie",
@@ -10330,146 +11731,167 @@ const characters = {
         "costs": {
             "ascend1": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 20000
                 },
                 {
+                    "id": 104151,
                     "name": "Vayuda Turquoise Sliver",
                     "count": 1
                 },
                 {
+                    "id": 100024,
                     "name": "Windwheel Aster",
                     "count": 3
                 },
                 {
+                    "id": 112038,
                     "name": "Whopperflower Nectar",
                     "count": 3
                 }
             ],
             "ascend2": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 40000
                 },
                 {
+                    "id": 104152,
                     "name": "Vayuda Turquoise Fragment",
                     "count": 3
                 },
                 {
+                    "id": 113001,
                     "name": "Hurricane Seed",
                     "count": 2
                 },
                 {
+                    "id": 100024,
                     "name": "Windwheel Aster",
                     "count": 10
                 },
                 {
+                    "id": 112038,
                     "name": "Whopperflower Nectar",
                     "count": 15
                 }
             ],
             "ascend3": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 60000
                 },
                 {
+                    "id": 104152,
                     "name": "Vayuda Turquoise Fragment",
                     "count": 6
                 },
                 {
+                    "id": 113001,
                     "name": "Hurricane Seed",
                     "count": 4
                 },
                 {
+                    "id": 100024,
                     "name": "Windwheel Aster",
                     "count": 20
                 },
                 {
+                    "id": 112039,
                     "name": "Shimmering Nectar",
                     "count": 12
                 }
             ],
             "ascend4": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 80000
                 },
                 {
+                    "id": 104153,
                     "name": "Vayuda Turquoise Chunk",
                     "count": 3
                 },
                 {
+                    "id": 113001,
                     "name": "Hurricane Seed",
                     "count": 8
                 },
                 {
+                    "id": 100024,
                     "name": "Windwheel Aster",
                     "count": 30
                 },
                 {
+                    "id": 112039,
                     "name": "Shimmering Nectar",
                     "count": 18
                 }
             ],
             "ascend5": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 100000
                 },
                 {
+                    "id": 104153,
                     "name": "Vayuda Turquoise Chunk",
                     "count": 6
                 },
                 {
+                    "id": 113001,
                     "name": "Hurricane Seed",
                     "count": 12
                 },
                 {
+                    "id": 100024,
                     "name": "Windwheel Aster",
                     "count": 45
                 },
                 {
+                    "id": 112040,
                     "name": "Energy Nectar",
                     "count": 12
                 }
             ],
             "ascend6": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 120000
                 },
                 {
+                    "id": 104154,
                     "name": "Vayuda Turquoise Gemstone",
                     "count": 6
                 },
                 {
+                    "id": 113001,
                     "name": "Hurricane Seed",
                     "count": 20
                 },
                 {
+                    "id": 100024,
                     "name": "Windwheel Aster",
                     "count": 60
                 },
                 {
+                    "id": 112040,
                     "name": "Energy Nectar",
                     "count": 24
                 }
             ]
         },
         "images": {
-            "card": "https://static.wikia.nocookie.net/gensin-impact/images/2/22/Character_Sucrose_Card.jpg",
-            "portrait": "https://static.wikia.nocookie.net/gensin-impact/images/2/20/Character_Sucrose_Portrait.png",
-            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Sucrose.png",
-            "sideicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Sucrose.png",
-            "cover1": "https://webstatic.hoyoverse.com/upload/contentweb/2022/07/22/448bc697f852e5726717fa2be839eedc_8541949366334435361.png",
-            "cover2": "https://webstatic.hoyoverse.com/upload/uploadstatic/contentweb/20200723/2020072319142329434.png",
-            "hoyolab-avatar": "https://img-os-static.hoyolab.com/communityWeb/upload/4ffb3198b59f3ae36df71d4b938447af.png",
             "nameicon": "UI_AvatarIcon_Sucrose",
-            "nameiconcard": "UI_AvatarIcon_Sucrose_Card",
+            "namesideicon": "UI_AvatarIcon_Side_Sucrose",
             "namegachasplash": "UI_Gacha_AvatarImg_Sucrose",
-            "namegachaslice": "UI_Gacha_AvatarIcon_Sucrose",
-            "namesideicon": "UI_AvatarIcon_Side_Sucrose"
+            "namegachaslice": "UI_Gacha_AvatarIcon_Sucrose"
         },
         "url": {
             "fandom": "https://genshin-impact.fandom.com/wiki/Sucrose"
@@ -10477,6 +11899,7 @@ const characters = {
         "version": "1.0"
     },
     "Tartaglia": {
+        "id": 10000033,
         "name": "Tartaglia",
         "fullname": "Tartaglia",
         "title": "Childe",
@@ -10502,146 +11925,167 @@ const characters = {
         "costs": {
             "ascend1": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 20000
                 },
                 {
+                    "id": 104121,
                     "name": "Varunada Lazurite Sliver",
                     "count": 1
                 },
                 {
+                    "id": 100033,
                     "name": "Starconch",
                     "count": 3
                 },
                 {
+                    "id": 112032,
                     "name": "Recruit's Insignia",
                     "count": 3
                 }
             ],
             "ascend2": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 40000
                 },
                 {
+                    "id": 104122,
                     "name": "Varunada Lazurite Fragment",
                     "count": 3
                 },
                 {
+                    "id": 113012,
                     "name": "Cleansing Heart",
                     "count": 2
                 },
                 {
+                    "id": 100033,
                     "name": "Starconch",
                     "count": 10
                 },
                 {
+                    "id": 112032,
                     "name": "Recruit's Insignia",
                     "count": 15
                 }
             ],
             "ascend3": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 60000
                 },
                 {
+                    "id": 104122,
                     "name": "Varunada Lazurite Fragment",
                     "count": 6
                 },
                 {
+                    "id": 113012,
                     "name": "Cleansing Heart",
                     "count": 4
                 },
                 {
+                    "id": 100033,
                     "name": "Starconch",
                     "count": 20
                 },
                 {
+                    "id": 112033,
                     "name": "Sergeant's Insignia",
                     "count": 12
                 }
             ],
             "ascend4": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 80000
                 },
                 {
+                    "id": 104123,
                     "name": "Varunada Lazurite Chunk",
                     "count": 3
                 },
                 {
+                    "id": 113012,
                     "name": "Cleansing Heart",
                     "count": 8
                 },
                 {
+                    "id": 100033,
                     "name": "Starconch",
                     "count": 30
                 },
                 {
+                    "id": 112033,
                     "name": "Sergeant's Insignia",
                     "count": 18
                 }
             ],
             "ascend5": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 100000
                 },
                 {
+                    "id": 104123,
                     "name": "Varunada Lazurite Chunk",
                     "count": 6
                 },
                 {
+                    "id": 113012,
                     "name": "Cleansing Heart",
                     "count": 12
                 },
                 {
+                    "id": 100033,
                     "name": "Starconch",
                     "count": 45
                 },
                 {
+                    "id": 112034,
                     "name": "Lieutenant's Insignia",
                     "count": 12
                 }
             ],
             "ascend6": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 120000
                 },
                 {
+                    "id": 104124,
                     "name": "Varunada Lazurite Gemstone",
                     "count": 6
                 },
                 {
+                    "id": 113012,
                     "name": "Cleansing Heart",
                     "count": 20
                 },
                 {
+                    "id": 100033,
                     "name": "Starconch",
                     "count": 60
                 },
                 {
+                    "id": 112034,
                     "name": "Lieutenant's Insignia",
                     "count": 24
                 }
             ]
         },
         "images": {
-            "card": "https://static.wikia.nocookie.net/gensin-impact/images/4/4c/Character_Tartaglia_Card.png",
-            "portrait": "https://static.wikia.nocookie.net/gensin-impact/images/3/3a/Character_Tartaglia_Portrait.png",
-            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Tartaglia.png",
-            "sideicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Tartaglia.png",
-            "cover1": "https://webstatic.hoyoverse.com/upload/uploadstatic/contentweb/20201103/2020110321160453386.png",
-            "cover2": "https://webstatic.hoyoverse.com/upload/uploadstatic/contentweb/20201103/2020110321234137061.png",
-            "hoyolab-avatar": "https://img-os-static.hoyolab.com/communityWeb/upload/34ebaeb164a8b447dbe52afaae3e1f63.png",
             "nameicon": "UI_AvatarIcon_Tartaglia",
-            "nameiconcard": "UI_AvatarIcon_Tartaglia_Card",
+            "namesideicon": "UI_AvatarIcon_Side_Tartaglia",
             "namegachasplash": "UI_Gacha_AvatarImg_Tartaglia",
-            "namegachaslice": "UI_Gacha_AvatarIcon_Tartaglia",
-            "namesideicon": "UI_AvatarIcon_Side_Tartaglia"
+            "namegachaslice": "UI_Gacha_AvatarIcon_Tartaglia"
         },
         "url": {
             "fandom": "https://genshin-impact.fandom.com/wiki/Tartaglia"
@@ -10649,6 +12093,7 @@ const characters = {
         "version": "1.1"
     },
     "Thoma": {
+        "id": 10000050,
         "name": "Thoma",
         "fullname": "Thoma",
         "title": "Protector From Afar",
@@ -10674,128 +12119,157 @@ const characters = {
         "costs": {
             "ascend1": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 20000
                 },
                 {
+                    "id": 104111,
                     "name": "Agnidus Agate Sliver",
                     "count": 1
                 },
                 {
+                    "id": 101209,
                     "name": "Fluorescent Fungus",
                     "count": 3
                 },
                 {
+                    "id": 112035,
                     "name": "Treasure Hoarder Insignia",
                     "count": 3
                 }
             ],
             "ascend2": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 40000
                 },
                 {
+                    "id": 104112,
                     "name": "Agnidus Agate Fragment",
                     "count": 3
                 },
                 {
+                    "id": 113024,
                     "name": "Smoldering Pearl",
                     "count": 2
                 },
                 {
+                    "id": 101209,
                     "name": "Fluorescent Fungus",
                     "count": 10
                 },
                 {
+                    "id": 112035,
                     "name": "Treasure Hoarder Insignia",
                     "count": 15
                 }
             ],
             "ascend3": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 60000
                 },
                 {
+                    "id": 104112,
                     "name": "Agnidus Agate Fragment",
                     "count": 6
                 },
                 {
+                    "id": 113024,
                     "name": "Smoldering Pearl",
                     "count": 4
                 },
                 {
+                    "id": 101209,
                     "name": "Fluorescent Fungus",
                     "count": 20
                 },
                 {
+                    "id": 112036,
                     "name": "Silver Raven Insignia",
                     "count": 12
                 }
             ],
             "ascend4": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 80000
                 },
                 {
+                    "id": 104113,
                     "name": "Agnidus Agate Chunk",
                     "count": 3
                 },
                 {
+                    "id": 113024,
                     "name": "Smoldering Pearl",
                     "count": 8
                 },
                 {
+                    "id": 101209,
                     "name": "Fluorescent Fungus",
                     "count": 30
                 },
                 {
+                    "id": 112036,
                     "name": "Silver Raven Insignia",
                     "count": 18
                 }
             ],
             "ascend5": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 100000
                 },
                 {
+                    "id": 104113,
                     "name": "Agnidus Agate Chunk",
                     "count": 6
                 },
                 {
+                    "id": 113024,
                     "name": "Smoldering Pearl",
                     "count": 12
                 },
                 {
+                    "id": 101209,
                     "name": "Fluorescent Fungus",
                     "count": 45
                 },
                 {
+                    "id": 112037,
                     "name": "Golden Raven Insignia",
                     "count": 12
                 }
             ],
             "ascend6": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 120000
                 },
                 {
+                    "id": 104114,
                     "name": "Agnidus Agate Gemstone",
                     "count": 6
                 },
                 {
+                    "id": 113024,
                     "name": "Smoldering Pearl",
                     "count": 20
                 },
                 {
+                    "id": 101209,
                     "name": "Fluorescent Fungus",
                     "count": 60
                 },
                 {
+                    "id": 112037,
                     "name": "Golden Raven Insignia",
                     "count": 24
                 }
@@ -10803,15 +12277,9 @@ const characters = {
         },
         "images": {
             "nameicon": "UI_AvatarIcon_Tohma",
-            "nameiconcard": "UI_AvatarIcon_Tohma_Card",
-            "namegachasplash": "UI_Gacha_AvatarImg_Tohma",
-            "namegachaslice": "UI_Gacha_AvatarIcon_Tohma",
-            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Tohma.png",
             "namesideicon": "UI_AvatarIcon_Side_Tohma",
-            "sideicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Tohma.png",
-            "cover1": "https://webstatic.hoyoverse.com/upload/contentweb/2022/07/22/9d753f7cee1ed5c645340d6396c50c46_5113716789151737645.png",
-            "cover2": "https://webstatic.hoyoverse.com/upload/contentweb/2022/06/29/8c22510df84f59fbe30bc6e338ec01fc_1179446160895359895.png",
-            "hoyolab-avatar": "https://img-os-static.hoyolab.com/communityWeb/upload/3efac14b33f37b567cc3f48f47b3158d.png"
+            "namegachasplash": "UI_Gacha_AvatarImg_Tohma",
+            "namegachaslice": "UI_Gacha_AvatarIcon_Tohma"
         },
         "url": {
             "fandom": "https://genshin-impact.fandom.com/wiki/Thoma"
@@ -10819,6 +12287,7 @@ const characters = {
         "version": "2.2"
     },
     "Tighnari": {
+        "id": 10000069,
         "name": "Tighnari",
         "fullname": "Tighnari",
         "title": "Verdant Strider",
@@ -10844,128 +12313,157 @@ const characters = {
         "costs": {
             "ascend1": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 20000
                 },
                 {
+                    "id": 104131,
                     "name": "Nagadus Emerald Sliver",
                     "count": 1
                 },
                 {
+                    "id": 101215,
                     "name": "Nilotpala Lotus",
                     "count": 3
                 },
                 {
+                    "id": 112059,
                     "name": "Fungal Spores",
                     "count": 3
                 }
             ],
             "ascend2": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 40000
                 },
                 {
+                    "id": 104132,
                     "name": "Nagadus Emerald Fragment",
                     "count": 3
                 },
                 {
+                    "id": 113036,
                     "name": "Majestic Hooked Beak",
                     "count": 2
                 },
                 {
+                    "id": 101215,
                     "name": "Nilotpala Lotus",
                     "count": 10
                 },
                 {
+                    "id": 112059,
                     "name": "Fungal Spores",
                     "count": 15
                 }
             ],
             "ascend3": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 60000
                 },
                 {
+                    "id": 104132,
                     "name": "Nagadus Emerald Fragment",
                     "count": 6
                 },
                 {
+                    "id": 113036,
                     "name": "Majestic Hooked Beak",
                     "count": 4
                 },
                 {
+                    "id": 101215,
                     "name": "Nilotpala Lotus",
                     "count": 20
                 },
                 {
+                    "id": 112060,
                     "name": "Luminescent Pollen",
                     "count": 12
                 }
             ],
             "ascend4": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 80000
                 },
                 {
+                    "id": 104133,
                     "name": "Nagadus Emerald Chunk",
                     "count": 3
                 },
                 {
+                    "id": 113036,
                     "name": "Majestic Hooked Beak",
                     "count": 8
                 },
                 {
+                    "id": 101215,
                     "name": "Nilotpala Lotus",
                     "count": 30
                 },
                 {
+                    "id": 112060,
                     "name": "Luminescent Pollen",
                     "count": 18
                 }
             ],
             "ascend5": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 100000
                 },
                 {
+                    "id": 104133,
                     "name": "Nagadus Emerald Chunk",
                     "count": 6
                 },
                 {
+                    "id": 113036,
                     "name": "Majestic Hooked Beak",
                     "count": 12
                 },
                 {
+                    "id": 101215,
                     "name": "Nilotpala Lotus",
                     "count": 45
                 },
                 {
+                    "id": 112061,
                     "name": "Crystalline Cyst Dust",
                     "count": 12
                 }
             ],
             "ascend6": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 120000
                 },
                 {
+                    "id": 104134,
                     "name": "Nagadus Emerald Gemstone",
                     "count": 6
                 },
                 {
+                    "id": 113036,
                     "name": "Majestic Hooked Beak",
                     "count": 20
                 },
                 {
+                    "id": 101215,
                     "name": "Nilotpala Lotus",
                     "count": 60
                 },
                 {
+                    "id": 112061,
                     "name": "Crystalline Cyst Dust",
                     "count": 24
                 }
@@ -10973,19 +12471,14 @@ const characters = {
         },
         "images": {
             "nameicon": "UI_AvatarIcon_Tighnari",
-            "nameiconcard": "UI_AvatarIcon_Tighnari_Card",
-            "namegachasplash": "UI_Gacha_AvatarImg_Tighnari",
-            "namegachaslice": "UI_Gacha_AvatarIcon_Tighnari",
-            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Tighnari.png",
             "namesideicon": "UI_AvatarIcon_Side_Tighnari",
-            "sideicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Tighnari.png",
-            "cover1": "https://webstatic.hoyoverse.com/upload/contentweb/2022/08/23/a15445b2b2e4443398eabf3b479f49e7_2848574930993769772.png",
-            "cover2": "https://webstatic.hoyoverse.com/upload/contentweb/2022/08/23/b00b62e3b4f10026bfa95bc07896bbd7_4361735007308383481.png",
-            "hoyolab-avatar": "https://img-os-static.hoyolab.com/communityWeb/upload/58163a3ff45260b4b6a5e447e9e1b7eb.png"
+            "namegachasplash": "UI_Gacha_AvatarImg_Tighnari",
+            "namegachaslice": "UI_Gacha_AvatarIcon_Tighnari"
         },
         "version": "3.0"
     },
     "Venti": {
+        "id": 10000022,
         "name": "Venti",
         "fullname": "Venti",
         "title": "Windborne Bard",
@@ -11011,146 +12504,167 @@ const characters = {
         "costs": {
             "ascend1": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 20000
                 },
                 {
+                    "id": 104151,
                     "name": "Vayuda Turquoise Sliver",
                     "count": 1
                 },
                 {
+                    "id": 100023,
                     "name": "Cecilia",
                     "count": 3
                 },
                 {
+                    "id": 112002,
                     "name": "Slime Condensate",
                     "count": 3
                 }
             ],
             "ascend2": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 40000
                 },
                 {
+                    "id": 104152,
                     "name": "Vayuda Turquoise Fragment",
                     "count": 3
                 },
                 {
+                    "id": 113001,
                     "name": "Hurricane Seed",
                     "count": 2
                 },
                 {
+                    "id": 100023,
                     "name": "Cecilia",
                     "count": 10
                 },
                 {
+                    "id": 112002,
                     "name": "Slime Condensate",
                     "count": 15
                 }
             ],
             "ascend3": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 60000
                 },
                 {
+                    "id": 104152,
                     "name": "Vayuda Turquoise Fragment",
                     "count": 6
                 },
                 {
+                    "id": 113001,
                     "name": "Hurricane Seed",
                     "count": 4
                 },
                 {
+                    "id": 100023,
                     "name": "Cecilia",
                     "count": 20
                 },
                 {
+                    "id": 112003,
                     "name": "Slime Secretions",
                     "count": 12
                 }
             ],
             "ascend4": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 80000
                 },
                 {
+                    "id": 104153,
                     "name": "Vayuda Turquoise Chunk",
                     "count": 3
                 },
                 {
+                    "id": 113001,
                     "name": "Hurricane Seed",
                     "count": 8
                 },
                 {
+                    "id": 100023,
                     "name": "Cecilia",
                     "count": 30
                 },
                 {
+                    "id": 112003,
                     "name": "Slime Secretions",
                     "count": 18
                 }
             ],
             "ascend5": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 100000
                 },
                 {
+                    "id": 104153,
                     "name": "Vayuda Turquoise Chunk",
                     "count": 6
                 },
                 {
+                    "id": 113001,
                     "name": "Hurricane Seed",
                     "count": 12
                 },
                 {
+                    "id": 100023,
                     "name": "Cecilia",
                     "count": 45
                 },
                 {
+                    "id": 112004,
                     "name": "Slime Concentrate",
                     "count": 12
                 }
             ],
             "ascend6": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 120000
                 },
                 {
+                    "id": 104154,
                     "name": "Vayuda Turquoise Gemstone",
                     "count": 6
                 },
                 {
+                    "id": 113001,
                     "name": "Hurricane Seed",
                     "count": 20
                 },
                 {
+                    "id": 100023,
                     "name": "Cecilia",
                     "count": 60
                 },
                 {
+                    "id": 112004,
                     "name": "Slime Concentrate",
                     "count": 24
                 }
             ]
         },
         "images": {
-            "card": "https://static.wikia.nocookie.net/gensin-impact/images/7/76/Character_Venti_Card.jpg",
-            "portrait": "https://static.wikia.nocookie.net/gensin-impact/images/c/cf/Character_Venti_Portrait.png",
-            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Venti.png",
-            "sideicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Venti.png",
-            "cover1": "https://webstatic.hoyoverse.com/upload/contentweb/2022/07/22/965e940e6caafe8fbd4bf0e17653000b_4508958090491775485.png",
-            "cover2": "https://webstatic.hoyoverse.com/upload/uploadstatic/contentweb/20191122/2019112211143037621.png",
-            "hoyolab-avatar": "https://img-os-static.hoyolab.com/communityWeb/upload/f42e16fca94650e2e932c093de92ae54.png",
             "nameicon": "UI_AvatarIcon_Venti",
-            "nameiconcard": "UI_AvatarIcon_Venti_Card",
+            "namesideicon": "UI_AvatarIcon_Side_Venti",
             "namegachasplash": "UI_Gacha_AvatarImg_Venti",
-            "namegachaslice": "UI_Gacha_AvatarIcon_Venti",
-            "namesideicon": "UI_AvatarIcon_Side_Venti"
+            "namegachaslice": "UI_Gacha_AvatarIcon_Venti"
         },
         "url": {
             "fandom": "https://genshin-impact.fandom.com/wiki/Venti"
@@ -11158,6 +12672,7 @@ const characters = {
         "version": "1.0"
     },
     "Wanderer": {
+        "id": 10000075,
         "name": "Wanderer",
         "fullname": "Wanderer",
         "title": "Eons Adrift",
@@ -11183,128 +12698,157 @@ const characters = {
         "costs": {
             "ascend1": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 20000
                 },
                 {
+                    "id": 104151,
                     "name": "Vayuda Turquoise Sliver",
                     "count": 1
                 },
                 {
+                    "id": 101213,
                     "name": "Rukkhashava Mushrooms",
                     "count": 3
                 },
                 {
+                    "id": 112044,
                     "name": "Old Handguard",
                     "count": 3
                 }
             ],
             "ascend2": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 40000
                 },
                 {
+                    "id": 104152,
                     "name": "Vayuda Turquoise Fragment",
                     "count": 3
                 },
                 {
+                    "id": 113038,
                     "name": "Perpetual Caliber",
                     "count": 2
                 },
                 {
+                    "id": 101213,
                     "name": "Rukkhashava Mushrooms",
                     "count": 10
                 },
                 {
+                    "id": 112044,
                     "name": "Old Handguard",
                     "count": 15
                 }
             ],
             "ascend3": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 60000
                 },
                 {
+                    "id": 104152,
                     "name": "Vayuda Turquoise Fragment",
                     "count": 6
                 },
                 {
+                    "id": 113038,
                     "name": "Perpetual Caliber",
                     "count": 4
                 },
                 {
+                    "id": 101213,
                     "name": "Rukkhashava Mushrooms",
                     "count": 20
                 },
                 {
+                    "id": 112045,
                     "name": "Kageuchi Handguard",
                     "count": 12
                 }
             ],
             "ascend4": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 80000
                 },
                 {
+                    "id": 104153,
                     "name": "Vayuda Turquoise Chunk",
                     "count": 3
                 },
                 {
+                    "id": 113038,
                     "name": "Perpetual Caliber",
                     "count": 8
                 },
                 {
+                    "id": 101213,
                     "name": "Rukkhashava Mushrooms",
                     "count": 30
                 },
                 {
+                    "id": 112045,
                     "name": "Kageuchi Handguard",
                     "count": 18
                 }
             ],
             "ascend5": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 100000
                 },
                 {
+                    "id": 104153,
                     "name": "Vayuda Turquoise Chunk",
                     "count": 6
                 },
                 {
+                    "id": 113038,
                     "name": "Perpetual Caliber",
                     "count": 12
                 },
                 {
+                    "id": 101213,
                     "name": "Rukkhashava Mushrooms",
                     "count": 45
                 },
                 {
+                    "id": 112046,
                     "name": "Famed Handguard",
                     "count": 12
                 }
             ],
             "ascend6": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 120000
                 },
                 {
+                    "id": 104154,
                     "name": "Vayuda Turquoise Gemstone",
                     "count": 6
                 },
                 {
+                    "id": 113038,
                     "name": "Perpetual Caliber",
                     "count": 20
                 },
                 {
+                    "id": 101213,
                     "name": "Rukkhashava Mushrooms",
                     "count": 60
                 },
                 {
+                    "id": 112046,
                     "name": "Famed Handguard",
                     "count": 24
                 }
@@ -11312,18 +12856,14 @@ const characters = {
         },
         "images": {
             "nameicon": "UI_AvatarIcon_Wanderer",
-            "nameiconcard": "UI_AvatarIcon_Wanderer_Card",
-            "namegachasplash": "UI_Gacha_AvatarImg_Wanderer",
-            "namegachaslice": "UI_Gacha_AvatarIcon_Wanderer",
-            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Wanderer.png",
             "namesideicon": "UI_AvatarIcon_Side_Wanderer",
-            "sideicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Wanderer.png",
-            "cover1": "https://webstatic.hoyoverse.com/upload/contentweb/2022/11/28/d44dde6ef8b8b1963b06a94d3ea0186b_7722607396547674191.png",
-            "cover2": "https://webstatic.hoyoverse.com/upload/contentweb/2022/11/28/11975168707d46fe05531b133bf4bde9_2298638257865854608.png"
+            "namegachasplash": "UI_Gacha_AvatarImg_Wanderer",
+            "namegachaslice": "UI_Gacha_AvatarIcon_Wanderer"
         },
         "version": "3.3"
     },
     "Wriothesley": {
+        "id": 10000086,
         "name": "Wriothesley",
         "fullname": "Wriothesley",
         "title": "Emissary of Solitary Iniquity",
@@ -11349,128 +12889,157 @@ const characters = {
         "costs": {
             "ascend1": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 20000
                 },
                 {
+                    "id": 104161,
                     "name": "Shivada Jade Sliver",
                     "count": 1
                 },
                 {
+                    "id": 101239,
                     "name": "Subdetection Unit",
                     "count": 3
                 },
                 {
+                    "id": 112083,
                     "name": "Meshing Gear",
                     "count": 3
                 }
             ],
             "ascend2": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 40000
                 },
                 {
+                    "id": 104162,
                     "name": "Shivada Jade Fragment",
                     "count": 3
                 },
                 {
+                    "id": 113052,
                     "name": "\"Tourbillon Device\"",
                     "count": 2
                 },
                 {
+                    "id": 101239,
                     "name": "Subdetection Unit",
                     "count": 10
                 },
                 {
+                    "id": 112083,
                     "name": "Meshing Gear",
                     "count": 15
                 }
             ],
             "ascend3": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 60000
                 },
                 {
+                    "id": 104162,
                     "name": "Shivada Jade Fragment",
                     "count": 6
                 },
                 {
+                    "id": 113052,
                     "name": "\"Tourbillon Device\"",
                     "count": 4
                 },
                 {
+                    "id": 101239,
                     "name": "Subdetection Unit",
                     "count": 20
                 },
                 {
+                    "id": 112084,
                     "name": "Mechanical Spur Gear",
                     "count": 12
                 }
             ],
             "ascend4": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 80000
                 },
                 {
+                    "id": 104163,
                     "name": "Shivada Jade Chunk",
                     "count": 3
                 },
                 {
+                    "id": 113052,
                     "name": "\"Tourbillon Device\"",
                     "count": 8
                 },
                 {
+                    "id": 101239,
                     "name": "Subdetection Unit",
                     "count": 30
                 },
                 {
+                    "id": 112084,
                     "name": "Mechanical Spur Gear",
                     "count": 18
                 }
             ],
             "ascend5": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 100000
                 },
                 {
+                    "id": 104163,
                     "name": "Shivada Jade Chunk",
                     "count": 6
                 },
                 {
+                    "id": 113052,
                     "name": "\"Tourbillon Device\"",
                     "count": 12
                 },
                 {
+                    "id": 101239,
                     "name": "Subdetection Unit",
                     "count": 45
                 },
                 {
+                    "id": 112085,
                     "name": "Artificed Dynamic Gear",
                     "count": 12
                 }
             ],
             "ascend6": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 120000
                 },
                 {
+                    "id": 104164,
                     "name": "Shivada Jade Gemstone",
                     "count": 6
                 },
                 {
+                    "id": 113052,
                     "name": "\"Tourbillon Device\"",
                     "count": 20
                 },
                 {
+                    "id": 101239,
                     "name": "Subdetection Unit",
                     "count": 60
                 },
                 {
+                    "id": 112085,
                     "name": "Artificed Dynamic Gear",
                     "count": 24
                 }
@@ -11478,16 +13047,14 @@ const characters = {
         },
         "images": {
             "nameicon": "UI_AvatarIcon_Wriothesley",
-            "nameiconcard": "UI_AvatarIcon_Wriothesley_Card",
-            "namegachasplash": "UI_Gacha_AvatarImg_Wriothesley",
-            "namegachaslice": "UI_Gacha_AvatarIcon_Wriothesley",
-            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Wriothesley.png",
             "namesideicon": "UI_AvatarIcon_Side_Wriothesley",
-            "sideicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Wriothesley.png"
+            "namegachasplash": "UI_Gacha_AvatarImg_Wriothesley",
+            "namegachaslice": "UI_Gacha_AvatarIcon_Wriothesley"
         },
         "version": "4.1"
     },
     "Xiangling": {
+        "id": 10000023,
         "name": "Xiangling",
         "fullname": "Xiangling",
         "title": "Exquisite Delicacy",
@@ -11513,357 +13080,366 @@ const characters = {
         "costs": {
             "ascend1": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 20000
                 },
                 {
+                    "id": 104111,
                     "name": "Agnidus Agate Sliver",
                     "count": 1
                 },
                 {
+                    "id": 100027,
                     "name": "Jueyun Chili",
                     "count": 3
                 },
                 {
+                    "id": 112002,
                     "name": "Slime Condensate",
                     "count": 3
                 }
             ],
             "ascend2": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 40000
                 },
                 {
+                    "id": 104112,
                     "name": "Agnidus Agate Fragment",
                     "count": 3
                 },
                 {
+                    "id": 113011,
                     "name": "Everflame Seed",
                     "count": 2
                 },
                 {
+                    "id": 100027,
                     "name": "Jueyun Chili",
                     "count": 10
                 },
                 {
+                    "id": 112002,
                     "name": "Slime Condensate",
                     "count": 15
                 }
             ],
             "ascend3": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 60000
                 },
                 {
+                    "id": 104112,
                     "name": "Agnidus Agate Fragment",
                     "count": 6
                 },
                 {
+                    "id": 113011,
                     "name": "Everflame Seed",
                     "count": 4
                 },
                 {
+                    "id": 100027,
                     "name": "Jueyun Chili",
                     "count": 20
                 },
                 {
+                    "id": 112003,
                     "name": "Slime Secretions",
                     "count": 12
                 }
             ],
             "ascend4": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 80000
                 },
                 {
+                    "id": 104113,
                     "name": "Agnidus Agate Chunk",
                     "count": 3
                 },
                 {
+                    "id": 113011,
                     "name": "Everflame Seed",
                     "count": 8
                 },
                 {
+                    "id": 100027,
                     "name": "Jueyun Chili",
                     "count": 30
                 },
                 {
+                    "id": 112003,
                     "name": "Slime Secretions",
                     "count": 18
                 }
             ],
             "ascend5": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 100000
                 },
                 {
+                    "id": 104113,
                     "name": "Agnidus Agate Chunk",
                     "count": 6
                 },
                 {
+                    "id": 113011,
                     "name": "Everflame Seed",
                     "count": 12
                 },
                 {
+                    "id": 100027,
                     "name": "Jueyun Chili",
                     "count": 45
                 },
                 {
+                    "id": 112004,
                     "name": "Slime Concentrate",
                     "count": 12
                 }
             ],
             "ascend6": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 120000
                 },
                 {
+                    "id": 104114,
                     "name": "Agnidus Agate Gemstone",
                     "count": 6
                 },
                 {
+                    "id": 113011,
                     "name": "Everflame Seed",
                     "count": 20
                 },
                 {
+                    "id": 100027,
                     "name": "Jueyun Chili",
                     "count": 60
                 },
                 {
+                    "id": 112004,
                     "name": "Slime Concentrate",
                     "count": 24
                 }
             ]
         },
         "images": {
-            "card": "https://static.wikia.nocookie.net/gensin-impact/images/f/f1/Character_Xiangling_Card.jpg",
-            "portrait": "https://static.wikia.nocookie.net/gensin-impact/images/2/22/Character_Xiangling_Portrait.png",
-            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Xiangling.png",
-            "sideicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Xiangling.png",
-            "cover1": "https://webstatic.hoyoverse.com/upload/contentweb/2022/07/22/1169862f9fa35734b06ce09c96dad9ae_3683516363976115873.png",
-            "cover2": "https://webstatic.hoyoverse.com/upload/uploadstatic/contentweb/20200325/2020032510443747968.png",
-            "hoyolab-avatar": "https://img-os-static.hoyolab.com/communityWeb/upload/f406695ce989bda634c6d952eb15493a.png",
             "nameicon": "UI_AvatarIcon_Xiangling",
-            "nameiconcard": "UI_AvatarIcon_Xiangling_Card",
+            "namesideicon": "UI_AvatarIcon_Side_Xiangling",
             "namegachasplash": "UI_Gacha_AvatarImg_Xiangling",
-            "namegachaslice": "UI_Gacha_AvatarIcon_Xiangling",
-            "namesideicon": "UI_AvatarIcon_Side_Xiangling"
+            "namegachaslice": "UI_Gacha_AvatarIcon_Xiangling"
         },
         "url": {
             "fandom": "https://genshin-impact.fandom.com/wiki/Xiangling"
         },
         "version": "1.0"
     },
-
-
-
-
-
-
-    
-
-
-
-
-
-
-
-
     "Xianyun": {
+        "id": 10000093,
         "name": "Xianyun",
         "fullname": "Xianyun",
-        "title": "Exquisite Delicacy",
-        "description": "A renowned chef from Liyue. She's extremely passionate about cooking and excels at making her signature hot and spicy dishes.",
+        "title": "Passerine Herald",
+        "description": "One of the Mighty and Illuminated Adepti of Jueyun, known as \"Cloud Retainer.\" Expert in all kinds of mechanical contraptions, her heart now turns towards the affairs of the mortal world, through which she walks under the name \"Xianyun.\"",
         "rarity": "5",
         "element": "Anemo",
-        "weapontype": "Polearm",
-        "substat": "Elemental Mastery",
+        "weapontype": "Catalyst",
+        "substat": "ATK",
         "gender": "Female",
-        "body": "GIRL",
+        "body": "LADY",
         "association": "LIYUE",
         "region": "Liyue",
-        "affiliation": "Wanmin Restaurant",
-        "birthdaymmdd": "11/2",
-        "birthday": "November 2",
-        "constellation": "Trulla",
+        "affiliation": "Mt. Aocang",
+        "birthdaymmdd": "4/11",
+        "birthday": "April 11",
+        "constellation": "Grus Serena",
         "cv": {
-            "english": "Jackie Lastra",
-            "chinese": "小N",
-            "japanese": "小澤亜李",
-            "korean": "Yoon Ah-young"
+            "english": "Stephanie Panisello",
+            "chinese": "秦紫翼",
+            "japanese": "中臣真菜",
+            "korean": "Kang Si-Hyun"
         },
         "costs": {
             "ascend1": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 20000
                 },
                 {
-                    "name": "Agnidus Agate Sliver",
+                    "id": 104151,
+                    "name": "Vayuda Turquoise Sliver",
                     "count": 1
                 },
                 {
-                    "name": "Jueyun Chili",
+                    "id": 101241,
+                    "name": "Clearwater Jade",
                     "count": 3
                 },
                 {
-                    "name": "Slime Condensate",
+                    "id": 112008,
+                    "name": "Divining Scroll",
                     "count": 3
                 }
             ],
             "ascend2": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 40000
                 },
                 {
-                    "name": "Agnidus Agate Fragment",
+                    "id": 104152,
+                    "name": "Vayuda Turquoise Fragment",
                     "count": 3
                 },
                 {
-                    "name": "Everflame Seed",
+                    "id": 113058,
+                    "name": "Cloudseam Scale",
                     "count": 2
                 },
                 {
-                    "name": "Jueyun Chili",
+                    "id": 101241,
+                    "name": "Clearwater Jade",
                     "count": 10
                 },
                 {
-                    "name": "Slime Condensate",
+                    "id": 112008,
+                    "name": "Divining Scroll",
                     "count": 15
                 }
             ],
             "ascend3": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 60000
                 },
                 {
-                    "name": "Agnidus Agate Fragment",
+                    "id": 104152,
+                    "name": "Vayuda Turquoise Fragment",
                     "count": 6
                 },
                 {
-                    "name": "Everflame Seed",
+                    "id": 113058,
+                    "name": "Cloudseam Scale",
                     "count": 4
                 },
                 {
-                    "name": "Jueyun Chili",
+                    "id": 101241,
+                    "name": "Clearwater Jade",
                     "count": 20
                 },
                 {
-                    "name": "Slime Secretions",
+                    "id": 112009,
+                    "name": "Sealed Scroll",
                     "count": 12
                 }
             ],
             "ascend4": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 80000
                 },
                 {
-                    "name": "Agnidus Agate Chunk",
+                    "id": 104153,
+                    "name": "Vayuda Turquoise Chunk",
                     "count": 3
                 },
                 {
-                    "name": "Everflame Seed",
+                    "id": 113058,
+                    "name": "Cloudseam Scale",
                     "count": 8
                 },
                 {
-                    "name": "Jueyun Chili",
+                    "id": 101241,
+                    "name": "Clearwater Jade",
                     "count": 30
                 },
                 {
-                    "name": "Slime Secretions",
+                    "id": 112009,
+                    "name": "Sealed Scroll",
                     "count": 18
                 }
             ],
             "ascend5": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 100000
                 },
                 {
-                    "name": "Agnidus Agate Chunk",
+                    "id": 104153,
+                    "name": "Vayuda Turquoise Chunk",
                     "count": 6
                 },
                 {
-                    "name": "Everflame Seed",
+                    "id": 113058,
+                    "name": "Cloudseam Scale",
                     "count": 12
                 },
                 {
-                    "name": "Jueyun Chili",
+                    "id": 101241,
+                    "name": "Clearwater Jade",
                     "count": 45
                 },
                 {
-                    "name": "Slime Concentrate",
+                    "id": 112010,
+                    "name": "Forbidden Curse Scroll",
                     "count": 12
                 }
             ],
             "ascend6": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 120000
                 },
                 {
-                    "name": "Agnidus Agate Gemstone",
+                    "id": 104154,
+                    "name": "Vayuda Turquoise Gemstone",
                     "count": 6
                 },
                 {
-                    "name": "Everflame Seed",
+                    "id": 113058,
+                    "name": "Cloudseam Scale",
                     "count": 20
                 },
                 {
-                    "name": "Jueyun Chili",
+                    "id": 101241,
+                    "name": "Clearwater Jade",
                     "count": 60
                 },
                 {
-                    "name": "Slime Concentrate",
+                    "id": 112010,
+                    "name": "Forbidden Curse Scroll",
                     "count": 24
                 }
             ]
         },
         "images": {
-            "card": "https://static.wikia.nocookie.net/gensin-impact/images/f/f1/Character_Liuyun_Card.jpg",
-            "portrait": "https://static.wikia.nocookie.net/gensin-impact/images/2/22/Character_Liuyun_Portrait.png",
-            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Liuyun.png",
-            "sideicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Liuyun.png",
-            "cover1": "https://webstatic.hoyoverse.com/upload/contentweb/2022/07/22/1169862f9fa35734b06ce09c96dad9ae_3683516363976115873.png",
-            "cover2": "https://webstatic.hoyoverse.com/upload/uploadstatic/contentweb/20200325/2020032510443747968.png",
-            "hoyolab-avatar": "https://img-os-static.hoyolab.com/communityWeb/upload/f406695ce989bda634c6d952eb15493a.png",
             "nameicon": "UI_AvatarIcon_Liuyun",
-            "nameiconcard": "UI_AvatarIcon_Liuyun_Card",
+            "namesideicon": "UI_AvatarIcon_Side_Liuyun",
             "namegachasplash": "UI_Gacha_AvatarImg_Liuyun",
-            "namegachaslice": "UI_Gacha_AvatarIcon_Liuyun",
-            "namesideicon": "UI_AvatarIcon_Side_Liuyun"
+            "namegachaslice": "UI_Gacha_AvatarIcon_Liuyun"
         },
-        "url": {
-            "fandom": "https://genshin-impact.fandom.com/wiki/Liuyun"
-        },
-        "version": "1.0"
+        "version": "4.4"
     },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     "Xiao": {
+        "id": 10000026,
         "name": "Xiao",
         "fullname": "Xiao",
         "title": "Vigilant Yaksha",
@@ -11889,146 +13465,167 @@ const characters = {
         "costs": {
             "ascend1": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 20000
                 },
                 {
+                    "id": 104151,
                     "name": "Vayuda Turquoise Sliver",
                     "count": 1
                 },
                 {
+                    "id": 100031,
                     "name": "Qingxin",
                     "count": 3
                 },
                 {
+                    "id": 112002,
                     "name": "Slime Condensate",
                     "count": 3
                 }
             ],
             "ascend2": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 40000
                 },
                 {
+                    "id": 104152,
                     "name": "Vayuda Turquoise Fragment",
                     "count": 3
                 },
                 {
+                    "id": 113016,
                     "name": "Juvenile Jade",
                     "count": 2
                 },
                 {
+                    "id": 100031,
                     "name": "Qingxin",
                     "count": 10
                 },
                 {
+                    "id": 112002,
                     "name": "Slime Condensate",
                     "count": 15
                 }
             ],
             "ascend3": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 60000
                 },
                 {
+                    "id": 104152,
                     "name": "Vayuda Turquoise Fragment",
                     "count": 6
                 },
                 {
+                    "id": 113016,
                     "name": "Juvenile Jade",
                     "count": 4
                 },
                 {
+                    "id": 100031,
                     "name": "Qingxin",
                     "count": 20
                 },
                 {
+                    "id": 112003,
                     "name": "Slime Secretions",
                     "count": 12
                 }
             ],
             "ascend4": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 80000
                 },
                 {
+                    "id": 104153,
                     "name": "Vayuda Turquoise Chunk",
                     "count": 3
                 },
                 {
+                    "id": 113016,
                     "name": "Juvenile Jade",
                     "count": 8
                 },
                 {
+                    "id": 100031,
                     "name": "Qingxin",
                     "count": 30
                 },
                 {
+                    "id": 112003,
                     "name": "Slime Secretions",
                     "count": 18
                 }
             ],
             "ascend5": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 100000
                 },
                 {
+                    "id": 104153,
                     "name": "Vayuda Turquoise Chunk",
                     "count": 6
                 },
                 {
+                    "id": 113016,
                     "name": "Juvenile Jade",
                     "count": 12
                 },
                 {
+                    "id": 100031,
                     "name": "Qingxin",
                     "count": 45
                 },
                 {
+                    "id": 112004,
                     "name": "Slime Concentrate",
                     "count": 12
                 }
             ],
             "ascend6": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 120000
                 },
                 {
+                    "id": 104154,
                     "name": "Vayuda Turquoise Gemstone",
                     "count": 6
                 },
                 {
+                    "id": 113016,
                     "name": "Juvenile Jade",
                     "count": 20
                 },
                 {
+                    "id": 100031,
                     "name": "Qingxin",
                     "count": 60
                 },
                 {
+                    "id": 112004,
                     "name": "Slime Concentrate",
                     "count": 24
                 }
             ]
         },
         "images": {
-            "card": "https://static.wikia.nocookie.net/gensin-impact/images/8/88/Character_Xiao_Card.jpg",
-            "portrait": "https://static.wikia.nocookie.net/gensin-impact/images/1/1e/Character_Xiao_Portrait.png",
-            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Xiao.png",
-            "sideicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Xiao.png",
-            "cover1": "https://webstatic.hoyoverse.com/upload/contentweb/2022/07/22/930f3ce55517e3c711a962c82e4639c0_8691377287489555826.png",
-            "cover2": "https://webstatic.hoyoverse.com/upload/contentweb/2022/07/20/f39029c2d532da642a6a26e939342cfe_5885839034097905642.png",
-            "hoyolab-avatar": "https://img-os-static.hoyolab.com/communityWeb/upload/59cb768b56ebc0143d6d2e37385c934c.png",
             "nameicon": "UI_AvatarIcon_Xiao",
-            "nameiconcard": "UI_AvatarIcon_Xiao_Card",
+            "namesideicon": "UI_AvatarIcon_Side_Xiao",
             "namegachasplash": "UI_Gacha_AvatarImg_Xiao",
-            "namegachaslice": "UI_Gacha_AvatarIcon_Xiao",
-            "namesideicon": "UI_AvatarIcon_Side_Xiao"
+            "namegachaslice": "UI_Gacha_AvatarIcon_Xiao"
         },
         "url": {
             "fandom": "https://genshin-impact.fandom.com/wiki/Xiao"
@@ -12036,6 +13633,7 @@ const characters = {
         "version": "1.3"
     },
     "Xingqiu": {
+        "id": 10000025,
         "name": "Xingqiu",
         "fullname": "Xingqiu",
         "title": "Juvenile Galant",
@@ -12061,146 +13659,167 @@ const characters = {
         "costs": {
             "ascend1": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 20000
                 },
                 {
+                    "id": 104121,
                     "name": "Varunada Lazurite Sliver",
                     "count": 1
                 },
                 {
+                    "id": 100029,
                     "name": "Silk Flower",
                     "count": 3
                 },
                 {
+                    "id": 112005,
                     "name": "Damaged Mask",
                     "count": 3
                 }
             ],
             "ascend2": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 40000
                 },
                 {
+                    "id": 104122,
                     "name": "Varunada Lazurite Fragment",
                     "count": 3
                 },
                 {
+                    "id": 113012,
                     "name": "Cleansing Heart",
                     "count": 2
                 },
                 {
+                    "id": 100029,
                     "name": "Silk Flower",
                     "count": 10
                 },
                 {
+                    "id": 112005,
                     "name": "Damaged Mask",
                     "count": 15
                 }
             ],
             "ascend3": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 60000
                 },
                 {
+                    "id": 104122,
                     "name": "Varunada Lazurite Fragment",
                     "count": 6
                 },
                 {
+                    "id": 113012,
                     "name": "Cleansing Heart",
                     "count": 4
                 },
                 {
+                    "id": 100029,
                     "name": "Silk Flower",
                     "count": 20
                 },
                 {
+                    "id": 112006,
                     "name": "Stained Mask",
                     "count": 12
                 }
             ],
             "ascend4": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 80000
                 },
                 {
+                    "id": 104123,
                     "name": "Varunada Lazurite Chunk",
                     "count": 3
                 },
                 {
+                    "id": 113012,
                     "name": "Cleansing Heart",
                     "count": 8
                 },
                 {
+                    "id": 100029,
                     "name": "Silk Flower",
                     "count": 30
                 },
                 {
+                    "id": 112006,
                     "name": "Stained Mask",
                     "count": 18
                 }
             ],
             "ascend5": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 100000
                 },
                 {
+                    "id": 104123,
                     "name": "Varunada Lazurite Chunk",
                     "count": 6
                 },
                 {
+                    "id": 113012,
                     "name": "Cleansing Heart",
                     "count": 12
                 },
                 {
+                    "id": 100029,
                     "name": "Silk Flower",
                     "count": 45
                 },
                 {
+                    "id": 112007,
                     "name": "Ominous Mask",
                     "count": 12
                 }
             ],
             "ascend6": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 120000
                 },
                 {
+                    "id": 104124,
                     "name": "Varunada Lazurite Gemstone",
                     "count": 6
                 },
                 {
+                    "id": 113012,
                     "name": "Cleansing Heart",
                     "count": 20
                 },
                 {
+                    "id": 100029,
                     "name": "Silk Flower",
                     "count": 60
                 },
                 {
+                    "id": 112007,
                     "name": "Ominous Mask",
                     "count": 24
                 }
             ]
         },
         "images": {
-            "card": "https://static.wikia.nocookie.net/gensin-impact/images/c/c2/Character_Xingqiu_Card.jpg",
-            "portrait": "https://static.wikia.nocookie.net/gensin-impact/images/a/a9/Character_Xingqiu_Portrait.png",
-            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Xingqiu.png",
-            "sideicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Xingqiu.png",
-            "cover1": "https://webstatic.hoyoverse.com/upload/contentweb/2022/07/22/4569d28adb1d8fa4394b8d02886abe7a_3572531197847481774.png",
-            "cover2": "https://webstatic.hoyoverse.com/upload/contentweb/2022/07/20/a8aeddaeb014bd3a5c84bbdacbe5b1b6_3612497182577554079.png",
-            "hoyolab-avatar": "https://img-os-static.hoyolab.com/communityWeb/upload/fa6b94ec6e93d14eef913e441213ffc1.png",
             "nameicon": "UI_AvatarIcon_Xingqiu",
-            "nameiconcard": "UI_AvatarIcon_Xingqiu_Card",
+            "namesideicon": "UI_AvatarIcon_Side_Xingqiu",
             "namegachasplash": "UI_Gacha_AvatarImg_Xingqiu",
-            "namegachaslice": "UI_Gacha_AvatarIcon_Xingqiu",
-            "namesideicon": "UI_AvatarIcon_Side_Xingqiu"
+            "namegachaslice": "UI_Gacha_AvatarIcon_Xingqiu"
         },
         "url": {
             "fandom": "https://genshin-impact.fandom.com/wiki/Xingqiu"
@@ -12208,6 +13827,7 @@ const characters = {
         "version": "1.0"
     },
     "Xinyan": {
+        "id": 10000044,
         "name": "Xinyan",
         "fullname": "Xinyan",
         "title": "Blazing Riff",
@@ -12233,146 +13853,167 @@ const characters = {
         "costs": {
             "ascend1": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 20000
                 },
                 {
+                    "id": 104111,
                     "name": "Agnidus Agate Sliver",
                     "count": 1
                 },
                 {
+                    "id": 100034,
                     "name": "Violetgrass",
                     "count": 3
                 },
                 {
+                    "id": 112035,
                     "name": "Treasure Hoarder Insignia",
                     "count": 3
                 }
             ],
             "ascend2": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 40000
                 },
                 {
+                    "id": 104112,
                     "name": "Agnidus Agate Fragment",
                     "count": 3
                 },
                 {
+                    "id": 113011,
                     "name": "Everflame Seed",
                     "count": 2
                 },
                 {
+                    "id": 100034,
                     "name": "Violetgrass",
                     "count": 10
                 },
                 {
+                    "id": 112035,
                     "name": "Treasure Hoarder Insignia",
                     "count": 15
                 }
             ],
             "ascend3": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 60000
                 },
                 {
+                    "id": 104112,
                     "name": "Agnidus Agate Fragment",
                     "count": 6
                 },
                 {
+                    "id": 113011,
                     "name": "Everflame Seed",
                     "count": 4
                 },
                 {
+                    "id": 100034,
                     "name": "Violetgrass",
                     "count": 20
                 },
                 {
+                    "id": 112036,
                     "name": "Silver Raven Insignia",
                     "count": 12
                 }
             ],
             "ascend4": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 80000
                 },
                 {
+                    "id": 104113,
                     "name": "Agnidus Agate Chunk",
                     "count": 3
                 },
                 {
+                    "id": 113011,
                     "name": "Everflame Seed",
                     "count": 8
                 },
                 {
+                    "id": 100034,
                     "name": "Violetgrass",
                     "count": 30
                 },
                 {
+                    "id": 112036,
                     "name": "Silver Raven Insignia",
                     "count": 18
                 }
             ],
             "ascend5": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 100000
                 },
                 {
+                    "id": 104113,
                     "name": "Agnidus Agate Chunk",
                     "count": 6
                 },
                 {
+                    "id": 113011,
                     "name": "Everflame Seed",
                     "count": 12
                 },
                 {
+                    "id": 100034,
                     "name": "Violetgrass",
                     "count": 45
                 },
                 {
+                    "id": 112037,
                     "name": "Golden Raven Insignia",
                     "count": 12
                 }
             ],
             "ascend6": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 120000
                 },
                 {
+                    "id": 104114,
                     "name": "Agnidus Agate Gemstone",
                     "count": 6
                 },
                 {
+                    "id": 113011,
                     "name": "Everflame Seed",
                     "count": 20
                 },
                 {
+                    "id": 100034,
                     "name": "Violetgrass",
                     "count": 60
                 },
                 {
+                    "id": 112037,
                     "name": "Golden Raven Insignia",
                     "count": 24
                 }
             ]
         },
         "images": {
-            "card": "https://static.wikia.nocookie.net/gensin-impact/images/4/4c/Character_Xinyan_Card.jpeg",
-            "portrait": "https://static.wikia.nocookie.net/gensin-impact/images/c/c8/Character_Xinyan_Portrait.png",
-            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Xinyan.png",
-            "sideicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Xinyan.png",
-            "cover1": "https://webstatic.hoyoverse.com/upload/contentweb/2022/07/22/3deca8e73a03e779087b74ebeac883cb_7694328369896454033.png",
-            "cover2": "https://webstatic.hoyoverse.com/upload/uploadstatic/contentweb/20201125/2020112516125848571.png",
-            "hoyolab-avatar": "https://img-os-static.hoyolab.com/communityWeb/upload/1a30faffb4b122f778b1ab4c7c39d6bf.png",
             "nameicon": "UI_AvatarIcon_Xinyan",
-            "nameiconcard": "UI_AvatarIcon_Xinyan_Card",
+            "namesideicon": "UI_AvatarIcon_Side_Xinyan",
             "namegachasplash": "UI_Gacha_AvatarImg_Xinyan",
-            "namegachaslice": "UI_Gacha_AvatarIcon_Xinyan",
-            "namesideicon": "UI_AvatarIcon_Side_Xinyan"
+            "namegachaslice": "UI_Gacha_AvatarIcon_Xinyan"
         },
         "url": {
             "fandom": "https://genshin-impact.fandom.com/wiki/Xinyan"
@@ -12380,6 +14021,7 @@ const characters = {
         "version": "1.1"
     },
     "Yae Miko": {
+        "id": 10000058,
         "name": "Yae Miko",
         "fullname": "Yae Miko",
         "title": "Astute Amusement",
@@ -12405,144 +14047,167 @@ const characters = {
         "costs": {
             "ascend1": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 20000
                 },
                 {
+                    "id": 104141,
                     "name": "Vajrada Amethyst Sliver",
                     "count": 1
                 },
                 {
+                    "id": 101206,
                     "name": "Sea Ganoderma",
                     "count": 3
                 },
                 {
+                    "id": 112044,
                     "name": "Old Handguard",
                     "count": 3
                 }
             ],
             "ascend2": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 40000
                 },
                 {
+                    "id": 104142,
                     "name": "Vajrada Amethyst Fragment",
                     "count": 3
                 },
                 {
+                    "id": 113031,
                     "name": "Dragonheir's False Fin",
                     "count": 2
                 },
                 {
+                    "id": 101206,
                     "name": "Sea Ganoderma",
                     "count": 10
                 },
                 {
+                    "id": 112044,
                     "name": "Old Handguard",
                     "count": 15
                 }
             ],
             "ascend3": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 60000
                 },
                 {
+                    "id": 104142,
                     "name": "Vajrada Amethyst Fragment",
                     "count": 6
                 },
                 {
+                    "id": 113031,
                     "name": "Dragonheir's False Fin",
                     "count": 4
                 },
                 {
+                    "id": 101206,
                     "name": "Sea Ganoderma",
                     "count": 20
                 },
                 {
+                    "id": 112045,
                     "name": "Kageuchi Handguard",
                     "count": 12
                 }
             ],
             "ascend4": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 80000
                 },
                 {
+                    "id": 104143,
                     "name": "Vajrada Amethyst Chunk",
                     "count": 3
                 },
                 {
+                    "id": 113031,
                     "name": "Dragonheir's False Fin",
                     "count": 8
                 },
                 {
+                    "id": 101206,
                     "name": "Sea Ganoderma",
                     "count": 30
                 },
                 {
+                    "id": 112045,
                     "name": "Kageuchi Handguard",
                     "count": 18
                 }
             ],
             "ascend5": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 100000
                 },
                 {
+                    "id": 104143,
                     "name": "Vajrada Amethyst Chunk",
                     "count": 6
                 },
                 {
+                    "id": 113031,
                     "name": "Dragonheir's False Fin",
                     "count": 12
                 },
                 {
+                    "id": 101206,
                     "name": "Sea Ganoderma",
                     "count": 45
                 },
                 {
+                    "id": 112046,
                     "name": "Famed Handguard",
                     "count": 12
                 }
             ],
             "ascend6": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 120000
                 },
                 {
+                    "id": 104144,
                     "name": "Vajrada Amethyst Gemstone",
                     "count": 6
                 },
                 {
+                    "id": 113031,
                     "name": "Dragonheir's False Fin",
                     "count": 20
                 },
                 {
+                    "id": 101206,
                     "name": "Sea Ganoderma",
                     "count": 60
                 },
                 {
+                    "id": 112046,
                     "name": "Famed Handguard",
                     "count": 24
                 }
             ]
         },
         "images": {
-            "cover1": "https://webstatic.hoyoverse.com/upload/uploadstatic/contentweb/20220208/2022020815142412039.png",
-            "cover2": "https://webstatic.hoyoverse.com/upload/contentweb/2022/06/29/555743f86c50e014c9491740133b98d9_5691798437294925597.png",
             "nameicon": "UI_AvatarIcon_Yae",
-            "nameiconcard": "UI_AvatarIcon_Yae_Card",
-            "namegachasplash": "UI_Gacha_AvatarImg_Yae",
-            "namegachaslice": "UI_Gacha_AvatarIcon_Yae",
-            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Yae.png",
             "namesideicon": "UI_AvatarIcon_Side_Yae",
-            "sideicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Yae.png",
-            "hoyolab-avatar": "https://img-os-static.hoyolab.com/communityWeb/upload/158a1580973af357e2181114631fae6f.png"
+            "namegachasplash": "UI_Gacha_AvatarImg_Yae",
+            "namegachaslice": "UI_Gacha_AvatarIcon_Yae"
         },
         "url": {
             "fandom": "https://genshin-impact.fandom.com/wiki/Yae_Miko"
@@ -12550,6 +14215,7 @@ const characters = {
         "version": "2.5"
     },
     "Yanfei": {
+        "id": 10000048,
         "name": "Yanfei",
         "fullname": "Yanfei",
         "title": "Wise Innocence",
@@ -12575,144 +14241,167 @@ const characters = {
         "costs": {
             "ascend1": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 20000
                 },
                 {
+                    "id": 104111,
                     "name": "Agnidus Agate Sliver",
                     "count": 1
                 },
                 {
+                    "id": 100028,
                     "name": "Noctilucous Jade",
                     "count": 3
                 },
                 {
+                    "id": 112035,
                     "name": "Treasure Hoarder Insignia",
                     "count": 3
                 }
             ],
             "ascend2": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 40000
                 },
                 {
+                    "id": 104112,
                     "name": "Agnidus Agate Fragment",
                     "count": 3
                 },
                 {
+                    "id": 113016,
                     "name": "Juvenile Jade",
                     "count": 2
                 },
                 {
+                    "id": 100028,
                     "name": "Noctilucous Jade",
                     "count": 10
                 },
                 {
+                    "id": 112035,
                     "name": "Treasure Hoarder Insignia",
                     "count": 15
                 }
             ],
             "ascend3": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 60000
                 },
                 {
+                    "id": 104112,
                     "name": "Agnidus Agate Fragment",
                     "count": 6
                 },
                 {
+                    "id": 113016,
                     "name": "Juvenile Jade",
                     "count": 4
                 },
                 {
+                    "id": 100028,
                     "name": "Noctilucous Jade",
                     "count": 20
                 },
                 {
+                    "id": 112036,
                     "name": "Silver Raven Insignia",
                     "count": 12
                 }
             ],
             "ascend4": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 80000
                 },
                 {
+                    "id": 104113,
                     "name": "Agnidus Agate Chunk",
                     "count": 3
                 },
                 {
+                    "id": 113016,
                     "name": "Juvenile Jade",
                     "count": 8
                 },
                 {
+                    "id": 100028,
                     "name": "Noctilucous Jade",
                     "count": 30
                 },
                 {
+                    "id": 112036,
                     "name": "Silver Raven Insignia",
                     "count": 18
                 }
             ],
             "ascend5": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 100000
                 },
                 {
+                    "id": 104113,
                     "name": "Agnidus Agate Chunk",
                     "count": 6
                 },
                 {
+                    "id": 113016,
                     "name": "Juvenile Jade",
                     "count": 12
                 },
                 {
+                    "id": 100028,
                     "name": "Noctilucous Jade",
                     "count": 45
                 },
                 {
+                    "id": 112037,
                     "name": "Golden Raven Insignia",
                     "count": 12
                 }
             ],
             "ascend6": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 120000
                 },
                 {
+                    "id": 104114,
                     "name": "Agnidus Agate Gemstone",
                     "count": 6
                 },
                 {
+                    "id": 113016,
                     "name": "Juvenile Jade",
                     "count": 20
                 },
                 {
+                    "id": 100028,
                     "name": "Noctilucous Jade",
                     "count": 60
                 },
                 {
+                    "id": 112037,
                     "name": "Golden Raven Insignia",
                     "count": 24
                 }
             ]
         },
         "images": {
-            "cover1": "https://webstatic.hoyoverse.com/upload/contentweb/2022/07/22/494f7aa4668cb7fe2d6d0463e7cc835f_4533806775377872955.png",
-            "cover2": "https://webstatic.hoyoverse.com/upload/contentweb/2022/06/29/b59981536d706e05ef5d8074f813933e_1795113348526016806.png",
-            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Feiyan.png",
-            "sideicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Feiyan.png",
-            "hoyolab-avatar": "https://img-os-static.hoyolab.com/communityWeb/upload/75c1d48b2fa08bd4c583501a3bb476d3.png",
             "nameicon": "UI_AvatarIcon_Feiyan",
-            "nameiconcard": "UI_AvatarIcon_Feiyan_Card",
+            "namesideicon": "UI_AvatarIcon_Side_Feiyan",
             "namegachasplash": "UI_Gacha_AvatarImg_Feiyan",
-            "namegachaslice": "UI_Gacha_AvatarIcon_Feiyan",
-            "namesideicon": "UI_AvatarIcon_Side_Feiyan"
+            "namegachaslice": "UI_Gacha_AvatarIcon_Feiyan"
         },
         "url": {
             "fandom": "https://genshin-impact.fandom.com/wiki/Yanfei"
@@ -12720,6 +14409,7 @@ const characters = {
         "version": "1.5"
     },
     "Yaoyao": {
+        "id": 10000077,
         "name": "Yaoyao",
         "fullname": "Yaoyao",
         "title": "Burgeoning Grace",
@@ -12745,147 +14435,172 @@ const characters = {
         "costs": {
             "ascend1": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 20000
                 },
                 {
+                    "id": 104131,
                     "name": "Nagadus Emerald Sliver",
                     "count": 1
                 },
                 {
+                    "id": 100027,
                     "name": "Jueyun Chili",
                     "count": 3
                 },
                 {
+                    "id": 112002,
                     "name": "Slime Condensate",
                     "count": 3
                 }
             ],
             "ascend2": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 40000
                 },
                 {
+                    "id": 104132,
                     "name": "Nagadus Emerald Fragment",
                     "count": 3
                 },
                 {
+                    "id": 113040,
                     "name": "Quelled Creeper",
                     "count": 2
                 },
                 {
+                    "id": 100027,
                     "name": "Jueyun Chili",
                     "count": 10
                 },
                 {
+                    "id": 112002,
                     "name": "Slime Condensate",
                     "count": 15
                 }
             ],
             "ascend3": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 60000
                 },
                 {
+                    "id": 104132,
                     "name": "Nagadus Emerald Fragment",
                     "count": 6
                 },
                 {
+                    "id": 113040,
                     "name": "Quelled Creeper",
                     "count": 4
                 },
                 {
+                    "id": 100027,
                     "name": "Jueyun Chili",
                     "count": 20
                 },
                 {
+                    "id": 112003,
                     "name": "Slime Secretions",
                     "count": 12
                 }
             ],
             "ascend4": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 80000
                 },
                 {
+                    "id": 104133,
                     "name": "Nagadus Emerald Chunk",
                     "count": 3
                 },
                 {
+                    "id": 113040,
                     "name": "Quelled Creeper",
                     "count": 8
                 },
                 {
+                    "id": 100027,
                     "name": "Jueyun Chili",
                     "count": 30
                 },
                 {
+                    "id": 112003,
                     "name": "Slime Secretions",
                     "count": 18
                 }
             ],
             "ascend5": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 100000
                 },
                 {
+                    "id": 104133,
                     "name": "Nagadus Emerald Chunk",
                     "count": 6
                 },
                 {
+                    "id": 113040,
                     "name": "Quelled Creeper",
                     "count": 12
                 },
                 {
+                    "id": 100027,
                     "name": "Jueyun Chili",
                     "count": 45
                 },
                 {
+                    "id": 112004,
                     "name": "Slime Concentrate",
                     "count": 12
                 }
             ],
             "ascend6": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 120000
                 },
                 {
+                    "id": 104134,
                     "name": "Nagadus Emerald Gemstone",
                     "count": 6
                 },
                 {
+                    "id": 113040,
                     "name": "Quelled Creeper",
                     "count": 20
                 },
                 {
+                    "id": 100027,
                     "name": "Jueyun Chili",
                     "count": 60
                 },
                 {
+                    "id": 112004,
                     "name": "Slime Concentrate",
                     "count": 24
                 }
             ]
         },
         "images": {
-            "cover1": "https://webstatic.hoyoverse.com/upload/op-public/2023/01/16/52985680295fe1bf3b9eebbbace892f6_2359952543393457185.png",
-            "cover2": "https://webstatic.hoyoverse.com/upload/op-public/2023/01/16/21adb9a49874e165414e47d92bbf665c_4562109367337128675.png",
             "nameicon": "UI_AvatarIcon_Yaoyao",
-            "nameiconcard": "UI_AvatarIcon_Yaoyao_Card",
-            "namegachasplash": "UI_Gacha_AvatarImg_Yaoyao",
-            "namegachaslice": "UI_Gacha_AvatarIcon_Yaoyao",
-            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Yaoyao.png",
             "namesideicon": "UI_AvatarIcon_Side_Yaoyao",
-            "sideicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Yaoyao.png"
+            "namegachasplash": "UI_Gacha_AvatarImg_Yaoyao",
+            "namegachaslice": "UI_Gacha_AvatarIcon_Yaoyao"
         },
         "version": "3.4"
     },
     "Yelan": {
+        "id": 10000060,
         "name": "Yelan",
         "fullname": "Yelan",
         "title": "Valley Orchid",
@@ -12911,128 +14626,157 @@ const characters = {
         "costs": {
             "ascend1": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 20000
                 },
                 {
+                    "id": 104121,
                     "name": "Varunada Lazurite Sliver",
                     "count": 1
                 },
                 {
+                    "id": 100033,
                     "name": "Starconch",
                     "count": 3
                 },
                 {
+                    "id": 112032,
                     "name": "Recruit's Insignia",
                     "count": 3
                 }
             ],
             "ascend2": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 40000
                 },
                 {
+                    "id": 104122,
                     "name": "Varunada Lazurite Fragment",
                     "count": 3
                 },
                 {
+                    "id": 113035,
                     "name": "Runic Fang",
                     "count": 2
                 },
                 {
+                    "id": 100033,
                     "name": "Starconch",
                     "count": 10
                 },
                 {
+                    "id": 112032,
                     "name": "Recruit's Insignia",
                     "count": 15
                 }
             ],
             "ascend3": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 60000
                 },
                 {
+                    "id": 104122,
                     "name": "Varunada Lazurite Fragment",
                     "count": 6
                 },
                 {
+                    "id": 113035,
                     "name": "Runic Fang",
                     "count": 4
                 },
                 {
+                    "id": 100033,
                     "name": "Starconch",
                     "count": 20
                 },
                 {
+                    "id": 112033,
                     "name": "Sergeant's Insignia",
                     "count": 12
                 }
             ],
             "ascend4": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 80000
                 },
                 {
+                    "id": 104123,
                     "name": "Varunada Lazurite Chunk",
                     "count": 3
                 },
                 {
+                    "id": 113035,
                     "name": "Runic Fang",
                     "count": 8
                 },
                 {
+                    "id": 100033,
                     "name": "Starconch",
                     "count": 30
                 },
                 {
+                    "id": 112033,
                     "name": "Sergeant's Insignia",
                     "count": 18
                 }
             ],
             "ascend5": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 100000
                 },
                 {
+                    "id": 104123,
                     "name": "Varunada Lazurite Chunk",
                     "count": 6
                 },
                 {
+                    "id": 113035,
                     "name": "Runic Fang",
                     "count": 12
                 },
                 {
+                    "id": 100033,
                     "name": "Starconch",
                     "count": 45
                 },
                 {
+                    "id": 112034,
                     "name": "Lieutenant's Insignia",
                     "count": 12
                 }
             ],
             "ascend6": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 120000
                 },
                 {
+                    "id": 104124,
                     "name": "Varunada Lazurite Gemstone",
                     "count": 6
                 },
                 {
+                    "id": 113035,
                     "name": "Runic Fang",
                     "count": 20
                 },
                 {
+                    "id": 100033,
                     "name": "Starconch",
                     "count": 60
                 },
                 {
+                    "id": 112034,
                     "name": "Lieutenant's Insignia",
                     "count": 24
                 }
@@ -13040,19 +14784,14 @@ const characters = {
         },
         "images": {
             "nameicon": "UI_AvatarIcon_Yelan",
-            "nameiconcard": "UI_AvatarIcon_Yelan_Card",
-            "namegachasplash": "UI_Gacha_AvatarImg_Yelan",
-            "namegachaslice": "UI_Gacha_AvatarIcon_Yelan",
-            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Yelan.png",
             "namesideicon": "UI_AvatarIcon_Side_Yelan",
-            "sideicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Yelan.png",
-            "cover1": "https://webstatic.hoyoverse.com/upload/contentweb/2022/07/22/073932dc472fa00623cefb70a18df516_1986871510991586178.png",
-            "cover2": "https://webstatic.hoyoverse.com/upload/contentweb/2022/05/18/8116c096a9c49f2fab7c68a5c8cdad51_1511721754149629825.png",
-            "hoyolab-avatar": "https://img-os-static.hoyolab.com/communityWeb/upload/ab71dda11563ba0a54261e025684fd99.png"
+            "namegachasplash": "UI_Gacha_AvatarImg_Yelan",
+            "namegachaslice": "UI_Gacha_AvatarIcon_Yelan"
         },
         "version": "2.7"
     },
     "Yoimiya": {
+        "id": 10000049,
         "name": "Yoimiya",
         "fullname": "Yoimiya",
         "title": "Frolicking Flames",
@@ -13078,144 +14817,167 @@ const characters = {
         "costs": {
             "ascend1": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 20000
                 },
                 {
+                    "id": 104111,
                     "name": "Agnidus Agate Sliver",
                     "count": 1
                 },
                 {
+                    "id": 101205,
                     "name": "Naku Weed",
                     "count": 3
                 },
                 {
+                    "id": 112008,
                     "name": "Divining Scroll",
                     "count": 3
                 }
             ],
             "ascend2": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 40000
                 },
                 {
+                    "id": 104112,
                     "name": "Agnidus Agate Fragment",
                     "count": 3
                 },
                 {
+                    "id": 113024,
                     "name": "Smoldering Pearl",
                     "count": 2
                 },
                 {
+                    "id": 101205,
                     "name": "Naku Weed",
                     "count": 10
                 },
                 {
+                    "id": 112008,
                     "name": "Divining Scroll",
                     "count": 15
                 }
             ],
             "ascend3": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 60000
                 },
                 {
+                    "id": 104112,
                     "name": "Agnidus Agate Fragment",
                     "count": 6
                 },
                 {
+                    "id": 113024,
                     "name": "Smoldering Pearl",
                     "count": 4
                 },
                 {
+                    "id": 101205,
                     "name": "Naku Weed",
                     "count": 20
                 },
                 {
+                    "id": 112009,
                     "name": "Sealed Scroll",
                     "count": 12
                 }
             ],
             "ascend4": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 80000
                 },
                 {
+                    "id": 104113,
                     "name": "Agnidus Agate Chunk",
                     "count": 3
                 },
                 {
+                    "id": 113024,
                     "name": "Smoldering Pearl",
                     "count": 8
                 },
                 {
+                    "id": 101205,
                     "name": "Naku Weed",
                     "count": 30
                 },
                 {
+                    "id": 112009,
                     "name": "Sealed Scroll",
                     "count": 18
                 }
             ],
             "ascend5": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 100000
                 },
                 {
+                    "id": 104113,
                     "name": "Agnidus Agate Chunk",
                     "count": 6
                 },
                 {
+                    "id": 113024,
                     "name": "Smoldering Pearl",
                     "count": 12
                 },
                 {
+                    "id": 101205,
                     "name": "Naku Weed",
                     "count": 45
                 },
                 {
+                    "id": 112010,
                     "name": "Forbidden Curse Scroll",
                     "count": 12
                 }
             ],
             "ascend6": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 120000
                 },
                 {
+                    "id": 104114,
                     "name": "Agnidus Agate Gemstone",
                     "count": 6
                 },
                 {
+                    "id": 113024,
                     "name": "Smoldering Pearl",
                     "count": 20
                 },
                 {
+                    "id": 101205,
                     "name": "Naku Weed",
                     "count": 60
                 },
                 {
+                    "id": 112010,
                     "name": "Forbidden Curse Scroll",
                     "count": 24
                 }
             ]
         },
         "images": {
-            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Yoimiya.png",
-            "sideicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Yoimiya.png",
-            "cover1": "https://webstatic.hoyoverse.com/upload/contentweb/2022/07/22/593e6a6d5d8836ca2ab5c27a98593e58_2669475025677636265.png",
-            "cover2": "https://webstatic.hoyoverse.com/upload/contentweb/2022/06/29/477828c8143db56cf4bf8f4794dc366a_6260604716479682113.png",
-            "hoyolab-avatar": "https://img-os-static.hoyolab.com/communityWeb/upload/7c15028cb304de316e2cdb584bc33ff3.png",
             "nameicon": "UI_AvatarIcon_Yoimiya",
-            "nameiconcard": "UI_AvatarIcon_Yoimiya_Card",
+            "namesideicon": "UI_AvatarIcon_Side_Yoimiya",
             "namegachasplash": "UI_Gacha_AvatarImg_Yoimiya",
-            "namegachaslice": "UI_Gacha_AvatarIcon_Yoimiya",
-            "namesideicon": "UI_AvatarIcon_Side_Yoimiya"
+            "namegachaslice": "UI_Gacha_AvatarIcon_Yoimiya"
         },
         "url": {
             "fandom": "https://genshin-impact.fandom.com/wiki/Yoimiya"
@@ -13223,6 +14985,7 @@ const characters = {
         "version": "2.0"
     },
     "Yun Jin": {
+        "id": 10000064,
         "name": "Yun Jin",
         "fullname": "Yun Jin",
         "title": "Stage Lucida",
@@ -13248,128 +15011,157 @@ const characters = {
         "costs": {
             "ascend1": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 20000
                 },
                 {
+                    "id": 104171,
                     "name": "Prithiva Topaz Sliver",
                     "count": 1
                 },
                 {
+                    "id": 100030,
                     "name": "Glaze Lily",
                     "count": 3
                 },
                 {
+                    "id": 112005,
                     "name": "Damaged Mask",
                     "count": 3
                 }
             ],
             "ascend2": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 40000
                 },
                 {
+                    "id": 104172,
                     "name": "Prithiva Topaz Fragment",
                     "count": 3
                 },
                 {
+                    "id": 113030,
                     "name": "Riftborn Regalia",
                     "count": 2
                 },
                 {
+                    "id": 100030,
                     "name": "Glaze Lily",
                     "count": 10
                 },
                 {
+                    "id": 112005,
                     "name": "Damaged Mask",
                     "count": 15
                 }
             ],
             "ascend3": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 60000
                 },
                 {
+                    "id": 104172,
                     "name": "Prithiva Topaz Fragment",
                     "count": 6
                 },
                 {
+                    "id": 113030,
                     "name": "Riftborn Regalia",
                     "count": 4
                 },
                 {
+                    "id": 100030,
                     "name": "Glaze Lily",
                     "count": 20
                 },
                 {
+                    "id": 112006,
                     "name": "Stained Mask",
                     "count": 12
                 }
             ],
             "ascend4": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 80000
                 },
                 {
+                    "id": 104173,
                     "name": "Prithiva Topaz Chunk",
                     "count": 3
                 },
                 {
+                    "id": 113030,
                     "name": "Riftborn Regalia",
                     "count": 8
                 },
                 {
+                    "id": 100030,
                     "name": "Glaze Lily",
                     "count": 30
                 },
                 {
+                    "id": 112006,
                     "name": "Stained Mask",
                     "count": 18
                 }
             ],
             "ascend5": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 100000
                 },
                 {
+                    "id": 104173,
                     "name": "Prithiva Topaz Chunk",
                     "count": 6
                 },
                 {
+                    "id": 113030,
                     "name": "Riftborn Regalia",
                     "count": 12
                 },
                 {
+                    "id": 100030,
                     "name": "Glaze Lily",
                     "count": 45
                 },
                 {
+                    "id": 112007,
                     "name": "Ominous Mask",
                     "count": 12
                 }
             ],
             "ascend6": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 120000
                 },
                 {
+                    "id": 104174,
                     "name": "Prithiva Topaz Gemstone",
                     "count": 6
                 },
                 {
+                    "id": 113030,
                     "name": "Riftborn Regalia",
                     "count": 20
                 },
                 {
+                    "id": 100030,
                     "name": "Glaze Lily",
                     "count": 60
                 },
                 {
+                    "id": 112007,
                     "name": "Ominous Mask",
                     "count": 24
                 }
@@ -13377,15 +15169,9 @@ const characters = {
         },
         "images": {
             "nameicon": "UI_AvatarIcon_Yunjin",
-            "nameiconcard": "UI_AvatarIcon_Yunjin_Card",
-            "namegachasplash": "UI_Gacha_AvatarImg_Yunjin",
-            "namegachaslice": "UI_Gacha_AvatarIcon_Yunjin",
-            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Yunjin.png",
             "namesideicon": "UI_AvatarIcon_Side_Yunjin",
-            "sideicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Yunjin.png",
-            "cover1": "https://webstatic.hoyoverse.com/upload/contentweb/2022/07/22/974d7a34d3cc71f74ac98e50d4b935fc_1119374554505290278.png",
-            "cover2": "https://webstatic.hoyoverse.com/upload/contentweb/2022/06/29/d6dfc43ded6b12754f21ff3e1ba27c6a_4483363052773458916.png",
-            "hoyolab-avatar": "https://img-os-static.hoyolab.com/communityWeb/upload/e8694b5926d1f18752a07f07c6965316.png"
+            "namegachasplash": "UI_Gacha_AvatarImg_Yunjin",
+            "namegachaslice": "UI_Gacha_AvatarIcon_Yunjin"
         },
         "url": {
             "fandom": "https://genshin-impact.fandom.com/wiki/Yun_Jin"
@@ -13393,6 +15179,7 @@ const characters = {
         "version": "2.4"
     },
     "Zhongli": {
+        "id": 10000030,
         "name": "Zhongli",
         "fullname": "Zhongli",
         "title": "Vago Mundo",
@@ -13418,146 +15205,167 @@ const characters = {
         "costs": {
             "ascend1": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 20000
                 },
                 {
+                    "id": 104171,
                     "name": "Prithiva Topaz Sliver",
                     "count": 1
                 },
                 {
+                    "id": 100058,
                     "name": "Cor Lapis",
                     "count": 3
                 },
                 {
+                    "id": 112002,
                     "name": "Slime Condensate",
                     "count": 3
                 }
             ],
             "ascend2": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 40000
                 },
                 {
+                    "id": 104172,
                     "name": "Prithiva Topaz Fragment",
                     "count": 3
                 },
                 {
+                    "id": 113009,
                     "name": "Basalt Pillar",
                     "count": 2
                 },
                 {
+                    "id": 100058,
                     "name": "Cor Lapis",
                     "count": 10
                 },
                 {
+                    "id": 112002,
                     "name": "Slime Condensate",
                     "count": 15
                 }
             ],
             "ascend3": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 60000
                 },
                 {
+                    "id": 104172,
                     "name": "Prithiva Topaz Fragment",
                     "count": 6
                 },
                 {
+                    "id": 113009,
                     "name": "Basalt Pillar",
                     "count": 4
                 },
                 {
+                    "id": 100058,
                     "name": "Cor Lapis",
                     "count": 20
                 },
                 {
+                    "id": 112003,
                     "name": "Slime Secretions",
                     "count": 12
                 }
             ],
             "ascend4": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 80000
                 },
                 {
+                    "id": 104173,
                     "name": "Prithiva Topaz Chunk",
                     "count": 3
                 },
                 {
+                    "id": 113009,
                     "name": "Basalt Pillar",
                     "count": 8
                 },
                 {
+                    "id": 100058,
                     "name": "Cor Lapis",
                     "count": 30
                 },
                 {
+                    "id": 112003,
                     "name": "Slime Secretions",
                     "count": 18
                 }
             ],
             "ascend5": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 100000
                 },
                 {
+                    "id": 104173,
                     "name": "Prithiva Topaz Chunk",
                     "count": 6
                 },
                 {
+                    "id": 113009,
                     "name": "Basalt Pillar",
                     "count": 12
                 },
                 {
+                    "id": 100058,
                     "name": "Cor Lapis",
                     "count": 45
                 },
                 {
+                    "id": 112004,
                     "name": "Slime Concentrate",
                     "count": 12
                 }
             ],
             "ascend6": [
                 {
+                    "id": 202,
                     "name": "Mora",
                     "count": 120000
                 },
                 {
+                    "id": 104174,
                     "name": "Prithiva Topaz Gemstone",
                     "count": 6
                 },
                 {
+                    "id": 113009,
                     "name": "Basalt Pillar",
                     "count": 20
                 },
                 {
+                    "id": 100058,
                     "name": "Cor Lapis",
                     "count": 60
                 },
                 {
+                    "id": 112004,
                     "name": "Slime Concentrate",
                     "count": 24
                 }
             ]
         },
         "images": {
-            "card": "https://static.wikia.nocookie.net/gensin-impact/images/7/79/Character_Zhongli_Card.png",
-            "portrait": "https://static.wikia.nocookie.net/gensin-impact/images/7/7d/Character_Zhongli_Portrait.png",
-            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Zhongli.png",
-            "sideicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Zhongli.png",
-            "cover1": "https://webstatic.hoyoverse.com/upload/contentweb/2022/07/22/e699d7e2413ed5dfb384ee48c2b872d3_2081056854784197634.png",
-            "cover2": "https://webstatic.hoyoverse.com/upload/contentweb/2022/07/20/f9a6207d4b412504efe924c61bb7b5a0_6794957859138365424.png",
-            "hoyolab-avatar": "https://img-os-static.hoyolab.com/communityWeb/upload/693b8a54de3e9ea43854615c14a5032b.png",
             "nameicon": "UI_AvatarIcon_Zhongli",
-            "nameiconcard": "UI_AvatarIcon_Zhongli_Card",
+            "namesideicon": "UI_AvatarIcon_Side_Zhongli",
             "namegachasplash": "UI_Gacha_AvatarImg_Zhongli",
-            "namegachaslice": "UI_Gacha_AvatarIcon_Zhongli",
-            "namesideicon": "UI_AvatarIcon_Side_Zhongli"
+            "namegachaslice": "UI_Gacha_AvatarIcon_Zhongli"
         },
         "url": {
             "fandom": "https://genshin-impact.fandom.com/wiki/Zhongli"
