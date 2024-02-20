@@ -10406,7 +10406,33 @@ const teams = {
             "name": ["Baizhu", "Yaoyao"],
             "build": ["Standard", "Standard"]
         }
-    }
+    },
+
+    "416": {
+        "name": "Albedo Burgeon",
+        "description": "On-Field Albedo full EM build. With bennett C6, he trigger burgeon and has strong crystalization for defense utility. Strong vs Fontaine overworld bosses like Vivianne.",
+        "rotation": "",
+        "archetype": "Burgeon",
+        "viability": "Unique",
+
+        "character_1": {
+            "name": "Albedo",
+            "build": "EM"
+        },
+        "character_2": {
+            "name": "Nahida",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Xingqiu",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Bennett"],
+            "build": ["C6"]
+        }
+    },
+    
 }   
 
 
