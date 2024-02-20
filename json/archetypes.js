@@ -65,7 +65,7 @@ const archetypes = {
     "Freeze": {
         description: "Se basan en mantener al enemigo congelado para poder aprovechar al máximo las distintas ventajas que esto aporta, como el CC, la consonancia Cryo, y el set de artefactos de congelados.",
         elements: ["Cryo", ["Cryo", "Hydro"], "Hydro", "Anemo"],
-        pros_cons: "Es un arquetipo MUY potente cuando funciona. Y digo cuando funciona, porque hoyoverse está haciendo todo lo posible para que en muchos de los abismos no lo haga, como método de balance suelen poner enemigos inmunes al congelar.",
+        pros_cons: "Es un arquetipo MUY potente cuando funciona. Y digo cuando funciona, porque hoyoverse está haciendo todo lo posible para que en muchos de los abismos no lo haga, como método de balance suelen poner enemigos inmunes al congelar. Al dejar a los enemigos congelados, permite en la mayoría de equipos llevar opciones mas ofensivas, centrandose menos en utilidad defensiva, ya que es mucho más fácil mantenerse con vida.",
         example_teams: [],
         color: "color_cryo",
         color_illuminated: "color_cryo_illuminated",
