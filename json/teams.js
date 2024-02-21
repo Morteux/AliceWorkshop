@@ -10432,6 +10432,31 @@ const teams = {
             "build": ["C6"]
         }
     },
+
+    "417": {
+        "name": "Gaming Melt",
+        "description": "Since you don't have Kazuha or Xianyun to do VV, you can use supports before bennett have better uptime in Bennett's burst. ",
+        "rotation": "Diona E/Q > Rosaria E/Q  > Bennet E/Q > Gaming Q+E.",
+        "archetype": "Melt",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Gaming",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Bennett",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Rosaria",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Diona"],
+            "build": ["Standard"]
+        }
+    },
     
 }   
 
