@@ -847,6 +847,31 @@ const teams = {
         }
     },
 
+    "35": {
+        "name": "Hutao VV Amber",
+        "description": "Since Hu Tao can't apply pyro without wasting E/Q, you can use amber to do a pyro swirl, and she won't steal any vapes.",
+        "rotation": "Xingqiu Q/E > Kazuha Q > Amber E/Q > Sucrose NA/E or Kazuha E > Hu Tao",
+        "archetype": "Vaporize",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Hu Tao",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Xingqiu",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Amber",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Sucrose", "Kaedehara Kazuha"],
+            "build": ["Standard", "Standard"]
+        }
+    },
+
 
     "36": {
         "name": "Childe Hyperbloom",
