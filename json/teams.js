@@ -10457,6 +10457,31 @@ const teams = {
             "build": ["Standard"]
         }
     },
+
+    "418": {
+        "name": "Gaming Vape",
+        "description": "",
+        "rotation": "",
+        "archetype": "Vaporize",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Gaming",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Xianyun",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Xingqiu", "Yelan"],
+            "build": ["Standard", "Standard"]
+        }
+    }
     
 }   
 
