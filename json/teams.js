@@ -8186,7 +8186,7 @@ const teams = {
         "name": "Itto Navia",
         "description": "Normal Itto rotation but with Navia quickswaping. 4th slot can be other flex unit that applies an element (So navia can pick cristalization)",
         "rotation": "",
-        "archetype": "Hypercarry",
+        "archetype": "MonoGeo",
         "viability": "Viable",
 
         "character_1": {
@@ -10506,7 +10506,109 @@ const teams = {
             "name": ["Xingqiu", "Yelan"],
             "build": ["Standard", "Standard"]
         }
+    },
+
+    "419": {
+        "name": "Ganyu Morgana variation",
+        "description": "Morgana but with Aloy, since she is a good battery",
+        "rotation": "",
+        "archetype": "Freeze",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Ganyu",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Venti",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Mona",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Aloy"],
+            "build": ["Standard"]
+        }
+    },
+
+    "420": {
+        "name": "Kaveh Fridge",
+        "description": "Well.. it's not very good",
+        "rotation": "",
+        "archetype": "Fridge",
+        "viability": "Troll",
+
+        "character_1": {
+            "name": "Kaveh",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Xingqiu",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Kaedehara Kazuha",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Kaeya", "Layla", "Ganyu", "Rosaria"],
+            "build": ["Standard","Standard","Ultimate","Standard"]
+        }
+    },
+
+    "421": {
+        "name": "Pure Airfryer",
+        "description": "Good in AoE",
+        "rotation": "",
+        "archetype": "Airfryer",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Nahida",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Venti",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Kaedehara Kazuha",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Bennett"],
+            "build": ["Standard"]
+        }
+    },
+
+    "422": {
+        "name": "Pokemon Team",
+        "description": "",
+        "rotation": "",
+        "archetype": "Soup",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Sucrose",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Xiangling",
+            "build": "SoloPyro"
+        },
+        "character_3": {
+            "name": "Sangonomiya Kokomi",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Fischl"],
+            "build": ["Standard"]
+        }
     }
+    
+    
     
 }   
 
