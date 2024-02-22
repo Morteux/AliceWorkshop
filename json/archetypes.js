@@ -44,15 +44,7 @@ const archetypes = {
         color_illuminated: "color_electro_illuminated",
         recommended_characters: ["Kujou Sara"]
     },
-    "MonoAnemo": {
-        description: "Estoy pensando en quitarlo",
-        elements: [],
-        pros_cons: "",
-        example_teams: [],
-        color: "color_anemo",
-        color_illuminated: "color_anemo_illuminated",
-        recommended_characters: []
-    },
+
     "Hypercarry": {
         description: "Equipos donde TODO el daño recae sobre un solo personaje. El resto de unidades son supports usados para potenciar a la unidad elegida como Hypercarry.",
         elements: ["Flex", "Flex", "Flex", "Flex"],
@@ -98,6 +90,17 @@ const archetypes = {
         color_illuminated: "color_hydro_illuminated",
         recommended_characters: []
     },
+
+    "Overload": {
+        description: "",
+        elements: [],
+        pros_cons: "",
+        example_teams: [],
+        color: "color_pyro",
+        color_illuminated: "color_electro_illuminated",
+        recommended_characters: ["Chevreuse"]
+    },
+    
     "Taser": {
         description: "Cualquier combinación entre 1-2 personajes electro y 1-2 personajes hydro mas un personaje anemo. Su reacción principal es electrocargados y torbellinos, pero no son su fuente principal de daño, ya que no es un equipo basado daño de la reacción. ",
         elements: ["Electro", ["Electro", "Hydro"], "Hydro", "Anemo"],
@@ -242,15 +245,7 @@ const archetypes = {
         color_illuminated: "color_cryo_illuminated",
         recommended_characters: []
     },
-    "Overload": {
-        description: "",
-        elements: [],
-        pros_cons: "",
-        example_teams: [],
-        color: "color_pyro",
-        color_illuminated: "color_electro_illuminated",
-        recommended_characters: []
-    },
+
     "Bain-Marie": {
         description: "",
         elements: [],
