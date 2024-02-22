@@ -220,8 +220,8 @@ const archetypes = {
         elements: [],
         pros_cons: "",
         example_teams: [],
-        color: "color_dendro",
-        color_illuminated: "color_electro_illuminated",
+        color: "color_electro",
+        color_illuminated: "color_dendro_illuminated",
         recommended_characters: []
     },
     "Quickbloom": {
