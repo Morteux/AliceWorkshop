@@ -6,7 +6,7 @@ const archetypes = {
         example_teams: [],
         color: "color_geo",
         color_illuminated: "color_geo_illuminated",
-        recommended_characters: []
+        recommended_characters: ["Gorou"]
     },
     "MonoHydro": {
         description: "Arquetipo basado en el uso de personajes del elemento Hydro. Está compuesto de tres personajes Hydro mas un personaje Anemo, que se encarga de bajar la resistencia Hydro gracias a VV. También se puede usar a Zhongli para bajar esta resistencia y tener utilidad defensiva.",
@@ -126,27 +126,27 @@ const archetypes = {
         recommended_characters: ["Bennett"]
     },
     "Aggravate": {
-        description: "",
+        description: "Arquetipo que tiene como protagonista el elemento electro. Juntando dos personajes electro (uno suele ser Fischl debido a su gran sinergia con este arquetipo pero no es obligatorio), nos ayudamos de un personaje Dendro para aplicar el aura y realizar Intensificados, y junto a un personaje Anemo para hacer VV, obtenemos un equipo de puro Electro.",
         elements: [],
-        pros_cons: "",
+        pros_cons: "Debido a como funciona el aura de Quicken, no se necesita mucha aplicación dendro, por lo que el slot de healer/shielder puede ser el dendro.",
         example_teams: [],
         color: "color_electro",
         color_illuminated: "color_electro_illuminated",
-        recommended_characters: []
+        recommended_characters: ["Fischl"]
     },
     "Spread": {
-        description: "",
-        elements: [],
-        pros_cons: "",
+        description: "Aun aplicando el aura de Quicken, esta vez el protagonista de esta reacción es el elemento Dendro, y nos dedicaremos a hacer Spread. Se elegirán uno o dos personajes que puedan aplicar electro Off-Field, y debido a que el personaje On-Field es dendro, el uso de Fischl no es 'obligatorio'. ",
+        elements: ["Dendro", "Dendro", "Electro", "Flex"],
+        pros_cons: "Aunque también podemos usar personajes Anemos para agrupar, debido a que no se puede aplicar VV al elemento Dendro, el flex slot puede dedicarse a un segundo personaje Electro, o a otro tipo de utilidad omo Zhongli",
         example_teams: [],
         color: "color_dendro",
         color_illuminated: "color_dendro_illuminated",
-        recommended_characters: []
+        recommended_characters: ["Nahida"]
     },
     "Bloom": {
-        description: "",
-        elements: [],
-        pros_cons: "",
+        description: "Arquetipo que debe su existencia a Nilou y su cambio a la reacción Bloom. Debido a como funciona la reacción, lo más óptimo es que un personaje hydro sea quien haga la reacción, el cual iré full EM.",
+        elements: ["Nilou", "Hydro",["Dendro", "Hydro"], "Dendro"],
+        pros_cons: "Las semillas creadas por la reacción dañan también al usuario, por lo que es obligatorio el uso de un personaje healer. Destaca en situaciones de AoE en las que no haga falta agrupar (Al no poder poner un personaje Anemo, no seremos capaces de agruparlos). Muy muy bueno cuando se cumple las condiciones.",
         example_teams: [],
         color: "color_dendro",
         color_illuminated: "color_hydro_illuminated",
