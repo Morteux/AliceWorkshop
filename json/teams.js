@@ -10606,7 +10606,32 @@ const teams = {
             "name": ["Fischl"],
             "build": ["Standard"]
         }
-    }
+    },
+
+    "423": {
+        "name": "Lyney Chevreuse",
+        "description": "You can use chevreuse before bennett so Lyney can have more time of bennett's ult (You should not do that with kazuha)",
+        "rotation": "",
+        "archetype": "Overload",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Lyney",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Chevreuse",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Dehya",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Yae Miko", "Fischl", "Raiden Shogun", "Beidou"],
+            "build": ["Standard", "Standard", "EM", "SoloElectro"]
+        }
+    },
     
     
     
