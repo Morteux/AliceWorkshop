@@ -10632,6 +10632,56 @@ const teams = {
             "build": ["Standard", "Standard", "EM", "SoloElectro"]
         }
     },
+
+    "424": {
+        "name": "Neuvillette 3 Character Team",
+        "description": "This team is commonly used to speedrun with Neuvillette at high-investment. You don't use childe, only wants him for the hydro consonance and the A5 Talent.",
+        "rotation": "",
+        "archetype": "Hypercarry",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Neuvillette",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Tartaglia",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Kaedehara Kazuha",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Zhongli", "Xiangling"],
+            "build": ["Standard", "SoloPyro"]
+        }
+    },
+
+    "425": {
+        "name": "Neuvillette Furina",
+        "description": "Thanks to Neuvillette HP manipulation, you can run him with Furina without a healer and Zhongli.",
+        "rotation": "",
+        "archetype": "Hypercarry",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Neuvillette",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Kaedehara Kazuha",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Zhongli"],
+            "build": ["Standard"]
+        }
+    },
     
     
     
