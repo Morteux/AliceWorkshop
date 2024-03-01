@@ -10538,7 +10538,7 @@ const teams = {
         "description": "Well.. it's not very good",
         "rotation": "",
         "archetype": "Fridge",
-        "viability": "Troll",
+        "viability": "Offmeta",
 
         "character_1": {
             "name": "Kaveh",
