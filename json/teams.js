@@ -10610,7 +10610,7 @@ const teams = {
 
     "423": {
         "name": "Lyney Chevreuse",
-        "description": "You can use chevreuse before bennett so Lyney can have more time of bennett's ult (You should not do that with kazuha)",
+        "description": "",
         "rotation": "",
         "archetype": "Overload",
         "viability": "Viable",
