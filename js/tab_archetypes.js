@@ -92,7 +92,7 @@ function getRandomTeamByArchetype(archetype) {
     let index = 0;
 
     while (team_index == -1 && index < Object.keys(teams).length) {
-        if (teams[teams_keys[index]]["archetype"] == archetype) {
+        if (teams[teams_keys[index]]["archetype"].includes(archetype)) {
             team_index = teams_keys[index];
         }
 

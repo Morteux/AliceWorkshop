@@ -3,7 +3,7 @@ const teams = {
         "name": "TF Bennett",
         "description": "Weirdest way to use Bennett out of all the possibilities. This variation takes advantage of the synergy between Bennettt's Ascension Passives and the TF set, which are effectively two sources of cooldown reduction. Play Bennett onfield with NA + E spam.",
         "rotation": "Fischl E > Xingqiu Q + E > Bennett Q > Beidou E + Q > Fischl Q > Spam Bennett NA + E",
-        "archetype": "Overvape",
+        "archetype": ["Overvape"],
         "viability": "Unique",
 
         "character_1": {
@@ -28,7 +28,7 @@ const teams = {
         "name": "International",
         "description": "An National variation that uses Childe and Kazuha",
         "rotation": "E Childe > Q Bennett > E + Q Kazuha > E + Q Xiangling > Q + E Childe 2NA+CA (8-12s) > Funnel Xiangling",
-        "archetype": "National",
+        "archetype": ["National"],
         "viability": "Meta",
 
         "character_1": {
@@ -53,7 +53,7 @@ const teams = {
         "name": "Vape Dehya",
         "description": "Basically Dehya and her powerfull damage carring the whole abyss. Since Dehya cds, you can alter the rotation in order to fix her E cooldown. For example, doing Kazuha's ult at the end of the rotation to gain time. ",
         "rotation": "E Dehya >  E + Q Bennett > E + (Q) Kazuha  > Q + E Mona > Q Dehya (and click so hard)",
-        "archetype": "Vaporize",
+        "archetype": ["Vaporize"],
         "viability": "Offmeta",
 
         "character_1": {
@@ -78,7 +78,7 @@ const teams = {
         "name": "Vape Yoimiya",
         "description": "Good Single Target damage thanks to Yoimiya and Xingqiu. Rotation did with Reminiscence artifacts.",
         "rotation": "Q + E Bennett > Q + E Xingqiu > E + Q Yun Jin > Yoimiya E + NA until end, then Q",
-        "archetype": "Vaporize",
+        "archetype": ["Vaporize"],
         "viability": "Viable",
 
         "character_1": {
@@ -103,7 +103,7 @@ const teams = {
         "name": "Childe National",
         "description": "An National variation that uses Childe and Sucrose",
         "rotation": "E Childe > Q Bennett > E Xiangling > E + Q Sucrose > Q Xiangling > Q + E Childe 2NA+CA (8-12s) > Funnel Xiangling",
-        "archetype": "National",
+        "archetype": ["National"],
         "viability": "Meta",
 
         "character_1": {
@@ -128,7 +128,7 @@ const teams = {
         "name": "Childe National",
         "description": "An National variation that uses Childe and geo.",
         "rotation": "",
-        "archetype": "National",
+        "archetype": ["National"],
         "viability": "Viable",
 
         "character_1": {
@@ -153,7 +153,7 @@ const teams = {
         "name": "Intergrational",
         "description": "International team but swapping Xiangling with Nahida",
         "rotation": "E (+ Q) Nahida > E + Q Bennett > E + Q Kazuha > E + Q Childe 2NA+CA (2-3 times)",
-        "archetype": "Sauté",
+        "archetype": ["Sauté"],
         "viability": "Meta",
 
         "character_1": {
@@ -178,7 +178,7 @@ const teams = {
         "name": "Intergrational",
         "description": "A variant of Intergrational, using Xiangling instead of Kazuha. Less seeds due to pyro aplication and burn",
         "rotation": "",
-        "archetype": "Burgeon",
+        "archetype": ["Burgeon"],
         "viability": "Viable",
 
         "character_1": {
@@ -203,7 +203,7 @@ const teams = {
         "name": "Electro-Charged Childe",
         "description": "An old team similar to taser",
         "rotation": "",
-        "archetype": "Taser",
+        "archetype": ["Taser"],
         "viability": "Viable",
 
         "character_1": {
@@ -227,7 +227,7 @@ const teams = {
         "name": "Freeze childe",
         "description": "Fast rotations",
         "rotation": "Kaeya E > Tartaglia E+1NA > Kazuha Q + hold E > Rosaria E + Q > Kaeya E + Q > Tartaglia Q + E",
-        "archetype": "Freeze",
+        "archetype": ["Freeze"],
         "viability": "Offmeta",
 
         "character_1": {
@@ -252,7 +252,7 @@ const teams = {
         "name": "Freeze childe",
         "description": "Fast rotations",
         "rotation": "Cryo E > Tartaglia E+1NA > Kazuha Q + hold E > Cryo (E)+Q > Ayaka Dash + CA + E + Q > Tartaglia Q + E + NA",
-        "archetype": "Freeze",
+        "archetype": ["Freeze"],
         "viability": "Offmeta",
 
         "character_1": {
@@ -278,7 +278,7 @@ const teams = {
         "name": "Tartaglia MonoHydro",
         "description": "An no meta team, similar to Kokomi MonoHydro, but without healer. MonoHydro is not usually optimal, see monohydro archetype for more. Fun vs pyro content.",
         "rotation": "",
-        "archetype": "MonoHydro",
+        "archetype": ["MonoHydro"],
         "viability": "Offmeta",
 
         "character_1": {
@@ -302,7 +302,7 @@ const teams = {
     "15": {
         "name": "Tartaglia MonoHydro",
         "description": "",
-        "archetype": "MonoHydro",
+        "archetype": ["MonoHydro"],
         "viability": "Offmeta",
 
         "character_1": {
@@ -326,7 +326,7 @@ const teams = {
     "17": {
         "name": "Tartaglia MonoHydro",
         "description": "",
-        "archetype": "MonoHydro",
+        "archetype": ["MonoHydro"],
         "viability": "Offmeta",
 
         "character_1": {
@@ -350,7 +350,7 @@ const teams = {
     "18": {
         "name": "Kokomi MonoHydro",
         "description": "",
-        "archetype": "MonoHydro",
+        "archetype": ["MonoHydro"],
         "viability": "Offmeta",
 
         "character_1": {
@@ -375,7 +375,7 @@ const teams = {
         "name": "Childe Thoma Burgeon",
         "description": "Tartaglia is good in Burgeon and similars due to AoE Hydro application. Adding Xingqiu or Yelan provides you with extra hydro and singletarget dmg.",
         "rotation": "",
-        "archetype": "Burgeon",
+        "archetype": ["Burgeon"],
         "viability": "Viable",
 
         "character_1": {
@@ -400,7 +400,7 @@ const teams = {
         "name": "Childe Thoma Burgeon",
         "description": "Tartaglia is good in Burgeon and similars due to AoE Hydro application. You can put Kokomi in deepwood so nahida can have more personal damage.",
         "rotation": "",
-        "archetype": "Burgeon",
+        "archetype": ["Burgeon"],
         "viability": "Viable",
 
         "character_1": {
@@ -425,7 +425,7 @@ const teams = {
         "name": "Childe Thoma Burgeon",
         "description": "Tartaglia is good in Burgeon and similars due to AoE Hydro application. Nahida dendro aplication is huge to go solo dendro, but you can pick another to comfort and consonance.",
         "rotation": "",
-        "archetype": "Burgeon",
+        "archetype": ["Burgeon"],
         "viability": "Viable",
 
         "character_1": {
@@ -450,7 +450,7 @@ const teams = {
         "name": "Childe Thoma Burgeon",
         "description": "Tartaglia is good in Burgeon and similars due to AoE Hydro application. To have enough dendro without nahida, you have to pick two of them,",
         "rotation": "",
-        "archetype": "Burgeon",
+        "archetype": ["Burgeon"],
         "viability": "Viable",
 
         "character_1": {
@@ -475,7 +475,7 @@ const teams = {
         "name": "Childe Thoma Burgeon",
         "description": "Tartaglia is good in Burgeon and similars due to AoE Hydro application. You can add an Anemo unit to group and have VV and more AoE.",
         "rotation": "",
-        "archetype": "Burgeon",
+        "archetype": ["Burgeon"],
         "viability": "Meta",
 
         "character_1": {
@@ -500,7 +500,7 @@ const teams = {
         "name": "Childe Thoma Burgeon",
         "description": "Tartaglia is good in Burgeon and similars due to AoE Hydro application. You can add an Anemo unit to group and have VV and more AoE.",
         "rotation": "",
-        "archetype": "Burgeon",
+        "archetype": ["Burgeon"],
         "viability": "Meta",
 
         "character_1": {
@@ -526,7 +526,7 @@ const teams = {
         "name": "Childe Thoma Burgeon",
         "description": "Tartaglia is good in Burgeon and similars due to AoE Hydro application. To have enough dendro without nahida, you have to pick two of them,",
         "rotation": "",
-        "archetype": "Burgeon",
+        "archetype": ["Burgeon"],
         "viability": "Offmeta",
 
         "character_1": {
@@ -551,7 +551,7 @@ const teams = {
         "name": "Childe Thoma Oven",
         "description": "Tartaglia is good in Burgeon and similars due to AoE Hydro application. Add a cryo to have more seeds and Frozen.",
         "rotation": "",
-        "archetype": "Oven",
+        "archetype": ["Oven"],
         "viability": "Viable",
 
         "character_1": {
@@ -576,7 +576,7 @@ const teams = {
         "name": "Childe Thoma Oven",
         "description": "Tartaglia is good in Burgeon and similars due to AoE Hydro application. Add a cryo to have more seeds and Frozen.",
         "rotation": "",
-        "archetype": "Oven",
+        "archetype": ["Oven"],
         "viability": "Viable",
 
         "character_1": {
@@ -601,7 +601,7 @@ const teams = {
         "name": "Childe Thoma Oven",
         "description": "Tartaglia is good in Burgeon and similars due to AoE Hydro application. Add a cryo to have more seeds. Yaoyao could not have enough AoE dendro aplication for Burgeon",
         "rotation": "",
-        "archetype": "Oven",
+        "archetype": ["Oven"],
         "viability": "Offmeta",
 
         "character_1": {
@@ -626,7 +626,7 @@ const teams = {
         "name": "Childe Thoma Oven",
         "description": "Tartaglia is good in Burgeon and similars due to AoE Hydro application. Add a cryo to have more seeds. Baizhu could not have enough AoE dendro aplication for Burgeon",
         "rotation": "",
-        "archetype": "Oven",
+        "archetype": ["Oven"],
         "viability": "Offmeta",
 
         "character_1": {
@@ -651,7 +651,7 @@ const teams = {
         "name": "Childe Thoma Curry",
         "description": "Tartaglia is good in Burgeon and similars due to AoE Hydro application. Fischl, Beidou or similars provides Electro reactions without triggering the bloom.",
         "rotation": "",
-        "archetype": "Curry",
+        "archetype": ["Curry"],
         "viability": "Viable",
 
         "character_1": {
@@ -676,7 +676,7 @@ const teams = {
         "name": "Childe Thoma Curry",
         "description": "Tartaglia is good in Burgeon and similars due to AoE Hydro application. Shinobu, Raiden or similars can do hyperbloom to do both reactions.",
         "rotation": "",
-        "archetype": "Curry",
+        "archetype": ["Curry"],
         "viability": "Offmeta",
 
         "character_1": {
@@ -701,7 +701,7 @@ const teams = {
         "name": "Childe Thoma Curry",
         "description": "Tartaglia is good in Burgeon and similars due to AoE Hydro application. Fischl, Beidou or similars provides Electro reactions without triggering the bloom.",
         "rotation": "",
-        "archetype": "Curry",
+        "archetype": ["Curry"],
         "viability": "Viable",
 
         "character_1": {
@@ -726,7 +726,7 @@ const teams = {
         "name": "Childe Thoma Curry",
         "description": "Tartaglia is good in Burgeon and similars due to AoE Hydro application. Shinobu, Raiden or similars can do hyperbloom to do both reactions.",
         "rotation": "",
-        "archetype": "Curry",
+        "archetype": ["Curry"],
         "viability": "Offmeta",
 
         "character_1": {
@@ -751,7 +751,7 @@ const teams = {
         "name": "OverVape Tartaglia",
         "description": "",
         "rotation": "",
-        "archetype": "Overvape",
+        "archetype": ["Overvape"],
         "viability": "Viable",
     
         "character_1": {
@@ -776,7 +776,7 @@ const teams = {
         "name": "Tartaglia Sunfire Burgeon",
         "description": "",
         "rotation": "",
-        "archetype": "Sauté",
+        "archetype": ["Sauté"],
         "viability": "Viable",
 
         "character_1": {
@@ -801,7 +801,7 @@ const teams = {
         "name": "Intergrational",
         "description": "International team but swapping Xiangling with Dendro MC. Be Carefull to waste MC ultimates with pyro.",
         "rotation": "E Childe > E + Q Dendro MC > E + Q Bennett > E + Q Kazuha > E + Q Childe 2NA+CA (2-3 times)",
-        "archetype": "Sauté",
+        "archetype": ["Sauté"],
         "viability": "Offmeta",
 
         "character_1": {
@@ -826,7 +826,7 @@ const teams = {
         "name": "Tartaglia Unique",
         "description": "15 seconds rotations",
         "rotation": "E Tartaglia > Q Bennett > Hold E Kazuha + Q > Q Fischl > E Bennett > Q Tartaglia + E + NA  ",
-        "archetype": "Overvape",
+        "archetype": ["Overvape"],
         "viability": "Unique",
     
         "character_1": {
@@ -851,7 +851,7 @@ const teams = {
         "name": "Hutao VV Amber",
         "description": "Since Hu Tao can't apply pyro without wasting E/Q, you can use amber to do a pyro swirl, and she won't steal any vapes.",
         "rotation": "Xingqiu Q/E > Kazuha Q > Amber E/Q > Sucrose NA/E or Kazuha E > Hu Tao",
-        "archetype": "Vaporize",
+        "archetype": ["Vaporize"],
         "viability": "Viable",
 
         "character_1": {
@@ -877,7 +877,7 @@ const teams = {
         "name": "Childe Hyperbloom",
         "description": "Tartaglia can be used in Hyperbloom but there are better hydros because of E cds. Shinobu is the more popular option to trigger bloom for comfort and healing, but other options like raiden may have more speed.",
         "rotation": "",
-        "archetype": "Hyperbloom",
+        "archetype": ["Hyperbloom"],
         "viability": "Viable",
 
         "character_1": {
@@ -902,7 +902,7 @@ const teams = {
         "name": "Childe Hyperbloom",
         "description": "Tartaglia can be used in Hyperbloom but there are better hydros because of E cds. With Dendro MC as main dendro applier, you need a second one to rivalise with childe hydro aplication. Shinobu is the more popular option to trigger bloom for comfort and healing, but other options like raiden may have more speed.",
         "rotation": "",
-        "archetype": "Hyperbloom",
+        "archetype": ["Hyperbloom"],
         "viability": "Viable",
 
         "character_1": {
@@ -927,7 +927,7 @@ const teams = {
         "name": "Childe Hyperbloom",
         "description": "Tartaglia can be used in Hyperbloom but there are better hydros because of E cds. Raiden has more speed triggering bloom than Kuki in exchange of heal.",
         "rotation": "",
-        "archetype": "Hyperbloom",
+        "archetype": ["Hyperbloom"],
         "viability": "Viable",
 
         "character_1": {
@@ -952,7 +952,7 @@ const teams = {
         "name": "Childe Hyperbloom",
         "description": "Tartaglia can be used in Hyperbloom but there are better hydros because of E cds. With Dendro MC as main dendro applier, you need a second one to rivalise with childe hydro aplication. Raiden has more speed triggering bloom than Kuki in exchange of heal.",
         "rotation": "",
-        "archetype": "Hyperbloom",
+        "archetype": ["Hyperbloom"],
         "viability": "Viable",
 
         "character_1": {
@@ -977,7 +977,7 @@ const teams = {
         "name": "Childe Hyperbloom",
         "description": "Dori could be take as a joke, but actually she is the only unit that can be speed enought to trigger bloom with Nahida and Tartaglia. Huge frontloaded damage.",
         "rotation": "",
-        "archetype": "Hyperbloom",
+        "archetype": ["Hyperbloom"],
         "viability": "Viable",
 
         "character_1": {
@@ -1002,7 +1002,7 @@ const teams = {
         "name": "Childe Hyperbloom",
         "description": "",
         "rotation": "",
-        "archetype": "Hyperbloom",
+        "archetype": ["Hyperbloom"],
         "viability": "Viable",
 
         "character_1": {
@@ -1027,7 +1027,7 @@ const teams = {
         "name": "Childe HyperFridge",
         "description": "Tartaglia can be used in HyperFridge but there are better hydros because of E cds. Shinobu is the more popular option to trigger bloom for comfort and healing, but other options like raiden may have more speed.",
         "rotation": "",
-        "archetype": "HyperFridge",
+        "archetype": ["HyperFridge"],
         "viability": "Viable",
 
         "character_1": {
@@ -1052,7 +1052,7 @@ const teams = {
         "name": "Childe HyperFridge",
         "description": "Tartaglia can be used in HyperFridge but there are better hydros because of E cds. With Dendro MC as main dendro applier, a cryo character can help you create seeds in order to rivalise with childe hydro aplication. Shinobu is the more popular option to trigger bloom for comfort and healing, but other options like raiden may have more speed.",
         "rotation": "",
-        "archetype": "HyperFridge",
+        "archetype": ["HyperFridge"],
         "viability": "Viable",
 
         "character_1": {
@@ -1077,7 +1077,7 @@ const teams = {
         "name": "Childe HyperFridge",
         "description": "Tartaglia can be used in HyperFridge but there are better hydros because of E cds. With Yaoyao as main dendro applier, a cryo character can help you create seeds in order to rivalise with childe hydro aplication. Shinobu is the more popular option to trigger bloom for comfort and healing, but other options like raiden may have more speed.",
         "rotation": "",
-        "archetype": "HyperFridge",
+        "archetype": ["HyperFridge"],
         "viability": "Viable",
 
         "character_1": {
@@ -1102,7 +1102,7 @@ const teams = {
         "name": "Childe HyperFridge",
         "description": "Tartaglia can be used in HyperFridge but there are better hydros because of E cds. With Baizhu as main dendro applier, a cryo character can help you create seeds in order to rivalise with childe hydro aplication. Shinobu is the more popular option to trigger bloom for comfort and healing, but other options like raiden may have more speed.",
         "rotation": "",
-        "archetype": "HyperFridge",
+        "archetype": ["HyperFridge"],
         "viability": "Viable",
 
         "character_1": {
@@ -1127,7 +1127,7 @@ const teams = {
         "name": "Childe HyperFridge",
         "description": "Tartaglia can be used in HyperFridge but there are better hydros because of E cds. Shinobu is the more popular option to trigger bloom for comfort and healing, but other options like raiden may have more speed.",
         "rotation": "",
-        "archetype": "HyperFridge",
+        "archetype": ["HyperFridge"],
         "viability": "Viable",
 
         "character_1": {
@@ -1152,7 +1152,7 @@ const teams = {
         "name": "Childe HyperFridge",
         "description": "Tartaglia can be used in HyperFridge but there are better hydros because of E cds. With Dendro MC as main dendro applier, a cryo character can help you create seeds in order to rivalise with childe hydro aplication. Raiden has more speed triggering bloom than Kuki in exchange of heal.",
         "rotation": "",
-        "archetype": "HyperFridge",
+        "archetype": ["HyperFridge"],
         "viability": "Viable",
 
         "character_1": {
@@ -1177,7 +1177,7 @@ const teams = {
         "name": "Childe HyperFridge",
         "description": "Tartaglia can be used in HyperFridge but there are better hydros because of E cds. With Yaoyao as main dendro applier, a cryo character can help you create seeds in order to rivalise with childe hydro aplication. Raiden has more speed triggering bloom than Kuki in exchange of heal.",
         "rotation": "",
-        "archetype": "HyperFridge",
+        "archetype": ["HyperFridge"],
         "viability": "Viable",
 
         "character_1": {
@@ -1202,7 +1202,7 @@ const teams = {
         "name": "Childe HyperFridge",
         "description": "Tartaglia can be used in HyperFridge but there are better hydros because of E cds. With Baizhu as main dendro applier, a cryo character can help you create seeds in order to rivalise with childe hydro aplication. Raiden has more speed triggering bloom than Kuki in exchange of heal.",
         "rotation": "",
-        "archetype": "HyperFridge",
+        "archetype": ["HyperFridge"],
         "viability": "Viable",
 
         "character_1": {
@@ -1227,7 +1227,7 @@ const teams = {
         "name": "Childe HyperFridge",
         "description": "Tartaglia can be used in HyperFridge but there are better hydros because of E cds. ",
         "rotation": "",
-        "archetype": "HyperFridge",
+        "archetype": ["HyperFridge"],
         "viability": "Viable",
 
         "character_1": {
@@ -1252,7 +1252,7 @@ const teams = {
         "name": "Childe HyperFridge",
         "description": "Tartaglia can be used in HyperFridge but there are better hydros because of E cds. With Dendro MC as main dendro applier, a cryo character can help you create seeds in order to rivalise with childe hydro aplication. ",
         "rotation": "",
-        "archetype": "HyperFridge",
+        "archetype": ["HyperFridge"],
         "viability": "Viable",
 
         "character_1": {
@@ -1277,7 +1277,7 @@ const teams = {
         "name": "Childe HyperFridge",
         "description": "Tartaglia can be used in HyperFridge but there are better hydros because of E cds. With Yaoyao as main dendro applier, a cryo character can help you create seeds in order to rivalise with childe hydro aplication.",
         "rotation": "",
-        "archetype": "HyperFridge",
+        "archetype": ["HyperFridge"],
         "viability": "Viable",
 
         "character_1": {
@@ -1302,7 +1302,7 @@ const teams = {
         "name": "Childe HyperFridge",
         "description": "Tartaglia can be used in HyperFridge but there are better hydros because of E cds. With Baizhu as main dendro applier, a cryo character can help you create seeds in order to rivalise with childe hydro aplication.",
         "rotation": "",
-        "archetype": "HyperFridge",
+        "archetype": ["HyperFridge"],
         "viability": "Viable",
 
         "character_1": {
@@ -1327,7 +1327,7 @@ const teams = {
         "name": "Klee Monopyro",
         "description": "Monopyro is the archetype where klee shines. ",
         "rotation": "",
-        "archetype": "MonoPyro",
+        "archetype": ["MonoPyro"],
         "viability": "Meta",
 
         "character_1": {
@@ -1352,7 +1352,7 @@ const teams = {
         "name": "Klee Monopyro",
         "description": "Monopyro is the archetype where klee shines. ",
         "rotation": "",
-        "archetype": "MonoPyro",
+        "archetype": ["MonoPyro"],
         "viability": "Meta",
 
         "character_1": {
@@ -1377,7 +1377,7 @@ const teams = {
         "name": "Klee Monopyro",
         "description": "Monopyro is the archetype where klee shines. There are better options to play monopyro, but you can play this way.",
         "rotation": "",
-        "archetype": "MonoPyro",
+        "archetype": ["MonoPyro"],
         "viability": "Viable",
 
         "character_1": {
@@ -1402,7 +1402,7 @@ const teams = {
         "name": "Vape Klee Doble Hydro",
         "description": "Good single target thanks to Xingqiu and Yelan, but Klee has better archetypes than vaporize.",
         "rotation": "",
-        "archetype": "Vaporize",
+        "archetype": ["Vaporize"],
         "viability": "Viable",
 
         "character_1": {
@@ -1427,7 +1427,7 @@ const teams = {
         "name": "Vape Klee Doble Hydro",
         "description": "Good single target thanks to Xingqiu and Yelan, but Klee has better archetypes than vaporize. You have no healer either shielder with Klee... good luck.",
         "rotation": "",
-        "archetype": "Vaporize",
+        "archetype": ["Vaporize"],
         "viability": "Viable",
 
         "character_1": {
@@ -1452,7 +1452,7 @@ const teams = {
         "name": "Vape Klee",
         "description": "Klee has better archetypes than vaporize. ",
         "rotation": "When using Xingqiu as the sole Hydro applicator, it is recommended as Klee to use N2C N1C combos.",
-        "archetype": "Vaporize",
+        "archetype": ["Vaporize"],
         "viability": "Offmeta",
 
         "character_1": {
@@ -1477,7 +1477,7 @@ const teams = {
         "name": "Vape Klee",
         "description": "Yelan may not has enough hydro application for Klee, this team is not recomended. Klee also has better archetypes than vaporize. ",
         "rotation": "",
-        "archetype": "Vaporize",
+        "archetype": ["Vaporize"],
         "viability": "Offmeta",
 
         "character_1": {
@@ -1502,7 +1502,7 @@ const teams = {
         "name": "Vape Klee",
         "description": "Klee has better archetypes than vaporize. You can use Thoma for shielding, but don't expecto high damage.",
         "rotation": "When using Xingqiu as the sole Hydro applicator, it is recommended as Klee to use N2C N1C combos.",
-        "archetype": "Vaporize",
+        "archetype": ["Vaporize"],
         "viability": "Offmeta",
 
         "character_1": {
@@ -1527,7 +1527,7 @@ const teams = {
         "name": "Vape Klee",
         "description": "One of the worst Klee teams. Use only if you love the characters or if don't have other ways to use Klee.",
         "rotation": "",
-        "archetype": "Vaporize",
+        "archetype": ["Vaporize"],
         "viability": "Offmeta",
 
         "character_1": {
@@ -1552,7 +1552,7 @@ const teams = {
         "name": "Vape Klee ",
         "description": "The weirdest Vape Klee team. Seems fun. But i don't have Klee. ",
         "rotation": "You need to Infuse Venti Ults with Hydro. Bennett E + Q > Mona Q + E > Venti E + Q > Klee N1 + E + Q + 3N1C > Repeat",
-        "archetype": "Vaporize",
+        "archetype": ["Vaporize"],
         "viability": "Unique",
 
         "character_1": {
@@ -1577,7 +1577,7 @@ const teams = {
         "name": "Burger Klee",
         "description": "This team composition is a great way for those wanting to play both Klee and Nahida together. It is better than it seems. Kirara or Baizhu are normally the best flex option, but you can use zhongli, kokomi or Yaoyao",
         "rotation": "spam Klee's NA with Elemental Skill uses in between. You don't need to do the burst and CA.",
-        "archetype": "Burgeon",
+        "archetype": ["Burgeon"],
         "viability": "Unique",
 
         "character_1": {
@@ -1603,7 +1603,7 @@ const teams = {
         "name": "Klee Reverse Melt",
         "description": "",
         "rotation": "",
-        "archetype": "Melt",
+        "archetype": ["Melt"],
         "viability": "Offmeta",
 
         "character_1": {
@@ -1628,7 +1628,7 @@ const teams = {
         "name": "Klee Overload",
         "description": "",
         "rotation": "",
-        "archetype": "Overload",
+        "archetype": ["Overload"],
         "viability": "Offmeta",
 
         "character_1": {
@@ -1653,7 +1653,7 @@ const teams = {
         "name": "Klee Taser",
         "description": "An odd variation of taser, using Klee instead of Sucrose. ",
         "rotation": "",
-        "archetype": "Overvape",
+        "archetype": ["Overvape"],
         "viability": "Offmeta",
 
         "character_1": {
@@ -1678,7 +1678,7 @@ const teams = {
         "name": "Klee Overvape",
         "description": "",
         "rotation": "",
-        "archetype": "Overvape",
+        "archetype": ["Overvape"],
         "viability": "Offmeta",
 
         "character_1": {
@@ -1703,7 +1703,7 @@ const teams = {
         "name": "Lyney MonoPyro",
         "description": "Best damage output team for Lyney. Cons: You don't have either shielder or resistance interruption. Very hard to play vs agressive enemies.",
         "rotation": "Bennett > Kazuha E > Xiangling Q + E > Lyney (2-3 CA) + Q + E",
-        "archetype": "MonoPyro",
+        "archetype": ["MonoPyro"],
         "viability": "Meta",
 
         "character_1": {
@@ -1728,7 +1728,7 @@ const teams = {
         "name": "Lyney MonoPyro",
         "description": "Good shield and resistance interruption with zhongli, but you don't have the grouping and VV that provides Anemo. In the first Rotation, you have to do Bennett E > Zhongli E in order to activate Petra. Otherwise, put Zhongli at ToM artifacts.",
         "rotation": "E Zhongli > Bennett > Q + E Xiangling > Lyney (2-3CA) + Q + E",
-        "archetype": "MonoPyro",
+        "archetype": ["MonoPyro"],
         "viability": "Meta",
 
         "character_1": {
@@ -1753,7 +1753,7 @@ const teams = {
         "name": "Lyney MonpoPyro",
         "description": "No ironic, one team where Dehya can be a good option. She provides buffs, particle generations, resistance interruption, tankiness, three pyros... Not the same damage as the xiangling team, but can be a good alternative of xiangling/zhongli team (and maybe better if grouping/vv is necesary).",
         "rotation": "Bennett > Kazuha E > Dehya E > Lyney (2-3CA) + Q + E. (If fast rotations, you can do Dehya's E first, but be carefull with the 9s of resistance interruption)",
-        "archetype": "MonoPyro",
+        "archetype": ["MonoPyro"],
         "viability": "Meta",
 
         "character_1": {
@@ -1780,7 +1780,7 @@ const teams = {
         "name": "Lyney MonoPyro",
         "description": "Layla, Diona, Kirara or Baizhu can be the shielder of Lyney, because cryo/dendro doesn't interrupt the pyro aura.",
         "rotation": "Layla > Bennett > Anemo > Lyney (2-3CA) + Q + E",
-        "archetype": "MonoPyro",
+        "archetype": ["MonoPyro"],
         "viability": "Viable",
 
         "character_1": {
@@ -1805,7 +1805,7 @@ const teams = {
         "name": "Lyney MonoPyro",
         "description": "Yeah, Tankfei is a good shielder but the boi. Just do it, but of course Yanfei C4. ",
         "rotation": "Yanfei E + Q > Bennett > Kazuha E > Lyney (2-3CA) + Q + E",
-        "archetype": "MonoPyro",
+        "archetype": ["MonoPyro"],
         "viability": "Meta",
 
         "character_1": {
@@ -1830,7 +1830,7 @@ const teams = {
         "name": "Lyney MonoPyro",
         "description": "Yeah, Tankfei is a good shielder but the boi. Just do it, but of course Yanfei C4. Use Venti/Sucrose for grouping and Lynette for atk% boost, ousia and taunt.",
         "rotation": "Yanfei E + Q > Bennett > Anemo > Lyney (2-3CA) + Q + E",
-        "archetype": "MonoPyro",
+        "archetype": ["MonoPyro"],
         "viability": "Viable",
 
         "character_1": {
@@ -1855,7 +1855,7 @@ const teams = {
         "name": "Lyney Reverse Melt",
         "description": "You can use Lyney en Reverse Melt. You could have not enough pyro application to keep pyro, but it can be a useful team.",
         "rotation": "",
-        "archetype": "Melt",
+        "archetype": ["Melt"],
         "viability": "Offmeta",
 
         "character_1": {
@@ -1880,7 +1880,7 @@ const teams = {
         "name": "Lyney MonoPyro",
         "description": "Use Venti/Sucrose for grouping, and Lynette for atk% boost, ousia and taunt. ",
         "rotation": "",
-        "archetype": "MonoPyro",
+        "archetype": ["MonoPyro"],
         "viability": "Viable",
 
         "character_1": {
@@ -1905,7 +1905,7 @@ const teams = {
         "name": "Lyney MonoPyro",
         "description": "No ironic, one team where Dehya can be a good option. She provides buffs, particle generations, resistance interruption, tankiness, three pyros... Not the same damage as the xiangling team, but can be a good alternative of xiangling/zhongli team (and maybe better if grouping/vv is necesary). Use Venti/Sucrose for grouping, and Lynette for atk% boost, ousia and taunt.",
         "rotation": "",
-        "archetype": "MonoPyro",
+        "archetype": ["MonoPyro"],
         "viability": "Viable",
 
         "character_1": {
@@ -1930,7 +1930,7 @@ const teams = {
         "name": "Lyney MonoPyro",
         "description": "Layla, Diona, Kirara or Baizhu can be the shielder of Lyney, because cryo/dendro doesn't interrupt the pyro aura. Better with Kazuha.",
         "rotation": "Layla > Bennett > Anemo > Lyney (2-3CA) + Q + E",
-        "archetype": "MonoPyro",
+        "archetype": ["MonoPyro"],
         "viability": "Offmeta",
 
         "character_1": {
@@ -1955,7 +1955,7 @@ const teams = {
         "name": "Lyney MonoPyro",
         "description": "Layla, Diona, Kirara or Baizhu can be the shielder of Lyney, because cryo/dendro doesn't interrupt the pyro aura. Better with Kazuha.",
         "rotation": "Layla > Bennett > Anemo > Lyney (2-3CA) + Q + E",
-        "archetype": "MonoPyro",
+        "archetype": ["MonoPyro"],
         "viability": "Viable",
 
         "character_1": {
@@ -1980,7 +1980,7 @@ const teams = {
         "name": "Lyney MonoPyro",
         "description": "Layla, Diona, Kirara or Baizhu can be the shielder of Lyney, because cryo/dendro doesn't interrupt the pyro aura. Better with Kazuha.",
         "rotation": "Layla > Bennett > Anemo > Lyney (2-3CA) + Q + E",
-        "archetype": "MonoPyro",
+        "archetype": ["MonoPyro"],
         "viability": "Viable",
 
         "character_1": {
@@ -2005,7 +2005,7 @@ const teams = {
         "name": "Lyney MonoPyro",
         "description": "Layla, Diona, Kirara or Baizhu can be the shielder of Lyney, because cryo/dendro doesn't interrupt the pyro aura.",
         "rotation": "Layla > Bennett > Xiangling > Lyney (2-3CA) + Q + E",
-        "archetype": "MonoPyro",
+        "archetype": ["MonoPyro"],
         "viability": "Viable",
 
         "character_1": {
@@ -2030,7 +2030,7 @@ const teams = {
         "name": "Lyney MonoPyro",
         "description": "Zhongli doesn't generate pyro particles as dehya, but Lynette's ult is not necesary every rotation. Dehya can be the third pyro for lyney's passive, but zhongli is good with other advantages like shred and better uptime.",
         "rotation": "",
-        "archetype": "MonoPyro",
+        "archetype": ["MonoPyro"],
         "viability": "Meta",
 
         "character_1": {
@@ -2055,7 +2055,7 @@ const teams = {
         "name": "Lyney MonoPyro",
         "description": "Zhongli doesn't generate pyro particles as dehya, but Lynette's ult is not necesary every rotation. Dehya can be the third pyro for lyney's passive, but zhongli is good with other advantages like shred and better uptime. Use Venti/Sucrose for grouping, and Lynette for atk% boost, ousia and taunt.",
         "rotation": "",
-        "archetype": "MonoPyro",
+        "archetype": ["MonoPyro"],
         "viability": "Viable",
 
         "character_1": {
@@ -2080,7 +2080,7 @@ const teams = {
         "name": "Lyney MonoPyro Doble Geo",
         "description": "Be careful, Albedo + Zhongli can interrupt Pyro aura with crystalize. Useful when VV/Grouping don't needed.",
         "rotation": "",
-        "archetype": "MonoPyro",
+        "archetype": ["MonoPyro"],
         "viability": "Offmeta",
 
         "character_1": {
@@ -2105,7 +2105,7 @@ const teams = {
         "name": "Lyney MonoPyro",
         "description": "Lyney with Klee support. Klee C2 needed... I will say nothing more.",
         "rotation": "",
-        "archetype": "MonoPyro",
+        "archetype": ["MonoPyro"],
         "viability": "Offmeta",
 
         "character_1": {
@@ -2130,7 +2130,7 @@ const teams = {
         "name": "Lyney MonoPyro",
         "description": "If you love Xinyan, she can be use in monopyro with Lyney. C2 is not obbligatory but almost required.",
         "rotation": "",
-        "archetype": "MonoPyro",
+        "archetype": ["MonoPyro"],
         "viability": "Viable",
 
         "character_1": {
@@ -2155,7 +2155,7 @@ const teams = {
         "name": "Physical Freminet",
         "description": "You need an hydro unit in order to trigger shatter. In physical Freminet, an electro character is esencial to do Superconduct. ",
         "rotation": "Off field characters  > Freminet: Burst, [NA] Skill, 2NA, Skill",
-        "archetype": "Hypercarry",
+        "archetype": ["Hypercarry"],
         "viability": "Viable",
 
         "character_1": {
@@ -2180,7 +2180,7 @@ const teams = {
         "name": "Physical Freminet",
         "description": "You need an hydro unit in order to trigger shatter. In physical Freminet, an electro character is esencial to do Superconduct. ",
         "rotation": "Off field characters  > Freminet: Burst, [NA] Skill, 2NA, Skill",
-        "archetype": "Hypercarry",
+        "archetype": ["Hypercarry"],
         "viability": "Viable",
 
         "character_1": {
@@ -2205,7 +2205,7 @@ const teams = {
         "name": "Physical Freminet",
         "description": "You need an hydro unit in order to trigger shatter. In physical Freminet, an electro character is esencial to do Superconduct. ",
         "rotation": "Off field characters  > Freminet: Burst, [NA] Skill, 2NA, Skill",
-        "archetype": "Hypercarry",
+        "archetype": ["Hypercarry"],
         "viability": "Viable",
 
         "character_1": {
@@ -2230,7 +2230,7 @@ const teams = {
         "name": "Freminet HyperFridge",
         "description": "Freminet best archetype thanks to the sinergy between hyperbloom and his kit. Cryo helps to generate more seeds, and hyperbloom has electro and hydro, units that Freminet needs.",
         "rotation": "Off field characters  > Freminet: Burst, [NA] Skill, 2NA, Skill",
-        "archetype": "HyperFridge",
+        "archetype": ["HyperFridge"],
         "viability": "Viable",
 
         "character_1": {
@@ -2255,7 +2255,7 @@ const teams = {
         "name": "Freminet HyperFridge",
         "description": "Freminet best archetype thanks to the sinergy between hyperbloom and his kit. Cryo helps to generate more seeds, and hyperbloom has electro and hydro, units that Freminet needs.",
         "rotation": "Off field characters  > Freminet: Burst, [NA] Skill, 2NA, Skill",
-        "archetype": "HyperFridge",
+        "archetype": ["HyperFridge"],
         "viability": "Viable",
 
         "character_1": {
@@ -2280,7 +2280,7 @@ const teams = {
         "name": "Freminet Freeze",
         "description": "",
         "rotation": "Off field characters  > Freminet: E, BURST, Spam skill (NA when Skill on CD(1s))",
-        "archetype": "Freeze",
+        "archetype": ["Freeze"],
         "viability": "Offmeta",
 
         "character_1": {
@@ -2305,7 +2305,7 @@ const teams = {
         "name": "Freminet Melt",
         "description": "Not recommended, since Freminet E share ICD",
         "rotation": "Off field characters  > Freminet: E, BURST, Spam skill (NA when Skill on CD(1s))",
-        "archetype": "Melt",
+        "archetype": ["Melt"],
         "viability": "Offmeta",
 
         "character_1": {
@@ -2331,7 +2331,7 @@ const teams = {
         "name": "Neuvillette Hyperbloom",
         "description": "Neuvillette is very strong in this archetype. With Raiden, you can do kite and trigger seeds. ",
         "rotation": "",
-        "archetype": "Hyperbloom",
+        "archetype": ["Hyperbloom"],
         "viability": "Meta",
 
         "character_1": {
@@ -2356,7 +2356,7 @@ const teams = {
         "name": "Neuvillette Hyperbloom",
         "description": "Neuvillette is very strong in this archetype. With Raiden, you can do kite and trigger seeds.",
         "rotation": "",
-        "archetype": "Hyperbloom",
+        "archetype": ["Hyperbloom"],
         "viability": "Meta",
 
         "character_1": {
@@ -2381,7 +2381,7 @@ const teams = {
         "name": "Neuvillette Hyperbloom",
         "description": "Neuvillette is very strong in this archetype. With Raiden, you can do kite and trigger seeds. ",
         "rotation": "",
-        "archetype": "Hyperbloom",
+        "archetype": ["Hyperbloom"],
         "viability": "Meta",
 
         "character_1": {
@@ -2409,7 +2409,7 @@ const teams = {
         "name": "Neuvillette HyperFridge",
         "description": "Neuvillette is VERY strong in this archetype. With Raiden, you can do kite and trigger seeds. You can have the three stacks of Neuvillette passive.",
         "rotation": "",
-        "archetype": "HyperFridge",
+        "archetype": ["HyperFridge"],
         "viability": "Meta",
 
         "character_1": {
@@ -2434,7 +2434,7 @@ const teams = {
         "name": "Neuvillette HyperFridge",
         "description": "Neuvillette is VERY strong in this archetype. With Raiden, you can do kite and trigger seeds. You can have the three stacks of Neuvillette passive.",
         "rotation": "",
-        "archetype": "HyperFridge",
+        "archetype": ["HyperFridge"],
         "viability": "Meta",
 
         "character_1": {
@@ -2459,7 +2459,7 @@ const teams = {
         "name": "Neuvillette Hyperbloom",
         "description": "Neuvillette is very strong in this archetype.  Be carefull to stay in a range that Shinobu can trigger the seeds.",
         "rotation": "",
-        "archetype": "Hyperbloom",
+        "archetype": ["Hyperbloom"],
         "viability": "Meta",
 
         "character_1": {
@@ -2484,7 +2484,7 @@ const teams = {
         "name": "Neuvillette Hyperbloom",
         "description": "Neuvillette is very strong in this archetype. Be carefull to stay in a range that Shinobu can trigger the seeds. ",
         "rotation": "",
-        "archetype": "Hyperbloom",
+        "archetype": ["Hyperbloom"],
         "viability": "Viable",
 
         "character_1": {
@@ -2509,7 +2509,7 @@ const teams = {
         "name": "Neuvillette Hyperbloom",
         "description": "Neuvillette is very strong in this archetype. Be carefull to stay in a range that Shinobu can trigger the seeds.",
         "rotation": "",
-        "archetype": "Hyperbloom",
+        "archetype": ["Hyperbloom"],
         "viability": "Meta",
 
         "character_1": {
@@ -2534,7 +2534,7 @@ const teams = {
         "name": "Neuvillette Hyperbloom",
         "description": "Neuvillette is very strong in this archetype. Be carefull to stay in a range that Shinobu can trigger the seeds. ",
         "rotation": "",
-        "archetype": "Hyperbloom",
+        "archetype": ["Hyperbloom"],
         "viability": "Viable",
 
         "character_1": {
@@ -2559,7 +2559,7 @@ const teams = {
         "name": "Neuvillette HyperFridge",
         "description": "Neuvillette is VERY strong in this archetype. Be carefull to stay in a range that Shinobu can trigger the seeds. You can have the three stacks of Neuvillette passive.",
         "rotation": "",
-        "archetype": "HyperFridge",
+        "archetype": ["HyperFridge"],
         "viability": "Meta",
 
         "character_1": {
@@ -2584,7 +2584,7 @@ const teams = {
         "name": "Neuvillette HyperFridge",
         "description": "Neuvillette is VERY strong in this archetype. Be carefull to stay in a range that Shinobu can trigger the seeds. You can have the three stacks of Neuvillette passive.",
         "rotation": "",
-        "archetype": "HyperFridge",
+        "archetype": ["HyperFridge"],
         "viability": "Meta",
 
         "character_1": {
@@ -2609,7 +2609,7 @@ const teams = {
         "name": "Neuvillette Taser",
         "description": "Neuvillete is a strong onfield option in taser,",
         "rotation": "",
-        "archetype": "Taser",
+        "archetype": ["Taser"],
         "viability": "Meta",
 
         "character_1": {
@@ -2634,7 +2634,7 @@ const teams = {
         "name": "Neuvillette Taser",
         "description": "Neuvillete is a strong onfield option in taser,",
         "rotation": "",
-        "archetype": "Taser",
+        "archetype": ["Taser"],
         "viability": "Viable",
 
         "character_1": {
@@ -2659,7 +2659,7 @@ const teams = {
         "name": "Neuvillette Taser",
         "description": "Neuvillete is a strong onfield option in taser,",
         "rotation": "",
-        "archetype": "Taser",
+        "archetype": ["Taser"],
         "viability": "Meta",
 
         "character_1": {
@@ -2684,7 +2684,7 @@ const teams = {
         "name": "Neuvillette Taser",
         "description": "Neuvillete is a strong onfield option in taser,",
         "rotation": "",
-        "archetype": "Taser",
+        "archetype": ["Taser"],
         "viability": "Viable",
 
         "character_1": {
@@ -2709,7 +2709,7 @@ const teams = {
         "name": "Neuvillette Oven",
         "description": "",
         "rotation": "",
-        "archetype": "Oven",
+        "archetype": ["Oven"],
         "viability": "Meta",
 
         "character_1": {
@@ -2734,7 +2734,7 @@ const teams = {
         "name": "Neuvillette Oven",
         "description": "",
         "rotation": "",
-        "archetype": "Oven",
+        "archetype": ["Oven"],
         "viability": "Meta",
 
         "character_1": {
@@ -2759,7 +2759,7 @@ const teams = {
         "name": "Neuvillette Curry",
         "description": "",
         "rotation": "",
-        "archetype": "Curry",
+        "archetype": ["Curry"],
         "viability": "Meta",
 
         "character_1": {
@@ -2784,7 +2784,7 @@ const teams = {
         "name": "Neuvillette Curry",
         "description": "",
         "rotation": "",
-        "archetype": "Curry",
+        "archetype": ["Curry"],
         "viability": "Meta",
 
         "character_1": {
@@ -2809,7 +2809,7 @@ const teams = {
         "name": "Neuvillette Sauté",
         "description": "",
         "rotation": "",
-        "archetype": "Sauté",
+        "archetype": ["Sauté"],
         "viability": "Viable",
 
         "character_1": {
@@ -2834,7 +2834,7 @@ const teams = {
         "name": "Neuvillette Sauté",
         "description": "",
         "rotation": "",
-        "archetype": "Sauté",
+        "archetype": ["Sauté"],
         "viability": "Viable",
 
         "character_1": {
@@ -2859,7 +2859,7 @@ const teams = {
         "name": "Neuvillette National",
         "description": "Not enough Hydro Application. Can be played anyways because National is good, but one of the worst Neuvillete teams.",
         "rotation": "",
-        "archetype": "National",
+        "archetype": ["National"],
         "viability": "Viable",
 
         "character_1": {
@@ -2884,7 +2884,7 @@ const teams = {
         "name": "Neuvillette Freeze",
         "description": "",
         "rotation": "",
-        "archetype": "Freeze",
+        "archetype": ["Freeze"],
         "viability": "Viable",
 
         "character_1": {
@@ -2909,7 +2909,7 @@ const teams = {
         "name": "Neuvillette Taser/Hypercarry",
         "description": "An electro-charged focus team. Most output damage for Neuvillette, so it can be called Hypercarry",
         "rotation": "",
-        "archetype": "Taser",
+        "archetype": ["Taser"],
         "viability": "Meta",
 
         "character_1": {
@@ -2934,7 +2934,7 @@ const teams = {
         "name": "Neuvillette OverVape",
         "description": "A National team but with Fischl, helps maintaining the hydro aura on enemies, so it's better than normal National",
         "rotation": "",
-        "archetype": "Overvape",
+        "archetype": ["Overvape"],
         "viability": "Meta",
 
         "character_1": {
@@ -2959,7 +2959,7 @@ const teams = {
         "name": "Neuvillette Curry",
         "description": "",
         "rotation": "",
-        "archetype": "Curry",
+        "archetype": ["Curry"],
         "viability": "Viable",
 
         "character_1": {
@@ -2984,7 +2984,7 @@ const teams = {
         "name": "Neuvillette Curry",
         "description": "",
         "rotation": "",
-        "archetype": "Curry",
+        "archetype": ["Curry"],
         "viability": "Viable",
 
         "character_1": {
@@ -3009,7 +3009,7 @@ const teams = {
         "name": "Neuvillette Freeze",
         "description": "",
         "rotation": "",
-        "archetype": "Freeze",
+        "archetype": ["Freeze"],
         "viability": "Viable",
 
         "character_1": {
@@ -3034,7 +3034,7 @@ const teams = {
         "name": "Neuvillette Freeze",
         "description": "",
         "rotation": "",
-        "archetype": "Freeze",
+        "archetype": ["Freeze"],
         "viability": "Viable",
 
         "character_1": {
@@ -3059,7 +3059,7 @@ const teams = {
         "name": "Vape Neuvillette",
         "description": "Thanks to the low hydro applicattion that Neuvillete has, he can be one one of the only hydro character to do forward vaporize. Very difficult, you have to rotate around enemies. You can build som EM in this team (ej: Weapon, Sands, but crit is always better)",
         "rotation": "E Neuvi > E kazuha > E Zhongli (try to not get the pilar) > E Xiangling (wait 1s) > Q Neu + CA > E kazuha > Q Xiangling > Neu CA + E + CA",
-        "archetype": "Vaporize",
+        "archetype": ["Vaporize"],
         "viability": "Unique",
 
         "character_1": {
@@ -3084,7 +3084,7 @@ const teams = {
         "name": "Neuvillette Dehya Hyperbloom",
         "description": "Dehya is surprisily good with Neuvillette Hyperbloom. Low Pyro application to not still hyperblooms, enough pyro to trigger burning so Neuvillette can Vape and active 3 stacks of his passive. On top of that, resistance interruption for the first Neuvillete CA so he can start to kite. As always, Raiden > Shinobu but both are good. ",
         "rotation": "",
-        "archetype": "Hyperbloom",
+        "archetype": ["Hyperbloom"],
         "viability": "Meta",
 
         "character_1": {
@@ -3109,7 +3109,7 @@ const teams = {
         "name": "Neuvillette Dehya Hyperbloom",
         "description": "Dehya is surprisily good with Neuvillette Hyperbloom. Low Pyro application to not still hyperblooms, enough pyro to trigger burning so Neuvillette can Vape and active 3 stacks of his passive. On top of that, resistance interruption for the first Neuvillete CA so he can start to kite. As always, Raiden > Shinobu but both are good. With Dendro MC usually an Anemo character is better.  ",
         "rotation": "",
-        "archetype": "Hyperbloom",
+        "archetype": ["Hyperbloom"],
         "viability": "Viable",
 
         "character_1": {
@@ -3134,7 +3134,7 @@ const teams = {
         "name": "Childe Xiangling Oven",
         "description": "Tartaglia is good in Burgeon and similars due to AoE Hydro application. Add a cryo to have more seeds and Frozen.",
         "rotation": "",
-        "archetype": "Oven",
+        "archetype": ["Oven"],
         "viability": "Viable",
 
         "character_1": {
@@ -3159,7 +3159,7 @@ const teams = {
         "name": "Wriothesley Melt",
         "description": "Wriothesley can be played on Melt. It's a bit complicated due to the NA ICD (melting the 1-4 hits with a normal rotation, which is not optimal), but it's okay. You don't have to swirl cryo since Wriothesley don't have offield application, so just swirl pyro with kazuha and good for grouping.",
         "rotation": "",
-        "archetype": "Melt",
+        "archetype": ["Melt"],
         "viability": "Viable",
 
         "character_1": {
@@ -3184,7 +3184,7 @@ const teams = {
         "name": "Wriothesley Melt",
         "description": "Wriothesley can be played on Melt. It's a bit complicated due to the NA ICD (melting the 1-4 hits with a normal rotation, which is not optimal), but it's okay.",
         "rotation": "",
-        "archetype": "Melt",
+        "archetype": ["Melt"],
         "viability": "Viable",
 
         "character_1": {
@@ -3209,7 +3209,7 @@ const teams = {
         "name": "Wriothesley Freeze",
         "description": "Okay",
         "rotation": "",
-        "archetype": "Freeze",
+        "archetype": ["Freeze"],
         "viability": "Viable",
 
         "character_1": {
@@ -3234,7 +3234,7 @@ const teams = {
         "name": "Wriothesley Freeze",
         "description": "With Furina, Wriothesley value grows up. You need Mika/Charlotte to heal all the teammates in a big heal, which have sinergy with Furina and Wriothesley. ",
         "rotation": "",
-        "archetype": "Freeze",
+        "archetype": ["Freeze"],
         "viability": "Meta",
 
         "character_1": {
@@ -3259,7 +3259,7 @@ const teams = {
         "name": "Wriothesley Freeze",
         "description": "With Furina, Wriothesley value grows up. You can use Jean as Anemo healer since she has good sinergy with Furina and Wriothesley, but you don't have grouping. ",
         "rotation": "",
-        "archetype": "Freeze",
+        "archetype": ["Freeze"],
         "viability": "Viable",
 
         "character_1": {
@@ -3284,7 +3284,7 @@ const teams = {
         "name": "Wriothesley Freeze",
         "description": "With Furina, Wriothesley value grows up. You can use Kokomi as healer but she don't heal all the teammates so don't have special sinergy with Furina and Wriothesley (Is not optimal to spend time onfield healing with kokomi's Q)",
         "rotation": "",
-        "archetype": "Freeze",
+        "archetype": ["Freeze"],
         "viability": "Viable",
 
         "character_1": {
@@ -3309,7 +3309,7 @@ const teams = {
         "name": "Wriothesley MonoCryo",
         "description": "",
         "rotation": "",
-        "archetype": "MonoCryo",
+        "archetype": ["MonoCryo"],
         "viability": "Viable",
 
         "character_1": {
@@ -3334,7 +3334,7 @@ const teams = {
         "name": "Wriothesley HyperFridge",
         "description": "Just OP. You can't play with the raiden EM version, as Wriothesley need a bit of healing himself.",
         "rotation": "",
-        "archetype": "HyperFridge",
+        "archetype": ["HyperFridge"],
         "viability": "Meta",
 
         "character_1": {
@@ -3359,7 +3359,7 @@ const teams = {
         "name": "Wriothesley Furina HyperFridge",
         "description": "In this team, Nahida needs to have Prototype Amber so with Shinobu they can heal for Furina",
         "rotation": "",
-        "archetype": "HyperFridge",
+        "archetype": ["HyperFridge"],
         "viability": "Meta",
 
         "character_1": {
@@ -3384,7 +3384,7 @@ const teams = {
         "name": "Wriothesley Bain-Marie",
         "description": "New OP archetype thanks to Wriothesley and Furina. Vaps + Melts + Burgeon in the same team. ",
         "rotation": "",
-        "archetype": "Bain-Marie",
+        "archetype": ["Bain-Marie"],
         "viability": "Meta",
 
         "character_1": {
@@ -3409,7 +3409,7 @@ const teams = {
         "name": "Wriothesley Melt",
         "description": "",
         "rotation": "",
-        "archetype": "Melt",
+        "archetype": ["Melt"],
         "viability": "Viable",
 
         "character_1": {
@@ -3434,7 +3434,7 @@ const teams = {
         "name": "Wriothesley Melt",
         "description": "",
         "rotation": "",
-        "archetype": "Melt",
+        "archetype": ["Melt"],
         "viability": "Viable",
 
         "character_1": {
@@ -3459,7 +3459,7 @@ const teams = {
         "name": "Wriothesley Sunfire",
         "description": "Jean Sunfire mechanic plus Wriothesley",
         "rotation": "Bennett E/Q > Jean E/Q",
-        "archetype": "Melt",
+        "archetype": ["Melt"],
         "viability": "Viable",
 
         "character_1": {
@@ -3484,7 +3484,7 @@ const teams = {
         "name": "Wriothesley Freeze",
         "description": "",
         "rotation": "",
-        "archetype": "Freeze",
+        "archetype": ["Freeze"],
         "viability": "Viable",
 
         "character_1": {
@@ -3509,7 +3509,7 @@ const teams = {
         "name": "Wriothesley Freeze",
         "description": "",
         "rotation": "",
-        "archetype": "Freeze",
+        "archetype": ["Freeze"],
         "viability": "Viable",
 
         "character_1": {
@@ -3534,7 +3534,7 @@ const teams = {
         "name": "Wriothesley Freeze",
         "description": "",
         "rotation": "",
-        "archetype": "Freeze",
+        "archetype": ["Freeze"],
         "viability": "Viable",
 
         "character_1": {
@@ -3559,7 +3559,7 @@ const teams = {
         "name": "Wriothesley Freeze",
         "description": "",
         "rotation": "",
-        "archetype": "Freeze",
+        "archetype": ["Freeze"],
         "viability": "Viable",
 
         "character_1": {
@@ -3584,7 +3584,7 @@ const teams = {
         "name": "Wriothesley HyperFridge",
         "description": "Xingqiu provides the resistence and extra healing he might need.",
         "rotation": "Since you don't have healer, you have to spam CA with wriothesley every 5NA (a NA string) even at C0. At >=50% HP, spam CA. ",
-        "archetype": "HyperFridge",
+        "archetype": ["HyperFridge"],
         "viability": "Meta",
 
         "character_1": {
@@ -3609,7 +3609,7 @@ const teams = {
         "name": "Wriothesley HyperFridge",
         "description": "",
         "rotation": "",
-        "archetype": "HyperFridge",
+        "archetype": ["HyperFridge"],
         "viability": "Viable",
 
         "character_1": {
@@ -3634,7 +3634,7 @@ const teams = {
         "name": "Wriothesley HyperFridge",
         "description": "",
         "rotation": "",
-        "archetype": "HyperFridge",
+        "archetype": ["HyperFridge"],
         "viability": "Viable",
 
         "character_1": {
@@ -3659,7 +3659,7 @@ const teams = {
         "name": "Wriothesley Melt",
         "description": "",
         "rotation": "",
-        "archetype": "Melt",
+        "archetype": ["Melt"],
         "viability": "Meta",
 
         "character_1": {
@@ -3685,7 +3685,7 @@ const teams = {
         "name": "Wriothesley Oven",
         "description": "",
         "rotation": "",
-        "archetype": "Oven",
+        "archetype": ["Oven"],
         "viability": "Meta",
 
         "character_1": {
@@ -3710,7 +3710,7 @@ const teams = {
         "name": "Wriothesley Oven",
         "description": "",
         "rotation": "",
-        "archetype": "Oven",
+        "archetype": ["Oven"],
         "viability": "Meta",
 
         "character_1": {
@@ -3735,7 +3735,7 @@ const teams = {
         "name": "Neuvillette Furina Carry",
         "description": "",
         "rotation": "",
-        "archetype": "Hypercarry",
+        "archetype": ["Hypercarry"],
         "viability": "Meta",
 
         "character_1": {
@@ -3760,7 +3760,7 @@ const teams = {
         "name": "Neuvillette Furina Carry",
         "description": "This team is very good, but is OMEGA BROKEN if yo fight vs enemies that applies to yourself some element, so jean can swirl it and proc Neuvillette pasive.",
         "rotation": "",
-        "archetype": "Hypercarry",
+        "archetype": ["Hypercarry"],
         "viability": "Meta",
 
         "character_1": {
@@ -3785,7 +3785,7 @@ const teams = {
         "name": "Neuvillette Furina Carry",
         "description": "In this team is recommended playing Neuvillette with Prototype Amber to have enough healing with Furina Passive and Shinobu/Dori/Diona",
         "rotation": "",
-        "archetype": "Hypercarry",
+        "archetype": ["Hypercarry"],
         "viability": "Viable",
 
         "character_1": {
@@ -3810,7 +3810,7 @@ const teams = {
         "name": "Neuvillette Furina Carry",
         "description": "",
         "rotation": "",
-        "archetype": "Hypercarry",
+        "archetype": ["Hypercarry"],
         "viability": "Meta",
 
         "character_1": {
@@ -3835,7 +3835,7 @@ const teams = {
         "name": "Neuvillette Furina Hyperbloom",
         "description": "In this team is recommended playing Neuvillette with Prototype Amber to have enough healing with Furina Passive and Shinobu/Dori/Diona",
         "rotation": "",
-        "archetype": "Hyperbloom",
+        "archetype": ["Hyperbloom"],
         "viability": "Meta",
 
         "character_1": {
@@ -3860,7 +3860,7 @@ const teams = {
         "name": "Neuvillette Furina Hyperbloom",
         "description": "",
         "rotation": "Furina Q > Healer Q/healing",
-        "archetype": "Hyperbloom",
+        "archetype": ["Hyperbloom"],
         "viability": "Meta",
 
         "character_1": {
@@ -3885,7 +3885,7 @@ const teams = {
         "name": "Neuvillette Furina Hyperbloom",
         "description": "",
         "rotation": "Furina Q > Healer Q/healing",
-        "archetype": "Hyperbloom",
+        "archetype": ["Hyperbloom"],
         "viability": "Meta",
 
         "character_1": {
@@ -3910,7 +3910,7 @@ const teams = {
         "name": "Furina Raiden Hyperbloom",
         "description": "",
         "rotation": "Furina Q > Healer Q/healing",
-        "archetype": "Hyperbloom",
+        "archetype": ["Hyperbloom"],
         "viability": "Meta",
 
         "character_1": {
@@ -3935,7 +3935,7 @@ const teams = {
         "name": "Furina Raiden Hyperbloom",
         "description": "",
         "rotation": "Furina Q > Healer Q/healing",
-        "archetype": "Hyperbloom",
+        "archetype": ["Hyperbloom"],
         "viability": "Meta",
 
         "character_1": {
@@ -3960,7 +3960,7 @@ const teams = {
         "name": "Furina Shinobu Hyperbloom",
         "description": "",
         "rotation": "Furina Q > Healer Q/healing",
-        "archetype": "Hyperbloom",
+        "archetype": ["Hyperbloom"],
         "viability": "Meta",
 
         "character_1": {
@@ -3985,7 +3985,7 @@ const teams = {
         "name": "Furina Shinobu Hyperbloom",
         "description": "",
         "rotation": "Furina Q > Healer Q/healing",
-        "archetype": "Hyperbloom",
+        "archetype": ["Hyperbloom"],
         "viability": "Meta",
 
         "character_1": {
@@ -4010,7 +4010,7 @@ const teams = {
         "name": "Furina Dori Hyperbloom",
         "description": "Dori can be used in hyperbloom but she has a lot of downtime",
         "rotation": "Furina Q > Healer Q/healing",
-        "archetype": "Hyperbloom",
+        "archetype": ["Hyperbloom"],
         "viability": "Offmeta",
 
         "character_1": {
@@ -4035,7 +4035,7 @@ const teams = {
         "name": "Furina Dori Hyperbloom",
         "description": "Dori can be used in hyperbloom but she has a lot of downtime",
         "rotation": "Furina Q > Healer Q/healing",
-        "archetype": "Hyperbloom",
+        "archetype": ["Hyperbloom"],
         "viability": "Offmeta",
 
         "character_1": {
@@ -4060,7 +4060,7 @@ const teams = {
         "name": "Furina Hyperbloom",
         "description": "",
         "rotation": "",
-        "archetype": "Hyperbloom",
+        "archetype": ["Hyperbloom"],
         "viability": "Meta",
 
         "character_1": {
@@ -4085,7 +4085,7 @@ const teams = {
         "name": "Furina Hyperbloom",
         "description": "",
         "rotation": "",
-        "archetype": "Hyperbloom",
+        "archetype": ["Hyperbloom"],
         "viability": "Meta",
 
         "character_1": {
@@ -4110,7 +4110,7 @@ const teams = {
         "name": "Cyno Furina Hyperbloom",
         "description": "",
         "rotation": "Furina Q > Healer Q/healing",
-        "archetype": "Hyperbloom",
+        "archetype": ["Hyperbloom"],
         "viability": "Meta",
 
         "character_1": {
@@ -4135,7 +4135,7 @@ const teams = {
         "name": "Cyno Furina Hyperbloom",
         "description": "",
         "rotation": "",
-        "archetype": "Hyperbloom",
+        "archetype": ["Hyperbloom"],
         "viability": "Meta",
 
         "character_1": {
@@ -4160,7 +4160,7 @@ const teams = {
         "name": "Cyno Furina Quickbloom",
         "description": "",
         "rotation": "Furina Q > Healer Q/healing",
-        "archetype": "Quickbloom",
+        "archetype": ["Quickbloom"],
         "viability": "Meta",
 
         "character_1": {
@@ -4185,7 +4185,7 @@ const teams = {
         "name": "Cyno Furina Quickbloom",
         "description": "",
         "rotation": "Furina Q > Healer Q/healing",
-        "archetype": "Quickbloom",
+        "archetype": ["Quickbloom"],
         "viability": "Viable",
 
         "character_1": {
@@ -4210,7 +4210,7 @@ const teams = {
         "name": "Cyno Furina Quickbloom",
         "description": "",
         "rotation": "Furina Q > Healer Q/healing",
-        "archetype": "Quickbloom",
+        "archetype": ["Quickbloom"],
         "viability": "Meta",
 
         "character_1": {
@@ -4235,7 +4235,7 @@ const teams = {
         "name": "Cyno Furina Quickbloom",
         "description": "",
         "rotation": "",
-        "archetype": "Quickbloom",
+        "archetype": ["Quickbloom"],
         "viability": "Meta",
 
         "character_1": {
@@ -4260,7 +4260,7 @@ const teams = {
         "name": "Cyno Furina Quickbloom",
         "description": "Cyno Furina hyperbloom but with a Flex Healer slot. ",
         "rotation": "Furina Q > Healer Q/healing",
-        "archetype": "Quickbloom",
+        "archetype": ["Quickbloom"],
         "viability": "Viable",
 
         "character_1": {
@@ -4285,7 +4285,7 @@ const teams = {
         "name": "Cyno Furina Quickbloom",
         "description": "Cyno Furina hyperbloom but with a Flex Healer slot. ",
         "rotation": "Furina Q > Healer Q/healing",
-        "archetype": "Quickbloom",
+        "archetype": ["Quickbloom"],
         "viability": "Viable",
 
         "character_1": {
@@ -4310,7 +4310,7 @@ const teams = {
         "name": "Kequeen Furina Quickbloom",
         "description": "",
         "rotation": "Furina Q > Healer Q/healing",
-        "archetype": "Quickbloom",
+        "archetype": ["Quickbloom"],
         "viability": "Meta",
 
         "character_1": {
@@ -4335,7 +4335,7 @@ const teams = {
         "name": "Alhaitham Furina Quickbloom",
         "description": "",
         "rotation": "Furina Q > Healer Q/healing",
-        "archetype": "Quickbloom",
+        "archetype": ["Quickbloom"],
         "viability": "Meta",
 
         "character_1": {
@@ -4360,7 +4360,7 @@ const teams = {
         "name": "Alhaitham Furina Quickbloom",
         "description": "",
         "rotation": "Furina Q > Healer Q/healing",
-        "archetype": "Quickbloom",
+        "archetype": ["Quickbloom"],
         "viability": "Meta",
 
         "character_1": {
@@ -4385,7 +4385,7 @@ const teams = {
         "name": "Tighnari Furina Quickbloom",
         "description": "",
         "rotation": " Raiden E - Furina E+Q - Tignari E - Baizhu/YaoYao E/Q (4-5s) - Tignari Q + NA3 + E + NA3 - Repeat",
-        "archetype": "Quickbloom",
+        "archetype": ["Quickbloom"],
         "viability": "Meta",
 
         "character_1": {
@@ -4410,7 +4410,7 @@ const teams = {
         "name": "Tighnari Furina Quickbloom",
         "description": "",
         "rotation": "Furina E+Q - Shinobu E - Tignari E - Baizhu/YaoYao E/Q (4-5s) - Tignari Q + NA3 + E + NA3 - Repeat",
-        "archetype": "Quickbloom",
+        "archetype": ["Quickbloom"],
         "viability": "Meta",
 
         "character_1": {
@@ -4435,7 +4435,7 @@ const teams = {
         "name": "Yoimiya Furina Vape",
         "description": "Yoimiya + Furina + Bennet + Flex Slot Healer. Furina has enough hydro app for Yoimiya.",
         "rotation": "Remember: Furina Q > Healer Q/healing",
-        "archetype": "Vaporize",
+        "archetype": ["Vaporize"],
         "viability": "Viable",
 
         "character_1": {
@@ -4460,7 +4460,7 @@ const teams = {
         "name": "Dehya Furina Vape",
         "description": "Dehya + Furina + Bennet + Flex Slot Healer. Furina has enough hydro app for Dehya",
         "rotation": "Remember: Furina Q > Healer Q/healing",
-        "archetype": "Vaporize",
+        "archetype": ["Vaporize"],
         "viability": "Offmeta",
 
         "character_1": {
@@ -4485,7 +4485,7 @@ const teams = {
         "name": "Furina Forward Vape",
         "description": "Due to Jean's ultimate, Furina will be the one vaping",
         "rotation": "Remember: Furina Q > Healer Q/healing. Do Jean ults after bennett ults.",
-        "archetype": "Vaporize",
+        "archetype": ["Vaporize"],
         "viability": "Viable",
 
         "character_1": {
@@ -4510,7 +4510,7 @@ const teams = {
         "name": "Dehya Doble Hydro Vape",
         "description": "",
         "rotation": "Remember: Furina Q > Healer Q/healing",
-        "archetype": "Vaporize",
+        "archetype": ["Vaporize"],
         "viability": "Offmeta",
 
         "character_1": {
@@ -4535,7 +4535,7 @@ const teams = {
         "name": "Furina National",
         "description": "You have to swap all the time between the characters in order to bennett heal all the allies. Bennett healer build.",
         "rotation": "",
-        "archetype": "National",
+        "archetype": ["National"],
         "viability": "Meta",
 
         "character_1": {
@@ -4560,7 +4560,7 @@ const teams = {
         "name": "Furina National",
         "description": "You have to swap all the time between the characters in order to bennett heal all the allies. Bennett healer build. Lynette and Heizou are good due to VV, but other anemo like Sucrose may be better. ",
         "rotation": "",
-        "archetype": "National",
+        "archetype": ["National"],
         "viability": "Viable",
 
         "character_1": {
@@ -4585,7 +4585,7 @@ const teams = {
         "name": "Yoimiya Furina Vape",
         "description": "",
         "rotation": "Remember: Furina Q > Healer Q/healing",
-        "archetype": "Vaporize",
+        "archetype": ["Vaporize"],
         "viability": "Viable",
 
         "character_1": {
@@ -4610,7 +4610,7 @@ const teams = {
         "name": "Yoimiya Furina Vape",
         "description": "",
         "rotation": "Remember: Furina Q > Healer Q/healing",
-        "archetype": "Vaporize",
+        "archetype": ["Vaporize"],
         "viability": "Viable",
 
         "character_1": {
@@ -4635,7 +4635,7 @@ const teams = {
         "name": "Yoimiya Furina Vape",
         "description": "",
         "rotation": "Remember: Furina Q > Healer Q/healing",
-        "archetype": "Overvape",
+        "archetype": ["Overvape"],
         "viability": "Viable",
 
         "character_1": {
@@ -4660,7 +4660,7 @@ const teams = {
         "name": "Yoimiya Furina Vape",
         "description": "",
         "rotation": "Remember: Furina Q > Healer Q/healing",
-        "archetype": "Vaporize",
+        "archetype": ["Vaporize"],
         "viability": "Viable",
 
         "character_1": {
@@ -4685,7 +4685,7 @@ const teams = {
         "name": "Yoimiya Furina Vape",
         "description": "",
         "rotation": "Remember: Furina Q > Healer Q/healing",
-        "archetype": "Vaporize",
+        "archetype": ["Vaporize"],
         "viability": "Viable",
 
         "character_1": {
@@ -4710,7 +4710,7 @@ const teams = {
         "name": "Yoimiya Furina Doble Hydro Vape",
         "description": "Yoimiya Doble Hydro plus a flex healer. The dendro ones could generate some seeds but its okay. ",
         "rotation": "Remember: Furina Q > Healer Q/healing",
-        "archetype": "Vaporize",
+        "archetype": ["Vaporize"],
         "viability": "Meta",
 
         "character_1": {
@@ -4735,7 +4735,7 @@ const teams = {
         "name": "Yoimiya Furina Doble Hydro Vape",
         "description": "Yoimiya Doble Hydro plus a flex healer. The dendro ones could generate some seeds but its okay. ",
         "rotation": "Remember: Furina Q > Healer Q/healing",
-        "archetype": "Vaporize",
+        "archetype": ["Vaporize"],
         "viability": "Meta",
 
         "character_1": {
@@ -4760,7 +4760,7 @@ const teams = {
         "name": "Hu Tao Furina Doble Hydro Vape",
         "description": "Hu Tao Doble Hydro plus a flex healer. The dendro ones could generate some seeds but its okay. ",
         "rotation": "Remember: Furina Q > Healer Q/healing",
-        "archetype": "Vaporize",
+        "archetype": ["Vaporize"],
         "viability": "Meta",
 
         "character_1": {
@@ -4785,7 +4785,7 @@ const teams = {
         "name": "Hu Tao Furina Doble Hydro Vape",
         "description": "Hu Tao Doble Hydro plus a flex healer. The dendro ones could generate some seeds but its okay. ",
         "rotation": "Remember: Furina Q > Healer Q/healing",
-        "archetype": "Vaporize",
+        "archetype": ["Vaporize"],
         "viability": "Meta",
 
         "character_1": {
@@ -4810,7 +4810,7 @@ const teams = {
         "name": "Diluc Furina Doble Hydro Vape",
         "description": "Diluc Doble Hydro plus a flex healer. The dendro ones could generate some seeds but its okay. ",
         "rotation": "Remember: Furina Q > Healer Q/healing",
-        "archetype": "Vaporize",
+        "archetype": ["Vaporize"],
         "viability": "Viable",
 
         "character_1": {
@@ -4835,7 +4835,7 @@ const teams = {
         "name": "Diluc Furina Doble Hydro Vape",
         "description": "Diluc Doble Hydro plus a flex healer. The dendro ones could generate some seeds but its okay. ",
         "rotation": "Remember: Furina Q > Healer Q/healing ",
-        "archetype": "Vaporize",
+        "archetype": ["Vaporize"],
         "viability": "Viable",
 
         "character_1": {
@@ -4860,7 +4860,7 @@ const teams = {
         "name": "Yanfei Furina Doble Hydro Vape",
         "description": "Yanfei Doble Hydro plus a flex healer. The dendro ones could generate some seeds but its okay. ",
         "rotation": "Remember: Furina Q > Healer Q/healing",
-        "archetype": "Vaporize",
+        "archetype": ["Vaporize"],
         "viability": "Viable",
 
         "character_1": {
@@ -4885,7 +4885,7 @@ const teams = {
         "name": "Yanfei Furina Doble Hydro Vape",
         "description": "Yanfei Doble Hydro plus a flex healer. The dendro ones could generate some seeds but its okay. ",
         "rotation": "Remember: Furina Q > Healer Q/healing",
-        "archetype": "Vaporize",
+        "archetype": ["Vaporize"],
         "viability": "Viable",
 
         "character_1": {
@@ -4910,7 +4910,7 @@ const teams = {
         "name": "Klee Furina Doble Hydro Vape",
         "description": "Klee Doble Hydro plus a flex healer. The dendro ones could generate some seeds but its okay. ",
         "rotation": "Remember: Furina Q > Healer Q/healing",
-        "archetype": "Vaporize",
+        "archetype": ["Vaporize"],
         "viability": "Viable",
 
         "character_1": {
@@ -4935,7 +4935,7 @@ const teams = {
         "name": "Klee Furina Doble Hydro Vape",
         "description": "Klee Doble Hydro plus a flex healer. The dendro ones could generate some seeds but its okay. ",
         "rotation": "Remember: Furina Q > Healer Q/healing",
-        "archetype": "Vaporize",
+        "archetype": ["Vaporize"],
         "viability": "Viable",
 
         "character_1": {
@@ -4960,7 +4960,7 @@ const teams = {
         "name": "Hu Tao Triple Hydro with Mona Healer",
         "description": "A fun and surprisingly good team, where Mona is the healers thanks to Prototype amber, the Maiden set, and Healing Bonus Circlet. Not gonna fully stack Fanfare, but its ok.",
         "rotation": "",
-        "archetype": "Vaporize",
+        "archetype": ["Vaporize"],
         "viability": "Unique",
 
         "character_1": {
@@ -4985,7 +4985,7 @@ const teams = {
         "name": "Jean Furina MonoHydro",
         "description": "You can On-Field Yelan so she has her own buff and do pretty high damage",
         "rotation": "Furina Q > Healer Q/healing",
-        "archetype": "MonoHydro",
+        "archetype": ["MonoHydro"],
         "viability": "Meta",
 
         "character_1": {
@@ -5010,7 +5010,7 @@ const teams = {
         "name": "Kokomi Furina MonoHydro",
         "description": "",
         "rotation": "",
-        "archetype": "MonoHydro",
+        "archetype": ["MonoHydro"],
         "viability": "Meta",
 
         "character_1": {
@@ -5035,7 +5035,7 @@ const teams = {
         "name": "Kokomi Furina MonoHydro",
         "description": "",
         "rotation": "",
-        "archetype": "MonoHydro",
+        "archetype": ["MonoHydro"],
         "viability": "Meta",
 
         "character_1": {
@@ -5060,7 +5060,7 @@ const teams = {
         "name": "Sayu Furina MonoHydro",
         "description": "You can On-Field Yelan so she has her own buff and do pretty high damage",
         "rotation": "Furina Q > Healer Q/healing",
-        "archetype": "MonoHydro",
+        "archetype": ["MonoHydro"],
         "viability": "Viable",
 
         "character_1": {
@@ -5085,7 +5085,7 @@ const teams = {
         "name": "Noelle Furina MonoHydro",
         "description": "",
         "rotation": "",
-        "archetype": "MonoHydro",
+        "archetype": ["MonoHydro"],
         "viability": "Meta",
 
         "character_1": {
@@ -5110,7 +5110,7 @@ const teams = {
         "name": "MonoHydro but the real one",
         "description": "",
         "rotation": "",
-        "archetype": "MonoHydro",
+        "archetype": ["MonoHydro"],
         "viability": "Meta",
 
         "character_1": {
@@ -5135,7 +5135,7 @@ const teams = {
         "name": "Ayaka Furina Freeze",
         "description": "",
         "rotation": "",
-        "archetype": "Freeze",
+        "archetype": ["Freeze"],
         "viability": "Meta",
 
         "character_1": {
@@ -5160,7 +5160,7 @@ const teams = {
         "name": "Ayaka Furina Freeze",
         "description": "",
         "rotation": "",
-        "archetype": "Freeze",
+        "archetype": ["Freeze"],
         "viability": "Meta",
 
         "character_1": {
@@ -5185,7 +5185,7 @@ const teams = {
         "name": "Ganyu Furina Freeze",
         "description": "No grouping. Useful in single-target enemies that can freeze.",
         "rotation": "",
-        "archetype": "Freeze",
+        "archetype": ["Freeze"],
         "viability": "Viable",
 
         "character_1": {
@@ -5210,7 +5210,7 @@ const teams = {
         "name": "Ganyu Furina Freeze",
         "description": "",
         "rotation": "",
-        "archetype": "Freeze",
+        "archetype": ["Freeze"],
         "viability": "Meta",
 
         "character_1": {
@@ -5235,7 +5235,7 @@ const teams = {
         "name": "Ganyu Furina Freeze",
         "description": "",
         "rotation": "",
-        "archetype": "Freeze",
+        "archetype": ["Freeze"],
         "viability": "Meta",
 
         "character_1": {
@@ -5261,7 +5261,7 @@ const teams = {
         "name": "Neuvillette Hyperbloom",
         "description": "Neuvillette is very strong in this archetype. With Raiden, you can do kite and trigger seeds.",
         "rotation": "",
-        "archetype": "Hyperbloom",
+        "archetype": ["Hyperbloom"],
         "viability": "Meta",
 
         "character_1": {
@@ -5286,7 +5286,7 @@ const teams = {
         "name": "Freminet Freeze",
         "description": "",
         "rotation": "Off field characters  > Freminet: E, BURST, Spam skill (NA when Skill on CD(1s))",
-        "archetype": "Freeze",
+        "archetype": ["Freeze"],
         "viability": "Viable",
 
         "character_1": {
@@ -5311,7 +5311,7 @@ const teams = {
         "name": "Freminet Furina Freeze",
         "description": "",
         "rotation": "",
-        "archetype": "Freeze",
+        "archetype": ["Freeze"],
         "viability": "Viable",
 
         "character_1": {
@@ -5336,7 +5336,7 @@ const teams = {
         "name": "Freminet Furina Freeze",
         "description": "",
         "rotation": "",
-        "archetype": "Freeze",
+        "archetype": ["Freeze"],
         "viability": "Viable",
 
         "character_1": {
@@ -5361,7 +5361,7 @@ const teams = {
         "name": "Kaeya Furina Freeze",
         "description": "",
         "rotation": "",
-        "archetype": "Freeze",
+        "archetype": ["Freeze"],
         "viability": "Viable",
 
         "character_1": {
@@ -5386,7 +5386,7 @@ const teams = {
         "name": "Kaeya Furina Freeze",
         "description": "",
         "rotation": "",
-        "archetype": "Freeze",
+        "archetype": ["Freeze"],
         "viability": "Viable",
 
         "character_1": {
@@ -5411,7 +5411,7 @@ const teams = {
         "name": "Furina Shinobu Quickbloom",
         "description": "",
         "rotation": "Furina Q > Healer Q/healing",
-        "archetype": "Quickbloom",
+        "archetype": ["Quickbloom"],
         "viability": "Meta",
 
         "character_1": {
@@ -5436,7 +5436,7 @@ const teams = {
         "name": "Furina Shinobu Quickbloom",
         "description": "",
         "rotation": "Furina Q > Healer Q/healing",
-        "archetype": "Quickbloom",
+        "archetype": ["Quickbloom"],
         "viability": "Meta",
 
         "character_1": {
@@ -5461,7 +5461,7 @@ const teams = {
         "name": "Furina Raiden Quickbloom",
         "description": "",
         "rotation": "Furina Q > Healer Q/healing",
-        "archetype": "Quickbloom",
+        "archetype": ["Quickbloom"],
         "viability": "Meta",
 
         "character_1": {
@@ -5486,7 +5486,7 @@ const teams = {
         "name": "Furina Raiden Quickbloom",
         "description": "",
         "rotation": "Furina Q > Healer Q/healing",
-        "archetype": "Quickbloom",
+        "archetype": ["Quickbloom"],
         "viability": "Meta",
 
         "character_1": {
@@ -5511,7 +5511,7 @@ const teams = {
         "name": "Furina Taser",
         "description": "",
         "rotation": "",
-        "archetype": "Taser",
+        "archetype": ["Taser"],
         "viability": "Meta",
 
         "character_1": {
@@ -5536,7 +5536,7 @@ const teams = {
         "name": "Miko Furina Taser",
         "description": "",
         "rotation": "",
-        "archetype": "Taser",
+        "archetype": ["Taser"],
         "viability": "Meta",
 
         "character_1": {
@@ -5561,7 +5561,7 @@ const teams = {
         "name": "Raiden Furina Taser",
         "description": "",
         "rotation": "With Xianyun: Raiden N1CJP (1 Normal Attack + 1 Charge Attack + Jump + Pungle Attack)",
-        "archetype": "Taser",
+        "archetype": ["Taser"],
         "viability": "Meta",
 
         "character_1": {
@@ -5586,7 +5586,7 @@ const teams = {
         "name": "Raiden Furina Taser",
         "description": "With Xianyun: Raiden N1CJP (1 Normal Attack + 1 Charge Attack + Jump + Pungle Attack)",
         "rotation": "",
-        "archetype": "Taser",
+        "archetype": ["Taser"],
         "viability": "Meta",
 
         "character_1": {
@@ -5611,7 +5611,7 @@ const teams = {
         "name": "Raiden Furina Taser",
         "description": "",
         "rotation": "",
-        "archetype": "Taser",
+        "archetype": ["Taser"],
         "viability": "Meta",
 
         "character_1": {
@@ -5636,7 +5636,7 @@ const teams = {
         "name": "Qiqi Furina Taser",
         "description": "Qiqi onfield to have enough healing and ER. ",
         "rotation": "",
-        "archetype": "Taser",
+        "archetype": ["Taser"],
         "viability": "Viable",
 
         "character_1": {
@@ -5661,7 +5661,7 @@ const teams = {
         "name": "Kokomi Furina Taser",
         "description": "Kokomi On-Field",
         "rotation": "",
-        "archetype": "Taser",
+        "archetype": ["Taser"],
         "viability": "Meta",
 
         "character_1": {
@@ -5686,7 +5686,7 @@ const teams = {
         "name": "Nilou Furina",
         "description": "",
         "rotation": "",
-        "archetype": "Bloom",
+        "archetype": ["Bloom"],
         "viability": "Meta",
 
         "character_1": {
@@ -5711,7 +5711,7 @@ const teams = {
         "name": "Nilou Furina",
         "description": "",
         "rotation": "",
-        "archetype": "Bloom",
+        "archetype": ["Bloom"],
         "viability": "Viable",
 
         "character_1": {
@@ -5736,7 +5736,7 @@ const teams = {
         "name": "Raiden Furina Hypercarry",
         "description": "Jean Sunfire plus Raiden doing a lot of damage. ",
         "rotation": "Furina Q > Jean Q",
-        "archetype": "Overvape",
+        "archetype": ["Overvape"],
         "viability": "Meta",
 
         "character_1": {
@@ -5761,7 +5761,7 @@ const teams = {
         "name": "Noelle Furina Hypercarry",
         "description": "",
         "rotation": "",
-        "archetype": "Hypercarry",
+        "archetype": ["Hypercarry"],
         "viability": "Meta",
 
         "character_1": {
@@ -5786,7 +5786,7 @@ const teams = {
         "name": "Wanderer Furina Hypercarry",
         "description": "You can use standard Wanderer build or Marechaussee Hunter artifacts set thanks to Furina (that might be better). This team is SO much better with Faruzan c6. Mika > Charlotte.",
         "rotation": "Furina Q > Healer Q/Healing",
-        "archetype": "Hypercarry",
+        "archetype": ["Hypercarry"],
         "viability": "Meta",
 
         "character_1": {
@@ -5811,7 +5811,7 @@ const teams = {
         "name": "Wanderer Furina Hypercarry",
         "description": "You can use standard Wanderer build or Marechaussee Hunter artifacts set thanks to Furina (that might be better). If you don't have Faruzan c6, Jean or Xianyun can helps with ER requirements.",
         "rotation": "Furina Q > Healer Q/Healing",
-        "archetype": "Hypercarry",
+        "archetype": ["Hypercarry"],
         "viability": "Viable",
 
         "character_1": {
@@ -5836,7 +5836,7 @@ const teams = {
         "name": "Ayato Furina MonoHydro",
         "description": "",
         "rotation": "Furina Q > Healer Q/healing",
-        "archetype": "MonoHydro",
+        "archetype": ["MonoHydro"],
         "viability": "Viable",
 
         "character_1": {
@@ -5861,7 +5861,7 @@ const teams = {
         "name": "Ayato Furina MonoHydro",
         "description": "",
         "rotation": "Furina Q > Healer Q/healing",
-        "archetype": "MonoHydro",
+        "archetype": ["MonoHydro"],
         "viability": "Viable",
 
         "character_1": {
@@ -5886,7 +5886,7 @@ const teams = {
         "name": "Tartaglia Furina MonoHydro",
         "description": "If you use Xianyun instead of Jean, you don't have to plunge",
         "rotation": "Furina Q > Healer Q/healing",
-        "archetype": "MonoHydro",
+        "archetype": ["MonoHydro"],
         "viability": "Viable",
 
         "character_1": {
@@ -5911,7 +5911,7 @@ const teams = {
         "name": "Tartaglia Furina MonoHydro",
         "description": "If you use Xianyun instead of Jean, you don't have to plunge",
         "rotation": "Furina Q > Healer Q/healing",
-        "archetype": "MonoHydro",
+        "archetype": ["MonoHydro"],
         "viability": "Viable",
 
         "character_1": {
@@ -5936,7 +5936,7 @@ const teams = {
         "name": "Ayato Furina Hyperbloom",
         "description": "",
         "rotation": "Furina Q > Healer Q/healing",
-        "archetype": "Hyperbloom",
+        "archetype": ["Hyperbloom"],
         "viability": "Meta",
 
         "character_1": {
@@ -5961,7 +5961,7 @@ const teams = {
         "name": "Ayato Furina Hyperbloom",
         "description": "",
         "rotation": "Furina Q > Healer Q/healing",
-        "archetype": "Hyperbloom",
+        "archetype": ["Hyperbloom"],
         "viability": "Meta",
 
         "character_1": {
@@ -5986,7 +5986,7 @@ const teams = {
         "name": "Ayato Furina Taser",
         "description": "",
         "rotation": "Furina Q > Healer Q/healing",
-        "archetype": "Taser",
+        "archetype": ["Taser"],
         "viability": "Meta",
 
         "character_1": {
@@ -6011,7 +6011,7 @@ const teams = {
         "name": "Xiao Furina Hypercarry",
         "description": "",
         "rotation": "Furina Q > Healer Q/Healing",
-        "archetype": "Hypercarry",
+        "archetype": ["Hypercarry"],
         "viability": "Viable",
 
         "character_1": {
@@ -6036,7 +6036,7 @@ const teams = {
         "name": "Xiao Furina Hypercarry",
         "description": "If you don't have Faruzan c6 maybe Jean's particle generation would help, otherwise Mika/Charlotte are better options.",
         "rotation": "Furina Q > Healer Q/Healing",
-        "archetype": "Hypercarry",
+        "archetype": ["Hypercarry"],
         "viability": "Viable",
 
         "character_1": {
@@ -6061,7 +6061,7 @@ const teams = {
         "name": "Ayato Furina Hypercarry",
         "description": "",
         "rotation": "Furina Q > Healer Q/healing",
-        "archetype": "Hypercarry",
+        "archetype": ["Hypercarry"],
         "viability": "Meta",
 
         "character_1": {
@@ -6086,7 +6086,7 @@ const teams = {
         "name": "Wriothesley Freeze",
         "description": "",
         "rotation": "",
-        "archetype": "Freeze",
+        "archetype": ["Freeze"],
         "viability": "Meta",
 
         "character_1": {
@@ -6111,7 +6111,7 @@ const teams = {
         "name": "Raiden Furina Hypercarry",
         "description": "",
         "rotation": "Furina Q > Sayu Q",
-        "archetype": "Hypercarry",
+        "archetype": ["Hypercarry"],
         "viability": "Meta",
 
         "character_1": {
@@ -6136,7 +6136,7 @@ const teams = {
         "name": "Eula Furina Hypercarry",
         "description": "",
         "rotation": "",
-        "archetype": "Hypercarry",
+        "archetype": ["Hypercarry"],
         "viability": "Meta",
 
         "character_1": {
@@ -6161,7 +6161,7 @@ const teams = {
         "name": "Eula Furina Hypercarry",
         "description": "",
         "rotation": "",
-        "archetype": "Hypercarry",
+        "archetype": ["Hypercarry"],
         "viability": "Viable",
 
         "character_1": {
@@ -6186,7 +6186,7 @@ const teams = {
         "name": "Charlotte Furina HyperFridge",
         "description": "",
         "rotation": "",
-        "archetype": "HyperFridge",
+        "archetype": ["HyperFridge"],
         "viability": "Meta",
 
         "character_1": {
@@ -6211,7 +6211,7 @@ const teams = {
         "name": "Charlotte Furina HyperFridge",
         "description": "",
         "rotation": "",
-        "archetype": "HyperFridge",
+        "archetype": ["HyperFridge"],
         "viability": "Meta",
 
         "character_1": {
@@ -6236,7 +6236,7 @@ const teams = {
         "name": "Wriothesley Furina HyperFridge",
         "description": "",
         "rotation": "",
-        "archetype": "HyperFridge",
+        "archetype": ["HyperFridge"],
         "viability": "Meta",
 
         "character_1": {
@@ -6261,7 +6261,7 @@ const teams = {
         "name": "Wriothesley Furina HyperFridge",
         "description": "",
         "rotation": "",
-        "archetype": "HyperFridge",
+        "archetype": ["HyperFridge"],
         "viability": "Meta",
 
         "character_1": {
@@ -6286,7 +6286,7 @@ const teams = {
         "name": "Cryo Furina HyperFridge",
         "description": "",
         "rotation": "",
-        "archetype": "HyperFridge",
+        "archetype": ["HyperFridge"],
         "viability": "Meta",
 
         "character_1": {
@@ -6311,7 +6311,7 @@ const teams = {
         "name": "Cryo Furina HyperFridge",
         "description": "",
         "rotation": "",
-        "archetype": "HyperFridge",
+        "archetype": ["HyperFridge"],
         "viability": "Meta",
 
         "character_1": {
@@ -6336,7 +6336,7 @@ const teams = {
         "name": "Cryo Furina HyperFridge",
         "description": "",
         "rotation": "",
-        "archetype": "HyperFridge",
+        "archetype": ["HyperFridge"],
         "viability": "Meta",
 
         "character_1": {
@@ -6361,7 +6361,7 @@ const teams = {
         "name": "Cryo Furina HyperFridge",
         "description": "",
         "rotation": "",
-        "archetype": "HyperFridge",
+        "archetype": ["HyperFridge"],
         "viability": "Meta",
 
         "character_1": {
@@ -6386,7 +6386,7 @@ const teams = {
         "name": "Kokomi Furina Burgeon",
         "description": "",
         "rotation": "",
-        "archetype": "Burgeon",
+        "archetype": ["Burgeon"],
         "viability": "Meta",
 
         "character_1": {
@@ -6411,7 +6411,7 @@ const teams = {
         "name": "Ayato Furina Burgeon",
         "description": "",
         "rotation": "",
-        "archetype": "Burgeon",
+        "archetype": ["Burgeon"],
         "viability": "Meta",
 
         "character_1": {
@@ -6436,7 +6436,7 @@ const teams = {
         "name": "Tartaglia Furina Burgeon",
         "description": "",
         "rotation": "",
-        "archetype": "Burgeon",
+        "archetype": ["Burgeon"],
         "viability": "Meta",
 
         "character_1": {
@@ -6461,7 +6461,7 @@ const teams = {
         "name": "Furina Doble Hydro Burgeon",
         "description": "",
         "rotation": "",
-        "archetype": "Burgeon",
+        "archetype": ["Burgeon"],
         "viability": "Meta",
 
         "character_1": {
@@ -6486,7 +6486,7 @@ const teams = {
         "name": "Furina Doble Hydro Burgeon",
         "description": "",
         "rotation": "",
-        "archetype": "Burgeon",
+        "archetype": ["Burgeon"],
         "viability": "Meta",
 
         "character_1": {
@@ -6511,7 +6511,7 @@ const teams = {
         "name": "Furina Burgeon",
         "description": "",
         "rotation": "",
-        "archetype": "Burgeon",
+        "archetype": ["Burgeon"],
         "viability": "Meta",
 
         "character_1": {
@@ -6536,7 +6536,7 @@ const teams = {
         "name": "Furina Curry",
         "description": "",
         "rotation": "",
-        "archetype": "Curry",
+        "archetype": ["Curry"],
         "viability": "Viable",
 
         "character_1": {
@@ -6561,7 +6561,7 @@ const teams = {
         "name": "Furina Curry",
         "description": "",
         "rotation": "",
-        "archetype": "Curry",
+        "archetype": ["Curry"],
         "viability": "Viable",
 
         "character_1": {
@@ -6586,7 +6586,7 @@ const teams = {
         "name": "Furina Curry",
         "description": "",
         "rotation": "",
-        "archetype": "Curry",
+        "archetype": ["Curry"],
         "viability": "Viable",
 
         "character_1": {
@@ -6611,7 +6611,7 @@ const teams = {
         "name": "Furina Curry",
         "description": "",
         "rotation": "",
-        "archetype": "Curry",
+        "archetype": ["Curry"],
         "viability": "Viable",
 
         "character_1": {
@@ -6636,7 +6636,7 @@ const teams = {
         "name": "Furina Sauté",
         "description": "Furina will generate pretty low seeds, in exchange, she will fordward vape, doing a lot of damage. ",
         "rotation": "",
-        "archetype": "Sauté",
+        "archetype": ["Sauté"],
         "viability": "Meta",
 
         "character_1": {
@@ -6661,7 +6661,7 @@ const teams = {
         "name": "Furina Sauté",
         "description": "Furina will generate pretty low seeds, in exchange, she will fordward vape, doing a lot of damage. ",
         "rotation": "",
-        "archetype": "Sauté",
+        "archetype": ["Sauté"],
         "viability": "Meta",
 
         "character_1": {
@@ -6686,7 +6686,7 @@ const teams = {
         "name": "Furina Sauté",
         "description": "Prototype Amber Nahida is recommended or Bennettt full healing. Furina will generate pretty low seeds, in exchange, she will fordward vape, doing a lot of damage. ",
         "rotation": "",
-        "archetype": "Sauté",
+        "archetype": ["Sauté"],
         "viability": "Meta",
 
         "character_1": {
@@ -6711,7 +6711,7 @@ const teams = {
         "name": "Auto Play Archon Team",
         "description": "Press all elemental skill and go afk to buy milk. ",
         "rotation": "",
-        "archetype": "Hyperbloom",
+        "archetype": ["Hyperbloom"],
         "viability": "Unique",
 
         "character_1": {
@@ -6736,7 +6736,7 @@ const teams = {
         "name": "Furina Salad",
         "description": "",
         "rotation": "",
-        "archetype": "Salad",
+        "archetype": ["Salad"],
         "viability": "Viable",
 
         "character_1": {
@@ -6761,7 +6761,7 @@ const teams = {
         "name": "Cryo Furina Oven",
         "description": "",
         "rotation": "",
-        "archetype": "Oven",
+        "archetype": ["Oven"],
         "viability": "Meta",
 
         "character_1": {
@@ -6786,7 +6786,7 @@ const teams = {
         "name": "Cryo Furina Oven",
         "description": "",
         "rotation": "",
-        "archetype": "Oven",
+        "archetype": ["Oven"],
         "viability": "Meta",
 
         "character_1": {
@@ -6811,7 +6811,7 @@ const teams = {
         "name": "Charlotte Furina Oven",
         "description": "",
         "rotation": "",
-        "archetype": "Oven",
+        "archetype": ["Oven"],
         "viability": "Meta",
 
         "character_1": {
@@ -6836,7 +6836,7 @@ const teams = {
         "name": "Keqing Furina Quickbloom",
         "description": "You can build also Keqing hybrid with EM and dmg. ",
         "rotation": "",
-        "archetype": "Quickbloom",
+        "archetype": ["Quickbloom"],
         "viability": "Meta",
 
         "character_1": {
@@ -6861,7 +6861,7 @@ const teams = {
         "name": "Keqing Furina Quickbloom",
         "description": "You can build also Keqing hybrid with EM and dmg.",
         "rotation": "",
-        "archetype": "Quickbloom",
+        "archetype": ["Quickbloom"],
         "viability": "Meta",
 
         "character_1": {
@@ -6886,7 +6886,7 @@ const teams = {
         "name": "Dori C6 Furina Hyperbloom",
         "description": "Dori On-Field has enough healing for Furina teams",
         "rotation": "",
-        "archetype": "Hyperbloom",
+        "archetype": ["Hyperbloom"],
         "viability": "Meta",
 
         "character_1": {
@@ -6911,7 +6911,7 @@ const teams = {
         "name": "Dori C6 Furina Hyperbloom",
         "description": "Dori On-Field has enough healing for Furina teams",
         "rotation": "",
-        "archetype": "Hyperbloom",
+        "archetype": ["Hyperbloom"],
         "viability": "Viable",
 
         "character_1": {
@@ -6936,7 +6936,7 @@ const teams = {
         "name": "Raiden Furina Quickbloom",
         "description": "You can build also Raiden hybrid with EM and dmg.",
         "rotation": "",
-        "archetype": "Quickbloom",
+        "archetype": ["Quickbloom"],
         "viability": "Meta",
 
         "character_1": {
@@ -6961,7 +6961,7 @@ const teams = {
         "name": "Raiden Furina Quickbloom",
         "description": "You can build also Raiden hybrid with EM and dmg.",
         "rotation": "",
-        "archetype": "Quickbloom",
+        "archetype": ["Quickbloom"],
         "viability": "Meta",
 
         "character_1": {
@@ -6986,7 +6986,7 @@ const teams = {
         "name": "Yae Miko Furina Quickbloom",
         "description": "",
         "rotation": "",
-        "archetype": "Quickbloom",
+        "archetype": ["Quickbloom"],
         "viability": "Meta",
 
         "character_1": {
@@ -7011,7 +7011,7 @@ const teams = {
         "name": "Yae Miko Furina Quickbloom",
         "description": "",
         "rotation": "",
-        "archetype": "Quickbloom",
+        "archetype": ["Quickbloom"],
         "viability": "Meta",
 
         "character_1": {
@@ -7036,7 +7036,7 @@ const teams = {
         "name": "Lyney Furina",
         "description": "With Xiangling, you will keep enough pyro application for Lyney's passive and Furina vapes. Problem: Squishiest team in the world. Bennett healer.",
         "rotation": "",
-        "archetype": "MonoPyro",
+        "archetype": ["MonoPyro"],
         "viability": "Meta",
 
         "character_1": {
@@ -7061,7 +7061,7 @@ const teams = {
         "name": "Neuvillette Furina Hyperbloom",
         "description": "Nahida AND Neuvillette has to be on Prototype Amber. With that, is enough healing to max Furina's buff. ",
         "rotation": "Furina Q > Healer Q/healing",
-        "archetype": "Hyperbloom",
+        "archetype": ["Hyperbloom"],
         "viability": "Meta",
 
         "character_1": {
@@ -7086,7 +7086,7 @@ const teams = {
         "name": "Neuvillette Furina Carry",
         "description": "",
         "rotation": "",
-        "archetype": "Hypercarry",
+        "archetype": ["Hypercarry"],
         "viability": "Viable",
 
         "character_1": {
@@ -7111,7 +7111,7 @@ const teams = {
         "name": "Yoimiya Furina Vape",
         "description": "Bennett has to be full healing.",
         "rotation": "",
-        "archetype": "Vaporize",
+        "archetype": ["Vaporize"],
         "viability": "Viable",
 
         "character_1": {
@@ -7136,7 +7136,7 @@ const teams = {
         "name": "Dehya Furina Vape",
         "description": "Bennett has to be full healing. ",
         "rotation": "",
-        "archetype": "Vaporize",
+        "archetype": ["Vaporize"],
         "viability": "Offmeta",
 
         "character_1": {
@@ -7161,7 +7161,7 @@ const teams = {
         "name": "Rational Furina",
         "description": "Bennett has to be full healing. ",
         "rotation": "",
-        "archetype": "National",
+        "archetype": ["National"],
         "viability": "Meta",
 
         "character_1": {
@@ -7186,7 +7186,7 @@ const teams = {
         "name": "Raiden Furina Hypercarry",
         "description": "Bennett healer.",
         "rotation": "",
-        "archetype": "Hypercarry",
+        "archetype": ["Hypercarry"],
         "viability": "Meta",
 
         "character_1": {
@@ -7211,7 +7211,7 @@ const teams = {
         "name": "Furina National Doble Hydro",
         "description": "You have to swap all the time between the characters in order to bennett heal all the allies. Bennett healer build.",
         "rotation": "",
-        "archetype": "National",
+        "archetype": ["National"],
         "viability": "Meta",
 
         "character_1": {
@@ -7236,7 +7236,7 @@ const teams = {
         "name": "Yanfei Furina Doble Hydro",
         "description": "You have to swap all the time between the characters in order to bennett heal all the allies. Bennett healer build.",
         "rotation": "",
-        "archetype": "Vaporize",
+        "archetype": ["Vaporize"],
         "viability": "Viable",
 
         "character_1": {
@@ -7261,7 +7261,7 @@ const teams = {
         "name": "Furina Doble Hydro Taser",
         "description": "If you use Xianyun instead of Jean, you don't have to plunge",
         "rotation": "",
-        "archetype": "Taser",
+        "archetype": ["Taser"],
         "viability": "Meta",
 
         "character_1": {
@@ -7286,7 +7286,7 @@ const teams = {
         "name": "Furina Doble Hydro Taser",
         "description": "If you use Xianyun instead of Jean, you don't have to plunge",
         "rotation": "",
-        "archetype": "Taser",
+        "archetype": ["Taser"],
         "viability": "Meta",
 
         "character_1": {
@@ -7311,7 +7311,7 @@ const teams = {
         "name": "Raiden Chevreuse",
         "description": "Good in single-target scenarios where enemies don't explode with overload and vs infused enemies whose you can't swirl.",
         "rotation": "",
-        "archetype": "Hypercarry",
+        "archetype": ["Hypercarry"],
         "viability": "Meta",
 
         "character_1": {
@@ -7336,7 +7336,7 @@ const teams = {
         "name": "Rational Overload",
         "description": "Good in single-target scenarios where enemies don't explode with overload and vs infused enemies whose you can't swirl.",
         "rotation": "",
-        "archetype": "National",
+        "archetype": ["National"],
         "viability": "Meta",
 
         "character_1": {
@@ -7361,7 +7361,7 @@ const teams = {
         "name": "Yoimiya Chevreuse",
         "description": "Good in single-target scenarios where enemies don't explode with overload and vs infused enemies whose you can't swirl.",
         "rotation": "",
-        "archetype": "Overload",
+        "archetype": ["Overload"],
         "viability": "Meta",
 
         "character_1": {
@@ -7386,7 +7386,7 @@ const teams = {
         "name": "Yoimiya Chevreuse",
         "description": "Good in single-target scenarios where enemies don't explode with overload and vs infused enemies whose you can't swirl.",
         "rotation": "",
-        "archetype": "Overload",
+        "archetype": ["Overload"],
         "viability": "Meta",
 
         "character_1": {
@@ -7411,7 +7411,7 @@ const teams = {
         "name": "Klee Chevreuse",
         "description": "Good in single-target scenarios where enemies don't explode with overload and vs infused enemies whose you can't swirl.",
         "rotation": "",
-        "archetype": "Overload",
+        "archetype": ["Overload"],
         "viability": "Viable",
 
         "character_1": {
@@ -7436,7 +7436,7 @@ const teams = {
         "name": "Klee Chevreuse",
         "description": "Good in single-target scenarios where enemies don't explode with overload and vs infused enemies whose you can't swirl.",
         "rotation": "",
-        "archetype": "Overload",
+        "archetype": ["Overload"],
         "viability": "Viable",
 
         "character_1": {
@@ -7461,7 +7461,7 @@ const teams = {
         "name": "Hu Tao Chevreuse",
         "description": "Good in single-target scenarios where enemies don't explode with overload and vs infused enemies whose you can't swirl.",
         "rotation": "",
-        "archetype": "Overload",
+        "archetype": ["Overload"],
         "viability": "Meta",
 
         "character_1": {
@@ -7486,7 +7486,7 @@ const teams = {
         "name": "Yanfei Chevreuse",
         "description": "Good in single-target scenarios where enemies don't explode with overload and vs infused enemies whose you can't swirl.",
         "rotation": "",
-        "archetype": "Overload",
+        "archetype": ["Overload"],
         "viability": "Viable",
 
         "character_1": {
@@ -7511,7 +7511,7 @@ const teams = {
         "name": "Yanfei Chevreuse",
         "description": "Good in single-target scenarios where enemies don't explode with overload and vs infused enemies whose you can't swirl.",
         "rotation": "",
-        "archetype": "Overload",
+        "archetype": ["Overload"],
         "viability": "Viable",
 
         "character_1": {
@@ -7536,7 +7536,7 @@ const teams = {
         "name": "Dehya Chevreuse",
         "description": "Good in single-target scenarios where enemies don't explode with overload and vs infused enemies whose you can't swirl.",
         "rotation": "",
-        "archetype": "Overload",
+        "archetype": ["Overload"],
         "viability": "Offmeta",
 
         "character_1": {
@@ -7561,7 +7561,7 @@ const teams = {
         "name": "Dehya Chevreuse",
         "description": "Good in single-target scenarios where enemies don't explode with overload and vs infused enemies whose you can't swirl.",
         "rotation": "",
-        "archetype": "Overload",
+        "archetype": ["Overload"],
         "viability": "Offmeta",
 
         "character_1": {
@@ -7586,7 +7586,7 @@ const teams = {
         "name": "Diluc Chevreuse",
         "description": "Good in single-target scenarios where enemies don't explode with overload and vs infused enemies whose you can't swirl.",
         "rotation": "",
-        "archetype": "Overload",
+        "archetype": ["Overload"],
         "viability": "Offmeta",
 
         "character_1": {
@@ -7611,7 +7611,7 @@ const teams = {
         "name": "Diluc Chevreuse",
         "description": "Good in single-target scenarios where enemies don't explode with overload and vs infused enemies whose you can't swirl.",
         "rotation": "",
-        "archetype": "Overload",
+        "archetype": ["Overload"],
         "viability": "Offmeta",
 
         "character_1": {
@@ -7636,7 +7636,7 @@ const teams = {
         "name": "Raiden Miko Overload",
         "description": "Good in single-target scenarios where enemies don't explode with overload and vs infused enemies whose you can't swirl.",
         "rotation": "",
-        "archetype": "Overload",
+        "archetype": ["Overload"],
         "viability": "Viable",
 
         "character_1": {
@@ -7661,7 +7661,7 @@ const teams = {
         "name": "Fischl Miko Overload",
         "description": "Good in single-target scenarios where enemies don't explode with overload and vs infused enemies whose you can't swirl.",
         "rotation": "",
-        "archetype": "Overload",
+        "archetype": ["Overload"],
         "viability": "Meta",
 
         "character_1": {
@@ -7686,7 +7686,7 @@ const teams = {
         "name": "Raiden Chevreuse",
         "description": "Good in single-target scenarios where enemies don't explode with overload and vs infused enemies whose you can't swirl.",
         "rotation": "",
-        "archetype": "Overload",
+        "archetype": ["Overload"],
         "viability": "Viable",
 
         "character_1": {
@@ -7711,7 +7711,7 @@ const teams = {
         "name": "Naviational Furina",
         "description": "You can change Navia's artifacts for Marechaussee Hunter and Bennett healer build",
         "rotation": "",
-        "archetype": "National",
+        "archetype": ["National"],
         "viability": "Meta",
 
         "character_1": {
@@ -7736,7 +7736,7 @@ const teams = {
         "name": "Naviational Xingqiu",
         "description": "",
         "rotation": "",
-        "archetype": "National",
+        "archetype": ["National"],
         "viability": "Meta",
 
         "character_1": {
@@ -7761,7 +7761,7 @@ const teams = {
         "name": "Navia Doble Hydro Furina",
         "description": "You can change Navia's artifacts for Marechaussee Hunter and Bennett healer build",
         "rotation": "",
-        "archetype": "Hypercarry",
+        "archetype": ["Hypercarry"],
         "viability": "Meta",
 
         "character_1": {
@@ -7786,7 +7786,7 @@ const teams = {
         "name": "Navia Hot Rock",
         "description": "",
         "rotation": "",
-        "archetype": "Hypercarry",
+        "archetype": ["Hypercarry"],
         "viability": "Meta",
 
         "character_1": {
@@ -7811,7 +7811,7 @@ const teams = {
         "name": "Navia Furina Carry",
         "description": "You can change Navia's artifacts for Marechaussee Hunter and Bennett healer build",
         "rotation": "",
-        "archetype": "Hypercarry",
+        "archetype": ["Hypercarry"],
         "viability": "Meta",
 
         "character_1": {
@@ -7836,7 +7836,7 @@ const teams = {
         "name": "Navia Furina Carry",
         "description": "You can change Navia's artifacts for Marechaussee Hunter",
         "rotation": "",
-        "archetype": "Hypercarry",
+        "archetype": ["Hypercarry"],
         "viability": "Meta",
 
         "character_1": {
@@ -7861,7 +7861,7 @@ const teams = {
         "name": "Navia Doble Electro",
         "description": "",
         "rotation": "",
-        "archetype": "Hypercarry",
+        "archetype": ["Hypercarry"],
         "viability": "Meta",
 
         "character_1": {
@@ -7886,7 +7886,7 @@ const teams = {
         "name": "Navia Doble Electro",
         "description": "",
         "rotation": "",
-        "archetype": "Hypercarry",
+        "archetype": ["Hypercarry"],
         "viability": "Meta",
 
         "character_1": {
@@ -7911,7 +7911,7 @@ const teams = {
         "name": "Navia Doble Electro",
         "description": "",
         "rotation": "",
-        "archetype": "Hypercarry",
+        "archetype": ["Hypercarry"],
         "viability": "Meta",
 
         "character_1": {
@@ -7936,7 +7936,7 @@ const teams = {
         "name": "Navia Doble Hydro",
         "description": "",
         "rotation": "",
-        "archetype": "Hypercarry",
+        "archetype": ["Hypercarry"],
         "viability": "Meta",
 
         "character_1": {
@@ -7961,7 +7961,7 @@ const teams = {
         "name": "Navia Hyperbloom",
         "description": "",
         "rotation": "",
-        "archetype": "Hyperbloom",
+        "archetype": ["Hyperbloom"],
         "viability": "Meta",
 
         "character_1": {
@@ -7986,7 +7986,7 @@ const teams = {
         "name": "Navia Hyperbloom",
         "description": "",
         "rotation": "",
-        "archetype": "Hyperbloom",
+        "archetype": ["Hyperbloom"],
         "viability": "Viable",
 
         "character_1": {
@@ -8011,7 +8011,7 @@ const teams = {
         "name": "Navia Hyperbloom Furina",
         "description": "",
         "rotation": "",
-        "archetype": "Hyperbloom",
+        "archetype": ["Hyperbloom"],
         "viability": "Meta",
 
         "character_1": {
@@ -8036,7 +8036,7 @@ const teams = {
         "name": "Navia Hyperbloom Furina",
         "description": "",
         "rotation": "",
-        "archetype": "Hyperbloom",
+        "archetype": ["Hyperbloom"],
         "viability": "Meta",
 
         "character_1": {
@@ -8061,7 +8061,7 @@ const teams = {
         "name": "Navia Burgeon",
         "description": "",
         "rotation": "",
-        "archetype": "Burgeon",
+        "archetype": ["Burgeon"],
         "viability": "Viable",
 
         "character_1": {
@@ -8086,7 +8086,7 @@ const teams = {
         "name": "Navia Hypercarry",
         "description": "",
         "rotation": "",
-        "archetype": "Hypercarry",
+        "archetype": ["Hypercarry"],
         "viability": "Meta",
 
         "character_1": {
@@ -8111,7 +8111,7 @@ const teams = {
         "name": "Navia Hypercarry",
         "description": "",
         "rotation": "",
-        "archetype": "Hypercarry",
+        "archetype": ["Hypercarry"],
         "viability": "Viable",
 
         "character_1": {
@@ -8136,7 +8136,7 @@ const teams = {
         "name": "Navia Noelle Doble Hydro Furina",
         "description": "Noelle On-Field, with Navia quickswap doing Q/E",
         "rotation": "Navia's Q + Yelan/Xingqiu + Furina + Navia E + Noelle Q E NA + Navia E",
-        "archetype": "Hypercarry",
+        "archetype": ["Hypercarry"],
         "viability": "Meta",
 
         "character_1": {
@@ -8161,7 +8161,7 @@ const teams = {
         "name": "Navia with Barbara",
         "description": "Unironically a GOOD barbara team and a decent Navia team. Barbara with TTDS and A LOT, i mean, A LOT, of ER so you can ult every rotation.",
         "rotation": "",
-        "archetype": "Hypercarry",
+        "archetype": ["Hypercarry"],
         "viability": "Viable",
 
         "character_1": {
@@ -8186,7 +8186,7 @@ const teams = {
         "name": "Itto Navia",
         "description": "Normal Itto rotation but with Navia quickswaping. 4th slot can be other flex unit that applies an element (So navia can pick cristalization)",
         "rotation": "",
-        "archetype": "MonoGeo",
+        "archetype": ["MonoGeo"],
         "viability": "Viable",
 
         "character_1": {
@@ -8211,7 +8211,7 @@ const teams = {
         "name": "Navia taser",
         "description": "",
         "rotation": "",
-        "archetype": "Taser",
+        "archetype": ["Taser"],
         "viability": "Viable",
 
         "character_1": {
@@ -8236,7 +8236,7 @@ const teams = {
         "name": "Lyney Jean",
         "description": "OP in abyss where there are Hydro infused enemies or bosses due to Jean pyro swirl.",
         "rotation": "",
-        "archetype": "MonoPyro",
+        "archetype": ["MonoPyro"],
         "viability": "Viable",
 
         "character_1": {
@@ -8261,7 +8261,7 @@ const teams = {
         "name": "Diluc Furina Vape",
         "description": "Bennett has to be full healing.",
         "rotation": "",
-        "archetype": "Vaporize",
+        "archetype": ["Vaporize"],
         "viability": "Viable",
 
         "character_1": {
@@ -8286,7 +8286,7 @@ const teams = {
         "name": "Diluc Forward Melt",
         "description": "A team where Diluc procs the melt reaction",
         "rotation": "Rosaria E > Kazuha Q > Bennet E/Q > Kazuha E > Rosaria E/Q > Diluc E+NA (3 times) + Q",
-        "archetype": "Melt",
+        "archetype": ["Melt"],
         "viability": "Viable",
 
         "character_1": {
@@ -8311,7 +8311,7 @@ const teams = {
         "name": "Diluc Vaporize",
         "description": "",
         "rotation": "",
-        "archetype": "Vaporize",
+        "archetype": ["Vaporize"],
         "viability": "Viable",
 
         "character_1": {
@@ -8336,7 +8336,7 @@ const teams = {
         "name": "Sucrose Salad",
         "description": "",
         "rotation": "",
-        "archetype": "Salad",
+        "archetype": ["Salad"],
         "viability": "Meta",
 
         "character_1": {
@@ -8361,7 +8361,7 @@ const teams = {
         "name": "Lyney Chevreuse",
         "description": "You can use chevreuse before bennett so Lyney can have more time of bennett's ult (You should not do that with kazuha)",
         "rotation": "",
-        "archetype": "Overload",
+        "archetype": ["Overload"],
         "viability": "Meta",
 
         "character_1": {
@@ -8386,7 +8386,7 @@ const teams = {
         "name": "Lyney Chevreuse",
         "description": "You can use chevreuse before bennett so Lyney can have more time of bennett's ult (You should not do that with kazuha)",
         "rotation": "",
-        "archetype": "Overload",
+        "archetype": ["Overload"],
         "viability": "Viable",
 
         "character_1": {
@@ -8411,7 +8411,7 @@ const teams = {
         "name": "Rational",
         "description": "You can use fav in Raiden and with her ults, give a lot of ER. ",
         "rotation": "",
-        "archetype": "National",
+        "archetype": ["National"],
         "viability": "Meta",
 
         "character_1": {
@@ -8436,7 +8436,7 @@ const teams = {
         "name": "Keqing Taser",
         "description": "",
         "rotation": "",
-        "archetype": "Taser",
+        "archetype": ["Taser"],
         "viability": "Viable",
 
         "character_1": {
@@ -8461,7 +8461,7 @@ const teams = {
         "name": "Yae Taser",
         "description": "",
         "rotation": "",
-        "archetype": "Taser",
+        "archetype": ["Taser"],
         "viability": "Viable",
 
         "character_1": {
@@ -8486,7 +8486,7 @@ const teams = {
         "name": "Yae Taser",
         "description": "Sucrose On-Field",
         "rotation": "",
-        "archetype": "Taser",
+        "archetype": ["Taser"],
         "viability": "Viable",
 
         "character_1": {
@@ -8511,7 +8511,7 @@ const teams = {
         "name": "Raiden Yae Hypercarry",
         "description": "",
         "rotation": "",
-        "archetype": "Hypercarry",
+        "archetype": ["Hypercarry"],
         "viability": "Meta",
 
         "character_1": {
@@ -8536,7 +8536,7 @@ const teams = {
         "name": "Sucrose Taser",
         "description": "",
         "rotation": "",
-        "archetype": "Taser",
+        "archetype": ["Taser"],
         "viability": "Meta",
 
         "character_1": {
@@ -8561,7 +8561,7 @@ const teams = {
         "name": "Ganyu MonoCryo",
         "description": "",
         "rotation": "",
-        "archetype": "MonoCryo",
+        "archetype": ["MonoCryo"],
         "viability": "Viable",
 
         "character_1": {
@@ -8586,7 +8586,7 @@ const teams = {
         "name": "Ganyu Freeze, Morgana",
         "description": "",
         "rotation": "",
-        "archetype": "Freeze",
+        "archetype": ["Freeze"],
         "viability": "Meta",
 
         "character_1": {
@@ -8611,7 +8611,7 @@ const teams = {
         "name": "Ganyu Freeze",
         "description": "",
         "rotation": "",
-        "archetype": "Freeze",
+        "archetype": ["Freeze"],
         "viability": "Meta",
 
         "character_1": {
@@ -8636,7 +8636,7 @@ const teams = {
         "name": "Ganyu Freeze",
         "description": "",
         "rotation": "",
-        "archetype": "Freeze",
+        "archetype": ["Freeze"],
         "viability": "Meta",
 
         "character_1": {
@@ -8661,7 +8661,7 @@ const teams = {
         "name": "Ganyu Melt",
         "description": "",
         "rotation": "",
-        "archetype": "Melt",
+        "archetype": ["Melt"],
         "viability": "Meta",
 
         "character_1": {
@@ -8686,7 +8686,7 @@ const teams = {
         "name": "Sayu enabler",
         "description": "Sayu doing brum brum",
         "rotation": "",
-        "archetype": "MonoPyro",
+        "archetype": ["MonoPyro"],
         "viability": "Offmeta",
 
         "character_1": {
@@ -8711,7 +8711,7 @@ const teams = {
         "name": "Heizou Salad",
         "description": "",
         "rotation": "",
-        "archetype": "Salad",
+        "archetype": ["Salad"],
         "viability": "Viable",
 
         "character_1": {
@@ -8736,7 +8736,7 @@ const teams = {
         "name": "Raiden Doble Hydro",
         "description": "If you use Xianyun instead of Jean, you don't have to plunge",
         "rotation": "",
-        "archetype": "Taser",
+        "archetype": ["Taser"],
         "viability": "Meta",
 
         "character_1": {
@@ -8761,7 +8761,7 @@ const teams = {
         "name": "Nilou Bloom",
         "description": "",
         "rotation": "",
-        "archetype": "Bloom",
+        "archetype": ["Bloom"],
         "viability": "Viable",
 
         "character_1": {
@@ -8786,7 +8786,7 @@ const teams = {
         "name": "Thoma Curry",
         "description": "",
         "rotation": "",
-        "archetype": "Curry",
+        "archetype": ["Curry"],
         "viability": "Meta",
 
         "character_1": {
@@ -8811,7 +8811,7 @@ const teams = {
         "name": "Gaming Melt",
         "description": "",
         "rotation": "Rosaria E > Kazuha Q > Bennet E/Q > Kazuha E > Rosaria E/Q > Gaming Q+E.",
-        "archetype": "Melt",
+        "archetype": ["Melt"],
         "viability": "Meta",
 
         "character_1": {
@@ -8836,7 +8836,7 @@ const teams = {
         "name": "Gaming Melt",
         "description": "",
         "rotation": "Rosaria E > Xianyun Q > Bennet E/Q > Xianyun E > Rosaria E/Q > Gaming Q+E (PA until E returns)",
-        "archetype": "Melt",
+        "archetype": ["Melt"],
         "viability": "Meta",
 
         "character_1": {
@@ -8861,7 +8861,7 @@ const teams = {
         "name": "Gaming Vape",
         "description": "If you have C6 bennett, look at #354. With Bennett C4, you can also do Hold E 2 Charge to have more time.",
         "rotation": "Furina E+Q > Bennett Q + Hold E 1 charge > Kazuha E > Gaming Q+E",
-        "archetype": "Vaporize",
+        "archetype": ["Vaporize"],
         "viability": "Viable",
 
         "character_1": {
@@ -8886,7 +8886,7 @@ const teams = {
         "name": "Gaming Vape",
         "description": "If you have Bennett c6, you can do a rotation that can do pyro swirl easily. You also can do NAs with Gaming while the pet return.",
         "rotation": "Furina E/Q + Bennett Q/E (wait until pyro disappear) 1NA + Kazuha E",
-        "archetype": "Vaporize",
+        "archetype": ["Vaporize"],
         "viability": "Meta",
 
         "character_1": {
@@ -8911,7 +8911,7 @@ const teams = {
         "name": "Gaming Vape",
         "description": "If you have C6 bennett, look at #356, which is way better. With Bennett C4, you can also do Hold E 2 Charge to have more time.",
         "rotation": "Furina E+Q > Xianyun Q > Bennett Q + Hold E 1 charge > Xianyun NA1 E > Gaming Q + E",
-        "archetype": "Vaporize",
+        "archetype": ["Vaporize"],
         "viability": "Viable",
 
         "character_1": {
@@ -8936,7 +8936,7 @@ const teams = {
         "name": "Gaming Vape",
         "description": "You can do a plunge attack with Gaming while the pet return.",
         "rotation": "Furina E+Q > Xianyun Q > Bennett Q+E (wait until pyro disappear) 1NA > Xianyun NA1 E > Gaming Q E PA",
-        "archetype": "Vaporize",
+        "archetype": ["Vaporize"],
         "viability": "Meta",
 
         "character_1": {
@@ -8961,7 +8961,7 @@ const teams = {
         "name": "Gaming Vape",
         "description": "With Jean you can do double swirl thanks to bennett and Jean's infusion.",
         "rotation": "Furina E/Q + Bennett E/Q + Jean E/Q",
-        "archetype": "Vaporize",
+        "archetype": ["Vaporize"],
         "viability": "Meta",
 
         "character_1": {
@@ -8986,7 +8986,7 @@ const teams = {
         "name": "Gaming Vape",
         "description": "",
         "rotation": "",
-        "archetype": "Vaporize",
+        "archetype": ["Vaporize"],
         "viability": "Viable",
 
         "character_1": {
@@ -9011,7 +9011,7 @@ const teams = {
         "name": "Gaming Vape",
         "description": "",
         "rotation": "",
-        "archetype": "Vaporize",
+        "archetype": ["Vaporize"],
         "viability": "Viable",
 
         "character_1": {
@@ -9037,7 +9037,7 @@ const teams = {
         "name": "Gaming MonoPyro",
         "description": "",
         "rotation": "",
-        "archetype": "MonoPyro",
+        "archetype": ["MonoPyro"],
         "viability": "Meta",
 
         "character_1": {
@@ -9062,7 +9062,7 @@ const teams = {
         "name": "Gaming Chevreuse",
         "description": "Good in single-target scenarios where enemies don't explode with overload and vs infused enemies whose you can't swirl.",
         "rotation": "",
-        "archetype": "Overload",
+        "archetype": ["Overload"],
         "viability": "Viable",
 
         "character_1": {
@@ -9087,7 +9087,7 @@ const teams = {
         "name": "Ayaka Furina Freeze",
         "description": "",
         "rotation": "",
-        "archetype": "Freeze",
+        "archetype": ["Freeze"],
         "viability": "Meta",
 
         "character_1": {
@@ -9112,7 +9112,7 @@ const teams = {
         "name": "Ganyu Furina Freeze",
         "description": "No grouping. Useful in single-target enemies that can freeze. Use Xianyun as a Jean, so you don't have to plunge.",
         "rotation": "",
-        "archetype": "Freeze",
+        "archetype": ["Freeze"],
         "viability": "Viable",
 
         "character_1": {
@@ -9137,7 +9137,7 @@ const teams = {
         "name": "Freminet Furina Freeze",
         "description": "",
         "rotation": "",
-        "archetype": "Freeze",
+        "archetype": ["Freeze"],
         "viability": "Viable",
 
         "character_1": {
@@ -9162,7 +9162,7 @@ const teams = {
         "name": "Kaeya Furina Freeze",
         "description": "",
         "rotation": "",
-        "archetype": "Freeze",
+        "archetype": ["Freeze"],
         "viability": "Viable",
 
         "character_1": {
@@ -9187,7 +9187,7 @@ const teams = {
         "name": "Raiden Furina Hypercarry",
         "description": "",
         "rotation": "With Xianyun: Raiden N1CJP (1 Normal Attack + 1 Charge Attack + Jump + Pungle Attack)",
-        "archetype": "Hypercarry",
+        "archetype": ["Hypercarry"],
         "viability": "Meta",
 
         "character_1": {
@@ -9212,7 +9212,7 @@ const teams = {
         "name": "Wriothesley Freeze",
         "description": "",
         "rotation": "Wriothesley N1 PA (repeat). Do N1 C PA if you have passive",
-        "archetype": "Freeze",
+        "archetype": ["Freeze"],
         "viability": "Meta",
 
         "character_1": {
@@ -9237,7 +9237,7 @@ const teams = {
         "name": "Raiden Furina Hypercarry",
         "description": "",
         "rotation": "Furina Q > Jean Q",
-        "archetype": "Hypercarry",
+        "archetype": ["Hypercarry"],
         "viability": "Meta",
 
         "character_1": {
@@ -9262,7 +9262,7 @@ const teams = {
         "name": "Navia Furina Carry",
         "description": "You can change Navia's artifacts for Marechaussee Hunter",
         "rotation": "",
-        "archetype": "Hypercarry",
+        "archetype": ["Hypercarry"],
         "viability": "Meta",
 
         "character_1": {
@@ -9287,7 +9287,7 @@ const teams = {
         "name": "Xianyun goes brrrrrr",
         "description": "With Bennett C6, Xianyun and Furina, you can add almost any other character of the game to do plunge attacks and vaporize. Just build it with EM/Pyro/Crit%, and any character in the game could be a viable option to clear abbys. Just be careful to not overwrite bennett's pyro infusion. You only have to do PA with the 4º character, but can do E/Q if you think it could be useful.",
         "rotation": "Furina E+Q > Xianyun Q > Bennett Q+E (wait until pyro disappear) 1NA > Xianyun NA1 E > Flex Character PA",
-        "archetype": "Vaporize",
+        "archetype": ["Vaporize"],
         "viability": "Viable",
 
         "character_1": {
@@ -9312,7 +9312,7 @@ const teams = {
         "name": "Hu Tao Xianyun Doble Hydro",
         "description": "Best Hu Tao Doble Hydro team.",
         "rotation": "Do Hu Tao NA2CJ PA combo (2 Normal attacks into 1 Charge attack, jumping to cancel de CA and doing a Plunge which can cancel too into another NA)",
-        "archetype": "Vaporize",
+        "archetype": ["Vaporize"],
         "viability": "Meta",
 
         "character_1": {
@@ -9337,7 +9337,7 @@ const teams = {
         "name": "Hu Tao Xianyun Doble Hydro",
         "description": "With yelan instead Xingqiu, you don't have defense utility and you won't vape all plunges due to slower hydro app.",
         "rotation": "Do Hu Tao NA2CJ PA combo (2 Normal attacks into 1 Charge attack, jumping to cancel de CA and doing a Plunge which can cancel too into another NA)",
-        "archetype": "Vaporize",
+        "archetype": ["Vaporize"],
         "viability": "Meta",
 
         "character_1": {
@@ -9362,7 +9362,7 @@ const teams = {
         "name": "Hu Tao Xianyun VV Vape",
         "description": "",
         "rotation": "",
-        "archetype": "Vaporize",
+        "archetype": ["Vaporize"],
         "viability": "Viable",
 
         "character_1": {
@@ -9387,7 +9387,7 @@ const teams = {
         "name": "Bennett Carry Xianyun",
         "description": "",
         "rotation": "Furina EQ, Yelan/Xingqiu EQ, Xianyun EQ, Bennett Q > PA + NA1 + E (repeat)",
-        "archetype": "Vaporize",
+        "archetype": ["Vaporize"],
         "viability": "Meta",
 
         "character_1": {
@@ -9412,7 +9412,7 @@ const teams = {
         "name": "Xiao Triple Anemo Hypercarry",
         "description": "This teams performs significantly better with Faruzan C6.",
         "rotation": "",
-        "archetype": "Hypercarry",
+        "archetype": ["Hypercarry"],
         "viability": "Meta",
 
         "character_1": {
@@ -9437,7 +9437,7 @@ const teams = {
         "name": "Diluc Xianyun",
         "description": "If you have bennett c6, look rotation at #377, which is a bit stronger. With Bennett C4, you can also do Hold E 2 Charge to have more time. You can cancel the PA end hitlag with a dash, so you can jump another time faster.",
         "rotation": "Furina E+Q > Xianyun Q > Bennett Q + Hold E 1 charge > Xianyun NA1 E > Diluc Q + PA",
-        "archetype": "Vaporize",
+        "archetype": ["Vaporize"],
         "viability": "Meta",
 
         "character_1": {
@@ -9462,7 +9462,7 @@ const teams = {
         "name": "Diluc Xianyun",
         "description": "If you have Bennett C6, don't use dilucs Q, just PA. You can cancel the PA end hitlag with a dash, so you can jump another time faster.",
         "rotation": "Furina E+Q > Xianyun Q > Bennett Q+E (wait until pyro disappear) 1NA > Xianyun NA1 E > Diluc PA",
-        "archetype": "Vaporize",
+        "archetype": ["Vaporize"],
         "viability": "Meta",
 
         "character_1": {
@@ -9487,7 +9487,7 @@ const teams = {
         "name": "Noelle Furina",
         "description": "",
         "rotation": "You can cancel the PA end hitlag with a dash, so you can jump another time faster.",
-        "archetype": "Hypercarry",
+        "archetype": ["Hypercarry"],
         "viability": "Viable",
 
         "character_1": {
@@ -9512,7 +9512,7 @@ const teams = {
         "name": "Chongyun Rev Melt Xianyun",
         "description": "",
         "rotation": "",
-        "archetype": "Melt",
+        "archetype": ["Melt"],
         "viability": "Viable",
 
         "character_1": {
@@ -9537,7 +9537,7 @@ const teams = {
         "name": "Ayaka Rev Melt Xianyun",
         "description": "",
         "rotation": "",
-        "archetype": "Melt",
+        "archetype": ["Melt"],
         "viability": "Meta",
 
         "character_1": {
@@ -9562,7 +9562,7 @@ const teams = {
         "name": "Wriothesley Rev Melt Xianyun",
         "description": "",
         "rotation": "Xianyun Q > Bennett > Xianyun E > Xiangling > Wriothesley N3C + N1 PA (repeat N1 PA). Do N1 C PA if you have passive",
-        "archetype": "Melt",
+        "archetype": ["Melt"],
         "viability": "Meta",
 
         "character_1": {
@@ -9587,7 +9587,7 @@ const teams = {
         "name": "Hydro Forward Vape Xianyun",
         "description": "",
         "rotation": "",
-        "archetype": "Vaporize",
+        "archetype": ["Vaporize"],
         "viability": "Viable",
 
         "character_1": {
@@ -9612,7 +9612,7 @@ const teams = {
         "name": "Bennett Burgeon",
         "description": "",
         "rotation": "Bennett On-Field spamming E+NA",
-        "archetype": "Burgeon",
+        "archetype": ["Burgeon"],
         "viability": "Meta",
 
         "character_1": {
@@ -9637,7 +9637,7 @@ const teams = {
         "name": "Bennett Curry",
         "description": "",
         "rotation": "Bennett On-Field spamming E+NA",
-        "archetype": "Curry",
+        "archetype": ["Curry"],
         "viability": "Meta",
 
         "character_1": {
@@ -9662,7 +9662,7 @@ const teams = {
         "name": "Bennett HyperFridge",
         "description": "",
         "rotation": "Bennett On-Field spamming E+NA",
-        "archetype": "HyperFridge",
+        "archetype": ["HyperFridge"],
         "viability": "Meta",
 
         "character_1": {
@@ -9687,7 +9687,7 @@ const teams = {
         "name": "Ningguang 'Hypercarry'",
         "description": "Okeish i think",
         "rotation": "",
-        "archetype": "Hypercarry",
+        "archetype": ["Hypercarry"],
         "viability": "Offmeta",
 
         "character_1": {
@@ -9712,7 +9712,7 @@ const teams = {
         "name": "Thundering Furry",
         "description": "Best Razor team so far",
         "rotation": "",
-        "archetype": "Curry",
+        "archetype": ["Curry"],
         "viability": "Meta",
 
         "character_1": {
@@ -9737,7 +9737,7 @@ const teams = {
         "name": "Diluc Forward Melt",
         "description": "A team where Diluc procs the melt reaction. Don't do Diluc's Burst if you have Bennett C6.",
         "rotation": "Rosaria E > Xianyun Q > Bennet E/Q > Xianyun E > Rosaria E/Q > Diluc Q + PA",
-        "archetype": "Melt",
+        "archetype": ["Melt"],
         "viability": "Meta",
 
         "character_1": {
@@ -9762,7 +9762,7 @@ const teams = {
         "name": "Xiao Xianyun",
         "description": "A good Xiao team if you don't have Faruzan C6.",
         "rotation": "",
-        "archetype": "Hypercarry",
+        "archetype": ["Hypercarry"],
         "viability": "Viable",
 
         "character_1": {
@@ -9787,7 +9787,7 @@ const teams = {
         "name": "Wriothesley Freeze",
         "description": "",
         "rotation": "Wriothesley N1 PA (repeat). Do N1 C PA if you have passive",
-        "archetype": "Freeze",
+        "archetype": ["Freeze"],
         "viability": "Meta",
 
         "character_1": {
@@ -9812,7 +9812,7 @@ const teams = {
         "name": "Neuvillette Forward Vape Xianyun",
         "description": "Build Neuvillette with full ATK/EM/CRIT build (instead HP) to do PAs.",
         "rotation": "",
-        "archetype": "Vaporize",
+        "archetype": ["Vaporize"],
         "viability": "Unique",
 
         "character_1": {
@@ -9837,7 +9837,7 @@ const teams = {
         "name": "Ayato Vape Xianyun",
         "description": "Let's Ayato has the Bennett's pyro infusion, don't do E to have the hydro infusion when PA. ",
         "rotation": "Ayato E+1NA+Q > Furina E+Q > Xianyun E+Q > Bennett E+Q > Ayato 1NA CA PA (repeat 1NCJP)",
-        "archetype": "Vaporize",
+        "archetype": ["Vaporize"],
         "viability": "Viable",
 
         "character_1": {
@@ -9862,7 +9862,7 @@ const teams = {
         "name": "Gaming Overvape",
         "description": "Fischl helps clearing Pyro auras and trigger electrocharged so Gaming can still vaporizing with bennett c6. ",
         "rotation": "Furina E/Q > Bennett E/Q > Fischl E or Q > Gaming Q/E",
-        "archetype": "Overvape",
+        "archetype": ["Overvape"],
         "viability": "Meta",
 
         "character_1": {
@@ -9887,7 +9887,7 @@ const teams = {
         "name": "Gaming Burgeon",
         "description": "",
         "rotation": "",
-        "archetype": "Burgeon",
+        "archetype": ["Burgeon"],
         "viability": "Viable",
 
         "character_1": {
@@ -9912,7 +9912,7 @@ const teams = {
         "name": "Gaming Burgeon",
         "description": "",
         "rotation": "",
-        "archetype": "Burgeon",
+        "archetype": ["Burgeon"],
         "viability": "Viable",
 
         "character_1": {
@@ -9937,7 +9937,7 @@ const teams = {
         "name": "Gaming Curry",
         "description": "",
         "rotation": "",
-        "archetype": "Curry",
+        "archetype": ["Curry"],
         "viability": "Viable",
 
         "character_1": {
@@ -9962,7 +9962,7 @@ const teams = {
         "name": "Gaming Oven",
         "description": "You can trigger Melt and Burgeon. If you use Diona, her C6 it's very useful.",
         "rotation": "",
-        "archetype": "Oven",
+        "archetype": ["Oven"],
         "viability": "Viable",
 
         "character_1": {
@@ -9987,7 +9987,7 @@ const teams = {
         "name": "Gaming Oven",
         "description": "You can trigger Melt and Burgeon.",
         "rotation": "",
-        "archetype": "Oven",
+        "archetype": ["Oven"],
         "viability": "Viable",
 
         "character_1": {
@@ -10012,7 +10012,7 @@ const teams = {
         "name": "Gaming Oven",
         "description": "You can trigger Melt and Burgeon.",
         "rotation": "",
-        "archetype": "Oven",
+        "archetype": ["Oven"],
         "viability": "Viable",
 
         "character_1": {
@@ -10037,7 +10037,7 @@ const teams = {
         "name": "Gaming Oven",
         "description": "You can trigger Melt and Burgeon.",
         "rotation": "",
-        "archetype": "Oven",
+        "archetype": ["Oven"],
         "viability": "Viable",
 
         "character_1": {
@@ -10062,7 +10062,7 @@ const teams = {
         "name": "Gaming Oven",
         "description": "You can trigger Melt and Burgeon.",
         "rotation": "",
-        "archetype": "Oven",
+        "archetype": ["Oven"],
         "viability": "Viable",
 
         "character_1": {
@@ -10087,7 +10087,7 @@ const teams = {
         "name": "Gaming Oven",
         "description": "You can trigger Melt and Burgeon.",
         "rotation": "",
-        "archetype": "Oven",
+        "archetype": ["Oven"],
         "viability": "Viable",
 
         "character_1": {
@@ -10112,7 +10112,7 @@ const teams = {
         "name": "Gaming Curry",
         "description": "",
         "rotation": "",
-        "archetype": "Curry",
+        "archetype": ["Curry"],
         "viability": "Viable",
 
         "character_1": {
@@ -10137,7 +10137,7 @@ const teams = {
         "name": "Eula MonoCryo",
         "description": "An exception to the clasical monoCryo team. Thanks to Shenhe and Rosaria C6, Eula has enough source for the Physical resistance shred. Also, 100% uptime on Cryo resonance and low ER requirements",
         "rotation": "",
-        "archetype": "MonoCryo",
+        "archetype": ["MonoCryo"],
         "viability": "Viable",
 
         "character_1": {
@@ -10162,7 +10162,7 @@ const teams = {
         "name": "Alhaitham Plunge Spread",
         "description": "Alhaitham doesn't have an especial sinergy with Xianyun, but it's an alternative to his other teams.",
         "rotation": "",
-        "archetype": "Spread",
+        "archetype": ["Spread"],
         "viability": "Viable",
 
         "character_1": {
@@ -10187,7 +10187,7 @@ const teams = {
         "name": "Alhaitham Plunge QuicklBloom",
         "description": "Alhaitham doesn't have an especial sinergy with Xianyun, but it's an alternative to his other teams.",
         "rotation": "",
-        "archetype": "Quickbloom",
+        "archetype": ["Quickbloom"],
         "viability": "Viable",
 
         "character_1": {
@@ -10212,7 +10212,7 @@ const teams = {
         "name": "Raiden Aggravatte Plunge",
         "description": "",
         "rotation": "Raiden N1CJP (1 Normal Attack + 1 Charge Attack + Jump + Pungle Attack)",
-        "archetype": "Aggravate",
+        "archetype": ["Aggravate"],
         "viability": "Viable",
 
         "character_1": {
@@ -10237,7 +10237,7 @@ const teams = {
         "name": "Raiden Aggravatte Plunge",
         "description": "",
         "rotation": "Raiden N1CJP (1 Normal Attack + 1 Charge Attack + Jump + Pungle Attack)",
-        "archetype": "Aggravate",
+        "archetype": ["Aggravate"],
         "viability": "Viable",
 
         "character_1": {
@@ -10262,7 +10262,7 @@ const teams = {
         "name": "Yae Miko Aggravatte Plunge",
         "description": "",
         "rotation": "",
-        "archetype": "Aggravate",
+        "archetype": ["Aggravate"],
         "viability": "Viable",
 
         "character_1": {
@@ -10287,7 +10287,7 @@ const teams = {
         "name": "Keqing Aggravatte Plunge",
         "description": "",
         "rotation": "",
-        "archetype": "Aggravate",
+        "archetype": ["Aggravate"],
         "viability": "Viable",
 
         "character_1": {
@@ -10312,7 +10312,7 @@ const teams = {
         "name": "Keqing Aggravatte Plunge",
         "description": "",
         "rotation": "",
-        "archetype": "Aggravate",
+        "archetype": ["Aggravate"],
         "viability": "Viable",
 
         "character_1": {
@@ -10337,7 +10337,7 @@ const teams = {
         "name": "Raiden MonoElectro Plunge",
         "description": "",
         "rotation": "Raiden N1CJP (1 Normal Attack + 1 Charge Attack + Jump + Pungle Attack)",
-        "archetype": "MonoElectro",
+        "archetype": ["MonoElectro"],
         "viability": "Viable",
 
         "character_1": {
@@ -10362,7 +10362,7 @@ const teams = {
         "name": "Chongyun Freeze Plunge",
         "description": "",
         "rotation": "",
-        "archetype": "Freeze",
+        "archetype": ["Freeze"],
         "viability": "Viable",
 
         "character_1": {
@@ -10387,7 +10387,7 @@ const teams = {
         "name": "Kaveh Spread Plunge",
         "description": "",
         "rotation": "",
-        "archetype": "Spread",
+        "archetype": ["Spread"],
         "viability": "Offmeta",
 
         "character_1": {
@@ -10412,7 +10412,7 @@ const teams = {
         "name": "Wriothesley Bain-Marie",
         "description": "New OP archetype thanks to Wriothesley and Furina. Vaps + Melts + Burgeon in the same team. ",
         "rotation": "",
-        "archetype": "Bain-Marie",
+        "archetype": ["Bain-Marie"],
         "viability": "Meta",
 
         "character_1": {
@@ -10437,7 +10437,7 @@ const teams = {
         "name": "Albedo Burgeon",
         "description": "On-Field Albedo full EM build. With bennett C6, he trigger burgeon and has strong crystalization for defense utility. Strong vs Fontaine overworld bosses like Vivianne.",
         "rotation": "",
-        "archetype": "Burgeon",
+        "archetype": ["Burgeon"],
         "viability": "Unique",
 
         "character_1": {
@@ -10462,7 +10462,7 @@ const teams = {
         "name": "Gaming Melt",
         "description": "Since you don't have Kazuha or Xianyun to do VV, you can use supports before bennett have better uptime in Bennett's burst. ",
         "rotation": "Diona E/Q > Rosaria E/Q  > Bennet E/Q > Gaming Q+E.",
-        "archetype": "Melt",
+        "archetype": ["Melt"],
         "viability": "Meta",
 
         "character_1": {
@@ -10487,7 +10487,7 @@ const teams = {
         "name": "Gaming Vape",
         "description": "",
         "rotation": "",
-        "archetype": "Vaporize",
+        "archetype": ["Vaporize"],
         "viability": "Viable",
 
         "character_1": {
@@ -10512,7 +10512,7 @@ const teams = {
         "name": "Ganyu Morgana variation",
         "description": "Morgana but with Aloy, since she is a good battery",
         "rotation": "",
-        "archetype": "Freeze",
+        "archetype": ["Freeze"],
         "viability": "Viable",
 
         "character_1": {
@@ -10537,7 +10537,7 @@ const teams = {
         "name": "Kaveh Fridge",
         "description": "Well.. it's not very good",
         "rotation": "",
-        "archetype": "Fridge",
+        "archetype": ["Fridge"],
         "viability": "Offmeta",
 
         "character_1": {
@@ -10562,7 +10562,7 @@ const teams = {
         "name": "Pure Airfryer",
         "description": "Good in AoE",
         "rotation": "",
-        "archetype": "Airfryer",
+        "archetype": ["Airfryer"],
         "viability": "Viable",
 
         "character_1": {
@@ -10587,7 +10587,7 @@ const teams = {
         "name": "Pokemon Team",
         "description": "",
         "rotation": "",
-        "archetype": "Soup",
+        "archetype": ["Soup"],
         "viability": "Viable",
 
         "character_1": {
@@ -10612,7 +10612,7 @@ const teams = {
         "name": "Lyney Chevreuse",
         "description": "",
         "rotation": "",
-        "archetype": "Overload",
+        "archetype": ["Overload"],
         "viability": "Viable",
 
         "character_1": {
@@ -10637,7 +10637,7 @@ const teams = {
         "name": "Neuvillette 3 Character Team",
         "description": "This team is commonly used to speedrun with Neuvillette at high-investment. You don't use childe, only wants him for the hydro consonance and the A5 Talent.",
         "rotation": "",
-        "archetype": "Hypercarry",
+        "archetype": ["Hypercarry"],
         "viability": "Viable",
 
         "character_1": {
@@ -10662,7 +10662,7 @@ const teams = {
         "name": "Neuvillette Furina",
         "description": "Thanks to Neuvillette HP manipulation, you can run him with Furina without a healer and Zhongli.",
         "rotation": "",
-        "archetype": "Hypercarry",
+        "archetype": ["Hypercarry"],
         "viability": "Meta",
 
         "character_1": {
@@ -10687,7 +10687,7 @@ const teams = {
         "name": "Neuvillette Mona Hypercarry",
         "description": "",
         "rotation": "",
-        "archetype": "Hypercarry",
+        "archetype": ["Hypercarry"],
         "viability": "Viable",
 
         "character_1": {
@@ -10719,7 +10719,7 @@ const teams = {
 //    "name": "",
 //    "description": "",
 //    "rotation": "",
-//    "archetype": "",
+//    "archetype": ["",
 //    "viability": "",
 //
 //    "character_1": {

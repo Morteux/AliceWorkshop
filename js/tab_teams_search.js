@@ -287,7 +287,7 @@ function getCharacterHTML(id, character_team, character_data) {
 
 function getTeamHTML(team, team_index, team_id, character_4) {
     return `
-    <div class="team_container ` + archetypes[team.archetype].color + `">
+    <div class="team_container ` + archetypes[team.archetype[0]].color + `">
 
         <div id="toolbox_container" class="toolbox_container">
                 <div class="tags">
@@ -319,7 +319,7 @@ function getTeamHTML(team, team_index, team_id, character_4) {
             <button class="collapsible" onclick="toggleCollapse(this)">
                 <img class="collapsible_image" src="images/icons/bottom_arrow.png">
             </button>
-            <div class="collapsible_content ` + archetypes[team.archetype].color_illuminated + `">
+            <div class="collapsible_content ` + archetypes[team.archetype[0]].color_illuminated + `">
                 <div id="team_name_container" class="team_name_container">
                     ` + team.name + `
                 </div>
@@ -329,7 +329,7 @@ function getTeamHTML(team, team_index, team_id, character_4) {
                 </div>
 
                 <div id="team_archetype_container" class="team_archetype_container">
-                    ` + team.archetype + `
+                    ` + team.archetype.join(" - ") + `
                 </div>
 
                 <div class="team_desc_container">

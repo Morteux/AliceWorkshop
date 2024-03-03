@@ -44,7 +44,7 @@ function orderKeys(keys) {
         });
     } else if (sort_value == "archetype") {
         keys.sort(function (x, y) {
-            return ARCHETYPES_NAMES.indexOf(teams_search_matches[x].archetype) - ARCHETYPES_NAMES.indexOf(teams_search_matches[y].archetype);
+            return ARCHETYPES_NAMES.indexOf(teams_search_matches[x].archetype[0]) - ARCHETYPES_NAMES.indexOf(teams_search_matches[y].archetype[0]);
         });
     }
 

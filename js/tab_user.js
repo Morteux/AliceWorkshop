@@ -366,8 +366,10 @@ function testTeams() {
         // Check if characters in team exists
         for (let team_index in teams) {
 
-            if (!ARCHETYPES_NAMES.includes(teams[team_index]["archetype"])) {
-                json_validator_result += "<br>Team " + team_index + " - ERROR: archetype does not exist: " + teams[team_index]["archetype"];
+            for (let archetype_index in teams[team_index]["archetype"]) {
+                if (!ARCHETYPES_NAMES.includes(teams[team_index]["archetype"][archetype_index])) {
+                    json_validator_result += "<br>Team " + team_index + " - ERROR: archetype does not exist: " + teams[team_index]["archetype"];
+                }
             }
 
             if (!VIABILITIES.includes(teams[team_index]["viability"])) {

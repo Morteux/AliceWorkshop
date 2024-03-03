@@ -105,35 +105,6 @@ function toggleExtraFiltersContainer() {
 function doFilter(id, team) {
     let pass = true;
 
-
-
-
-
-    // Debug checks and info
-    // if (teams[id] == null) console.log("Teams KO: " + id);
-
-    // if (characters[team.character_1.name] == null) { console.log("character_1 KO: " + team.character_1.name + " in team #" + id); }
-    // if (characters[team.character_2.name] == null) { console.log("character_2 KO: " + team.character_2.name + " in team #" + id); }
-    // if (characters[team.character_3.name] == null) { console.log("character_3 KO: " + team.character_3.name + " in team #" + id); }
-    // for (let character_index in team.character_4.name) {
-    //     if (characters[team.character_4.name[character_index]] == null) { console.log("character_4 KO: " + team.character_4.name[character_index] + " in team #" + id); }
-    // }
-
-    // if (builds[team.character_1.name][team.character_1.build] == null) { console.log("character_1 build KO: " + team.character_1.build + " in team #" + id); }
-    // if (builds[team.character_2.name][team.character_2.build] == null) { console.log("character_2 build KO: " + team.character_2.build + " in team #" + id); }
-    // if (builds[team.character_3.name][team.character_3.build] == null) { console.log("character_3 build KO: " + team.character_3.build + " in team #" + id); }
-    // for (let character_index in team.character_4.build) {
-    //     if (builds[team.character_4.name[character_index]][team.character_4.build[character_index]] == null) { console.log("character_4 build KO: " + team.character_4.build[character_index] + " in team #" + id); }
-    // }
-
-    // if (ARCHETYPES_NAMES.includes(team.archetype) == null) { console.log("archetype KO: " + team.archetype + " in team #" + id); }
-    // if (VIABILITIES.includes(team.viability) == null) { console.log("viability KO: " + team.viability + " in team #" + id); }
-
-
-
-
-
-
     if (filterByFavorite(id)) {
         // console.log("filterByFavorite KO" + " in team #" + id);
         pass = false;
@@ -164,7 +135,8 @@ function filterByFavorite(id) {
 }
 
 function filterByArchetype(team) {
-    return !filters_archetype.includes(team.archetype);
+    // return !filters_archetype.includes(team.archetype);
+    return !filters_archetype.some(archetype => team.archetype.includes(archetype));
 }
 
 function filterByElement(team) {
