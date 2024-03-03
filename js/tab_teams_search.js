@@ -303,7 +303,7 @@ function getTeamHTML(team, team_index, team_id, character_4) {
                 </div>
 
                 <div class="tags">
-                    <button class="link_team_button" onclick="copyTextToClipboard('https://morteux.github.io/AliceWorkshop/?team=` + team_id + `');">
+                    <button class="link_team_button" onclick="copyTextToClipboard('` +  window.location.origin + `?team=` + team_id + `');">
                         <img src="images/icons/link.png">
                     </button>
                     <button class="fav_button" onclick="toggleFavorite(this, ` + orderedKeys[team_index] + `)">

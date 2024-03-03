@@ -216,7 +216,7 @@ function printArchetypes() {
 
             <div class="teams_example">
                 <div class="archetype_title">
-                    <button class="link_archetypes_button" onclick="copyTextToClipboard('https://morteux.github.io/AliceWorkshop/?archetype=` + archetype_index + `');">
+                    <button class="link_archetypes_button" onclick="copyTextToClipboard('` +  window.location.origin + `?archetype=` + archetype_index + `');">
                         <img src="images/icons/link.png">
                     </button>
 
