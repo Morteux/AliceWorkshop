@@ -197,6 +197,19 @@
     flex-wrap: wrap;
 }
 
+.link_archetypes_button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.link_archetypes_button>img {
+    width: 5vh;
+}
+
+.link_archetypes_button>img:hover {
+    filter: invert(100%);
+}
 
 
 

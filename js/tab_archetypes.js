@@ -216,7 +216,13 @@ function printArchetypes() {
 
             <div class="teams_example">
                 <div class="archetype_title">
-                    ` + archetype_index + ` <button type="submit" class="search_random_button" onclick="getNewRandomTeam('random_` + archetype_index + `', '` + archetype_index + `')"></button>
+                    <button class="link_archetypes_button" onclick="copyTextToClipboard('` +  window.location.origin + `?archetype=` + archetype_index + `');">
+                        <img src="images/icons/link.png">
+                    </button>
+
+                    ` + archetype_index + `
+                    
+                    <button type="submit" class="search_random_button" onclick="getNewRandomTeam('random_` + archetype_index + `', '` + archetype_index + `')"></button>
                 </div>
                 <div class="team_elements_container">
                     ` + printElementsOrForcedCharacter(archetypes[archetype_index]) + `
