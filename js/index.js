@@ -56,9 +56,23 @@ function showCopiedPopup(popup_id) {
     var popup = document.getElementById(popup_id);
     popup.classList.toggle("show");
 
-    
-    setTimeout(function(){
+
+    setTimeout(function () {
         popup.classList.toggle("hidden");
-      }, 2000);
+    }, 2000);
 }
 
+function isToday(monthDay) {
+    // Parse the month and day from the input string
+    const [month, day] = monthDay.split('/').map(Number);
+
+    // Get the current date
+    const currentDate = new Date();
+
+    // Create a new date object for the specified month and day
+    const inputDate = new Date(currentDate.getFullYear(), month - 1, day);
+
+    // Compare the input date with the current date (ignoring the year)
+    return inputDate.getMonth() === currentDate.getMonth() &&
+        inputDate.getDate() === currentDate.getDate();
+}

@@ -273,10 +273,15 @@ function printRandomTeam() {
     document.getElementById("result_counter_container").style.display = "none";
 }
 
+function getBirthdayHTML(character_data) {
+ return (isToday(character_data.birthdaymmdd) ? `<img class="birthday_hat_icon" src="images/birthday_hats/birthday_hat_` + (Math.floor(Math.random() * (5 - 1 + 1)) + 1) + `.png">` : ``);
+}
+
 function getCharacterHTML(id, character_team, character_data) {
     return `
     <div id="` + id + `" class="character_container ` + character_data.name.replaceAll(" ", "_") + `">
         <img class="character_icon ` + (character_data.rarity == "5" ? "character_5_stars" : "character_4_stars") + `" src="https://api.ambr.top/assets/UI/` + character_data.images.nameicon + `.png" alt="Character icon for ` + character_data.name + `">
+        ` + getBirthdayHTML(character_data) + `
         <img class="element_icon" src="images/elements/glow_` + (character_data.element != "None" ? character_data.element.toLowerCase() : builds[character_team.name][character_team.build].element.toLowerCase()) + `.png">
         ` + (builds[character_team.name][character_team.build].constellation != "" ? `<div class="constellation">` + builds[character_team.name][character_team.build].constellation + `</div>` : ``) + `
         <div class="rarity_container">` + STAR_SVG + STAR_SVG + STAR_SVG + STAR_SVG + (character_data.rarity == "5" ? STAR_SVG : "") + `</div>

@@ -20,7 +20,6 @@ https://genshindb-ia.vercel.app/
 ## Tab Teams Search
 ### To do
 - Mark for user created teams.
-- URL to team with characters in url params OR download team auto screenshot image.
 - Hide/show character stats behind icons for each team.
 - Hide/show "flex" artifacts and weapons in each build.
 - Set birthday party hat to characters in their birthday.

@@ -353,6 +353,14 @@
     width: 3.5vh;
 }
 
+.birthday_hat_icon {
+    position: absolute;
+    top: -30%;
+    left: 35%;
+
+    width: 2vw;
+}
+
 .constellation {
     position: absolute;
     top: 0.5vh;
