@@ -92,9 +92,9 @@ const archetypes = {
     },
 
     "Overload": {
-        description: "",
-        elements: [],
-        pros_cons: "",
+        description: "Arquetipo basado en la reacción Overload. Es la combinación de solo personajes Pyro y Electro, con al menos un personaje de cada elemento. En ocasiones, se puede combinar con algún elemento Flex como anemo/geo como supports, pero es menos frecuente.",
+        elements: [ "Pyro", "Electro", ["Electro", "Pyro"], "Flex"],
+        pros_cons: "Overload es una muy buena reacción complementaria en ciertos equipos y arquetipos, como Rational u Overvape, pero como reacción en sí para buildear equipos no siempre cumple. La explosión que deja atrás la reacción, puede resultar molesta contra enemigos que salgan disparados y personajes con poco rango que tengas que perseguirlos, asi que se suele usar con Élites o Jefes. Gracias a Chevreuse, esta reacción ha sufrido un gran buffo y es meta bajo ciertas cirscunstancias, pero su uso no es obligatorio.",
         example_teams: [],
         color: "color_pyro",
         color_illuminated: "color_electro_illuminated",
@@ -156,40 +156,40 @@ const archetypes = {
         recommended_characters: []
     },
     "Burgeon": {
-        description: "",
-        elements: [],
-        pros_cons: "",
+        description: "Basado en la reacción crepitar. Las semillas se activan con un personaje del elemento Pyro, el cual irá full EM para maximizar el daño de la reacción. Como último elemento, puedes poner otro personaje hydro/pyro/dendro que ayude en el equipo, o un elemento que no interfiera en la reacción como geo/anemo. De este arquetipo, nacen otros arquetipos como Oven, Curry y Sauté si añades otros elementos o modificas la forma de aplicar burgeon.",
+        elements: ["Dendro", "Hydro", "Pyro", "Flex"],
+        pros_cons: "Se necesita mucha aplicación hydro, o una aplicación de pyro muy lenta, para generar consistentes semillas. Destaca en AoE, y en ocasiones puedes agrupar con un personaje anemo. ",
         example_teams: [],
         color: "color_pyro",
         color_illuminated: "color_dendro_illuminated",
         recommended_characters: []
     },
     "Oven": {
-        description: "",
-        elements: [],
-        pros_cons: "",
+        description: "Añadimos el elemento Cryo a nuestro equipo Burgeon.",
+        elements: ["Dendro", "Hydro", "Pyro", "Cryo"],
+        pros_cons: "Con esto, conseguiremos generar mas semillas debido a la interacción de Dendro+Cryo, además de congelar a los enemigos.",
         example_teams: [],
         color: "color_pyro",
         color_illuminated: "color_cryo_illuminated",
         recommended_characters: []
     },
     "Curry": {
-        description: "",
-        elements: [],
-        pros_cons: "",
+        description: "Añadimos el elemento Electro a nuestro equipo Burgeon. Se suelen jugar con personajes electro que no activen semillas hyperbloom, como Fischl o Razor, pero también se puede jugar con personajes que si activen dicha reacción para crear una mezcla entre burgeon+hyperbloom. Popurry de reacciones que funciona sorprendentemente bien.",
+        elements: ["Dendro", "Hydro", "Pyro", "Electro"],
+        pros_cons: "Se generan mas semillas que en equipos Burgeon ya que el electro baja el aura de burning, y son equipos que suelen tener mas daño single target que el propio arquetipo burgeon, debido a la reacción de sobrecargado y personajes como Fischl. Al aplicar esta última reacción, el arquetipo Curry es bueno contra enemigos que no salen volando como Élites o Jefes.",
         example_teams: [],
         color: "color_pyro",
         color_illuminated: "color_electro_illuminated",
         recommended_characters: []
     },
     "Sauté": {
-        description: "",
-        elements: [],
-        pros_cons: "",
+        description: "Aunque parecido a Burgeon, en este equipo NO usaremos un personaje Pyro para aplicar burgeon. Imbuiremos la habilidad de un personaje Anemo en el elemento Pyro para realizar la reacción.",
+        elements: ["Dendro", "Hydro", "Pyro", "Anemo"],
+        pros_cons: "A diferencia de la mayoría de personajes Pyro, los personajes Anemo se buildean a EM, por lo que podrán aplicar burgeon con un gran daño. Además, como suelen tener agrupación, este arquetipo es efectivo para cuando necesitas agrupar muchos enemigos y tener daño AoE. ",
         example_teams: [],
         color: "color_anemo",
         color_illuminated: "color_dendro_illuminated",
-        recommended_characters: []
+        recommended_characters: ["Kaedehara Kazuha", "Jean"]
     },
     "Fridge": {
         description: "",
