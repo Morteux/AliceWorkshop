@@ -232,20 +232,20 @@
     cursor: pointer;
 }
 
-.link_button {
+.link_team_button {
     background-color: transparent;
     border: none;
     cursor: pointer;
 }
 
-.link_button>img {
+.link_team_button>img {
     padding-top: 0.5vh;
     padding-right: 1vh;
 
     width: 3vh;
 }
 
-.link_button>img:hover {
+.link_team_button>img:hover {
     filter: invert(100%);
 }
 

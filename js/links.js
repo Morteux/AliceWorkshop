@@ -32,9 +32,12 @@ function linkTeam() {
 function linkArchetype() {
     setTabActive("tab_archetype_search");
 
+    document.getElementById("show_all_archetypes_button").click();
+    document.getElementById("filter_tab_archetype_" + paramArchetype.toLowerCase()).click();
 }
 
 function linkCharacter() {
     setTabActive("tab_characters");
 
+    document.getElementById("character_check_" + paramCharacter).click();
 }
