@@ -232,6 +232,23 @@
     cursor: pointer;
 }
 
+.link_button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.link_button>img {
+    padding-top: 0.5vh;
+    padding-right: 1vh;
+
+    width: 3vh;
+}
+
+.link_button>img:hover {
+    filter: invert(100%);
+}
+
 .fav_button {
     background-color: transparent;
     border: none;

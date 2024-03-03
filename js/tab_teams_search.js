@@ -302,9 +302,14 @@ function getTeamHTML(team, team_index, team_id, character_4) {
                     </div>
                 </div>
 
-                <button class="fav_button" onclick="toggleFavorite(this, ` + orderedKeys[team_index] + `)">
-                    <img class="` + (favorites[orderedKeys[team_index]] === null || favorites[orderedKeys[team_index]] === undefined ? `empty` : `filled`) + `" src="images/icons/star_` + (favorites[orderedKeys[team_index]] === null || favorites[orderedKeys[team_index]] === undefined ? `empty` : `filled`) + `.png">
-                </button>
+                <div class="tags">
+                    <button class="link_button" onclick="copyTextToClipboard('https://morteux.github.io/AliceWorkshop/?team=` + team_id + `');">
+                        <img class="" src="images/icons/link.png">
+                    </button>
+                    <button class="fav_button" onclick="toggleFavorite(this, ` + orderedKeys[team_index] + `)">
+                        <img class="` + (favorites[orderedKeys[team_index]] === null || favorites[orderedKeys[team_index]] === undefined ? `empty` : `filled`) + `" src="images/icons/star_` + (favorites[orderedKeys[team_index]] === null || favorites[orderedKeys[team_index]] === undefined ? `empty` : `filled`) + `.png">
+                    </button>
+                </div>
             </div>
 
             <div id="characters_container" class="characters_container">
