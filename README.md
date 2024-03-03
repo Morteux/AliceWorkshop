@@ -22,7 +22,6 @@ https://genshindb-ia.vercel.app/
 - Mark for user created teams.
 - Hide/show character stats behind icons for each team.
 - Hide/show "flex" artifacts and weapons in each build.
-- Set birthday party hat to characters in their birthday.
 
 ## Tab Characters
 ### To do
