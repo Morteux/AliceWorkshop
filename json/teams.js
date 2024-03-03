@@ -847,6 +847,31 @@ const teams = {
         }
     },
 
+    "35": {
+        "name": "Hutao VV Amber",
+        "description": "Since Hu Tao can't apply pyro without wasting E/Q, you can use amber to do a pyro swirl, and she won't steal any vapes.",
+        "rotation": "Xingqiu Q/E > Kazuha Q > Amber E/Q > Sucrose NA/E or Kazuha E > Hu Tao",
+        "archetype": "Vaporize",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Hu Tao",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Xingqiu",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Amber",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Sucrose", "Kaedehara Kazuha"],
+            "build": ["Standard", "Standard"]
+        }
+    },
+
 
     "36": {
         "name": "Childe Hyperbloom",
@@ -7011,7 +7036,7 @@ const teams = {
         "name": "Lyney Furina",
         "description": "With Xiangling, you will keep enough pyro application for Lyney's passive and Furina vapes. Problem: Squishiest team in the world. Bennett healer.",
         "rotation": "",
-        "archetype": "Quickbloom",
+        "archetype": "MonoPyro",
         "viability": "Meta",
 
         "character_1": {
@@ -8161,7 +8186,7 @@ const teams = {
         "name": "Itto Navia",
         "description": "Normal Itto rotation but with Navia quickswaping. 4th slot can be other flex unit that applies an element (So navia can pick cristalization)",
         "rotation": "",
-        "archetype": "Hypercarry",
+        "archetype": "MonoGeo",
         "viability": "Viable",
 
         "character_1": {
@@ -10406,7 +10431,286 @@ const teams = {
             "name": ["Baizhu", "Yaoyao"],
             "build": ["Standard", "Standard"]
         }
-    }
+    },
+
+    "416": {
+        "name": "Albedo Burgeon",
+        "description": "On-Field Albedo full EM build. With bennett C6, he trigger burgeon and has strong crystalization for defense utility. Strong vs Fontaine overworld bosses like Vivianne.",
+        "rotation": "",
+        "archetype": "Burgeon",
+        "viability": "Unique",
+
+        "character_1": {
+            "name": "Albedo",
+            "build": "EM"
+        },
+        "character_2": {
+            "name": "Nahida",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Xingqiu",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Bennett"],
+            "build": ["C6"]
+        }
+    },
+
+    "417": {
+        "name": "Gaming Melt",
+        "description": "Since you don't have Kazuha or Xianyun to do VV, you can use supports before bennett have better uptime in Bennett's burst. ",
+        "rotation": "Diona E/Q > Rosaria E/Q  > Bennet E/Q > Gaming Q+E.",
+        "archetype": "Melt",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Gaming",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Bennett",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Rosaria",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Diona"],
+            "build": ["Standard"]
+        }
+    },
+
+    "418": {
+        "name": "Gaming Vape",
+        "description": "",
+        "rotation": "",
+        "archetype": "Vaporize",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Gaming",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Xianyun",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Xingqiu", "Yelan"],
+            "build": ["Standard", "Standard"]
+        }
+    },
+
+    "419": {
+        "name": "Ganyu Morgana variation",
+        "description": "Morgana but with Aloy, since she is a good battery",
+        "rotation": "",
+        "archetype": "Freeze",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Ganyu",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Venti",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Mona",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Aloy"],
+            "build": ["Standard"]
+        }
+    },
+
+    "420": {
+        "name": "Kaveh Fridge",
+        "description": "Well.. it's not very good",
+        "rotation": "",
+        "archetype": "Fridge",
+        "viability": "Offmeta",
+
+        "character_1": {
+            "name": "Kaveh",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Xingqiu",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Kaedehara Kazuha",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Kaeya", "Layla", "Ganyu", "Rosaria"],
+            "build": ["Standard","Standard","Ultimate","Standard"]
+        }
+    },
+
+    "421": {
+        "name": "Pure Airfryer",
+        "description": "Good in AoE",
+        "rotation": "",
+        "archetype": "Airfryer",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Nahida",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Venti",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Kaedehara Kazuha",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Bennett"],
+            "build": ["Standard"]
+        }
+    },
+
+    "422": {
+        "name": "Pokemon Team",
+        "description": "",
+        "rotation": "",
+        "archetype": "Soup",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Sucrose",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Xiangling",
+            "build": "SoloPyro"
+        },
+        "character_3": {
+            "name": "Sangonomiya Kokomi",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Fischl"],
+            "build": ["Standard"]
+        }
+    },
+
+    "423": {
+        "name": "Lyney Chevreuse",
+        "description": "",
+        "rotation": "",
+        "archetype": "Overload",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Lyney",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Chevreuse",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Dehya",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Yae Miko", "Fischl", "Raiden Shogun", "Beidou"],
+            "build": ["Standard", "Standard", "EM", "SoloElectro"]
+        }
+    },
+
+    "424": {
+        "name": "Neuvillette 3 Character Team",
+        "description": "This team is commonly used to speedrun with Neuvillette at high-investment. You don't use childe, only wants him for the hydro consonance and the A5 Talent.",
+        "rotation": "",
+        "archetype": "Hypercarry",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Neuvillette",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Tartaglia",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Kaedehara Kazuha",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Zhongli", "Xiangling"],
+            "build": ["Standard", "SoloPyro"]
+        }
+    },
+
+    "425": {
+        "name": "Neuvillette Furina",
+        "description": "Thanks to Neuvillette HP manipulation, you can run him with Furina without a healer and Zhongli.",
+        "rotation": "",
+        "archetype": "Hypercarry",
+        "viability": "Meta",
+
+        "character_1": {
+            "name": "Neuvillette",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Kaedehara Kazuha",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Zhongli"],
+            "build": ["Standard"]
+        }
+    },
+
+    "426": {
+        "name": "Neuvillette Mona Hypercarry",
+        "description": "",
+        "rotation": "",
+        "archetype": "Hypercarry",
+        "viability": "Viable",
+
+        "character_1": {
+            "name": "Neuvillette",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Mona",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Kaedehara Kazuha",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Zhongli"],
+            "build": ["Standard"]
+        }
+    },
+    
+    
+    
+    
 }   
 
 
