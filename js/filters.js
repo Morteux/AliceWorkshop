@@ -149,7 +149,7 @@ function filterByElement(team) {
         hasExcludedElement = true;
     } else {
         for (let character_index in team.character_4.name) {
-            if ((getCharacter(team.character_4.name[character_index]).elementText != "None" && !filters_element.includes(getCharacter(team.character_4.name[character_index]).element)) || (team.character_4.build[character_index].element != null && !filters_element.includes(team.character_4.build[character_index].element))) {
+            if ((getCharacter(team.character_4.name[character_index]).elementText != "None" && !filters_element.includes(getCharacter(team.character_4.name[character_index]).elementText)) || (team.character_4.build[character_index].element != null && !filters_element.includes(team.character_4.build[character_index].element))) {
                 hasExcludedElement = true;
             }
         }

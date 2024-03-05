@@ -82,11 +82,11 @@ function isTeamName(team, search_form_text_input) {
     return team.name.toUpperCase().includes(search_form_text_input.toUpperCase())
 }
 
-function containCharacters(team, characters) {
+function containCharacters(team, search_form_text_input) {
     let contain = true;
 
-    for (let index in characters) {
-        contain = contain && containCharacter(team, characters[index].toUpperCase())
+    for (let index in search_form_text_input) {
+        contain = contain && containCharacter(team, search_form_text_input[index].toUpperCase())
     }
 
     return contain;
@@ -198,7 +198,6 @@ function getTeamsByTextInput() {
             team.character_4.build = [JSON.parse(JSON.stringify(teams[team_index].character_4.build[character_4_index]))];
 
             if (doFilter(team_index, team) && containCharacters(team, search_form_text_input)) {
-                // console.log("Coincidence for: " + teams[team_index].name);
                 teams_search_matches[team.id] = JSON.parse(JSON.stringify(team));
             }
             // else {
