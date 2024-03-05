@@ -5,7 +5,7 @@ var sort_team_id;
 var sort_viability;
 var sort_team_name;
 
-var orderedKeys;
+var teams_search_matches_ordered_keys;
 
 document.addEventListener("DOMContentLoaded", (event) => {
     sort_team_id = document.getElementById("sort_team_id");
@@ -213,14 +213,14 @@ function printTeams() {
     }
 
     let team_output = "";
-    orderedKeys = orderKeys(Object.keys(teams_search_matches));
-    // console.log(orderedKeys);
+    teams_search_matches_ordered_keys = orderKeys(Object.keys(teams_search_matches));
+    // console.log(teams_search_matches_ordered_keys);
 
     let team_count = 0;
     let team_index = start_index;
-    while (team_index < orderedKeys.length && team_count < TEAMS_PER_PAGE) {
+    while (team_index < teams_search_matches_ordered_keys.length && team_count < TEAMS_PER_PAGE) {
 
-        let team = teams_search_matches[orderedKeys[team_index]];
+        let team = teams_search_matches[teams_search_matches_ordered_keys[team_index]];
         let character_4_int_index = 1;
         for (let character_4_index in team.character_4.name) {
 
@@ -229,7 +229,7 @@ function printTeams() {
                 "build": team.character_4.build[character_4_index]
             };
 
-            let team_id = orderedKeys[team_index] + (team.character_4.name.length > 1 ? `-` + (character_4_int_index + 1) : ``);
+            let team_id = teams_search_matches_ordered_keys[team_index] + (team.character_4.name.length > 1 ? `-` + (character_4_int_index + 1) : ``);
             team_output = getTeamHTML(team, team_index, team_id, character_4);
 
             character_4_int_index++;
@@ -310,8 +310,8 @@ function getTeamHTML(team, team_index, team_id, character_4) {
                     <button class="link_team_button" onclick="copyTextToClipboard('` +  window.location.origin + window.location.pathname + `?team=` + team_id + `');">
                         <img src="images/icons/link.png">
                     </button>
-                    <button class="fav_button" onclick="toggleFavorite(this, ` + orderedKeys[team_index] + `)">
-                        <img class="` + (favorites[orderedKeys[team_index]] === null || favorites[orderedKeys[team_index]] === undefined ? `empty` : `filled`) + `" src="images/icons/star_` + (favorites[orderedKeys[team_index]] === null || favorites[orderedKeys[team_index]] === undefined ? `empty` : `filled`) + `.png">
+                    <button class="fav_button" onclick="toggleFavorite(this, ` + teams_search_matches_ordered_keys[team_index] + `)">
+                        <img class="` + (favorites[teams_search_matches_ordered_keys[team_index]] === null || favorites[teams_search_matches_ordered_keys[team_index]] === undefined ? `empty` : `filled`) + `" src="images/icons/star_` + (favorites[teams_search_matches_ordered_keys[team_index]] === null || favorites[teams_search_matches_ordered_keys[team_index]] === undefined ? `empty` : `filled`) + `.png">
                     </button>
                 </div>
             </div>
