@@ -133,7 +133,7 @@ function printElement(element) {
         } else if (CHARACTER_NAMES.includes(element)) {
             element_HTML = `
             <div class="element_character_container">
-                <img class="archetype_character_icon" src="https://api.ambr.top/assets/UI/` + characters[element].images.nameicon + `.png" alt="Flex icon">
+                <img class="archetype_character_icon" src="https://api.ambr.top/assets/UI/` + getCharacter(element).images.filename_icon + `.png" alt="Flex icon">
             </div>
         `;
         } else {
@@ -184,12 +184,12 @@ function printRecommendedCharacters(recommended_characters) {
     let characters_HTML = "";
 
     for (let index in recommended_characters) {
-        let character = characters[recommended_characters[index]];
+        let character = getCharacter(recommended_characters[index]);
 
         characters_HTML += `
             <div class="character_container ` + character.name.replaceAll(" ", "_") + `">
-                <img class="character_icon ` + (character.rarity == "5" ? "character_5_stars" : "character_4_stars") + `" src="https://api.ambr.top/assets/UI/` + character.images.nameicon + `.png" alt="Character icon for ` + character.name + `">
-                <img class="element_icon" src="images/elements/glow_` + (character.element != "None" ? character.element.toLowerCase() : builds[character_team.name][character_team.build].element.toLowerCase()) + `.png">
+                <img class="character_icon ` + (character.rarity == "5" ? "character_5_stars" : "character_4_stars") + `" src="https://api.ambr.top/assets/UI/` + character.images.filename_icon + `.png" alt="Character icon for ` + character.name + `">
+                <img class="element_icon" src="images/elements/glow_` + (character.elementText != "None" ? character.elementText.toLowerCase() : builds[character_team.name][character_team.build].element.toLowerCase()) + `.png">
                 <div class="rarity_container">` + STAR_SVG + STAR_SVG + STAR_SVG + STAR_SVG + (character.rarity == "5" ? STAR_SVG : "") + `</div>
                 <div class="character_name ` + (character.name.length < SHORT_NAME_LENGTH ? "character_name_short" : (character.name.length < MEDIUM_NAME_LENGTH ? "character_name_medium" : "character_name_long")) + `">` + character.name + `</div>
             </div>

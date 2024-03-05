@@ -25,7 +25,7 @@ const ARCHETYPES_NAMES = Object.keys(archetypes);
 const VIABILITIES = ["Meta", "Viable", "Offmeta", "Unique"];
 
 const STAR_SVG = `<img class="rarity" src="images/rarity/star.svg">`;
-const CHARACTER_NAMES = Object.keys(characters);
+const CHARACTER_NAMES = Object.values(characters_order_priority);
 
 const SHORT_NAME_LENGTH = 10;
 const MEDIUM_NAME_LENGTH = 16;
@@ -75,4 +75,14 @@ function isToday(monthDay) {
     // Compare the input date with the current date (ignoring the year)
     return inputDate.getMonth() === currentDate.getMonth() &&
         inputDate.getDate() === currentDate.getDate();
+}
+
+function getCharacter(name) {
+    let character = GenshinDb.character(name);
+
+    if(character == undefined) {
+        character = characters[name];
+    }
+
+    return character;
 }

@@ -142,22 +142,14 @@ function filterByArchetype(team) {
 function filterByElement(team) {
     let hasExcludedElement = false;
 
-    if ((characters[team.character_1.name].element != "None" && !filters_element.includes(characters[team.character_1.name].element)) || (team.character_1.build.element != null && !filters_element.includes(team.character_1.build.element)) ||
-        (characters[team.character_2.name].element != "None" && !filters_element.includes(characters[team.character_2.name].element)) || (team.character_2.build.element != null && !filters_element.includes(team.character_2.build.element)) ||
-        (characters[team.character_3.name].element != "None" && !filters_element.includes(characters[team.character_3.name].element)) || (team.character_3.build.element != null && !filters_element.includes(team.character_3.build.element))) {
+    if ((getCharacter(team.character_1.name).elementText != "None" && !filters_element.includes(getCharacter(team.character_1.name).elementText)) || (team.character_1.build.element != null && !filters_element.includes(team.character_1.build.element)) ||
+        (getCharacter(team.character_2.name).elementText != "None" && !filters_element.includes(getCharacter(team.character_2.name).elementText)) || (team.character_2.build.element != null && !filters_element.includes(team.character_2.build.element)) ||
+        (getCharacter(team.character_3.name).elementText != "None" && !filters_element.includes(getCharacter(team.character_3.name).elementText)) || (team.character_3.build.element != null && !filters_element.includes(team.character_3.build.element))) {
 
         hasExcludedElement = true;
     } else {
         for (let character_index in team.character_4.name) {
-
-            // console.log("====================================================================");
-            // console.log(team);
-            // console.log(team.character_4.name);
-            // console.log(team.character_4.name[character_index]);
-            // console.log(characters[team.character_4.name[character_index]]);
-            // console.log(characters[team.character_4.name[character_index]].element);
-
-            if ((characters[team.character_4.name[character_index]].element != "None" && !filters_element.includes(characters[team.character_4.name[character_index]].element)) || (team.character_4.build[character_index].element != null && !filters_element.includes(team.character_4.build[character_index].element))) {
+            if ((getCharacter(team.character_4.name[character_index]).elementText != "None" && !filters_element.includes(getCharacter(team.character_4.name[character_index]).elementText)) || (team.character_4.build[character_index].element != null && !filters_element.includes(team.character_4.build[character_index].element))) {
                 hasExcludedElement = true;
             }
         }

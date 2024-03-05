@@ -9,6 +9,8 @@ https://genshindb-ia.netlify.app/
 
 https://genshindb-ia.vercel.app/
 
+CDN or JS files: https://github.com/theBowja/genshin-db-dist
+
 ## Features
 ### To do
 - Show last version of Genshin supported.

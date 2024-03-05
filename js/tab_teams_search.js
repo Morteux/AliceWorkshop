@@ -82,11 +82,11 @@ function isTeamName(team, search_form_text_input) {
     return team.name.toUpperCase().includes(search_form_text_input.toUpperCase())
 }
 
-function containCharacters(team, characters) {
+function containCharacters(team, search_form_text_input) {
     let contain = true;
 
-    for (let index in characters) {
-        contain = contain && containCharacter(team, characters[index].toUpperCase())
+    for (let index in search_form_text_input) {
+        contain = contain && containCharacter(team, search_form_text_input[index].toUpperCase())
     }
 
     return contain;
@@ -198,7 +198,6 @@ function getTeamsByTextInput() {
             team.character_4.build = [JSON.parse(JSON.stringify(teams[team_index].character_4.build[character_4_index]))];
 
             if (doFilter(team_index, team) && containCharacters(team, search_form_text_input)) {
-                // console.log("Coincidence for: " + teams[team_index].name);
                 teams_search_matches[team.id] = JSON.parse(JSON.stringify(team));
             }
             // else {
@@ -280,9 +279,9 @@ function getBirthdayHTML(character_data) {
 function getCharacterHTML(id, character_team, character_data) {
     return `
     <div id="` + id + `" class="character_container ` + character_data.name.replaceAll(" ", "_") + `">
-        <img class="character_icon ` + (character_data.rarity == "5" ? "character_5_stars" : "character_4_stars") + `" src="https://api.ambr.top/assets/UI/` + character_data.images.nameicon + `.png" alt="Character icon for ` + character_data.name + `">
+        <img class="character_icon ` + (character_data.rarity == "5" ? "character_5_stars" : "character_4_stars") + `" src="https://api.ambr.top/assets/UI/` + character_data.images.filename_icon + `.png" alt="Character icon for ` + character_data.name + `">
         ` + getBirthdayHTML(character_data) + `
-        <img class="element_icon" src="images/elements/glow_` + (character_data.element != "None" ? character_data.element.toLowerCase() : builds[character_team.name][character_team.build].element.toLowerCase()) + `.png">
+        <img class="element_icon" src="images/elements/glow_` + (character_data.elementText != "None" ? character_data.elementText.toLowerCase() : builds[character_team.name][character_team.build].element.toLowerCase()) + `.png">
         ` + (builds[character_team.name][character_team.build].constellation != "" ? `<div class="constellation">` + builds[character_team.name][character_team.build].constellation + `</div>` : ``) + `
         <div class="rarity_container">` + STAR_SVG + STAR_SVG + STAR_SVG + STAR_SVG + (character_data.rarity == "5" ? STAR_SVG : "") + `</div>
         <div class="character_name ` + (character_data.name.length < SHORT_NAME_LENGTH ? "character_name_short" : (character_data.name.length < MEDIUM_NAME_LENGTH ? "character_name_medium" : "character_name_long")) + `">` + character_data.name + `</div>
@@ -319,10 +318,10 @@ function getTeamHTML(team, team_index, team_id, character_4) {
 
             <div id="characters_container" class="characters_container">
             ` +
-        getCharacterHTML("character_1", team.character_1, characters[team.character_1.name]) +
-        getCharacterHTML("character_2", team.character_2, characters[team.character_2.name]) +
-        getCharacterHTML("character_3", team.character_3, characters[team.character_3.name]) +
-        getCharacterHTML("character_4", character_4, characters[character_4.name]) +
+        getCharacterHTML("character_1", team.character_1, getCharacter(team.character_1.name)) +
+        getCharacterHTML("character_2", team.character_2, getCharacter(team.character_2.name)) +
+        getCharacterHTML("character_3", team.character_3, getCharacter(team.character_3.name)) +
+        getCharacterHTML("character_4", character_4, getCharacter(character_4.name)) +
         `
             </div>
             

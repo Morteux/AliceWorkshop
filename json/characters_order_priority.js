@@ -78,5 +78,6 @@ const characters_order_priority = {
     76: "Navia",
     77: "Chevreuse",
     78: "Xianyun",
-    79: "Gaming"
+    79: "Gaming",
+    80: "Chiori"
 }

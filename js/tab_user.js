@@ -162,14 +162,10 @@ function removeFavoriteTeam(id) {
 }
 
 function getCharacterCheckHTML(character_data) {
-    if (character_data == null) {
-        console.log(character_data);
-    }
-
     return `
     <div id="character_check_` + character_data.name + `" class="character_container ` + (user_characters[character_data.name] == null ? "character_unchecked" : "") + `" onclick="toggleCharacterUser('` + character_data.name + `')">
-        <img class="character_icon ` + (character_data.rarity == "5" ? "character_5_stars" : "character_4_stars") + `" src="https://api.ambr.top/assets/UI/` + character_data.images.nameicon + `.png" alt="Character icon for ` + character_data.name + `">
-        ` + (character_data.element != "None" ? `<img class="element_icon" src="images/elements/glow_` + character_data.element.toLowerCase() + `.png">` : "") + `
+        <img class="character_icon ` + (character_data.rarity == "5" ? "character_5_stars" : "character_4_stars") + `" src="https://api.ambr.top/assets/UI/` + character_data.images.filename_icon + `.png" alt="Character icon for ` + character_data.name + `">
+        ` + (character_data.elementText != "None" ? `<img class="element_icon" src="images/elements/glow_` + character_data.elementText.toLowerCase() + `.png">` : "") + `
         <div class="rarity_container">` + STAR_SVG + STAR_SVG + STAR_SVG + STAR_SVG + (character_data.rarity == "5" ? STAR_SVG : "") + `</div>
         <div class="character_name ` + (character_data.name.length < SHORT_NAME_LENGTH ? "character_name_short" : (character_data.name.length < MEDIUM_NAME_LENGTH ? "character_name_medium" : "character_name_long")) + `">` + character_data.name + `</div>
     </div>
@@ -180,7 +176,7 @@ function printCharactersCheck() {
     let menu_characters_check = "";
 
     for (let index = Object.keys(characters_order_priority).length - 1; index >= 0; --index) {
-        menu_characters_check += getCharacterCheckHTML(characters[characters_order_priority[index]]);
+        menu_characters_check += getCharacterCheckHTML(getCharacter(characters_order_priority[index]));
     }
 
     document.getElementById("menu_characters_check").innerHTML = menu_characters_check;
@@ -188,14 +184,12 @@ function printCharactersCheck() {
 
 function toggleCharacterUser(character_name) {
     if (user_characters[character_name] != null) {
-        if (!document.getElementById("character_check_" + character_name).classList.contains("character_unchecked")) {
-            document.getElementById("character_check_" + character_name).classList.add("character_unchecked");
-        }
         delete user_characters[character_name];
     } else {
-        document.getElementById("character_check_" + character_name).classList.remove("character_unchecked");
-        user_characters[character_name] = characters[character_name];
+        user_characters[character_name] = {};
     }
+
+    document.getElementById("character_check_" + character_name).classList.toggle("character_unchecked");
 }
 
 
