@@ -50,7 +50,7 @@ function getMenuCharacterHTML(character_data) {
 
     return `
     <div id="character_` + character_data.name + `" class="character_container" onclick="printCharacterInfoHTML('` + character_data.name + `')">
-        <img class="character_icon character_` + character_data.rarity + `_stars" src="https://api.ambr.top/assets/UI/` + character_data.images.filename_icon + `.png" alt="Character icon for ` + character_data.name + `">
+        <img class="character_icon character_` + character_data.rarity + `_stars" src="../images/characters/` + character_data.images.filename_icon + `.png" alt="Character icon for ` + character_data.name + `">
         ` + (character_data.elementText != "None" ? `<img class="element_icon" src="images/elements/glow_` + character_data.elementText.toLowerCase() + `.png">` : "") + `
         <div class="rarity_container">` + STAR_SVG + STAR_SVG + STAR_SVG + STAR_SVG + (character_data.rarity == "5" ? STAR_SVG : "") + `</div>
         <div class="character_name ` + (character_data.name.length < SHORT_NAME_LENGTH ? "character_name_short" : (character_data.name.length < MEDIUM_NAME_LENGTH ? "character_name_medium" : "character_name_long")) + `">` + character_data.name + `</div>
@@ -155,7 +155,7 @@ function updateTalents() {
 }
 
 function updateTalent(talent_id) {
-    console.log(talent_id);
+
     if (document.getElementById("menu_slider_" + talent_id)) {
         let slider_value = document.getElementById("menu_slider_" + talent_id).value;
         let output = ``;
@@ -223,7 +223,7 @@ function getMenuContentTalents(character_name) {
 
     for (let talent of talents) {
 
-        if (character_talents[talent]) {
+        if (character_talents && character_talents[talent]) {
 
             let talent_postprocessed = character_talents[talent].descriptionRaw.replaceAll(regex_color_start_tag, (match, capturedGroup) => {
                 const color = match.match(/\#......../g);
@@ -298,8 +298,6 @@ function printCharacterInfoHTML(character_name) {
     let character_data = getCharacter(character_name);
     let menu_characters_info = ``;
 
-    console.log(character_name);
-
     document.getElementById("menu_characters").style.display = "none";
 
     document.getElementById("menu_characters_info").innerHTML = ``;
@@ -318,7 +316,7 @@ function printCharacterInfoHTML(character_name) {
                 </div>
             </div>
 
-            <img class="menu_character_icon ` + (character_data.rarity == "5" ? "menu_character_5_stars" : "menu_character_4_stars") + `" src="https://api.ambr.top/assets/UI/` + character_data.images.filename_icon + `.png" alt="Character icon for ` + character_data.name + `">
+            <img class="menu_character_icon menu_character_` + character_data.rarity + `_stars" src="../images/characters/` + character_data.images.filename_icon + `.png" alt="Character icon for ` + character_data.name + `">
 
             <div class="menu_character_row_info menu_character_row_dark">
                 Rarity:
