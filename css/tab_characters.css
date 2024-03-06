@@ -29,6 +29,17 @@
 
     width: 90vw;
     height: 80vh;
+
+    margin-top: 5vh;
+}
+
+.reset_menu_characters_button {
+    position: absolute;
+
+    top: -5vh;
+    right: 0%;
+
+    margin: 2vh 1vw;
 }
 
 .menu_characters_image {
@@ -347,7 +358,20 @@
 
     flex-wrap: wrap;
 
-    margin: 6vh 2vw;
+    margin: 1vh 2vw;
+
+    width: 100%;
+}
+
+.material_row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+
+    margin: 1vh 1vw;
 }
 
 .material_container {
@@ -358,7 +382,9 @@
     align-items: center;
     justify-content: center;
 
-    margin: 1vh 0.5vw;
+    margin-top: 4vh;
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
 
     border-radius: 8%;
     background-color: var(--light_background);
@@ -372,6 +398,16 @@
 
 .material_icon {
     width: 13vh;
+    max-width: inherit;
+    border-top-left-radius: 8%;
+    border-top-right-radius: 8%;
+    border-bottom-right-radius: 20%;
+
+    background: linear-gradient(to bottom right, transparent 50%, black 100%);
+}
+
+.material_icon_small {
+    width: 8vh;
     max-width: inherit;
     border-top-left-radius: 8%;
     border-top-right-radius: 8%;
@@ -410,6 +446,22 @@
 
     color: var(--dark_text);
     font-weight: bold;
+    font-family: GenshinImpact;
+
+    padding: 0.5vh 0.5vw;
+}
+
+.material_count_small {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    width: max-content;
+
+    color: var(--dark_text);
+    font-weight: bold;
+    font-size: small;
     font-family: GenshinImpact;
 
     padding: 0.5vh 0.5vw;
@@ -467,7 +519,6 @@
 }
 
 .talent_data {
-    flex: 1 2;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -476,9 +527,11 @@
 }
 
 .talent_data_left {
+    flex: 2;
     justify-content: left;
 }
 
 .talent_data_right {
+    flex: 1;
     justify-content: right;
 }

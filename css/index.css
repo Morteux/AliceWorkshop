@@ -525,13 +525,14 @@ input[type=text] {
     justify-content: center;
 
     visibility: hidden;
-    width: 120%;
+    width: 150%;
     height: 5vh;
     background-color: black;
     color: var(--light_text);
     text-align: center;
     border-radius: 6px;
     padding: 5px 0;
+    font-size: small;
 
     /* Position the tooltip */
     position: absolute;
