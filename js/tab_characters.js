@@ -253,8 +253,8 @@ function getMenuContentTalents(character_name) {
             let talent_postprocessed = character_talents[talent].descriptionRaw.replaceAll(regex_color_start_tag, (match, capturedGroup) => {
                 const color = match.match(/\#......../g);
                 return '<span class="talent_subtitle" style="color: ' + color + '">';
-            }).replaceAll(regex_color_end_tag, "</span>").replaceAll("\n", "<br>");
-
+            }).replaceAll(regex_color_end_tag, "</span>").replaceAll("\n", "<br>").replaceAll("{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press}", "Press");
+            
             content += `
                 <div class="menu_panel_column">
                     <div class="talent_name_container">
