@@ -4,6 +4,8 @@
     --tertiary_color: #b9b4c7;
     --quaternary_color: #faf0e6;
 
+    --secondary_color_opacity: #5c547085;
+
     /* Teams colors */
     --meta_team: #dc1414;
     --viable_team: #00c0e2;
@@ -18,11 +20,19 @@
 
     /* Text color */
     --light_text: aliceblue;
+    --gray_text: rgb(195, 202, 211);
     --dark_text: #313131;
 
     /* Character rarity */
     --character_4_stars: #5c2391;
     --character_5_stars: #a07a1b;
+
+    /* Material rarity */
+    --material_1_stars: #929292;
+    --material_2_stars: #239135;
+    --material_3_stars: #234f91;
+    --material_4_stars: #5c2391;
+    --material_5_stars: #a07a1b;
 
     /* Background */
     --dark_background: #313131;
@@ -500,4 +510,37 @@ input[type=text] {
     100% {
         opacity: 0;
     }
+}
+
+/* Tooltip text */
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip .tooltiptext {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    visibility: hidden;
+    width: 120%;
+    height: 5vh;
+    background-color: black;
+    color: var(--light_text);
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    top: -45%;
+
+    overflow-wrap: break-word;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
 }
