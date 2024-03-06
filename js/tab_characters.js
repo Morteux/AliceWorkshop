@@ -70,7 +70,7 @@ function printAllCharacters() {
 
 function resetMenuCharacters() {
     document.getElementById("menu_characters").style.display = "";
-    document.getElementById("menu_characters_info").innerHTML = "";
+    document.getElementById("menu_characters_info").innerHTML = `<button class="primary_button reset_menu_characters_button" onclick="resetMenuCharacters()">Go to characters</button>`;
 }
 
 function getMaterialHTML(material_cost) {
@@ -81,9 +81,30 @@ function getMaterialHTML(material_cost) {
 
     materialHTML = `
         <div class="material_container tooltip">
-            <img class="character_icon ` + rarity_class + `" src="https://api.ambr.top/assets/UI/` + material.images.filename_icon + `.png" alt="Material icon for ` + material.name + `">
+            <img class="material_icon ` + rarity_class + `" src="https://api.ambr.top/assets/UI/` + material.images.filename_icon + `.png" alt="Material icon for ` + material.name + `">
 
             <div class="material_count">
+            ` + material_cost.count + `
+            </div>
+            
+            <span class="tooltiptext">` + material.name + `</span>
+        </div>
+    `;
+
+    return materialHTML;
+}
+
+function getMaterialSmallHTML(material_cost) {
+    let material = GenshinDb.material(material_cost.name);
+    let materialHTML = ``;
+
+    let rarity_class = material.rarity ? `material_` + material.rarity + `_stars` : `material_1_stars`;
+
+    materialHTML = `
+        <div class="material_container tooltip">
+            <img class="material_icon_small ` + rarity_class + `" src="https://api.ambr.top/assets/UI/` + material.images.filename_icon + `.png" alt="Material icon for ` + material.name + `">
+
+            <div class="material_count_small">
             ` + material_cost.count + `
             </div>
             
@@ -162,14 +183,6 @@ function updateTalent(talent_id) {
 
         document.getElementById("menu_slider_" + talent_id + "_output").innerHTML = slider_value;
 
-        if (Array.isArray(character_talents.costs["lvl" + slider_value])) {
-            for (let material of character_talents.costs["lvl" + slider_value]) {
-                output += getMaterialHTML(material);
-            }
-        } else {
-            output = `No items needed to upgrade!`;
-        }
-
         output += `<div class="talent_table">`;
 
         const param_regex = /\{param\d*:.*\}/g;
@@ -204,6 +217,18 @@ function updateTalent(talent_id) {
             `;
 
             isDark = !isDark;
+        }
+
+        output += `</div>`;
+
+        output += `<div class="material_row">`;
+
+        if (Array.isArray(character_talents.costs["lvl" + slider_value])) {
+            for (let material of character_talents.costs["lvl" + slider_value]) {
+                output += getMaterialSmallHTML(material);
+            }
+        } else {
+            output += `No items needed to upgrade!`;
         }
 
         output += `</div>`;
@@ -300,7 +325,7 @@ function printCharacterInfoHTML(character_name) {
 
     document.getElementById("menu_characters").style.display = "none";
 
-    document.getElementById("menu_characters_info").innerHTML = ``;
+    document.getElementById("menu_characters_info").innerHTML = `<button class="primary_button reset_menu_characters_button" onclick="resetMenuCharacters()">Go to characters</button>`;
 
     menu_characters_info = `
         <div id="menu_characters_image" class="menu_characters_image"></div>
@@ -426,7 +451,7 @@ function printCharacterInfoHTML(character_name) {
         </div>
     `;
 
-    document.getElementById("menu_characters_info").innerHTML = menu_characters_info;
+    document.getElementById("menu_characters_info").innerHTML += menu_characters_info;
 
     document.getElementById("menu_characters_image").style.backgroundImage = "url('https://api.ambr.top/assets/UI/" + character_data.images.filename_gachaSplash + ".png')";
 
