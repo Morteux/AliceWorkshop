@@ -155,36 +155,61 @@ function updateTalents() {
 }
 
 function updateTalent(talent_id) {
-    let slider_value = document.getElementById("menu_slider_" + talent_id).value;
-    let output = ``;
+    console.log(talent_id);
+    if (document.getElementById("menu_slider_" + talent_id)) {
+        let slider_value = document.getElementById("menu_slider_" + talent_id).value;
+        let output = ``;
 
-    document.getElementById("menu_slider_" + talent_id + "_output").innerHTML = slider_value;
+        document.getElementById("menu_slider_" + talent_id + "_output").innerHTML = slider_value;
 
-    if (Array.isArray(character_talents.costs["lvl" + slider_value])) {
-        for (let material of character_talents.costs["lvl" + slider_value]) {
-            output += getMaterialHTML(material);
+        if (Array.isArray(character_talents.costs["lvl" + slider_value])) {
+            for (let material of character_talents.costs["lvl" + slider_value]) {
+                output += getMaterialHTML(material);
+            }
+        } else {
+            output = `No items needed to upgrade!`;
         }
-    } else {
-        output = `No items needed to upgrade!`;
-    }
 
-    let isDark = true;
-    for (let label of character_talents[talent_id].attributes.labels) {
-        output += `
-            <div class="talent_table">
-                <div class="talent_row talent_row_left ` + (isDark ? `menu_character_row_dark` : `menu_character_row_light`) + `">
-                ` + label.split("|")[0] + `
+        output += `<div class="talent_table">`;
+
+        const param_regex = /\{param\d*:.*\}/g;
+
+        let isDark = true;
+        for (let label of character_talents[talent_id].attributes.labels) {
+            let label_text = label.split("|")[0];
+
+            let label_number = label.split("|")[1].replaceAll(param_regex, (match, capturedGroup) => {
+                const param_match = match.match(/param\d*/g);
+
+                let param_value = character_talents[talent_id].attributes.parameters[param_match[capturedGroup]][slider_value - 1];
+                let param_tag = Number.isInteger(param_value) ? "" : "%";
+                param_value = Number.isInteger(param_value) ? param_value : param_value * 100;
+                param_value = Math.round(param_value * 100) / 100;
+
+                return param_value + param_tag;
+                // return param_value;
+            });
+
+            // console.log(label_text + " - " + label_number);
+
+            output += `
+            <div class="talent_row ` + (isDark ? `menu_character_row_dark` : `menu_character_row_light`) + `">
+                <div class="talent_data talent_data_left">
+                ` + label_text + `
                 </div>
-                <div class="talent_row talent_row_right ` + (isDark ? `menu_character_row_dark` : `menu_character_row_light`) + `">
-                ` + label.split("|")[1] + `
+                <div class="talent_data talent_data_right">
+                ` + label_number + `
                 </div>
             </div>
             `;
 
-        isDark = !isDark;
-    }
+            isDark = !isDark;
+        }
 
-    document.getElementById("talent_" + talent_id + "_output").innerHTML = output;
+        output += `</div>`;
+
+        document.getElementById("talent_" + talent_id + "_output").innerHTML = output;
+    }
 }
 
 function getMenuContentTalents(character_name) {

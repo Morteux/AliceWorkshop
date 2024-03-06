@@ -444,16 +444,29 @@
 
 .talent_table {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
+
+    margin-top: 1vh;
 
     width: 80%;
 
     font-size: small;
+
+    border: solid 2px var(--tertiary_color);
 }
 
 .talent_row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+}
+
+.talent_data {
     flex: 1 2;
     display: flex;
     flex-direction: row;
@@ -462,10 +475,10 @@
     padding: 1vh 1vw;
 }
 
-.talent_row_left {
+.talent_data_left {
     justify-content: left;
 }
 
-.talent_row_right {
+.talent_data_right {
     justify-content: right;
 }
