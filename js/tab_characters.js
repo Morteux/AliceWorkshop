@@ -1,6 +1,9 @@
+const regex_color_start_tag = /<color=\#........>/g;
+const regex_color_end_tag = /<\/color>/g;
+
 var character_ascension;
 var character_talents;
-var character_constellations;
+// var character_constellations;
 var character_weapon;
 var character_teams;
 var character_builds;
@@ -176,7 +179,6 @@ function updateTalents() {
 }
 
 function updateTalent(talent_id) {
-
     if (document.getElementById("menu_slider_" + talent_id)) {
         let slider_value = document.getElementById("menu_slider_" + talent_id).value;
         let output = ``;
@@ -194,16 +196,21 @@ function updateTalent(talent_id) {
             let label_number = label.split("|")[1].replaceAll(param_regex, (match, capturedGroup) => {
                 const param_match = match.match(/param\d*/g);
 
-                let param_value = character_talents[talent_id].attributes.parameters[param_match[capturedGroup]][slider_value - 1];
-                let param_tag = Number.isInteger(param_value) ? "" : "%";
+                let param_value;
+                if (capturedGroup < param_match.length) {
+                    param_value = character_talents[talent_id].attributes.parameters[param_match[capturedGroup]][slider_value - 1];
+                }
+                else {
+                    param_value = character_talents[talent_id].attributes.parameters[param_match[0]][slider_value - 1];
+                }
+
+                // let param_tag = Number.isInteger(param_value) ? "" : "%";
                 param_value = Number.isInteger(param_value) ? param_value : param_value * 100;
                 param_value = Math.round(param_value * 100) / 100;
 
-                return param_value + param_tag;
-                // return param_value;
+                // return param_value + param_tag;
+                return param_value;
             });
-
-            // console.log(label_text + " - " + label_number);
 
             output += `
             <div class="talent_row ` + (isDark ? `menu_character_row_dark` : `menu_character_row_light`) + `">
@@ -243,9 +250,6 @@ function getMenuContentTalents(character_name) {
 
     let talents = ["combat1", "combat2", "combat3", "combatsp", "passive1", "passive2", "passive3"];
 
-    const regex_color_start_tag = /<color=\#........>/g;
-    const regex_color_end_tag = /<\/color>/g;
-
     for (let talent of talents) {
 
         if (character_talents && character_talents[talent]) {
@@ -254,7 +258,7 @@ function getMenuContentTalents(character_name) {
                 const color = match.match(/\#......../g);
                 return '<span class="talent_subtitle" style="color: ' + color + '">';
             }).replaceAll(regex_color_end_tag, "</span>").replaceAll("\n", "<br>").replaceAll("{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press}", "Press");
-            
+
             content += `
                 <div class="menu_panel_column">
                     <div class="talent_name_container">
@@ -290,12 +294,171 @@ function getMenuContentTalents(character_name) {
 
 function getMenuContentConstellations(character_name) {
     let content = ``;
+    let character_constellations = GenshinDb.constellation(character_name);
+
+    if (character_constellations) {
+
+        for (let index = 1; index < 7; ++index) {
+
+            let cons_postprocessed = character_constellations["c" + index].descriptionRaw.replaceAll(regex_color_start_tag, (match, capturedGroup) => {
+                const color = match.match(/\#......../g);
+                return '<span class="talent_subtitle" style="color: ' + color + '">';
+            }).replaceAll(regex_color_end_tag, "</span>").replaceAll("\n", "<br>").replaceAll("{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press}", "Press");
+
+            content += `
+            <div class="menu_panel_column">
+                <div class="talent_name_container">
+                    <img class="talent_img" src="https://api.ambr.top/assets/UI/` + character_constellations.images["filename_c" + index] + `.png">
+                
+                    <div class="talent_name">
+                        ` + character_constellations["c" + index].name + `
+                    </div>
+                </div>
+                <div class="talent_info_container">
+                    <div class="talent_info">
+                        ` + cons_postprocessed + `
+                    </div>
+                </div>
+            </div>
+            `;
+        }
+    }
 
     return content;
 }
 
+function updateWeaponRefinement() {
+    let slider_value = document.getElementById("menu_slider_weapon_refinement").value;
+    document.getElementById("menu_slider_weapon_refinement_output").innerHTML = slider_value;
+
+    let values = character_weapon["r" + slider_value].values;
+
+    let effect_postprocessed = character_weapon.effectTemplateRaw;
+
+    for (let index = 0; index < values.length; ++index) {
+        effect_postprocessed = effect_postprocessed.replace("{" + index + "}", values[index]);
+    }
+
+    effect_postprocessed = effect_postprocessed.replaceAll(regex_color_start_tag, (match, capturedGroup) => {
+        const color = match.match(/\#......../g);
+        return '<span class="talent_subtitle" style="color: ' + color + '">';
+    }).replaceAll(regex_color_end_tag, "</span>").replaceAll("\n", "<br>").replaceAll("{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press}", "Press");
+
+    document.getElementById("weapon_refinement_output").innerHTML = effect_postprocessed;
+}
+
+function updateWeaponMaterial() {
+    let slider_ascend = [
+        "",
+        "",
+        "",
+        "ascend1",
+        "ascend2",
+        "ascend3",
+        "ascend4",
+        "ascend5",
+        "ascend6",
+    ];
+
+    let output = ``;
+
+    let slider_value = document.getElementById("menu_slider_weapon_material").value;
+    document.getElementById("menu_slider_weapon_material_output").innerHTML = slider_value * 10;
+
+    if (Array.isArray(character_weapon.costs[slider_ascend[parseInt(slider_value) - 1]])) {
+        for (let material of character_weapon.costs[slider_ascend[parseInt(slider_value) - 1]]) {
+            output += getMaterialSmallHTML(material);
+        }
+    } else {
+        output = `<div class="menu_panel">No items needed to upgrade!</div>`;
+    }
+
+    if (slider_value > 6) {
+        document.getElementById("signature_weapon_icon").src = `https://api.ambr.top/assets/UI/` + character_weapon.images.filename_awakenIcon + `.png`;
+    } else {
+        document.getElementById("signature_weapon_icon").src = `https://api.ambr.top/assets/UI/` + character_weapon.images.filename_icon + `.png`;
+    }
+
+    document.getElementById("weapon_material_output").innerHTML = output;
+}
+
 function getMenuContentWeapon(character_name) {
     let content = ``;
+    character_weapon = GenshinDb.weapon(characters_signature_weapons[character_name]);
+
+    if (character_weapon) {
+
+        let weapon_postprocessed = character_weapon.descriptionRaw.replaceAll(regex_color_start_tag, (match, capturedGroup) => {
+            const color = match.match(/\#......../g);
+            return '<span class="talent_subtitle" style="color: ' + color + '">';
+        }).replaceAll(regex_color_end_tag, "</span>").replaceAll("\n", "<br>").replaceAll("{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press}", "Press");
+
+        content += `
+                <div class="menu_panel_column">
+                    <div class="talent_name_container">
+                        <img id="signature_weapon_icon" class="talent_img" src="https://api.ambr.top/assets/UI/` + character_weapon.images.filename_icon + `.png">
+                    
+                        <div class="talent_name">
+                            ` + character_weapon.name + `
+                        </div>
+                    </div>
+                    <div class="talent_info_container">
+                        <div class="talent_info">
+                            ` + weapon_postprocessed + `
+                        </div>
+                    </div>
+
+                    <div class="weapons_stats_container">
+                        <div class="weapon_stat">
+                            ATK: ` + Math.round(character_weapon.baseAtkValue) + `
+                        </div>
+
+                        <div class="vertical_separator"></div>
+
+                        <div class="weapon_substat">
+                        ` + character_weapon.mainStatText + `: ` + character_weapon.baseStatText + `
+                        </div>
+                    </div>
+
+                    <div class="slider_container">
+                        <div>
+                            R <span id="menu_slider_weapon_refinement_output" class="menu_slider_output">1</span>
+                        </div>
+            
+                        <input type="range" min="1" max="5" step="1" value="1" class="menu_slider menu_slider_2" id="menu_slider_weapon_refinement" oninput="updateWeaponRefinement()">
+                    </div>
+
+                    <div class="talent_name_container" style="color: #FFD780FF">
+                        <div class="talent_info">
+                        ` + character_weapon.effectName + `
+                        </div>
+                    </div>
+
+                    <div id="weapon_refinement_output" class="slider_output_text">
+                    </div>
+
+                    <div class="slider_container">
+                        <div>
+                            Lvl. <span id="menu_slider_weapon_material_output" class="menu_slider_output">1</span>
+                        </div>
+            
+                        <input type="range" min="2" max="9" step="1" value="9" class="menu_slider menu_slider_2" id="menu_slider_weapon_material" oninput="updateWeaponMaterial()">
+                    </div>
+
+                    <div id="weapon_material_output" class="slider_output">
+                    </div>
+                </div>
+            `;
+
+
+        content += `
+            <div class="menu_panel_column">
+                ` + character_weapon.story.replaceAll('\n', '<br>') + `
+            </div>
+        `;
+    } else {
+        output = `<div class="menu_panel">No signature weapon found...</div>`;
+    }
 
     return content;
 }
@@ -458,4 +621,6 @@ function printCharacterInfoHTML(character_name) {
     // Initialize tabs
     updateAscension();
     updateTalents();
+    updateWeaponRefinement();
+    updateWeaponMaterial();
 }
