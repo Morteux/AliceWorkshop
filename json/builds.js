@@ -4,7 +4,7 @@ const builds = {
         "Standard": {
             "element": "Dendro",
             "constellation": "",
-            "weapon": [""],
+            "weapon": [],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -16,7 +16,7 @@ const builds = {
         "Anemo": {
             "element": "Anemo",
             "constellation": "",
-            "weapon": [""],
+            "weapon": [],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -28,7 +28,7 @@ const builds = {
         "Dendro": {
             "element": "Dendro",
             "constellation": "",
-            "weapon": [""],
+            "weapon": [],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -40,7 +40,7 @@ const builds = {
         "Geo": {
             "element": "Geo",
             "constellation": "",
-            "weapon": [""],
+            "weapon": [],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -52,7 +52,7 @@ const builds = {
         "Anemo": {
             "element": "Anemo",
             "constellation": "",
-            "weapon": [""],
+            "weapon": [],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -64,7 +64,7 @@ const builds = {
         "Electro": {
             "element": "Electro",
             "constellation": "",
-            "weapon": [""],
+            "weapon": [],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -76,7 +76,7 @@ const builds = {
         "Hydro": {
             "element": "Hydro",
             "constellation": "",
-            "weapon": [""],
+            "weapon": [],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -89,7 +89,7 @@ const builds = {
     "Albedo": {
         "Standard": {
             "constellation": "",
-            "weapon": [""],
+            "weapon": [],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -101,7 +101,7 @@ const builds = {
 
         "EM": {
             "constellation": "",
-            "weapon": [""],
+            "weapon": [],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -114,7 +114,7 @@ const builds = {
     "Alhaitham": {
         "Standard": {
             "constellation": "",
-            "weapon": [""],
+            "weapon": [],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -127,7 +127,7 @@ const builds = {
     "Aloy": {
         "Standard": {
             "constellation": "",
-            "weapon": [""],
+            "weapon": [],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -140,7 +140,7 @@ const builds = {
     "Amber": {
         "Standard": {
             "constellation": "",
-            "weapon": [""],
+            "weapon": [],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -153,7 +153,7 @@ const builds = {
     "Arataki Itto": {
         "Standard": {
             "constellation": "",
-            "weapon": [""],
+            "weapon": [],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -166,7 +166,7 @@ const builds = {
     "Baizhu": {
         "Standard": {
             "constellation": "",
-            "weapon": [""],
+            "weapon": [],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -179,7 +179,7 @@ const builds = {
     "Barbara": {
         "Standard": {
             "constellation": "",
-            "weapon": [""],
+            "weapon": [],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -285,7 +285,7 @@ const builds = {
     "Candace": {
         "Standard": {
             "constellation": "",
-            "weapon": [""],
+            "weapon": [],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -311,7 +311,7 @@ const builds = {
     "Chevreuse": {
         "Standard": {
             "constellation": "",
-            "weapon": [""],
+            "weapon": [],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -324,7 +324,7 @@ const builds = {
     "Chiori": {
         "Standard": {
             "constellation": "",
-            "weapon": [""],
+            "weapon": [],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -337,7 +337,7 @@ const builds = {
     "Chongyun": {
         "Standard": {
             "constellation": "",
-            "weapon": [""],
+            "weapon": [],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -350,7 +350,7 @@ const builds = {
     "Collei": {
         "Standard": {
             "constellation": "",
-            "weapon": [""],
+            "weapon": [],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -363,7 +363,7 @@ const builds = {
     "Cyno": {
         "Standard": {
             "constellation": "",
-            "weapon": [""],
+            "weapon": [],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -374,7 +374,7 @@ const builds = {
         },
         "SoloElectro": {
             "constellation": "",
-            "weapon": [""],
+            "weapon": [],
             "set": "",
             "main_stat": {
                 "Sands": "ER",
@@ -411,7 +411,7 @@ const builds = {
     "Diluc": {
         "Standard": {
             "constellation": "",
-            "weapon": [""],
+            "weapon": [],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -424,7 +424,7 @@ const builds = {
     "Diona": {
         "Standard": {
             "constellation": "",
-            "weapon": [""],
+            "weapon": [],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -448,7 +448,7 @@ const builds = {
     "Dori": {
         "Standard": {
             "constellation": "",
-            "weapon": [""],
+            "weapon": [],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -459,7 +459,7 @@ const builds = {
         },
         "EM": {
             "constellation": "",
-            "weapon": [""],
+            "weapon": [],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -470,7 +470,7 @@ const builds = {
         },
         "C6": {
             "constellation": "6",
-            "weapon": [""],
+            "weapon": [],
             "set": "Thundering Fury",
             "main_stat": {
                 "Sands": "",
@@ -494,7 +494,7 @@ const builds = {
     "Eula": {
         "Standard": {
             "constellation": "",
-            "weapon": [""],
+            "weapon": [],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -507,7 +507,7 @@ const builds = {
     "Faruzan": {
         "Standard": {
             "constellation": "",
-            "weapon": [""],
+            "weapon": [],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -544,7 +544,7 @@ const builds = {
     "Freminet": {
         "Standard": {
             "constellation": "",
-            "weapon": [""],
+            "weapon": [],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -555,7 +555,7 @@ const builds = {
         },
         "Physical": {
             "constellation": "",
-            "weapon": [""],
+            "weapon": [],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -566,7 +566,7 @@ const builds = {
         },
         "Freeze": {
             "constellation": "",
-            "weapon": [""],
+            "weapon": [],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -579,7 +579,7 @@ const builds = {
     "Furina": {
         "Standard": {
             "constellation": "",
-            "weapon": [""],
+            "weapon": [],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -592,7 +592,7 @@ const builds = {
     "Gaming": {
         "Standard": {
             "constellation": "",
-            "weapon": [""],
+            "weapon": [],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -604,7 +604,7 @@ const builds = {
 
         "EM": {
             "constellation": "",
-            "weapon": [""],
+            "weapon": [],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -617,7 +617,7 @@ const builds = {
     "Ganyu": {
         "Standard": {
             "constellation": "",
-            "weapon": [""],
+            "weapon": [],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -628,7 +628,7 @@ const builds = {
         },
         "Ultimate": {
             "constellation": "",
-            "weapon": [""],
+            "weapon": [],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -652,7 +652,7 @@ const builds = {
     "Gorou": {
         "Standard": {
             "constellation": "",
-            "weapon": [""],
+            "weapon": [],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -665,7 +665,7 @@ const builds = {
     "Hu Tao": {
         "Standard": {
             "constellation": "",
-            "weapon": [""],
+            "weapon": [],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -678,7 +678,7 @@ const builds = {
     "Jean": {
         "Standard": {
             "constellation": "",
-            "weapon": [""],
+            "weapon": [],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -689,7 +689,7 @@ const builds = {
         },
         "EM": {
             "constellation": "",
-            "weapon": [""],
+            "weapon": [],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -737,7 +737,7 @@ const builds = {
     "Kaeya": {
         "Standard": {
             "constellation": "",
-            "weapon": [""],
+            "weapon": [],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -749,7 +749,7 @@ const builds = {
 
         "Melt": {
             "constellation": "",
-            "weapon": [""],
+            "weapon": [],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -762,7 +762,7 @@ const builds = {
     "Kamisato Ayaka": {
         "Standard": {
             "constellation": "",
-            "weapon": [""],
+            "weapon": [],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -786,7 +786,7 @@ const builds = {
     "Kamisato Ayato": {
         "Standard": {
             "constellation": "",
-            "weapon": [""],
+            "weapon": [],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -799,7 +799,7 @@ const builds = {
     "Kaveh": {
         "Standard": {
             "constellation": "",
-            "weapon": [""],
+            "weapon": [],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -812,7 +812,7 @@ const builds = {
     "Keqing": {
         "Standard": {
             "constellation": "",
-            "weapon": [""],
+            "weapon": [],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -836,7 +836,7 @@ const builds = {
     "Kirara": {
         "Standard": {
             "constellation": "",
-            "weapon": [""],
+            "weapon": [],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -860,7 +860,7 @@ const builds = {
     "Klee": {
         "Standard": {
             "constellation": "",
-            "weapon": [""],
+            "weapon": [],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -871,7 +871,7 @@ const builds = {
         },
         "Monopyro": {
             "constellation": "",
-            "weapon": [""],
+            "weapon": [],
             "set": "Lavawalker",
             "main_stat": {
                 "Sands": "",
@@ -917,7 +917,7 @@ const builds = {
     "Kujou Sara": {
         "Standard": {
             "constellation": "",
-            "weapon": [""],
+            "weapon": [],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -941,7 +941,7 @@ const builds = {
     "Kuki Shinobu": {
         "Standard": {
             "constellation": "",
-            "weapon": [""],
+            "weapon": [],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -965,7 +965,7 @@ const builds = {
     "Layla": {
         "Standard": {
             "constellation": "",
-            "weapon": [""],
+            "weapon": [],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -989,7 +989,7 @@ const builds = {
     "Lisa": {
         "Standard": {
             "constellation": "",
-            "weapon": [""],
+            "weapon": [],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -1003,7 +1003,7 @@ const builds = {
         "Standard": {
             "element": "Dendro",
             "constellation": "",
-            "weapon": [""],
+            "weapon": [],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -1016,7 +1016,7 @@ const builds = {
     "Lynette": {
         "Standard": {
             "constellation": "",
-            "weapon": [""],
+            "weapon": [],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -1029,7 +1029,7 @@ const builds = {
     "Lyney": {
         "Standard": {
             "constellation": "",
-            "weapon": [""],
+            "weapon": [],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -1042,7 +1042,7 @@ const builds = {
     "Mika": {
         "Standard": {
             "constellation": "",
-            "weapon": [""],
+            "weapon": [],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -1090,7 +1090,7 @@ const builds = {
     "Nahida": {
         "Standard": {
             "constellation": "",
-            "weapon": [""],
+            "weapon": [],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -1101,7 +1101,7 @@ const builds = {
         },
         "EM": {
             "constellation": "",
-            "weapon": [""],
+            "weapon": [],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -1125,7 +1125,7 @@ const builds = {
     "Navia": {
         "Standard": {
             "constellation": "",
-            "weapon": [""],
+            "weapon": [],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -1138,7 +1138,7 @@ const builds = {
     "Neuvillette": {
         "Standard": {
             "constellation": "",
-            "weapon": [""],
+            "weapon": [],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -1151,7 +1151,7 @@ const builds = {
     "Nilou": {
         "Standard": {
             "constellation": "",
-            "weapon": [""],
+            "weapon": [],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -1175,7 +1175,7 @@ const builds = {
     "Ningguang": {
         "Standard": {
             "constellation": "",
-            "weapon": [""],
+            "weapon": [],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -1188,7 +1188,7 @@ const builds = {
     "Noelle": {
         "Standard": {
             "constellation": "",
-            "weapon": [""],
+            "weapon": [],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -1199,7 +1199,7 @@ const builds = {
         },
         "Petra": {
             "constellation": "",
-            "weapon": [""],
+            "weapon": [],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -1210,7 +1210,7 @@ const builds = {
         },
         "DPSFurina": {
             "constellation": "",
-            "weapon": [""],
+            "weapon": [],
             "set": "Marechaussee Hunter",
             "main_stat": {
                 "Sands": "",
@@ -1224,7 +1224,7 @@ const builds = {
     "Qiqi": {
         "Standard": {
             "constellation": "",
-            "weapon": [""],
+            "weapon": [],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -1248,7 +1248,7 @@ const builds = {
     "Raiden Shogun": {
         "Standard": {
             "constellation": "",
-            "weapon": [""],
+            "weapon": [],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -1259,7 +1259,7 @@ const builds = {
         },
         "EM": {
             "constellation": "",
-            "weapon": [""],
+            "weapon": [],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -1283,7 +1283,7 @@ const builds = {
     "Razor": {
         "Standard": {
             "constellation": "",
-            "weapon": [""],
+            "weapon": [],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -1296,7 +1296,7 @@ const builds = {
     "Rosaria": {
         "Standard": {
             "constellation": "",
-            "weapon": [""],
+            "weapon": [],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -1307,7 +1307,7 @@ const builds = {
         },
         "Melt": {
             "constellation": "",
-            "weapon": [""],
+            "weapon": [],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -1320,7 +1320,7 @@ const builds = {
     "Sangonomiya Kokomi": {
         "Standard": {
             "constellation": "",
-            "weapon": [""],
+            "weapon": [],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -1331,7 +1331,7 @@ const builds = {
         }, 
         "Dendro": {
             "constellation": "",
-            "weapon": [""],
+            "weapon": [],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -1344,7 +1344,7 @@ const builds = {
     "Sayu": {
         "Standard": {
             "constellation": "",
-            "weapon": [""],
+            "weapon": [],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -1368,7 +1368,7 @@ const builds = {
     "Shenhe": {
         "Standard": {
             "constellation": "",
-            "weapon": [""],
+            "weapon": [],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -1392,7 +1392,7 @@ const builds = {
     "Shikanoin Heizou": {
         "Standard": {
             "constellation": "",
-            "weapon": [""],
+            "weapon": [],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -1416,7 +1416,7 @@ const builds = {
     "Sucrose": {
         "Standard": {
             "constellation": "",
-            "weapon": [""],
+            "weapon": [],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -1453,7 +1453,7 @@ const builds = {
     "Thoma": {
         "Standard": {
             "constellation": "",
-            "weapon": [""],
+            "weapon": [],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -1464,7 +1464,7 @@ const builds = {
         },
         "EM": {
             "constellation": "",
-            "weapon": [""],
+            "weapon": [],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -1488,7 +1488,7 @@ const builds = {
     "Tighnari": {
         "Standard": {
             "constellation": "",
-            "weapon": [""],
+            "weapon": [],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -1501,7 +1501,7 @@ const builds = {
     "Venti": {
         "Standard": {
             "constellation": "",
-            "weapon": [""],
+            "weapon": [],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -1525,7 +1525,7 @@ const builds = {
     "Wanderer": {
         "Standard": {
             "constellation": "",
-            "weapon": [""],
+            "weapon": [],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -1538,7 +1538,7 @@ const builds = {
     "Wriothesley": {
         "Standard": {
             "constellation": "",
-            "weapon": [""],
+            "weapon": [],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -1597,7 +1597,7 @@ const builds = {
     "Xianyun": {
         "Standard": {
             "constellation": "",
-            "weapon": [""],
+            "weapon": [],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -1610,7 +1610,7 @@ const builds = {
     "Xiao": {
         "Standard": {
             "constellation": "",
-            "weapon": [""],
+            "weapon": [],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -1647,7 +1647,7 @@ const builds = {
     "Xinyan": {
         "Standard": {
             "constellation": "",
-            "weapon": [""],
+            "weapon": [],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -1660,7 +1660,7 @@ const builds = {
     "Yae Miko": {
         "Standard": {
             "constellation": "",
-            "weapon": [""],
+            "weapon": [],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -1671,7 +1671,7 @@ const builds = {
         },
         "SoloElectro": {
             "constellation": "",
-            "weapon": [""],
+            "weapon": [],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -1695,7 +1695,7 @@ const builds = {
     "Yanfei": {
         "Standard": {
             "constellation": "",
-            "weapon": [""],
+            "weapon": [],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -1706,7 +1706,7 @@ const builds = {
         },
         "Tankfei": {
             "constellation": "4",
-            "weapon": [""],
+            "weapon": [],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -1719,7 +1719,7 @@ const builds = {
     "Yaoyao": {
         "Standard": {
             "constellation": "",
-            "weapon": [""],
+            "weapon": [],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -1743,7 +1743,7 @@ const builds = {
     "Yelan": {
         "Standard": {
             "constellation": "",
-            "weapon": [""],
+            "weapon": [],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -1804,7 +1804,7 @@ const builds = {
     "Zhongli": {
         "Standard": {
             "constellation": "",
-            "weapon": [""],
+            "weapon": [],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -1815,7 +1815,7 @@ const builds = {
         },
         "Petra": {
             "constellation": "",
-            "weapon": [""],
+            "weapon": [],
             "set": "Archaic Petra",
             "main_stat": {
                 "Sands": "",
