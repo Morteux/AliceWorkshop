@@ -13977,6 +13977,68 @@ const teams = {
         },
         "character_4": {
             "name": [
+                "Zhongli",
+                "Fischl",
+                "Xiangling",
+                "Yelan"
+            ],
+            "build": [
+                "Standard",
+                "Standard",
+                "SoloPyro",
+                "Standard"
+            ]
+        }
+    },
+
+    "428": {
+        "name": "Itto Chiori",
+        "description": "You don't have shields or other elements to apply cristalization, so if the enemy are not infused you won't have geo resonance and defensive utility.",
+        "rotation": "",
+        "archetype": ["MonoGeo", "Hypercarry"],
+        "viability": "Viable",
+        "character_1": {
+            "name": "Arataki Itto",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Gorou",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Chiori",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": [
+                "Albedo",
+            ],
+            "build": [
+                "Standard",
+            ]
+        }
+    },
+
+    "429": {
+        "name": "Itto Chiori",
+        "description": "",
+        "rotation": "",
+        "archetype": ["MonoGeo", "Hypercarry"],
+        "viability": "Viable",
+        "character_1": {
+            "name": "Noelle",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Gorou",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Chiori",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": [
                 "Albedo",
                 "Zhongli",
                 "Fischl",
@@ -13993,7 +14055,7 @@ const teams = {
         }
     },
 
-    "428": {
+    "430": {
         "name": "Yoimiya Doble Geo",
         "description": "",
         "rotation": "",
