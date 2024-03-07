@@ -450,7 +450,6 @@ function getMenuContentWeapon(character_name) {
                 </div>
             `;
 
-
         content += `
             <div class="menu_panel_column">
                 ` + character_weapon.story.replaceAll('\n', '<br>') + `
@@ -471,6 +470,51 @@ function getMenuContentTeams(character_name) {
 
 function getMenuContentBuilds(character_name) {
     let content = ``;
+
+    for(let build_name in builds[character_name]) {
+        let build = builds[character_name][build_name];
+
+        content += `
+                <div class="menu_panel_column">
+                    <div class="talent_name_container">
+                        <div class="talent_name">
+                            ` + build_name + `
+                        </div>
+                    </div>
+                    ` + (build.element ? `
+                    <div class="talent_info_container">
+                        <div class="talent_info">
+                            ` + build.element + `
+                        </div>
+                    </div>` : ``) + `
+                    <div class="talent_info_container">
+                        <div class="talent_info">
+                            ` + build.constellation + `
+                        </div>
+                    </div>
+                    <div class="talent_info_container">
+                        <div class="talent_info">
+                            ` + build.weapon + `
+                        </div>
+                    </div>
+                    <div class="talent_info_container">
+                        <div class="talent_info">
+                            ` + build.set + `
+                        </div>
+                    </div>
+                    <div class="talent_info_container">
+                        <div class="talent_info">
+                            ` + build.main_stat + `
+                        </div>
+                    </div>
+                    <div class="talent_info_container">
+                        <div class="talent_info">
+                            ` + build.subs_stat.join(" > ") + `
+                        </div>
+                    </div>
+                </div>
+            `;
+    }
 
     return content;
 }
