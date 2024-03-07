@@ -64,9 +64,26 @@ function getMenuCharacterHTML(character_data) {
 function printAllCharacters() {
     let menu_characters = "";
 
+    // let characters_ = [];
+    // let talents_ = [];
+    // let constellations_ = [];
+    // let weapons_ = [];
+
     for (let index = Object.keys(characters_order_priority).length - 1; index >= 0; --index) {
+        // console.log(getCharacter(characters_order_priority[index]).name);
+
+        // characters_.push(GenshinDb.character(getCharacter(characters_order_priority[index]).name));
+        // talents_.push(GenshinDb.talent(getCharacter(characters_order_priority[index]).name));
+        // constellations_.push(GenshinDb.constellation(getCharacter(characters_order_priority[index]).name));
+        // weapons_.push(GenshinDb.weapon(getCharacter(characters_order_priority[index]).name));
+
         menu_characters += getMenuCharacterHTML(getCharacter(characters_order_priority[index]));
     }
+
+    // console.log(characters_);
+    // console.log(talents_);
+    // console.log(constellations_);
+    // console.log(weapons_);
 
     document.getElementById("menu_characters").innerHTML = menu_characters;
 }
@@ -171,7 +188,7 @@ function getMenuContentAscension(character_name) {
 }
 
 function updateTalents() {
-    let talents = ["combat1", "combat2", "combat3", "combatsp", "passive1", "passive2", "passive3"];
+    let talents = ["combat1", "combat2", "combat3", "combatsp", "passive1", "passive2", "passive3", "passive4"];
 
     for (let talent of talents) {
         updateTalent(talent);
@@ -248,7 +265,7 @@ function getMenuContentTalents(character_name) {
     let content = ``;
     character_talents = GenshinDb.talent(character_name);
 
-    let talents = ["combat1", "combat2", "combat3", "combatsp", "passive1", "passive2", "passive3"];
+    let talents = ["combat1", "combat2", "combat3", "combatsp", "passive1", "passive2", "passive3", "passive4"];
 
     for (let talent of talents) {
 
@@ -262,7 +279,7 @@ function getMenuContentTalents(character_name) {
             content += `
                 <div class="menu_panel_column">
                     <div class="talent_name_container">
-                        <img class="talent_img" src="https://api.ambr.top/assets/UI/` + character_talents.images["filename_" + talent] + `.png">
+                        <img class="talent_img" src="images/UI/` + character_talents.images["filename_" + talent] + `.png">
                     
                         <div class="talent_name">
                             ` + character_talents[talent].name + `
@@ -308,7 +325,7 @@ function getMenuContentConstellations(character_name) {
             content += `
             <div class="menu_panel_column">
                 <div class="talent_name_container">
-                    <img class="talent_img" src="https://api.ambr.top/assets/UI/` + character_constellations.images["filename_c" + index] + `.png">
+                    <img class="talent_img" src="images/UI/` + character_constellations.images["filename_c" + index] + `.png">
                 
                     <div class="talent_name">
                         ` + character_constellations["c" + index].name + `
@@ -374,9 +391,9 @@ function updateWeaponMaterial() {
     }
 
     if (slider_value > 6) {
-        document.getElementById("signature_weapon_icon").src = `https://api.ambr.top/assets/UI/` + character_weapon.images.filename_awakenIcon + `.png`;
+        document.getElementById("signature_weapon_icon").src = `images/UI/` + character_weapon.images.filename_awakenIcon + `.png`;
     } else {
-        document.getElementById("signature_weapon_icon").src = `https://api.ambr.top/assets/UI/` + character_weapon.images.filename_icon + `.png`;
+        document.getElementById("signature_weapon_icon").src = `images/UI/` + character_weapon.images.filename_icon + `.png`;
     }
 
     document.getElementById("weapon_material_output").innerHTML = output;
@@ -396,7 +413,7 @@ function getMenuContentWeapon(character_name) {
         content += `
                 <div class="menu_panel_column">
                     <div class="talent_name_container">
-                        <img id="signature_weapon_icon" class="talent_img" src="https://api.ambr.top/assets/UI/` + character_weapon.images.filename_icon + `.png">
+                        <img id="signature_weapon_icon" class="talent_img" src="images/UI/` + character_weapon.images.filename_icon + `.png">
                     
                         <div class="talent_name">
                             ` + character_weapon.name + `
@@ -456,7 +473,7 @@ function getMenuContentWeapon(character_name) {
             </div>
         `;
     } else {
-        output = `<div class="menu_panel">No signature weapon found...</div>`;
+        content = `<div class="menu_panel">No signature weapon found...</div>`;
     }
 
     return content;
@@ -471,8 +488,18 @@ function getMenuContentTeams(character_name) {
 function getMenuContentBuilds(character_name) {
     let content = ``;
 
-    for(let build_name in builds[character_name]) {
+    for (let build_name in builds[character_name]) {
         let build = builds[character_name][build_name];
+
+        let weapons = ``;
+        for(let weapon of build.weapon) {
+            weapons += `
+            <img class="talent_img_small" src="images/UI/` + GenshinDb.weapon(weapon).images.filename_awakenIcon + `.png">
+        
+            <div class="talent_info">
+                ` + weapon + `
+            </div>`;
+        }
 
         content += `
                 <div class="menu_panel_column">
@@ -489,13 +516,11 @@ function getMenuContentBuilds(character_name) {
                     </div>` : ``) + `
                     <div class="talent_info_container">
                         <div class="talent_info">
-                            ` + build.constellation + `
+                            ` + (build.constellation != "" ? `Constellation required: ` + build.constellation : `No minimun constellation required.`) + `
                         </div>
                     </div>
                     <div class="talent_info_container">
-                        <div class="talent_info">
-                            ` + build.weapon + `
-                        </div>
+                        ` + weapons + `
                     </div>
                     <div class="talent_info_container">
                         <div class="talent_info">
@@ -660,11 +685,13 @@ function printCharacterInfoHTML(character_name) {
 
     document.getElementById("menu_characters_info").innerHTML += menu_characters_info;
 
-    document.getElementById("menu_characters_image").style.backgroundImage = "url('https://api.ambr.top/assets/UI/" + character_data.images.filename_gachaSplash + ".png')";
+    document.getElementById("menu_characters_image").style.backgroundImage = "url('images/characters/" + character_data.images.filename_gachaSplash + ".png')";
 
     // Initialize tabs
     updateAscension();
     updateTalents();
-    updateWeaponRefinement();
-    updateWeaponMaterial();
+    if (characters_signature_weapons[character_name]) {
+        updateWeaponRefinement();
+        updateWeaponMaterial();
+    }
 }

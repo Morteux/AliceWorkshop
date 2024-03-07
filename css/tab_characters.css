@@ -496,6 +496,10 @@
     margin-left: 1vw;
 }
 
+.talent_img_small {
+    width: 3vw;
+}
+
 .talent_name {
     font-size: x-large;
     margin-left: 1vw;
