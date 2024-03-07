@@ -291,35 +291,7 @@ const teams = {
             ]
         }
     },
-    "11": {
-        "name": "Ganyu Freeze, Morgana",
-        "description": "",
-        "rotation": "",
-        "archetype": [
-            "Freeze"
-        ],
-        "viability": "Meta",
-        "character_1": {
-            "name": "Ganyu",
-            "build": "Standard"
-        },
-        "character_2": {
-            "name": "Venti",
-            "build": "Standard"
-        },
-        "character_3": {
-            "name": "Diona",
-            "build": "Standard"
-        },
-        "character_4": {
-            "name": [
-                "Mona"
-            ],
-            "build": [
-                "Standard"
-            ]
-        }
-    },
+
     "12": {
         "name": "Diluc Forward Melt",
         "description": "A team where Diluc procs the melt reaction",
