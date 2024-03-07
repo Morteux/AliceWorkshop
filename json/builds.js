@@ -700,7 +700,7 @@ const builds = {
         },
         "Nacho": {
             "constellation": "0",
-            "weapon": ["Primordial Jade Cutter", "Festering Desire R5"],
+            "weapon": ["Primordial Jade Cutter", "Festering Desire"],
             "set": "Viridescent Venerer",
             "main_stat": {
                 "Sands": "ATK%",
@@ -713,7 +713,7 @@ const builds = {
     "Kaedehara Kazuha": {
         "Standard": {
             "constellation": "",
-            "weapon": ["Favonious Sword"],
+            "weapon": ["Favonius Sword"],
             "set": "Viridescent Venerer",
             "main_stat": {
                 "Sands": "EM",
@@ -724,7 +724,7 @@ const builds = {
         },
         "Nacho": {
             "constellation": "0",
-            "weapon": ["Freedom-Sworn", "Favonious Sword"],
+            "weapon": ["Freedom-Sworn", "Favonius Sword"],
             "set": "Viridescent Venerer",
             "main_stat": {
                 "Sands": "EM",
@@ -1634,7 +1634,7 @@ const builds = {
         },
         "Nacho": {
             "constellation": "6",
-            "weapon": ["Primordial Jade Cutter", "Favonius Sword", "Sacrificial Sword R3"],
+            "weapon": ["Primordial Jade Cutter", "Favonius Sword", "Sacrificial Sword"],
             "set": "Emblem of Severed Fate",
             "main_stat": {
                 "Sands": "ER",
@@ -1682,7 +1682,7 @@ const builds = {
         },
         "Nacho": {
             "constellation": "0",
-            "weapon": ["Kagura's Verity", "Lost Prayer to the Sacred Winds", "Oathsworn Eye R5"],
+            "weapon": ["Kagura's Verity", "Lost Prayer to the Sacred Winds", "Oathsworn Eye"],
             "set": "Emblem of Severed Fate",
             "main_stat": {
                 "Sands": "ATK%",
@@ -1791,7 +1791,7 @@ const builds = {
     "Yun Jin": {
         "Standard": {
             "constellation": "",
-            "weapon": ["Favonious Lance"],
+            "weapon": ["Favonius Lance"],
             "set": "Husk of Opulent Dreams",
             "main_stat": {
                 "Sands": "DEF%",
