@@ -363,6 +363,12 @@
     width: 100%;
 }
 
+.slider_output_text {
+    margin: 1vh 2vw;
+
+    width: 100%;
+}
+
 .material_row {
     display: flex;
     flex-direction: row;
@@ -407,7 +413,7 @@
 }
 
 .material_icon_small {
-    width: 8vh;
+    width: 9vh;
     max-width: inherit;
     border-top-left-radius: 8%;
     border-top-right-radius: 8%;
@@ -543,4 +549,39 @@
 .talent_data_right {
     flex: 1;
     justify-content: right;
+}
+
+.weapons_stats_container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    font-size: x-large;
+    width: 80%;
+}
+
+.weapon_stat {
+    flex: 1;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: right;
+}
+
+.weapon_substat {
+    flex: 2;
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+}
+
+.vertical_separator {
+    border: solid 2px var(--tertiary_color);
+
+    height: 4vh;
+    margin: 0vh 1vw;
 }
