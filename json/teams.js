@@ -1929,7 +1929,7 @@ const teams = {
         "description": "A variant of Intergrational, using Xiangling instead of Kazuha. Less seeds due to pyro aplication and burn",
         "rotation": "",
         "archetype": [
-            "Burgeon"
+            "Burgeon", "National"
         ],
         "viability": "Viable",
         "character_1": {
@@ -13983,7 +13983,73 @@ const teams = {
                 "Standard"
             ]
         }
-    }
+    },
+
+    "427": {
+        "name": "Itto Chiori",
+        "description": "",
+        "rotation": "",
+        "archetype": [
+            "MonoGeo", "Hypercarry"
+        ],
+        "viability": "Meta",
+        "character_1": {
+            "name": "Arataki Itto",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Gorou",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Chiori",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": [
+                "Albedo",
+                "Zhongli",
+                "Fischl",
+                "Xiangling",
+                "Yelan"
+            ],
+            "build": [
+                "Standard",
+                "Standard",
+                "Standard",
+                "SoloPyro",
+                "Standard"
+            ]
+        }
+    },
+
+    "428": {
+        "name": "Yoimiya Doble Geo",
+        "description": "",
+        "rotation": "",
+        "archetype": [
+            "MonoGeo"
+        ],
+        "viability": "Viable",
+        "character_1": {
+            "name": "Yoimiya",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Zhongli",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Chiori",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": ["Bennett"],
+            "build": [
+                "Standard",
+            ]
+        }
+    },
 }
 
 
