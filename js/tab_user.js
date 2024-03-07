@@ -302,15 +302,31 @@ function testBuilds() {
     }
 
     try {
-        for (let build_index in builds) {
+        for (let character in builds) {
 
             // Test if each character has at least one build
-            if (isJSONObjectEmpty(builds[build_index])) {
-                json_validator_result += "<br>testBuilds: No build found for " + build_index;
+            if (isJSONObjectEmpty(builds[character])) {
+                json_validator_result += "<br>testBuilds: No build found for " + character;
             }
         }
     } catch (error) {
         json_validator_result += "Execution error while checking: Test if each character has at least one build. " + error;
+    }
+
+    try {
+        for (let character in builds) {
+
+            // Test if each weapon in build exits
+            for (let build_index in builds[character]) {
+                for (let weapon of builds[character][build_index].weapon) {
+                    if (!GenshinDb.weapon(weapon)) {
+                        json_validator_result += "<br>testBuilds: No weapon " + weapon + " found for " + character;
+                    }
+                }
+            }
+        }
+    } catch (error) {
+        json_validator_result += "Execution error while checking: Test if each weapon in build exists. " + error;
     }
 
     try {

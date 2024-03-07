@@ -11,6 +11,12 @@ var character_charts;
 
 document.addEventListener("DOMContentLoaded", (event) => {
     printAllCharacters();
+
+    // let weap = [];
+    // for(let ind of weapons) {
+    //     weap.push(GenshinDb.weapon(ind));
+    // }
+    // console.log(weap);
 });
 
 function activateMenuContent(element, content_id) {
@@ -64,26 +70,9 @@ function getMenuCharacterHTML(character_data) {
 function printAllCharacters() {
     let menu_characters = "";
 
-    // let characters_ = [];
-    // let talents_ = [];
-    // let constellations_ = [];
-    // let weapons_ = [];
-
     for (let index = Object.keys(characters_order_priority).length - 1; index >= 0; --index) {
-        // console.log(getCharacter(characters_order_priority[index]).name);
-
-        // characters_.push(GenshinDb.character(getCharacter(characters_order_priority[index]).name));
-        // talents_.push(GenshinDb.talent(getCharacter(characters_order_priority[index]).name));
-        // constellations_.push(GenshinDb.constellation(getCharacter(characters_order_priority[index]).name));
-        // weapons_.push(GenshinDb.weapon(characters_signature_weapons[getCharacter(characters_order_priority[index]).name]));
-
         menu_characters += getMenuCharacterHTML(getCharacter(characters_order_priority[index]));
     }
-
-    // console.log(characters_);
-    // console.log(talents_);
-    // console.log(constellations_);
-    // console.log(weapons_);
 
     document.getElementById("menu_characters").innerHTML = menu_characters;
 }
@@ -390,7 +379,7 @@ function updateWeaponMaterial() {
         output = `<div class="menu_panel">No items needed to upgrade!</div>`;
     }
 
-    if (slider_value > 6) {
+    if (slider_value > 5) {
         document.getElementById("signature_weapon_icon").src = `images/UI/` + character_weapon.images.filename_awakenIcon + `.png`;
     } else {
         document.getElementById("signature_weapon_icon").src = `images/UI/` + character_weapon.images.filename_icon + `.png`;
@@ -492,13 +481,22 @@ function getMenuContentBuilds(character_name) {
         let build = builds[character_name][build_name];
 
         let weapons = ``;
-        for(let weapon of build.weapon) {
-            weapons += `
-            <img class="talent_img_small" src="images/UI/` + GenshinDb.weapon(weapon).images.filename_awakenIcon + `.png">
-        
-            <div class="talent_info">
-                ` + weapon + `
-            </div>`;
+        if (build.weapon.length > 0) {
+            for (let weapon of build.weapon) {
+
+                let weapon_data = GenshinDb.weapon(weapon);
+
+                if (weapon_data) {
+                    weapons += `
+                    <img class="talent_img_small" src="images/UI/` + weapon_data.images.filename_awakenIcon + `.png">
+                
+                    <div class="talent_info">
+                        ` + weapon + `
+                    </div>`;
+                }
+            }
+        } else {
+            weapons = `<div class="talent_info">No weapon recommended</div>`;
         }
 
         content += `
