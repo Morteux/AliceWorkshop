@@ -75,7 +75,7 @@ function printAllCharacters() {
         // characters_.push(GenshinDb.character(getCharacter(characters_order_priority[index]).name));
         // talents_.push(GenshinDb.talent(getCharacter(characters_order_priority[index]).name));
         // constellations_.push(GenshinDb.constellation(getCharacter(characters_order_priority[index]).name));
-        // weapons_.push(GenshinDb.weapon(getCharacter(characters_order_priority[index]).name));
+        // weapons_.push(GenshinDb.weapon(characters_signature_weapons[getCharacter(characters_order_priority[index]).name]));
 
         menu_characters += getMenuCharacterHTML(getCharacter(characters_order_priority[index]));
     }
