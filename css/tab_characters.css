@@ -227,7 +227,6 @@
 
 .active_menu_character_button {
     background-color: var(--secondary_color);
-
     color: var(--light_text);
 }
 
@@ -237,7 +236,6 @@
 
 .disabled_menu_character_button:hover {
     background-color: var(--secondary_color);
-
     color: var(--light_text);
 }
 

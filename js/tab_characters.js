@@ -10,6 +10,7 @@ var character_builds;
 var character_charts;
 
 document.addEventListener("DOMContentLoaded", (event) => {
+    resetMenuCharacters();
     printAllCharacters();
 
     // let weap = [];
@@ -80,6 +81,7 @@ function printAllCharacters() {
 function resetMenuCharacters() {
     document.getElementById("menu_characters").style.display = "";
     document.getElementById("menu_characters_info").innerHTML = `<button class="primary_button reset_menu_characters_button" onclick="resetMenuCharacters()">Go to characters</button>`;
+    document.getElementById("menu_characters_info").style.display = "none";
 }
 
 function getMaterialHTML(material_cost) {
@@ -554,6 +556,7 @@ function printCharacterInfoHTML(character_name) {
     let menu_characters_info = ``;
 
     document.getElementById("menu_characters").style.display = "none";
+    document.getElementById("menu_characters_info").style.display = "";
 
     document.getElementById("menu_characters_info").innerHTML = `<button class="primary_button reset_menu_characters_button" onclick="resetMenuCharacters()">Go to characters</button>`;
 

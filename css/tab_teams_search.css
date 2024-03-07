@@ -137,7 +137,6 @@
 }
 
 .viability_tag {
-    margin-left: 1vw;
     color: var(--light_text);
 }
 
@@ -240,9 +239,8 @@
 
 .link_team_button>img {
     padding-top: 0.5vh;
-    padding-right: 1vh;
 
-    width: 3vh;
+    width: 2vh;
 }
 
 .link_team_button>img:hover {

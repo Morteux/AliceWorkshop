@@ -301,15 +301,15 @@ function getTeamHTML(team, team_index, team_id, character_4) {
                             <span class="popuptext" id="copied_popup_` + team_id + `">Copied!</span>
                         </div>
                     </div>
+                    <button class="link_team_button" onclick="copyTextToClipboard('` +  window.location.origin + window.location.pathname + `?team=` + team_id + `');">
+                        <img src="images/icons/link.png">
+                    </button>
                     <div class="viability_tag">
                         ` + team.viability + `
                     </div>
                 </div>
 
                 <div class="tags">
-                    <button class="link_team_button" onclick="copyTextToClipboard('` +  window.location.origin + window.location.pathname + `?team=` + team_id + `');">
-                        <img src="images/icons/link.png">
-                    </button>
                     <button class="fav_button" onclick="toggleFavorite(this, ` + teams_search_matches_ordered_keys[team_index] + `)">
                         <img class="` + (favorites[teams_search_matches_ordered_keys[team_index]] === null || favorites[teams_search_matches_ordered_keys[team_index]] === undefined ? `empty` : `filled`) + `" src="images/icons/star_` + (favorites[teams_search_matches_ordered_keys[team_index]] === null || favorites[teams_search_matches_ordered_keys[team_index]] === undefined ? `empty` : `filled`) + `.png">
                     </button>

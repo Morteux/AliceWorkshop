@@ -1,7 +1,7 @@
 :root {
     --primary_color: #352f44;
     --secondary_color: #5c5470;
-    --tertiary_color: #b9b4c7;
+    --tertiary_color: #a395c9;
     --quaternary_color: #faf0e6;
 
     --secondary_color_opacity: #5c547085;
@@ -21,7 +21,8 @@
     /* Text color */
     --light_text: aliceblue;
     --gray_text: rgb(195, 202, 211);
-    --dark_text: #313131;
+    /* --dark_text: #313131; */
+    --dark_text: #181818;
 
     /* Character rarity */
     --character_4_stars: #5c2391;
