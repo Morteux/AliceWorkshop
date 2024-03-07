@@ -13961,9 +13961,7 @@ const teams = {
         "name": "Itto Chiori",
         "description": "",
         "rotation": "",
-        "archetype": [
-            "MonoGeo", "Hypercarry"
-        ],
+        "archetype": ["MonoGeo", "Hypercarry"],
         "viability": "Meta",
         "character_1": {
             "name": "Arataki Itto",
@@ -14000,7 +13998,7 @@ const teams = {
         "description": "",
         "rotation": "",
         "archetype": [
-            "MonoGeo"
+            "Hypercarry"
         ],
         "viability": "Viable",
         "character_1": {
