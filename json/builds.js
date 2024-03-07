@@ -321,6 +321,19 @@ const builds = {
             "subs_stat": ["", "", "", ""]
         }
     },
+    "Chiori": {
+        "Standard": {
+            "constellation": "",
+            "weapon": "",
+            "set": "",
+            "main_stat": {
+                "Sands": "",
+                "Goblet": "",
+                "Circlet": "",
+            },
+            "subs_stat": ["", "", "", ""]
+        }
+    },
     "Chongyun": {
         "Standard": {
             "constellation": "",
