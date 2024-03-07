@@ -4,7 +4,7 @@ const builds = {
         "Standard": {
             "element": "Dendro",
             "constellation": "",
-            "weapon": "",
+            "weapon": [""],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -16,7 +16,7 @@ const builds = {
         "Anemo": {
             "element": "Anemo",
             "constellation": "",
-            "weapon": "",
+            "weapon": [""],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -28,7 +28,7 @@ const builds = {
         "Dendro": {
             "element": "Dendro",
             "constellation": "",
-            "weapon": "",
+            "weapon": [""],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -40,7 +40,7 @@ const builds = {
         "Geo": {
             "element": "Geo",
             "constellation": "",
-            "weapon": "",
+            "weapon": [""],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -52,7 +52,7 @@ const builds = {
         "Anemo": {
             "element": "Anemo",
             "constellation": "",
-            "weapon": "",
+            "weapon": [""],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -64,7 +64,7 @@ const builds = {
         "Electro": {
             "element": "Electro",
             "constellation": "",
-            "weapon": "",
+            "weapon": [""],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -76,7 +76,7 @@ const builds = {
         "Hydro": {
             "element": "Hydro",
             "constellation": "",
-            "weapon": "",
+            "weapon": [""],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -89,7 +89,7 @@ const builds = {
     "Albedo": {
         "Standard": {
             "constellation": "",
-            "weapon": "",
+            "weapon": [""],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -101,7 +101,7 @@ const builds = {
 
         "EM": {
             "constellation": "",
-            "weapon": "",
+            "weapon": [""],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -114,7 +114,7 @@ const builds = {
     "Alhaitham": {
         "Standard": {
             "constellation": "",
-            "weapon": "",
+            "weapon": [""],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -127,7 +127,7 @@ const builds = {
     "Aloy": {
         "Standard": {
             "constellation": "",
-            "weapon": "",
+            "weapon": [""],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -140,7 +140,7 @@ const builds = {
     "Amber": {
         "Standard": {
             "constellation": "",
-            "weapon": "",
+            "weapon": [""],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -153,7 +153,7 @@ const builds = {
     "Arataki Itto": {
         "Standard": {
             "constellation": "",
-            "weapon": "",
+            "weapon": [""],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -166,7 +166,7 @@ const builds = {
     "Baizhu": {
         "Standard": {
             "constellation": "",
-            "weapon": "",
+            "weapon": [""],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -179,7 +179,7 @@ const builds = {
     "Barbara": {
         "Standard": {
             "constellation": "",
-            "weapon": "",
+            "weapon": [""],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -192,7 +192,7 @@ const builds = {
     "Beidou": {
         "Standard": {
             "constellation": "",
-            "weapon": "Serpent Spine",
+            "weapon": ["Serpent Spine"],
             "set": "Emblem of Severed Fate",
             "main_stat": {
                 "Sands": "ATK%",
@@ -203,7 +203,7 @@ const builds = {
         },
         "SoloElectro": {
             "constellation": "",
-            "weapon": "Serpent Spine",
+            "weapon": ["Serpent Spine"],
             "set": "Emblem of Severed Fate",
             "main_stat": {
                 "Sands": "ATK%",
@@ -214,7 +214,7 @@ const builds = {
         },
         "Nacho": {
             "constellation": "6",
-            "weapon": "Serpent Spine / Wolf's Gravestone",
+            "weapon": ["Serpent Spine", "Wolf's Gravestone"],
             "set": "Emblem of Severed Fate",
             "main_stat": {
                 "Sands": "ATK%",
@@ -227,7 +227,7 @@ const builds = {
     "Bennett": {
         "Standard": {
             "constellation": "",
-            "weapon": "Aquila Favonia",
+            "weapon": ["Aquila Favonia"],
             "set": "Noblesse Oblige",
             "main_stat": {
                 "Sands": "ER",
@@ -238,7 +238,7 @@ const builds = {
         },
         "C6": {
             "constellation": "6",
-            "weapon": "Aquila Favonia",
+            "weapon": ["Aquila Favonia"],
             "set": "Noblesse Oblige",
             "main_stat": {
                 "Sands": "ER",
@@ -249,7 +249,7 @@ const builds = {
         },
         "TF": {
             "constellation": "",
-            "weapon": "Iron Sting",
+            "weapon": ["Iron Sting"],
             "set": "Thundering Fury",
             "main_stat": {
                 "Sands": "EM",
@@ -260,7 +260,7 @@ const builds = {
         },
         "Healer": {
             "constellation": "",
-            "weapon": "Aquila Favonia",
+            "weapon": ["Aquila Favonia"],
             "set": "Maiden",
             "main_stat": {
                 "Sands": "ER",
@@ -272,7 +272,7 @@ const builds = {
 
         "EM": {
             "constellation": "6",
-            "weapon": "Aquila Favonia",
+            "weapon": ["Aquila Favonia"],
             "set": "Maiden",
             "main_stat": {
                 "Sands": "ER",
@@ -285,7 +285,7 @@ const builds = {
     "Candace": {
         "Standard": {
             "constellation": "",
-            "weapon": "",
+            "weapon": [""],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -298,7 +298,7 @@ const builds = {
     "Charlotte": {
         "Standard": {
             "constellation": "",
-            "weapon": "Prototype Amber / Favonius Codex",
+            "weapon": ["Prototype Amber", "Favonius Codex"],
             "set": "Noblesse Oblige",
             "main_stat": {
                 "Sands": "ER",
@@ -311,7 +311,7 @@ const builds = {
     "Chevreuse": {
         "Standard": {
             "constellation": "",
-            "weapon": "",
+            "weapon": [""],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -324,7 +324,7 @@ const builds = {
     "Chiori": {
         "Standard": {
             "constellation": "",
-            "weapon": "",
+            "weapon": [""],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -337,7 +337,7 @@ const builds = {
     "Chongyun": {
         "Standard": {
             "constellation": "",
-            "weapon": "",
+            "weapon": [""],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -350,7 +350,7 @@ const builds = {
     "Collei": {
         "Standard": {
             "constellation": "",
-            "weapon": "",
+            "weapon": [""],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -363,7 +363,7 @@ const builds = {
     "Cyno": {
         "Standard": {
             "constellation": "",
-            "weapon": "",
+            "weapon": [""],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -374,7 +374,7 @@ const builds = {
         },
         "SoloElectro": {
             "constellation": "",
-            "weapon": "",
+            "weapon": [""],
             "set": "",
             "main_stat": {
                 "Sands": "ER",
@@ -387,7 +387,7 @@ const builds = {
     "Dehya": {
         "Standard": {
             "constellation": "",
-            "weapon": "Beacon of the Reed Sea",
+            "weapon": ["Beacon of the Reed Sea"],
             "set": "Emblem of Severed Fate",
             "main_stat": {
                 "Sands": "ATK%",
@@ -398,7 +398,7 @@ const builds = {
         },
         "EM": {
             "constellation": "",
-            "weapon": "Beacon of the Reed Sea",
+            "weapon": ["Beacon of the Reed Sea"],
             "set": "Emblem of Severed Fate",
             "main_stat": {
                 "Sands": "ATK%",
@@ -411,7 +411,7 @@ const builds = {
     "Diluc": {
         "Standard": {
             "constellation": "",
-            "weapon": "",
+            "weapon": [""],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -424,7 +424,7 @@ const builds = {
     "Diona": {
         "Standard": {
             "constellation": "",
-            "weapon": "",
+            "weapon": [""],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -435,7 +435,7 @@ const builds = {
         },
         "Nacho": {
             "constellation": "6",
-            "weapon": "Favonius Warbow / Sacrificial Bow",
+            "weapon": ["Favonius Warbow", "Sacrificial Bow"],
             "set": "Noblesse Oblige",
             "main_stat": {
                 "Sands": "HP%",
@@ -448,7 +448,7 @@ const builds = {
     "Dori": {
         "Standard": {
             "constellation": "",
-            "weapon": "",
+            "weapon": [""],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -459,7 +459,7 @@ const builds = {
         },
         "EM": {
             "constellation": "",
-            "weapon": "",
+            "weapon": [""],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -470,7 +470,7 @@ const builds = {
         },
         "C6": {
             "constellation": "6",
-            "weapon": "",
+            "weapon": [""],
             "set": "Thundering Fury",
             "main_stat": {
                 "Sands": "",
@@ -481,7 +481,7 @@ const builds = {
         },
         "Nacho": {
             "constellation": "6",
-            "weapon": "Favonius Greatsword / Sacrificial Greatsword",
+            "weapon": ["Favonius Greatsword", "Sacrificial Greatsword"],
             "set": "Noblesse Oblige",
             "main_stat": {
                 "Sands": "ER",
@@ -494,7 +494,7 @@ const builds = {
     "Eula": {
         "Standard": {
             "constellation": "",
-            "weapon": "",
+            "weapon": [""],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -507,7 +507,7 @@ const builds = {
     "Faruzan": {
         "Standard": {
             "constellation": "",
-            "weapon": "",
+            "weapon": [""],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -520,7 +520,7 @@ const builds = {
     "Fischl": {
         "Standard": {
             "constellation": "",
-            "weapon": "Polar Star",
+            "weapon": ["Polar Star"],
             "set": "Golden Troupe",
             "main_stat": {
                 "Sands": "ATK%",
@@ -531,7 +531,7 @@ const builds = {
         },
         "Nacho": {
             "constellation": "6",
-            "weapon": "Polar Star",
+            "weapon": ["Polar Star"],
             "set": "Golden Troupe",
             "main_stat": {
                 "Sands": "ATK%",
@@ -544,7 +544,7 @@ const builds = {
     "Freminet": {
         "Standard": {
             "constellation": "",
-            "weapon": "",
+            "weapon": [""],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -555,7 +555,7 @@ const builds = {
         },
         "Physical": {
             "constellation": "",
-            "weapon": "",
+            "weapon": [""],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -566,7 +566,7 @@ const builds = {
         },
         "Freeze": {
             "constellation": "",
-            "weapon": "",
+            "weapon": [""],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -579,7 +579,7 @@ const builds = {
     "Furina": {
         "Standard": {
             "constellation": "",
-            "weapon": "",
+            "weapon": [""],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -592,7 +592,7 @@ const builds = {
     "Gaming": {
         "Standard": {
             "constellation": "",
-            "weapon": "",
+            "weapon": [""],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -604,7 +604,7 @@ const builds = {
 
         "EM": {
             "constellation": "",
-            "weapon": "",
+            "weapon": [""],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -617,7 +617,7 @@ const builds = {
     "Ganyu": {
         "Standard": {
             "constellation": "",
-            "weapon": "",
+            "weapon": [""],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -628,7 +628,7 @@ const builds = {
         },
         "Ultimate": {
             "constellation": "",
-            "weapon": "",
+            "weapon": [""],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -639,7 +639,7 @@ const builds = {
         },
         "Nacho": {
             "constellation": "0",
-            "weapon": "Amo's Bow / Prototype Crescent",
+            "weapon": ["Amo's Bow", "Prototype Crescent"],
             "set": "Wanderer's Troupe",
             "main_stat": {
                 "Sands": "ATK%",
@@ -652,7 +652,7 @@ const builds = {
     "Gorou": {
         "Standard": {
             "constellation": "",
-            "weapon": "",
+            "weapon": [""],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -665,7 +665,7 @@ const builds = {
     "Hu Tao": {
         "Standard": {
             "constellation": "",
-            "weapon": "",
+            "weapon": [""],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -678,7 +678,7 @@ const builds = {
     "Jean": {
         "Standard": {
             "constellation": "",
-            "weapon": "",
+            "weapon": [""],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -689,7 +689,7 @@ const builds = {
         },
         "EM": {
             "constellation": "",
-            "weapon": "",
+            "weapon": [""],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -700,7 +700,7 @@ const builds = {
         },
         "Nacho": {
             "constellation": "0",
-            "weapon": "Primordial Jade Cutter / Festering Desire R5",
+            "weapon": ["Primordial Jade Cutter", "Festering Desire R5"],
             "set": "Viridescent Venerer",
             "main_stat": {
                 "Sands": "ATK%",
@@ -713,7 +713,7 @@ const builds = {
     "Kaedehara Kazuha": {
         "Standard": {
             "constellation": "",
-            "weapon": "Favonious Sword",
+            "weapon": ["Favonious Sword"],
             "set": "Viridescent Venerer",
             "main_stat": {
                 "Sands": "EM",
@@ -724,7 +724,7 @@ const builds = {
         },
         "Nacho": {
             "constellation": "0",
-            "weapon": "Freedom-Sworn / Favonious Sword",
+            "weapon": ["Freedom-Sworn", "Favonious Sword"],
             "set": "Viridescent Venerer",
             "main_stat": {
                 "Sands": "EM",
@@ -737,7 +737,7 @@ const builds = {
     "Kaeya": {
         "Standard": {
             "constellation": "",
-            "weapon": "",
+            "weapon": [""],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -749,7 +749,7 @@ const builds = {
 
         "Melt": {
             "constellation": "",
-            "weapon": "",
+            "weapon": [""],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -762,7 +762,7 @@ const builds = {
     "Kamisato Ayaka": {
         "Standard": {
             "constellation": "",
-            "weapon": "",
+            "weapon": [""],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -773,7 +773,7 @@ const builds = {
         },
         "Nacho": {
             "constellation": "0",
-            "weapon": "Mistsplitter Reforged / Primordial Jade Cutter / Amenoma Kageuchi",
+            "weapon": ["Mistsplitter Reforged", "Primordial Jade Cutter", "Amenoma Kageuchi"],
             "set": "Blizzard Strayer",
             "main_stat": {
                 "Sands": "ATK%",
@@ -786,7 +786,7 @@ const builds = {
     "Kamisato Ayato": {
         "Standard": {
             "constellation": "",
-            "weapon": "",
+            "weapon": [""],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -799,7 +799,7 @@ const builds = {
     "Kaveh": {
         "Standard": {
             "constellation": "",
-            "weapon": "",
+            "weapon": [""],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -812,7 +812,7 @@ const builds = {
     "Keqing": {
         "Standard": {
             "constellation": "",
-            "weapon": "",
+            "weapon": [""],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -823,7 +823,7 @@ const builds = {
         },
         "Nacho": {
             "constellation": "0",
-            "weapon": "Primordial Jade Cutter / Lion's Roar",
+            "weapon": ["Primordial Jade Cutter", "Lion's Roar"],
             "set": "Thundering Fury",
             "main_stat": {
                 "Sands": "ATK%",
@@ -836,7 +836,7 @@ const builds = {
     "Kirara": {
         "Standard": {
             "constellation": "",
-            "weapon": "",
+            "weapon": [""],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -847,7 +847,7 @@ const builds = {
         },
         "Nacho": {
             "constellation": "6",
-            "weapon": "Favonius Sword / Key of Khaj-Nisut / Sacrificial Sword",
+            "weapon": ["Favonius Sword", "Key of Khaj-Nisut", "Sacrificial Sword"],
             "set": "Tenacity of the Millelith + Vourukasha's Glow",
             "main_stat": {
                 "Sands": "ER",
@@ -860,7 +860,7 @@ const builds = {
     "Klee": {
         "Standard": {
             "constellation": "",
-            "weapon": "",
+            "weapon": [""],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -871,7 +871,7 @@ const builds = {
         },
         "Monopyro": {
             "constellation": "",
-            "weapon": "",
+            "weapon": [""],
             "set": "Lavawalker",
             "main_stat": {
                 "Sands": "",
@@ -882,7 +882,7 @@ const builds = {
         },
         "Burger": {
             "constellation": "",
-            "weapon": "Sacrificial Fragments",
+            "weapon": ["Sacrificial Fragments"],
             "set": "Gilded Dreams or Flower of Paradise Lost",
             "main_stat": {
                 "Sands": "EM",
@@ -893,7 +893,7 @@ const builds = {
         },
         "Support": {
             "constellation": "2",
-            "weapon": "Thrilling Tales",
+            "weapon": ["Thrilling Tales"],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -904,7 +904,7 @@ const builds = {
         },
         "Nacho": {
             "constellation": "0",
-            "weapon": "The Widsith",
+            "weapon": ["The Widsith"],
             "set": "Crimson Witch of Flames",
             "main_stat": {
                 "Sands": "ATK%",
@@ -917,7 +917,7 @@ const builds = {
     "Kujou Sara": {
         "Standard": {
             "constellation": "",
-            "weapon": "",
+            "weapon": [""],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -928,12 +928,12 @@ const builds = {
         },
         "Nacho": {
             "constellation": "6",
-            "weapon": "Elegy for the End / Fading Twilight",
+            "weapon": ["Elegy for the End", "Fading Twilight"],
             "set": "Emblem of Severed Fate",
             "main_stat": {
-                "Sands": "ER / ATK%",
+                "Sands": ["ER", "ATK%"],
                 "Goblet": "Electro Bonus",
-                "Circlet": "Crit Rate / Crit Damage",
+                "Circlet": ["Crit Rate", "Crit Damage"],
             },
             "subs_stat": ["ER", "Crit Rate", "Crit Damage", "ATK%"]
         }
@@ -941,7 +941,7 @@ const builds = {
     "Kuki Shinobu": {
         "Standard": {
             "constellation": "",
-            "weapon": "",
+            "weapon": [""],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -952,7 +952,7 @@ const builds = {
         },
         "Nacho": {
             "constellation": "6",
-            "weapon": "Favonius Sword",
+            "weapon": ["Favonius Sword"],
             "set": "Gilded Dreams",
             "main_stat": {
                 "Sands": "EM",
@@ -965,7 +965,7 @@ const builds = {
     "Layla": {
         "Standard": {
             "constellation": "",
-            "weapon": "",
+            "weapon": [""],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -976,20 +976,20 @@ const builds = {
         },
         "Nacho": {
             "constellation": "6",
-            "weapon": "Key of Khaj-Nisut / Favonius Sword",
+            "weapon": ["Key of Khaj-Nisut", "Favonius Sword"],
             "set": "Tenacity of the Millelith",
             "main_stat": {
                 "Sands": "HP%",
                 "Goblet": "HP%",
                 "Circlet": "HP%",
             },
-            "subs_stat": ["ER", "HP%", "HP", "Crit Rate / Crit Damage"]
+            "subs_stat": ["ER", "HP%", "HP", "Crit Rate", "Crit Damage"]
         }
     },
     "Lisa": {
         "Standard": {
             "constellation": "",
-            "weapon": "",
+            "weapon": [""],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -1003,7 +1003,7 @@ const builds = {
         "Standard": {
             "element": "Dendro",
             "constellation": "",
-            "weapon": "",
+            "weapon": [""],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -1016,7 +1016,7 @@ const builds = {
     "Lynette": {
         "Standard": {
             "constellation": "",
-            "weapon": "",
+            "weapon": [""],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -1029,7 +1029,7 @@ const builds = {
     "Lyney": {
         "Standard": {
             "constellation": "",
-            "weapon": "",
+            "weapon": [""],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -1042,7 +1042,7 @@ const builds = {
     "Mika": {
         "Standard": {
             "constellation": "",
-            "weapon": "",
+            "weapon": [""],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -1055,7 +1055,7 @@ const builds = {
     "Mona": {
         "Standard": {
             "constellation": "",
-            "weapon": "Favonius Codex",
+            "weapon": ["Favonius Codex"],
             "set": "Instructor",
             "main_stat": {
                 "Sands": "ATK%",
@@ -1066,7 +1066,7 @@ const builds = {
         },
         "Healer": {
             "constellation": "",
-            "weapon": "Prototype Amber",
+            "weapon": ["Prototype Amber"],
             "set": "Maiden Beloved",
             "main_stat": {
                 "Sands": "",
@@ -1077,7 +1077,7 @@ const builds = {
         },
         "Nacho": {
             "constellation": "0",
-            "weapon": "Skyward Atlas / Favonius Codex",
+            "weapon": ["Skyward Atlas", "Favonius Codex"],
             "set": "Emblem of Severed Fate",
             "main_stat": {
                 "Sands": "ER",
@@ -1090,7 +1090,7 @@ const builds = {
     "Nahida": {
         "Standard": {
             "constellation": "",
-            "weapon": "",
+            "weapon": [""],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -1101,7 +1101,7 @@ const builds = {
         },
         "EM": {
             "constellation": "",
-            "weapon": "",
+            "weapon": [""],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -1112,7 +1112,7 @@ const builds = {
         },
         "Nacho": {
             "constellation": "0",
-            "weapon": "A Thousand Floating Dreams / Kagura's Verity / Sacrificial Fragments",
+            "weapon": ["A Thousand Floating Dreams", "Kagura's Verity", "Sacrificial Fragments"],
             "set": "Deepwood Memories",
             "main_stat": {
                 "Sands": "EM",
@@ -1125,7 +1125,7 @@ const builds = {
     "Navia": {
         "Standard": {
             "constellation": "",
-            "weapon": "",
+            "weapon": [""],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -1138,7 +1138,7 @@ const builds = {
     "Neuvillette": {
         "Standard": {
             "constellation": "",
-            "weapon": "",
+            "weapon": [""],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -1151,7 +1151,7 @@ const builds = {
     "Nilou": {
         "Standard": {
             "constellation": "",
-            "weapon": "",
+            "weapon": [""],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -1162,7 +1162,7 @@ const builds = {
         },
         "Nacho": {
             "constellation": "0",
-            "weapon": "Key of Khaj-Nisut / Sacrificial Sword / Favonius Sword",
+            "weapon": ["Key of Khaj-Nisut", "Sacrificial Sword", "Favonius Sword"],
             "set": "Gilded Dreams",
             "main_stat": {
                 "Sands": "HP%",
@@ -1175,7 +1175,7 @@ const builds = {
     "Ningguang": {
         "Standard": {
             "constellation": "",
-            "weapon": "",
+            "weapon": [""],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -1188,7 +1188,7 @@ const builds = {
     "Noelle": {
         "Standard": {
             "constellation": "",
-            "weapon": "",
+            "weapon": [""],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -1199,7 +1199,7 @@ const builds = {
         },
         "Petra": {
             "constellation": "",
-            "weapon": "",
+            "weapon": [""],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -1210,7 +1210,7 @@ const builds = {
         },
         "DPSFurina": {
             "constellation": "",
-            "weapon": "",
+            "weapon": [""],
             "set": "Marechaussee Hunter",
             "main_stat": {
                 "Sands": "",
@@ -1224,7 +1224,7 @@ const builds = {
     "Qiqi": {
         "Standard": {
             "constellation": "",
-            "weapon": "",
+            "weapon": [""],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -1235,7 +1235,7 @@ const builds = {
         },
         "Nacho": {
             "constellation": "0",
-            "weapon": "Skyward Blade / Lion's Roar",
+            "weapon": ["Skyward Blade", "Lion's Roar"],
             "set": "Ocean-Hued Clam",
             "main_stat": {
                 "Sands": "ATK%",
@@ -1248,7 +1248,7 @@ const builds = {
     "Raiden Shogun": {
         "Standard": {
             "constellation": "",
-            "weapon": "",
+            "weapon": [""],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -1259,7 +1259,7 @@ const builds = {
         },
         "EM": {
             "constellation": "",
-            "weapon": "",
+            "weapon": [""],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -1270,7 +1270,7 @@ const builds = {
         },
         "Nacho": {
             "constellation": "0",
-            "weapon": "Engulfing Lightning / Skyward Spine",
+            "weapon": ["Engulfing Lightning", "Skyward Spine"],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -1283,7 +1283,7 @@ const builds = {
     "Razor": {
         "Standard": {
             "constellation": "",
-            "weapon": "",
+            "weapon": [""],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -1296,7 +1296,7 @@ const builds = {
     "Rosaria": {
         "Standard": {
             "constellation": "",
-            "weapon": "",
+            "weapon": [""],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -1307,7 +1307,7 @@ const builds = {
         },
         "Melt": {
             "constellation": "",
-            "weapon": "",
+            "weapon": [""],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -1320,7 +1320,7 @@ const builds = {
     "Sangonomiya Kokomi": {
         "Standard": {
             "constellation": "",
-            "weapon": "",
+            "weapon": [""],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -1331,7 +1331,7 @@ const builds = {
         }, 
         "Dendro": {
             "constellation": "",
-            "weapon": "",
+            "weapon": [""],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -1344,7 +1344,7 @@ const builds = {
     "Sayu": {
         "Standard": {
             "constellation": "",
-            "weapon": "",
+            "weapon": [""],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -1355,7 +1355,7 @@ const builds = {
         },
         "Nacho": {
             "constellation": "6",
-            "weapon": "Wolf's Gravestone / Mailed Flower / Luxurious Sea-Lord",
+            "weapon": ["Wolf's Gravestone", "Mailed Flower", "Luxurious Sea-Lord"],
             "set": "Viridescent Venerer",
             "main_stat": {
                 "Sands": "EM",
@@ -1368,7 +1368,7 @@ const builds = {
     "Shenhe": {
         "Standard": {
             "constellation": "",
-            "weapon": "",
+            "weapon": [""],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -1379,7 +1379,7 @@ const builds = {
         },
         "Nacho": {
             "constellation": "0",
-            "weapon": "Calamity Queller / Primordial Jade Winged-Spear / Skyward Spine / Favonius Lance",
+            "weapon": ["Calamity Queller", "Primordial Jade Winged-Spear", "Skyward Spine", "Favonius Lance"],
             "set": "Noblesse Oblige",
             "main_stat": {
                 "Sands": "ATK%",
@@ -1392,7 +1392,7 @@ const builds = {
     "Shikanoin Heizou": {
         "Standard": {
             "constellation": "",
-            "weapon": "",
+            "weapon": [""],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -1403,7 +1403,7 @@ const builds = {
         },
         "Nacho": {
             "constellation": "6",
-            "weapon": "The Widsith",
+            "weapon": ["The Widsith"],
             "set": "Viridescent Venerer",
             "main_stat": {
                 "Sands": "ATK%",
@@ -1416,7 +1416,7 @@ const builds = {
     "Sucrose": {
         "Standard": {
             "constellation": "",
-            "weapon": "",
+            "weapon": [""],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -1427,7 +1427,7 @@ const builds = {
         },
         "Nacho": {
             "constellation": "6",
-            "weapon": "Thrilling Tales of Dragon Slayers",
+            "weapon": ["Thrilling Tales of Dragon Slayers"],
             "set": "Viridescent Venerer",
             "main_stat": {
                 "Sands": "EM",
@@ -1440,7 +1440,7 @@ const builds = {
     "Tartaglia": {
         "Standard": {
             "constellation": "",
-            "weapon": "Polar Star",
+            "weapon": ["Polar Star"],
             "set": "Heart of Depth",
             "main_stat": {
                 "Sands": "ATK%",
@@ -1453,7 +1453,7 @@ const builds = {
     "Thoma": {
         "Standard": {
             "constellation": "",
-            "weapon": "",
+            "weapon": [""],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -1464,7 +1464,7 @@ const builds = {
         },
         "EM": {
             "constellation": "",
-            "weapon": "",
+            "weapon": [""],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -1475,7 +1475,7 @@ const builds = {
         },
         "Nacho": {
             "constellation": "6",
-            "weapon": "Skyward Spine / The Catch",
+            "weapon": ["Skyward Spine", "The Catch"],
             "set": "Noblesse Oblige",
             "main_stat": {
                 "Sands": "ER",
@@ -1488,7 +1488,7 @@ const builds = {
     "Tighnari": {
         "Standard": {
             "constellation": "",
-            "weapon": "",
+            "weapon": [""],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -1501,7 +1501,7 @@ const builds = {
     "Venti": {
         "Standard": {
             "constellation": "",
-            "weapon": "",
+            "weapon": [""],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -1512,20 +1512,20 @@ const builds = {
         },
         "Nacho": {
             "constellation": "0",
-            "weapon": "Elegy for the End / The Stringless",
+            "weapon": ["Elegy for the End", "The Stringless"],
             "set": "Viridescent Venerer",
             "main_stat": {
                 "Sands": "EM",
                 "Goblet": "EM",
                 "Circlet": "EM"
             },
-            "subs_stat": ["EM", "ER", "ATK%", "Crit Rate / Crit Damage"]
+            "subs_stat": ["EM", "ER", "ATK%", "Crit Rate", "Crit Damage"]
         }
     },
     "Wanderer": {
         "Standard": {
             "constellation": "",
-            "weapon": "",
+            "weapon": [""],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -1538,7 +1538,7 @@ const builds = {
     "Wriothesley": {
         "Standard": {
             "constellation": "",
-            "weapon": "",
+            "weapon": [""],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -1551,7 +1551,7 @@ const builds = {
     "Xiangling": {
         "Standard": {
             "constellation": "",
-            "weapon": "The Catch",
+            "weapon": ["The Catch"],
             "set": "Emblem of Severed Fate",
             "main_stat": {
                 "Sands": "ATK%",
@@ -1562,7 +1562,7 @@ const builds = {
         },
         "SoloPyro": {
             "constellation": "",
-            "weapon": "The Catch",
+            "weapon": ["The Catch"],
             "set": "Emblem of Severed Fate",
             "main_stat": {
                 "Sands": "ATK%",
@@ -1573,7 +1573,7 @@ const builds = {
         },
         "EM": {
             "constellation": "",
-            "weapon": "The Catch",
+            "weapon": ["The Catch"],
             "set": "Emblem of Severed Fate",
             "main_stat": {
                 "Sands": "ATK%",
@@ -1584,7 +1584,7 @@ const builds = {
         },
         "Nacho": {
             "constellation": "6",
-            "weapon": "Staff of Homa / The Catch",
+            "weapon": ["Staff of Homa", "The Catch"],
             "set": "Emblem of Severed Fate",
             "main_stat": {
                 "Sands": "ATK%",
@@ -1597,7 +1597,7 @@ const builds = {
     "Xianyun": {
         "Standard": {
             "constellation": "",
-            "weapon": "",
+            "weapon": [""],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -1610,7 +1610,7 @@ const builds = {
     "Xiao": {
         "Standard": {
             "constellation": "",
-            "weapon": "",
+            "weapon": [""],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -1623,7 +1623,7 @@ const builds = {
     "Xingqiu": {
         "Standard": {
             "constellation": "",
-            "weapon": "Sacrificial Sword",
+            "weapon": ["Sacrificial Sword"],
             "set": "Emblem of Severed Fate",
             "main_stat": {
                 "Sands": "ATK%",
@@ -1634,7 +1634,7 @@ const builds = {
         },
         "Nacho": {
             "constellation": "6",
-            "weapon": "Primordial Jade Cutter / Favonius Sword / Sacrificial Sword R3",
+            "weapon": ["Primordial Jade Cutter", "Favonius Sword", "Sacrificial Sword R3"],
             "set": "Emblem of Severed Fate",
             "main_stat": {
                 "Sands": "ER",
@@ -1647,7 +1647,7 @@ const builds = {
     "Xinyan": {
         "Standard": {
             "constellation": "",
-            "weapon": "",
+            "weapon": [""],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -1660,7 +1660,7 @@ const builds = {
     "Yae Miko": {
         "Standard": {
             "constellation": "",
-            "weapon": "",
+            "weapon": [""],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -1671,7 +1671,7 @@ const builds = {
         },
         "SoloElectro": {
             "constellation": "",
-            "weapon": "",
+            "weapon": [""],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -1682,7 +1682,7 @@ const builds = {
         },
         "Nacho": {
             "constellation": "0",
-            "weapon": "Kagura's Verity / Lost Prayer to the Sacred Winds / Oathsworn Eye R5",
+            "weapon": ["Kagura's Verity", "Lost Prayer to the Sacred Winds", "Oathsworn Eye R5"],
             "set": "Emblem of Severed Fate",
             "main_stat": {
                 "Sands": "ATK%",
@@ -1695,7 +1695,7 @@ const builds = {
     "Yanfei": {
         "Standard": {
             "constellation": "",
-            "weapon": "",
+            "weapon": [""],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -1706,7 +1706,7 @@ const builds = {
         },
         "Tankfei": {
             "constellation": "4",
-            "weapon": "",
+            "weapon": [""],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -1719,7 +1719,7 @@ const builds = {
     "Yaoyao": {
         "Standard": {
             "constellation": "",
-            "weapon": "",
+            "weapon": [""],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -1730,7 +1730,7 @@ const builds = {
         },
         "Nacho": {
             "constellation": "6",
-            "weapon": "Favonius Lance",
+            "weapon": ["Favonius Lance"],
             "set": "Deepwood Memories",
             "main_stat": {
                 "Sands": "ER",
@@ -1743,7 +1743,7 @@ const builds = {
     "Yelan": {
         "Standard": {
             "constellation": "",
-            "weapon": "",
+            "weapon": [""],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -1754,7 +1754,7 @@ const builds = {
         },
         "Nacho": {
             "constellation": "0",
-            "weapon": "Elegy for the End / Favonius Warbow",
+            "weapon": ["Elegy for the End", "Favonius Warbow"],
             "set": "Emblem of Severed Fate",
             "main_stat": {
                 "Sands": "ER",
@@ -1767,7 +1767,7 @@ const builds = {
     "Yoimiya": {
         "Standard": {
             "constellation": "",
-            "weapon": "Thundering Pulse",
+            "weapon": ["Thundering Pulse"],
             "set": "Shimenawa's Reminiscence",
             "main_stat": {
                 "Sands": "ATK%",
@@ -1778,7 +1778,7 @@ const builds = {
         },
         "Nacho": {
             "constellation": "0",
-            "weapon": "Thundering Pulse",
+            "weapon": ["Thundering Pulse"],
             "set": "Shimenawa's Reminiscence",
             "main_stat": {
                 "Sands": "ATK%",
@@ -1791,7 +1791,7 @@ const builds = {
     "Yun Jin": {
         "Standard": {
             "constellation": "",
-            "weapon": "Favonious Lance",
+            "weapon": ["Favonious Lance"],
             "set": "Husk of Opulent Dreams",
             "main_stat": {
                 "Sands": "DEF%",
@@ -1804,7 +1804,7 @@ const builds = {
     "Zhongli": {
         "Standard": {
             "constellation": "",
-            "weapon": "",
+            "weapon": [""],
             "set": "",
             "main_stat": {
                 "Sands": "",
@@ -1815,7 +1815,7 @@ const builds = {
         },
         "Petra": {
             "constellation": "",
-            "weapon": "",
+            "weapon": [""],
             "set": "Archaic Petra",
             "main_stat": {
                 "Sands": "",
