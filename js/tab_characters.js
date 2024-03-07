@@ -490,10 +490,12 @@ function getMenuContentBuilds(character_name) {
 
                 if (weapon_data) {
                     weapons += `
-                    <img class="talent_img_small" src="images/UI/` + weapon_data.images.filename_awakenIcon + `.png">
-                
-                    <div class="talent_info">
-                        ` + weapon + `
+                    <div class="build_weapon_info">
+                        <img class="talent_img_small" src="images/UI/` + weapon_data.images.filename_awakenIcon + `.png">
+                    
+                        <div class="build_weapon_name">
+                            ` + weapon + `
+                        </div>
                     </div>`;
                 }
             }
@@ -503,39 +505,72 @@ function getMenuContentBuilds(character_name) {
 
         content += `
                 <div class="menu_panel_column">
-                    <div class="talent_name_container">
-                        <div class="talent_name">
-                            ` + build_name + `
-                        </div>
+                    <div class="build_title">
+                        ` + build_name + `
                     </div>
                     ` + (build.element ? `
+                    <div class="build_subtitle">
+                        Element
+                    </div>
                     <div class="talent_info_container">
                         <div class="talent_info">
                             ` + build.element + `
                         </div>
                     </div>` : ``) + `
+                    <div class="build_subtitle">
+                        Constellation
+                    </div>
                     <div class="talent_info_container">
                         <div class="talent_info">
                             ` + (build.constellation != "" ? `Constellation required: ` + build.constellation : `No minimun constellation required.`) + `
                         </div>
                     </div>
-                    <div class="talent_info_container">
+                    <div class="build_subtitle">
+                        Recommended weapon
+                    </div>
+                    <div class="build_weapon_container">
                         ` + weapons + `
                     </div>
-                    <div class="talent_info_container">
-                        <div class="talent_info">
-                            ` + build.set + `
+                    <div class="build_subtitle">
+                        Main Stats
+                    </div>
+                    <div class="build_set_container">
+                        <div class="build_set_info">
+                            <img class="talent_img_small" src="images/artifacts/Icon_Flower_of_Life.webp">
+                            <div class="">
+                                HP
+                            </div>
+                        </div>
+                        <div class="build_set_info">
+                            <img class="talent_img_small" src="images/artifacts/Icon_Plume_of_Death.webp">
+                            <div class="">
+                                ATK
+                            </div>
+                        </div>
+                        <div class="build_set_info">
+                            <img class="talent_img_small" src="images/artifacts/Icon_Sands_of_Eon.webp">
+                            <div class="">
+                                ` + build.main_stat.Sands + `
+                            </div>
+                        </div>
+                        <div class="build_set_info">
+                            <img class="talent_img_small" src="images/artifacts/Icon_Goblet_of_Eonothem.webp">
+                            <div class="">
+                                ` + build.main_stat.Goblet + `
+                            </div>
+                        </div>
+                        <div class="build_set_info">
+                            <img class="talent_img_small" src="images/artifacts/Icon_Circlet_of_Logos.webp">
+                            <div class="">
+                                ` + build.main_stat.Circlet + `
+                            </div>
                         </div>
                     </div>
-                    <div class="talent_info_container">
-                        <div class="talent_info">
-                            ` + build.main_stat + `
-                        </div>
+                    <div class="build_subtitle">
+                        Substats priority
                     </div>
-                    <div class="talent_info_container">
-                        <div class="talent_info">
-                            ` + build.subs_stat.join(" > ") + `
-                        </div>
+                    <div class="build_substats">
+                        ` + (build.subs_stat.length > 0 ? build.subs_stat.join(" > ") : `<div class="talent_info">No weapon recommended</div>`) + `
                     </div>
                 </div>
             `;
