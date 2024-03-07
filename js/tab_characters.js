@@ -14,8 +14,8 @@ document.addEventListener("DOMContentLoaded", (event) => {
     printAllCharacters();
 
     // let weap = [];
-    // for(let ind of weapons) {
-    //     weap.push(GenshinDb.weapon(ind));
+    // for(let ind in weapons) {
+    //     weap.push(getWeapon(ind));
     // }
     // console.log(weap);
 });
@@ -392,7 +392,7 @@ function updateWeaponMaterial() {
 
 function getMenuContentWeapon(character_name) {
     let content = ``;
-    character_weapon = GenshinDb.weapon(characters_signature_weapons[character_name]);
+    character_weapon = getWeapon(characters_signature_weapons[character_name]);
 
     if (character_weapon) {
 
@@ -486,7 +486,7 @@ function getMenuContentBuilds(character_name) {
         if (build.weapon.length > 0) {
             for (let weapon of build.weapon) {
 
-                let weapon_data = GenshinDb.weapon(weapon);
+                let weapon_data = getWeapon(weapon);
 
                 if (weapon_data) {
                     weapons += `

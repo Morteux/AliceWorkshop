@@ -73,6 +73,16 @@ function getCharacter(name) {
     return character;
 }
 
+function getWeapon(name) {
+    let weapon = GenshinDb.weapon(name);
+
+    if (weapon == undefined) {
+        weapon = weapons[name];
+    }
+
+    return weapon;
+}
+
 function sortObject(o) {
     var sorted = {},
     key, a = [];
