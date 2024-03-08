@@ -14082,6 +14082,38 @@ const teams = {
             ]
         }
     },
+
+    "431": {
+        "name": "Klee Furina Forward Vape",
+        "description": "One of the Best Klee teams. Furina will be the one vaping.",
+        "rotation": "",
+        "archetype": [
+            "Vaporize"
+        ],
+        "viability": "Meta",
+        "character_1": {
+            "name": "Klee",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Bennett",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": [
+                "Xiangling",
+                "Kaedehara Kazuha",
+            ],
+            "build": [
+                "Standard",
+                "Standard",
+            ]
+        }
+    },
 }
 
 
