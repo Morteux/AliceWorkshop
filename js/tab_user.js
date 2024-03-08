@@ -1,7 +1,7 @@
 var team_count = Object.keys(teams).length;
 
-var menu_tabs = ["menu_configuration", "menu_characters_check", "menu_teams_creator", "menu_json_validator", "menu_stats_calculator"];
-var menu_tabs_buttons = ["menu_configuration_button", "menu_characters_check_button", "menu_teams_creator_button", "menu_json_validator_button", "menu_stats_calculator_button"];
+var menu_tabs = ["menu_configuration", "menu_characters_check", "menu_teams_creator", "menu_json_validator", "menu_stats_calculator", "menu_team_json_sort"];
+var menu_tabs_buttons = ["menu_configuration_button", "menu_characters_check_button", "menu_teams_creator_button", "menu_json_validator_button", "menu_stats_calculator_button", "menu_team_json_sort_button"];
 
 var team_creator_meta;
 var team_creator_viable;
@@ -540,10 +540,280 @@ function check_json_for_dupes(s) {
 
 
 
+
+
+
+
+// TEAM JSON SORT
+
+function sortObject(o) {
+    var sorted = {},
+        key, a = [];
+
+    for (key in o) {
+        if (o.hasOwnProperty(key)) {
+            a.push(key);
+        }
+    }
+
+    a.sort();
+
+    for (key = 0; key < a.length; key++) {
+        sorted[a[key]] = o[a[key]];
+    }
+    return sorted;
+}
+
+function getKeyByValue(object, value) {
+    return Object.keys(object).find(key => object[key] === value);
+}
+
+function sortTeamsJSON() {
+    let total = Object.keys(teams).length;
+
+    let sorted_teams = {};
+    let sorted_index = total;
+
+    let unsorted_teams = structuredClone(teams);
+
+    while (total > 0) {
+        let max_priority = -1;
+        let max_unsorted_index = -1;
+        let max_team = -1;
+
+        let unsorted_keys = Object.keys(unsorted_teams);
+        let unsorted_index = 0;
+
+        let team = unsorted_teams[unsorted_keys[unsorted_index]];
+
+        while (unsorted_index < unsorted_keys.length) {
+            let priority = -1;
+
+            team = unsorted_teams[unsorted_keys[unsorted_index]];
+
+            let priority_1 = parseInt(getKeyByValue(characters_order_priority, team["character_1"]["name"]));
+            if (priority_1 > priority) {
+                priority = priority_1;
+            }
+
+            let priority_2 = parseInt(getKeyByValue(characters_order_priority, team["character_2"]["name"]));
+            if (priority_2 > priority) {
+                priority = priority_2;
+            }
+
+            let priority_3 = parseInt(getKeyByValue(characters_order_priority, team["character_3"]["name"]));
+            if (priority_3 > priority) {
+                priority = priority_3;
+            }
+
+            for (let index_4 in team["character_4"]["name"]) {
+                let priority_4 = parseInt(getKeyByValue(characters_order_priority, team["character_4"]["name"][index_4]));
+                if (priority_4 > priority) {
+                    priority = priority_4;
+                }
+            }
+
+            if (priority > max_priority) {
+                max_priority = priority;
+                max_unsorted_index = unsorted_keys[unsorted_index];
+                max_team = team;
+            }
+
+            ++unsorted_index;
+        }
+
+        // console.log(max_unsorted_index + ": new " + sorted_index + ": " + max_priority);
+
+        delete unsorted_teams[max_unsorted_index];
+        sorted_teams[sorted_index--] = max_team;
+
+        --total;
+    }
+
+    console.log(sortObject(sorted_teams));
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+let stats = {
+    team_count: 0,
+    team_count_flex: 0,
+    characters: {}
+};
+
+function initializeStats() {
+
+    for (let character in CHARACTER_NAMES) {
+        stats.characters[CHARACTER_NAMES[character]] = {};
+        stats.characters[CHARACTER_NAMES[character]]["team_count_ranking"] = 0;
+        stats.characters[CHARACTER_NAMES[character]]["team_count"] = 0;
+
+
+        stats.characters[CHARACTER_NAMES[character]]["by_archetype"] = {};
+        stats.characters[CHARACTER_NAMES[character]]["by_viability"] = {};
+
+        for (let archetype of ARCHETYPES_NAMES) {
+            stats.characters[CHARACTER_NAMES[character]]["by_archetype"][archetype] = 0;
+        }
+        for (let viability of VIABILITIES) {
+            stats.characters[CHARACTER_NAMES[character]]["by_viability"][viability] = 0;
+        }
+    }
+
+    for (let character in builds) {
+        stats.characters[character]["by_build"] = {};
+
+        for (let build in builds[character]) {
+            stats.characters[character]["by_build"][build] = 0;
+        }
+    }
+}
+
+function updateStatCharacterTeam(character, team) {
+    // Team count
+    stats.characters[character.name].team_count = stats.characters[character.name].team_count + 1;
+
+    // Team archetypes
+    for (let archetype of team.archetype) {
+        stats.characters[character.name].by_archetype[archetype] = stats.characters[character.name].by_archetype[archetype] + 1;
+    }
+
+    // Team viability
+    stats.characters[character.name].by_viability[team.viability] = stats.characters[character.name].by_viability[team.viability] + 1;
+
+    // Character build
+    stats.characters[character.name].by_build[character.build] = stats.characters[character.name].by_build[character.build] + 1;
+}
+
+function calculateRanking() {
+    let ranking = [];
+    let global_team_ranking = {};
+
+    for (let character in stats.characters) {
+        ranking.push(stats.characters[character].team_count);
+    }
+
+    ranking = ranking.sort(function (a, b) {
+        return a - b;
+    }).reverse();
+
+    for (let character in stats.characters) {
+        let rank = 0;
+
+        while (rank < ranking.length && stats.characters[character].team_count < ranking[rank]) {
+            ++rank;
+        }
+
+        stats.characters[character].team_count_ranking = rank + 1;
+        while(global_team_ranking[rank + 1]){
+            ++rank;
+        }
+        global_team_ranking[rank + 1] = { name: character, team_count: stats.characters[character].team_count };
+    }
+
+    stats["global_team_ranking"] = global_team_ranking;
+}
+
 function calculateStats() {
-    let stats = {
-        characters: {},
-        achetypes: {},
-        teams: {}
-    };
+
+    initializeStats();
+
+    // Stats for teams
+    for (let team_index in teams) {
+        stats.team_count = stats.team_count + 1;
+
+        let team = teams[team_index];
+
+        // Each flex per team count as different team
+        for (let char_4 in team.character_4.name) {
+
+            stats.team_count_flex = stats.team_count_flex + 1;
+
+            // Character 1
+            updateStatCharacterTeam(team.character_1, team);
+    
+            // Character 2
+            updateStatCharacterTeam(team.character_2, team);
+    
+            // Character 3
+            updateStatCharacterTeam(team.character_3, team);
+            
+            // Character 4
+            updateStatCharacterTeam({ name: team.character_4.name[char_4], build: team.character_4.build[char_4] }, team);
+        }
+    }
+
+    // Character ranking
+    calculateRanking();
+
+    console.log(stats);
 }
