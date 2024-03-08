@@ -84,6 +84,46 @@ function resetMenuCharacters() {
     document.getElementById("menu_characters_info").style.display = "none";
 }
 
+function getNewRandomTeamByCharacterBuild(container, character, build) {
+    teams_keys = shuffle(Object.keys(teams));
+    document.getElementById(container).innerHTML = getRandomTeamByArchetype(archetype);
+}
+
+function getRandomTeamByCharacterBuild(character, build) {
+    let team_output = "";
+
+    let team_index = -1;
+    let index = 0;
+
+    while (team_index == -1 && index < Object.keys(teams).length) {
+        if (teams[teams_keys[index]]["archetype"].includes(archetype)) {
+            team_index = teams_keys[index];
+        }
+
+        ++index;
+    }
+
+    if (team_index > -1) {
+
+        let team = teams[team_index];
+        let character_4_int_index = Math.floor(Math.random() * Object.keys(team.character_4.name).length);
+        let character_4_index = Object.keys(team.character_4.name)[character_4_int_index];
+
+        let character_4 = {
+            "name": team.character_4.name[character_4_index],
+            "build": team.character_4.build[character_4_index]
+        };
+
+        let team_id = team_index + (team.character_4.name.length > 1 ? `-` + (character_4_int_index + 1) : ``);
+        team_output = getTeamHTML(team, team_index, team_id, character_4);
+    }
+    else {
+        team_output = '<div class="archetype_subtitle">No teams for archetype ' + archetype + ' found.</div>';
+    }
+
+    return team_output;
+}
+
 function getMaterialHTML(material_cost) {
     let material = GenshinDb.material(material_cost.name);
     let materialHTML = ``;
@@ -556,23 +596,32 @@ function getMenuContentBuilds(character_name) {
             talents_priority = `<div class="build_no_info">No talent priority</div>`;
         }
 
-        let artifacts_build = ``;
+        let sets_build = [];
         if (build.set.length > 0) {
-            for (let artifact of build.set) {
+            for (let set of build.set) {
 
-                let artifact_data = GenshinDb.artifact(artifact);
+                let artifacts_build = [];
 
-                if (artifact_data) {
-                    artifacts_build += `
-                    <div class="build_artifact_info">
-                    ` + getArtifactHTML(artifact_data.name, "flower") + `
-                    ` + getArtifactHTML(artifact_data.name, "plume") + `
-                    ` + getArtifactHTML(artifact_data.name, "sands") + `
-                    ` + getArtifactHTML(artifact_data.name, "goblet") + `
-                    ` + getArtifactHTML(artifact_data.name, "circlet") + `
-                    </div>`;
+                for (let artifact of set.artifacts) {
+                    let artifact_data = GenshinDb.artifact(artifact);
+
+                    if (artifact_data) {
+                        artifacts_build.push(`
+                        <div class="build_set_info">
+                            <div class="build_artifact_info">
+                            ` + getArtifactHTML(artifact_data.name, "flower") + `
+                            </div>
+                            <div class="">
+                                ` + set.pc + `
+                            </div>
+                        </div>
+                        `);
+                    }
                 }
+                sets_build.push(artifacts_build.join(`<div class="build_artifact_separator">+</div>`));
             }
+
+            sets_build = sets_build.join(`<div class="build_set_separator"></div>`);
         } else {
             artifacts_build = `<div class="build_no_info">No artifacts recommended</div>`;
         }
@@ -601,10 +650,10 @@ function getMenuContentBuilds(character_name) {
                         ` + weapons_build + `
                     </div>
                     <div class="build_subtitle">
-                        Artifacts ` + (build.set.length > 0 ? (build.set.length == 1 ? `(4 piece)` : `(2 piece | 2 piece)`) : ``) + `
+                        Artifacts
                     </div>
                     <div class="build_artifacts_container">
-                        ` + artifacts_build + `
+                        ` + sets_build + `
                     </div>
                     <div class="build_subtitle">
                         Main Stats
@@ -681,6 +730,7 @@ function getMenuContentBuilds(character_name) {
                             </div>
                         </div>
                     </div>
+
                 </div>
             `;
     }
@@ -688,6 +738,9 @@ function getMenuContentBuilds(character_name) {
     return content;
 }
 
+/* <div id="random_` + build_name + `">
+` + getRandomTeamByCharacterBuild(character_name, build_name) + `
+</div> */
 function getMenuContentCharts(character_name) {
     let content = ``;
 

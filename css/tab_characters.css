@@ -777,6 +777,13 @@
     width: 100%;
 }
 
+.build_set_info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 .build_artifact_info {
     display: flex;
     flex-direction: row;
@@ -788,6 +795,14 @@
     margin: 1vh 2%;
 }
 
-.build_artifact_info > img {
-    flex: 1;
+.build_artifact_separator {
+    font-size: xx-large;
+    margin-top: 2vh;
+}
+
+.build_set_separator {
+    border: solid 2px var(--tertiary_color);
+
+    height: 10vh;
+    margin: 2vh 1vw 0vh 1vw;
 }

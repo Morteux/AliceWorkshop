@@ -80,7 +80,7 @@ function showAllTabArchetypes() {
     }
 }
 
-function getNewRandomTeam(container, archetype) {
+function getNewRandomTeamByArchetype(container, archetype) {
     teams_keys = shuffle(Object.keys(teams));
     document.getElementById(container).innerHTML = getRandomTeamByArchetype(archetype);
 }
@@ -222,7 +222,7 @@ function printArchetypes() {
 
                     ` + archetype_index + `
                     
-                    <button type="submit" class="search_random_button" onclick="getNewRandomTeam('random_` + archetype_index + `', '` + archetype_index + `')"></button>
+                    <button type="submit" class="search_random_button" onclick="getNewRandomTeamByArchetype('random_` + archetype_index + `', '` + archetype_index + `')"></button>
                 </div>
                 <div class="team_elements_container">
                     ` + printElementsOrForcedCharacter(archetypes[archetype_index]) + `
