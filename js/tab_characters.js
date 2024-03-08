@@ -785,7 +785,7 @@ function printCharacterInfoHTML(character_name) {
     menu_characters_info = `
         <div id="menu_characters_image" class="menu_characters_image"></div>
 
-        <div class="left_menu_info sticky">
+        <div class="left_menu_info">
 
             <div class="menu_character_name_container">
                 <div class="menu_character_name ` + (character_data.name.length < SHORT_NAME_LENGTH ? "menu_character_name_short" : (character_data.name.length < MEDIUM_NAME_LENGTH ? "menu_character_name_medium" : "menu_character_name_long")) + `">
