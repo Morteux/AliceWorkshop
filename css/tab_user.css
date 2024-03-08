@@ -155,7 +155,31 @@
 }
 
 .json_validator_result {
-    
     margin-top: 3vh;
-    /* width: 100%; */
+}
+
+.menu_team_json_sort {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+    width: 100%;
+}
+
+.menu_team_json_sort > div {
+    color: var(--light_text);
+}
+
+.menu_stats_calculator {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+    width: 100%;
+}
+
+.menu_stats_calculator > div {
+    color: var(--light_text);
 }

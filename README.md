@@ -27,11 +27,9 @@ CDN or JS files: https://github.com/theBowja/genshin-db-dist
 
 ## Tab Characters
 ### To do
-- Character build
 - 3. Character archetypes
 - Character stats
 - Poder buscar por un personaje, saliendo los mejores arquetipos para dicho personaje con plantillas (Por ejemplo busqueda de Itto: "Mono Geo: Itto, Gorou, Geo, Flex").
-- Filtrar por characters owned.
 
 ## Tab Configuration
 ### To do

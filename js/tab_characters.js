@@ -15,12 +15,26 @@ document.addEventListener("DOMContentLoaded", (event) => {
     resetMenuCharacters();
     printAllCharacters();
 
-    // let weap = [];
-    // for(let ind in weapons) {
-    //     weap.push(getWeapon(ind));
-    // }
-    // console.log(weap);
+    document.getElementById("tab_character_search").addEventListener("input", filterByCharacterName);
 });
+
+function filterByCharacterName() {
+    let input = document.getElementById("tab_character_search").value;
+
+    if (input.length > 0) {
+        for (let char of CHARACTER_NAMES) {
+            if (char.toLowerCase().includes(input)) {
+                document.getElementById("character_" + char).style.display = "";
+            } else {
+                document.getElementById("character_" + char).style.display = "none";
+            }
+        }
+    } else {
+        for (let char of CHARACTER_NAMES) {
+            document.getElementById("character_" + char).style.display = "";
+        }
+    }
+}
 
 function activateMenuContent(element, content_id) {
     let siblings_buttons = document.querySelector('.right_menu_buttons').children;
@@ -71,7 +85,11 @@ function getMenuCharacterHTML(character_data) {
 }
 
 function printAllCharacters() {
-    let menu_characters = "";
+    let menu_characters = `
+    <div class="tab_character_search">
+        <input id="tab_character_search" type="text" placeholder="Name..." class="search_form_text_input small_input">
+    </div>
+    `;
 
     for (let index = Object.keys(characters_order_priority).length - 1; index >= 0; --index) {
         menu_characters += getMenuCharacterHTML(getCharacter(characters_order_priority[index]));
@@ -648,20 +666,11 @@ function getMenuContentBuilds(character_name) {
         content += `
                 <div class="menu_panel_column">
                     <div class="build_title">
-                        ` + build_name + `
+                        ` + build_name + ` ` + (build.element ? `<img class="menu_row_img" src="images/elements/` + build.element.toLowerCase() + `.png"></img>` : ``) + `
                     </div>
                     <div class="build_description">
                         ` + build.description + `
                     </div>
-                    ` + (build.element ? `
-                    <div class="build_subtitle">
-                        Element
-                    </div>
-                    <div class="talent_info_container">
-                        <div class="talent_info">
-                            ` + build.element + `
-                        </div>
-                    </div>` : ``) + `
                     <div class="build_subtitle">
                         Recommended weapon
                     </div>
@@ -823,7 +832,7 @@ function printCharacterInfoHTML(character_name) {
             <div class="menu_character_row_info menu_character_row_light">
                 Element:
                 <div class="menu_value_container">
-                ` + character_data.elementText + `<img class="menu_row_img_small" src="images/elements/` + character_data.elementText.toLowerCase() + `.png">
+                ` + character_data.elementText + (character_data.elementText != "None" ? `<img class="menu_row_img_small" src="images/elements/` + character_data.elementText.toLowerCase() + `.png">` : ``) + `
                 </div>
             </div>
             <div class="menu_character_row_info menu_character_row_dark">

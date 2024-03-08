@@ -199,8 +199,8 @@
         </div>
 
         <div id="tab_characters" class="tab_characters">
-            <div id="menu_characters" class="menu_characters">
-            </div>
+            <div id="menu_characters" class="menu_characters"></div>
+
             <div id="menu_characters_info" class="menu_characters_info">
                 <button class="primary_button reset_menu_characters_button" onclick="resetMenuCharacters()">Go to characters</button>
             </div>
@@ -213,8 +213,10 @@
                 <div id="menu_characters_check_button" class="">Characters</div>
                 <div id="menu_teams_creator_button" class="">Team creator</div>
                 <div id="menu_json_validator_button" class="">Admin JSON Validator</div>
+                <div id="menu_team_json_sort_button" class="">Admin Sort teams JSON</div>
+                <div id="menu_stats_calculator_button" class="">Admin Stats Calculator</div>
             </div>
-
+            
             <div id="content_menu" class="content_menu">
                 <div id="menu_configuration">
                     Configuration
@@ -314,6 +316,22 @@
 
                     <!-- <textarea id="json_validator_result" class="json_result" rows="4" cols="200" readonly></textarea> -->
                     <div id="json_validator_result" class="json_validator_result"></div>
+
+                </div>
+
+                <div id="menu_team_json_sort" class="menu_team_json_sort">
+
+                    <button class="primary_button" onclick="sortTeamsJSON()">Sort teams JSON</button>
+
+                    <div>Check the console to see the result (F12)</div>
+
+                </div>
+
+                <div id="menu_stats_calculator" class="menu_stats_calculator">
+
+                    <button class="primary_button" onclick="calculateStats()">Calculate Stats</button>
+
+                    <div>Check the console to see the result (F12)</div>
 
                 </div>
 
