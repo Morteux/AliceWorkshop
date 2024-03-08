@@ -2,7 +2,8 @@ const builds = {
 
     "Aether": {
         "Standard": {
-            "element": "Dendro", description: "",
+            element: "Dendro",
+            description: "",
             constellation: "",
             talent_priority: [1, 2, 3],
             weapon: [],
@@ -16,7 +17,8 @@ const builds = {
             subs_stat: []
         },
         "Anemo": {
-            "element": "Anemo", description: "",
+            element: "Anemo",
+            description: "",
             constellation: "",
             talent_priority: [1, 2, 3],
             weapon: [],
@@ -30,7 +32,8 @@ const builds = {
             subs_stat: []
         },
         "Dendro": {
-            "element": "Dendro", description: "",
+            element: "Dendro",
+            description: "",
             constellation: "",
             talent_priority: [1, 2, 3],
             weapon: [],
@@ -44,7 +47,8 @@ const builds = {
             subs_stat: []
         },
         "Geo": {
-            "element": "Geo", description: "",
+            element: "Geo",
+            description: "",
             constellation: "",
             talent_priority: [1, 2, 3],
             weapon: [],
@@ -58,7 +62,8 @@ const builds = {
             subs_stat: []
         },
         "Anemo": {
-            "element": "Anemo", description: "",
+            element: "Anemo",
+            description: "",
             constellation: "",
             talent_priority: [1, 2, 3],
             weapon: [],
@@ -72,7 +77,8 @@ const builds = {
             subs_stat: []
         },
         "Electro": {
-            "element": "Electro", description: "",
+            element: "Electro",
+            description: "",
             constellation: "",
             talent_priority: [1, 2, 3],
             weapon: [],
@@ -86,7 +92,8 @@ const builds = {
             subs_stat: []
         },
         "Hydro": {
-            "element": "Hydro", description: "",
+            element: "Hydro",
+            description: "",
             constellation: "",
             talent_priority: [1, 2, 3],
             weapon: [],
@@ -233,7 +240,12 @@ const builds = {
             constellation: "",
             talent_priority: [1, 2, 3],
             weapon: ["Serpent Spine"],
-            set: ["Emblem of Severed Fate"],
+            set: [
+                {
+                    artifacts: ["Emblem of Severed Fate"],
+                    pc: "4pc"
+                }
+            ],
             er_requirement: "100%",
             main_stat: {
                 sands: "ATK%",
@@ -247,7 +259,12 @@ const builds = {
             constellation: "",
             talent_priority: [1, 2, 3],
             weapon: ["Serpent Spine"],
-            set: ["Emblem of Severed Fate"],
+            set: [
+                {
+                    artifacts: ["Emblem of Severed Fate"],
+                    pc: "4pc"
+                }
+            ],
             er_requirement: "100%",
             main_stat: {
                 sands: "ATK%",
@@ -261,7 +278,12 @@ const builds = {
             constellation: "6",
             talent_priority: [1, 2, 3],
             weapon: ["Serpent Spine", "Wolf's Gravestone"],
-            set: ["Emblem of Severed Fate"],
+            set: [
+                {
+                    artifacts: ["Emblem of Severed Fate"],
+                    pc: "4pc"
+                }
+            ],
             er_requirement: "100%",
             main_stat: {
                 sands: "ATK%",
@@ -277,7 +299,12 @@ const builds = {
             constellation: "",
             talent_priority: [1, 2, 3],
             weapon: ["Aquila Favonia"],
-            set: ["Noblesse Oblige"],
+            set: [
+                {
+                    artifacts: ["Noblesse Oblige"],
+                    pc: "4pc"
+                }
+            ],
             er_requirement: "100%",
             main_stat: {
                 sands: "ER",
@@ -291,7 +318,12 @@ const builds = {
             constellation: "6",
             talent_priority: [1, 2, 3],
             weapon: ["Aquila Favonia"],
-            set: ["Noblesse Oblige"],
+            set: [
+                {
+                    artifacts: ["Noblesse Oblige"],
+                    pc: "4pc"
+                }
+            ],
             er_requirement: "100%",
             main_stat: {
                 sands: "ER",
@@ -305,7 +337,12 @@ const builds = {
             constellation: "",
             talent_priority: [1, 2, 3],
             weapon: ["Iron Sting"],
-            set: ["Thundering Fury"],
+            set: [
+                {
+                    artifacts: ["Thundering Fury"],
+                    pc: "4pc"
+                }
+            ],
             er_requirement: "100%",
             main_stat: {
                 sands: "EM",
@@ -319,7 +356,12 @@ const builds = {
             constellation: "",
             talent_priority: [1, 2, 3],
             weapon: ["Aquila Favonia"],
-            set: ["Maiden"],
+            set: [
+                {
+                    artifacts: ["Maiden Beloved"],
+                    pc: "4pc"
+                }
+            ],
             er_requirement: "100%",
             main_stat: {
                 sands: "ER",
@@ -334,7 +376,12 @@ const builds = {
             constellation: "6",
             talent_priority: [1, 2, 3],
             weapon: ["Aquila Favonia"],
-            set: ["Maiden"],
+            set: [
+                {
+                    artifacts: ["Maiden Beloved"],
+                    pc: "4pc"
+                }
+            ],
             er_requirement: "100%",
             main_stat: {
                 sands: "ER",
@@ -366,7 +413,12 @@ const builds = {
             constellation: "",
             talent_priority: [1, 2, 3],
             weapon: ["Prototype Amber", "Favonius Codex"],
-            set: ["Noblesse Oblige"],
+            set: [
+                {
+                    artifacts: ["Noblesse Oblige"],
+                    pc: "4pc"
+                }
+            ],
             er_requirement: "100%",
             main_stat: {
                 sands: "ER",
@@ -476,7 +528,12 @@ const builds = {
             constellation: "",
             talent_priority: [1, 2, 3],
             weapon: ["Beacon of the Reed Sea"],
-            set: ["Emblem of Severed Fate"],
+            set: [
+                {
+                    artifacts: ["Emblem of Severed Fate"],
+                    pc: "4pc"
+                }
+            ],
             er_requirement: "100%",
             main_stat: {
                 sands: "ATK%",
@@ -490,7 +547,12 @@ const builds = {
             constellation: "",
             talent_priority: [1, 2, 3],
             weapon: ["Beacon of the Reed Sea"],
-            set: ["Emblem of Severed Fate"],
+            set: [
+                {
+                    artifacts: ["Emblem of Severed Fate"],
+                    pc: "4pc"
+                }
+            ],
             er_requirement: "100%",
             main_stat: {
                 sands: "ATK%",
@@ -536,7 +598,12 @@ const builds = {
             constellation: "6",
             talent_priority: [1, 2, 3],
             weapon: ["Favonius Warbow", "Sacrificial Bow"],
-            set: ["Noblesse Oblige"],
+            set: [
+                {
+                    artifacts: ["Noblesse Oblige"],
+                    pc: "4pc"
+                }
+            ],
             er_requirement: "100%",
             main_stat: {
                 sands: "HP%",
@@ -580,7 +647,12 @@ const builds = {
             constellation: "6",
             talent_priority: [1, 2, 3],
             weapon: [],
-            set: ["Thundering Fury"],
+            set: [
+                {
+                    artifacts: ["Thundering Fury"],
+                    pc: "4pc"
+                }
+            ],
             er_requirement: "100%",
             main_stat: {
                 sands: "",
@@ -594,7 +666,12 @@ const builds = {
             constellation: "6",
             talent_priority: [1, 2, 3],
             weapon: ["Favonius Greatsword", "Sacrificial Greatsword"],
-            set: ["Noblesse Oblige"],
+            set: [
+                {
+                    artifacts: ["Noblesse Oblige"],
+                    pc: "4pc"
+                }
+            ],
             er_requirement: "100%",
             main_stat: {
                 sands: "ER",
@@ -642,7 +719,12 @@ const builds = {
             constellation: "",
             talent_priority: [1, 2, 3],
             weapon: ["Polar Star"],
-            set: ["Golden Troupe"],
+            set: [
+                {
+                    artifacts: ["Golden Troupe"],
+                    pc: "4pc"
+                }
+            ],
             er_requirement: "100%",
             main_stat: {
                 sands: "ATK%",
@@ -656,7 +738,12 @@ const builds = {
             constellation: "6",
             talent_priority: [1, 2, 3],
             weapon: ["Polar Star"],
-            set: ["Golden Troupe"],
+            set: [
+                {
+                    artifacts: ["Golden Troupe"],
+                    pc: "4pc"
+                }
+            ],
             er_requirement: "100%",
             main_stat: {
                 sands: "ATK%",
@@ -791,7 +878,12 @@ const builds = {
             constellation: "0",
             talent_priority: [1, 2, 3],
             weapon: ["Amo's Bow", "Prototype Crescent"],
-            set: ["Wanderer's Troupe"],
+            set: [
+                {
+                    artifacts: ["Wanderer's Troupe"],
+                    pc: "4pc"
+                }
+            ],
             er_requirement: "100%",
             main_stat: {
                 sands: "ATK%",
@@ -867,7 +959,12 @@ const builds = {
             constellation: "0",
             talent_priority: [1, 2, 3],
             weapon: ["Primordial Jade Cutter", "Festering Desire"],
-            set: ["Viridescent Venerer"],
+            set: [
+                {
+                    artifacts: ["Viridescent Venerer"],
+                    pc: "4pc"
+                }
+            ],
             er_requirement: "100%",
             main_stat: {
                 sands: "ATK%",
@@ -883,7 +980,12 @@ const builds = {
             constellation: "",
             talent_priority: [1, 2, 3],
             weapon: ["Favonius Sword"],
-            set: ["Viridescent Venerer"],
+            set: [
+                {
+                    artifacts: ["Viridescent Venerer"],
+                    pc: "4pc"
+                }
+            ],
             er_requirement: "100%",
             main_stat: {
                 sands: "EM",
@@ -897,7 +999,12 @@ const builds = {
             constellation: "0",
             talent_priority: [1, 2, 3],
             weapon: ["Freedom-Sworn", "Favonius Sword"],
-            set: ["Viridescent Venerer"],
+            set: [
+                {
+                    artifacts: ["Viridescent Venerer"],
+                    pc: "4pc"
+                }
+            ],
             er_requirement: "100%",
             main_stat: {
                 sands: "EM",
@@ -958,7 +1065,12 @@ const builds = {
             constellation: "0",
             talent_priority: [1, 2, 3],
             weapon: ["Mistsplitter Reforged", "Primordial Jade Cutter", "Amenoma Kageuchi"],
-            set: ["Blizzard Strayer"],
+            set: [
+                {
+                    artifacts: ["Blizzard Strayer"],
+                    pc: "4pc"
+                }
+            ],
             er_requirement: "100%",
             main_stat: {
                 sands: "ATK%",
@@ -1020,7 +1132,12 @@ const builds = {
             constellation: "0",
             talent_priority: [1, 2, 3],
             weapon: ["Primordial Jade Cutter", "Lion's Roar"],
-            set: ["Thundering Fury"],
+            set: [
+                {
+                    artifacts: ["Thundering Fury"],
+                    pc: "4pc"
+                }
+            ],
             er_requirement: "100%",
             main_stat: {
                 sands: "ATK%",
@@ -1050,7 +1167,16 @@ const builds = {
             constellation: "6",
             talent_priority: [1, 2, 3],
             weapon: ["Favonius Sword", "Key of Khaj-Nisut", "Sacrificial Sword"],
-            set: ["Tenacity of the Millelith", "Vourukasha's Glow"],
+            set: [
+                {
+                    artifacts: ["Tenacity of the Millelith"],
+                    pc: "4pc"
+                },
+                {
+                    artifacts: ["Vourukasha's Glow"],
+                    pc: "4pc"
+                }
+            ],
             er_requirement: "100%",
             main_stat: {
                 sands: "ER",
@@ -1080,7 +1206,12 @@ const builds = {
             constellation: "",
             talent_priority: [1, 2, 3],
             weapon: [],
-            set: ["Lavawalker"],
+            set: [
+                {
+                    artifacts: ["Lavawalker"],
+                    pc: "4pc"
+                }
+            ],
             er_requirement: "100%",
             main_stat: {
                 sands: "",
@@ -1094,7 +1225,16 @@ const builds = {
             constellation: "",
             talent_priority: [1, 2, 3],
             weapon: ["Sacrificial Fragments"],
-            set: ["Gilded Dreams or Flower of Paradise Lost"],
+            set: [
+                {
+                    artifacts: ["Gilded Dreams"],
+                    pc: "4pc"
+                },
+                {
+                    artifacts: ["Flower of Paradise Lost"],
+                    pc: "4pc"
+                }
+            ],
             er_requirement: "100%",
             main_stat: {
                 sands: "EM",
@@ -1122,7 +1262,12 @@ const builds = {
             constellation: "0",
             talent_priority: [1, 2, 3],
             weapon: ["The Widsith"],
-            set: ["Crimson Witch of Flames"],
+            set: [
+                {
+                    artifacts: ["Crimson Witch of Flames"],
+                    pc: "4pc"
+                }
+            ],
             er_requirement: "100%",
             main_stat: {
                 sands: "ATK%",
@@ -1152,7 +1297,12 @@ const builds = {
             constellation: "6",
             talent_priority: [1, 2, 3],
             weapon: ["Elegy for the End", "Fading Twilight"],
-            set: ["Emblem of Severed Fate"],
+            set: [
+                {
+                    artifacts: ["Emblem of Severed Fate"],
+                    pc: "4pc"
+                }
+            ],
             er_requirement: "100%",
             main_stat: {
                 sands: ["ER", "ATK%"],
@@ -1182,7 +1332,12 @@ const builds = {
             constellation: "6",
             talent_priority: [1, 2, 3],
             weapon: ["Favonius Sword"],
-            set: ["Gilded Dreams"],
+            set: [
+                {
+                    artifacts: ["Gilded Dreams"],
+                    pc: "4pc"
+                }
+            ],
             er_requirement: "100%",
             main_stat: {
                 sands: "EM",
@@ -1212,7 +1367,12 @@ const builds = {
             constellation: "6",
             talent_priority: [1, 2, 3],
             weapon: ["Key of Khaj-Nisut", "Favonius Sword"],
-            set: ["Tenacity of the Millelith"],
+            set: [
+                {
+                    artifacts: ["Tenacity of the Millelith"],
+                    pc: "4pc"
+                }
+            ],
             er_requirement: "100%",
             main_stat: {
                 sands: "HP%",
@@ -1240,7 +1400,7 @@ const builds = {
     },
     "Lumine": {
         "Standard": {
-            "element": "Dendro", description: "",
+            element: "Dendro", description: "",
             constellation: "",
             talent_priority: [1, 2, 3],
             weapon: [],
@@ -1308,7 +1468,12 @@ const builds = {
             constellation: "",
             talent_priority: [1, 2, 3],
             weapon: ["Favonius Codex"],
-            set: ["Instructor"],
+            set: [
+                {
+                    artifacts: ["Instructor"],
+                    pc: "4pc"
+                }
+            ],
             er_requirement: "100%",
             main_stat: {
                 sands: "ATK%",
@@ -1322,7 +1487,12 @@ const builds = {
             constellation: "",
             talent_priority: [1, 2, 3],
             weapon: ["Prototype Amber"],
-            set: ["Maiden Beloved"],
+            set: [
+                {
+                    artifacts: ["Maiden Beloved"],
+                    pc: "4pc"
+                }
+            ],
             er_requirement: "100%",
             main_stat: {
                 sands: "",
@@ -1336,7 +1506,12 @@ const builds = {
             constellation: "0",
             talent_priority: [1, 2, 3],
             weapon: ["Skyward Atlas", "Favonius Codex"],
-            set: ["Emblem of Severed Fate"],
+            set: [
+                {
+                    artifacts: ["Emblem of Severed Fate"],
+                    pc: "4pc"
+                }
+            ],
             er_requirement: "100%",
             main_stat: {
                 sands: "ER",
@@ -1380,7 +1555,12 @@ const builds = {
             constellation: "0",
             talent_priority: [1, 2, 3],
             weapon: ["A Thousand Floating Dreams", "Kagura's Verity", "Sacrificial Fragments"],
-            set: ["Deepwood Memories"],
+            set: [
+                {
+                    artifacts: ["Deepwood Memories"],
+                    pc: "4pc"
+                }
+            ],
             er_requirement: "100%",
             main_stat: {
                 sands: "EM",
@@ -1442,7 +1622,12 @@ const builds = {
             constellation: "0",
             talent_priority: [1, 2, 3],
             weapon: ["Key of Khaj-Nisut", "Sacrificial Sword", "Favonius Sword"],
-            set: ["Gilded Dreams"],
+            set: [
+                {
+                    artifacts: ["Gilded Dreams"],
+                    pc: "4pc"
+                }
+            ],
             er_requirement: "100%",
             main_stat: {
                 sands: "HP%",
@@ -1502,7 +1687,12 @@ const builds = {
             constellation: "",
             talent_priority: [1, 2, 3],
             weapon: [],
-            set: ["Marechaussee Hunter"],
+            set: [
+                {
+                    artifacts: ["Marechaussee Hunter"],
+                    pc: "4pc"
+                }
+            ],
             er_requirement: "100%",
             main_stat: {
                 sands: "",
@@ -1533,7 +1723,12 @@ const builds = {
             constellation: "0",
             talent_priority: [1, 2, 3],
             weapon: ["Skyward Blade", "Lion's Roar"],
-            set: ["Ocean-Hued Clam"],
+            set: [
+                {
+                    artifacts: ["Ocean-Hued Clam"],
+                    pc: "4pc"
+                }
+            ],
             er_requirement: "100%",
             main_stat: {
                 sands: "ATK%",
@@ -1683,7 +1878,12 @@ const builds = {
             constellation: "6",
             talent_priority: [1, 2, 3],
             weapon: ["Wolf's Gravestone", "Mailed Flower", "Luxurious Sea-Lord"],
-            set: ["Viridescent Venerer"],
+            set: [
+                {
+                    artifacts: ["Viridescent Venerer"],
+                    pc: "4pc"
+                }
+            ],
             er_requirement: "100%",
             main_stat: {
                 sands: "EM",
@@ -1713,7 +1913,16 @@ const builds = {
             constellation: "0",
             talent_priority: [2, 3, 1],
             weapon: ["Calamity Queller", "Primordial Jade Winged-Spear", "Skyward Spine", "Favonius Lance"],
-            set: ["Noblesse Oblige"],
+            set: [
+                {
+                    artifacts: ["Noblesse Oblige"],
+                    pc: "4pc"
+                },
+                {
+                    artifacts: ["Viridescent Venerer", "Noblesse Oblige"],
+                    pc: "2pc"
+                }
+            ],
             er_requirement: "100%",
             main_stat: {
                 sands: "ATK%",
@@ -1743,7 +1952,12 @@ const builds = {
             constellation: "6",
             talent_priority: [1, 2, 3],
             weapon: ["The Widsith"],
-            set: ["Viridescent Venerer"],
+            set: [
+                {
+                    artifacts: ["Viridescent Venerer"],
+                    pc: "4pc"
+                }
+            ],
             er_requirement: "100%",
             main_stat: {
                 sands: "ATK%",
@@ -1773,7 +1987,12 @@ const builds = {
             constellation: "6",
             talent_priority: [1, 2, 3],
             weapon: ["Thrilling Tales of Dragon Slayers"],
-            set: ["Viridescent Venerer"],
+            set: [
+                {
+                    artifacts: ["Viridescent Venerer"],
+                    pc: "4pc"
+                }
+            ],
             er_requirement: "100%",
             main_stat: {
                 sands: "EM",
@@ -1789,7 +2008,16 @@ const builds = {
             constellation: "",
             talent_priority: [1, 2, 3],
             weapon: ["Polar Star"],
-            set: ["Heart of Depth"],
+            set: [
+                {
+                    artifacts: ["Heart of Depth"],
+                    pc: "4pc"
+                },
+                {
+                    artifacts: ["Heart of Depth", "Gladiator's Finale"],
+                    pc: "2pc"
+                }
+            ],
             er_requirement: "100%",
             main_stat: {
                 sands: "ATK%",
@@ -1833,7 +2061,12 @@ const builds = {
             constellation: "6",
             talent_priority: [1, 2, 3],
             weapon: ["Skyward Spine", "The Catch"],
-            set: ["Noblesse Oblige"],
+            set: [
+                {
+                    artifacts: ["Noblesse Oblige"],
+                    pc: "4pc"
+                }
+            ],
             er_requirement: "100%",
             main_stat: {
                 sands: "ER",
@@ -1879,7 +2112,12 @@ const builds = {
             constellation: "0",
             talent_priority: [1, 2, 3],
             weapon: ["Elegy for the End", "The Stringless"],
-            set: ["Viridescent Venerer"],
+            set: [
+                {
+                    artifacts: ["Viridescent Venerer"],
+                    pc: "4pc"
+                }
+            ],
             er_requirement: "100%",
             main_stat: {
                 sands: "EM",
@@ -1927,7 +2165,12 @@ const builds = {
             constellation: "",
             talent_priority: [1, 2, 3],
             weapon: ["The Catch"],
-            set: ["Emblem of Severed Fate"],
+            set: [
+                {
+                    artifacts: ["Emblem of Severed Fate"],
+                    pc: "4pc"
+                }
+            ],
             er_requirement: "100%",
             main_stat: {
                 sands: "ATK%",
@@ -1941,7 +2184,12 @@ const builds = {
             constellation: "",
             talent_priority: [1, 2, 3],
             weapon: ["The Catch"],
-            set: ["Emblem of Severed Fate"],
+            set: [
+                {
+                    artifacts: ["Emblem of Severed Fate"],
+                    pc: "4pc"
+                }
+            ],
             er_requirement: "100%",
             main_stat: {
                 sands: "ATK%",
@@ -1955,7 +2203,12 @@ const builds = {
             constellation: "",
             talent_priority: [1, 2, 3],
             weapon: ["The Catch"],
-            set: ["Emblem of Severed Fate"],
+            set: [
+                {
+                    artifacts: ["Emblem of Severed Fate"],
+                    pc: "4pc"
+                }
+            ],
             er_requirement: "100%",
             main_stat: {
                 sands: "ATK%",
@@ -1969,7 +2222,12 @@ const builds = {
             constellation: "6",
             talent_priority: [1, 2, 3],
             weapon: ["Staff of Homa", "The Catch"],
-            set: ["Emblem of Severed Fate"],
+            set: [
+                {
+                    artifacts: ["Emblem of Severed Fate"],
+                    pc: "4pc"
+                }
+            ],
             er_requirement: "100%",
             main_stat: {
                 sands: "ATK%",
@@ -2017,7 +2275,12 @@ const builds = {
             constellation: "",
             talent_priority: [1, 2, 3],
             weapon: ["Sacrificial Sword"],
-            set: ["Emblem of Severed Fate"],
+            set: [
+                {
+                    artifacts: ["Emblem of Severed Fate"],
+                    pc: "4pc"
+                }
+            ],
             er_requirement: "100%",
             main_stat: {
                 sands: "ATK%",
@@ -2031,7 +2294,12 @@ const builds = {
             constellation: "6",
             talent_priority: [1, 2, 3],
             weapon: ["Primordial Jade Cutter", "Favonius Sword", "Sacrificial Sword"],
-            set: ["Emblem of Severed Fate"],
+            set: [
+                {
+                    artifacts: ["Emblem of Severed Fate"],
+                    pc: "4pc"
+                }
+            ],
             er_requirement: "100%",
             main_stat: {
                 sands: "ER",
@@ -2091,7 +2359,12 @@ const builds = {
             constellation: "0",
             talent_priority: [1, 2, 3],
             weapon: ["Kagura's Verity", "Lost Prayer to the Sacred Winds", "Oathsworn Eye"],
-            set: ["Emblem of Severed Fate"],
+            set: [
+                {
+                    artifacts: ["Emblem of Severed Fate"],
+                    pc: "4pc"
+                }
+            ],
             er_requirement: "100%",
             main_stat: {
                 sands: "ATK%",
@@ -2151,7 +2424,12 @@ const builds = {
             constellation: "6",
             talent_priority: [1, 2, 3],
             weapon: ["Favonius Lance"],
-            set: ["Deepwood Memories"],
+            set: [
+                {
+                    artifacts: ["Deepwood Memories"],
+                    pc: "4pc"
+                }
+            ],
             er_requirement: "100%",
             main_stat: {
                 sands: "ER",
@@ -2181,7 +2459,12 @@ const builds = {
             constellation: "0",
             talent_priority: [1, 2, 3],
             weapon: ["Elegy for the End", "Favonius Warbow"],
-            set: ["Emblem of Severed Fate"],
+            set: [
+                {
+                    artifacts: ["Emblem of Severed Fate"],
+                    pc: "4pc"
+                }
+            ],
             er_requirement: "100%",
             main_stat: {
                 sands: "ER",
@@ -2197,7 +2480,12 @@ const builds = {
             constellation: "",
             talent_priority: [1, 2, 3],
             weapon: ["Thundering Pulse"],
-            set: ["Shimenawa's Reminiscence"],
+            set: [
+                {
+                    artifacts: ["Shimenawa's Reminiscence"],
+                    pc: "4pc"
+                }
+            ],
             er_requirement: "100%",
             main_stat: {
                 sands: "ATK%",
@@ -2211,7 +2499,12 @@ const builds = {
             constellation: "0",
             talent_priority: [1, 2, 3],
             weapon: ["Thundering Pulse"],
-            set: ["Shimenawa's Reminiscence"],
+            set: [
+                {
+                    artifacts: ["Shimenawa's Reminiscence"],
+                    pc: "4pc"
+                }
+            ],
             er_requirement: "100%",
             main_stat: {
                 sands: "ATK%",
@@ -2227,7 +2520,12 @@ const builds = {
             constellation: "",
             talent_priority: [1, 2, 3],
             weapon: ["Favonius Lance"],
-            set: ["Husk of Opulent Dreams"],
+            set: [
+                {
+                    artifacts: ["Husk of Opulent Dreams"],
+                    pc: "4pc"
+                }
+            ],
             er_requirement: "100%",
             main_stat: {
                 sands: "DEF%",
@@ -2257,7 +2555,12 @@ const builds = {
             constellation: "",
             talent_priority: [1, 2, 3],
             weapon: [],
-            set: ["Archaic Petra"],
+            set: [
+                {
+                    artifacts: ["Archaic Petra"],
+                    pc: "4pc"
+                }
+            ],
             er_requirement: "100%",
             main_stat: {
                 sands: "",
