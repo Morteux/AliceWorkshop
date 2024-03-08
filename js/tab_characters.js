@@ -9,6 +9,8 @@ var character_teams;
 var character_builds;
 var character_charts;
 
+var teams_keys = shuffle(Object.keys(teams));
+
 document.addEventListener("DOMContentLoaded", (event) => {
     resetMenuCharacters();
     printAllCharacters();
@@ -86,18 +88,30 @@ function resetMenuCharacters() {
 
 function getNewRandomTeamByCharacterBuild(container, character, build) {
     teams_keys = shuffle(Object.keys(teams));
-    document.getElementById(container).innerHTML = getRandomTeamByArchetype(archetype);
+    document.getElementById(container).innerHTML = getRandomTeamByCharacterBuild(character, build);
 }
 
 function getRandomTeamByCharacterBuild(character, build) {
     let team_output = "";
 
     let team_index = -1;
+    let team_index_char_4 = -1;
     let index = 0;
 
     while (team_index == -1 && index < Object.keys(teams).length) {
-        if (teams[teams_keys[index]]["archetype"].includes(archetype)) {
+        if ((teams[teams_keys[index]].character_1.name == character && teams[teams_keys[index]].character_1.build == build) ||
+            (teams[teams_keys[index]].character_2.name == character && teams[teams_keys[index]].character_2.build == build) ||
+            (teams[teams_keys[index]].character_3.name == character && teams[teams_keys[index]].character_3.build == build)) {
+
             team_index = teams_keys[index];
+        }
+
+        // If character with build is in char_4 position
+        for (let char_4_index = 0; char_4_index < teams[teams_keys[index]].character_4.name.length; ++char_4_index) {
+            if (teams[teams_keys[index]].character_4.name[char_4_index] == character && teams[teams_keys[index]].character_4.build[char_4_index] == build) {
+                team_index = teams_keys[index];
+                team_index_char_4 = char_4_index;
+            }
         }
 
         ++index;
@@ -106,7 +120,12 @@ function getRandomTeamByCharacterBuild(character, build) {
     if (team_index > -1) {
 
         let team = teams[team_index];
-        let character_4_int_index = Math.floor(Math.random() * Object.keys(team.character_4.name).length);
+        let character_4_int_index = 1;
+        if (team_index_char_4 == -1) {
+            character_4_int_index = Math.floor(Math.random() * Object.keys(team.character_4.name).length);
+        } else {
+            character_4_int_index = team_index_char_4;
+        }
         let character_4_index = Object.keys(team.character_4.name)[character_4_int_index];
 
         let character_4 = {
@@ -118,7 +137,7 @@ function getRandomTeamByCharacterBuild(character, build) {
         team_output = getTeamHTML(team, team_index, team_id, character_4);
     }
     else {
-        team_output = '<div class="archetype_subtitle">No teams for archetype ' + archetype + ' found.</div>';
+        team_output = '<div class="build_no_info">No teams for ' + character + ' with build ' + build + ' found.</div>';
     }
 
     return team_output;
@@ -731,16 +750,22 @@ function getMenuContentBuilds(character_name) {
                         </div>
                     </div>
 
+                    <div class="build_subtitle">
+                        <button type="submit" class="search_random_button build_search_random_button" onclick="getNewRandomTeamByCharacterBuild('random_` + build_name + `', '` + character_name + `', '` + build_name + `')"></button>
+                        
+                        <div class="build_subtitle">
+                            Random team
+                        </div>
+                    </div>
+                    <div id="random_` + build_name + `">
+                        ` + getRandomTeamByCharacterBuild(character_name, build_name) + `
+                    </div>
                 </div>
             `;
     }
 
     return content;
 }
-
-/* <div id="random_` + build_name + `">
-` + getRandomTeamByCharacterBuild(character_name, build_name) + `
-</div> */
 function getMenuContentCharts(character_name) {
     let content = ``;
 

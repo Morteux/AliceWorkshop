@@ -1917,10 +1917,6 @@ const builds = {
                 {
                     artifacts: ["Noblesse Oblige"],
                     pc: "4pc"
-                },
-                {
-                    artifacts: ["Viridescent Venerer", "Noblesse Oblige"],
-                    pc: "2pc"
                 }
             ],
             er_requirement: "100%",
