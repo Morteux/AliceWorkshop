@@ -335,6 +335,23 @@ function getMenuContentConstellations(character_name) {
     return content;
 }
 
+function getWeaponHTML(weapon_name) {
+    let weapon = getWeapon(weapon_name);
+    let weaponHTML = ``;
+
+    let rarity_class = weapon.rarity ? `material_` + weapon.rarity + `_stars` : `material_1_stars`;
+
+    weaponHTML = `
+        <div class="weapon_container tooltip">
+            <img class="material_icon_small ` + rarity_class + `" src="images/UI/` + weapon.images.filename_awakenIcon + `.png" alt="Material icon for ` + weapon.name + `">
+            
+            <span class="tooltiptext">` + weapon.name + `</span>
+        </div>
+    `;
+
+    return weaponHTML;
+}
+
 function updateWeaponRefinement() {
     let slider_value = document.getElementById("menu_slider_weapon_refinement").value;
     document.getElementById("menu_slider_weapon_refinement_output").innerHTML = slider_value;
@@ -476,37 +493,97 @@ function getMenuContentTeams(character_name) {
     return content;
 }
 
+function getArtifactHTML(artifact_name, artifact_piece) {
+    let artifact = GenshinDb.artifact(artifact_name);
+    let artifactHTML = ``;
+
+    if (artifact) {
+        artifactHTML = `
+            <div class="weapon_container tooltip">
+                <img class="material_icon_small material_5_stars" src="` + artifact.images[artifact_piece] + `" alt="Artifact ` + artifact_piece + ` icon for ` + artifact.name + `">
+                
+                <span class="tooltiptext">` + artifact.name + `</span>
+            </div>
+        `;
+    }
+
+    return artifactHTML;
+}
+
 function getMenuContentBuilds(character_name) {
     let content = ``;
 
     for (let build_name in builds[character_name]) {
         let build = builds[character_name][build_name];
 
-        let weapons = ``;
+        let weapons_build = ``;
         if (build.weapon.length > 0) {
             for (let weapon of build.weapon) {
 
                 let weapon_data = getWeapon(weapon);
 
                 if (weapon_data) {
-                    weapons += `
+                    weapons_build += `
                     <div class="build_weapon_info">
-                        <img class="talent_img_small" src="images/UI/` + weapon_data.images.filename_awakenIcon + `.png">
-                    
-                        <div class="build_weapon_name">
-                            ` + weapon + `
-                        </div>
+                        ` + getWeaponHTML(weapon_data.name) + `
                     </div>`;
                 }
             }
         } else {
-            weapons = `<div class="talent_info">No weapon recommended</div>`;
+            weapons_build = `<div class="build_no_info">No weapon recommended</div>`;
+        }
+
+        let talents_priority = [];
+
+        if (build.talent_priority.length > 0) {
+            for (let talent of build.talent_priority) {
+
+                let talent_data = GenshinDb.talent(character_name);
+
+                if (talent_data) {
+                    talents_priority.push(`
+                    <div class="build_talent_info">
+                        <img class="talent_img_small" src="images/UI/` + talent_data.images["filename_combat" + talent] + `.png">
+                    </div>
+                    `);
+                }
+            }
+
+            let separator = `<div class="build_talent_separator">></div>`;
+
+            talents_priority = talents_priority.join(separator);
+        } else {
+            talents_priority = `<div class="build_no_info">No talent priority</div>`;
+        }
+
+        let artifacts_build = ``;
+        if (build.set.length > 0) {
+            for (let artifact of build.set) {
+
+                let artifact_data = GenshinDb.artifact(artifact);
+
+                if (artifact_data) {
+                    artifacts_build += `
+                    <div class="build_artifact_info">
+                    ` + getArtifactHTML(artifact_data.name, "flower") + `
+                    ` + getArtifactHTML(artifact_data.name, "plume") + `
+                    ` + getArtifactHTML(artifact_data.name, "sands") + `
+                    ` + getArtifactHTML(artifact_data.name, "goblet") + `
+                    ` + getArtifactHTML(artifact_data.name, "circlet") + `
+                    </div>`;
+                }
+            }
+        } else {
+            artifacts_build = `<div class="build_no_info">No artifacts recommended</div>`;
         }
 
         content += `
                 <div class="menu_panel_column">
                     <div class="build_title">
                         ` + build_name + `
+                    </div>
+                    <div class="build_description">
+                        ` + build.description + `
                     </div>
                     ` + (build.element ? `
                     <div class="build_subtitle">
@@ -518,18 +595,16 @@ function getMenuContentBuilds(character_name) {
                         </div>
                     </div>` : ``) + `
                     <div class="build_subtitle">
-                        Constellation
-                    </div>
-                    <div class="talent_info_container">
-                        <div class="talent_info">
-                            ` + (build.constellation != "" ? `Constellation required: ` + build.constellation : `No minimun constellation required.`) + `
-                        </div>
-                    </div>
-                    <div class="build_subtitle">
                         Recommended weapon
                     </div>
                     <div class="build_weapon_container">
-                        ` + weapons + `
+                        ` + weapons_build + `
+                    </div>
+                    <div class="build_subtitle">
+                        Artifacts ` + (build.set.length > 0 ? (build.set.length == 1 ? `(4 piece)` : `(2 piece | 2 piece)`) : ``) + `
+                    </div>
+                    <div class="build_artifacts_container">
+                        ` + artifacts_build + `
                     </div>
                     <div class="build_subtitle">
                         Main Stats
@@ -550,27 +625,61 @@ function getMenuContentBuilds(character_name) {
                         <div class="build_set_info">
                             <img class="talent_img_small" src="images/artifacts/Icon_Sands_of_Eon.webp">
                             <div class="">
-                                ` + build.main_stat.Sands + `
+                                ` + build.main_stat.sands + `
                             </div>
                         </div>
                         <div class="build_set_info">
                             <img class="talent_img_small" src="images/artifacts/Icon_Goblet_of_Eonothem.webp">
                             <div class="">
-                                ` + build.main_stat.Goblet + `
+                                ` + build.main_stat.goblet + `
                             </div>
                         </div>
                         <div class="build_set_info">
                             <img class="talent_img_small" src="images/artifacts/Icon_Circlet_of_Logos.webp">
                             <div class="">
-                                ` + build.main_stat.Circlet + `
+                                ` + build.main_stat.circlet + `
                             </div>
                         </div>
                     </div>
-                    <div class="build_subtitle">
-                        Substats priority
+                    
+                    <div class="build_row">
+                        <div>
+                            <div class="build_subtitle">
+                                ER requirement
+                            </div>
+                            <div class="build_substats">
+                                ` + (build.er_requirement != "" ? build.er_requirement : `<div class="build_no_info">No minimum ER required</div>`) + `
+                            </div>
+                        </div>
+                        
+                        <div>
+                            <div class="build_subtitle">
+                                Talent priority
+                            </div>
+                            <div class="build_talent_info">
+                                ` + talents_priority + `
+                            </div>
+                        </div>
                     </div>
-                    <div class="build_substats">
-                        ` + (build.subs_stat.length > 0 ? build.subs_stat.join(" > ") : `<div class="talent_info">No weapon recommended</div>`) + `
+                    
+                    <div class="build_row">
+                        <div>
+                            <div class="build_subtitle">
+                                Substats priority
+                            </div>
+                            <div class="build_substats">
+                                ` + (build.subs_stat.length > 0 ? build.subs_stat.join(" > ") : `<div class="build_no_info">No substats recommended</div>`) + `
+                            </div>
+                        </div>
+                        
+                        <div>
+                            <div class="build_subtitle">
+                                Constellation
+                            </div>
+                            <div class="build_constellation_info">
+                                ` + (build.constellation != "" ? `Constellation required: ` + build.constellation : `<div class="build_no_info">No minimun constellation required</div>`) + `
+                            </div>
+                        </div>
                     </div>
                 </div>
             `;
