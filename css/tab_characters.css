@@ -33,6 +33,15 @@
     margin-top: 5vh;
 }
 
+.tab_character_search {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+}
+
 .reset_menu_characters_button {
     position: absolute;
 

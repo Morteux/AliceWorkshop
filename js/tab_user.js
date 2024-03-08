@@ -1,7 +1,7 @@
 var team_count = Object.keys(teams).length;
 
-var menu_tabs = ["menu_configuration", "menu_characters_check", "menu_teams_creator", "menu_json_validator"];
-var menu_tabs_buttons = ["menu_configuration_button", "menu_characters_check_button", "menu_teams_creator_button", "menu_json_validator_button"];
+var menu_tabs = ["menu_configuration", "menu_characters_check", "menu_teams_creator", "menu_json_validator", "menu_stats_calculator"];
+var menu_tabs_buttons = ["menu_configuration_button", "menu_characters_check_button", "menu_teams_creator_button", "menu_json_validator_button", "menu_stats_calculator_button"];
 
 var team_creator_meta;
 var team_creator_viable;
@@ -502,4 +502,48 @@ function check_json_for_dupes(s) {
         }
     }
     return -1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+function calculateStats() {
+    let stats = {
+        characters: {},
+        achetypes: {},
+        teams: {}
+    };
 }
