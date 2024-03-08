@@ -9,6 +9,8 @@ var character_teams;
 var character_builds;
 var character_charts;
 
+var teams_keys = shuffle(Object.keys(teams));
+
 document.addEventListener("DOMContentLoaded", (event) => {
     resetMenuCharacters();
     printAllCharacters();
@@ -82,6 +84,63 @@ function resetMenuCharacters() {
     document.getElementById("menu_characters").style.display = "";
     document.getElementById("menu_characters_info").innerHTML = `<button class="primary_button reset_menu_characters_button" onclick="resetMenuCharacters()">Go to characters</button>`;
     document.getElementById("menu_characters_info").style.display = "none";
+}
+
+function getNewRandomTeamByCharacterBuild(container, character, build) {
+    teams_keys = shuffle(Object.keys(teams));
+    document.getElementById(container).innerHTML = getRandomTeamByCharacterBuild(character, build);
+}
+
+function getRandomTeamByCharacterBuild(character, build) {
+    let team_output = "";
+
+    let team_index = -1;
+    let team_index_char_4 = -1;
+    let index = 0;
+
+    while (team_index == -1 && index < Object.keys(teams).length) {
+        if ((teams[teams_keys[index]].character_1.name == character && teams[teams_keys[index]].character_1.build == build) ||
+            (teams[teams_keys[index]].character_2.name == character && teams[teams_keys[index]].character_2.build == build) ||
+            (teams[teams_keys[index]].character_3.name == character && teams[teams_keys[index]].character_3.build == build)) {
+
+            team_index = teams_keys[index];
+        }
+
+        // If character with build is in char_4 position
+        for (let char_4_index = 0; char_4_index < teams[teams_keys[index]].character_4.name.length; ++char_4_index) {
+            if (teams[teams_keys[index]].character_4.name[char_4_index] == character && teams[teams_keys[index]].character_4.build[char_4_index] == build) {
+                team_index = teams_keys[index];
+                team_index_char_4 = char_4_index;
+            }
+        }
+
+        ++index;
+    }
+
+    if (team_index > -1) {
+
+        let team = teams[team_index];
+        let character_4_int_index = 1;
+        if (team_index_char_4 == -1) {
+            character_4_int_index = Math.floor(Math.random() * Object.keys(team.character_4.name).length);
+        } else {
+            character_4_int_index = team_index_char_4;
+        }
+        let character_4_index = Object.keys(team.character_4.name)[character_4_int_index];
+
+        let character_4 = {
+            "name": team.character_4.name[character_4_index],
+            "build": team.character_4.build[character_4_index]
+        };
+
+        let team_id = team_index + (team.character_4.name.length > 1 ? `-` + (character_4_int_index + 1) : ``);
+        team_output = getTeamHTML(team, team_index, team_id, character_4);
+    }
+    else {
+        team_output = '<div class="build_no_info">No teams for ' + character + ' with build ' + build + ' found.</div>';
+    }
+
+    return team_output;
 }
 
 function getMaterialHTML(material_cost) {
@@ -335,6 +394,23 @@ function getMenuContentConstellations(character_name) {
     return content;
 }
 
+function getWeaponHTML(weapon_name) {
+    let weapon = getWeapon(weapon_name);
+    let weaponHTML = ``;
+
+    let rarity_class = weapon.rarity ? `material_` + weapon.rarity + `_stars` : `material_1_stars`;
+
+    weaponHTML = `
+        <div class="weapon_container tooltip">
+            <img class="material_icon_small ` + rarity_class + `" src="images/UI/` + weapon.images.filename_awakenIcon + `.png" alt="Material icon for ` + weapon.name + `">
+            
+            <span class="tooltiptext">` + weapon.name + `</span>
+        </div>
+    `;
+
+    return weaponHTML;
+}
+
 function updateWeaponRefinement() {
     let slider_value = document.getElementById("menu_slider_weapon_refinement").value;
     document.getElementById("menu_slider_weapon_refinement_output").innerHTML = slider_value;
@@ -476,37 +552,106 @@ function getMenuContentTeams(character_name) {
     return content;
 }
 
+function getArtifactHTML(artifact_name, artifact_piece) {
+    let artifact = GenshinDb.artifact(artifact_name);
+    let artifactHTML = ``;
+
+    if (artifact) {
+        artifactHTML = `
+            <div class="weapon_container tooltip">
+                <img class="material_icon_small material_5_stars" src="` + artifact.images[artifact_piece] + `" alt="Artifact ` + artifact_piece + ` icon for ` + artifact.name + `">
+                
+                <span class="tooltiptext">` + artifact.name + `</span>
+            </div>
+        `;
+    }
+
+    return artifactHTML;
+}
+
 function getMenuContentBuilds(character_name) {
     let content = ``;
 
     for (let build_name in builds[character_name]) {
         let build = builds[character_name][build_name];
 
-        let weapons = ``;
+        let weapons_build = ``;
         if (build.weapon.length > 0) {
             for (let weapon of build.weapon) {
 
                 let weapon_data = getWeapon(weapon);
 
                 if (weapon_data) {
-                    weapons += `
+                    weapons_build += `
                     <div class="build_weapon_info">
-                        <img class="talent_img_small" src="images/UI/` + weapon_data.images.filename_awakenIcon + `.png">
-                    
-                        <div class="build_weapon_name">
-                            ` + weapon + `
-                        </div>
+                        ` + getWeaponHTML(weapon_data.name) + `
                     </div>`;
                 }
             }
         } else {
-            weapons = `<div class="talent_info">No weapon recommended</div>`;
+            weapons_build = `<div class="build_no_info">No weapon recommended</div>`;
+        }
+
+        let talents_priority = [];
+
+        if (build.talent_priority.length > 0) {
+            for (let talent of build.talent_priority) {
+
+                let talent_data = GenshinDb.talent(character_name);
+
+                if (talent_data) {
+                    talents_priority.push(`
+                    <div class="build_talent_info">
+                        <img class="talent_img_small" src="images/UI/` + talent_data.images["filename_combat" + talent] + `.png">
+                    </div>
+                    `);
+                }
+            }
+
+            let separator = `<div class="build_talent_separator">></div>`;
+
+            talents_priority = talents_priority.join(separator);
+        } else {
+            talents_priority = `<div class="build_no_info">No talent priority</div>`;
+        }
+
+        let sets_build = [];
+        if (build.set.length > 0) {
+            for (let set of build.set) {
+
+                let artifacts_build = [];
+
+                for (let artifact of set.artifacts) {
+                    let artifact_data = GenshinDb.artifact(artifact);
+
+                    if (artifact_data) {
+                        artifacts_build.push(`
+                        <div class="build_set_info">
+                            <div class="build_artifact_info">
+                            ` + getArtifactHTML(artifact_data.name, "flower") + `
+                            </div>
+                            <div class="">
+                                ` + set.pc + `
+                            </div>
+                        </div>
+                        `);
+                    }
+                }
+                sets_build.push(artifacts_build.join(`<div class="build_artifact_separator">+</div>`));
+            }
+
+            sets_build = sets_build.join(`<div class="build_set_separator"></div>`);
+        } else {
+            artifacts_build = `<div class="build_no_info">No artifacts recommended</div>`;
         }
 
         content += `
                 <div class="menu_panel_column">
                     <div class="build_title">
                         ` + build_name + `
+                    </div>
+                    <div class="build_description">
+                        ` + build.description + `
                     </div>
                     ` + (build.element ? `
                     <div class="build_subtitle">
@@ -518,18 +663,16 @@ function getMenuContentBuilds(character_name) {
                         </div>
                     </div>` : ``) + `
                     <div class="build_subtitle">
-                        Constellation
-                    </div>
-                    <div class="talent_info_container">
-                        <div class="talent_info">
-                            ` + (build.constellation != "" ? `Constellation required: ` + build.constellation : `No minimun constellation required.`) + `
-                        </div>
-                    </div>
-                    <div class="build_subtitle">
                         Recommended weapon
                     </div>
                     <div class="build_weapon_container">
-                        ` + weapons + `
+                        ` + weapons_build + `
+                    </div>
+                    <div class="build_subtitle">
+                        Artifacts
+                    </div>
+                    <div class="build_artifacts_container">
+                        ` + sets_build + `
                     </div>
                     <div class="build_subtitle">
                         Main Stats
@@ -550,27 +693,72 @@ function getMenuContentBuilds(character_name) {
                         <div class="build_set_info">
                             <img class="talent_img_small" src="images/artifacts/Icon_Sands_of_Eon.webp">
                             <div class="">
-                                ` + build.main_stat.Sands + `
+                                ` + build.main_stat.sands + `
                             </div>
                         </div>
                         <div class="build_set_info">
                             <img class="talent_img_small" src="images/artifacts/Icon_Goblet_of_Eonothem.webp">
                             <div class="">
-                                ` + build.main_stat.Goblet + `
+                                ` + build.main_stat.goblet + `
                             </div>
                         </div>
                         <div class="build_set_info">
                             <img class="talent_img_small" src="images/artifacts/Icon_Circlet_of_Logos.webp">
                             <div class="">
-                                ` + build.main_stat.Circlet + `
+                                ` + build.main_stat.circlet + `
                             </div>
                         </div>
                     </div>
-                    <div class="build_subtitle">
-                        Substats priority
+                    
+                    <div class="build_row">
+                        <div>
+                            <div class="build_subtitle">
+                                ER requirement
+                            </div>
+                            <div class="build_substats">
+                                ` + (build.er_requirement != "" ? build.er_requirement : `<div class="build_no_info">No minimum ER required</div>`) + `
+                            </div>
+                        </div>
+                        
+                        <div>
+                            <div class="build_subtitle">
+                                Talent priority
+                            </div>
+                            <div class="build_talent_info">
+                                ` + talents_priority + `
+                            </div>
+                        </div>
                     </div>
-                    <div class="build_substats">
-                        ` + (build.subs_stat.length > 0 ? build.subs_stat.join(" > ") : `<div class="talent_info">No weapon recommended</div>`) + `
+                    
+                    <div class="build_row">
+                        <div>
+                            <div class="build_subtitle">
+                                Substats priority
+                            </div>
+                            <div class="build_substats">
+                                ` + (build.subs_stat.length > 0 ? build.subs_stat.join(" > ") : `<div class="build_no_info">No substats recommended</div>`) + `
+                            </div>
+                        </div>
+                        
+                        <div>
+                            <div class="build_subtitle">
+                                Constellation
+                            </div>
+                            <div class="build_constellation_info">
+                                ` + (build.constellation != "" ? `Constellation required: ` + build.constellation : `<div class="build_no_info">No minimun constellation required</div>`) + `
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="build_subtitle">
+                        <button type="submit" class="search_random_button build_search_random_button" onclick="getNewRandomTeamByCharacterBuild('random_` + build_name + `', '` + character_name + `', '` + build_name + `')"></button>
+                        
+                        <div class="build_subtitle">
+                            Random team
+                        </div>
+                    </div>
+                    <div id="random_` + build_name + `">
+                        ` + getRandomTeamByCharacterBuild(character_name, build_name) + `
                     </div>
                 </div>
             `;
@@ -578,7 +766,6 @@ function getMenuContentBuilds(character_name) {
 
     return content;
 }
-
 function getMenuContentCharts(character_name) {
     let content = ``;
 

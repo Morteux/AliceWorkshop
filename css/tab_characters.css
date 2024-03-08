@@ -611,6 +611,11 @@
     margin-bottom: 1vh;
 }
 
+.build_search_random_button {
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+
 .build_weapon_container {
     display: flex;
     flex-direction: row;
@@ -629,9 +634,6 @@
     justify-content: center;
 
     flex-wrap: wrap;
-
-    width: 20%;
-    height: 13vh;
 
     margin: 1vh 2%;
 }
@@ -670,12 +672,145 @@
 .build_substats {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    align-items: left;
 
-    margin: 1vh 1vw;
+    margin: 1vh 0vw;
 
     width: 100%;
 
     font-size: larger;
+}
+
+.build_row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+
+    width: 100%;
+}
+
+.build_row > div {
+    flex: 1;
+
+    height: 10vh;
+
+    margin: 1vh 0.5vw;
+}
+
+.build_talent_separator {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    font-size: larger;
+
+    height: 100%;
+
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
+}
+
+.build_talent_info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.build_constellation_info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+
+    font-size: larger;
+}
+
+.weapon_container {
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 4vh;
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
+
+    border-top-left-radius: 8%;
+    border-top-right-radius: 8%;
+    border-bottom-right-radius: 23%;
+
+    max-width: 7vw;
+}
+
+.weapon_container:hover {
+    box-shadow: 5px 5px 5px black;
+}
+
+.build_description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    margin: 2vh 1vh 0vw 0vw;
+}
+
+.build_no_info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+
+    font-size: medium;
+
+    margin: 1vh 0vw;
+}
+
+.build_artifacts_container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    flex-wrap: wrap;
+
+    width: 100%;
+}
+
+.build_set_info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.build_artifact_info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    flex-wrap: wrap;
+
+    margin: 1vh 2%;
+}
+
+.build_artifact_separator {
+    font-size: xx-large;
+    margin-top: 2vh;
+}
+
+.build_set_separator {
+    border: solid 2px var(--tertiary_color);
+
+    height: 10vh;
+    margin: 2vh 1vw 0vh 1vw;
 }
