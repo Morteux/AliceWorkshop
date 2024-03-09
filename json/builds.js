@@ -448,15 +448,24 @@ const builds = {
             description: "",
             constellation: "",
             talent_priority: [1, 2, 3],
-            weapon: [],
-            set: [],
+            weapon: ["Uraku Misugiri", "Harbinger of Dawn", "Wolf-Fang", "Cinnabar Spindle"],
+            set: [
+                {
+                    artifacts: ["Golden Troupe"],
+                    pc: "4pc"
+                }
+                {
+                    artifacts: ["Husk of Opulent Dreams"],
+                    pc: "4pc"
+                }
+            ],
             er_requirement: "100%",
             main_stat: {
-                sands: "",
-                goblet: "",
-                circlet: "",
+                sands: "DEF%",
+                goblet: "GEO DMG",
+                circlet: "CRIT",
             },
-            subs_stat: []
+            subs_stat: ["CRIT", "DEF", "ATK"]
         }
     },
     "Chongyun": {
