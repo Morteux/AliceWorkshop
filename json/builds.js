@@ -7,7 +7,7 @@ const builds = {
             talent_priority: [1, 2, 3],
             weapon: [],
             set: [],
-            er_requirement: "100%",
+            er_requirement: "",
             main_stat: {
                 sands: "",
                 goblet: "",
@@ -22,7 +22,7 @@ const builds = {
             talent_priority: [1, 2, 3],
             weapon: [],
             set: [],
-            er_requirement: "100%",
+            er_requirement: "",
             main_stat: {
                 sands: "",
                 goblet: "",
@@ -37,7 +37,7 @@ const builds = {
             talent_priority: [1, 2, 3],
             weapon: [],
             set: [],
-            er_requirement: "100%",
+            er_requirement: "",
             main_stat: {
                 sands: "",
                 goblet: "",
@@ -52,7 +52,7 @@ const builds = {
             talent_priority: [1, 2, 3],
             weapon: [],
             set: [],
-            er_requirement: "100%",
+            er_requirement: "",
             main_stat: {
                 sands: "",
                 goblet: "",
@@ -67,7 +67,7 @@ const builds = {
             talent_priority: [1, 2, 3],
             weapon: [],
             set: [],
-            er_requirement: "100%",
+            er_requirement: "",
             main_stat: {
                 sands: "",
                 goblet: "",
@@ -82,7 +82,7 @@ const builds = {
             talent_priority: [1, 2, 3],
             weapon: [],
             set: [],
-            er_requirement: "100%",
+            er_requirement: "",
             main_stat: {
                 sands: "",
                 goblet: "",
@@ -97,7 +97,7 @@ const builds = {
             talent_priority: [1, 2, 3],
             weapon: [],
             set: [],
-            er_requirement: "100%",
+            er_requirement: "",
             main_stat: {
                 sands: "",
                 goblet: "",
@@ -113,7 +113,7 @@ const builds = {
             talent_priority: [1, 2, 3],
             weapon: [],
             set: [],
-            er_requirement: "100%",
+            er_requirement: "",
             main_stat: {
                 sands: "",
                 goblet: "",
@@ -128,7 +128,7 @@ const builds = {
             talent_priority: [1, 2, 3],
             weapon: [],
             set: [],
-            er_requirement: "100%",
+            er_requirement: "",
             main_stat: {
                 sands: "",
                 goblet: "",
@@ -144,7 +144,7 @@ const builds = {
             talent_priority: [1, 2, 3],
             weapon: [],
             set: [],
-            er_requirement: "100%",
+            er_requirement: "",
             main_stat: {
                 sands: "",
                 goblet: "",
@@ -160,7 +160,7 @@ const builds = {
             talent_priority: [1, 2, 3],
             weapon: [],
             set: [],
-            er_requirement: "100%",
+            er_requirement: "",
             main_stat: {
                 sands: "",
                 goblet: "",
@@ -176,7 +176,7 @@ const builds = {
             talent_priority: [1, 2, 3],
             weapon: [],
             set: [],
-            er_requirement: "100%",
+            er_requirement: "",
             main_stat: {
                 sands: "",
                 goblet: "",
@@ -192,7 +192,7 @@ const builds = {
             talent_priority: [1, 2, 3],
             weapon: [],
             set: [],
-            er_requirement: "100%",
+            er_requirement: "",
             main_stat: {
                 sands: "",
                 goblet: "",
@@ -208,7 +208,7 @@ const builds = {
             talent_priority: [1, 2, 3],
             weapon: [],
             set: [],
-            er_requirement: "100%",
+            er_requirement: "",
             main_stat: {
                 sands: "",
                 goblet: "",
@@ -224,7 +224,7 @@ const builds = {
             talent_priority: [1, 2, 3],
             weapon: [],
             set: [],
-            er_requirement: "100%",
+            er_requirement: "",
             main_stat: {
                 sands: "",
                 goblet: "",
@@ -245,7 +245,7 @@ const builds = {
                     pc: "4pc"
                 }
             ],
-            er_requirement: "100%",
+            er_requirement: "",
             main_stat: {
                 sands: "ATK%",
                 goblet: "Electro",
@@ -264,7 +264,7 @@ const builds = {
                     pc: "4pc"
                 }
             ],
-            er_requirement: "100%",
+            er_requirement: "",
             main_stat: {
                 sands: "ATK%",
                 goblet: "Electro",
@@ -283,7 +283,7 @@ const builds = {
                     pc: "4pc"
                 }
             ],
-            er_requirement: "100%",
+            er_requirement: "",
             main_stat: {
                 sands: "ATK%",
                 goblet: "Electro Bonus",
@@ -304,7 +304,7 @@ const builds = {
                     pc: "4pc"
                 }
             ],
-            er_requirement: "100%",
+            er_requirement: "",
             main_stat: {
                 sands: "ER",
                 goblet: "Pyro",
@@ -323,7 +323,7 @@ const builds = {
                     pc: "4pc"
                 }
             ],
-            er_requirement: "100%",
+            er_requirement: "",
             main_stat: {
                 sands: "ER",
                 goblet: "Pyro",
@@ -342,7 +342,7 @@ const builds = {
                     pc: "4pc"
                 }
             ],
-            er_requirement: "100%",
+            er_requirement: "",
             main_stat: {
                 sands: "EM",
                 goblet: "Pyro",
@@ -361,7 +361,7 @@ const builds = {
                     pc: "4pc"
                 }
             ],
-            er_requirement: "100%",
+            er_requirement: "",
             main_stat: {
                 sands: "ER",
                 goblet: "HP%",
@@ -381,7 +381,7 @@ const builds = {
                     pc: "4pc"
                 }
             ],
-            er_requirement: "100%",
+            er_requirement: "",
             main_stat: {
                 sands: "ER",
                 goblet: "EM%",
@@ -397,7 +397,7 @@ const builds = {
             talent_priority: [1, 2, 3],
             weapon: [],
             set: [],
-            er_requirement: "100%",
+            er_requirement: "",
             main_stat: {
                 sands: "",
                 goblet: "",
@@ -418,7 +418,7 @@ const builds = {
                     pc: "4pc"
                 }
             ],
-            er_requirement: "100%",
+            er_requirement: "",
             main_stat: {
                 sands: "ER",
                 goblet: "ATK%",
@@ -434,7 +434,7 @@ const builds = {
             talent_priority: [1, 2, 3],
             weapon: [],
             set: [],
-            er_requirement: "100%",
+            er_requirement: "",
             main_stat: {
                 sands: "",
                 goblet: "",
@@ -475,7 +475,7 @@ const builds = {
             talent_priority: [1, 2, 3],
             weapon: [],
             set: [],
-            er_requirement: "100%",
+            er_requirement: "",
             main_stat: {
                 sands: "",
                 goblet: "",
@@ -491,7 +491,7 @@ const builds = {
             talent_priority: [1, 2, 3],
             weapon: [],
             set: [],
-            er_requirement: "100%",
+            er_requirement: "",
             main_stat: {
                 sands: "",
                 goblet: "",
@@ -507,7 +507,7 @@ const builds = {
             talent_priority: [1, 2, 3],
             weapon: [],
             set: [],
-            er_requirement: "100%",
+            er_requirement: "",
             main_stat: {
                 sands: "",
                 goblet: "",
@@ -521,7 +521,7 @@ const builds = {
             talent_priority: [1, 2, 3],
             weapon: [],
             set: [],
-            er_requirement: "100%",
+            er_requirement: "",
             main_stat: {
                 sands: "ER",
                 goblet: "",
@@ -542,7 +542,7 @@ const builds = {
                     pc: "4pc"
                 }
             ],
-            er_requirement: "100%",
+            er_requirement: "",
             main_stat: {
                 sands: "ATK%",
                 goblet: "Pyro",
@@ -561,7 +561,7 @@ const builds = {
                     pc: "4pc"
                 }
             ],
-            er_requirement: "100%",
+            er_requirement: "",
             main_stat: {
                 sands: "ATK%",
                 goblet: "Pyro",
@@ -577,7 +577,7 @@ const builds = {
             talent_priority: [1, 2, 3],
             weapon: [],
             set: [],
-            er_requirement: "100%",
+            er_requirement: "",
             main_stat: {
                 sands: "",
                 goblet: "",
@@ -593,7 +593,7 @@ const builds = {
             talent_priority: [1, 2, 3],
             weapon: [],
             set: [],
-            er_requirement: "100%",
+            er_requirement: "",
             main_stat: {
                 sands: "",
                 goblet: "",
@@ -612,7 +612,7 @@ const builds = {
                     pc: "4pc"
                 }
             ],
-            er_requirement: "100%",
+            er_requirement: "",
             main_stat: {
                 sands: "HP%",
                 goblet: "HP%",
@@ -628,7 +628,7 @@ const builds = {
             talent_priority: [1, 2, 3],
             weapon: [],
             set: [],
-            er_requirement: "100%",
+            er_requirement: "",
             main_stat: {
                 sands: "",
                 goblet: "",
@@ -642,7 +642,7 @@ const builds = {
             talent_priority: [1, 2, 3],
             weapon: [],
             set: [],
-            er_requirement: "100%",
+            er_requirement: "",
             main_stat: {
                 sands: "",
                 goblet: "",
@@ -661,7 +661,7 @@ const builds = {
                     pc: "4pc"
                 }
             ],
-            er_requirement: "100%",
+            er_requirement: "",
             main_stat: {
                 sands: "",
                 goblet: "",
@@ -680,7 +680,7 @@ const builds = {
                     pc: "4pc"
                 }
             ],
-            er_requirement: "100%",
+            er_requirement: "",
             main_stat: {
                 sands: "ER",
                 goblet: "HP%",
@@ -696,7 +696,7 @@ const builds = {
             talent_priority: [1, 2, 3],
             weapon: [],
             set: [],
-            er_requirement: "100%",
+            er_requirement: "",
             main_stat: {
                 sands: "",
                 goblet: "",
@@ -712,7 +712,7 @@ const builds = {
             talent_priority: [1, 2, 3],
             weapon: [],
             set: [],
-            er_requirement: "100%",
+            er_requirement: "",
             main_stat: {
                 sands: "",
                 goblet: "",
@@ -733,7 +733,7 @@ const builds = {
                     pc: "4pc"
                 }
             ],
-            er_requirement: "100%",
+            er_requirement: "",
             main_stat: {
                 sands: "ATK%",
                 goblet: "Electro",
@@ -752,7 +752,7 @@ const builds = {
                     pc: "4pc"
                 }
             ],
-            er_requirement: "100%",
+            er_requirement: "",
             main_stat: {
                 sands: "ATK%",
                 goblet: "Electro Bonus",
@@ -768,7 +768,7 @@ const builds = {
             talent_priority: [1, 2, 3],
             weapon: [],
             set: [],
-            er_requirement: "100%",
+            er_requirement: "",
             main_stat: {
                 sands: "",
                 goblet: "",
@@ -782,7 +782,7 @@ const builds = {
             talent_priority: [1, 2, 3],
             weapon: [],
             set: [],
-            er_requirement: "100%",
+            er_requirement: "",
             main_stat: {
                 sands: "",
                 goblet: "",
@@ -796,7 +796,7 @@ const builds = {
             talent_priority: [1, 2, 3],
             weapon: [],
             set: [],
-            er_requirement: "100%",
+            er_requirement: "",
             main_stat: {
                 sands: "",
                 goblet: "",
@@ -812,7 +812,7 @@ const builds = {
             talent_priority: [1, 2, 3],
             weapon: [],
             set: [],
-            er_requirement: "100%",
+            er_requirement: "",
             main_stat: {
                 sands: "",
                 goblet: "",
@@ -828,7 +828,7 @@ const builds = {
             talent_priority: [1, 2, 3],
             weapon: [],
             set: [],
-            er_requirement: "100%",
+            er_requirement: "",
             main_stat: {
                 sands: "",
                 goblet: "",
@@ -843,7 +843,7 @@ const builds = {
             talent_priority: [1, 2, 3],
             weapon: [],
             set: [],
-            er_requirement: "100%",
+            er_requirement: "",
             main_stat: {
                 sands: "",
                 goblet: "",
@@ -859,7 +859,7 @@ const builds = {
             talent_priority: [1, 2, 3],
             weapon: [],
             set: [],
-            er_requirement: "100%",
+            er_requirement: "",
             main_stat: {
                 sands: "",
                 goblet: "",
@@ -873,7 +873,7 @@ const builds = {
             talent_priority: [1, 2, 3],
             weapon: [],
             set: [],
-            er_requirement: "100%",
+            er_requirement: "",
             main_stat: {
                 sands: "",
                 goblet: "",
@@ -892,7 +892,7 @@ const builds = {
                     pc: "4pc"
                 }
             ],
-            er_requirement: "100%",
+            er_requirement: "",
             main_stat: {
                 sands: "ATK%",
                 goblet: "Cryo Bonus",
@@ -908,7 +908,7 @@ const builds = {
             talent_priority: [1, 2, 3],
             weapon: [],
             set: [],
-            er_requirement: "100%",
+            er_requirement: "",
             main_stat: {
                 sands: "",
                 goblet: "",
@@ -924,7 +924,7 @@ const builds = {
             talent_priority: [1, 2, 3],
             weapon: [],
             set: [],
-            er_requirement: "100%",
+            er_requirement: "",
             main_stat: {
                 sands: "",
                 goblet: "",
@@ -940,7 +940,7 @@ const builds = {
             talent_priority: [1, 2, 3],
             weapon: [],
             set: [],
-            er_requirement: "100%",
+            er_requirement: "",
             main_stat: {
                 sands: "",
                 goblet: "",
@@ -954,7 +954,7 @@ const builds = {
             talent_priority: [1, 2, 3],
             weapon: [],
             set: [],
-            er_requirement: "100%",
+            er_requirement: "",
             main_stat: {
                 sands: "",
                 goblet: "",
@@ -973,7 +973,7 @@ const builds = {
                     pc: "4pc"
                 }
             ],
-            er_requirement: "100%",
+            er_requirement: "",
             main_stat: {
                 sands: "ATK%",
                 goblet: "Anemo Bonus",
@@ -994,7 +994,7 @@ const builds = {
                     pc: "4pc"
                 }
             ],
-            er_requirement: "100%",
+            er_requirement: "",
             main_stat: {
                 sands: "EM",
                 goblet: "EM",
@@ -1013,7 +1013,7 @@ const builds = {
                     pc: "4pc"
                 }
             ],
-            er_requirement: "100%",
+            er_requirement: "",
             main_stat: {
                 sands: "EM",
                 goblet: "EM",
@@ -1029,7 +1029,7 @@ const builds = {
             talent_priority: [1, 2, 3],
             weapon: [],
             set: [],
-            er_requirement: "100%",
+            er_requirement: "",
             main_stat: {
                 sands: "",
                 goblet: "",
@@ -1044,7 +1044,7 @@ const builds = {
             talent_priority: [1, 2, 3],
             weapon: [],
             set: [],
-            er_requirement: "100%",
+            er_requirement: "",
             main_stat: {
                 sands: "",
                 goblet: "",
@@ -1060,7 +1060,7 @@ const builds = {
             talent_priority: [1, 2, 3],
             weapon: [],
             set: [],
-            er_requirement: "100%",
+            er_requirement: "",
             main_stat: {
                 sands: "",
                 goblet: "",
@@ -1079,7 +1079,7 @@ const builds = {
                     pc: "4pc"
                 }
             ],
-            er_requirement: "100%",
+            er_requirement: "",
             main_stat: {
                 sands: "ATK%",
                 goblet: "Cryo Bonus",
@@ -1095,7 +1095,7 @@ const builds = {
             talent_priority: [1, 2, 3],
             weapon: [],
             set: [],
-            er_requirement: "100%",
+            er_requirement: "",
             main_stat: {
                 sands: "",
                 goblet: "",
@@ -1111,7 +1111,7 @@ const builds = {
             talent_priority: [1, 2, 3],
             weapon: [],
             set: [],
-            er_requirement: "100%",
+            er_requirement: "",
             main_stat: {
                 sands: "",
                 goblet: "",
@@ -1127,7 +1127,7 @@ const builds = {
             talent_priority: [1, 2, 3],
             weapon: [],
             set: [],
-            er_requirement: "100%",
+            er_requirement: "",
             main_stat: {
                 sands: "",
                 goblet: "",
@@ -1146,7 +1146,7 @@ const builds = {
                     pc: "4pc"
                 }
             ],
-            er_requirement: "100%",
+            er_requirement: "",
             main_stat: {
                 sands: "ATK%",
                 goblet: "Electro Bonus",
@@ -1162,7 +1162,7 @@ const builds = {
             talent_priority: [1, 2, 3],
             weapon: [],
             set: [],
-            er_requirement: "100%",
+            er_requirement: "",
             main_stat: {
                 sands: "",
                 goblet: "",
@@ -1185,7 +1185,7 @@ const builds = {
                     pc: "4pc"
                 }
             ],
-            er_requirement: "100%",
+            er_requirement: "",
             main_stat: {
                 sands: "ER",
                 goblet: "HP%",
@@ -1201,7 +1201,7 @@ const builds = {
             talent_priority: [1, 2, 3],
             weapon: [],
             set: [],
-            er_requirement: "100%",
+            er_requirement: "",
             main_stat: {
                 sands: "",
                 goblet: "",
@@ -1220,7 +1220,7 @@ const builds = {
                     pc: "4pc"
                 }
             ],
-            er_requirement: "100%",
+            er_requirement: "",
             main_stat: {
                 sands: "",
                 goblet: "",
@@ -1243,7 +1243,7 @@ const builds = {
                     pc: "4pc"
                 }
             ],
-            er_requirement: "100%",
+            er_requirement: "",
             main_stat: {
                 sands: "EM",
                 goblet: "EM",
@@ -1257,7 +1257,7 @@ const builds = {
             talent_priority: [1, 2, 3],
             weapon: ["Thrilling Tales"],
             set: [],
-            er_requirement: "100%",
+            er_requirement: "",
             main_stat: {
                 sands: "",
                 goblet: "",
@@ -1276,7 +1276,7 @@ const builds = {
                     pc: "4pc"
                 }
             ],
-            er_requirement: "100%",
+            er_requirement: "",
             main_stat: {
                 sands: "ATK%",
                 goblet: "Pyro Bonus",
@@ -1292,7 +1292,7 @@ const builds = {
             talent_priority: [1, 2, 3],
             weapon: [],
             set: [],
-            er_requirement: "100%",
+            er_requirement: "",
             main_stat: {
                 sands: "",
                 goblet: "",
@@ -1311,7 +1311,7 @@ const builds = {
                     pc: "4pc"
                 }
             ],
-            er_requirement: "100%",
+            er_requirement: "",
             main_stat: {
                 sands: ["ER", "ATK%"],
                 goblet: "Electro Bonus",
@@ -1327,7 +1327,7 @@ const builds = {
             talent_priority: [1, 2, 3],
             weapon: [],
             set: [],
-            er_requirement: "100%",
+            er_requirement: "",
             main_stat: {
                 sands: "",
                 goblet: "",
@@ -1346,7 +1346,7 @@ const builds = {
                     pc: "4pc"
                 }
             ],
-            er_requirement: "100%",
+            er_requirement: "",
             main_stat: {
                 sands: "EM",
                 goblet: "EM",
@@ -1362,7 +1362,7 @@ const builds = {
             talent_priority: [1, 2, 3],
             weapon: [],
             set: [],
-            er_requirement: "100%",
+            er_requirement: "",
             main_stat: {
                 sands: "",
                 goblet: "",
@@ -1381,7 +1381,7 @@ const builds = {
                     pc: "4pc"
                 }
             ],
-            er_requirement: "100%",
+            er_requirement: "",
             main_stat: {
                 sands: "HP%",
                 goblet: "HP%",
@@ -1397,7 +1397,7 @@ const builds = {
             talent_priority: [1, 2, 3],
             weapon: [],
             set: [],
-            er_requirement: "100%",
+            er_requirement: "",
             main_stat: {
                 sands: "",
                 goblet: "",
@@ -1413,7 +1413,7 @@ const builds = {
             talent_priority: [1, 2, 3],
             weapon: [],
             set: [],
-            er_requirement: "100%",
+            er_requirement: "",
             main_stat: {
                 sands: "",
                 goblet: "",
@@ -1429,7 +1429,7 @@ const builds = {
             talent_priority: [1, 2, 3],
             weapon: [],
             set: [],
-            er_requirement: "100%",
+            er_requirement: "",
             main_stat: {
                 sands: "",
                 goblet: "",
@@ -1445,7 +1445,7 @@ const builds = {
             talent_priority: [1, 2, 3],
             weapon: [],
             set: [],
-            er_requirement: "100%",
+            er_requirement: "",
             main_stat: {
                 sands: "",
                 goblet: "",
@@ -1461,7 +1461,7 @@ const builds = {
             talent_priority: [1, 2, 3],
             weapon: [],
             set: [],
-            er_requirement: "100%",
+            er_requirement: "",
             main_stat: {
                 sands: "",
                 goblet: "",
@@ -1482,7 +1482,7 @@ const builds = {
                     pc: "4pc"
                 }
             ],
-            er_requirement: "100%",
+            er_requirement: "",
             main_stat: {
                 sands: "ATK%",
                 goblet: "Hydro",
@@ -1501,7 +1501,7 @@ const builds = {
                     pc: "4pc"
                 }
             ],
-            er_requirement: "100%",
+            er_requirement: "",
             main_stat: {
                 sands: "",
                 goblet: "",
@@ -1520,7 +1520,7 @@ const builds = {
                     pc: "4pc"
                 }
             ],
-            er_requirement: "100%",
+            er_requirement: "",
             main_stat: {
                 sands: "ER",
                 goblet: "Hydro Bonus",
@@ -1536,7 +1536,7 @@ const builds = {
             talent_priority: [1, 2, 3],
             weapon: [],
             set: [],
-            er_requirement: "100%",
+            er_requirement: "",
             main_stat: {
                 sands: "",
                 goblet: "",
@@ -1550,7 +1550,7 @@ const builds = {
             talent_priority: [1, 2, 3],
             weapon: [],
             set: [],
-            er_requirement: "100%",
+            er_requirement: "",
             main_stat: {
                 sands: "",
                 goblet: "",
@@ -1569,7 +1569,7 @@ const builds = {
                     pc: "4pc"
                 }
             ],
-            er_requirement: "100%",
+            er_requirement: "",
             main_stat: {
                 sands: "EM",
                 goblet: "EM",
@@ -1585,7 +1585,7 @@ const builds = {
             talent_priority: [1, 2, 3],
             weapon: [],
             set: [],
-            er_requirement: "100%",
+            er_requirement: "",
             main_stat: {
                 sands: "",
                 goblet: "",
@@ -1601,7 +1601,7 @@ const builds = {
             talent_priority: [1, 2, 3],
             weapon: [],
             set: [],
-            er_requirement: "100%",
+            er_requirement: "",
             main_stat: {
                 sands: "",
                 goblet: "",
@@ -1617,7 +1617,7 @@ const builds = {
             talent_priority: [1, 2, 3],
             weapon: [],
             set: [],
-            er_requirement: "100%",
+            er_requirement: "",
             main_stat: {
                 sands: "",
                 goblet: "",
@@ -1636,7 +1636,7 @@ const builds = {
                     pc: "4pc"
                 }
             ],
-            er_requirement: "100%",
+            er_requirement: "",
             main_stat: {
                 sands: "HP%",
                 goblet: "HP%",
@@ -1652,7 +1652,7 @@ const builds = {
             talent_priority: [1, 2, 3],
             weapon: [],
             set: [],
-            er_requirement: "100%",
+            er_requirement: "",
             main_stat: {
                 sands: "",
                 goblet: "",
@@ -1668,7 +1668,7 @@ const builds = {
             talent_priority: [1, 2, 3],
             weapon: [],
             set: [],
-            er_requirement: "100%",
+            er_requirement: "",
             main_stat: {
                 sands: "",
                 goblet: "",
@@ -1682,7 +1682,7 @@ const builds = {
             talent_priority: [1, 2, 3],
             weapon: [],
             set: [],
-            er_requirement: "100%",
+            er_requirement: "",
             main_stat: {
                 sands: "",
                 goblet: "",
@@ -1701,7 +1701,7 @@ const builds = {
                     pc: "4pc"
                 }
             ],
-            er_requirement: "100%",
+            er_requirement: "",
             main_stat: {
                 sands: "",
                 goblet: "",
@@ -1718,7 +1718,7 @@ const builds = {
             talent_priority: [1, 2, 3],
             weapon: [],
             set: [],
-            er_requirement: "100%",
+            er_requirement: "",
             main_stat: {
                 sands: "",
                 goblet: "",
@@ -1737,7 +1737,7 @@ const builds = {
                     pc: "4pc"
                 }
             ],
-            er_requirement: "100%",
+            er_requirement: "",
             main_stat: {
                 sands: "ATK%",
                 goblet: "ATK%",
@@ -1753,7 +1753,7 @@ const builds = {
             talent_priority: [1, 2, 3],
             weapon: [],
             set: [],
-            er_requirement: "100%",
+            er_requirement: "",
             main_stat: {
                 sands: "",
                 goblet: "",
@@ -1767,7 +1767,7 @@ const builds = {
             talent_priority: [1, 2, 3],
             weapon: [],
             set: [],
-            er_requirement: "100%",
+            er_requirement: "",
             main_stat: {
                 sands: "",
                 goblet: "",
@@ -1781,7 +1781,7 @@ const builds = {
             talent_priority: [1, 2, 3],
             weapon: ["Engulfing Lightning", "Skyward Spine"],
             set: [],
-            er_requirement: "100%",
+            er_requirement: "",
             main_stat: {
                 sands: "",
                 goblet: "",
@@ -1797,7 +1797,7 @@ const builds = {
             talent_priority: [1, 2, 3],
             weapon: [],
             set: [],
-            er_requirement: "100%",
+            er_requirement: "",
             main_stat: {
                 sands: "",
                 goblet: "",
@@ -1813,7 +1813,7 @@ const builds = {
             talent_priority: [1, 2, 3],
             weapon: [],
             set: [],
-            er_requirement: "100%",
+            er_requirement: "",
             main_stat: {
                 sands: "",
                 goblet: "",
@@ -1827,7 +1827,7 @@ const builds = {
             talent_priority: [1, 2, 3],
             weapon: [],
             set: [],
-            er_requirement: "100%",
+            er_requirement: "",
             main_stat: {
                 sands: "",
                 goblet: "",
@@ -1843,7 +1843,7 @@ const builds = {
             talent_priority: [1, 2, 3],
             weapon: [],
             set: [],
-            er_requirement: "100%",
+            er_requirement: "",
             main_stat: {
                 sands: "",
                 goblet: "",
@@ -1857,7 +1857,7 @@ const builds = {
             talent_priority: [1, 2, 3],
             weapon: [],
             set: [],
-            er_requirement: "100%",
+            er_requirement: "",
             main_stat: {
                 sands: "",
                 goblet: "",
@@ -1873,7 +1873,7 @@ const builds = {
             talent_priority: [1, 2, 3],
             weapon: [],
             set: [],
-            er_requirement: "100%",
+            er_requirement: "",
             main_stat: {
                 sands: "",
                 goblet: "",
@@ -1892,7 +1892,7 @@ const builds = {
                     pc: "4pc"
                 }
             ],
-            er_requirement: "100%",
+            er_requirement: "",
             main_stat: {
                 sands: "EM",
                 goblet: "EM",
@@ -1908,7 +1908,7 @@ const builds = {
             talent_priority: [],
             weapon: [],
             set: [],
-            er_requirement: "100%",
+            er_requirement: "",
             main_stat: {
                 sands: "",
                 goblet: "",
@@ -1927,7 +1927,7 @@ const builds = {
                     pc: "4pc"
                 }
             ],
-            er_requirement: "100%",
+            er_requirement: "",
             main_stat: {
                 sands: "ATK%",
                 goblet: "ATK%",
@@ -1943,7 +1943,7 @@ const builds = {
             talent_priority: [1, 2, 3],
             weapon: [],
             set: [],
-            er_requirement: "100%",
+            er_requirement: "",
             main_stat: {
                 sands: "",
                 goblet: "",
@@ -1962,7 +1962,7 @@ const builds = {
                     pc: "4pc"
                 }
             ],
-            er_requirement: "100%",
+            er_requirement: "",
             main_stat: {
                 sands: "ATK%",
                 goblet: "Anemo Bonus",
@@ -1978,7 +1978,7 @@ const builds = {
             talent_priority: [1, 2, 3],
             weapon: [],
             set: [],
-            er_requirement: "100%",
+            er_requirement: "",
             main_stat: {
                 sands: "",
                 goblet: "",
@@ -1997,7 +1997,7 @@ const builds = {
                     pc: "4pc"
                 }
             ],
-            er_requirement: "100%",
+            er_requirement: "",
             main_stat: {
                 sands: "EM",
                 goblet: "EM",
@@ -2022,7 +2022,7 @@ const builds = {
                     pc: "2pc"
                 }
             ],
-            er_requirement: "100%",
+            er_requirement: "",
             main_stat: {
                 sands: "ATK%",
                 goblet: "Hydro",
@@ -2038,7 +2038,7 @@ const builds = {
             talent_priority: [1, 2, 3],
             weapon: [],
             set: [],
-            er_requirement: "100%",
+            er_requirement: "",
             main_stat: {
                 sands: "",
                 goblet: "",
@@ -2052,7 +2052,7 @@ const builds = {
             talent_priority: [1, 2, 3],
             weapon: [],
             set: [],
-            er_requirement: "100%",
+            er_requirement: "",
             main_stat: {
                 sands: "",
                 goblet: "",
@@ -2071,7 +2071,7 @@ const builds = {
                     pc: "4pc"
                 }
             ],
-            er_requirement: "100%",
+            er_requirement: "",
             main_stat: {
                 sands: "ER",
                 goblet: "HP%",
@@ -2087,7 +2087,7 @@ const builds = {
             talent_priority: [1, 2, 3],
             weapon: [],
             set: [],
-            er_requirement: "100%",
+            er_requirement: "",
             main_stat: {
                 sands: "",
                 goblet: "",
@@ -2103,7 +2103,7 @@ const builds = {
             talent_priority: [1, 2, 3],
             weapon: [],
             set: [],
-            er_requirement: "100%",
+            er_requirement: "",
             main_stat: {
                 sands: "",
                 goblet: "",
@@ -2122,7 +2122,7 @@ const builds = {
                     pc: "4pc"
                 }
             ],
-            er_requirement: "100%",
+            er_requirement: "",
             main_stat: {
                 sands: "EM",
                 goblet: "EM",
@@ -2138,7 +2138,7 @@ const builds = {
             talent_priority: [1, 2, 3],
             weapon: [],
             set: [],
-            er_requirement: "100%",
+            er_requirement: "",
             main_stat: {
                 sands: "",
                 goblet: "",
@@ -2154,7 +2154,7 @@ const builds = {
             talent_priority: [1, 2, 3],
             weapon: [],
             set: [],
-            er_requirement: "100%",
+            er_requirement: "",
             main_stat: {
                 sands: "",
                 goblet: "",
@@ -2175,7 +2175,7 @@ const builds = {
                     pc: "4pc"
                 }
             ],
-            er_requirement: "100%",
+            er_requirement: "",
             main_stat: {
                 sands: "ATK%",
                 goblet: "Pyro",
@@ -2194,7 +2194,7 @@ const builds = {
                     pc: "4pc"
                 }
             ],
-            er_requirement: "100%",
+            er_requirement: "",
             main_stat: {
                 sands: "ATK%",
                 goblet: "Pyro",
@@ -2213,7 +2213,7 @@ const builds = {
                     pc: "4pc"
                 }
             ],
-            er_requirement: "100%",
+            er_requirement: "",
             main_stat: {
                 sands: "ATK%",
                 goblet: "Pyro",
@@ -2232,7 +2232,7 @@ const builds = {
                     pc: "4pc"
                 }
             ],
-            er_requirement: "100%",
+            er_requirement: "",
             main_stat: {
                 sands: "ATK%",
                 goblet: "Pyro Bonus",
@@ -2248,7 +2248,7 @@ const builds = {
             talent_priority: [1, 2, 3],
             weapon: [],
             set: [],
-            er_requirement: "100%",
+            er_requirement: "",
             main_stat: {
                 sands: "",
                 goblet: "",
@@ -2264,7 +2264,7 @@ const builds = {
             talent_priority: [1, 2, 3],
             weapon: [],
             set: [],
-            er_requirement: "100%",
+            er_requirement: "",
             main_stat: {
                 sands: "",
                 goblet: "",
@@ -2285,7 +2285,7 @@ const builds = {
                     pc: "4pc"
                 }
             ],
-            er_requirement: "100%",
+            er_requirement: "",
             main_stat: {
                 sands: "ATK%",
                 goblet: "Hydro",
@@ -2304,7 +2304,7 @@ const builds = {
                     pc: "4pc"
                 }
             ],
-            er_requirement: "100%",
+            er_requirement: "",
             main_stat: {
                 sands: "ER",
                 goblet: "Hydro Bonus",
@@ -2320,7 +2320,7 @@ const builds = {
             talent_priority: [1, 2, 3],
             weapon: [],
             set: [],
-            er_requirement: "100%",
+            er_requirement: "",
             main_stat: {
                 sands: "",
                 goblet: "",
@@ -2336,7 +2336,7 @@ const builds = {
             talent_priority: [1, 2, 3],
             weapon: [],
             set: [],
-            er_requirement: "100%",
+            er_requirement: "",
             main_stat: {
                 sands: "",
                 goblet: "",
@@ -2350,7 +2350,7 @@ const builds = {
             talent_priority: [1, 2, 3],
             weapon: [],
             set: [],
-            er_requirement: "100%",
+            er_requirement: "",
             main_stat: {
                 sands: "",
                 goblet: "",
@@ -2369,7 +2369,7 @@ const builds = {
                     pc: "4pc"
                 }
             ],
-            er_requirement: "100%",
+            er_requirement: "",
             main_stat: {
                 sands: "ATK%",
                 goblet: "Electro Bonus",
@@ -2385,7 +2385,7 @@ const builds = {
             talent_priority: [1, 2, 3],
             weapon: [],
             set: [],
-            er_requirement: "100%",
+            er_requirement: "",
             main_stat: {
                 sands: "",
                 goblet: "",
@@ -2399,7 +2399,7 @@ const builds = {
             talent_priority: [1, 2, 3],
             weapon: [],
             set: [],
-            er_requirement: "100%",
+            er_requirement: "",
             main_stat: {
                 sands: "",
                 goblet: "",
@@ -2415,7 +2415,7 @@ const builds = {
             talent_priority: [1, 2, 3],
             weapon: [],
             set: [],
-            er_requirement: "100%",
+            er_requirement: "",
             main_stat: {
                 sands: "",
                 goblet: "",
@@ -2434,7 +2434,7 @@ const builds = {
                     pc: "4pc"
                 }
             ],
-            er_requirement: "100%",
+            er_requirement: "",
             main_stat: {
                 sands: "ER",
                 goblet: "HP%",
@@ -2450,7 +2450,7 @@ const builds = {
             talent_priority: [1, 2, 3],
             weapon: [],
             set: [],
-            er_requirement: "100%",
+            er_requirement: "",
             main_stat: {
                 sands: "",
                 goblet: "",
@@ -2469,7 +2469,7 @@ const builds = {
                     pc: "4pc"
                 }
             ],
-            er_requirement: "100%",
+            er_requirement: "",
             main_stat: {
                 sands: "ER",
                 goblet: "Hydro Bonus",
@@ -2490,7 +2490,7 @@ const builds = {
                     pc: "4pc"
                 }
             ],
-            er_requirement: "100%",
+            er_requirement: "",
             main_stat: {
                 sands: "ATK%",
                 goblet: "Pyro",
@@ -2509,7 +2509,7 @@ const builds = {
                     pc: "4pc"
                 }
             ],
-            er_requirement: "100%",
+            er_requirement: "",
             main_stat: {
                 sands: "ATK%",
                 goblet: "Pyro Bonus",
@@ -2530,7 +2530,7 @@ const builds = {
                     pc: "4pc"
                 }
             ],
-            er_requirement: "100%",
+            er_requirement: "",
             main_stat: {
                 sands: "DEF%",
                 goblet: "DEF%",
@@ -2546,7 +2546,7 @@ const builds = {
             talent_priority: [1, 2, 3],
             weapon: [],
             set: [],
-            er_requirement: "100%",
+            er_requirement: "",
             main_stat: {
                 sands: "",
                 goblet: "",
@@ -2565,7 +2565,7 @@ const builds = {
                     pc: "4pc"
                 }
             ],
-            er_requirement: "100%",
+            er_requirement: "",
             main_stat: {
                 sands: "",
                 goblet: "",

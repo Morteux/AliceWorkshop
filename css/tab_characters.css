@@ -428,26 +428,6 @@
     background: linear-gradient(to bottom right, transparent 50%, black 100%);
 }
 
-.material_1_stars {
-    background-color: var(--material_1_stars);
-}
-
-.material_2_stars {
-    background-color: var(--material_2_stars);
-}
-
-.material_3_stars {
-    background-color: var(--material_3_stars);
-}
-
-.material_4_stars {
-    background-color: var(--material_4_stars);
-}
-
-.material_5_stars {
-    background-color: var(--material_5_stars);
-}
-
 .material_count {
     display: flex;
     flex-direction: row;
@@ -613,9 +593,9 @@
 
     width: 100%;
 
-    font-size: 3vh;
+    font-size: 2vh;
 
-    margin-top: 2vh;
+    margin-top: 1vh;
     margin-bottom: 1vh;
 }
 
@@ -686,7 +666,7 @@
 
     width: 100%;
 
-    font-size: larger;
+    font-size: medium;
 }
 
 .build_row {
@@ -734,7 +714,7 @@
     align-items: center;
     justify-content: left;
 
-    font-size: larger;
+    font-size: medium;
 }
 
 .weapon_container {
@@ -745,7 +725,6 @@
     align-items: center;
     justify-content: center;
 
-    margin-top: 4vh;
     margin-left: 0.5vw;
     margin-right: 0.5vw;
 
@@ -821,4 +800,53 @@
 
     height: 10vh;
     margin: 2vh 1vw 0vh 1vw;
+}
+
+.build_material_icon {
+    width: 9vh;
+    max-width: inherit;
+    border-top-left-radius: 8%;
+    border-top-right-radius: 8%;
+    border-bottom-right-radius: 20%;
+
+    background: linear-gradient(to bottom right, transparent 50%, black 100%);
+}
+
+.build_material_icon_small {
+    width: 8vh;
+    max-width: inherit;
+    border-top-left-radius: 8%;
+    border-top-right-radius: 8%;
+    border-bottom-right-radius: 20%;
+
+    background: linear-gradient(to bottom right, transparent 50%, black 100%);
+}
+
+.material_1_stars {
+    background-color: var(--material_1_stars);
+}
+
+.material_2_stars {
+    background-color: var(--material_2_stars);
+}
+
+.material_3_stars {
+    background-color: var(--material_3_stars);
+}
+
+.material_4_stars {
+    background-color: var(--material_4_stars);
+}
+
+.material_5_stars {
+    background-color: var(--material_5_stars);
+}
+
+.artifact_img {
+    width: 3vw;
+    margin-left: 1vw;
+}
+
+.artifact_img_small {
+    width: 2.5vw;
 }
