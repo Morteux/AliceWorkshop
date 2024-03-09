@@ -763,13 +763,13 @@ function getMenuContentBuilds(character_name) {
                                 ` + er_build + `
                             </div>
                         </div>
-                        
+
                         <div>
                             <div class="build_subtitle">
-                                Talent priority
+                                Substats priority
                             </div>
-                            <div class="build_talent_info">
-                                ` + talents_priority + `
+                            <div class="build_substats">
+                                ` + substats_build + `
                             </div>
                         </div>
                     </div>
@@ -777,10 +777,10 @@ function getMenuContentBuilds(character_name) {
                     <div class="build_row">
                         <div>
                             <div class="build_subtitle">
-                                Substats priority
+                                Talent priority
                             </div>
-                            <div class="build_substats">
-                                ` + substats_build + `
+                            <div class="build_talent_info">
+                                ` + talents_priority + `
                             </div>
                         </div>
                         

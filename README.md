@@ -15,6 +15,7 @@ CDN or JS files: https://github.com/theBowja/genshin-db-dist
 ### To do
 - Show last version of Genshin supported.
 - Stats on most used characters, percentual presence of each character in meta, viable and funny.
+- Check if images exits locally. If not, get it from Ambr.
 
 ## Tab Archetypes
 ### To do
