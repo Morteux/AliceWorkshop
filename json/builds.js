@@ -453,7 +453,7 @@ const builds = {
                 {
                     artifacts: ["Golden Troupe"],
                     pc: "4pc"
-                }
+                },
                 {
                     artifacts: ["Husk of Opulent Dreams"],
                     pc: "4pc"
