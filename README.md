@@ -3,7 +3,7 @@ Lineup and team compositions guide for each Genshin Impact playable character.
 
 https://morteux.github.io/AliceWorkshop/
 
-git push -u origin dev; git checkout main; git fetch; git pull; git push -u origin main; git merge dev; git push -u origin main; git checkout dev
+git push -u origin dev; git checkout main; git fetch; git pull; git push -u origin main; git merge dev; git commit -m "Merge dev" git push -u origin main; git checkout dev
 
 https://genshindb-ia.netlify.app/
 
