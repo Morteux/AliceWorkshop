@@ -447,7 +447,7 @@ const builds = {
         "Standard": {
             description: "",
             constellation: "",
-            talent_priority: [1, 2, 3],
+            talent_priority: [3, 1, 2],
             weapon: ["Uraku Misugiri", "Harbinger of Dawn", "Wolf-Fang", "Cinnabar Spindle"],
             set: [
                 {
