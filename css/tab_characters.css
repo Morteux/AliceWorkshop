@@ -681,9 +681,10 @@
 .build_row > div {
     flex: 1;
 
-    height: 10vh;
+    /* height: 10vh; */
 
-    margin: 1vh 0.5vw;
+    /* margin: 1vh 0.5vw; */
+    /* margin-top: 1vh; */
 }
 
 .build_talent_separator {
@@ -822,6 +823,19 @@
     background: linear-gradient(to bottom right, transparent 50%, black 100%);
 }
 
+.artifact_substat {
+    font-size: small;
+}
+
+.artifact_img {
+    width: 3vw;
+    margin-left: 1vw;
+}
+
+.artifact_img_small {
+    width: 2.5vw;
+}
+
 .material_1_stars {
     background-color: var(--material_1_stars);
 }
@@ -840,13 +854,4 @@
 
 .material_5_stars {
     background-color: var(--material_5_stars);
-}
-
-.artifact_img {
-    width: 3vw;
-    margin-left: 1vw;
-}
-
-.artifact_img_small {
-    width: 2.5vw;
 }

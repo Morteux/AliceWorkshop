@@ -155,7 +155,8 @@ function getRandomTeamByCharacterBuild(character, build) {
         team_output = getTeamHTML(team, team_index, team_id, character_4);
     }
     else {
-        team_output = '<div class="build_no_info">No teams for ' + character + ' with build ' + build + ' found.</div>';
+        // team_output = '<div class="build_no_info">No teams for ' + character + ' with build ' + build + ' found.</div>';
+        team_output = 'No teams for ' + character + ' with build ' + build + ' found';
     }
 
     return team_output;
@@ -577,13 +578,13 @@ function getArtifactHTML(artifact_name, artifact_piece) {
     if (artifact) {
         artifactHTML = `
             <div class="weapon_container tooltip">
-                <img class="build_material_icon_small material_5_stars" src="` + artifact.images[artifact_piece] + `" alt="Artifact ` + artifact_piece + ` icon for ` + artifact.name + `">
+                <img class="build_material_icon_small material_5_stars" src="https://api.ambr.top/assets/UI/reliquary/` + artifact.images["filename_" + artifact_piece] + `.png" alt="Artifact ` + artifact_piece + ` icon for ` + artifact.name + `">
                 
                 <span class="tooltiptext">` + artifact.name + `</span>
             </div>
         `;
     }
-
+    
     return artifactHTML;
 }
 
@@ -607,7 +608,8 @@ function getMenuContentBuilds(character_name) {
                 }
             }
         } else {
-            weapons_build = `<div class="build_no_info">No weapon recommended</div>`;
+            // weapons_build = `<div class="build_no_info">No weapon recommended</div>`;
+            weapons_build = `No weapon recommended`;
         }
 
         let talents_priority = [];
@@ -619,9 +621,15 @@ function getMenuContentBuilds(character_name) {
 
                 if (talent_data) {
                     talents_priority.push(`
-                    <div class="build_talent_info">
-                        <img class="talent_img_small" src="images/UI/` + talent_data.images["filename_combat" + talent] + `.png">
-                    </div>
+                        <div class="build_talent_info">
+                            <img class="talent_img_small" src="images/UI/` + talent_data.images["filename_combat" + talent] + `.png" alt="Talent ` + talent + `">
+                        </div>
+                    `);
+                } else {
+                    talents_priority.push(`
+                        <div class="build_talent_info">
+                            Talent ` + talent + `
+                        </div>
                     `);
                 }
             }
@@ -630,7 +638,8 @@ function getMenuContentBuilds(character_name) {
 
             talents_priority = talents_priority.join(separator);
         } else {
-            talents_priority = `<div class="build_no_info">No talent priority</div>`;
+            // talents_priority = `<div class="build_no_info">No talent priority</div>`;
+            talents_priority = `No talent priority`;
         }
 
         let sets_build = [];
@@ -660,8 +669,34 @@ function getMenuContentBuilds(character_name) {
 
             sets_build = sets_build.join(`<div class="build_set_separator"></div>`);
         } else {
-            sets_build = `<div class="build_no_info">No artifacts recommended</div>`;
+            // sets_build = `<div class="build_no_info">No artifacts recommended</div>`;
+            sets_build = `No artifacts recommended`;
         }
+
+        let er_build = ``;
+        if(build.er_requirement != "") {
+            er_build = build.er_requirement;
+        } else {
+            // er_build = `<div class="build_no_info">No minimum ER required</div>`;
+            er_build = `No minimum ER required`;
+        }
+
+        let substats_build = ``;
+        if(build.subs_stat.length > 0) {
+            substats_build = build.subs_stat.join(" > ");
+        } else {
+            // substats_build = `<div class="build_no_info">No substats recommended</div>`;
+            substats_build = `No substats recommended`;
+        }
+
+        let constellation_build = ``;
+        if(build.constellation != "") {
+            constellation_build = `Constellation required: ` + build.constellation;
+        } else {
+            // constellation_build = `<div class="build_no_info">No minimun constellation required</div>`;
+            constellation_build = `No minimun constellation required`;
+        }
+
 
         content += `
                 <div class="menu_panel_column">
@@ -689,31 +724,31 @@ function getMenuContentBuilds(character_name) {
                     <div class="build_set_container">
                         <div class="build_set_info">
                             <img class="artifact_img_small" src="images/artifacts/Icon_Flower_of_Life.webp">
-                            <div class="">
+                            <div class="artifact_substat">
                                 HP
                             </div>
                         </div>
                         <div class="build_set_info">
                             <img class="artifact_img_small" src="images/artifacts/Icon_Plume_of_Death.webp">
-                            <div class="">
+                            <div class="artifact_substat">
                                 ATK
                             </div>
                         </div>
                         <div class="build_set_info">
                             <img class="artifact_img_small" src="images/artifacts/Icon_Sands_of_Eon.webp">
-                            <div class="">
+                            <div class="artifact_substat">
                                 ` + build.main_stat.sands + `
                             </div>
                         </div>
                         <div class="build_set_info">
                             <img class="artifact_img_small" src="images/artifacts/Icon_Goblet_of_Eonothem.webp">
-                            <div class="">
+                            <div class="artifact_substat">
                                 ` + build.main_stat.goblet + `
                             </div>
                         </div>
                         <div class="build_set_info">
                             <img class="artifact_img_small" src="images/artifacts/Icon_Circlet_of_Logos.webp">
-                            <div class="">
+                            <div class="artifact_substat">
                                 ` + build.main_stat.circlet + `
                             </div>
                         </div>
@@ -725,7 +760,7 @@ function getMenuContentBuilds(character_name) {
                                 ER requirement
                             </div>
                             <div class="build_substats">
-                                ` + (build.er_requirement != "" ? build.er_requirement : `<div class="build_no_info">No minimum ER required</div>`) + `
+                                ` + er_build + `
                             </div>
                         </div>
                         
@@ -745,7 +780,7 @@ function getMenuContentBuilds(character_name) {
                                 Substats priority
                             </div>
                             <div class="build_substats">
-                                ` + (build.subs_stat.length > 0 ? build.subs_stat.join(" > ") : `<div class="build_no_info">No substats recommended</div>`) + `
+                                ` + substats_build + `
                             </div>
                         </div>
                         
@@ -754,7 +789,7 @@ function getMenuContentBuilds(character_name) {
                                 Constellation
                             </div>
                             <div class="build_constellation_info">
-                                ` + (build.constellation != "" ? `Constellation required: ` + build.constellation : `<div class="build_no_info">No minimun constellation required</div>`) + `
+                                ` + constellation_build + `
                             </div>
                         </div>
                     </div>
