@@ -1,9 +1,54 @@
-const stats = {
-    "team_count": 429,
-    "team_count_flex": 1253,
+const STATS = {
+    "team_count": 430,
+    "team_count_flex": 1255,
+    "team_count_by_archetype": {
+        "MonoGeo": 4,
+        "MonoHydro": 14,
+        "MonoCryo": 3,
+        "MonoPyro": 23,
+        "MonoElectro": 1,
+        "Hypercarry": 46,
+        "Freeze": 35,
+        "National": 13,
+        "Vaporize": 54,
+        "Overvape": 8,
+        "Overload": 19,
+        "Taser": 22,
+        "Soup": 1,
+        "Melt": 18,
+        "Aggravate": 5,
+        "Spread": 2,
+        "Bloom": 3,
+        "Burgeon": 20,
+        "Oven": 18,
+        "Curry": 17,
+        "Sauté": 8,
+        "Fridge": 1,
+        "Salad": 3,
+        "Airfryer": 1,
+        "Hyperbloom": 39,
+        "Quickbloom": 22,
+        "HyperFridge": 32,
+        "Bain-Marie": 2
+    },
+    "team_count_by_element": {
+        "Pyro": 386,
+        "Electro": 347,
+        "Hydro": 522,
+        "Cryo": 448,
+        "Anemo": 362,
+        "Geo": 148,
+        "Dendro": 332
+    },
+    "team_count_by_viability": {
+        "Meta": 192,
+        "Viable": 190,
+        "Offmeta": 39,
+        "Unique": 9
+    },
     "characters": {
         "Aether": {
-            "team_count_ranking": 10,
+            "team_count_ranking": 11,
             "team_count": 142,
             "by_archetype": {
                 "MonoGeo": 0,
@@ -341,7 +386,7 @@ const stats = {
             },
             "ranking_by_element": 58,
             "ranking_by_viability": {
-                "Meta": 47,
+                "Meta": 48,
                 "Viable": 60,
                 "Offmeta": 0,
                 "Unique": 0
@@ -674,7 +719,7 @@ const stats = {
         },
         "Bennett": {
             "team_count_ranking": 2,
-            "team_count": 289,
+            "team_count": 291,
             "by_archetype": {
                 "MonoGeo": 0,
                 "MonoHydro": 0,
@@ -684,7 +729,7 @@ const stats = {
                 "Hypercarry": 31,
                 "Freeze": 0,
                 "National": 20,
-                "Vaporize": 103,
+                "Vaporize": 105,
                 "Overvape": 6,
                 "Overload": 13,
                 "Taser": 1,
@@ -706,13 +751,13 @@ const stats = {
                 "Bain-Marie": 0
             },
             "by_viability": {
-                "Meta": 94,
+                "Meta": 96,
                 "Viable": 151,
                 "Offmeta": 39,
                 "Unique": 5
             },
             "by_build": {
-                "Standard": 197,
+                "Standard": 199,
                 "C6": 55,
                 "TF": 1,
                 "Healer": 30,
@@ -911,7 +956,7 @@ const stats = {
             },
             "ranking_by_element": 64,
             "ranking_by_viability": {
-                "Meta": 47,
+                "Meta": 48,
                 "Viable": 75,
                 "Offmeta": 44,
                 "Unique": 0
@@ -1081,8 +1126,8 @@ const stats = {
             }
         },
         "Xiangling": {
-            "team_count_ranking": 16,
-            "team_count": 123,
+            "team_count_ranking": 15,
+            "team_count": 124,
             "by_archetype": {
                 "MonoGeo": 3,
                 "MonoHydro": 0,
@@ -1092,7 +1137,7 @@ const stats = {
                 "Hypercarry": 8,
                 "Freeze": 0,
                 "National": 20,
-                "Vaporize": 8,
+                "Vaporize": 9,
                 "Overvape": 2,
                 "Overload": 14,
                 "Taser": 0,
@@ -1114,13 +1159,13 @@ const stats = {
                 "Bain-Marie": 2
             },
             "by_viability": {
-                "Meta": 53,
+                "Meta": 54,
                 "Viable": 60,
                 "Offmeta": 8,
                 "Unique": 2
             },
             "by_build": {
-                "Standard": 100,
+                "Standard": 101,
                 "SoloPyro": 18,
                 "EM": 5,
                 "Nacho": 0
@@ -1134,7 +1179,7 @@ const stats = {
                 "Hypercarry": 21,
                 "Freeze": 0,
                 "National": 1,
-                "Vaporize": 23,
+                "Vaporize": 22,
                 "Overvape": 5,
                 "Overload": 3,
                 "Taser": 0,
@@ -1155,7 +1200,7 @@ const stats = {
                 "HyperFridge": 0,
                 "Bain-Marie": 3
             },
-            "ranking_by_element": 15,
+            "ranking_by_element": 14,
             "ranking_by_viability": {
                 "Meta": 13,
                 "Viable": 12,
@@ -1485,7 +1530,7 @@ const stats = {
             }
         },
         "Kaeya": {
-            "team_count_ranking": 23,
+            "team_count_ranking": 24,
             "team_count": 64,
             "by_archetype": {
                 "MonoGeo": 0,
@@ -1557,7 +1602,7 @@ const stats = {
                 "HyperFridge": 11,
                 "Bain-Marie": 0
             },
-            "ranking_by_element": 22,
+            "ranking_by_element": 23,
             "ranking_by_viability": {
                 "Meta": 39,
                 "Viable": 20,
@@ -1889,8 +1934,8 @@ const stats = {
             }
         },
         "Klee": {
-            "team_count_ranking": 24,
-            "team_count": 63,
+            "team_count_ranking": 23,
+            "team_count": 65,
             "by_archetype": {
                 "MonoGeo": 0,
                 "MonoHydro": 0,
@@ -1900,7 +1945,7 @@ const stats = {
                 "Hypercarry": 0,
                 "Freeze": 0,
                 "National": 0,
-                "Vaporize": 36,
+                "Vaporize": 38,
                 "Overvape": 1,
                 "Overload": 4,
                 "Taser": 0,
@@ -1922,13 +1967,13 @@ const stats = {
                 "Bain-Marie": 0
             },
             "by_viability": {
-                "Meta": 6,
+                "Meta": 8,
                 "Viable": 28,
                 "Offmeta": 23,
                 "Unique": 6
             },
             "by_build": {
-                "Standard": 45,
+                "Standard": 47,
                 "Monopyro": 8,
                 "Burger": 5,
                 "Support": 5,
@@ -1964,9 +2009,9 @@ const stats = {
                 "HyperFridge": 0,
                 "Bain-Marie": 0
             },
-            "ranking_by_element": 23,
+            "ranking_by_element": 22,
             "ranking_by_viability": {
-                "Meta": 47,
+                "Meta": 46,
                 "Viable": 30,
                 "Offmeta": 6,
                 "Unique": 3
@@ -2507,7 +2552,7 @@ const stats = {
                 "Hypercarry": 0,
                 "Freeze": 0,
                 "National": 0,
-                "Vaporize": 10,
+                "Vaporize": 11,
                 "Overvape": 0,
                 "Overload": 14,
                 "Taser": 0,
@@ -2772,7 +2817,7 @@ const stats = {
             },
             "ranking_by_element": 58,
             "ranking_by_viability": {
-                "Meta": 47,
+                "Meta": 48,
                 "Viable": 60,
                 "Offmeta": 0,
                 "Unique": 0
@@ -2780,7 +2825,7 @@ const stats = {
         },
         "Kaedehara Kazuha": {
             "team_count_ranking": 10,
-            "team_count": 142,
+            "team_count": 143,
             "by_archetype": {
                 "MonoGeo": 0,
                 "MonoHydro": 6,
@@ -2790,7 +2835,7 @@ const stats = {
                 "Hypercarry": 11,
                 "Freeze": 48,
                 "National": 3,
-                "Vaporize": 21,
+                "Vaporize": 22,
                 "Overvape": 1,
                 "Overload": 0,
                 "Taser": 9,
@@ -2812,13 +2857,13 @@ const stats = {
                 "Bain-Marie": 0
             },
             "by_viability": {
-                "Meta": 43,
+                "Meta": 44,
                 "Viable": 67,
                 "Offmeta": 30,
                 "Unique": 2
             },
             "by_build": {
-                "Standard": 142,
+                "Standard": 143,
                 "Nacho": 0
             },
             "ranking_by_archetype": {
@@ -2830,7 +2875,7 @@ const stats = {
                 "Hypercarry": 16,
                 "Freeze": 2,
                 "National": 6,
-                "Vaporize": 10,
+                "Vaporize": 9,
                 "Overvape": 10,
                 "Overload": 0,
                 "Taser": 8,
@@ -2853,7 +2898,7 @@ const stats = {
             },
             "ranking_by_element": 10,
             "ranking_by_viability": {
-                "Meta": 16,
+                "Meta": 15,
                 "Viable": 10,
                 "Offmeta": 2,
                 "Unique": 8
@@ -3479,7 +3524,7 @@ const stats = {
                 "Hypercarry": 0,
                 "Freeze": 0,
                 "National": 0,
-                "Vaporize": 23,
+                "Vaporize": 24,
                 "Overvape": 0,
                 "Overload": 0,
                 "Taser": 0,
@@ -3719,7 +3764,7 @@ const stats = {
                 "Hypercarry": 33,
                 "Freeze": 0,
                 "National": 0,
-                "Vaporize": 23,
+                "Vaporize": 24,
                 "Overvape": 0,
                 "Overload": 0,
                 "Taser": 0,
@@ -3823,7 +3868,7 @@ const stats = {
             },
             "ranking_by_element": 41,
             "ranking_by_viability": {
-                "Meta": 47,
+                "Meta": 48,
                 "Viable": 34,
                 "Offmeta": 36,
                 "Unique": 0
@@ -6009,7 +6054,7 @@ const stats = {
         },
         "Furina": {
             "team_count_ranking": 1,
-            "team_count": 583,
+            "team_count": 585,
             "by_archetype": {
                 "MonoGeo": 0,
                 "MonoHydro": 23,
@@ -6019,7 +6064,7 @@ const stats = {
                 "Hypercarry": 62,
                 "Freeze": 60,
                 "National": 9,
-                "Vaporize": 178,
+                "Vaporize": 180,
                 "Overvape": 8,
                 "Overload": 0,
                 "Taser": 29,
@@ -6041,13 +6086,13 @@ const stats = {
                 "Bain-Marie": 4
             },
             "by_viability": {
-                "Meta": 298,
+                "Meta": 300,
                 "Viable": 268,
                 "Offmeta": 14,
                 "Unique": 3
             },
             "by_build": {
-                "Standard": 583
+                "Standard": 585
             },
             "ranking_by_archetype": {
                 "MonoGeo": 0,
@@ -6168,7 +6213,7 @@ const stats = {
             }
         },
         "Navia": {
-            "team_count_ranking": 24,
+            "team_count_ranking": 25,
             "team_count": 63,
             "by_archetype": {
                 "MonoGeo": 3,
@@ -6239,7 +6284,7 @@ const stats = {
                 "HyperFridge": 0,
                 "Bain-Marie": 0
             },
-            "ranking_by_element": 23,
+            "ranking_by_element": 24,
             "ranking_by_viability": {
                 "Meta": 14,
                 "Viable": 44,
@@ -6572,11 +6617,11 @@ const stats = {
     "global_team_ranking": {
         "1": {
             "name": "Furina",
-            "team_count": 583
+            "team_count": 585
         },
         "2": {
             "name": "Bennett",
-            "team_count": 289
+            "team_count": 291
         },
         "3": {
             "name": "Xingqiu",
@@ -6607,11 +6652,11 @@ const stats = {
             "team_count": 156
         },
         "10": {
-            "name": "Aether",
-            "team_count": 142
+            "name": "Kaedehara Kazuha",
+            "team_count": 143
         },
         "11": {
-            "name": "Kaedehara Kazuha",
+            "name": "Aether",
             "team_count": 142
         },
         "12": {
@@ -6627,12 +6672,12 @@ const stats = {
             "team_count": 127
         },
         "15": {
-            "name": "Kuki Shinobu",
+            "name": "Xiangling",
             "team_count": 124
         },
         "16": {
-            "name": "Xiangling",
-            "team_count": 123
+            "name": "Kuki Shinobu",
+            "team_count": 124
         },
         "17": {
             "name": "Thoma",
@@ -6659,12 +6704,12 @@ const stats = {
             "team_count": 72
         },
         "23": {
-            "name": "Kaeya",
-            "team_count": 64
+            "name": "Klee",
+            "team_count": 65
         },
         "24": {
-            "name": "Klee",
-            "team_count": 63
+            "name": "Kaeya",
+            "team_count": 64
         },
         "25": {
             "name": "Navia",
@@ -6895,7 +6940,7 @@ const stats = {
             "team_count": 0
         },
         "Aether": {
-            "rank": 10,
+            "rank": 11,
             "team_count": 142
         },
         "Lumine": {
@@ -6928,7 +6973,7 @@ const stats = {
         },
         "Bennett": {
             "rank": 2,
-            "team_count": 289
+            "team_count": 291
         },
         "Fischl": {
             "rank": 5,
@@ -6947,8 +6992,8 @@ const stats = {
             "team_count": 50
         },
         "Xiangling": {
-            "rank": 16,
-            "team_count": 123
+            "rank": 15,
+            "team_count": 124
         },
         "Venti": {
             "rank": 37,
@@ -6967,7 +7012,7 @@ const stats = {
             "team_count": 28
         },
         "Kaeya": {
-            "rank": 23,
+            "rank": 24,
             "team_count": 64
         },
         "Barbara": {
@@ -6987,8 +7032,8 @@ const stats = {
             "team_count": 36
         },
         "Klee": {
-            "rank": 24,
-            "team_count": 63
+            "rank": 23,
+            "team_count": 65
         },
         "Tartaglia": {
             "rank": 6,
@@ -7031,8 +7076,8 @@ const stats = {
             "team_count": 11
         },
         "Kaedehara Kazuha": {
-            "rank": 11,
-            "team_count": 142
+            "rank": 10,
+            "team_count": 143
         },
         "Kamisato Ayaka": {
             "rank": 51,
@@ -7095,7 +7140,7 @@ const stats = {
             "team_count": 159
         },
         "Kuki Shinobu": {
-            "rank": 15,
+            "rank": 16,
             "team_count": 124
         },
         "Shikanoin Heizou": {
@@ -7192,7 +7237,7 @@ const stats = {
         },
         "Furina": {
             "rank": 1,
-            "team_count": 583
+            "team_count": 585
         },
         "Charlotte": {
             "rank": 36,
@@ -12423,11 +12468,11 @@ const stats = {
         "Vaporize": {
             "1": {
                 "name": "Furina",
-                "team_count": 178
+                "team_count": 180
             },
             "2": {
                 "name": "Bennett",
-                "team_count": 103
+                "team_count": 105
             },
             "3": {
                 "name": "Xianyun",
@@ -12447,7 +12492,7 @@ const stats = {
             },
             "7": {
                 "name": "Klee",
-                "team_count": 36
+                "team_count": 38
             },
             "8": {
                 "name": "Jean",
@@ -12458,11 +12503,11 @@ const stats = {
                 "team_count": 22
             },
             "10": {
-                "name": "Hu Tao",
-                "team_count": 21
+                "name": "Kaedehara Kazuha",
+                "team_count": 22
             },
             "11": {
-                "name": "Kaedehara Kazuha",
+                "name": "Hu Tao",
                 "team_count": 21
             },
             "12": {
@@ -12511,7 +12556,7 @@ const stats = {
             },
             "23": {
                 "name": "Xiangling",
-                "team_count": 8
+                "team_count": 9
             },
             "24": {
                 "name": "Thoma",
@@ -12779,7 +12824,7 @@ const stats = {
             },
             "Bennett": {
                 "rank": 2,
-                "team_count": 103
+                "team_count": 105
             },
             "Fischl": {
                 "rank": 62,
@@ -12799,7 +12844,7 @@ const stats = {
             },
             "Xiangling": {
                 "rank": 23,
-                "team_count": 8
+                "team_count": 9
             },
             "Venti": {
                 "rank": 27,
@@ -12839,7 +12884,7 @@ const stats = {
             },
             "Klee": {
                 "rank": 7,
-                "team_count": 36
+                "team_count": 38
             },
             "Tartaglia": {
                 "rank": 66,
@@ -12866,7 +12911,7 @@ const stats = {
                 "team_count": 1
             },
             "Hu Tao": {
-                "rank": 10,
+                "rank": 11,
                 "team_count": 21
             },
             "Rosaria": {
@@ -12882,8 +12927,8 @@ const stats = {
                 "team_count": 1
             },
             "Kaedehara Kazuha": {
-                "rank": 11,
-                "team_count": 21
+                "rank": 10,
+                "team_count": 22
             },
             "Kamisato Ayaka": {
                 "rank": 44,
@@ -13043,7 +13088,7 @@ const stats = {
             },
             "Furina": {
                 "rank": 1,
-                "team_count": 178
+                "team_count": 180
             },
             "Charlotte": {
                 "rank": 14,
@@ -25425,19 +25470,19 @@ const stats = {
         "Pyro": {
             "2": {
                 "name": "Bennett",
-                "team_count": 289
+                "team_count": 291
             },
-            "15": {
+            "14": {
                 "name": "Xiangling",
-                "team_count": 123
+                "team_count": 124
             },
             "16": {
                 "name": "Thoma",
                 "team_count": 108
             },
-            "23": {
+            "22": {
                 "name": "Klee",
-                "team_count": 63
+                "team_count": 65
             },
             "26": {
                 "name": "Lyney",
@@ -25497,11 +25542,11 @@ const stats = {
             },
             "Bennett": {
                 "rank": 2,
-                "team_count": 289
+                "team_count": 291
             },
             "Xiangling": {
-                "rank": 15,
-                "team_count": 123
+                "rank": 14,
+                "team_count": 124
             },
             "Amber": {
                 "rank": 76,
@@ -25512,8 +25557,8 @@ const stats = {
                 "team_count": 28
             },
             "Klee": {
-                "rank": 23,
-                "team_count": 63
+                "rank": 22,
+                "team_count": 65
             },
             "Xinyan": {
                 "rank": 70,
@@ -25661,7 +25706,7 @@ const stats = {
         "Hydro": {
             "1": {
                 "name": "Furina",
-                "team_count": 583
+                "team_count": 585
             },
             "3": {
                 "name": "Xingqiu",
@@ -25761,7 +25806,7 @@ const stats = {
             },
             "Furina": {
                 "rank": 1,
-                "team_count": 583
+                "team_count": 585
             }
         },
         "Cryo": {
@@ -25781,7 +25826,7 @@ const stats = {
                 "name": "Ganyu",
                 "team_count": 72
             },
-            "22": {
+            "23": {
                 "name": "Kaeya",
                 "team_count": 64
             },
@@ -25850,7 +25895,7 @@ const stats = {
                 "team_count": 5
             },
             "Kaeya": {
-                "rank": 22,
+                "rank": 23,
                 "team_count": 64
             },
             "Diona": {
@@ -25909,7 +25954,7 @@ const stats = {
             },
             "10": {
                 "name": "Kaedehara Kazuha",
-                "team_count": 142
+                "team_count": 143
             },
             "17": {
                 "name": "Jean",
@@ -25981,7 +26026,7 @@ const stats = {
             },
             "Kaedehara Kazuha": {
                 "rank": 10,
-                "team_count": 142
+                "team_count": 143
             },
             "Sayu": {
                 "rank": 37,
@@ -26009,7 +26054,7 @@ const stats = {
             }
         },
         "Geo": {
-            "23": {
+            "24": {
                 "name": "Navia",
                 "team_count": 63
             },
@@ -26090,7 +26135,7 @@ const stats = {
                 "team_count": 13
             },
             "Navia": {
-                "rank": 23,
+                "rank": 24,
                 "team_count": 63
             },
             "Chiori": {
@@ -26185,7 +26230,7 @@ const stats = {
         "Meta": {
             "1": {
                 "name": "Furina",
-                "team_count": 298
+                "team_count": 300
             },
             "2": {
                 "name": "Raiden Shogun",
@@ -26193,7 +26238,7 @@ const stats = {
             },
             "3": {
                 "name": "Bennett",
-                "team_count": 94
+                "team_count": 96
             },
             "4": {
                 "name": "Neuvillette",
@@ -26233,19 +26278,19 @@ const stats = {
             },
             "13": {
                 "name": "Xiangling",
-                "team_count": 53
+                "team_count": 54
             },
             "14": {
                 "name": "Navia",
                 "team_count": 47
             },
             "15": {
-                "name": "Xianyun",
+                "name": "Kaedehara Kazuha",
                 "team_count": 44
             },
             "16": {
-                "name": "Kaedehara Kazuha",
-                "team_count": 43
+                "name": "Xianyun",
+                "team_count": 44
             },
             "17": {
                 "name": "Thoma",
@@ -26368,15 +26413,15 @@ const stats = {
                 "team_count": 8
             },
             "47": {
+                "name": "Klee",
+                "team_count": 8
+            },
+            "48": {
                 "name": "Keqing",
                 "team_count": 6
             },
-            "48": {
-                "name": "Ningguang",
-                "team_count": 6
-            },
             "49": {
-                "name": "Klee",
+                "name": "Ningguang",
                 "team_count": 6
             },
             "50": {
@@ -26520,7 +26565,7 @@ const stats = {
                 "team_count": 9
             },
             "Keqing": {
-                "rank": 47,
+                "rank": 48,
                 "team_count": 6
             },
             "Mona": {
@@ -26541,14 +26586,14 @@ const stats = {
             },
             "Bennett": {
                 "rank": 3,
-                "team_count": 94
+                "team_count": 96
             },
             "Fischl": {
                 "rank": 7,
                 "team_count": 73
             },
             "Ningguang": {
-                "rank": 48,
+                "rank": 49,
                 "team_count": 6
             },
             "Xingqiu": {
@@ -26561,7 +26606,7 @@ const stats = {
             },
             "Xiangling": {
                 "rank": 13,
-                "team_count": 53
+                "team_count": 54
             },
             "Venti": {
                 "rank": 25,
@@ -26600,8 +26645,8 @@ const stats = {
                 "team_count": 10
             },
             "Klee": {
-                "rank": 49,
-                "team_count": 6
+                "rank": 47,
+                "team_count": 8
             },
             "Tartaglia": {
                 "rank": 44,
@@ -26644,8 +26689,8 @@ const stats = {
                 "team_count": 6
             },
             "Kaedehara Kazuha": {
-                "rank": 16,
-                "team_count": 43
+                "rank": 15,
+                "team_count": 44
             },
             "Kamisato Ayaka": {
                 "rank": 29,
@@ -26805,7 +26850,7 @@ const stats = {
             },
             "Furina": {
                 "rank": 1,
-                "team_count": 298
+                "team_count": 300
             },
             "Charlotte": {
                 "rank": 31,
@@ -26820,7 +26865,7 @@ const stats = {
                 "team_count": 13
             },
             "Xianyun": {
-                "rank": 15,
+                "rank": 16,
                 "team_count": 44
             },
             "Gaming": {

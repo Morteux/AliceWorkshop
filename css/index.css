@@ -6,6 +6,10 @@
 
     --secondary_color_opacity: #5c547085;
 
+    --high_rank: #80ff46;
+    --medium_rank: aliceblue;
+    --low_rank: #ff2e2e;
+
     /* Teams colors */
     --meta_team: #dc1414;
     --viable_team: #00c0e2;

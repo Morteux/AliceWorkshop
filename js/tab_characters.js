@@ -810,8 +810,151 @@ function getMenuContentBuilds(character_name) {
 
     return content;
 }
+
+function printCharts() {
+    // new Chart(document.getElementById('media_type_count'), {
+    //     type: 'pie',
+    //     data: {
+    //         labels: ELEMENTS,
+    //         datasets: [{
+    //             label: 'Count',
+    //             data: media_type_count,
+    //             backgroundColor: MEDIA_TYPE_COLORS,
+    //             hoverOffset: 4
+    //         }]
+    //     },
+    //     options: {
+    //         plugins: {
+    //             legend: {
+    //                 position: 'right',
+    //             },
+    //             title: {
+    //                 display: true,
+    //                 text: 'Media types count',
+    //             }
+    //         }
+    //     }
+    // });
+}
+
 function getMenuContentCharts(character_name) {
     let content = ``;
+
+    let total_characters = CHARACTER_NAMES.length;
+    let total_teams = STATS.team_count_flex;
+
+    let team_count_ranking_class = `low_rank`;
+    let team_count_class = `low_rank`;
+
+    if(STATS.characters[character_name].team_count_ranking < (total_characters * 0.75)) {
+        team_count_ranking_class = `high_rank`;
+    } else if(STATS.characters[character_name].team_count_ranking < (total_characters * 0.25)) {
+        team_count_ranking_class = `medium_rank`;
+    }
+
+    if(STATS.characters[character_name].team_count > (total_teams * 0.25)) {
+        team_count_class = `high_rank`;
+    } else if(STATS.characters[character_name].team_count > (total_teams * 0.05)) {
+        team_count_class = `medium_rank`;
+    }
+
+    // calculateRankingByTeam
+    content += `
+        <div id="ranking_by_team" class="ranking_panel">
+            <div class="ranking_title">
+                Ranking by teams
+            </div>
+
+            <div class="ranking_row">
+                <div class="rank_column">
+                    <div class="rank_container">
+                        <div class="rank_tag">
+                            Rank
+                        </div>
+
+                        <div class="rank_value">
+                        <span class="` + team_count_ranking_class + `">` + STATS.characters[character_name].team_count_ranking + `</span>/` + total_characters + `
+                        </div>
+                    </div>
+
+                    <div class="rank_container">
+                        <div class="rank_tag">
+                            Teams
+                        </div>
+
+                        <div class="rank_value">
+                        <span class="` + team_count_class + `">` + STATS.characters[character_name].team_count + `</span>/` + total_teams + ` (` + ((STATS.characters[character_name].team_count / total_teams) * 100).toFixed(2) + `%)
+                        </div>
+                    </div>
+                </div>
+
+                <div class="rank_chart_container">
+                    <div class="">
+                        Charts
+                    </div>
+                </div>
+            </div>
+        </div>
+    `;
+
+    // calculateRankingByArchetype
+    content += `
+        <div id="ranking_by_archetype" class="ranking_panel">
+            <div class="ranking_title">
+                Ranking by archetype
+            </div>
+
+            <div class="ranking_row">
+                <div class="rank_column">
+                    <div class="rank_container">
+                        <div class="rank_tag">
+                            Rank
+                        </div>
+
+                        <div class="rank_value">
+                        <span class="` + team_count_ranking_class + `">` + STATS.characters[character_name].team_count_ranking + `</span>/` + total_characters + `
+                        </div>
+                    </div>
+
+                    <div class="rank_container">
+                        <div class="rank_tag">
+                            Teams
+                        </div>
+
+                        <div class="rank_value">
+                        <span class="` + team_count_class + `">` + STATS.characters[character_name].team_count + `</span>/` + total_teams + `
+                        </div>
+                    </div>
+                </div>
+
+                <div class="rank_chart_container">
+                    <div class="">
+                        Charts
+                    </div>
+                </div>
+            </div>
+        </div>
+    `;
+
+    // calculateRankingByElement
+    content += `
+        <div id="ranking_by_element" class="ranking_panel">
+            <div class="ranking_title">
+                Ranking by element
+            </div>
+        </div>
+    `;
+
+    // calculateRankingByViability
+    content += `
+        <div id="ranking_by_viability" class="ranking_panel">
+            <div class="ranking_title">
+                Ranking by viability
+            </div>
+        </div>
+    `;
+
+
 
     return content;
 }
@@ -961,4 +1104,7 @@ function printCharacterInfoHTML(character_name) {
         updateWeaponRefinement();
         updateWeaponMaterial();
     }
+
+    // Print charts after HTML is loaded
+    printCharts();
 }
