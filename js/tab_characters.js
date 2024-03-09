@@ -420,7 +420,7 @@ function getWeaponHTML(weapon_name) {
 
     weaponHTML = `
         <div class="weapon_container tooltip">
-            <img class="material_icon_small ` + rarity_class + `" src="images/UI/` + weapon.images.filename_awakenIcon + `.png" alt="Material icon for ` + weapon.name + `">
+            <img class="build_material_icon_small ` + rarity_class + `" src="images/UI/` + weapon.images.filename_awakenIcon + `.png" alt="Material icon for ` + weapon.name + `">
             
             <span class="tooltiptext">` + weapon.name + `</span>
         </div>
@@ -577,7 +577,7 @@ function getArtifactHTML(artifact_name, artifact_piece) {
     if (artifact) {
         artifactHTML = `
             <div class="weapon_container tooltip">
-                <img class="material_icon_small material_5_stars" src="` + artifact.images[artifact_piece] + `" alt="Artifact ` + artifact_piece + ` icon for ` + artifact.name + `">
+                <img class="build_material_icon_small material_5_stars" src="` + artifact.images[artifact_piece] + `" alt="Artifact ` + artifact_piece + ` icon for ` + artifact.name + `">
                 
                 <span class="tooltiptext">` + artifact.name + `</span>
             </div>
@@ -660,7 +660,7 @@ function getMenuContentBuilds(character_name) {
 
             sets_build = sets_build.join(`<div class="build_set_separator"></div>`);
         } else {
-            artifacts_build = `<div class="build_no_info">No artifacts recommended</div>`;
+            sets_build = `<div class="build_no_info">No artifacts recommended</div>`;
         }
 
         content += `
@@ -688,31 +688,31 @@ function getMenuContentBuilds(character_name) {
                     </div>
                     <div class="build_set_container">
                         <div class="build_set_info">
-                            <img class="talent_img_small" src="images/artifacts/Icon_Flower_of_Life.webp">
+                            <img class="artifact_img_small" src="images/artifacts/Icon_Flower_of_Life.webp">
                             <div class="">
                                 HP
                             </div>
                         </div>
                         <div class="build_set_info">
-                            <img class="talent_img_small" src="images/artifacts/Icon_Plume_of_Death.webp">
+                            <img class="artifact_img_small" src="images/artifacts/Icon_Plume_of_Death.webp">
                             <div class="">
                                 ATK
                             </div>
                         </div>
                         <div class="build_set_info">
-                            <img class="talent_img_small" src="images/artifacts/Icon_Sands_of_Eon.webp">
+                            <img class="artifact_img_small" src="images/artifacts/Icon_Sands_of_Eon.webp">
                             <div class="">
                                 ` + build.main_stat.sands + `
                             </div>
                         </div>
                         <div class="build_set_info">
-                            <img class="talent_img_small" src="images/artifacts/Icon_Goblet_of_Eonothem.webp">
+                            <img class="artifact_img_small" src="images/artifacts/Icon_Goblet_of_Eonothem.webp">
                             <div class="">
                                 ` + build.main_stat.goblet + `
                             </div>
                         </div>
                         <div class="build_set_info">
-                            <img class="talent_img_small" src="images/artifacts/Icon_Circlet_of_Logos.webp">
+                            <img class="artifact_img_small" src="images/artifacts/Icon_Circlet_of_Logos.webp">
                             <div class="">
                                 ` + build.main_stat.circlet + `
                             </div>
