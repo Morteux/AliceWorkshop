@@ -1,3 +1,14 @@
+const ELEMENT_COLORS = {
+    Pyro: "rgb(177, 46, 48)",
+    Electro: "rgb(132, 16, 233)",
+    Dendro: "rgb(145, 201, 14)",
+    Anemo: "rgb(14, 192, 103)",
+    Cryo: "rgb(163, 227, 239)",
+    Geo: "rgb(255, 216, 59)",
+    Hydro: "rgb(1, 229, 255)",
+    Flex: "rgb(255, 100, 172)",
+};
+
 const regex_color_start_tag = /<color=\#........>/g;
 const regex_color_end_tag = /<\/color>/g;
 
@@ -12,6 +23,12 @@ var character_charts;
 var teams_keys = shuffle(Object.keys(teams));
 
 document.addEventListener("DOMContentLoaded", (event) => {
+    // Chart JS config
+    Chart.defaults.color = "aliceblue";
+    Chart.defaults.font.family = "GenshinImpact";
+    // Chart.defaults.font.size = "large";
+    // Chart.defaults.font.weight = "bold";
+
     resetMenuCharacters();
     printAllCharacters();
 
@@ -584,7 +601,7 @@ function getArtifactHTML(artifact_name, artifact_piece) {
             </div>
         `;
     }
-    
+
     return artifactHTML;
 }
 
@@ -674,7 +691,7 @@ function getMenuContentBuilds(character_name) {
         }
 
         let er_build = ``;
-        if(build.er_requirement != "") {
+        if (build.er_requirement != "") {
             er_build = build.er_requirement;
         } else {
             // er_build = `<div class="build_no_info">No minimum ER required</div>`;
@@ -682,7 +699,7 @@ function getMenuContentBuilds(character_name) {
         }
 
         let substats_build = ``;
-        if(build.subs_stat.length > 0) {
+        if (build.subs_stat.length > 0) {
             substats_build = build.subs_stat.join(" > ");
         } else {
             // substats_build = `<div class="build_no_info">No substats recommended</div>`;
@@ -690,7 +707,7 @@ function getMenuContentBuilds(character_name) {
         }
 
         let constellation_build = ``;
-        if(build.constellation != "") {
+        if (build.constellation != "") {
             constellation_build = `Constellation required: ` + build.constellation;
         } else {
             // constellation_build = `<div class="build_no_info">No minimun constellation required</div>`;
@@ -810,8 +827,340 @@ function getMenuContentBuilds(character_name) {
 
     return content;
 }
+
+function getChartTeams(character_name) {
+    let character = getCharacter(character_name);
+    let color = (character.elementText != 'None' ? ELEMENT_COLORS[character.elementText] : ELEMENT_COLORS['Flex']);
+
+    let colors = [color, 'gray'];
+
+    new Chart(document.getElementById('ranking_by_team_chart'), {
+        type: 'pie',
+        data: {
+            labels: [character_name, 'All'],
+            datasets: [{
+                label: 'Teams',
+                data: [STATS.characters[character_name].team_count, STATS.team_count_flex - STATS.characters[character_name].team_count],
+                backgroundColor: colors,
+                hoverOffset: 4
+            }]
+        },
+        options: {
+            plugins: {
+                legend: {
+                    position: 'right',
+                },
+                title: {
+                    display: false,
+                    text: '',
+                }
+            }
+        }
+    });
+}
+
+function getRankingTeams(character_name) {
+    let teams_table = ``;
+
+    let total_characters = CHARACTER_NAMES.length;
+    let total_teams = STATS.team_count_flex;
+
+    let team_count_ranking_class = `low_rank`;
+    let team_count_class = `low_rank`;
+
+    if (STATS.characters[character_name].team_count_ranking < (total_characters * 0.75)) {
+        team_count_ranking_class = `high_rank`;
+    } else if (STATS.characters[character_name].team_count_ranking < (total_characters * 0.25)) {
+        team_count_ranking_class = `medium_rank`;
+    }
+
+    if (STATS.characters[character_name].team_count > (total_teams * 0.25)) {
+        team_count_class = `high_rank`;
+    } else if (STATS.characters[character_name].team_count > (total_teams * 0.05)) {
+        team_count_class = `medium_rank`;
+    }
+
+    teams_table = `
+    <div class="rank_container">
+        <div class="rank_tag">
+            Rank
+        </div>
+
+        <div class="rank_value">
+        <span class="` + team_count_ranking_class + `">` + STATS.characters[character_name].team_count_ranking + `</span>/` + total_characters + `
+        </div>
+    </div>
+
+    <div class="rank_container">
+        <div class="rank_tag">
+            Teams
+        </div>
+
+        <div class="rank_value">
+        <span class="` + team_count_class + `">` + STATS.characters[character_name].team_count + `</span>/` + total_teams + ` (` + ((STATS.characters[character_name].team_count / total_teams) * 100).toFixed(2) + `%)
+        </div>
+    </div>`;
+
+    return teams_table;
+}
+
+function getRankingArchetypes(character_name) {
+    let archetype_table = ``;
+
+    let total_characters = CHARACTER_NAMES.length;
+
+    let is_first_row = true;
+
+    for (let archetype of ARCHETYPES_NAMES) {
+
+        let archetype_count = STATS.characters[character_name].by_archetype[archetype];
+        let global_archetype_count = STATS.team_count_by_archetype[archetype];
+        let rank = STATS.global_archetype_ranking[archetype][character_name].rank;
+
+        let team_count_ranking_class = `low_rank`;
+        let team_count_class = `low_rank`;
+
+        if (rank < (total_characters * 0.75)) {
+            team_count_ranking_class = `high_rank`;
+        } else if (rank < (total_characters * 0.25)) {
+            team_count_ranking_class = `medium_rank`;
+        }
+
+        if (archetype_count > (global_archetype_count * 0.25)) {
+            team_count_class = `high_rank`;
+        } else if (archetype_count > (global_archetype_count * 0.05)) {
+            team_count_class = `medium_rank`;
+        }
+
+        if (archetype_count > 0) {
+            archetype_table += `
+            <div class="rank_row ` + (is_first_row ? `rank_row_top` : ``) + `">
+                <div class="rank_data_long">
+                    ` + archetype + `
+                </div>
+                <div class="rank_data">
+                    <span class="` + team_count_ranking_class + `">` + rank + `</span>/` + total_characters + `
+                </div>
+                <div class="rank_data">
+                    <span class="` + team_count_class + `">` + archetype_count + `</span>/` + global_archetype_count + `
+                </div>
+                <div class="rank_data">
+                    <span class="">` + ((archetype_count / global_archetype_count) * 100).toFixed(2) + `%
+                </div>
+            </div>`;
+
+            is_first_row = false;
+        }
+    }
+
+    return archetype_table;
+}
+
+function getRankingElements(character_name) {
+    let element_table = ``;
+
+    let total_characters = CHARACTER_NAMES.length;
+
+    let is_first_row = true;
+
+    for (let element of ELEMENTS) {
+
+        if (STATS.global_element_ranking[element][character_name]) {
+
+            let element_count = STATS.global_element_ranking[element][character_name].team_count;
+            let global_element_count = STATS.team_count_by_element[element];
+            let rank = STATS.global_element_ranking[element][character_name].rank;
+
+            let team_count_ranking_class = `low_rank`;
+            let team_count_class = `low_rank`;
+
+            if (rank < (total_characters * 0.75)) {
+                team_count_ranking_class = `high_rank`;
+            } else if (rank < (total_characters * 0.25)) {
+                team_count_ranking_class = `medium_rank`;
+            }
+
+            if (element_count > (global_element_count * 0.25)) {
+                team_count_class = `high_rank`;
+            } else if (element_count > (global_element_count * 0.05)) {
+                team_count_class = `medium_rank`;
+            }
+
+            if (element_count > 0) {
+                element_table += `
+                <div class="rank_row ` + (is_first_row ? `rank_row_top` : ``) + `">
+                    <div class="rank_data_long">
+                        ` + element + `
+                    </div>
+                    <div class="rank_data">
+                        <span class="` + team_count_ranking_class + `">` + rank + `</span>/` + STATS.count_characters_by_element[element] + `
+                    </div>
+                    <div class="rank_data">
+                        <span class="` + team_count_class + `">` + element_count + `</span>/` + global_element_count + `
+                    </div>
+                    <div class="rank_data">
+                        <span class="">` + ((element_count / global_element_count) * 100).toFixed(2) + `%
+                    </div>
+                </div>`;
+
+                is_first_row = false;
+            }
+        }
+    }
+
+    return element_table;
+}
+
+function getRankingViabilities(character_name) {
+    let viability_table = ``;
+
+    let total_characters = CHARACTER_NAMES.length;
+
+    let is_first_row = true;
+
+    for (let viability of VIABILITIES) {
+
+        let viability_count = STATS.characters[character_name].by_viability[viability];
+        let global_viability_count = STATS.team_count_by_viability[viability];
+        let rank = STATS.global_viability_ranking[viability][character_name].rank;
+
+        let team_count_ranking_class = `low_rank`;
+        let team_count_class = `low_rank`;
+
+        if (rank < (total_characters * 0.75)) {
+            team_count_ranking_class = `high_rank`;
+        } else if (rank < (total_characters * 0.25)) {
+            team_count_ranking_class = `medium_rank`;
+        }
+
+        if (viability_count > (global_viability_count * 0.25)) {
+            team_count_class = `high_rank`;
+        } else if (viability_count > (global_viability_count * 0.05)) {
+            team_count_class = `medium_rank`;
+        }
+
+        if (viability_count > 0) {
+            viability_table += `
+            <div class="rank_row ` + (is_first_row ? `rank_row_top` : ``) + `">
+                <div class="rank_data_long">
+                    ` + viability + `
+                </div>
+                <div class="rank_data">
+                    ` + (viability_count > 0 ? `<span class="` + team_count_ranking_class + `">` + rank + `</span>` : `<span>-</span>`) + `/` + total_characters + `
+                </div>
+                <div class="rank_data">
+                    <span class="` + team_count_class + `">` + viability_count + `</span>/` + global_viability_count + `
+                </div>
+                <div class="rank_data">
+                    <span class="">` + ((viability_count / global_viability_count) * 100).toFixed(2) + `%
+                </div>
+            </div>`;
+
+            is_first_row = false;
+        } else {
+            viability_table += `
+            <div class="rank_row ` + (is_first_row ? `rank_row_top` : ``) + `">
+                <div class="rank_data_long">
+                    ` + viability + `
+                </div>
+                <div class="rank_data">
+                    <span>-</span>/` + total_characters + `
+                </div>
+                <div class="rank_data">
+                    <span class="` + team_count_class + `">` + viability_count + `</span>/` + global_viability_count + `
+                </div>
+                <div class="rank_data">
+                    <span class="">` + ((viability_count / global_viability_count) * 100).toFixed(2) + `%
+                </div>
+            </div>`;
+
+            is_first_row = false;
+        }
+    }
+
+    return viability_table;
+}
+
 function getMenuContentCharts(character_name) {
     let content = ``;
+
+    content += `
+        <div id="ranking_by_team" class="ranking_panel">
+            <div class="ranking_title">
+                Ranking by teams
+            </div>
+
+            <div class="ranking_row">
+                <div class="rank_column">
+                ` + getRankingTeams(character_name) + `
+                </div>
+
+                <div class="rank_chart_container">
+                    <canvas id="ranking_by_team_chart" class="ranking_chart"></canvas>
+                </div>
+            </div>
+        </div>
+    `;
+
+    content += `
+        <div id="ranking_by_archetype" class="ranking_panel">
+            <div class="ranking_title">
+                Ranking by archetype
+            </div>
+
+            <div class="ranking_row">
+                <div class="rank_column">
+                    ` + getRankingArchetypes(character_name) + `
+                </div>
+
+                <div class="rank_chart_container">
+                    <div class="">
+                        Charts
+                    </div>
+                </div>
+            </div>
+        </div>
+    `;
+
+    content += `
+        <div id="ranking_by_element" class="ranking_panel">
+            <div class="ranking_title">
+                Ranking by element
+            </div>
+            
+            <div class="ranking_row">
+                <div class="rank_column">
+                    ` + getRankingElements(character_name) + `
+                </div>
+
+                <div class="rank_chart_container">
+                    <div class="">
+                        Charts
+                    </div>
+                </div>
+            </div>
+        </div>
+    `;
+
+    content += `
+        <div id="ranking_by_viability" class="ranking_panel">
+            <div class="ranking_title">
+                Ranking by viability
+            </div>
+            
+            <div class="ranking_row">
+                <div class="rank_column">
+                    ` + getRankingViabilities(character_name) + `
+                </div>
+
+                <div class="rank_chart_container">
+                    <div class="">
+                        Charts
+                    </div>
+                </div>
+            </div>
+        </div>
+    `;
 
     return content;
 }
@@ -952,7 +1301,8 @@ function printCharacterInfoHTML(character_name) {
 
     document.getElementById("menu_characters_info").innerHTML += menu_characters_info;
 
-    document.getElementById("menu_characters_image").style.backgroundImage = "url('images/characters/" + character_data.images.filename_gachaSplash + ".png')";
+    let filename_gachaSplash = character_data.images.filename_gachaSplash ? character_data.images.filename_gachaSplash : `UI_Gacha_AvatarImg_` + character_data.name;
+    document.getElementById("menu_characters_image").style.backgroundImage = "url('images/characters/" + filename_gachaSplash + ".png')";
 
     // Initialize tabs
     updateAscension();
@@ -961,4 +1311,7 @@ function printCharacterInfoHTML(character_name) {
         updateWeaponRefinement();
         updateWeaponMaterial();
     }
+
+    // Print charts after HTML is loaded
+    getChartTeams(character_name);
 }

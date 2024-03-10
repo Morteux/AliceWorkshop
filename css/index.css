@@ -6,6 +6,14 @@
 
     --secondary_color_opacity: #5c547085;
 
+    --high_rank: #80ff46;
+    --medium_rank: aliceblue;
+    --low_rank: #ff2e2e;
+
+    /* limegreen */
+    --check_true: #80ff46;
+    --check_false: gray;
+
     /* Teams colors */
     --meta_team: #dc1414;
     --viable_team: #00c0e2;
@@ -433,12 +441,12 @@ input[type=text] {
 }
 
 .checkbox_filter input[type="checkbox"]+label {
-    color: rgb(255, 48, 48);
-    text-decoration: line-through 2px;
+    color: var(--check_false);
+    /* text-decoration: line-through 2px; */
 }
 
 .checkbox_filter input[type="checkbox"]:checked+label {
-    color: limegreen;
+    color: var(--check_true);
     text-decoration: none;
 }
 
