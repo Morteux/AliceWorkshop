@@ -885,6 +885,8 @@
 }
 
 .ranking_title {
+    margin-bottom: 1vh;
+
     font-size: medium;
 }
 
@@ -974,6 +976,12 @@
 
     max-width: 20vw;
     max-height: 10vw;
+
+    margin-top: 1vh;
+}
+
+.ranking_chart_long {
+    max-width: 20vw;
 
     margin-top: 1vh;
 }
