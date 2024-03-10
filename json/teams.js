@@ -8282,9 +8282,13 @@ const teams = {
             "name": [
                 "Yaoyao",
                 "Baizhu"
+                "Aether",
+                "Nahida",
             ],
             "build": [
                 "Standard",
+                "Standard",
+                "Dendro",
                 "Standard"
             ]
         }
