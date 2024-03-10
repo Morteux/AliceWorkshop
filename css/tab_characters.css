@@ -927,6 +927,47 @@
     font-size: larger;
 }
 
+.rank_row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    padding: 1vh 0.3vw;
+    
+    border-left: solid 2px var(--tertiary_color);
+    border-right: solid 2px var(--tertiary_color);
+    border-bottom: solid 2px var(--tertiary_color);
+}
+
+.rank_row_top {
+    border-top: solid 2px var(--tertiary_color);
+}
+
+.rank_data {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    width: 3vw;
+
+    font-size: small;
+
+    padding-right: 1vw;
+}
+
+.rank_data_long {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    width: 5vw;
+
+    font-size: small;
+}
+
 .high_rank {
     color: var(--high_rank);
 }

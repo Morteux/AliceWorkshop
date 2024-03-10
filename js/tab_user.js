@@ -796,6 +796,25 @@ function updateStatTeamCountByElement(character) {
     return element;
 }
 
+function calculateCountCharactersByElement() {
+    stats_temp.count_characters_by_element = {};
+
+    for (let element of ELEMENTS) {
+        stats_temp.count_characters_by_element[element] = 0;
+    }
+
+    for (let character_name of CHARACTER_NAMES) {
+        let character = getCharacter(character_name);
+        if (character.elementText != 'None') {
+            stats_temp.count_characters_by_element[character.elementText] = stats_temp.count_characters_by_element[character.elementText] + 1;
+        } else {
+            for (let element of ELEMENTS) {
+                stats_temp.count_characters_by_element[element] = stats_temp.count_characters_by_element[element] + 1;
+            }
+        }
+    }
+}
+
 function calculateCharactersTeams() {
     console.log("calculateCharactersTeams");
 
@@ -805,16 +824,16 @@ function calculateCharactersTeams() {
     for (let team_index in teams) {
 
         let team = teams[team_index];
-        let elements_in_team = [];
+        let elements_in_team = new Set();
 
         // Character 1
-        elements_in_team.push(updateStatTeamCountByElement(team.character_1));
+        elements_in_team.add(updateStatTeamCountByElement(team.character_1));
 
         // Character 2
-        elements_in_team.push(updateStatTeamCountByElement(team.character_2));
+        elements_in_team.add(updateStatTeamCountByElement(team.character_2));
 
         // Character 3
-        elements_in_team.push(updateStatTeamCountByElement(team.character_3));
+        elements_in_team.add(updateStatTeamCountByElement(team.character_3));
 
         // Each flex per team count as different team
         for (let char_4 in team.character_4.name) {
@@ -833,18 +852,18 @@ function calculateCharactersTeams() {
             // Character 4
             updateStatCharacterTeam({ name: team.character_4.name[char_4], build: team.character_4.build[char_4] }, team);
 
-            elements_in_team.push(updateStatTeamCountByElement({ name: team.character_4.name[char_4], build: team.character_4.build[char_4] }));
+            elements_in_team.add(updateStatTeamCountByElement({ name: team.character_4.name[char_4], build: team.character_4.build[char_4] }));
         }
 
         for (let archetype of team.archetype) {
-            stats_temp.team_count_by_archetype[archetype] = stats_temp.team_count_by_archetype[archetype] + 1;
+            stats_temp.team_count_by_archetype[archetype] = stats_temp.team_count_by_archetype[archetype] + team.character_4.name.length;
         }
 
         for (let element of elements_in_team) {
-            stats_temp.team_count_by_element[element] = stats_temp.team_count_by_element[element] + 1;
+            stats_temp.team_count_by_element[element] = stats_temp.team_count_by_element[element] + team.character_4.name.length;
         }
 
-        stats_temp.team_count_by_viability[team.viability] = stats_temp.team_count_by_viability[team.viability] + 1;
+        stats_temp.team_count_by_viability[team.viability] = stats_temp.team_count_by_viability[team.viability] + team.character_4.name.length;
     }
 }
 
@@ -956,9 +975,10 @@ function calculateRankingByElement() {
     for (let character in stats_temp.characters) {
         if (!["Aether", "Lumine"].includes(character)) {
             stats_temp.characters[character].ranking_by_element = 0;
-            for (let element of ELEMENTS) {
+            let element = getCharacter(character).elementText;
+            // for (let element of ELEMENTS) {
                 ranking[element].push(stats_temp.characters[character].team_count);
-            }
+            // }
         } else {
             stats_temp.characters[character].ranking_by_element = {};
             for (let element of ELEMENTS) {
@@ -1085,6 +1105,7 @@ function calculateStats() {
     // Calculate stats_temp
     calculateCharactersTeams();
 
+    calculateCountCharactersByElement();
     calculateRankingByTeam();
     calculateRankingByArchetype();
     calculateRankingByElement();
