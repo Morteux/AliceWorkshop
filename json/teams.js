@@ -283,9 +283,11 @@ const teams = {
         "character_4": {
             "name": [
                 "Albedo",
+                "Chiori",
                 "Zhongli"
             ],
             "build": [
+                "Standard",
                 "Standard",
                 "Standard"
             ]
@@ -3143,9 +3145,11 @@ const teams = {
         },
         "character_4": {
             "name": [
-                "Albedo"
+                "Albedo",
+                "Chiori"
             ],
             "build": [
+                "Standard",
                 "Standard"
             ]
         }
@@ -4868,10 +4872,12 @@ const teams = {
                 "Sucrose",
                 "Yaoyao",
                 "Collei",
+                "Chiori",
                 "Baizhu",
                 "Kirara"
             ],
             "build": [
+                "Standard",
                 "Standard",
                 "Standard",
                 "Standard",
@@ -4942,10 +4948,12 @@ const teams = {
             "name": [
                 "Zhongli",
                 "Albedo",
+                "Chiori",
                 "Kaedehara Kazuha",
                 "Sucrose"
             ],
             "build": [
+                "Standard",
                 "Standard",
                 "Standard",
                 "Standard",
@@ -5082,6 +5090,7 @@ const teams = {
             "name": [
                 "Zhongli",
                 "Albedo",
+                "Chiori",
                 "Kaedehara Kazuha",
                 "Sucrose",
                 "Yaoyao",
@@ -5090,6 +5099,7 @@ const teams = {
                 "Kirara"
             ],
             "build": [
+                "Standard",
                 "Standard",
                 "Standard",
                 "Standard",
@@ -5160,10 +5170,12 @@ const teams = {
             "name": [
                 "Zhongli",
                 "Albedo",
+                "Chiori",
                 "Kaedehara Kazuha",
                 "Sucrose"
             ],
             "build": [
+                "Standard",
                 "Standard",
                 "Standard",
                 "Standard",
@@ -7471,13 +7483,15 @@ const teams = {
                 "Beidou",
                 "Fischl",
                 "Yae Miko",
-                "Albedo"
+                "Albedo",
+                "Chiori"
             ],
             "build": [
                 "Standard",
                 "Standard",
                 "Standard",
-                "Standard"
+                "Standard",
+                "Standard
             ]
         }
     },
@@ -7507,9 +7521,11 @@ const teams = {
                 "Fischl",
                 "Yae Miko",
                 "Albedo",
+                "Chiori",
                 "Zhongli"
             ],
             "build": [
+                "Standard",
                 "Standard",
                 "Standard",
                 "Standard",
@@ -8193,11 +8209,13 @@ const teams = {
                 "Nahida",
                 "Aether",
                 "Albedo",
+                "Chiori",
                 "Zhongli"
             ],
             "build": [
                 "Standard",
                 "Dendro",
+                "Standard",
                 "Standard",
                 "Standard"
             ]
@@ -8228,11 +8246,13 @@ const teams = {
                 "Nahida",
                 "Aether",
                 "Albedo",
+                "Chiori",
                 "Zhongli"
             ],
             "build": [
                 "Standard",
                 "Dendro",
+                "Standard",
                 "Standard",
                 "Standard"
             ]
@@ -9770,9 +9790,11 @@ const teams = {
         "character_4": {
             "name": [
                 "Albedo",
+                "Chiori",
                 "Zhongli"
             ],
             "build": [
+                "Standard",
                 "Standard",
                 "Standard"
             ]
@@ -9834,9 +9856,11 @@ const teams = {
                 "Zhongli",
                 "Albedo",
                 "Ningguang",
+                "Chiori",
                 "Aether"
             ],
             "build": [
+                "Standard",
                 "Standard",
                 "Standard",
                 "Standard",
@@ -9869,9 +9893,11 @@ const teams = {
                 "Zhongli",
                 "Albedo",
                 "Ningguang",
+                "Chiori",
                 "Aether"
             ],
             "build": [
+                "Standard",
                 "Standard",
                 "Standard",
                 "Standard",
@@ -10059,9 +10085,11 @@ const teams = {
                 "Zhongli",
                 "Albedo",
                 "Noelle",
+                "Chiori",
                 "Aether"
             ],
             "build": [
+                "Standard",
                 "Standard",
                 "Standard",
                 "Standard",
@@ -10124,9 +10152,11 @@ const teams = {
             "name": [
                 "Zhongli",
                 "Albedo",
+                "Chiori",
                 "Noelle"
             ],
             "build": [
+                "Standard",
                 "Standard",
                 "Standard",
                 "DPSFurina"
@@ -10158,9 +10188,11 @@ const teams = {
                 "Zhongli",
                 "Albedo",
                 "Ningguang",
+                "Chiori",
                 "Noelle"
             ],
             "build": [
+                "Standard",
                 "Standard",
                 "Standard",
                 "Standard",
@@ -10191,11 +10223,13 @@ const teams = {
         "character_4": {
             "name": [
                 "Albedo",
+                "Chiori",
                 "Zhongli",
                 "Ningguang",
                 "Yelan"
             ],
             "build": [
+                "Standard",
                 "Standard",
                 "Standard",
                 "Standard",
@@ -10228,10 +10262,12 @@ const teams = {
                 "Kaedehara Kazuha",
                 "Zhongli",
                 "Albedo",
+                "Chiori",
                 "Ningguang",
                 "Aether"
             ],
             "build": [
+                "Standard",
                 "Standard",
                 "Standard",
                 "Standard",
@@ -10264,11 +10300,13 @@ const teams = {
             "name": [
                 "Zhongli",
                 "Albedo",
+                "Chiori",
                 "Ningguang",
                 "Noelle",
                 "Aether"
             ],
             "build": [
+                "Standard",
                 "Standard",
                 "Standard",
                 "Standard",
@@ -10390,9 +10428,11 @@ const teams = {
                 "Xingqiu",
                 "Albedo",
                 "Yun Jin",
+                "Chiori",
                 "Navia"
             ],
             "build": [
+                "Standard",
                 "Standard",
                 "Standard",
                 "Standard",
@@ -11591,9 +11631,11 @@ const teams = {
                 "Xingqiu",
                 "Gorou",
                 "Albedo",
+                "Chiori",
                 "Fischl"
             ],
             "build": [
+                "Standard",
                 "Standard",
                 "Standard",
                 "Standard",
@@ -11877,7 +11919,8 @@ const teams = {
                 "Lynette",
                 "Freminet",
                 "Navia",
-                "Chevreuse"
+                "Chevreuse",
+                "Chiori"
             ],
             "build": [
                 "Anemo",
@@ -11885,6 +11928,7 @@ const teams = {
                 "Geo",
                 "Hydro",
                 "Electro",
+                "Standard",
                 "Standard",
                 "Standard",
                 "Standard",
@@ -11953,11 +11997,13 @@ const teams = {
         "character_4": {
             "name": [
                 "Albedo",
+                "Chiori",
                 "Zhongli",
                 "Ningguang",
                 "Yelan"
             ],
             "build": [
+                "Standard",
                 "Standard",
                 "Standard",
                 "Standard",
