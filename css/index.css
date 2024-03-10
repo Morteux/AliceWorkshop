@@ -442,7 +442,7 @@ input[type=text] {
 
 .checkbox_filter input[type="checkbox"]+label {
     color: var(--check_false);
-    text-decoration: line-through 2px;
+    /* text-decoration: line-through 2px; */
 }
 
 .checkbox_filter input[type="checkbox"]:checked+label {
