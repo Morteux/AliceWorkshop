@@ -859,6 +859,37 @@ function getChartTeams(character_name) {
     });
 }
 
+function getChartArchetypes(character_name) {
+    let character = getCharacter(character_name);
+    let color = (character.elementText != 'None' ? ELEMENT_COLORS[character.elementText] : ELEMENT_COLORS['Flex']);
+
+    let colors = [color, 'gray'];
+
+    new Chart(document.getElementById('ranking_by_archetype_chart'), {
+        type: 'pie',
+        data: {
+            labels: [character_name, 'All'],
+            datasets: [{
+                label: 'Teams',
+                data: [STATS.characters[character_name].team_count, STATS.team_count_flex - STATS.characters[character_name].team_count],
+                backgroundColor: colors,
+                hoverOffset: 4
+            }]
+        },
+        options: {
+            plugins: {
+                legend: {
+                    position: 'right',
+                },
+                title: {
+                    display: false,
+                    text: '',
+                }
+            }
+        }
+    });
+}
+
 function getRankingTeams(character_name) {
     let teams_table = ``;
 
@@ -1085,6 +1116,22 @@ function getMenuContentCharts(character_name) {
     let content = ``;
 
     content += `
+        <div id="ranking_by_team" class="ranking_panel warning_panel">
+            <div class="ranking_title">
+                Disclaimer
+            </div>
+
+            <div class="ranking_row">
+                <img class="warning_img" src="images/icons/paimon_glasses.png" alt="Paimon with glasses">
+
+                <div>
+                    Please, be aware that all data, tables and charts displayed in this section is purely subjective to our site data gathered until now... i.e., play whatever character you like and chill out...
+                </div>
+            </div>
+        </div>
+    `;
+
+    content += `
         <div id="ranking_by_team" class="ranking_panel">
             <div class="ranking_title">
                 Ranking by teams
@@ -1114,9 +1161,7 @@ function getMenuContentCharts(character_name) {
                 </div>
 
                 <div class="rank_chart_container">
-                    <div class="">
-                        Charts
-                    </div>
+                    <canvas id="ranking_by_archetype_chart" class="ranking_chart"></canvas>
                 </div>
             </div>
         </div>
@@ -1314,4 +1359,5 @@ function printCharacterInfoHTML(character_name) {
 
     // Print charts after HTML is loaded
     getChartTeams(character_name);
+    getChartArchetypes(character_name);
 }

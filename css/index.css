@@ -69,6 +69,10 @@
     --geo_collapsible: rgb(250, 227, 133);
     --hydro_collapsible: rgb(119, 220, 231);
     --flex_collapsible: rgb(255, 181, 215);
+
+    --warning: rgb(255, 238, 0);
+    --warning_background: rgb(165, 144, 50);
+    --warning_background_opacity: rgba(165, 144, 50, 0.514);
 }
 
 @font-face {
@@ -553,4 +557,17 @@ input[type=text] {
 
 .tooltip:hover .tooltiptext {
     visibility: visible;
+}
+
+.warning_panel {
+    font-size: small;
+
+    color: var(--warning) !important;
+    background-color: var(--warning_background_opacity) !important;
+    border-color: var(--warning_background) !important;
+}
+
+.warning_img {
+    width: 4vw;
+    margin-right: 1vw;
 }
