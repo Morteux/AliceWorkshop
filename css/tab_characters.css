@@ -968,6 +968,16 @@
     font-size: small;
 }
 
+.ranking_chart {
+    /* color: var(--light_text);
+    font-family: GenshinImpact; */
+
+    max-width: 20vw;
+    max-height: 10vw;
+
+    margin-top: 1vh;
+}
+
 .high_rank {
     color: var(--high_rank);
 }

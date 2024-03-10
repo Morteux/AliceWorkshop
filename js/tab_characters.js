@@ -1,3 +1,14 @@
+const ELEMENT_COLORS = {
+    Pyro: "rgb(177, 46, 48)",
+    Electro: "rgb(132, 16, 233)",
+    Dendro: "rgb(145, 201, 14)",
+    Anemo: "rgb(14, 192, 103)",
+    Cryo: "rgb(163, 227, 239)",
+    Geo: "rgb(255, 216, 59)",
+    Hydro: "rgb(1, 229, 255)",
+    Flex: "rgb(255, 100, 172)",
+};
+
 const regex_color_start_tag = /<color=\#........>/g;
 const regex_color_end_tag = /<\/color>/g;
 
@@ -12,6 +23,12 @@ var character_charts;
 var teams_keys = shuffle(Object.keys(teams));
 
 document.addEventListener("DOMContentLoaded", (event) => {
+    // Chart JS config
+    Chart.defaults.color = "aliceblue";
+    Chart.defaults.font.family = "GenshinImpact";
+    // Chart.defaults.font.size = "large";
+    // Chart.defaults.font.weight = "bold";
+
     resetMenuCharacters();
     printAllCharacters();
 
@@ -811,30 +828,35 @@ function getMenuContentBuilds(character_name) {
     return content;
 }
 
-function printCharts() {
-    // new Chart(document.getElementById('media_type_count'), {
-    //     type: 'pie',
-    //     data: {
-    //         labels: ELEMENTS,
-    //         datasets: [{
-    //             label: 'Count',
-    //             data: media_type_count,
-    //             backgroundColor: MEDIA_TYPE_COLORS,
-    //             hoverOffset: 4
-    //         }]
-    //     },
-    //     options: {
-    //         plugins: {
-    //             legend: {
-    //                 position: 'right',
-    //             },
-    //             title: {
-    //                 display: true,
-    //                 text: 'Media types count',
-    //             }
-    //         }
-    //     }
-    // });
+function getChartTeams(character_name) {
+    let character = getCharacter(character_name);
+    let color = (character.elementText != 'None' ? ELEMENT_COLORS[character.elementText] : ELEMENT_COLORS['Flex']);
+
+    let colors = [color, 'gray'];
+
+    new Chart(document.getElementById('ranking_by_team_chart'), {
+        type: 'pie',
+        data: {
+            labels: [character_name, 'All'],
+            datasets: [{
+                label: 'Teams',
+                data: [STATS.characters[character_name].team_count, STATS.team_count_flex - STATS.characters[character_name].team_count],
+                backgroundColor: colors,
+                hoverOffset: 4
+            }]
+        },
+        options: {
+            plugins: {
+                legend: {
+                    position: 'right',
+                },
+                title: {
+                    display: false,
+                    text: '',
+                }
+            }
+        }
+    });
 }
 
 function getRankingTeams(character_name) {
@@ -1074,9 +1096,7 @@ function getMenuContentCharts(character_name) {
                 </div>
 
                 <div class="rank_chart_container">
-                    <div class="">
-                        Charts
-                    </div>
+                    <canvas id="ranking_by_team_chart" class="ranking_chart"></canvas>
                 </div>
             </div>
         </div>
@@ -1293,5 +1313,5 @@ function printCharacterInfoHTML(character_name) {
     }
 
     // Print charts after HTML is loaded
-    printCharts();
+    getChartTeams(character_name);
 }
