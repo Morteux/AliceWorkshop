@@ -7491,7 +7491,7 @@ const teams = {
                 "Standard",
                 "Standard",
                 "Standard",
-                "Standard
+                "Standard"
             ]
         }
     },
