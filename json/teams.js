@@ -8281,9 +8281,9 @@ const teams = {
         "character_4": {
             "name": [
                 "Yaoyao",
-                "Baizhu"
+                "Baizhu",
                 "Aether",
-                "Nahida",
+                "Nahida"
             ],
             "build": [
                 "Standard",
