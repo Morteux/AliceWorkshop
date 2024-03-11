@@ -636,7 +636,7 @@ const characters_teams_info = {
     "Candace": "",
     "Charlotte": "",
     "Chevreuse": "",
-    "Chiori": "You can play her in flex archetypes due to her polivalence for being geo like hyperbloom and national etc.";
+    "Chiori": "You can play her in flex archetypes due to her polivalence for being geo like hyperbloom and national etc.",
     "Chongyun": "",
     "Collei": "",
     "Cyno": "",
