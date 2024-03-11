@@ -7,7 +7,24 @@ const ELEMENT_COLORS = {
     Geo: "rgb(255, 216, 59)",
     Hydro: "rgb(1, 229, 255)",
     Flex: "rgb(255, 100, 172)",
+
+    color_pyro: "rgb(177, 46, 48)",
+    color_electro: "rgb(132, 16, 233)",
+    color_dendro: "rgb(145, 201, 14)",
+    color_anemo: "rgb(14, 192, 103)",
+    color_cryo: "rgb(163, 227, 239)",
+    color_geo: "rgb(255, 216, 59)",
+    color_hydro: "rgb(1, 229, 255)",
+    color_flex: "rgb(255, 100, 172)",
+    color_hypercarry: "#5c5470"
 };
+
+const VIABILITIES_COLORS = {
+    Meta: "#dc1414",
+    Viable: "#00c0e2",
+    Offmeta: "#b1c51b",
+    Unique: "#ff6701"
+}
 
 const regex_color_start_tag = /<color=\#........>/g;
 const regex_color_end_tag = /<\/color>/g;
@@ -831,16 +848,237 @@ function getMenuContentBuilds(character_name) {
 function getChartTeams(character_name) {
     let character = getCharacter(character_name);
     let color = (character.elementText != 'None' ? ELEMENT_COLORS[character.elementText] : ELEMENT_COLORS['Flex']);
-
     let colors = [color, 'gray'];
+
+    let total = STATS.team_count_flex;
+    let character_total = STATS.characters[character_name].team_count;
+
+    let character_perc = ((character_total / total) * 100).toFixed(2);
+    let total_perc = (100.0 - character_perc).toFixed(2);
 
     new Chart(document.getElementById('ranking_by_team_chart'), {
         type: 'pie',
         data: {
-            labels: [character_name, 'All'],
+            labels: [character_name + ' (' + character_perc + '%)', 'All (' + total_perc + '%)'],
             datasets: [{
                 label: 'Teams',
-                data: [STATS.characters[character_name].team_count, STATS.team_count_flex - STATS.characters[character_name].team_count],
+                data: [character_total, total - character_total],
+                backgroundColor: colors,
+                hoverOffset: 4
+            }]
+        },
+        options: {
+            plugins: {
+                legend: {
+                    position: 'top',
+                },
+                title: {
+                    display: false,
+                    text: '',
+                }
+            }
+        }
+    });
+}
+
+function getChartArchetypes(character_name) {
+    let labels = [];
+    let data = [];
+    let data_all = [];
+    let character = getCharacter(character_name);
+    let color = (character.elementText != 'None' ? ELEMENT_COLORS[character.elementText] : ELEMENT_COLORS['Flex']);
+
+    for (let archetype of ARCHETYPES_NAMES) {
+        if (STATS.characters[character_name].by_archetype[archetype] && STATS.characters[character_name].by_archetype[archetype] > 0) {
+            labels.push(archetype);
+            data.push(STATS.characters[character_name].by_archetype[archetype]);
+            data_all.push(STATS.team_count_by_archetype[archetype] - STATS.characters[character_name].by_archetype[archetype]);
+        }
+    }
+
+    new Chart(document.getElementById('ranking_by_archetype_chart'), {
+        type: 'bar',
+        data: {
+            axis: 'y',
+            labels: labels,
+            datasets: [{
+                label: character_name,
+                data: data,
+                backgroundColor: color,
+                hoverOffset: 4,
+                stack: "Stack 0",
+                yAxisID: 'y'
+            },
+            {
+                label: 'All',
+                data: data_all,
+                backgroundColor: 'gray',
+                hoverOffset: 4,
+                stack: "Stack 0",
+                yAxisID: 'y'
+            }]
+        },
+        options: {
+            indexAxis: 'y',
+            scales: {
+                y: {
+                    beginAtZero: true,
+                    ticks: {
+                        autoSkip: false
+                    }
+                }
+            },
+            plugins: {
+                legend: {
+                    position: 'top',
+                },
+                title: {
+                    display: false,
+                    text: '',
+                }
+            }
+        }
+    });
+}
+
+function getChartElements(character_name) {
+    let labels = [];
+    let data = [];
+    let data_all = [];
+    let character = getCharacter(character_name);
+    let color = (character.elementText != 'None' ? ELEMENT_COLORS[character.elementText] : ELEMENT_COLORS['Flex']);
+
+    if(!["Aether", "Lumine"].includes(character_name)) {
+        let element = character.elementText;
+        labels.push(element);
+        data.push(STATS.global_element_ranking[element][character_name].team_count);
+        data_all.push(STATS.team_count_by_element[element] - STATS.global_element_ranking[element][character_name].team_count);
+    } else {
+        for (let element of ELEMENTS) {
+            if (STATS.characters[character_name].team_count_by_element[element] && STATS.characters[character_name].team_count_by_element[element] > 0) {
+                labels.push(element);
+                data.push(STATS.characters[character_name].team_count_by_element[element]);
+                data_all.push(STATS.team_count_by_element[element] - STATS.characters[character_name].team_count_by_element[element]);
+            }
+        }
+    }
+
+    new Chart(document.getElementById('ranking_by_element_chart'), {
+        type: 'bar',
+        data: {
+            axis: 'y',
+            labels: labels,
+            datasets: [{
+                label: character_name,
+                data: data,
+                backgroundColor: color,
+                hoverOffset: 4,
+                stack: "Stack 0",
+                yAxisID: 'y'
+            },
+            {
+                label: 'All',
+                data: data_all,
+                backgroundColor: 'gray',
+                hoverOffset: 4,
+                stack: "Stack 0",
+                yAxisID: 'y'
+            }]
+        },
+        options: {
+            indexAxis: 'y',
+            scales: {
+                y: {
+                    beginAtZero: true,
+                    ticks: {
+                        autoSkip: false
+                    }
+                }
+            },
+            plugins: {
+                legend: {
+                    position: 'top',
+                },
+                title: {
+                    display: false,
+                    text: '',
+                }
+            }
+        }
+    });
+}
+
+function getChartViabilities(character_name) {
+    let labels = [];
+    let data = [];
+    let data_all = [];
+
+    let character = getCharacter(character_name);
+    let color = (character.elementText != 'None' ? ELEMENT_COLORS[character.elementText] : ELEMENT_COLORS['Flex']);
+
+    let colors = [];
+
+    for (let viability of VIABILITIES) {
+        labels.push(viability);
+        data.push(STATS.characters[character_name].by_viability[viability]);
+        data_all.push(STATS.team_count_by_viability[viability] - STATS.characters[character_name].by_viability[viability]);
+        colors.push(VIABILITIES_COLORS[viability]);
+    }
+
+    new Chart(document.getElementById('ranking_by_viability_chart'), {
+        type: 'bar',
+        data: {
+            axis: 'y',
+            labels: labels,
+            datasets: [{
+                label: character_name,
+                data: data,
+                backgroundColor: color,
+                hoverOffset: 4,
+                stack: "Stack 0",
+                yAxisID: 'y'
+            },
+            {
+                label: 'All',
+                data: data_all,
+                backgroundColor: 'gray',
+                hoverOffset: 4,
+                stack: "Stack 0",
+                yAxisID: 'y'
+            }]
+        },
+        options: {
+            indexAxis: 'y',
+            scales: {
+                y: {
+                    beginAtZero: true,
+                    ticks: {
+                        autoSkip: false
+                    }
+                }
+            },
+            plugins: {
+                legend: {
+                    position: 'top',
+                },
+                title: {
+                    display: false,
+                    text: '',
+                }
+            }
+        }
+    });
+
+
+
+    
+    new Chart(document.getElementById('ranking_by_viability_chart_pie'), {
+        type: 'pie',
+        data: {
+            labels: labels,
+            datasets: [{
+                label: character_name,
+                data: data,
                 backgroundColor: colors,
                 hoverOffset: 4
             }]
@@ -1085,6 +1323,22 @@ function getMenuContentCharts(character_name) {
     let content = ``;
 
     content += `
+        <div id="ranking_by_team" class="ranking_panel warning_panel">
+            <div class="ranking_title">
+                Disclaimer
+            </div>
+
+            <div class="ranking_row">
+                <img class="warning_img" src="images/icons/paimon_glasses.png" alt="Paimon with glasses">
+
+                <div>
+                    Please, be aware that all data, tables and charts displayed in this section is purely subjective to our site data gathered until now... i.e., play whatever character you like and chill out...
+                </div>
+            </div>
+        </div>
+    `;
+
+    content += `
         <div id="ranking_by_team" class="ranking_panel">
             <div class="ranking_title">
                 Ranking by teams
@@ -1114,9 +1368,7 @@ function getMenuContentCharts(character_name) {
                 </div>
 
                 <div class="rank_chart_container">
-                    <div class="">
-                        Charts
-                    </div>
+                    <canvas id="ranking_by_archetype_chart" class="ranking_chart_long"></canvas>
                 </div>
             </div>
         </div>
@@ -1134,14 +1386,12 @@ function getMenuContentCharts(character_name) {
                 </div>
 
                 <div class="rank_chart_container">
-                    <div class="">
-                        Charts
-                    </div>
+                    <canvas id="ranking_by_element_chart" class="` + (!["Aether", "Lumine"].includes(character_name) ? `ranking_chart_short` : `ranking_chart_long`) + `"></canvas>
                 </div>
             </div>
         </div>
     `;
-
+    
     content += `
         <div id="ranking_by_viability" class="ranking_panel">
             <div class="ranking_title">
@@ -1154,9 +1404,9 @@ function getMenuContentCharts(character_name) {
                 </div>
 
                 <div class="rank_chart_container">
-                    <div class="">
-                        Charts
-                    </div>
+                    <canvas id="ranking_by_viability_chart" class="ranking_chart_long"></canvas>
+
+                    <canvas id="ranking_by_viability_chart_pie" class="ranking_chart_long"></canvas>
                 </div>
             </div>
         </div>
@@ -1314,4 +1564,7 @@ function printCharacterInfoHTML(character_name) {
 
     // Print charts after HTML is loaded
     getChartTeams(character_name);
+    getChartArchetypes(character_name);
+    getChartElements(character_name);
+    getChartViabilities(character_name);
 }

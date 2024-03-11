@@ -273,7 +273,7 @@ function printRandomTeam() {
 }
 
 function getBirthdayHTML(character_data) {
- return (isToday(character_data.birthdaymmdd) ? `<img class="birthday_hat_icon" src="images/birthday_hats/birthday_hat_` + (Math.floor(Math.random() * (5 - 1 + 1)) + 1) + `.png">` : ``);
+    return (isToday(character_data.birthdaymmdd) ? `<img class="birthday_hat_icon" src="images/birthday_hats/birthday_hat_` + (Math.floor(Math.random() * (5 - 1 + 1)) + 1) + `.png">` : ``);
 }
 
 function getCharacterHTML(id, character_team, character_data) {
@@ -301,7 +301,7 @@ function getTeamHTML(team, team_index, team_id, character_4) {
                             <span class="popuptext" id="copied_popup_` + team_id + `">Copied!</span>
                         </div>
                     </div>
-                    <button class="link_team_button" onclick="copyTextToClipboard('` +  window.location.origin + window.location.pathname + `?team=` + team_id + `');">
+                    <button class="link_team_button" onclick="copyTextToClipboard('` + window.location.origin + window.location.pathname + `?team=` + team_id + `');">
                         <img src="images/icons/link.png">
                     </button>
                     <div class="viability_tag">
