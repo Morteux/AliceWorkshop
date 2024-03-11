@@ -275,9 +275,9 @@ const weapons = {
         "images": {
             "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/PRE_Weapon_Uraku_Misugiri.png",
             "awakenicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/PRE_Weapon_Uraku_Misugiri.png",
-            "filename_icon": "PRE_Weapon_Uraku_Misugiri",
-            "filename_awakenIcon": "PRE_Weapon_Uraku_Misugiri",
-            "filename_gacha": "PRE_Weapon_Uraku_Misugiri",
+            "filename_icon": "UI_EquipIcon_Sword_Needle",
+            "filename_awakenIcon": "PRE_UI_EquipIcon_Sword_Needle",
+            "filename_gacha": "PRE_UI_EquipIcon_Sword_Needle",
             "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/PRE_Weapon_Uraku_Misugiri.png",
             "mihoyo_awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/PRE_Weapon_Uraku_Misugiri.png"
         },
@@ -363,9 +363,9 @@ const weapons = {
             ]
         },
         "images": {
-            "filename_icon": "PRE_Weapon_Dialogues_of_the_Desert_Sages",
-            "filename_awakenIcon": "PRE_Weapon_Dialogues_of_the_Desert_Sages",
-            "filename_gacha": "PRE_Weapon_Dialogues_of_the_Desert_Sages",
+            "filename_icon": "UI_EquipIcon_Pole_Caduceus.png",
+            "filename_awakenIcon": "PRE_UI_EquipIcon_Pole_Caduceus",
+            "filename_gacha": "PRE_UI_EquipIcon_Pole_Caduceus",
         },
         "version": ""
     },

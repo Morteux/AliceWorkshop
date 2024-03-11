@@ -16,8 +16,15 @@ const ELEMENT_COLORS = {
     color_geo: "rgb(255, 216, 59)",
     color_hydro: "rgb(1, 229, 255)",
     color_flex: "rgb(255, 100, 172)",
-    color_hypercarry: "#5c5470",
+    color_hypercarry: "#5c5470"
 };
+
+const VIABILITIES_COLORS = {
+    Meta: "#dc1414",
+    Viable: "#00c0e2",
+    Offmeta: "#b1c51b",
+    Unique: "#ff6701"
+}
 
 const regex_color_start_tag = /<color=\#........>/g;
 const regex_color_end_tag = /<\/color>/g;
@@ -863,7 +870,7 @@ function getChartTeams(character_name) {
         options: {
             plugins: {
                 legend: {
-                    position: 'right',
+                    position: 'top',
                 },
                 title: {
                     display: false,
@@ -885,7 +892,7 @@ function getChartArchetypes(character_name) {
         if (STATS.characters[character_name].by_archetype[archetype] && STATS.characters[character_name].by_archetype[archetype] > 0) {
             labels.push(archetype);
             data.push(STATS.characters[character_name].by_archetype[archetype]);
-            data_all.push(STATS.team_count_by_archetype[archetype]);
+            data_all.push(STATS.team_count_by_archetype[archetype] - STATS.characters[character_name].by_archetype[archetype]);
         }
     }
 
@@ -923,7 +930,7 @@ function getChartArchetypes(character_name) {
             },
             plugins: {
                 legend: {
-                    position: 'right',
+                    position: 'top',
                 },
                 title: {
                     display: false,
@@ -945,13 +952,13 @@ function getChartElements(character_name) {
         let element = character.elementText;
         labels.push(element);
         data.push(STATS.global_element_ranking[element][character_name].team_count);
-        data_all.push(STATS.team_count_by_element[element]);
+        data_all.push(STATS.team_count_by_element[element] - STATS.global_element_ranking[element][character_name].team_count);
     } else {
         for (let element of ELEMENTS) {
             if (STATS.characters[character_name].team_count_by_element[element] && STATS.characters[character_name].team_count_by_element[element] > 0) {
                 labels.push(element);
                 data.push(STATS.characters[character_name].team_count_by_element[element]);
-                data_all.push(STATS.team_count_by_element[element]);
+                data_all.push(STATS.team_count_by_element[element] - STATS.characters[character_name].team_count_by_element[element]);
             }
         }
     }
@@ -988,6 +995,95 @@ function getChartElements(character_name) {
                     }
                 }
             },
+            plugins: {
+                legend: {
+                    position: 'top',
+                },
+                title: {
+                    display: false,
+                    text: '',
+                }
+            }
+        }
+    });
+}
+
+function getChartViabilities(character_name) {
+    let labels = [];
+    let data = [];
+    let data_all = [];
+
+    let character = getCharacter(character_name);
+    let color = (character.elementText != 'None' ? ELEMENT_COLORS[character.elementText] : ELEMENT_COLORS['Flex']);
+
+    let colors = [];
+
+    for (let viability of VIABILITIES) {
+        labels.push(viability);
+        data.push(STATS.characters[character_name].by_viability[viability]);
+        data_all.push(STATS.team_count_by_viability[viability] - STATS.characters[character_name].by_viability[viability]);
+        colors.push(VIABILITIES_COLORS[viability]);
+    }
+
+    new Chart(document.getElementById('ranking_by_viability_chart'), {
+        type: 'bar',
+        data: {
+            axis: 'y',
+            labels: labels,
+            datasets: [{
+                label: character_name,
+                data: data,
+                backgroundColor: color,
+                hoverOffset: 4,
+                stack: "Stack 0",
+                yAxisID: 'y'
+            },
+            {
+                label: 'All',
+                data: data_all,
+                backgroundColor: 'gray',
+                hoverOffset: 4,
+                stack: "Stack 0",
+                yAxisID: 'y'
+            }]
+        },
+        options: {
+            indexAxis: 'y',
+            scales: {
+                y: {
+                    beginAtZero: true,
+                    ticks: {
+                        autoSkip: false
+                    }
+                }
+            },
+            plugins: {
+                legend: {
+                    position: 'top',
+                },
+                title: {
+                    display: false,
+                    text: '',
+                }
+            }
+        }
+    });
+
+
+
+    
+    new Chart(document.getElementById('ranking_by_viability_chart_pie'), {
+        type: 'pie',
+        data: {
+            labels: labels,
+            datasets: [{
+                label: character_name,
+                data: data,
+                backgroundColor: colors,
+                hoverOffset: 4
+            }]
+        },
+        options: {
             plugins: {
                 legend: {
                     position: 'right',
@@ -1290,12 +1386,12 @@ function getMenuContentCharts(character_name) {
                 </div>
 
                 <div class="rank_chart_container">
-                    <canvas id="ranking_by_element_chart" class="ranking_chart_long"></canvas>
+                    <canvas id="ranking_by_element_chart" class="` + (!["Aether", "Lumine"].includes(character_name) ? `ranking_chart_short` : `ranking_chart_long`) + `"></canvas>
                 </div>
             </div>
         </div>
     `;
-
+    
     content += `
         <div id="ranking_by_viability" class="ranking_panel">
             <div class="ranking_title">
@@ -1308,9 +1404,9 @@ function getMenuContentCharts(character_name) {
                 </div>
 
                 <div class="rank_chart_container">
-                    <div class="">
-                        Charts
-                    </div>
+                    <canvas id="ranking_by_viability_chart" class="ranking_chart_long"></canvas>
+
+                    <canvas id="ranking_by_viability_chart_pie" class="ranking_chart_long"></canvas>
                 </div>
             </div>
         </div>
@@ -1470,4 +1566,5 @@ function printCharacterInfoHTML(character_name) {
     getChartTeams(character_name);
     getChartArchetypes(character_name);
     getChartElements(character_name);
+    getChartViabilities(character_name);
 }
