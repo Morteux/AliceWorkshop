@@ -264,6 +264,11 @@ function updateAscension() {
     ];
 
     let slider_value = document.getElementById("menu_slider_ascension").value;
+
+    // Base Attribute Value = Base Value * Level Multiplier + Ascension Value
+    document.getElementById("character_base_stats").innerHTML = "";
+    document.getElementById("character_bonus_stat").innerHTML = "";
+
     let output = ``;
 
     document.getElementById("menu_slider_ascension_output").innerHTML = slider_value * 10;
@@ -279,6 +284,7 @@ function updateAscension() {
     document.getElementById("materials_output").innerHTML = output;
 }
 
+
 function getMenuContentAscension(character_name) {
     let content = ``;
     let character_data = getCharacter(character_name);
@@ -287,6 +293,8 @@ function getMenuContentAscension(character_name) {
 
     content += `
         <div class="menu_panel">` + character_data.description + `</div>
+        <div id="character_base_stats" class="menu_panel"></div>
+        <div id="character_bonus_stat" class="menu_panel"></div>
         <div class="slider_container">
             <div>
                 Lvl. <span id="menu_slider_ascension_output" class="menu_slider_output">20</span>
@@ -611,8 +619,52 @@ function getMenuContentWeapon(character_name) {
     return content;
 }
 
+function printCharacterTeam(team) {
+    let team_HTML = `
+        ` + printElement(team.composition[0]) + `
+        ` + printElement(team.composition[1]) + `
+        ` + printElement(team.composition[2]) + `
+        ` + printElement(team.composition[3]) + `
+    `;
+
+    return team_HTML;
+}
+
 function getMenuContentTeams(character_name) {
     let content = ``;
+
+    for(let character_team_name in characters_teams[character_name]) {
+        let team = characters_teams[character_name][character_team_name];
+
+        content += `
+            <div class="menu_panel_column">
+            
+                <div class="character_team_title">
+                ` + character_team_name + `
+                </div>
+
+                <div class="team_elements_container">
+                ` + printCharacterTeam(team) + `
+                </div>
+
+                <div class="character_team_description">
+                ` + team.description + `
+                </div>
+            </div>
+        `;
+    }
+
+    content += `
+    <div class="menu_panel_column">
+        <div class="character_team_title">
+            Clarification
+        </div>
+
+        <div class="character_team_description">
+            ` + characters_teams_info[character_name] + `
+        </div>
+    </div>
+    `;
 
     return content;
 }

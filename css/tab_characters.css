@@ -978,7 +978,6 @@
 }
 
 .ranking_chart_short {
-    /* max-width: 20vw; */
     max-height: 5vw;
 
     margin-top: 1vh;
@@ -1001,4 +1000,17 @@
 
 .low_rank {
     color: var(--low_rank);
+}
+
+.character_team_title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 3vh;
+}
+
+.character_team_description {
+    margin: 1vh 1vw;
 }
