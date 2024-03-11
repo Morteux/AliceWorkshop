@@ -115,7 +115,7 @@ const characters_teams = {
             archetype: "Hypercarry",
             description: "You can play with Navia and etc",
             composition: ["Chiori", "Flex", "Flex", "Flex"]
-        },
+        }
     },
     "Chongyun": {
         "name": {
