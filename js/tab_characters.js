@@ -39,18 +39,30 @@ var character_charts;
 
 var teams_keys = shuffle(Object.keys(teams));
 
+var ranking_by_viability_chart = "ranking_by_viability_chart_bar";
+
 document.addEventListener("DOMContentLoaded", (event) => {
     // Chart JS config
     Chart.defaults.color = "aliceblue";
     Chart.defaults.font.family = "GenshinImpact";
-    // Chart.defaults.font.size = "large";
-    // Chart.defaults.font.weight = "bold";
 
     resetMenuCharacters();
     printAllCharacters();
 
     document.getElementById("tab_character_search").addEventListener("input", filterByCharacterName);
 });
+
+function swapRankingByViabilityChart() {
+    document.getElementById(ranking_by_viability_chart).style.display = "none";
+
+    if(ranking_by_viability_chart == "ranking_by_viability_chart_bar") {
+        ranking_by_viability_chart = "ranking_by_viability_chart_pie";
+    } else {
+        ranking_by_viability_chart = "ranking_by_viability_chart_bar";
+    }
+    
+    document.getElementById(ranking_by_viability_chart).style.display = "";
+}
 
 function filterByCharacterName() {
     let input = document.getElementById("tab_character_search").value;
@@ -1025,7 +1037,7 @@ function getChartViabilities(character_name) {
         colors.push(VIABILITIES_COLORS[viability]);
     }
 
-    new Chart(document.getElementById('ranking_by_viability_chart'), {
+    new Chart(document.getElementById('ranking_by_viability_chart_bar'), {
         type: 'bar',
         data: {
             axis: 'y',
@@ -1106,9 +1118,9 @@ function getRankingTeams(character_name) {
     let team_count_ranking_class = `low_rank`;
     let team_count_class = `low_rank`;
 
-    if (STATS.characters[character_name].team_count_ranking < (total_characters * 0.75)) {
+    if (STATS.characters[character_name].team_count_ranking < (total_characters * 0.25)) {
         team_count_ranking_class = `high_rank`;
-    } else if (STATS.characters[character_name].team_count_ranking < (total_characters * 0.25)) {
+    } else if (STATS.characters[character_name].team_count_ranking < (total_characters * 0.75)) {
         team_count_ranking_class = `medium_rank`;
     }
 
@@ -1158,9 +1170,9 @@ function getRankingArchetypes(character_name) {
         let team_count_ranking_class = `low_rank`;
         let team_count_class = `low_rank`;
 
-        if (rank < (total_characters * 0.75)) {
+        if (rank < (total_characters * 0.25)) {
             team_count_ranking_class = `high_rank`;
-        } else if (rank < (total_characters * 0.25)) {
+        } else if (rank < (total_characters * 0.75)) {
             team_count_ranking_class = `medium_rank`;
         }
 
@@ -1212,9 +1224,9 @@ function getRankingElements(character_name) {
             let team_count_ranking_class = `low_rank`;
             let team_count_class = `low_rank`;
 
-            if (rank < (total_characters * 0.75)) {
+            if (rank < (total_characters * 0.25)) {
                 team_count_ranking_class = `high_rank`;
-            } else if (rank < (total_characters * 0.25)) {
+            } else if (rank < (total_characters * 0.75)) {
                 team_count_ranking_class = `medium_rank`;
             }
 
@@ -1265,9 +1277,9 @@ function getRankingViabilities(character_name) {
         let team_count_ranking_class = `low_rank`;
         let team_count_class = `low_rank`;
 
-        if (rank < (total_characters * 0.75)) {
+        if (rank < (total_characters * 0.25)) {
             team_count_ranking_class = `high_rank`;
-        } else if (rank < (total_characters * 0.25)) {
+        } else if (rank < (total_characters * 0.75)) {
             team_count_ranking_class = `medium_rank`;
         }
 
@@ -1404,9 +1416,11 @@ function getMenuContentCharts(character_name) {
                 </div>
 
                 <div class="rank_chart_container">
-                    <canvas id="ranking_by_viability_chart" class="ranking_chart_long"></canvas>
+                    <button class="primary_button" onclick="swapRankingByViabilityChart()">Bar / Pie</button>
 
-                    <canvas id="ranking_by_viability_chart_pie" class="ranking_chart_long"></canvas>
+                    <canvas id="ranking_by_viability_chart_bar" class="ranking_chart_long"></canvas>
+
+                    <canvas id="ranking_by_viability_chart_pie" class="ranking_chart"></canvas>
                 </div>
             </div>
         </div>
@@ -1567,4 +1581,6 @@ function printCharacterInfoHTML(character_name) {
     getChartArchetypes(character_name);
     getChartElements(character_name);
     getChartViabilities(character_name);
+    
+    swapRankingByViabilityChart();
 }
