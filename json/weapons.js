@@ -192,7 +192,6 @@ const weapons = {
 
 
 
-
     "Uraku Misugiri": {
         "id": 0,
         "name": "Uraku Misugiri",
@@ -202,7 +201,7 @@ const weapons = {
         "weaponText": "Sword",
         "rarity": 5,
         "story": "",
-        "baseAtkValue": 0,
+        "baseAtkValue": 44.3358,
         "mainStatType": "",
         "mainStatText": "DEF",
         "baseStatText": "",

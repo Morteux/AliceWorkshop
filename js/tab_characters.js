@@ -122,7 +122,7 @@ function getMenuCharacterHTML(character_data) {
 
     return `
     <div id="character_` + character_data.name + `" class="character_container" onclick="printCharacterInfoHTML('` + character_data.name + `')">
-        <img class="character_icon character_` + character_data.rarity + `_stars" src="images/characters/` + character_data.images.filename_icon + `.png" alt="Character icon for ` + character_data.name + `">
+        <img class="character_icon character_` + character_data.rarity + `_stars" src="images/characters/` + character_data.images.filename_icon + `.png" alt="Character icon for ` + character_data.name + `" onerror="useBackupResource(this, 'https://api.ambr.top/assets/UI/` + character_data.images.filename_icon + `.png')">
         ` + (character_data.elementText != "None" ? `<img class="element_icon" src="images/elements/glow_` + character_data.elementText.toLowerCase() + `.png">` : "") + `
         <div class="rarity_container">` + STAR_SVG + STAR_SVG + STAR_SVG + STAR_SVG + (character_data.rarity == "5" ? STAR_SVG : "") + `</div>
         <div class="character_name ` + (character_data.name.length < SHORT_NAME_LENGTH ? "character_name_short" : (character_data.name.length < MEDIUM_NAME_LENGTH ? "character_name_medium" : "character_name_long")) + `">` + character_data.name + `</div>
@@ -216,7 +216,7 @@ function getMaterialHTML(material_cost) {
 
     materialHTML = `
         <div class="material_container tooltip">
-            <img class="material_icon ` + rarity_class + `" src="https://api.ambr.top/assets/UI/` + material.images.filename_icon + `.png" alt="Material icon for ` + material.name + `">
+            <img class="material_icon ` + rarity_class + `" src="https://api.ambr.top/assets/UI/` + material.images.filename_icon + `.png" alt="Material icon for ` + material.name + `" onerror="useBackupResource(this, 'https://api.ambr.top/assets/UI/` + material.images.filename_icon + `.png')">
 
             <div class="material_count">
             ` + material_cost.count + `
@@ -237,7 +237,7 @@ function getMaterialSmallHTML(material_cost) {
 
     materialHTML = `
         <div class="material_container tooltip">
-            <img class="material_icon_small ` + rarity_class + `" src="https://api.ambr.top/assets/UI/` + material.images.filename_icon + `.png" alt="Material icon for ` + material.name + `">
+            <img class="material_icon_small ` + rarity_class + `" src="https://api.ambr.top/assets/UI/` + material.images.filename_icon + `.png" alt="Material icon for ` + material.name + `" onerror="useBackupResource(this, 'https://api.ambr.top/assets/UI/` + material.images.filename_icon + `.png')">
 
             <div class="material_count_small">
             ` + material_cost.count + `
@@ -433,7 +433,7 @@ function getMenuContentTalents(character_name) {
             content += `
                 <div class="menu_panel_column">
                     <div class="talent_name_container">
-                        <img class="talent_img" src="images/UI/` + character_talents.images["filename_" + talent] + `.png">
+                        <img class="talent_img" src="images/UI/` + character_talents.images["filename_" + talent] + `.png" onerror="useBackupResource(this, 'https://api.ambr.top/assets/UI/` + character_talents.images["filename_" + talent] + `.png')">
                     
                         <div class="talent_name">
                             ` + character_talents[talent].name + `
@@ -479,7 +479,7 @@ function getMenuContentConstellations(character_name) {
             content += `
             <div class="menu_panel_column">
                 <div class="talent_name_container">
-                    <img class="talent_img" src="images/UI/` + character_constellations.images["filename_c" + index] + `.png">
+                    <img class="talent_img" src="images/UI/` + character_constellations.images["filename_c" + index] + `.png" onerror="useBackupResource(this, 'https://api.ambr.top/assets/UI/` + character_constellations.images["filename_c" + index] + `.png')">
                 
                     <div class="talent_name">
                         ` + character_constellations["c" + index].name + `
@@ -506,7 +506,7 @@ function getWeaponHTML(weapon_name) {
 
     weaponHTML = `
         <div class="weapon_container tooltip">
-            <img class="build_material_icon_small ` + rarity_class + `" src="images/UI/` + weapon.images.filename_awakenIcon + `.png" alt="Material icon for ` + weapon.name + `">
+            <img class="build_material_icon_small ` + rarity_class + `" src="images/UI/` + weapon.images.filename_awakenIcon + `.png" alt="Weapon icon for ` + weapon.name + `" onerror="useBackupResource(this, 'https://api.ambr.top/assets/UI/` + weapon.images.filename_icon + `.png')">
             
             <span class="tooltiptext">` + weapon.name + `</span>
         </div>
@@ -608,7 +608,7 @@ function getMenuContentWeapon(character_name) {
         content += `
                 <div class="menu_panel_column">
                     <div class="talent_name_container">
-                        <img id="signature_weapon_icon" class="talent_img" src="images/UI/` + character_weapon.images.filename_icon + `.png">
+                        <img id="signature_weapon_icon" class="talent_img" src="images/UI/` + character_weapon.images.filename_icon + `.png" onerror="useBackupResource(this, 'https://api.ambr.top/assets/UI/` + character_weapon.images.filename_icon + `.png')">
                     
                         <div class="talent_name">
                             ` + character_weapon.name + `
@@ -720,7 +720,7 @@ function getArtifactHTML(artifact_name, artifact_piece) {
     if (artifact) {
         artifactHTML = `
             <div class="weapon_container tooltip">
-                <img class="build_material_icon_small material_5_stars" src="https://api.ambr.top/assets/UI/reliquary/` + artifact.images["filename_" + artifact_piece] + `.png" alt="Artifact ` + artifact_piece + ` icon for ` + artifact.name + `">
+                <img class="build_material_icon_small material_5_stars" src="https://api.ambr.top/assets/UI/reliquary/` + artifact.images["filename_" + artifact_piece] + `.png" alt="Artifact ` + artifact_piece + ` icon for ` + artifact.name + `" onerror="useBackupResource(this, 'https://api.ambr.top/assets/UI/reliquary/` + artifact.images["filename_" + artifact_piece] + `.png')">
                 
                 <span class="tooltiptext">` + artifact.name + `</span>
             </div>
@@ -764,7 +764,7 @@ function getMenuContentBuilds(character_name) {
                 if (talent_data) {
                     talents_priority.push(`
                         <div class="build_talent_info">
-                            <img class="talent_img_small" src="images/UI/` + talent_data.images["filename_combat" + talent] + `.png" alt="Talent ` + talent + `">
+                            <img class="talent_img_small" src="images/UI/` + talent_data.images["filename_combat" + talent] + `.png" alt="Talent ` + talent + `" onerror="useBackupResource(this, 'https://api.ambr.top/assets/UI/` + talent_data.images["filename_combat" + talent] + `.png')">
                         </div>
                     `);
                 } else {
@@ -1549,7 +1549,7 @@ function printCharacterInfoHTML(character_name) {
                 </div>
             </div>
 
-            <img class="menu_character_icon menu_character_` + character_data.rarity + `_stars" src="images/characters/` + character_data.images.filename_icon + `.png" alt="Character icon for ` + character_data.name + `">
+            <img class="menu_character_icon menu_character_` + character_data.rarity + `_stars" src="images/characters/` + character_data.images.filename_icon + `.png" alt="Character icon for ` + character_data.name + `" onerror="useBackupResource(this, 'https://api.ambr.top/assets/UI/` + character_data.images.filename_icon + `.png')">
 
             <div class="menu_character_row_info menu_character_row_dark">
                 Rarity:

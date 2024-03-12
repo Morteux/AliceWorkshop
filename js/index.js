@@ -24,6 +24,10 @@ function toFixedIfNecessary(value, dp) {
     return +parseFloat(value).toFixed(dp);
 }
 
+function useBackupResource(element, resource_url) {
+    element.src = resource_url;
+}
+
 function copyToClipboardFromElementValue(id) {
 
     // Get the text field

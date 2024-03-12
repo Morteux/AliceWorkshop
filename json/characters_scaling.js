@@ -13,6 +13,7 @@ const characters_attributes = {
     "Charlotte": { HP: 902.67309570312, ATK: 14.513520240784, DEF: 45.78, max_ascension_value_HP: 3229.748046875, max_ascension_value_ATK: 51.930332183838, max_ascension_value_DEF: 163.8 },
     "Chevreuse": { HP: 1002.9700927734, ATK: 16.205280303955, DEF: 50.701351165771, max_ascension_value_HP: 3588.6091308594, max_ascension_value_ATK: 57.983562469482, max_ascension_value_DEF: 181.40849304199 },
     "Chongyun": { HP: 920.90894, ATK: 18.6984, DEF: 54.36375, max_ascension_value_HP: 3294.9956, max_ascension_value_ATK: 66.90411, max_ascension_value_DEF: 194.5125 },
+    "Chiori": { HP: 1, ATK: 1, DEF: 1, max_ascension_value_HP: 1, max_ascension_value_ATK: 1, max_ascension_value_DEF: 1 },
     "Collei": { HP: 820.6119, ATK: 16.73952, DEF: 50.358, max_ascension_value_HP: 2936.1348, max_ascension_value_ATK: 59.895107, max_ascension_value_DEF: 180.18 },
     "Cyno": { HP: 972.3864, ATK: 24.7646, DEF: 66.88994, max_ascension_value_HP: 3993.1443, max_ascension_value_ATK: 101.68941, max_ascension_value_DEF: 274.6926 },
     "Dehya": { HP: 1220.2496, ATK: 20.6682, DEF: 48.88111, max_ascension_value_HP: 5011.0044, max_ascension_value_ATK: 84.8686, max_ascension_value_DEF: 200.7369 },

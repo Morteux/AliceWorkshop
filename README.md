@@ -14,7 +14,6 @@ CDN or JS files: https://github.com/theBowja/genshin-db-dist
 ## Features
 ### To do
 - Show last version supported.
-- Stats on most used characters, percentual presence of each character in meta, viable and funny.
 - Check if images exits locally. If not, get it from Ambr.
 
 ## Tab Archetypes
@@ -34,6 +33,4 @@ CDN or JS files: https://github.com/theBowja/genshin-db-dist
 - Check duplicate teams with builds too.
 - Configuration buttons (reset cookies, select traveler, etc)
 - Add user custom teams, so they can create a 4-character team (stored in sessions? need db).
-- User custom team mentioned above could have tags (1. viable team, 2. monoelectro, 3. raiden, f.e).
-- Add user custom list, so they can have a list with X characters to filter. 
 - troll: random team name generator.
