@@ -132,9 +132,9 @@ function getMenuCharacterHTML(character_data) {
 
 function printAllCharacters() {
     let menu_characters = `
-    <div class="tab_character_search">
-        <input id="tab_character_search" type="text" placeholder="Name..." class="search_form_text_input small_input">
-    </div>
+        <div class="tab_character_search">
+            <input id="tab_character_search" type="text" placeholder="Name..." class="search_form_text_input small_input">
+        </div>
     `;
 
     for (let index = Object.keys(characters_order_priority).length - 1; index >= 0; --index) {
