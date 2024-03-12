@@ -1014,3 +1014,39 @@
 .character_team_description {
     margin: 1vh 1vw;
 }
+
+.attribute_panel {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+    padding: 0.5vh 0.5vw;
+
+    margin: 1vh 0vw;
+
+    border: solid 2px var(--tertiary_color);
+    border-radius: 10px;
+
+    color: var(--light_text);
+
+    text-wrap: wrap;
+
+    background-color: var(--secondary_color_opacity);
+}
+
+.attribute_img {
+    width: 2vw;
+    margin-right: 0.5vw;
+}
+
+.attribute_info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+    margin: 1vh 1vw;
+
+    font-size: small;
+}

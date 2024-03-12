@@ -250,11 +250,11 @@ function getMaterialSmallHTML(material_cost) {
     return materialHTML;
 }
 
-function updateAscension() {
+function updateAscension(character_name) {
     let slider_ascend = [
         "",
         "",
-        "",
+        "ascend1",
         "ascend1",
         "ascend2",
         "ascend3",
@@ -264,10 +264,41 @@ function updateAscension() {
     ];
 
     let slider_value = document.getElementById("menu_slider_ascension").value;
+    let character = getCharacter(character_name);
+    
+    // Ascension Value in the Ascension Phase = Total Section in the Ascension Phase * Max Ascension Value
+    let ascension_value_hp = character_section_scaling[slider_value] * characters_attributes[character_name].max_ascension_value_HP;
+    let ascension_value_atk = character_section_scaling[slider_value] * characters_attributes[character_name].max_ascension_value_ATK;
+    let ascension_value_def = character_section_scaling[slider_value] * characters_attributes[character_name].max_ascension_value_DEF;
 
     // Base Attribute Value = Base Value * Level Multiplier + Ascension Value
-    document.getElementById("character_base_stats").innerHTML = "";
-    document.getElementById("character_bonus_stat").innerHTML = "";
+    let level_multiplier = character_level_multiplier[character.rarity][slider_value * 10 - 1];
+
+    let attribute_value_hp = characters_attributes[character_name].HP * level_multiplier + ascension_value_hp;
+    let attribute_value_atk = characters_attributes[character_name].ATK * level_multiplier + ascension_value_atk;
+    let attribute_value_def = characters_attributes[character_name].DEF * level_multiplier + ascension_value_def;
+
+    // Bonus Attribute Value = Base Value * Ascension Multiplier
+    let attribute_value_bonus = character_bonus_base_value[character.rarity][character.substatText] * character_bonus_ascension_multiplier[slider_value];
+
+    document.getElementById("character_attributes").innerHTML = `
+        <div class="attribute_info">
+            <img class="attribute_img" src="images/attribute/` + character_bonus_icon.ATK + `">
+            HP: ` + attribute_value_hp.toFixed(0) + `
+        </div>
+        <div class="attribute_info">
+            <img class="attribute_img" src="images/attribute/` + character_bonus_icon.HP + `">
+            ATK: ` + attribute_value_atk.toFixed(0) + `
+        </div>
+        <div class="attribute_info">
+            <img class="attribute_img" src="images/attribute/` + character_bonus_icon.DEF + `">
+            DEF: ` + attribute_value_def.toFixed(0) + `
+        </div>
+        <div class="attribute_info">
+            <img class="attribute_img" src="images/attribute/` + character_bonus_icon[character.substatText] + `">
+            ` + character.substatText + `: ` + toFixedIfNecessary(attribute_value_bonus, 2) + character_bonus_unit[character.substatText] + `
+        </div>
+    `;
 
     let output = ``;
 
@@ -293,14 +324,14 @@ function getMenuContentAscension(character_name) {
 
     content += `
         <div class="menu_panel">` + character_data.description + `</div>
-        <div id="character_base_stats" class="menu_panel"></div>
-        <div id="character_bonus_stat" class="menu_panel"></div>
+        <div id="character_attributes" class="attribute_panel"></div>
+
         <div class="slider_container">
             <div>
                 Lvl. <span id="menu_slider_ascension_output" class="menu_slider_output">20</span>
             </div>
 
-            <input type="range" min="2" max="9" step="1" value="9" class="menu_slider" id="menu_slider_ascension" oninput="updateAscension()">
+            <input type="range" min="2" max="9" step="1" value="9" class="menu_slider" id="menu_slider_ascension" oninput="updateAscension('` + character_name + `')">
         </div>
 
         <div id="materials_output" class="slider_output">
@@ -508,7 +539,7 @@ function updateWeaponMaterial() {
     let slider_ascend = [
         "",
         "",
-        "",
+        "ascend1",
         "ascend1",
         "ascend2",
         "ascend3",
@@ -517,9 +548,33 @@ function updateWeaponMaterial() {
         "ascend6",
     ];
 
+    let slider_value = document.getElementById("menu_slider_weapon_material").value;
+
+    // Main Stat Value = Base Value * Level Multiplier + Ascension Value
+    let level_multiplier = weapon_level_multiplier[character_weapon.rarity][weapon_tiers[character_weapon.rarity][toFixedIfNecessary(character_weapon.baseAtkValue, 4)]][slider_value * 10 - 1];
+    let ascension_value = weapon_ascension_value[character_weapon.rarity][slider_value];
+    let main_stat_value = character_weapon.baseAtkValue * level_multiplier + ascension_value;
+
+    // Sub Stat Value = Base Value * Level Multiplier
+    let substat_base_value = character_weapon.baseStatText.replace("%", "");
+    let substat_value = substat_base_value * weapon_substat_level_multiplier[slider_value * 10];
+
+    document.getElementById("weapons_stats_container").innerHTML = `
+        <div id="weapon_stat"class="weapon_stat">
+            <img class="attribute_img" src="images/attribute/` + character_bonus_icon.HP + `">
+            ATK: ` + toFixedIfNecessary(main_stat_value) + `
+        </div>
+
+        <div class="vertical_separator"></div>
+
+        <div id="weapon_substat" class="weapon_substat">
+            <img class="attribute_img" src="images/attribute/` + character_bonus_icon[character_weapon.mainStatText] + `">
+            ` + character_weapon.mainStatText + `: ` + toFixedIfNecessary(substat_value, 2) + (character_weapon.mainStatText.includes("%") ? `%` : ``) + `
+        </div>
+    `;
+
     let output = ``;
 
-    let slider_value = document.getElementById("menu_slider_weapon_material").value;
     document.getElementById("menu_slider_weapon_material_output").innerHTML = slider_value * 10;
 
     if (Array.isArray(character_weapon.costs[slider_ascend[parseInt(slider_value) - 1]])) {
@@ -565,17 +620,17 @@ function getMenuContentWeapon(character_name) {
                         </div>
                     </div>
 
-                    <div class="weapons_stats_container">
-                        <div class="weapon_stat">
-                            ATK: ` + Math.round(character_weapon.baseAtkValue) + `
+                    <div class="slider_container">
+                        <div>
+                            Lvl. <span id="menu_slider_weapon_material_output" class="menu_slider_output">1</span>
                         </div>
-
-                        <div class="vertical_separator"></div>
-
-                        <div class="weapon_substat">
-                        ` + character_weapon.mainStatText + `: ` + character_weapon.baseStatText + `
-                        </div>
+            
+                        <input type="range" min="2" max="9" step="1" value="9" class="menu_slider menu_slider_2" id="menu_slider_weapon_material" oninput="updateWeaponMaterial()">
                     </div>
+
+                    <div id="weapons_stats_container" class="weapons_stats_container"></div>
+
+                    <div id="weapon_material_output" class="slider_output"></div>
 
                     <div class="slider_container">
                         <div>
@@ -592,17 +647,6 @@ function getMenuContentWeapon(character_name) {
                     </div>
 
                     <div id="weapon_refinement_output" class="slider_output_text">
-                    </div>
-
-                    <div class="slider_container">
-                        <div>
-                            Lvl. <span id="menu_slider_weapon_material_output" class="menu_slider_output">1</span>
-                        </div>
-            
-                        <input type="range" min="2" max="9" step="1" value="9" class="menu_slider menu_slider_2" id="menu_slider_weapon_material" oninput="updateWeaponMaterial()">
-                    </div>
-
-                    <div id="weapon_material_output" class="slider_output">
                     </div>
                 </div>
             `;
@@ -1621,7 +1665,7 @@ function printCharacterInfoHTML(character_name) {
     document.getElementById("menu_characters_image").style.backgroundImage = "url('images/characters/" + filename_gachaSplash + ".png')";
 
     // Initialize tabs
-    updateAscension();
+    updateAscension(character_name);
     updateTalents();
     if (characters_signature_weapons[character_name]) {
         updateWeaponRefinement();

@@ -20,6 +20,10 @@ const MEDIUM_NAME_LENGTH = 16;
 const ENTER_KEY_CODE = 'Enter';
 const TEAMS_PER_PAGE = 10;
 
+function toFixedIfNecessary(value, dp) {
+    return +parseFloat(value).toFixed(dp);
+}
+
 function copyToClipboardFromElementValue(id) {
 
     // Get the text field
