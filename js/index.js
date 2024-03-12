@@ -25,7 +25,12 @@ function toFixedIfNecessary(value, dp) {
 }
 
 function useBackupResource(element, resource_url) {
-    element.src = resource_url;
+    if (!element.hasAttribute('retried')) {
+        element.src = resource_url;
+        element.setAttribute('retried', "true");
+    } else {
+        element.src = "images/icons/user.png";
+    }
 }
 
 function copyToClipboardFromElementValue(id) {
