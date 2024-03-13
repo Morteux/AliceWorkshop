@@ -131,9 +131,11 @@ function printElement(element) {
             </div>
         `;
         } else if (CHARACTER_NAMES.includes(element)) {
+            let character = getCharacter(element);
+
             element_HTML = `
             <div class="element_character_container">
-                <img class="archetype_character_icon" src="images/characters/` + getCharacter(element).images.filename_icon + `.png" alt="Flex icon">
+                <img class="archetype_character_icon" src="images/characters/` + character.images.filename_icon + `.png" alt="Flex icon" onerror="useBackupResource(this, 'https://api.ambr.top/assets/UI/` + character.images.filename_icon + `.png', 'images/icons/user.png', '` + character.name + `')">
             </div>
         `;
         } else {
