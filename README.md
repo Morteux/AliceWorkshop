@@ -9,6 +9,9 @@ https://genshindb-ia.netlify.app/
 
 https://genshindb-ia.vercel.app/
 
+https://genshin-impact.fandom.com/wiki/Character/Level_Scaling
+https://genshin-impact.fandom.com/wiki/Weapon/Level_Scaling
+
 CDN or JS files: https://github.com/theBowja/genshin-db-dist
 
 ## Features
