@@ -105,6 +105,18 @@ const characters_teams = {
             composition: ["pj1", "element1", "elem2", "Flex"]
         }
     },
+    "Chiori": {
+        "MonoGeo": {
+            archetype: "MonoGeo",
+            description: "Best Archetype for Chiori",
+            composition: ["Chiori", "Geo", "Geo", "Flex"]
+        },
+        "Hypercarry": {
+            archetype: "Hypercarry",
+            description: "You can play with Navia and etc",
+            composition: ["Chiori", "Flex", "Flex", "Flex"]
+        }
+    },
     "Chongyun": {
         "name": {
             archetype: "",
@@ -624,6 +636,7 @@ const characters_teams_info = {
     "Candace": "",
     "Charlotte": "",
     "Chevreuse": "",
+    "Chiori": "You can play her in flex archetypes due to her polivalence for being geo like hyperbloom and national etc.",
     "Chongyun": "",
     "Collei": "",
     "Cyno": "",
