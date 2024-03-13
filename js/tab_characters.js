@@ -55,12 +55,12 @@ document.addEventListener("DOMContentLoaded", (event) => {
 function swapRankingByViabilityChart() {
     document.getElementById(ranking_by_viability_chart).style.display = "none";
 
-    if(ranking_by_viability_chart == "ranking_by_viability_chart_bar") {
+    if (ranking_by_viability_chart == "ranking_by_viability_chart_bar") {
         ranking_by_viability_chart = "ranking_by_viability_chart_pie";
     } else {
         ranking_by_viability_chart = "ranking_by_viability_chart_bar";
     }
-    
+
     document.getElementById(ranking_by_viability_chart).style.display = "";
 }
 
@@ -265,7 +265,7 @@ function updateAscension(character_name) {
 
     let slider_value = document.getElementById("menu_slider_ascension").value;
     let character = getCharacter(character_name);
-    
+
     // Ascension Value in the Ascension Phase = Total Section in the Ascension Phase * Max Ascension Value
     let ascension_value_hp = character_section_scaling[slider_value] * characters_attributes[character_name].max_ascension_value_HP;
     let ascension_value_atk = character_section_scaling[slider_value] * characters_attributes[character_name].max_ascension_value_ATK;
@@ -677,7 +677,7 @@ function printCharacterTeam(team) {
 function getMenuContentTeams(character_name) {
     let content = ``;
 
-    for(let character_team_name in characters_teams[character_name]) {
+    for (let character_team_name in characters_teams[character_name]) {
         let team = characters_teams[character_name][character_team_name];
 
         content += `
@@ -1056,7 +1056,7 @@ function getChartElements(character_name) {
     let character = getCharacter(character_name);
     let color = (character.elementText != 'None' ? ELEMENT_COLORS[character.elementText] : ELEMENT_COLORS['Flex']);
 
-    if(!["Aether", "Lumine"].includes(character_name)) {
+    if (!["Aether", "Lumine"].includes(character_name)) {
         let element = character.elementText;
         labels.push(element);
         data.push(STATS.global_element_ranking[element][character_name].team_count);
@@ -1179,7 +1179,7 @@ function getChartViabilities(character_name) {
 
 
 
-    
+
     new Chart(document.getElementById('ranking_by_viability_chart_pie'), {
         type: 'pie',
         data: {
@@ -1499,7 +1499,7 @@ function getMenuContentCharts(character_name) {
             </div>
         </div>
     `;
-    
+
     content += `
         <div id="ranking_by_viability" class="ranking_panel">
             <div class="ranking_title">
@@ -1677,6 +1677,6 @@ function printCharacterInfoHTML(character_name) {
     getChartArchetypes(character_name);
     getChartElements(character_name);
     getChartViabilities(character_name);
-    
+
     swapRankingByViabilityChart();
 }

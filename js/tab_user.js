@@ -977,7 +977,7 @@ function calculateRankingByElement() {
             stats_temp.characters[character].ranking_by_element = 0;
             let element = getCharacter(character).elementText;
             // for (let element of ELEMENTS) {
-                ranking[element].push(stats_temp.characters[character].team_count);
+            ranking[element].push(stats_temp.characters[character].team_count);
             // }
         } else {
             stats_temp.characters[character].ranking_by_element = {};

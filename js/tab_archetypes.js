@@ -12,7 +12,7 @@ const shuffle = (array) => {
 var teams_keys = shuffle(Object.keys(teams));
 
 document.addEventListener("DOMContentLoaded", (event) => {
-    
+
     filters_tab_archetype = ARCHETYPES_NAMES.slice();   // Copy by value, not by reference
 
     printTabArchetypesFilters();

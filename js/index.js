@@ -33,7 +33,7 @@ function useBackupResource(element, resource_url, default_url, local_filename) {
     if (!element.hasAttribute('retried')) {
         element.src = resource_url;
         element.setAttribute('retried', "true");
-    } else if(!local_filename) {
+    } else if (!local_filename) {
         element.src = default_url;
     } else {
         element.src = "images/backup/" + local_filename + ".png";
