@@ -24,12 +24,19 @@ function toFixedIfNecessary(value, dp) {
     return +parseFloat(value).toFixed(dp);
 }
 
-function useBackupResource(element, resource_url) {
+// resource_url: backup URL in Ambr
+// default_url: backup when not exits even in Ambr
+// local_filename: possible backup if default_url is undefined too
+function useBackupResource(element, resource_url, default_url, local_filename) {
+    // console.log("onerror - useBackupResource(" + element + ", " + resource_url + ", " + default_url + ", " + local_filename + ")");
+
     if (!element.hasAttribute('retried')) {
         element.src = resource_url;
         element.setAttribute('retried', "true");
+    } else if(!local_filename) {
+        element.src = default_url;
     } else {
-        element.src = "images/icons/user.png";
+        element.src = "images/backup/" + local_filename + ".png";
     }
 }
 
