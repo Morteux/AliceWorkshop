@@ -14,25 +14,16 @@ https://genshin-impact.fandom.com/wiki/Weapon/Level_Scaling
 
 CDN or JS files: https://github.com/theBowja/genshin-db-dist
 
-## Features
-### To do
-- Show last version supported.
-- Check if images exits locally. If not, get it from Ambr.
+## Features - To do
 
-## Tab Archetypes
-### To do
+### Tab Archetypes - To do
 
-## Tab Teams Search
-### To do
-- Mark for user created teams.
+### Tab Teams Search - To do
 - Hide/show character stats behind icons for each team.
-- Hide/show "flex" artifacts and weapons in each build.
 
-## Tab Characters
-### To do
+### Tab Characters - To do
 
-## Tab Configuration
-### To do
+### Tab User - To do
 - Check duplicate teams with builds too.
 - Configuration buttons (reset cookies, select traveler, etc)
 - Add user custom teams, so they can create a 4-character team (stored in sessions? need db).

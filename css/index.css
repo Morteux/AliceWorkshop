@@ -574,8 +574,6 @@ input[type=text] {
 
 .cookies_background {
     position: fixed;
-    /* top: 50%;
-    left: 50%; */
 
     display: flex;
     flex-direction: row;
@@ -596,9 +594,9 @@ input[type=text] {
     align-items: center;
     justify-content: space-around;
 
-    background-color: var(--dark_background);
+    background-color: var(--primary_color);
 
-    width: 30vw;
+    width: 40vw;
 
     padding: 2vh 1vw;
 
@@ -607,6 +605,11 @@ input[type=text] {
     border: solid var(--secondary_color) 2px;
 
     border-radius: 20px;
+}
+
+.cookies_img {
+    width: 6vw;
+    margin-right: 1vw;
 }
 
 .cookies_message {

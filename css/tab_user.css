@@ -49,6 +49,33 @@
     width: 80%;
 }
 
+.menu_configuration {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    width: 90%;
+}
+
+.menu_configuration_row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+
+    width: 100%;
+}
+
+.menu_configuration_column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: left;
+
+    width: 100%;
+}
+
 .menu_characters_check {
     display: flex;
     flex-direction: row;

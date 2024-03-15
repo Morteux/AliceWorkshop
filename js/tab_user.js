@@ -9,6 +9,8 @@ var team_creator_offmeta;
 var team_creator_unique;
 
 var favorite_teams = [];
+
+// Must be JSON object to make easier filtering
 var user_characters = {};
 
 window.addEventListener("beforeunload", function (e) {
@@ -64,7 +66,6 @@ document.addEventListener("DOMContentLoaded", (event) => {
     printTeamCreator();
 
     // Team user configuration
-
     for (let menu_index in menu_tabs) {
         // Set on click event listener for each tab button
         document.getElementById(menu_tabs[menu_index] + "_button").addEventListener('click', function (event) {
@@ -73,7 +74,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
     }
 
     // Hide all tabs. Activate default tab
-    setMenuTabActive(document.getElementById("menu_teams_creator"), document.getElementById("menu_teams_creator_button"));
+    setMenuTabActive(document.getElementById("menu_configuration"), document.getElementById("menu_configuration_button"));
 });
 
 function printConfiguration() {
