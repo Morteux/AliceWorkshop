@@ -130,6 +130,10 @@
 
     margin-left: 3vw;
     margin-bottom: 3vh;
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 200%;
 }
 
 .menu_character_4_stars {

@@ -189,9 +189,9 @@ function printRecommendedCharacters(recommended_characters) {
         let character = getCharacter(recommended_characters[index]);
 
         characters_HTML += `
-            <div class="character_container ` + character.name.replaceAll(" ", "_") + `">
-                <img class="character_icon ` + (character.rarity == "5" ? "character_5_stars" : "character_4_stars") + `" src="images/characters/` + character.images.filename_icon + `.png" alt="Character icon for ` + character.name + `" onerror="useBackupResource(this, 'https://api.ambr.top/assets/UI/` + character.images.filename_icon + `.png', 'images/icons/user.png', '` + character.name + `')">
-                <img class="element_icon" src="images/elements/glow_` + (character.elementText != "None" ? character.elementText.toLowerCase() : builds[character_team.name][character_team.build].element.toLowerCase()) + `.png">
+            <div class="character_container ` + character.name.replaceAll(" ", "_") + `" onclick="setTabActive('tab_characters'); printCharacterInfoHTML('` + character.name + `')">
+            <img class="character_icon character_` + character.rarity + `_stars" src="images/characters/` + character.images.filename_icon + `.png" alt="Character icon for ` + character.name + `" onerror="useBackupResource(this, 'https://api.ambr.top/assets/UI/` + character.images.filename_icon + `.png', 'images/icons/user.png', '` + character.name + `')" style="background-image: url('images/regions/Emblem_` + character.region + `_` + (character.rarity == "5" ? `White` : `Night`) + `_Opacity_05.png');">
+            <img class="element_icon" src="images/elements/glow_` + (character.elementText != "None" ? character.elementText.toLowerCase() : builds[character_team.name][character_team.build].element.toLowerCase()) + `.png">
                 <div class="rarity_container">` + STAR_SVG + STAR_SVG + STAR_SVG + STAR_SVG + (character.rarity == "5" ? STAR_SVG : "") + `</div>
                 <div class="character_name ` + (character.name.length < SHORT_NAME_LENGTH ? "character_name_short" : (character.name.length < MEDIUM_NAME_LENGTH ? "character_name_medium" : "character_name_long")) + `">` + character.name + `</div>
             </div>

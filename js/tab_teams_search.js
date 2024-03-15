@@ -279,7 +279,7 @@ function getBirthdayHTML(character_data) {
 
 function getCharacterHTML(id, character_team, character_data) {
     return `
-    <div id="` + id + `" class="character_container ` + character_data.name.replaceAll(" ", "_") + `">
+    <div id="` + id + `" class="character_container ` + character_data.name.replaceAll(" ", "_") + `" onclick="setTabActive('tab_characters'); printCharacterInfoHTML('` + character_data.name + `')">
         <img class="character_icon character_` + character_data.rarity + `_stars" src="images/characters/` + character_data.images.filename_icon + `.png" alt="Character icon for ` + character_data.name + `" onerror="useBackupResource(this, 'https://api.ambr.top/assets/UI/` + character_data.images.filename_icon + `.png', 'images/icons/user.png', '` + character_data.name + `')" style="background-image: url('images/regions/Emblem_` + character_data.region + `_` + (character_data.rarity == "5" ? `White` : `Night`) + `_Opacity_05.png');">
         ` + getBirthdayHTML(character_data) + `
         <img class="element_icon" src="images/elements/glow_` + (character_data.elementText != "None" ? character_data.elementText.toLowerCase() : builds[character_team.name][character_team.build].element.toLowerCase()) + `.png">

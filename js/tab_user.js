@@ -54,8 +54,6 @@ document.addEventListener("DOMContentLoaded", (event) => {
         document.getElementById("cookies_background").style.display = "none";
     }
 
-    console.log(favorite_teams);
-
     // Configuration
     printConfiguration();
 
@@ -175,14 +173,14 @@ function printTeamJSON() {
 }
 
 function storeFavoriteTeam(id) {
-    console.log("Stored favorite " + id);
+    // console.log("Stored favorite " + id);
     // console.log(teams[id]);
 
     favorite_teams.push(id);
 }
 
 function removeFavoriteTeam(id) {
-    console.log("Removed favorite " + id);
+    // console.log("Removed favorite " + id);
     // console.log(favorite_teams.includes(id));
 
     const index = favorite_teams.indexOf(id);
@@ -194,8 +192,8 @@ function removeFavoriteTeam(id) {
 function getCharacterCheckHTML(character_data) {
     return `
     <div id="character_check_` + character_data.name + `" class="character_container ` + (user_characters[character_data.name] == null ? "character_unchecked" : "") + `" onclick="toggleCharacterUser('` + character_data.name + `')">
-        <img class="character_icon character_` + character_data.rarity + `_stars" src="images/characters/` + character_data.images.filename_icon + `.png" alt="Character icon for ` + character_data.name + `" onerror="useBackupResource(this, 'https://api.ambr.top/assets/UI/` + character_data.images.filename_icon + `.png', 'images/icons/user.png', '` + character_data.name + `')">
-        ` + (character_data.elementText != "None" ? `<img class="element_icon" src="images/elements/glow_` + character_data.elementText.toLowerCase() + `.png">` : "") + `
+    <img class="character_icon character_` + character_data.rarity + `_stars" src="images/characters/` + character_data.images.filename_icon + `.png" alt="Character icon for ` + character_data.name + `" onerror="useBackupResource(this, 'https://api.ambr.top/assets/UI/` + character_data.images.filename_icon + `.png', 'images/icons/user.png', '` + character_data.name + `')" style="background-image: url('images/regions/Emblem_` + character_data.region + `_` + (character_data.rarity == "5" ? `White` : `Night`) + `_Opacity_05.png');">
+    ` + (character_data.elementText != "None" ? `<img class="element_icon" src="images/elements/glow_` + character_data.elementText.toLowerCase() + `.png">` : "") + `
         <div class="rarity_container">` + STAR_SVG + STAR_SVG + STAR_SVG + STAR_SVG + (character_data.rarity == "5" ? STAR_SVG : "") + `</div>
         <div class="character_name ` + (character_data.name.length < SHORT_NAME_LENGTH ? "character_name_short" : (character_data.name.length < MEDIUM_NAME_LENGTH ? "character_name_medium" : "character_name_long")) + `">` + character_data.name + `</div>
     </div>
