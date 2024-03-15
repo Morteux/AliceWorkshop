@@ -194,10 +194,11 @@ function getTeamsByTextInput() {
             if (teams[team_index].character_4.name.length > 1) {
                 team["id"] = team_index + "-" + (parseInt(character_4_index) + 1);
             }
+
             team.character_4.name = [JSON.parse(JSON.stringify(teams[team_index].character_4.name[character_4_index]))];
             team.character_4.build = [JSON.parse(JSON.stringify(teams[team_index].character_4.build[character_4_index]))];
 
-            if (doFilter(team_index, team) && containCharacters(team, search_form_text_input)) {
+            if (doFilter(team["id"], team) && containCharacters(team, search_form_text_input)) {
                 teams_search_matches[team.id] = JSON.parse(JSON.stringify(team));
             }
             // else {
@@ -279,7 +280,7 @@ function getBirthdayHTML(character_data) {
 function getCharacterHTML(id, character_team, character_data) {
     return `
     <div id="` + id + `" class="character_container ` + character_data.name.replaceAll(" ", "_") + `">
-        <img class="character_icon character_` + character_data.rarity + `_stars" src="images/characters/` + character_data.images.filename_icon + `.png" alt="Character icon for ` + character_data.name + `" onerror="useBackupResource(this, 'https://api.ambr.top/assets/UI/` + character_data.images.filename_icon + `.png', 'images/icons/user.png', '` + character_data.name + `')">
+        <img class="character_icon character_` + character_data.rarity + `_stars" src="images/characters/` + character_data.images.filename_icon + `.png" alt="Character icon for ` + character_data.name + `" onerror="useBackupResource(this, 'https://api.ambr.top/assets/UI/` + character_data.images.filename_icon + `.png', 'images/icons/user.png', '` + character_data.name + `')" style="background-image: url('images/regions/Emblem_` + character_data.region + `_` + (character_data.rarity == "5" ? `White` : `Night`) + `_Opacity_05.png');">
         ` + getBirthdayHTML(character_data) + `
         <img class="element_icon" src="images/elements/glow_` + (character_data.elementText != "None" ? character_data.elementText.toLowerCase() : builds[character_team.name][character_team.build].element.toLowerCase()) + `.png">
         ` + (builds[character_team.name][character_team.build].constellation != "" ? `<div class="constellation">` + builds[character_team.name][character_team.build].constellation + `</div>` : ``) + `
@@ -310,8 +311,8 @@ function getTeamHTML(team, team_index, team_id, character_4) {
                 </div>
 
                 <div class="tags">
-                    <button class="fav_button" onclick="toggleFavorite(this, ` + teams_search_matches_ordered_keys[team_index] + `)">
-                        <img class="` + (favorites[teams_search_matches_ordered_keys[team_index]] === null || favorites[teams_search_matches_ordered_keys[team_index]] === undefined ? `empty` : `filled`) + `" src="images/icons/star_` + (favorites[teams_search_matches_ordered_keys[team_index]] === null || favorites[teams_search_matches_ordered_keys[team_index]] === undefined ? `empty` : `filled`) + `.png">
+                    <button class="fav_button" onclick="toggleFavorite(this, '` + team_id + `')">
+                        <img class="` + (!favorite_teams.includes(team_id) ? `empty` : `filled`) + `" src="images/icons/star_` + (!favorite_teams.includes(team_id) ? `empty` : `filled`) + `.png">
                     </button>
                 </div>
             </div>
@@ -349,20 +350,22 @@ function getTeamHTML(team, team_index, team_id, character_4) {
     `;
 }
 
-function toggleFavorite(button, id) {
+function toggleFavorite(button, team_id) {
     let star_img = button.getElementsByTagName('img')[0];
 
+    // console.log("toggleFavorite: " + team_id);
 
-    if (star_img.classList.contains("empty")) {
+    if(!favorite_teams.includes(team_id)) {
+    // if (star_img.classList.contains("empty")) {
 
-        storeFavoriteTeam(id);
+        storeFavoriteTeam(team_id);
 
         star_img.classList.remove("empty");
         star_img.classList.add("filled");
         star_img.src = "images/icons/star_filled.png";
     } else {
 
-        removeFavoriteTeam(id);
+        removeFavoriteTeam(team_id);
 
         star_img.classList.add("empty");
         star_img.classList.remove("filled");

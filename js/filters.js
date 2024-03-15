@@ -131,7 +131,7 @@ function doFilter(id, team) {
 // Filters logic
 
 function filterByFavorite(id) {
-    return filter_favorite && favorites[id] == null;
+    return filter_favorite && !favorite_teams.includes(id);
 }
 
 function filterByArchetype(team) {

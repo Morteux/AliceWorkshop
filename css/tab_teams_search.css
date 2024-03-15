@@ -196,7 +196,7 @@
     align-items: center;
     justify-content: center;
 
-    border-radius: 3%;
+    border-radius: 10px;
     margin: 1vh;
     margin-left: 4vh;
     margin-right: 4vh;
@@ -216,10 +216,10 @@
 .team_id {
     position: relative;
     display: inline-block;
-    
+
     font-size: 1.5vh;
 
-    border-radius: 25%;
+    border-radius: 5px;
 
     padding: 0.5vh;
     margin-left: 1vh;
@@ -316,7 +316,7 @@
 
     margin: 0.2vh;
 
-    border-radius: 8%;
+    border-radius: 10px;
     background-color: var(--light_background);
 
     max-width: 7vw;
@@ -334,6 +334,10 @@
     border-bottom-right-radius: 20%;
 
     background: linear-gradient(to bottom right, transparent 50%, black 100%);
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 200%;
 }
 
 .character_4_stars {
@@ -375,7 +379,7 @@
 
     color: var(--light_text);
     background-color: var(--shadow_background);
-    border-radius: 25%;
+    border-radius: 6px;
 }
 
 .rarity_container {

@@ -4,8 +4,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
     setButtonsEventListeners();
 
     // Hide all tabs. Activate default 
-    // setTabActive("tab_teams_search");   // Active by default
-    setTabActive("tab_characters");   // Active by default
+    setTabActive("tab_teams_search");   // Active by default
 });
 
 function setButtonsEventListeners() {

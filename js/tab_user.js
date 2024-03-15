@@ -8,17 +8,17 @@ var team_creator_viable;
 var team_creator_offmeta;
 var team_creator_unique;
 
-var favorites = {};
+var favorite_teams = [];
 var user_characters = {};
 
 window.addEventListener("beforeunload", function (e) {
-    localStorage.setItem('favorites', JSON.stringify(favorites));
+    localStorage.setItem('favorite_teams', JSON.stringify(favorite_teams));
     localStorage.setItem('user_characters', JSON.stringify(user_characters));
 });
 
-if (localStorage.getItem("favorites") !== null && localStorage.getItem("favorites") != "{}") {
-    favorites = JSON.parse(localStorage.getItem("favorites"));
-    // console.log(favorites);
+if (localStorage.getItem("favorite_teams") !== null && localStorage.getItem("favorite_teams") != "{}") {
+    favorite_teams = JSON.parse(localStorage.getItem("favorite_teams"));
+    // console.log(favorite_teams);
 }
 
 if (localStorage.getItem("user_characters") !== null && localStorage.getItem("user_characters") != "{}") {
@@ -26,7 +26,33 @@ if (localStorage.getItem("user_characters") !== null && localStorage.getItem("us
     // console.log(user_characters);
 }
 
+function deleteAllCookies() {
+    const cookies = document.cookie.split(";");
+
+    for (let i = 0; i < cookies.length; i++) {
+        const cookie = cookies[i];
+        const eqPos = cookie.indexOf("=");
+        const name = eqPos > -1 ? cookie.substr(0, eqPos) : cookie;
+        document.cookie = name + "=;expires=Thu, 01 Jan 1970 00:00:00 GMT";
+    }
+}
+
+function acceptCookies() {
+    document.getElementById("cookies_background").style.display = "none";
+    localStorage.setItem("cookies_accepted", "true");
+}
+
+function declineCookies() {
+    deleteAllCookies();
+    window.close();
+}
+
 document.addEventListener("DOMContentLoaded", (event) => {
+    if(localStorage.getItem("cookies_accepted") == "true") {
+        document.getElementById("cookies_background").style.display = "none";
+    }
+
+    console.log(favorite_teams);
 
     // Configuration
     printConfiguration();
@@ -148,17 +174,20 @@ function printTeamJSON() {
 }
 
 function storeFavoriteTeam(id) {
-    // console.log("Stored favorite " + id);
+    console.log("Stored favorite " + id);
     // console.log(teams[id]);
 
-    favorites[id] = teams[id];
+    favorite_teams.push(id);
 }
 
 function removeFavoriteTeam(id) {
-    // console.log("Removed favorite " + id);
-    // console.log(favorites[id]);
+    console.log("Removed favorite " + id);
+    // console.log(favorite_teams.includes(id));
 
-    delete favorites[id];
+    const index = favorite_teams.indexOf(id);
+    if (index > -1) {
+        favorite_teams.splice(index, 1);
+    }
 }
 
 function getCharacterCheckHTML(character_data) {
