@@ -1056,3 +1056,49 @@
 
     font-size: small;
 }
+
+.traveler_elements_buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+    width: 100%;
+
+    margin: 2vh 0vw;
+}
+
+.traveler_button_element_icon {
+    width: 3vw;
+    border-radius: 50%;
+
+    cursor: pointer;
+}
+
+.traveler_button_Pyro:hover {
+    box-shadow: 0 5px 5px var(--pyro);
+}
+
+.traveler_button_Electro:hover {
+    box-shadow: 0 5px 5px var(--electro);
+}
+
+.traveler_button_Hydro:hover {
+    box-shadow: 0 5px 5px var(--hydro);
+}
+
+.traveler_button_Cryo:hover {
+    box-shadow: 0 5px 5px var(--cryo);
+}
+
+.traveler_button_Anemo:hover {
+    box-shadow: 0 5px 5px var(--anemo);
+}
+
+.traveler_button_Geo:hover {
+    box-shadow: 0 5px 5px var(--geo);
+}
+
+.traveler_button_Dendro:hover {
+    box-shadow: 0 5px 5px var(--dendro);
+}

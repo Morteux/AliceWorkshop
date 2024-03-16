@@ -213,6 +213,25 @@ function printArchetypes() {
 
     for (let archetype_index in archetypes) {
 
+        let archetype = archetypes[archetype_index];
+
+        // Special checks for travelers
+        if (archetype.element) {
+            for (let i = 0; i < archetype.element.length; ++i) {
+                if (!Array.isArray(archetype.element[i])) {
+                    if (["Aether", "Lumine"].includes(archetype.element[i])) {
+                        archetype.element[i] = traveler;
+                    }
+                } else {
+                    for (let j = 0; j < archetype.element[i].length; ++j) {
+                        if (["Aether", "Lumine"].includes(archetype.element[i][j])) {
+                            archetype.element[i][j] = traveler;
+                        }
+                    }
+                }
+            }
+        }
+
         archetypes_HTML += `
         <div id="archetype_container_` + archetype_index.toLowerCase() + `" class="archetype_container">
 
@@ -227,7 +246,7 @@ function printArchetypes() {
                     <button type="submit" class="search_random_button" onclick="getNewRandomTeamByArchetype('random_` + archetype_index + `', '` + archetype_index + `')"></button>
                 </div>
                 <div class="team_elements_container">
-                    ` + printElementsOrForcedCharacter(archetypes[archetype_index]) + `
+                    ` + printElementsOrForcedCharacter(archetype) + `
                 </div>
 
                 <div id="random_` + archetype_index + `">

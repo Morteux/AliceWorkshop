@@ -116,10 +116,6 @@ function activateMenuContent(element, content_id) {
 }
 
 function getMenuCharacterHTML(character_data) {
-    if (character_data == null) {
-        console.log(character_data);
-    }
-
     return `
     <div id="character_` + character_data.name + `" class="character_container" onclick="printCharacterInfoHTML('` + character_data.name + `')">
     <img class="character_icon character_` + character_data.rarity + `_stars" src="images/characters/` + character_data.images.filename_icon + `.png" alt="Character icon for ` + character_data.name + `" onerror="useBackupResource(this, 'https://api.ambr.top/assets/UI/` + character_data.images.filename_icon + `.png', 'images/icons/user.png', '` + character_data.name + `')" style="background-image: url('images/regions/Emblem_` + character_data.region + `_` + (character_data.rarity == "5" ? `White` : `Night`) + `_Opacity_05.png');">
@@ -152,10 +148,10 @@ function resetMenuCharacters() {
 
 function getNewRandomTeamByCharacterBuild(container, character, build) {
     teams_keys = shuffle(Object.keys(teams));
-    document.getElementById(container).innerHTML = getRandomTeamByCharacterBuild(character, build);
+    document.getElementById(container).innerHTML = getRandomTeamByCharacterBuild(character, build, character);
 }
 
-function getRandomTeamByCharacterBuild(character, build) {
+function getRandomTeamByCharacterBuild(character, build, builds_name) {
     let team_output = "";
 
     let team_index = -1;
@@ -163,16 +159,16 @@ function getRandomTeamByCharacterBuild(character, build) {
     let index = 0;
 
     while (team_index == -1 && index < Object.keys(teams).length) {
-        if ((teams[teams_keys[index]].character_1.name == character && teams[teams_keys[index]].character_1.build == build) ||
-            (teams[teams_keys[index]].character_2.name == character && teams[teams_keys[index]].character_2.build == build) ||
-            (teams[teams_keys[index]].character_3.name == character && teams[teams_keys[index]].character_3.build == build)) {
+        if ((teams[teams_keys[index]].character_1.name == builds_name && teams[teams_keys[index]].character_1.build == build) ||
+            (teams[teams_keys[index]].character_2.name == builds_name && teams[teams_keys[index]].character_2.build == build) ||
+            (teams[teams_keys[index]].character_3.name == builds_name && teams[teams_keys[index]].character_3.build == build)) {
 
             team_index = teams_keys[index];
         }
 
         // If character with build is in char_4 position
         for (let char_4_index = 0; char_4_index < teams[teams_keys[index]].character_4.name.length; ++char_4_index) {
-            if (teams[teams_keys[index]].character_4.name[char_4_index] == character && teams[teams_keys[index]].character_4.build[char_4_index] == build) {
+            if (teams[teams_keys[index]].character_4.name[char_4_index] == builds_name && teams[teams_keys[index]].character_4.build[char_4_index] == build) {
                 team_index = teams_keys[index];
                 team_index_char_4 = char_4_index;
             }
@@ -421,16 +417,17 @@ function getMenuContentTalents(character_name) {
 
     let talents = ["combat1", "combat2", "combat3", "combatsp", "passive1", "passive2", "passive3", "passive4"];
 
-    for (let talent of talents) {
+    if (character_talents) {
+        for (let talent of talents) {
 
-        if (character_talents && character_talents[talent]) {
+            if (character_talents[talent]) {
 
-            let talent_postprocessed = character_talents[talent].descriptionRaw.replaceAll(regex_color_start_tag, (match, capturedGroup) => {
-                const color = match.match(/\#......../g);
-                return '<span class="talent_subtitle" style="color: ' + color + '">';
-            }).replaceAll(regex_color_end_tag, "</span>").replaceAll("\n", "<br>").replaceAll("{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press}", "Press");
+                let talent_postprocessed = character_talents[talent].descriptionRaw.replaceAll(regex_color_start_tag, (match, capturedGroup) => {
+                    const color = match.match(/\#......../g);
+                    return '<span class="talent_subtitle" style="color: ' + color + '">';
+                }).replaceAll(regex_color_end_tag, "</span>").replaceAll("\n", "<br>").replaceAll("{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press}", "Press");
 
-            content += `
+                content += `
                 <div class="menu_panel_column">
                     <div class="talent_name_container">
                         <img class="talent_img" src="images/UI/` + character_talents.images["filename_" + talent] + `.png" onerror="useBackupResource(this, 'https://api.ambr.top/assets/UI/` + character_talents.images["filename_" + talent] + `.png', 'images/icons/paimon_emoji_01.webp')">
@@ -457,11 +454,43 @@ function getMenuContentTalents(character_name) {
                     </div>` : ``) + `
                 </div>
             `;
+            }
         }
+    } else {
+        content = `<div class="menu_panel">No talents found...</div>`;
     }
 
     return content;
 }
+
+function getMenuContentTalentsTravelerElement(character_name) {
+    document.getElementById("talents_traveler").innerHTML = getMenuContentTalents(character_name);
+    updateTalents();
+}
+
+function getMenuContentTalentsTraveler() {
+
+    let content = `<div class="traveler_elements_buttons">
+    `;
+
+    for (let element of ELEMENTS) {
+        let character_name = "Traveler (" + element + ")";
+        
+        content += `
+            <img class="traveler_button_element_icon traveler_button_` + element + `" src="images/elements/` + element.toLowerCase() + `.png" onclick="getMenuContentTalentsTravelerElement('` + character_name + `')">
+        `;
+    }
+
+    content += `
+        </div>
+        <div id="talents_traveler">
+            ` + getMenuContentTalents("Traveler (Anemo)") + `
+        </div>
+    `;
+
+    return content;
+}
+
 
 function getMenuContentConstellations(character_name) {
     let content = ``;
@@ -493,7 +522,36 @@ function getMenuContentConstellations(character_name) {
             </div>
             `;
         }
+    } else {
+        content = `<div class="menu_panel">No constellations found...</div>`;
     }
+
+    return content;
+}
+
+function getMenuContentConstellationsTravelerElement(character_name) {
+    document.getElementById("constellations_traveler").innerHTML = getMenuContentConstellations(character_name);
+}
+
+function getMenuContentConstellationsTraveler() {
+    
+    let content = `<div class="traveler_elements_buttons">
+    `;
+
+    for (let element of ELEMENTS) {
+        let character_name = "Traveler (" + element + ")";
+        
+        content += `
+            <img class="traveler_button_element_icon traveler_button_` + element + `" src="images/elements/` + element.toLowerCase() + `.png" onclick="getMenuContentConstellationsTravelerElement('` + character_name + `')">
+        `;
+    }
+
+    content += `
+        </div>
+        <div id="constellations_traveler">
+            ` + getMenuContentConstellations("Traveler (Anemo)") + `
+        </div>
+    `;
 
     return content;
 }
@@ -675,10 +733,23 @@ function printCharacterTeam(team) {
 }
 
 function getMenuContentTeams(character_name) {
+    let teams_name = character_name;
+
+    if (character_name == "Lumine") {
+        teams_name = "Aether";
+    }
+
     let content = ``;
 
-    for (let character_team_name in characters_teams[character_name]) {
-        let team = characters_teams[character_name][character_team_name];
+    for (let character_team_name in characters_teams[teams_name]) {
+        let team = JSON.parse(JSON.stringify(characters_teams[teams_name][character_team_name]));
+
+        // Special checks for travelers
+        for (let i = 0; i < team.composition.length; ++i) {
+            if (character_name == "Lumine" && team.composition[i] == "Aether") {
+                team.composition[i] = "Lumine";
+            }
+        }
 
         content += `
             <div class="menu_panel_column">
@@ -705,7 +776,7 @@ function getMenuContentTeams(character_name) {
         </div>
 
         <div class="character_team_description">
-            ` + characters_teams_info[character_name] + `
+            ` + characters_teams_info[teams_name] + `
         </div>
     </div>
     `;
@@ -731,10 +802,16 @@ function getArtifactHTML(artifact_name, artifact_piece) {
 }
 
 function getMenuContentBuilds(character_name) {
+    let builds_name = character_name;
+
+    if (character_name == "Lumine") {
+        builds_name = "Aether";
+    }
+
     let content = ``;
 
-    for (let build_name in builds[character_name]) {
-        let build = builds[character_name][build_name];
+    for (let build_name in builds[builds_name]) {
+        let build = builds[builds_name][build_name];
 
         let weapons_build = ``;
         if (build.weapon.length > 0) {
@@ -944,7 +1021,7 @@ function getMenuContentBuilds(character_name) {
                         </div>
                     </div>
                     <div id="random_` + build_name + `">
-                        ` + getRandomTeamByCharacterBuild(character_name, build_name) + `
+                        ` + getRandomTeamByCharacterBuild(character_name, build_name, builds_name) + `
                     </div>
                 </div>
             `;
@@ -954,12 +1031,18 @@ function getMenuContentBuilds(character_name) {
 }
 
 function getChartTeams(character_name) {
+    let stats_name = character_name;
+
+    if (character_name == "Lumine") {
+        stats_name = "Aether";
+    }
+
     let character = getCharacter(character_name);
     let color = (character.elementText != 'None' ? ELEMENT_COLORS[character.elementText] : ELEMENT_COLORS['Flex']);
     let colors = [color, 'gray'];
 
     let total = STATS.team_count_flex;
-    let character_total = STATS.characters[character_name].team_count;
+    let character_total = STATS.characters[stats_name].team_count;
 
     let character_perc = ((character_total / total) * 100).toFixed(2);
     let total_perc = (100.0 - character_perc).toFixed(2);
@@ -990,6 +1073,12 @@ function getChartTeams(character_name) {
 }
 
 function getChartArchetypes(character_name) {
+    let stats_name = character_name;
+
+    if (character_name == "Lumine") {
+        stats_name = "Aether";
+    }
+
     let labels = [];
     let data = [];
     let data_all = [];
@@ -997,10 +1086,10 @@ function getChartArchetypes(character_name) {
     let color = (character.elementText != 'None' ? ELEMENT_COLORS[character.elementText] : ELEMENT_COLORS['Flex']);
 
     for (let archetype of ARCHETYPES_NAMES) {
-        if (STATS.characters[character_name].by_archetype[archetype] && STATS.characters[character_name].by_archetype[archetype] > 0) {
+        if (STATS.characters[stats_name].by_archetype[archetype] && STATS.characters[stats_name].by_archetype[archetype] > 0) {
             labels.push(archetype);
-            data.push(STATS.characters[character_name].by_archetype[archetype]);
-            data_all.push(STATS.team_count_by_archetype[archetype] - STATS.characters[character_name].by_archetype[archetype]);
+            data.push(STATS.characters[stats_name].by_archetype[archetype]);
+            data_all.push(STATS.team_count_by_archetype[archetype] - STATS.characters[stats_name].by_archetype[archetype]);
         }
     }
 
@@ -1050,6 +1139,12 @@ function getChartArchetypes(character_name) {
 }
 
 function getChartElements(character_name) {
+    let stats_name = character_name;
+
+    if (character_name == "Lumine") {
+        stats_name = "Aether";
+    }
+
     let labels = [];
     let data = [];
     let data_all = [];
@@ -1059,14 +1154,14 @@ function getChartElements(character_name) {
     if (!["Aether", "Lumine"].includes(character_name)) {
         let element = character.elementText;
         labels.push(element);
-        data.push(STATS.global_element_ranking[element][character_name].team_count);
-        data_all.push(STATS.team_count_by_element[element] - STATS.global_element_ranking[element][character_name].team_count);
+        data.push(STATS.global_element_ranking[element][stats_name].team_count);
+        data_all.push(STATS.team_count_by_element[element] - STATS.global_element_ranking[element][stats_name].team_count);
     } else {
         for (let element of ELEMENTS) {
-            if (STATS.characters[character_name].team_count_by_element[element] && STATS.characters[character_name].team_count_by_element[element] > 0) {
+            if (STATS.characters[stats_name].team_count_by_element[element] && STATS.characters[stats_name].team_count_by_element[element] > 0) {
                 labels.push(element);
-                data.push(STATS.characters[character_name].team_count_by_element[element]);
-                data_all.push(STATS.team_count_by_element[element] - STATS.characters[character_name].team_count_by_element[element]);
+                data.push(STATS.characters[stats_name].team_count_by_element[element]);
+                data_all.push(STATS.team_count_by_element[element] - STATS.characters[stats_name].team_count_by_element[element]);
             }
         }
     }
@@ -1117,6 +1212,12 @@ function getChartElements(character_name) {
 }
 
 function getChartViabilities(character_name) {
+    let stats_name = character_name;
+
+    if (character_name == "Lumine") {
+        stats_name = "Aether";
+    }
+
     let labels = [];
     let data = [];
     let data_all = [];
@@ -1128,8 +1229,8 @@ function getChartViabilities(character_name) {
 
     for (let viability of VIABILITIES) {
         labels.push(viability);
-        data.push(STATS.characters[character_name].by_viability[viability]);
-        data_all.push(STATS.team_count_by_viability[viability] - STATS.characters[character_name].by_viability[viability]);
+        data.push(STATS.characters[stats_name].by_viability[viability]);
+        data_all.push(STATS.team_count_by_viability[viability] - STATS.characters[stats_name].by_viability[viability]);
         colors.push(VIABILITIES_COLORS[viability]);
     }
 
@@ -1206,23 +1307,29 @@ function getChartViabilities(character_name) {
 }
 
 function getRankingTeams(character_name) {
+    let stats_name = character_name;
+
+    if (character_name == "Lumine") {
+        stats_name = "Aether";
+    }
+
     let teams_table = ``;
 
-    let total_characters = CHARACTER_NAMES.length;
+    let total_characters = CHARACTER_NAMES.length - 1; //-1 because there are two travelers
     let total_teams = STATS.team_count_flex;
 
     let team_count_ranking_class = `low_rank`;
     let team_count_class = `low_rank`;
 
-    if (STATS.characters[character_name].team_count_ranking < (total_characters * 0.25)) {
+    if (STATS.characters[stats_name].team_count_ranking < (total_characters * 0.25)) {
         team_count_ranking_class = `high_rank`;
-    } else if (STATS.characters[character_name].team_count_ranking < (total_characters * 0.75)) {
+    } else if (STATS.characters[stats_name].team_count_ranking < (total_characters * 0.75)) {
         team_count_ranking_class = `medium_rank`;
     }
 
-    if (STATS.characters[character_name].team_count > (total_teams * 0.25)) {
+    if (STATS.characters[stats_name].team_count > (total_teams * 0.25)) {
         team_count_class = `high_rank`;
-    } else if (STATS.characters[character_name].team_count > (total_teams * 0.05)) {
+    } else if (STATS.characters[stats_name].team_count > (total_teams * 0.05)) {
         team_count_class = `medium_rank`;
     }
 
@@ -1233,7 +1340,7 @@ function getRankingTeams(character_name) {
         </div>
 
         <div class="rank_value">
-        <span class="` + team_count_ranking_class + `">` + STATS.characters[character_name].team_count_ranking + `</span>/` + total_characters + `
+        <span class="` + team_count_ranking_class + `">` + STATS.characters[stats_name].team_count_ranking + `</span>/` + total_characters + `
         </div>
     </div>
 
@@ -1243,7 +1350,7 @@ function getRankingTeams(character_name) {
         </div>
 
         <div class="rank_value">
-        <span class="` + team_count_class + `">` + STATS.characters[character_name].team_count + `</span>/` + total_teams + ` (` + ((STATS.characters[character_name].team_count / total_teams) * 100).toFixed(2) + `%)
+        <span class="` + team_count_class + `">` + STATS.characters[stats_name].team_count + `</span>/` + total_teams + ` (` + ((STATS.characters[stats_name].team_count / total_teams) * 100).toFixed(2) + `%)
         </div>
     </div>`;
 
@@ -1251,17 +1358,23 @@ function getRankingTeams(character_name) {
 }
 
 function getRankingArchetypes(character_name) {
+    let stats_name = character_name;
+
+    if (character_name == "Lumine") {
+        stats_name = "Aether";
+    }
+
     let archetype_table = ``;
 
-    let total_characters = CHARACTER_NAMES.length;
+    let total_characters = CHARACTER_NAMES.length - 1; //-1 because there are two travelers
 
     let is_first_row = true;
 
     for (let archetype of ARCHETYPES_NAMES) {
 
-        let archetype_count = STATS.characters[character_name].by_archetype[archetype];
+        let archetype_count = STATS.characters[stats_name].by_archetype[archetype];
         let global_archetype_count = STATS.team_count_by_archetype[archetype];
-        let rank = STATS.global_archetype_ranking[archetype][character_name].rank;
+        let rank = STATS.global_archetype_ranking[archetype][stats_name].rank;
 
         let team_count_ranking_class = `low_rank`;
         let team_count_class = `low_rank`;
@@ -1303,19 +1416,25 @@ function getRankingArchetypes(character_name) {
 }
 
 function getRankingElements(character_name) {
+    let stats_name = character_name;
+
+    if (character_name == "Lumine") {
+        stats_name = "Aether";
+    }
+
     let element_table = ``;
 
-    let total_characters = CHARACTER_NAMES.length;
+    let total_characters = CHARACTER_NAMES.length - 1; //-1 because there are two travelers
 
     let is_first_row = true;
 
     for (let element of ELEMENTS) {
 
-        if (STATS.global_element_ranking[element][character_name]) {
+        if (STATS.global_element_ranking[element][stats_name]) {
 
-            let element_count = STATS.global_element_ranking[element][character_name].team_count;
+            let element_count = STATS.global_element_ranking[element][stats_name].team_count;
             let global_element_count = STATS.team_count_by_element[element];
-            let rank = STATS.global_element_ranking[element][character_name].rank;
+            let rank = STATS.global_element_ranking[element][stats_name].rank;
 
             let team_count_ranking_class = `low_rank`;
             let team_count_class = `low_rank`;
@@ -1358,17 +1477,23 @@ function getRankingElements(character_name) {
 }
 
 function getRankingViabilities(character_name) {
+    let stats_name = character_name;
+
+    if (character_name == "Lumine") {
+        stats_name = "Aether";
+    }
+
     let viability_table = ``;
 
-    let total_characters = CHARACTER_NAMES.length;
+    let total_characters = CHARACTER_NAMES.length - 1; //-1 because there are two travelers
 
     let is_first_row = true;
 
     for (let viability of VIABILITIES) {
 
-        let viability_count = STATS.characters[character_name].by_viability[viability];
+        let viability_count = STATS.characters[stats_name].by_viability[viability];
         let global_viability_count = STATS.team_count_by_viability[viability];
-        let rank = STATS.global_viability_ranking[viability][character_name].rank;
+        let rank = STATS.global_viability_ranking[viability][stats_name].rank;
 
         let team_count_ranking_class = `low_rank`;
         let team_count_class = `low_rank`;
@@ -1638,10 +1763,10 @@ function printCharacterInfoHTML(character_name) {
                 ` + getMenuContentAscension(character_name) + `
                 </div>
                 <div id="menu_content_talents" class="menu_container hide_menu_character_container">
-                ` + getMenuContentTalents(character_name) + `
+                ` + (!["Aether", "Lumine"].includes(character_name) ? getMenuContentTalents(character_name) : getMenuContentTalentsTraveler()) + `
                 </div>
                 <div id="menu_content_constellations" class="menu_container hide_menu_character_container">
-                ` + getMenuContentConstellations(character_name) + `
+                ` + (!["Aether", "Lumine"].includes(character_name) ? getMenuContentConstellations(character_name) : getMenuContentConstellationsTraveler()) + `
                 </div>
                 <div id="menu_content_weapon" class="menu_container hide_menu_character_container">
                 ` + getMenuContentWeapon(character_name) + `

@@ -278,6 +278,10 @@ function getBirthdayHTML(character_data) {
 }
 
 function getCharacterHTML(id, character_team, character_data) {
+    if(["Aether", "Lumine"].includes(character_data.name)) {
+        character_data = getCharacter(traveler);
+    }
+
     return `
     <div id="` + id + `" class="character_container ` + character_data.name.replaceAll(" ", "_") + `" onclick="setTabActive('tab_characters'); printCharacterInfoHTML('` + character_data.name + `')">
         <img class="character_icon character_` + character_data.rarity + `_stars" src="images/characters/` + character_data.images.filename_icon + `.png" alt="Character icon for ` + character_data.name + `" onerror="useBackupResource(this, 'https://api.ambr.top/assets/UI/` + character_data.images.filename_icon + `.png', 'images/icons/user.png', '` + character_data.name + `')" style="background-image: url('images/regions/Emblem_` + character_data.region + `_` + (character_data.rarity == "5" ? `White` : `Night`) + `_Opacity_05.png');">

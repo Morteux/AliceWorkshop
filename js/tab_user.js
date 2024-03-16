@@ -1,7 +1,6 @@
 var team_count = Object.keys(teams).length;
 
 var menu_tabs = ["menu_configuration", "menu_characters_check", "menu_teams_creator", "menu_json_validator", "menu_stats_calculator", "menu_team_json_sort"];
-var menu_tabs_buttons = ["menu_configuration_button", "menu_characters_check_button", "menu_teams_creator_button", "menu_json_validator_button", "menu_stats_calculator_button", "menu_team_json_sort_button"];
 
 var team_creator_meta;
 var team_creator_viable;
@@ -13,12 +12,19 @@ var favorite_teams = [];
 // Must be JSON object to make easier filtering
 var user_characters = {};
 
+var traveler = "Aether";
+
+var declinedCookies = false;
+
 window.addEventListener("beforeunload", function (e) {
-    localStorage.setItem('favorite_teams', JSON.stringify(favorite_teams));
-    localStorage.setItem('user_characters', JSON.stringify(user_characters));
+    if (!declinedCookies) {
+        localStorage.setItem('favorite_teams', JSON.stringify(favorite_teams));
+        localStorage.setItem('user_characters', JSON.stringify(user_characters));
+        localStorage.setItem('traveler', traveler);
+    }
 });
 
-if (localStorage.getItem("favorite_teams") !== null && localStorage.getItem("favorite_teams") != "{}") {
+if (localStorage.getItem("favorite_teams") !== null && localStorage.getItem("favorite_teams") != "[]") {
     favorite_teams = JSON.parse(localStorage.getItem("favorite_teams"));
     // console.log(favorite_teams);
 }
@@ -26,6 +32,11 @@ if (localStorage.getItem("favorite_teams") !== null && localStorage.getItem("fav
 if (localStorage.getItem("user_characters") !== null && localStorage.getItem("user_characters") != "{}") {
     user_characters = JSON.parse(localStorage.getItem("user_characters"));
     // console.log(user_characters);
+}
+
+if (localStorage.getItem("traveler") !== null && localStorage.getItem("traveler") != "") {
+    traveler = localStorage.getItem("traveler");
+    // console.log(traveler);
 }
 
 function deleteAllCookies() {
@@ -39,23 +50,59 @@ function deleteAllCookies() {
     }
 }
 
+function deleteAllLocalStorage() {
+    declinedCookies = true;
+    
+    favorite_teams = [];
+    user_characters = {};
+    traveler = "Aether";
+
+    localStorage.removeItem("cookies_accepted");
+
+    localStorage.removeItem("favorite_teams");
+    localStorage.removeItem("user_characters");
+
+    localStorage.removeItem("traveler");
+    location.reload();
+}
+
+function deleteFavoriteTeams() {
+    favorite_teams = [];
+
+    localStorage.removeItem("favorite_teams");
+
+    location.reload();
+}
+
+function deleteUserCharacters() {
+    user_characters = {};
+    traveler = "Aether";
+
+    localStorage.removeItem("user_characters");
+
+    localStorage.removeItem("traveler");
+
+    location.reload();
+}
+
 function acceptCookies() {
     document.getElementById("cookies_background").style.display = "none";
     localStorage.setItem("cookies_accepted", "true");
 }
 
 function declineCookies() {
+    declinedCookies = true;
+
     deleteAllCookies();
+    deleteAllLocalStorage();
+
     window.close();
 }
 
 document.addEventListener("DOMContentLoaded", (event) => {
-    if(localStorage.getItem("cookies_accepted") == "true") {
+    if (localStorage.getItem("cookies_accepted") == "true") {
         document.getElementById("cookies_background").style.display = "none";
     }
-
-    // Configuration
-    printConfiguration();
 
     // Characters
     printCharactersCheck();
@@ -66,17 +113,43 @@ document.addEventListener("DOMContentLoaded", (event) => {
     // Team user configuration
     for (let menu_index in menu_tabs) {
         // Set on click event listener for each tab button
-        document.getElementById(menu_tabs[menu_index] + "_button").addEventListener('click', function (event) {
-            setMenuTabActive(document.getElementById(menu_tabs[menu_index]), document.getElementById(menu_tabs[menu_index] + "_button"));
-        });
+        if (document.getElementById(menu_tabs[menu_index] + "_button")) {
+            document.getElementById(menu_tabs[menu_index] + "_button").addEventListener('click', function (event) {
+                setMenuTabActive(document.getElementById(menu_tabs[menu_index]), document.getElementById(menu_tabs[menu_index] + "_button"));
+            });
+        }
     }
 
     // Hide all tabs. Activate default tab
     setMenuTabActive(document.getElementById("menu_configuration"), document.getElementById("menu_configuration_button"));
+
+    setTraveler(traveler);
 });
 
-function printConfiguration() {
+function setTraveler(name) {
+    let uncheck = "Aether";
 
+    traveler = name;
+
+    if (name == "Aether") {
+        uncheck = "Lumine";
+    }
+
+    if (!document.getElementById("traveler_" + uncheck).classList.contains("character_unchecked")) {
+        document.getElementById("traveler_" + uncheck).classList.add("character_unchecked");
+    }
+
+    document.getElementById("traveler_" + traveler).classList.remove("character_unchecked");
+
+}
+
+function removeTraveler(array) {
+    const index = array.indexOf(traveler);
+    if (index > -1) {
+        array.splice(index, 1);
+    }
+
+    return array;
 }
 
 function getViability() {
@@ -96,7 +169,9 @@ function getViability() {
 function setMenuTabActive(menu_tab, menu_tab_button) {
     if (!menu_tab.classList.contains('active_tab_button')) {
         for (let tab_index in menu_tabs) {
-            disableMenuTab(document.getElementById(menu_tabs[tab_index]), document.getElementById(menu_tabs[tab_index] + "_button"));
+            if (document.getElementById(menu_tabs[tab_index]) && document.getElementById(menu_tabs[tab_index] + "_button")) {
+                disableMenuTab(document.getElementById(menu_tabs[tab_index]), document.getElementById(menu_tabs[tab_index] + "_button"));
+            }
         }
 
         activateMenuTab(menu_tab, menu_tab_button);
@@ -122,17 +197,19 @@ function disableMenuTab(tab, tab_button) {
 }
 
 function printTeamCreator() {
-    team_creator_meta = document.getElementById("team_creator_meta");
-    team_creator_viable = document.getElementById("team_creator_viable");
-    team_creator_offmeta = document.getElementById("team_creator_offmeta");
-    team_creator_unique = document.getElementById("team_creator_unique");
+    if (document.getElementById("menu_teams_creator")) {
+        team_creator_meta = document.getElementById("team_creator_meta");
+        team_creator_viable = document.getElementById("team_creator_viable");
+        team_creator_offmeta = document.getElementById("team_creator_offmeta");
+        team_creator_unique = document.getElementById("team_creator_unique");
 
-    document.getElementById("id_input").value = team_count + 1;
+        document.getElementById("id_input").value = team_count + 1;
 
-    autocomplete(document.getElementById("character_1_select"), CHARACTER_NAMES);
-    autocomplete(document.getElementById("character_2_select"), CHARACTER_NAMES);
-    autocomplete(document.getElementById("character_3_select"), CHARACTER_NAMES);
-    autocomplete(document.getElementById("character_4_select"), CHARACTER_NAMES);
+        autocomplete(document.getElementById("character_1_select"), CHARACTER_NAMES);
+        autocomplete(document.getElementById("character_2_select"), CHARACTER_NAMES);
+        autocomplete(document.getElementById("character_3_select"), CHARACTER_NAMES);
+        autocomplete(document.getElementById("character_4_select"), CHARACTER_NAMES);
+    }
 }
 
 function printTeamJSON() {

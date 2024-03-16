@@ -20,6 +20,8 @@ CDN or JS files: https://github.com/theBowja/genshin-db-dist
 
 ### Tab Teams Search - To do
 - Hide/show character stats behind icons for each team.
+- Inclusive filters (search teams with geo characters and ignore any other filters).
+- Filter by actual banners.
 
 ### Tab Characters - To do
 

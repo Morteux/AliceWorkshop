@@ -252,149 +252,179 @@
 
             <!-- <div style="display: none;"> -->
             <div id="navigation_menu" class="navigation_menu">
-                <div id="menu_configuration_button" class="">Configuration</div>
-                <div id="menu_characters_check_button" class="">Characters owned</div>
-                <div id="menu_teams_creator_button" class="">Team creator</div>
-                <div id="menu_json_validator_button" class="">Admin JSON Validator</div>
-                <div id="menu_team_json_sort_button" class="">Admin Sort teams JSON</div>
-                <div id="menu_stats_calculator_button" class="">Admin Stats Calculator</div>
+                <div id="menu_configuration_button">Configuration</div>
+                <div id="menu_characters_check_button">Characters owned</div>
+
+                <!-- <div id="menu_teams_creator_button">Team creator</div> -->
+
+                <!-- <div id="menu_json_validator_button">Admin JSON Validator</div>
+                <div id="menu_team_json_sort_button">Admin Sort teams JSON</div>
+                <div id="menu_stats_calculator_button">Admin Stats Calculator</div> -->
             </div>
 
-            <div id="content_menu" class="content_menu">
-                <div id="menu_configuration" class="menu_configuration">
-                    <div class="menu_configuration_row">
-                        set aether or lumine?
+            <div id="menu_configuration" class="menu_configuration">
+                <fieldset class="menu_configuration_traveler">
+                    <legend>Select your traveler</legend>
+
+                    <div id="traveler_Aether" class="character_container" onclick="setTraveler('Aether')">
+                        <img class="character_icon character_5_stars"
+                            src="images/characters/UI_AvatarIcon_PlayerBoy.png" alt="Character icon for Aether">
+                        <div class="rarity_container">
+                            <img class="rarity" src="images/rarity/star.svg">
+                            <img class="rarity" src="images/rarity/star.svg">
+                            <img class="rarity" src="images/rarity/star.svg">
+                            <img class="rarity" src="images/rarity/star.svg">
+                            <img class="rarity" src="images/rarity/star.svg">
+                        </div>
+                        <div class="character_name character_name_short">Aether</div>
                     </div>
 
-                    <div class="menu_configuration_row">
-                        show pre release content?
+                    <div id="traveler_Lumine" class="character_container" onclick="setTraveler('Lumine')">
+                        <img class="character_icon character_5_stars"
+                            src="images/characters/UI_AvatarIcon_PlayerGirl.png" alt="Character icon for Lumine">
+                        <div class="rarity_container">
+                            <img class="rarity" src="images/rarity/star.svg">
+                            <img class="rarity" src="images/rarity/star.svg">
+                            <img class="rarity" src="images/rarity/star.svg">
+                            <img class="rarity" src="images/rarity/star.svg">
+                            <img class="rarity" src="images/rarity/star.svg">
+                        </div>
+                        <div class="character_name character_name_short">Lumine</div>
                     </div>
+                </fieldset>
 
-                    <div class="menu_configuration_row">
-                        show teams for actual banners on page load?
-                    </div>
+                <fieldset class="menu_configuration_cookies">
+                    <legend>User local storage</legend>
 
-                    <div class="menu_configuration_row">
-                        <div class="">
-                            remove all locale storage/cookies with a warning
-                        </div>
-                        <div class="">
-                            remove all favorites
-                        </div>
-                        <div class="">
-                            remove all user teams
-                        </div>
+                    <button class="primary_button" onclick="deleteFavoriteTeams()">Remove favorite teams</button>
+
+                    <button class="primary_button" onclick="deleteUserCharacters()">Remove characters owned</button>
+
+                    <button class="primary_button" onclick="deleteAllLocalStorage()">Remove ALL user info</button>
+                </fieldset>
+            </div>
+
+            <div id="menu_characters_check" class="menu_characters_check">
+            </div>
+
+
+
+
+<!-- 
+            <div id="menu_teams_creator" class="menu_teams_creator">
+                <div class="tag_input_row">
+                    <span class="light_text">#</span>
+                    <input id="id_input" type="number" placeholder="#" class="id_input">
+                </div>
+
+                <input id="team_name_select" type="text" placeholder="Team name" class="short_select">
+                <input id="description_select" type="text" placeholder="Description" class="long_select">
+                <input id="rotation_select" type="text" placeholder="Rotation" class="long_select">
+                <input id="archetype_select" type="text" placeholder="Archetype" class="short_select">
+
+                <div class="list_choice">
+                    <div class="list_choice_title">Viability</div>
+                    <div id="list_choice_objects" class="list_choice_objects">
+                        <label>
+                            <input type="radio" name="team_creator_viability" id="team_creator_meta" value="Meta"
+                                checked /> <span>Meta</span>
+                        </label>
+                        <label>
+                            <input type="radio" name="team_creator_viability" id="team_creator_viable" value="Viable" />
+                            <span>Viable</span>
+                        </label>
+                        <label>
+                            <input type="radio" name="team_creator_viability" id="team_creator_offmeta"
+                                value="Offmeta" /> <span>Offmeta</span>
+                        </label>
+                        <label>
+                            <input type="radio" name="team_creator_viability" id="team_creator_unique" value="Unique" />
+                            <span>Unique</span>
+                        </label>
                     </div>
                 </div>
 
-                <div id="menu_characters_check" class="menu_characters_check">
-                </div>
-
-                <div id="menu_teams_creator" class="menu_teams_creator">
-                    <div class="tag_input_row">
-                        <span class="light_text">#</span>
-                        <input id="id_input" type="number" placeholder="#" class="id_input">
+                <div class="row_selects">
+                    <div class="autocomplete">
+                        <input id="character_1_select" type="text" name="character_1_select" placeholder="Character 1"
+                            class="short_select">
                     </div>
-
-                    <input id="team_name_select" type="text" placeholder="Team name" class="short_select">
-                    <input id="description_select" type="text" placeholder="Description" class="long_select">
-                    <input id="rotation_select" type="text" placeholder="Rotation" class="long_select">
-                    <input id="archetype_select" type="text" placeholder="Archetype" class="short_select">
-
-                    <div class="list_choice">
-                        <div class="list_choice_title">Viability</div>
-                        <div id="list_choice_objects" class="list_choice_objects">
-                            <label>
-                                <input type="radio" name="team_creator_viability" id="team_creator_meta" value="Meta"
-                                    checked /> <span>Meta</span>
-                            </label>
-                            <label>
-                                <input type="radio" name="team_creator_viability" id="team_creator_viable"
-                                    value="Viable" /> <span>Viable</span>
-                            </label>
-                            <label>
-                                <input type="radio" name="team_creator_viability" id="team_creator_offmeta"
-                                    value="Offmeta" /> <span>Offmeta</span>
-                            </label>
-                            <label>
-                                <input type="radio" name="team_creator_viability" id="team_creator_unique"
-                                    value="Unique" /> <span>Unique</span>
-                            </label>
-                        </div>
+                    <div class="autocomplete">
+                        <input id="character_2_select" type="text" name="character_2_select" placeholder="Character 2"
+                            class="short_select">
                     </div>
-
-                    <div class="row_selects">
-                        <div class="autocomplete">
-                            <input id="character_1_select" type="text" name="character_1_select"
-                                placeholder="Character 1" class="short_select">
-                        </div>
-                        <div class="autocomplete">
-                            <input id="character_2_select" type="text" name="character_2_select"
-                                placeholder="Character 2" class="short_select">
-                        </div>
-                        <div class="autocomplete">
-                            <input id="character_3_select" type="text" name="character_3_select"
-                                placeholder="Character 3" class="short_select">
-                        </div>
-                        <div class="autocomplete">
-                            <input id="character_4_select" type="text" name="character_4_select"
-                                placeholder="Character 4" class="short_select">
-                        </div>
+                    <div class="autocomplete">
+                        <input id="character_3_select" type="text" name="character_3_select" placeholder="Character 3"
+                            class="short_select">
                     </div>
-
-                    <div class="row_selects">
-                        <div class="autocomplete">
-                            <input id="build_1_select" type="text" name="build_1_select" placeholder="Build 1"
-                                class="short_select">
-                        </div>
-                        <div class="autocomplete">
-                            <input id="build_2_select" type="text" name="build_2_select" placeholder="Build 2"
-                                class="short_select">
-                        </div>
-                        <div class="autocomplete">
-                            <input id="build_3_select" type="text" name="build_3_select" placeholder="Build 3"
-                                class="short_select">
-                        </div>
-                        <div class="autocomplete">
-                            <input id="build_4_select" type="text" name="build_4_select" placeholder="Build 4"
-                                class="short_select">
-                        </div>
+                    <div class="autocomplete">
+                        <input id="character_4_select" type="text" name="character_4_select" placeholder="Character 4"
+                            class="short_select">
                     </div>
-
-                    <button class="primary_button" onclick="printTeamJSON()">Build JSON</button>
-
-                    <textarea id="json_result" class="json_result" rows="4" cols="50"></textarea>
                 </div>
 
-                <div id="menu_json_validator" class="menu_json_validator">
-
-                    <button class="primary_button" onclick="validateJSON()">Validate JSON</button>
-
-                    <!-- <textarea id="json_validator_result" class="json_result" rows="4" cols="200" readonly></textarea> -->
-                    <div id="json_validator_result" class="json_validator_result"></div>
-
+                <div class="row_selects">
+                    <div class="autocomplete">
+                        <input id="build_1_select" type="text" name="build_1_select" placeholder="Build 1"
+                            class="short_select">
+                    </div>
+                    <div class="autocomplete">
+                        <input id="build_2_select" type="text" name="build_2_select" placeholder="Build 2"
+                            class="short_select">
+                    </div>
+                    <div class="autocomplete">
+                        <input id="build_3_select" type="text" name="build_3_select" placeholder="Build 3"
+                            class="short_select">
+                    </div>
+                    <div class="autocomplete">
+                        <input id="build_4_select" type="text" name="build_4_select" placeholder="Build 4"
+                            class="short_select">
+                    </div>
                 </div>
 
-                <div id="menu_team_json_sort" class="menu_team_json_sort">
+                <button class="primary_button" onclick="printTeamJSON()">Build JSON</button>
 
-                    <button class="primary_button" onclick="sortTeamsJSON()">Sort teams JSON</button>
+                <textarea id="json_result" class="json_result" rows="4" cols="50"></textarea>
+            </div> -->
 
-                    <div>Check the console to see the result (F12)</div>
 
-                </div>
 
-                <div id="menu_stats_calculator" class="menu_stats_calculator">
 
-                    <button class="primary_button" onclick="calculateStats()">Calculate Stats</button>
 
-                    <div>Check the console to see the result (F12)</div>
 
-                </div>
+
+
+
+
+<!-- 
+            <div id="menu_json_validator" class="menu_json_validator">
+
+                <button class="primary_button" onclick="validateJSON()">Validate JSON</button>
+
+                <div id="json_validator_result" class="json_validator_result"></div>
 
             </div>
 
-            <!-- </div> -->
+            <div id="menu_team_json_sort" class="menu_team_json_sort">
+
+                <button class="primary_button" onclick="sortTeamsJSON()">Sort teams JSON</button>
+
+                <div>Check the console to see the result (F12)</div>
+
+            </div>
+
+            <div id="menu_stats_calculator" class="menu_stats_calculator">
+
+                <button class="primary_button" onclick="calculateStats()">Calculate Stats</button>
+
+                <div>Check the console to see the result (F12)</div>
+
+            </div> -->
+
         </div>
+
+        <!-- </div> -->
+    </div>
     </div>
 </body>
 
