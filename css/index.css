@@ -30,7 +30,7 @@
     --light_text: aliceblue;
     --gray_text: rgb(195, 202, 211);
     /* --dark_text: #313131; */
-    --dark_text: #181818;
+    --dark_text: #000000;
 
     /* Character rarity */
     --character_4_stars: #5c2391;
