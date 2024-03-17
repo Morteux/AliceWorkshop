@@ -629,3 +629,11 @@ input[type=text] {
 .cookies_buttons>button {
     margin: 1vh 1vw;
 }
+
+.discord_widget {
+    position: fixed;
+    bottom: 2vh;
+    left: 3vh;
+
+    z-index: 10;
+}
