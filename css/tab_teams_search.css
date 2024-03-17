@@ -437,3 +437,25 @@
     margin-top: 5vh;
     margin-bottom: 25vh;
 }
+
+.disclaimer_panel {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    width: 80%;
+    
+    font-size: small;
+
+    color: var(--warning);
+    background-color: var(--warning_background_opacity);
+    border: solid 2px var(--warning_background);
+    border-radius: 10px;
+
+    text-wrap: wrap;
+
+    padding: 1vh 1vw;
+
+    margin-bottom: 2vh;
+}
