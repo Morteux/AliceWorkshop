@@ -795,7 +795,7 @@ const teams = {
         "archetype": [
             "Burgeon"
         ],
-        "viability": "Meta",
+        "viability": "Viable",
         "character_1": {
             "name": "Tartaglia",
             "build": "Standard"
