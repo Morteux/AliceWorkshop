@@ -14135,8 +14135,8 @@ const teams = {
 
     "431": {
         "name": "Klee Furina Forward Vape",
-        "description": "One of the Best Klee teams. Furina will be the one vaping.",
-        "rotation": "",
+        "description": "One of the Best Klee teams. Furina will be the one vaping. With Kazuha in AoE, you need to do the same rotation but at the start do Klee 1NA + Kazuha Burst",
+        "rotation": "Furina QE > Bennett Q > Xiangling/Kazuha QE > Klee rotation",
         "archetype": [
             "Vaporize"
         ],
@@ -14164,6 +14164,8 @@ const teams = {
             ]
         }
     },
+
+    
 }
 
 
