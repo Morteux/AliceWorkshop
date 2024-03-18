@@ -105,7 +105,10 @@ function toggleExtraFiltersContainer() {
 function doFilter(id, team) {
     let pass = true;
 
-    if (filterByFavorite(id)) {
+    if (filterByPrerelease(team)) {
+        // console.log("filterByCharacter KO" + " in team #" + id);
+        pass = false;
+    } else if (filterByFavorite(id)) {
         // console.log("filterByFavorite KO" + " in team #" + id);
         pass = false;
     } else if (filterByArchetype(team)) {
@@ -129,6 +132,27 @@ function doFilter(id, team) {
 }
 
 // Filters logic
+
+function filterByPrerelease(team) {
+    let hasExcludedCharacter = false;
+    let excludedCharacters = Object.keys(characters);
+
+    if (!prerelease_content) {
+        if (excludedCharacters.includes(team.character_1.name) ||
+            excludedCharacters.includes(team.character_2.name) ||
+            excludedCharacters.includes(team.character_3.name))
+            hasExcludedCharacter = true;
+        else {
+            for (let character_index in team.character_4.name) {
+                if (excludedCharacters.includes(team.character_4.name[character_index])) {
+                    hasExcludedCharacter = true;
+                }
+            }
+        }
+    }
+
+    return hasExcludedCharacter;
+}
 
 function filterByFavorite(id) {
     return filter_favorite && !favorite_teams.includes(id);

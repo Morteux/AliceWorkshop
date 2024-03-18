@@ -220,7 +220,6 @@ function printTeams() {
     let team_count = 0;
     let team_index = start_index;
     while (team_index < teams_search_matches_ordered_keys.length && team_count < TEAMS_PER_PAGE) {
-
         let team = teams_search_matches[teams_search_matches_ordered_keys[team_index]];
         let character_4_int_index = 1;
         for (let character_4_index in team.character_4.name) {
@@ -278,12 +277,11 @@ function getBirthdayHTML(character_data) {
 }
 
 function getCharacterHTML(id, character_team, character_data) {
-    if (character_data) {
-        if (["Aether", "Lumine"].includes(character_data.name)) {
-            character_data = getCharacter(traveler);
-        }
+    if (["Aether", "Lumine"].includes(character_data.name)) {
+        character_data = getCharacter(traveler);
+    }
 
-        return `
+    return `
         <div id="` + id + `" class="character_container ` + character_data.name.replaceAll(" ", "_") + `" onclick="setTabActive('tab_characters'); printCharacterInfoHTML('` + character_data.name + `')">
             <img class="character_icon character_` + character_data.rarity + `_stars" src="images/characters/` + character_data.images.filename_icon + `.png" alt="Character icon for ` + character_data.name + `" onerror="useBackupResource(this, 'https://api.ambr.top/assets/UI/` + character_data.images.filename_icon + `.png', 'images/icons/user.png', '` + character_data.name + `')" style="background-image: url('images/regions/Emblem_` + character_data.region + `_` + (character_data.rarity == "5" ? `White` : `Night`) + `_Opacity_05.png');">
             ` + getBirthdayHTML(character_data) + `
@@ -293,9 +291,6 @@ function getCharacterHTML(id, character_team, character_data) {
             <div class="character_name ` + (character_data.name.length < SHORT_NAME_LENGTH ? "character_name_short" : (character_data.name.length < MEDIUM_NAME_LENGTH ? "character_name_medium" : "character_name_long")) + `">` + character_data.name + `</div>
         </div>
         `;
-    } else {
-        return ``;
-    }
 }
 
 function getTeamHTML(team, team_index, team_id, character_4) {
