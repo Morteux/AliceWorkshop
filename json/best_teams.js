@@ -79,5 +79,7 @@ const best_teams = {
     "Navia": [],
     "Chevreuse": [],
     "Xianyun": [],
-    "Gaming": []
+    "Gaming": [],
+    "Chiori": [],
+    "Arlecchino": []
 }

@@ -275,3 +275,30 @@
     margin-left: 0.5vh;
     margin-right: 0.5vh;
 }
+
+.menu_configuration_row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+    width: 90%;
+}
+
+
+.menu_configuration_prerelease {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    /* width: 100%; */
+
+    border-radius: 10px;
+    border: solid 3px var(--secondary_color);
+
+    color: var(--light_text);
+
+    margin: 3vh 1vw;
+    padding: 1vh 1vw;
+}

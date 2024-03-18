@@ -79,5 +79,6 @@ const characters_order_priority = {
     77: "Chevreuse",
     78: "Xianyun",
     79: "Gaming",
-    80: "Chiori"
+    80: "Chiori",
+    81: "Arlecchino"
 }

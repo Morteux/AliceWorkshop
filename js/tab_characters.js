@@ -208,17 +208,26 @@ function getMaterialHTML(material_cost) {
     let material = GenshinDb.material(material_cost.name);
     let materialHTML = ``;
 
-    let rarity_class = material.rarity ? `material_` + material.rarity + `_stars` : `material_1_stars`;
+    let rarity_class = "material_1_stars";
+    let material_name = material_cost.name;
+    let material_icon = "";
+
+    if (material) {
+        rarity_class = material.rarity ? `material_` + material.rarity + `_stars` : `material_1_stars`;
+
+        material_name = material.name;
+        material_icon = material.images.filename_icon;
+    }
 
     materialHTML = `
         <div class="material_container tooltip">
-            <img class="material_icon ` + rarity_class + `" src="https://api.ambr.top/assets/UI/` + material.images.filename_icon + `.png" alt="Material icon for ` + material.name + `" onerror="useBackupResource(this, 'https://api.ambr.top/assets/UI/` + material.images.filename_icon + `.png', 'images/icons/Icon_Inventory_Materials.webp')">
+            <img class="material_icon ` + rarity_class + `" src="https://api.ambr.top/assets/UI/` + material_icon + `.png" alt="Material icon for ` + material_name + `" onerror="useBackupResource(this, 'https://api.ambr.top/assets/UI/` + material_icon + `.png', 'images/icons/Icon_Inventory_Materials.webp')">
 
             <div class="material_count">
             ` + material_cost.count + `
             </div>
             
-            <span class="tooltiptext">` + material.name + `</span>
+            <span class="tooltiptext">` + material_name + `</span>
         </div>
     `;
 
@@ -475,7 +484,7 @@ function getMenuContentTalentsTraveler() {
 
     for (let element of ELEMENTS) {
         let character_name = "Traveler (" + element + ")";
-        
+
         content += `
             <img class="traveler_button_element_icon traveler_button_` + element + `" src="images/elements/` + element.toLowerCase() + `.png" onclick="getMenuContentTalentsTravelerElement('` + character_name + `')">
         `;
@@ -534,13 +543,13 @@ function getMenuContentConstellationsTravelerElement(character_name) {
 }
 
 function getMenuContentConstellationsTraveler() {
-    
+
     let content = `<div class="traveler_elements_buttons">
     `;
 
     for (let element of ELEMENTS) {
         let character_name = "Traveler (" + element + ")";
-        
+
         content += `
             <img class="traveler_button_element_icon traveler_button_` + element + `" src="images/elements/` + element.toLowerCase() + `.png" onclick="getMenuContentConstellationsTravelerElement('` + character_name + `')">
         `;

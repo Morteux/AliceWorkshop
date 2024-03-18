@@ -192,109 +192,19 @@ const weapons = {
 
 
 
-    "Uraku Misugiri": {
+    "Crimson Moon's Semblance": {
         "id": 0,
-        "name": "Uraku Misugiri",
-        "description": "",
-        "descriptionRaw": "",
-        "weaponType": "",
-        "weaponText": "Sword",
-        "rarity": 5,
-        "story": "",
-        "baseAtkValue": 44.3358,
-        "mainStatType": "",
-        "mainStatText": "DEF",
-        "baseStatText": "",
-        "effectName": "",
-        "effectTemplateRaw": "",
-        "r1": {
-            "description": "",
-            "values": []
-        },
-        "r2": {
-            "description": "",
-            "values": []
-        },
-        "r3": {
-            "description": "",
-            "values": []
-        },
-        "r4": {
-            "description": "",
-            "values": []
-        },
-        "r5": {
-            "description": "",
-            "values": []
-        },
-        "costs": {
-            "ascend1": [
-                {
-                    "id": 202,
-                    "name": "Mora",
-                    "count": 10000
-                }
-            ],
-            "ascend2": [
-                {
-                    "id": 202,
-                    "name": "Mora",
-                    "count": 20000
-                }
-            ],
-            "ascend3": [
-                {
-                    "id": 202,
-                    "name": "Mora",
-                    "count": 30000
-                }
-            ],
-            "ascend4": [
-                {
-                    "id": 202,
-                    "name": "Mora",
-                    "count": 45000
-                }
-            ],
-            "ascend5": [
-                {
-                    "id": 202,
-                    "name": "Mora",
-                    "count": 55000
-                }
-            ],
-            "ascend6": [
-                {
-                    "id": 202,
-                    "name": "Mora",
-                    "count": 65000
-                }
-            ]
-        },
-        "images": {
-            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/PRE_Weapon_Uraku_Misugiri.png",
-            "awakenicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/PRE_Weapon_Uraku_Misugiri.png",
-            "filename_icon": "UI_EquipIcon_Sword_Needle",
-            "filename_awakenIcon": "PRE_UI_EquipIcon_Sword_Needle",
-            "filename_gacha": "PRE_UI_EquipIcon_Sword_Needle",
-            "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/PRE_Weapon_Uraku_Misugiri.png",
-            "mihoyo_awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/PRE_Weapon_Uraku_Misugiri.png"
-        },
-        "version": ""
-    },
-    "Dialogues of the Desert Sages": {
-        "id": 0,
-        "name": "Dialogues of the Desert Sages",
+        "name": "Crimson Moon's Semblance",
         "description": "",
         "descriptionRaw": "",
         "weaponType": "",
         "weaponText": "Polearm",
-        "rarity": 4,
+        "rarity": 5,
         "story": "",
-        "baseAtkValue": 0,
+        "baseAtkValue": 49.1377,
         "mainStatType": "",
-        "mainStatText": "",
-        "baseStatText": "",
+        "mainStatText": "CRIT Rate",
+        "baseStatText": "4.8%",
         "effectName": "",
         "effectTemplateRaw": "",
         "r1": {
@@ -362,9 +272,9 @@ const weapons = {
             ]
         },
         "images": {
-            "filename_icon": "UI_EquipIcon_Pole_Caduceus.png",
-            "filename_awakenIcon": "PRE_UI_EquipIcon_Pole_Caduceus",
-            "filename_gacha": "PRE_UI_EquipIcon_Pole_Caduceus",
+            "filename_icon": "UI_EquipIcon_Pole_BloodMoon",
+            "filename_awakenIcon": "UI_EquipIcon_Pole_BloodMoon",
+            "filename_gacha": "UI_EquipIcon_Pole_BloodMoon",
         },
         "version": ""
     },

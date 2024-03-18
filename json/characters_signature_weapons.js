@@ -79,5 +79,6 @@ const characters_signature_weapons = {
     "Chevreuse": "",
     "Xianyun": "Crane's Echoing Call",
     "Gaming": "",
-    "Chiori": "Uraku Misugiri"
+    "Chiori": "Uraku Misugiri",
+    "Arlecchino": "Crimson Moon's Semblance"
 }

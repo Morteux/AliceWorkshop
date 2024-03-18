@@ -84,12 +84,14 @@
     <button onclick="scrollToTop()" id="scroll_top_button" class="scroll_top_button"></button>
 
     <div id="discord_widget" class="discord_widget">
-        <img class="close_icon close_left" src="images/icons/close_icon.png" alt="Close icon" onclick="closeWindow('discord_widget')">
+        <img class="close_icon close_left" src="images/icons/close_icon.png" alt="Close icon"
+            onclick="closeWindow('discord_widget')">
 
         <img class="discord_img" src="images/icons/paimon_emoji_06.png" alt="One mora emoji">
 
         <div>
-            If you want to share your thoughts or help us with new teams not added yet, you can join our <a href="https://discord.gg/JRNkss7azk">official Discord channel</a> and suggest changes or additions!
+            If you want to share your thoughts or help us with new teams not added yet, you can join our <a
+                href="https://discord.gg/JRNkss7azk">official Discord channel</a> and suggest changes or additions!
         </div>
     </div>
 
@@ -119,17 +121,22 @@
             <!-- <iframe class="discord_widget" src="https://discord.com/widget?id=1218903092066517074&theme=dark" width="250" height="300" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe> -->
 
             <div id="disclaimer_tab_teams_search" class="disclaimer_panel">
-                <img class="close_icon close_right" src="images/icons/close_icon.png" alt="Close icon" onclick="closeWindow('disclaimer_tab_teams_search')">
+                <img class="close_icon close_right" src="images/icons/close_icon.png" alt="Close icon"
+                    onclick="closeWindow('disclaimer_tab_teams_search')">
 
                 <img class="warning_img" src="images/icons/paimon_glasses.png" alt="Paimon with glasses">
-    
+
                 <div class="">
                     <div class="ranking_title">
                         Disclaimer
                     </div>
-    
+
                     <div>
-                        All teams, including their viabilities, rotations and descriptions are selected and/or reviewed by our team creator members. Therefore, all teams are, at least, a bit subjective to the info we have gathered so far and can exists inaccuracies specifically in teams viabilities (meta, viable, offmeta and unique).
+                        All teams, including their viabilities, rotations and descriptions are selected and/or reviewed
+                        by our team creator members. Therefore, all teams are, at least, a bit subjective to the info we
+                        have gathered so far and can exists inaccuracies specifically in teams viabilities (meta,
+                        viable, offmeta and unique). You can suggest changes and additions in our <a
+                            href="https://discord.gg/JRNkss7azk">official Discord channel</a>!
                     </div>
                 </div>
             </div>
@@ -256,7 +263,7 @@
         </div>
 
         <div id="tab_user" class="tab_user">
-            
+
             <!-- <iframe class="discord_widget" src="https://discord.com/widget?id=1218903092066517074&theme=dark" width="250" height="300" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe> -->
 
             <!-- <div class="login_menu">
@@ -293,35 +300,49 @@
             </div>
 
             <div id="menu_configuration" class="menu_configuration">
-                <fieldset class="menu_configuration_traveler">
-                    <legend>Select your traveler</legend>
 
-                    <div id="traveler_Aether" class="character_container" onclick="setTraveler('Aether')">
-                        <img class="character_icon character_5_stars"
-                            src="images/characters/UI_AvatarIcon_PlayerBoy.png" alt="Character icon for Aether">
-                        <div class="rarity_container">
-                            <img class="rarity" src="images/rarity/star.svg">
-                            <img class="rarity" src="images/rarity/star.svg">
-                            <img class="rarity" src="images/rarity/star.svg">
-                            <img class="rarity" src="images/rarity/star.svg">
-                            <img class="rarity" src="images/rarity/star.svg">
-                        </div>
-                        <div class="character_name character_name_short">Aether</div>
-                    </div>
+                <div class="menu_configuration_row">
+                    <fieldset class="menu_configuration_traveler">
+                        <legend>Select your traveler</legend>
 
-                    <div id="traveler_Lumine" class="character_container" onclick="setTraveler('Lumine')">
-                        <img class="character_icon character_5_stars"
-                            src="images/characters/UI_AvatarIcon_PlayerGirl.png" alt="Character icon for Lumine">
-                        <div class="rarity_container">
-                            <img class="rarity" src="images/rarity/star.svg">
-                            <img class="rarity" src="images/rarity/star.svg">
-                            <img class="rarity" src="images/rarity/star.svg">
-                            <img class="rarity" src="images/rarity/star.svg">
-                            <img class="rarity" src="images/rarity/star.svg">
+                        <div id="traveler_Aether" class="character_container" onclick="setTraveler('Aether')">
+                            <img class="character_icon character_5_stars"
+                                src="images/characters/UI_AvatarIcon_PlayerBoy.png" alt="Character icon for Aether">
+                            <div class="rarity_container">
+                                <img class="rarity" src="images/rarity/star.svg">
+                                <img class="rarity" src="images/rarity/star.svg">
+                                <img class="rarity" src="images/rarity/star.svg">
+                                <img class="rarity" src="images/rarity/star.svg">
+                                <img class="rarity" src="images/rarity/star.svg">
+                            </div>
+                            <div class="character_name character_name_short">Aether</div>
                         </div>
-                        <div class="character_name character_name_short">Lumine</div>
-                    </div>
-                </fieldset>
+
+                        <div id="traveler_Lumine" class="character_container" onclick="setTraveler('Lumine')">
+                            <img class="character_icon character_5_stars"
+                                src="images/characters/UI_AvatarIcon_PlayerGirl.png" alt="Character icon for Lumine">
+                            <div class="rarity_container">
+                                <img class="rarity" src="images/rarity/star.svg">
+                                <img class="rarity" src="images/rarity/star.svg">
+                                <img class="rarity" src="images/rarity/star.svg">
+                                <img class="rarity" src="images/rarity/star.svg">
+                                <img class="rarity" src="images/rarity/star.svg">
+                            </div>
+                            <div class="character_name character_name_short">Lumine</div>
+                        </div>
+                    </fieldset>
+
+                    <!-- <fieldset class="menu_configuration_prerelease">
+                        <legend>Prerelease content</legend>
+
+                        <label class="switch">
+                            <input id="prerelease_switch" type="checkbox"
+                                onclick="togglePrereleaseContent()">
+                            <span class="slider"></span>
+                        </label>
+
+                    </fieldset> -->
+                </div>
 
                 <fieldset class="menu_discord">
                     <legend>Official Discord channel</legend>
@@ -329,7 +350,9 @@
                     <img class="discord_img" src="images/icons/paimon_emoji_06.png" alt="One mora emoji">
 
                     <div>
-                        If you want to share your thoughts or help us with new teams not added yet, you can join our <a href="https://discord.gg/JRNkss7azk" class="light_link">official Discord channel</a> and suggest changes or additions!
+                        If you want to share your thoughts or help us with new teams not added yet, you can join our <a
+                            href="https://discord.gg/JRNkss7azk" class="light_link">official Discord channel</a> and
+                        suggest changes or additions!
                     </div>
                 </fieldset>
 
@@ -350,7 +373,7 @@
 
 
 
-<!-- 
+            <!-- 
             <div id="menu_teams_creator" class="menu_teams_creator">
                 <div class="tag_input_row">
                     <span class="light_text">#</span>
@@ -436,7 +459,7 @@
 
 
 
-<!-- 
+            <!-- 
             <div id="menu_json_validator" class="menu_json_validator">
 
                 <button class="primary_button" onclick="validateJSON()">Validate JSON</button>

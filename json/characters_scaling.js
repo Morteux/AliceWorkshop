@@ -5,6 +5,7 @@ const characters_attributes = {
     "Aloy": { HP: 848.4548, ATK: 18.21036, DEF: 52.6504, max_ascension_value_HP: 3484.214, max_ascension_value_ATK: 74.77612, max_ascension_value_DEF: 216.216 },
     "Amber": { HP: 793.2582, ATK: 18.6984, DEF: 50.358, max_ascension_value_HP: 2838.2634, max_ascension_value_ATK: 66.90411, max_ascension_value_DEF: 180.18 },
     "Arataki Itto": { HP: 1000.986, ATK: 17.689, DEF: 74.66784, max_ascension_value_HP: 4110.59, max_ascension_value_ATK: 72.63529, max_ascension_value_DEF: 306.6336 },
+    "Arlecchino": { HP: 1, ATK: 1, DEF: 1, max_ascension_value_HP: 1, max_ascension_value_ATK: 1, max_ascension_value_DEF: 1 },
     "Baizhu": { HP: 1039.1188, ATK: 14.9891, DEF: 38.8895, max_ascension_value_HP: 4267.1836, max_ascension_value_ATK: 61.54885, max_ascension_value_DEF: 159.705 },
     "Barbara": { HP: 820.6119, ATK: 13.356, DEF: 56.0805, max_ascension_value_HP: 2936.1348, max_ascension_value_ATK: 47.78865, max_ascension_value_DEF: 200.655 },
     "Beidou": { HP: 1094.1492, ATK: 18.87648, DEF: 54.36375, max_ascension_value_HP: 3914.8462, max_ascension_value_ATK: 67.54129, max_ascension_value_DEF: 194.5125 },

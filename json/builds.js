@@ -201,6 +201,22 @@ const builds = {
             subs_stat: []
         }
     },
+    "Arlecchino": {
+        "Standard": {
+            description: "",
+            constellation: "",
+            talent_priority: [1, 2, 3],
+            weapon: [],
+            set: [],
+            er_requirement: "",
+            main_stat: {
+                sands: "",
+                goblet: "",
+                circlet: "",
+            },
+            subs_stat: []
+        }
+    },
     "Baizhu": {
         "Standard": {
             description: "",
