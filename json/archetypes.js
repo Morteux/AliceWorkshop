@@ -192,18 +192,18 @@ const archetypes = {
         recommended_characters: ["Kaedehara Kazuha", "Jean"]
     },
     "Fridge": {
-        description: "",
-        elements: [],
-        pros_cons: "",
+        description: "Since the Bloom reaction seeds do not break the status offered by the Freeze reaction, we took advantage of this to create the Fridge archetype. In this reaction we will have at least one Dendro, Hydro and Cryo character. The Flex character must be another of these elements or one that does not interfere with the reactions.",
+        elements: ["Dendro", "Hydro", "Cryo", "Flex"],
+        pros_cons: "This reaction is not very good on his own, and there is currently no character who can take advantage of it (Sorry for Kaveh). For this reason, other archetypes are used that take advantage of part of this interaction, such as Oven or HyperFridge.",
         example_teams: [],
         color: "color_dendro",
         color_illuminated: "color_cryo_illuminated",
         recommended_characters: []
     },
     "Salad": {
-        description: "",
-        elements: [],
-        pros_cons: "",
+        description: "It is an archetype that bases its damage on Hyperbloom's reaction. However, the beauty of this team is that we will have Electro characters who do not activate the seeds, so it will be the Anemo character himself who will make the seeds explode when swirling.",
+        elements: ["Anemo", "Hydro", "Dendro", "Electro"],
+        pros_cons: "You should avoid electro characters that blow seeds like Shinobu or Raiden. Anemos characters are usually built to EM, so hyperbloom seeds will do a lot of damage, and we will have grouping.",
         example_teams: [],
         color: "color_anemo",
         color_illuminated: "color_dendro_illuminated",
