@@ -24,6 +24,10 @@ function toFixedIfNecessary(value, dp) {
     return +parseFloat(value).toFixed(dp);
 }
 
+function closeWindow(id) {
+    document.getElementById(id).style.display = "none";
+}
+
 // resource_url: backup URL in Ambr
 // default_url: backup when not exits even in Ambr
 // local_filename: possible backup if default_url is undefined too

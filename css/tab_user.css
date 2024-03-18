@@ -64,6 +64,22 @@
     padding: 1vh 1vw;
 }
 
+.menu_discord {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+
+    width: 100%;
+
+    border-radius: 10px;
+    border: solid 3px var(--secondary_color);
+
+    color: var(--light_text);
+
+    margin: 3vh 1vw;
+}
+
 .menu_configuration_cookies {
     display: flex;
     flex-direction: row;

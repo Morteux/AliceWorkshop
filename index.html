@@ -68,7 +68,7 @@
     <!-- Accept cookies or close tab -->
     <div id="cookies_background" class="cookies_background">
         <div class="cookies_container">
-            <img class="cookies_img" src="images/icons/paimon_emoji_02.webp" alt="Paimon hungry">
+            <img class="cookies_img" src="images/icons/paimon_emoji_02.png" alt="Paimon hungry">
 
             <div class="cookies_message">
                 AliceWorkshop needs cookies for essential features. You can't use it without them.
@@ -83,6 +83,16 @@
 
     <button onclick="scrollToTop()" id="scroll_top_button" class="scroll_top_button"></button>
 
+    <div id="discord_widget" class="discord_widget">
+        <img class="close_icon close_left" src="images/icons/close_icon.png" alt="Close icon" onclick="closeWindow('discord_widget')">
+
+        <img class="discord_img" src="images/icons/paimon_emoji_06.png" alt="One mora emoji">
+
+        <div>
+            If you want to share your thoughts or help us with new teams not added yet, you can join our <a href="https://discord.gg/JRNkss7azk">official Discord channel</a> and suggest changes or additions!
+        </div>
+    </div>
+
     <div id="main" class="main">
 
         <div id="tabs_container" class="tabs_container">
@@ -93,7 +103,7 @@
         </div>
 
         <div id="tab_archetype_search" class="tab_archetype_search">
-            <iframe class="discord_widget" src="https://discord.com/widget?id=1218903092066517074&theme=dark" width="250" height="300" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+            <!-- <iframe class="discord_widget" src="https://discord.com/widget?id=1218903092066517074&theme=dark" width="250" height="300" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe> -->
 
             <div id="archetypes_container_filters" class="archetypes_container">
 
@@ -106,9 +116,11 @@
         </div>
 
         <div id="tab_teams_search" class="tab_teams_search">
-            <iframe class="discord_widget" src="https://discord.com/widget?id=1218903092066517074&theme=dark" width="250" height="300" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+            <!-- <iframe class="discord_widget" src="https://discord.com/widget?id=1218903092066517074&theme=dark" width="250" height="300" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe> -->
 
-            <div class="disclaimer_panel">
+            <div id="disclaimer_tab_teams_search" class="disclaimer_panel">
+                <img class="close_icon close_right" src="images/icons/close_icon.png" alt="Close icon" onclick="closeWindow('disclaimer_tab_teams_search')">
+
                 <img class="warning_img" src="images/icons/paimon_glasses.png" alt="Paimon with glasses">
     
                 <div class="">
@@ -245,7 +257,7 @@
 
         <div id="tab_user" class="tab_user">
             
-            <iframe class="discord_widget" src="https://discord.com/widget?id=1218903092066517074&theme=dark" width="250" height="300" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+            <!-- <iframe class="discord_widget" src="https://discord.com/widget?id=1218903092066517074&theme=dark" width="250" height="300" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe> -->
 
             <!-- <div class="login_menu">
                 <input id="login_name" type="text" placeholder="Username" class="login_input">
@@ -308,6 +320,16 @@
                             <img class="rarity" src="images/rarity/star.svg">
                         </div>
                         <div class="character_name character_name_short">Lumine</div>
+                    </div>
+                </fieldset>
+
+                <fieldset class="menu_discord">
+                    <legend>Official Discord channel</legend>
+
+                    <img class="discord_img" src="images/icons/paimon_emoji_06.png" alt="One mora emoji">
+
+                    <div>
+                        If you want to share your thoughts or help us with new teams not added yet, you can join our <a href="https://discord.gg/JRNkss7azk" class="light_link">official Discord channel</a> and suggest changes or additions!
                     </div>
                 </fieldset>
 

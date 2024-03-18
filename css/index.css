@@ -73,6 +73,11 @@
     --warning: rgb(255, 238, 0);
     --warning_background: rgb(165, 144, 50);
     --warning_background_opacity: rgba(165, 144, 50, 0.514);
+
+    --light_link_link: rgb(255, 243, 81);
+    --light_link_visited: rgb(255, 191, 73);
+    --light_link_hover: rgb(255, 191, 73);
+    --light_link_active: rgb(255, 243, 81);
 }
 
 @font-face {
@@ -630,10 +635,73 @@ input[type=text] {
     margin: 1vh 1vw;
 }
 
+.discord_img {
+    width: 4vw;
+    /* margin-right: 1vw; */
+
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
 .discord_widget {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
     position: fixed;
     bottom: 2vh;
     left: 3vh;
 
     z-index: 10;
+
+    width: 13vw;
+
+    background-color: var(--secondary_color);
+    border: solid 2px var(--tertiary_color);
+    border-radius: 10px;
+
+    font-size: small;
+    color: var(--dark_text);
+
+    padding: 1vh 1vw 1vh 0vw;
+}
+
+.close_icon {
+    position: absolute;
+    top: 2px;
+
+    width: 1.5vw;
+}
+
+.close_left {
+    left: 2px;
+}
+
+.close_right {
+    right: 2px;
+}
+
+.close_icon:hover {
+    filter: invert(100%);
+}
+
+/* unvisited link */
+.light_link:link {
+    color: var(--light_link_link);
+}
+
+/* visited link */
+.light_link:visited {
+    color: var(--light_link_visited);
+}
+
+/* mouse over link */
+.light_link:hover {
+    color: var(--light_link_hover);
+}
+
+/* selected link */
+.light_link:active {
+    color: var(--light_link_active);
 }
