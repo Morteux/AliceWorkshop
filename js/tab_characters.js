@@ -163,18 +163,20 @@ function getRandomTeamByCharacterBuild(character, build, builds_name) {
     let index = 0;
 
     while (team_index == -1 && index < Object.keys(teams).length) {
-        if ((teams[teams_keys[index]].character_1.name == builds_name && teams[teams_keys[index]].character_1.build == build) ||
-            (teams[teams_keys[index]].character_2.name == builds_name && teams[teams_keys[index]].character_2.build == build) ||
-            (teams[teams_keys[index]].character_3.name == builds_name && teams[teams_keys[index]].character_3.build == build)) {
+        if (!filterByPrerelease(teams[teams_keys[index]])) {
+            if ((teams[teams_keys[index]].character_1.name == builds_name && teams[teams_keys[index]].character_1.build == build) ||
+                (teams[teams_keys[index]].character_2.name == builds_name && teams[teams_keys[index]].character_2.build == build) ||
+                (teams[teams_keys[index]].character_3.name == builds_name && teams[teams_keys[index]].character_3.build == build)) {
 
-            team_index = teams_keys[index];
-        }
-
-        // If character with build is in char_4 position
-        for (let char_4_index = 0; char_4_index < teams[teams_keys[index]].character_4.name.length; ++char_4_index) {
-            if (teams[teams_keys[index]].character_4.name[char_4_index] == builds_name && teams[teams_keys[index]].character_4.build[char_4_index] == build) {
                 team_index = teams_keys[index];
-                team_index_char_4 = char_4_index;
+            }
+
+            // If character with build is in char_4 position
+            for (let char_4_index = 0; char_4_index < teams[teams_keys[index]].character_4.name.length; ++char_4_index) {
+                if (teams[teams_keys[index]].character_4.name[char_4_index] == builds_name && teams[teams_keys[index]].character_4.build[char_4_index] == build) {
+                    team_index = teams_keys[index];
+                    team_index_char_4 = char_4_index;
+                }
             }
         }
 

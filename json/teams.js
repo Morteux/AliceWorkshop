@@ -14208,7 +14208,7 @@ const teams = {
             "build": "Standard"
         },
         "character_2": {
-            "name": "Bennett",
+            "name": "Xinyan",
             "build": "Standard"
         },
         "character_3": {
