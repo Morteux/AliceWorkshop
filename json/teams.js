@@ -14164,6 +14164,68 @@ const teams = {
             ]
         }
     },
+    
+    "432": {
+        "name": "Arlecchino Chevreuse",
+        "description": "Beidou is a good choice with Arlecchino, due to her defensive utility.",
+        "rotation": "Arlecchino E > Fischl > Chevreuse > Beidou > Arlecchino Combo (in progress)",
+        "archetype": [
+            "Overload"
+        ],
+        "viability": "Viable",
+        "character_1": {
+            "name": "Arlecchino",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Chevreuse",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Fischl",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": [
+                "Beidou",
+            ],
+            "build": [
+                "Standard",
+            ]
+        }
+    },
+
+    "433": {
+        "name": "Arlecchino Furina",
+        "description": "You can't heal Arlecchino, but you will obtain Furina's Fanfare stacks with the other three characters and Arlecchino auto-healing. ",
+        "rotation": "Arlecchino E > Characters > Arlecchino Combo (in progress)",
+        "archetype": [
+            "Vaporize"
+        ],
+        "viability": "Viable",
+        "character_1": {
+            "name": "Arlecchino",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Bennett",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": [
+                "Yelan",
+                "Xingqiu"
+            ],
+            "build": [
+                "Standard",
+                "Standard"
+            ]
+        }
+    },
 
     
 }
