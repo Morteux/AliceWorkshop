@@ -14,6 +14,8 @@ var user_characters = {};
 
 var traveler = "Aether";
 
+var prerelease_content = false;
+
 var declinedCookies = false;
 
 window.addEventListener("beforeunload", function (e) {
@@ -97,6 +99,12 @@ function declineCookies() {
     deleteAllLocalStorage();
 
     window.close();
+}
+
+function togglePrereleaseContent() {
+    prerelease_content = !prerelease_content;
+
+    location.reload();
 }
 
 document.addEventListener("DOMContentLoaded", (event) => {

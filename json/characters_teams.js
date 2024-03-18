@@ -56,6 +56,13 @@ const characters_teams = {
             composition: ["pj1", "element1", "elem2", "Flex"]
         }
     },
+    "Arlecchino": {
+        "name": {
+            archetype: "",
+            description: "",
+            composition: ["pj1", "element1", "elem2", "Flex"]
+        }
+    },
     "Baizhu": {
         "name": {
             archetype: "",
