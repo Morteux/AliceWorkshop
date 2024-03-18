@@ -207,7 +207,7 @@ const archetypes = {
         example_teams: [],
         color: "color_anemo",
         color_illuminated: "color_dendro_illuminated",
-        recommended_characters: []
+        recommended_characters: ["Sucrose"]
     },
     "Airfryer": {
         description: "",
