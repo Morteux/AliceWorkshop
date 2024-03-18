@@ -19,7 +19,7 @@ CDN or JS files: https://github.com/theBowja/genshin-db-dist
 ### Tab Archetypes - To do
 
 ### Tab Teams Search - To do
-- Hide/show character stats behind icons for each team.
+- Hide/show character builds behind icons for each team.
 - Inclusive filters (search teams with geo characters and ignore any other filters).
 - Filter by actual banners.
 
@@ -27,6 +27,5 @@ CDN or JS files: https://github.com/theBowja/genshin-db-dist
 
 ### Tab User - To do
 - Check duplicate teams with builds too.
-- Configuration buttons (reset cookies, select traveler, etc)
 - Add user custom teams, so they can create a 4-character team (stored in sessions? need db).
 - troll: random team name generator.

@@ -278,20 +278,24 @@ function getBirthdayHTML(character_data) {
 }
 
 function getCharacterHTML(id, character_team, character_data) {
-    if(["Aether", "Lumine"].includes(character_data.name)) {
-        character_data = getCharacter(traveler);
-    }
+    if (character_data) {
+        if (["Aether", "Lumine"].includes(character_data.name)) {
+            character_data = getCharacter(traveler);
+        }
 
-    return `
-    <div id="` + id + `" class="character_container ` + character_data.name.replaceAll(" ", "_") + `" onclick="setTabActive('tab_characters'); printCharacterInfoHTML('` + character_data.name + `')">
-        <img class="character_icon character_` + character_data.rarity + `_stars" src="images/characters/` + character_data.images.filename_icon + `.png" alt="Character icon for ` + character_data.name + `" onerror="useBackupResource(this, 'https://api.ambr.top/assets/UI/` + character_data.images.filename_icon + `.png', 'images/icons/user.png', '` + character_data.name + `')" style="background-image: url('images/regions/Emblem_` + character_data.region + `_` + (character_data.rarity == "5" ? `White` : `Night`) + `_Opacity_05.png');">
-        ` + getBirthdayHTML(character_data) + `
-        <img class="element_icon" src="images/elements/glow_` + (character_data.elementText != "None" ? character_data.elementText.toLowerCase() : builds[character_team.name][character_team.build].element.toLowerCase()) + `.png">
-        ` + (builds[character_team.name][character_team.build].constellation != "" ? `<div class="constellation">` + builds[character_team.name][character_team.build].constellation + `</div>` : ``) + `
-        <div class="rarity_container">` + STAR_SVG + STAR_SVG + STAR_SVG + STAR_SVG + (character_data.rarity == "5" ? STAR_SVG : "") + `</div>
-        <div class="character_name ` + (character_data.name.length < SHORT_NAME_LENGTH ? "character_name_short" : (character_data.name.length < MEDIUM_NAME_LENGTH ? "character_name_medium" : "character_name_long")) + `">` + character_data.name + `</div>
-    </div>
-    `;
+        return `
+        <div id="` + id + `" class="character_container ` + character_data.name.replaceAll(" ", "_") + `" onclick="setTabActive('tab_characters'); printCharacterInfoHTML('` + character_data.name + `')">
+            <img class="character_icon character_` + character_data.rarity + `_stars" src="images/characters/` + character_data.images.filename_icon + `.png" alt="Character icon for ` + character_data.name + `" onerror="useBackupResource(this, 'https://api.ambr.top/assets/UI/` + character_data.images.filename_icon + `.png', 'images/icons/user.png', '` + character_data.name + `')" style="background-image: url('images/regions/Emblem_` + character_data.region + `_` + (character_data.rarity == "5" ? `White` : `Night`) + `_Opacity_05.png');">
+            ` + getBirthdayHTML(character_data) + `
+            <img class="element_icon" src="images/elements/glow_` + (character_data.elementText != "None" ? character_data.elementText.toLowerCase() : builds[character_team.name][character_team.build].element.toLowerCase()) + `.png">
+            ` + (builds[character_team.name][character_team.build].constellation != "" ? `<div class="constellation">` + builds[character_team.name][character_team.build].constellation + `</div>` : ``) + `
+            <div class="rarity_container">` + STAR_SVG + STAR_SVG + STAR_SVG + STAR_SVG + (character_data.rarity == "5" ? STAR_SVG : "") + `</div>
+            <div class="character_name ` + (character_data.name.length < SHORT_NAME_LENGTH ? "character_name_short" : (character_data.name.length < MEDIUM_NAME_LENGTH ? "character_name_medium" : "character_name_long")) + `">` + character_data.name + `</div>
+        </div>
+        `;
+    } else {
+        return ``;
+    }
 }
 
 function getTeamHTML(team, team_index, team_id, character_4) {
@@ -359,8 +363,8 @@ function toggleFavorite(button, team_id) {
 
     // console.log("toggleFavorite: " + team_id);
 
-    if(!favorite_teams.includes(team_id)) {
-    // if (star_img.classList.contains("empty")) {
+    if (!favorite_teams.includes(team_id)) {
+        // if (star_img.classList.contains("empty")) {
 
         storeFavoriteTeam(team_id);
 
