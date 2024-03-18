@@ -12,6 +12,7 @@ const ARCHETYPES_NAMES = Object.keys(archetypes);
 const VIABILITIES = ["Meta", "Viable", "Offmeta", "Unique"];
 
 const STAR_SVG = `<img class="rarity" src="images/rarity/star.svg">`;
+// const CHARACTER_NAMES = prerelease_content ? Object.values(characters_order_priority) : arrayDifference(Object.values(characters_order_priority), Object.keys(characters));
 const CHARACTER_NAMES = Object.values(characters_order_priority);
 
 const SHORT_NAME_LENGTH = 10;
@@ -42,6 +43,10 @@ function useBackupResource(element, resource_url, default_url, local_filename) {
     } else {
         element.src = "images/backup/" + local_filename + ".png";
     }
+}
+
+function arrayDifference(array1, array2) {
+    return array1.filter(x => !array2.includes(x));
 }
 
 function copyToClipboardFromElementValue(id) {
@@ -90,7 +95,7 @@ function isToday(monthDay) {
 function getCharacter(name) {
     let character = GenshinDb.character(name);
 
-    if (character == undefined) {
+    if (character == undefined && prerelease_content) {
         character = characters[name];
     }
 

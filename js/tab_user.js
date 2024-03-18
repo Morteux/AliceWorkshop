@@ -23,6 +23,7 @@ window.addEventListener("beforeunload", function (e) {
         localStorage.setItem('favorite_teams', JSON.stringify(favorite_teams));
         localStorage.setItem('user_characters', JSON.stringify(user_characters));
         localStorage.setItem('traveler', traveler);
+        localStorage.setItem('prerelease_content', prerelease_content);
     }
 });
 
@@ -41,6 +42,11 @@ if (localStorage.getItem("traveler") !== null && localStorage.getItem("traveler"
     // console.log(traveler);
 }
 
+if (localStorage.getItem("prerelease_content") !== null && localStorage.getItem("prerelease_content") != "") {
+    prerelease_content = localStorage.getItem("prerelease_content") == "true";
+    // console.log(prerelease_content);
+}
+
 function deleteAllCookies() {
     const cookies = document.cookie.split(";");
 
@@ -54,7 +60,8 @@ function deleteAllCookies() {
 
 function deleteAllLocalStorage() {
     declinedCookies = true;
-    
+    prerelease_content = false;
+
     favorite_teams = [];
     user_characters = {};
     traveler = "Aether";
@@ -132,6 +139,8 @@ document.addEventListener("DOMContentLoaded", (event) => {
     setMenuTabActive(document.getElementById("menu_configuration"), document.getElementById("menu_configuration_button"));
 
     setTraveler(traveler);
+
+    printPrereleaseSwitch();
 });
 
 function setTraveler(name) {
@@ -275,14 +284,18 @@ function removeFavoriteTeam(id) {
 }
 
 function getCharacterCheckHTML(character_data) {
-    return `
-    <div id="character_check_` + character_data.name + `" class="character_container ` + (user_characters[character_data.name] == null ? "character_unchecked" : "") + `" onclick="toggleCharacterUser('` + character_data.name + `')">
-    <img class="character_icon character_` + character_data.rarity + `_stars" src="images/characters/` + character_data.images.filename_icon + `.png" alt="Character icon for ` + character_data.name + `" onerror="useBackupResource(this, 'https://api.ambr.top/assets/UI/` + character_data.images.filename_icon + `.png', 'images/icons/user.png', '` + character_data.name + `')" style="background-image: url('images/regions/Emblem_` + character_data.region + `_` + (character_data.rarity == "5" ? `White` : `Night`) + `_Opacity_05.png');">
-    ` + (character_data.elementText != "None" ? `<img class="element_icon" src="images/elements/glow_` + character_data.elementText.toLowerCase() + `.png">` : "") + `
-        <div class="rarity_container">` + STAR_SVG + STAR_SVG + STAR_SVG + STAR_SVG + (character_data.rarity == "5" ? STAR_SVG : "") + `</div>
-        <div class="character_name ` + (character_data.name.length < SHORT_NAME_LENGTH ? "character_name_short" : (character_data.name.length < MEDIUM_NAME_LENGTH ? "character_name_medium" : "character_name_long")) + `">` + character_data.name + `</div>
-    </div>
-    `;
+    if (character_data) {
+        return `
+        <div id="character_check_` + character_data.name + `" class="character_container ` + (user_characters[character_data.name] == null ? "character_unchecked" : "") + `" onclick="toggleCharacterUser('` + character_data.name + `')">
+        <img class="character_icon character_` + character_data.rarity + `_stars" src="images/characters/` + character_data.images.filename_icon + `.png" alt="Character icon for ` + character_data.name + `" onerror="useBackupResource(this, 'https://api.ambr.top/assets/UI/` + character_data.images.filename_icon + `.png', 'images/icons/user.png', '` + character_data.name + `')" style="background-image: url('images/regions/Emblem_` + character_data.region + `_` + (character_data.rarity == "5" ? `White` : `Night`) + `_Opacity_05.png');">
+        ` + (character_data.elementText != "None" ? `<img class="element_icon" src="images/elements/glow_` + character_data.elementText.toLowerCase() + `.png">` : "") + `
+            <div class="rarity_container">` + STAR_SVG + STAR_SVG + STAR_SVG + STAR_SVG + (character_data.rarity == "5" ? STAR_SVG : "") + `</div>
+            <div class="character_name ` + (character_data.name.length < SHORT_NAME_LENGTH ? "character_name_short" : (character_data.name.length < MEDIUM_NAME_LENGTH ? "character_name_medium" : "character_name_long")) + `">` + character_data.name + `</div>
+        </div>
+        `;
+    } else {
+        return ``;
+    }
 }
 
 function printCharactersCheck() {
@@ -305,7 +318,15 @@ function toggleCharacterUser(character_name) {
     document.getElementById("character_check_" + character_name).classList.toggle("character_unchecked");
 }
 
-
+function printPrereleaseSwitch() {
+    document.getElementById("menu_configuration_prerelease").innerHTML += `
+    <label class="switch">
+        <input id="prerelease_switch" type="checkbox"
+            onclick="togglePrereleaseContent()" ` + (prerelease_content ? `checked` : ``) + `>
+        <span class="slider"></span>
+    </label>
+    `;
+}
 
 
 
