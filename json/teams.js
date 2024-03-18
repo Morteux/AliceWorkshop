@@ -14110,7 +14110,7 @@ const teams = {
         "description": "",
         "rotation": "",
         "archetype": [
-            "Hypercarry"
+            "MonoPyro"
         ],
         "viability": "Viable",
         "character_1": {
