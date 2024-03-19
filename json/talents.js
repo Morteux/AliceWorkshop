@@ -8,7 +8,7 @@ const talents = {
             "description": "Normal Attack\nPerforms up to 4 consecutive shots with a bow.\n\nCharged Attack\nPerforms a more precise Aimed Shot with increased DMG.\nWhile aiming, flowing water will accumulate on the arrowhead. A fully charged torrential arrow will deal Hydro DMG.\n\nBreakthrough\nYelan will enter a \"Breakthrough\" state after spending 5s out of combat, which will cause her next Charged Aimed Shot to have 80% decreased charge time, and once charged, she can fire a \"Breakthrough Barb\" that will deal AoE Hydro DMG based on Yelan's Max HP.\n\nPlunging Attack\nFires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.",
             "attributes": {
                 "labels": [
-                    "Masque of the Red Death Scaling Ratio|{param1:F1P}
+                    "Masque of the Red Death Scaling Ratio|{param1:F1P}",
                     "1-Hit DMG|{param2:F1P}",
                     "2-Hit DMG|{param3:F1P}",
                     "3-Hit DMG|{param4:F1P}",
@@ -73,7 +73,6 @@ const talents = {
                         1.3825
                     ],
                     "param4": [
-
                         0.6487,
                         0.7015,
                         0.7543,
