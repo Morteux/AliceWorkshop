@@ -220,7 +220,7 @@ const talents = {
                 "labels": [
                     "Spike DMG|{param1:F1P}",
                     "Cleave DMG|{param2:F1}",
-                    "Bllod-Debt Directive DMG|{param3:F1}",
+                    "Blod-Debt Directive DMG|{param3:F1}",
                     "CD|{param4:F1}s"
                 ],
                 "parameters": {
