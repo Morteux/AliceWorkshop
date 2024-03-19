@@ -5866,8 +5866,10 @@ const teams = {
             "name": [
                 "Fischl",
                 "Kujou Sara"
+                "Kaedehara Kazuha"
             ],
             "build": [
+                "Standard",
                 "Standard",
                 "Standard"
             ]
