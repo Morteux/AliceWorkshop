@@ -194,7 +194,7 @@ const talents = {
         },
         "combat2": {
             "name": "All is Ash",
-            "descriptionRaw": "Fires off a Lifeline that allows her to move rapidly, entangling and marking opponents along its path.\nWhen this rapid movement ends, the Lifeline will explode, dealing <color=#80C0FFFF>Hydro DMG</color> to the marked opponents based on Yelan's Max HP.\n\n<color=#FFD780FF>Tap</color>\nMoves a certain distance forward swiftly.\n\n<color=#FFD780FF>Hold</color>\nEngages in continuous, swift movement, during which Yelan's resistance to interruption is increased.\nDuring this time, Yelan can control this rapid movement and end it by using this Skill again.\n\nAdditionally, each opponent marked by the Lifeline when it explodes grants Yelan a 34% chance to reset her Breakthrough state.\n\n<i>Not until she begins to tug on the strings do evildoers, crooks, and scheming villains alike know that there is no escape.</i>",
+            "descriptionRaw": "Summons forth Balemoon Bloodfire, dealing Pyro DMG to multiple nearby opponents and performing a dash-cleave against one of them, dealing AoE Pyro DMG. Opponents hit by the aforementioned attack will have a Blood-Debt Directive applied to them. After the dash-cleave, Arlecchino's Bond of Life will be cleared, and Nourishing Cinders will trigger: Arlecchino recovers HP equivalent to 200% of the value of the Life Bond that was cleared. Blood-Debt Directive  Lasts 30s. Every 3s, it will deal 1 instance of Pyro DMG to the opponent. Max 3 instances.· When Arlecchino uses a Charged Attack, she will absorb and clear nearby Blood-Debt Directives that she applied. Each Directive absorbed grants her a Bond of Life worth 20% of her Max HP.· The maximum value of the Bond of Life she can be granted through this method within 20s after using her Elemental Skill is 80% of her Max HP.<i>As she sees it, not every grain of wheat that falls upon the earth will grow into an ear, while those who obstruct her, once burned to ashes, can certainly be used to nourish flowers.</i>",
             "description": "Fires off a Lifeline that allows her to move rapidly, entangling and marking opponents along its path.\nWhen this rapid movement ends, the Lifeline will explode, dealing Hydro DMG to the marked opponents based on Yelan's Max HP.\n\nTap\nMoves a certain distance forward swiftly.\n\nHold\nEngages in continuous, swift movement, during which Yelan's resistance to interruption is increased.\nDuring this time, Yelan can control this rapid movement and end it by using this Skill again.\n\nAdditionally, each opponent marked by the Lifeline when it explodes grants Yelan a 34% chance to reset her Breakthrough state.",
             "flavorText": "Not until she begins to tug on the strings do evildoers, crooks, and scheming villains alike know that there is no escape.",
             "attributes": {
@@ -276,8 +276,8 @@ const talents = {
             }
         },
         "combat3": {
-            "name": "Depth-Clarion Dice",
-            "descriptionRaw": "Deals <color=#80C0FFFF>AoE Hydro DMG</color> and creates an \"Exquisite Throw,\" which aids her in battle.\n\n<color=#FFD780FF>Exquisite Throw</color>\nFollows the character around and will initiate a coordinated attack under the following circumstances, dealing <color=#80C0FFFF>Hydro DMG</color> based on Yelan's Max HP:\n·Can occur once every second when your active character uses a Normal Attack.\n·Will occur each time Yelan's Lifeline explodes and hits opponents.\n\n<i>\"A gambling addiction is going to do you no good. I mean, let me just do the math for you as the dealer. What do you think your odds of beating me are, when I have seven dice and you, only one?\"</i>",
+            "name": "Balemoon Rising",
+            "descriptionRaw": "Great wings of Balemoon Bloodfire beat, granting Arlecchino a Bond of Life worth 15% of her Max HP and dealing AoE Pyro DMG.<i>\"t is commonly believed throughout Teyvat that moon phases other than the full moon are mere metaphors of ill-omen, used only by those who practice alchemy and astrology. \n She saw this crimson moon in her dreams many times. Were those portents of disaster? Indeed they were, but the destined catastrophes belonged to those who enraged her.\"</i>",
             "description": "Deals AoE Hydro DMG and creates an \"Exquisite Throw,\" which aids her in battle.\n\nExquisite Throw\nFollows the character around and will initiate a coordinated attack under the following circumstances, dealing Hydro DMG based on Yelan's Max HP:\n·Can occur once every second when your active character uses a Normal Attack.\n·Will occur each time Yelan's Lifeline explodes and hits opponents.",
             "flavorText": "\"A gambling addiction is going to do you no good. I mean, let me just do the math for you as the dealer. What do you think your odds of beating me are, when I have seven dice and you, only one?\"",
             "attributes": {
@@ -378,18 +378,18 @@ const talents = {
             }
         },
         "passive1": {
-            "name": "Turn Control",
-            "descriptionRaw": "When the party has 1/2/3/4 Elemental Types, Yelan's Max HP is increased by 6%/12%/18%/30%.",
+            "name": "Agony Alone May Be Repaid",
+            "descriptionRaw": "There are different levels of Blood-Debt Directive. At different levels, absorbing a Directive will grant Arlecchino differing amounts of Bond of Life: · Directives start at Level 1, increasing every 3s until Level 3 is reached. · Arlecchino will gain a Bond of Life worth 20%/25%/70% of her Max HP when absorbing a Level 1/2/3 Directive. Defeating a foe with Blood-Debt Directive will immediately grant Arlecchino a Bond of Life worth 70% of her Max HP. When being granted a Bond of Life through the mechanic described above, the value of the Bond of Life cannot exceed the original limit of All is Ash.",
             "description": "When the party has 1/2/3/4 Elemental Types, Yelan's Max HP is increased by 6%/12%/18%/30%."
         },
         "passive2": {
-            "name": "Adapt With Ease",
-            "descriptionRaw": "So long as an <color=#FFD780FF>Exquisite Throw</color> is in play, your own active character deals 1% more DMG. This increases by a further 3.5% DMG every second. The maximum increase to DMG dealt is 50%.\nThe pre-existing effect will be dispelled if Depth-Clarion Dice is recast during its duration.",
+            "name": "Strength Alone Can Defende",
+            "descriptionRaw": "Arlecchino gains 1% All Elemental and Physical RES for every 100 ATK she has in excess of 1,000. The maximum RES increase she can gain this way for each is 20%.",
             "description": "So long as an Exquisite Throw is in play, your own active character deals 1% more DMG. This increases by a further 3.5% DMG every second. The maximum increase to DMG dealt is 50%.\nThe pre-existing effect will be dispelled if Depth-Clarion Dice is recast during its duration."
         },
         "passive3": {
-            "name": "Necessary Calculation",
-            "descriptionRaw": "Gains 25% more rewards when dispatched on a Liyue Expedition for 20 hours.",
+            "name": "Cinders Alone Shall Nourish",
+            "descriptionRaw": "While in combat, Arlecchino can only receive the healing effect from All is Ash's Nourishing Cinders.",
             "description": "Gains 25% more rewards when dispatched on a Liyue Expedition for 20 hours."
         },
         "costs": {
