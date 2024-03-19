@@ -4,7 +4,7 @@ const talents = {
         "name": "Arlecchino",
         "combat1": {
             "name": "Normal Attack: Bidden Beheading",
-            "descriptionRaw": "<color=#FFD780FF>Normal Attack</color>\nPerforms a maximum of 6 consecutive strikes.\n\n<color=#FFD780FF>Charged Attack</color>\nConsumes a fixed amount of Stamina, dashing toward a nearby opponent and cleaving once. Hold to gain increased mobility for up to 15s at the cost of stamina.\n\n<color=#FFD780FF>Plunging Attack</color>\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.\n\n<color=#FFD780FF>In Praise of Shadows and the Masque of the Red Death</color>\nWhen Arlecchino has a Bond of Life equal to or greater than 30% of her Max HP, and her Normal, Charged, and Plunging Attacks will be converted to deal <color=#FF9999FF>Pyro DMG</color>. This cannot be overridden. \n When in the In Praise of Shadows state, Arlecchino's Normal Attacks will be converted to Masque of the Red Death: When she hits an opponent, this attack will deal extra DMG that is scaled off her ATK multiplied by her current Bond of Life percentage. This will consume 5.5% of said current Bond of Life. A Bond of Life can be consumed this way every 0.03s. \n\n\n DMG Value in progress (placeholder)... ",
+            "descriptionRaw": "<color=#FFD780FF>Normal Attack</color>\nPerforms a maximum of 6 consecutive strikes.\n\n<color=#FFD780FF>Charged Attack</color>\nConsumes a fixed amount of Stamina, dashing toward a nearby opponent and cleaving once. Hold to gain increased mobility for up to 15s at the cost of stamina.\n\n<color=#FFD780FF>Plunging Attack</color>\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.\n\n<color=#FFD780FF>In Praise of Shadows and the Masque of the Red Death</color>\nWhen Arlecchino has a Bond of Life equal to or greater than 30% of her Max HP, and her Normal, Charged, and Plunging Attacks will be converted to deal <color=#FF9999FF>Pyro DMG</color>. This cannot be overridden. \n When in the In Praise of Shadows state, Arlecchino's Normal Attacks will be converted to Masque of the Red Death: When she hits an opponent, this attack will deal extra DMG that is scaled off her ATK multiplied by her current Bond of Life percentage. This will consume 5.5% of said current Bond of Life. A Bond of Life can be consumed this way every 0.03s.",
             "description": "Normal Attack\nPerforms up to 4 consecutive shots with a bow.\n\nCharged Attack\nPerforms a more precise Aimed Shot with increased DMG.\nWhile aiming, flowing water will accumulate on the arrowhead. A fully charged torrential arrow will deal Hydro DMG.\n\nBreakthrough\nYelan will enter a \"Breakthrough\" state after spending 5s out of combat, which will cause her next Charged Aimed Shot to have 80% decreased charge time, and once charged, she can fire a \"Breakthrough Barb\" that will deal AoE Hydro DMG based on Yelan's Max HP.\n\nPlunging Attack\nFires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.",
             "attributes": {
                 "labels": [
@@ -14,11 +14,11 @@ const talents = {
                     "3-Hit DMG|{param4:F1P}",
                     "4-Hit DMG|{param5:F1P}+{param5:F1P}",
                     "5-Hit DMG|{param6:F1P}",
-                    "6-Hit DMG|{param7:F1P}+{param4:F1P}",
+                    "6-Hit DMG|{param7:F1P}",
                     "Charged Attack DMG|{param8:F1P}",
                     "Charged Attack Stamina Cost|{param9:F1P}",
                     "Plunge DMG|{param10:F1P}",
-                    "Low/High Plunge DMG|{param10:P}/{param10:P}"
+                    "Low/High Plunge DMG|{param11:P}/{param11:P}"
                 ],
                 "parameters": {
                     "param1": [
@@ -175,21 +175,38 @@ const talents = {
                         0.25
                     ],
                     "param10": [
-                        1.4193439483642578,
-                        1.534872055053711,
-                        1.6504000425338745,
-                        1.815440058708191,
-                        1.9309680461883545,
-                        2.062999963760376,
-                        2.24454402923584,
-                        2.4260880947113037,
-                        2.6076319217681885,
-                        2.8056800365448,
-                        3.003727912902832,
-                        3.2017760276794434,
-                        3.3998239040374756,
-                        3.597872018814087,
-                        3.795919895172119
+                        0.6393,
+                        0.6914,
+                        0.7434,
+                        0.8177,
+                        0.8698,
+                        0.9293,
+                        1.011,
+                        1.0928,
+                        1.1746,
+                        1.2638,
+                        1.353,
+                        1.4422,
+                        1.5314,
+                        1.6206,
+                        1.7098
+                    ],
+                    "param11": [
+                        1.2784,
+                        1.3824,
+                        1.4865,
+                        1.6351,
+                        1.7392,
+                        1.8581,
+                        2.0216,
+                        2.1851,
+                        2.3486,
+                        2.527,
+                        2.7054,
+                        2.8838,
+                        3.0622,
+                        3.2405,
+                        3.4189
                     ]
                 }
             }
