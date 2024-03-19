@@ -111,3 +111,23 @@ function getWeapon(name) {
 
     return weapon;
 }
+
+function getTalent(name) {
+    let talent = GenshinDb.talent(name);
+
+    if (talent == undefined && prerelease_content) {
+        talent = talents[name];
+    }
+
+    return talent;
+}
+
+function getConstellation(name) {
+    let constellation = GenshinDb.constellation(name);
+
+    if (constellation == undefined && prerelease_content) {
+        constellation = constellations[name];
+    }
+
+    return constellation;
+}

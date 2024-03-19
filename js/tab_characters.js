@@ -428,7 +428,7 @@ function updateTalent(talent_id) {
 
 function getMenuContentTalents(character_name) {
     let content = ``;
-    character_talents = GenshinDb.talent(character_name);
+    character_talents = getTalent(character_name);
 
     let talents = ["combat1", "combat2", "combat3", "combatsp", "passive1", "passive2", "passive3", "passive4"];
 
@@ -509,7 +509,7 @@ function getMenuContentTalentsTraveler() {
 
 function getMenuContentConstellations(character_name) {
     let content = ``;
-    let character_constellations = GenshinDb.constellation(character_name);
+    let character_constellations = getConstellation(character_name);
 
     if (character_constellations) {
 
@@ -851,7 +851,7 @@ function getMenuContentBuilds(character_name) {
         if (build.talent_priority.length > 0) {
             for (let talent of build.talent_priority) {
 
-                let talent_data = GenshinDb.talent(character_name);
+                let talent_data = getTalent(character_name);
 
                 if (talent_data) {
                     talents_priority.push(`
