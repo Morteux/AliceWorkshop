@@ -369,7 +369,7 @@ function updateTalent(talent_id) {
 
         output += `<div class="talent_table">`;
 
-        const param_regex = /\{param\d*:.*\}/g;
+        const param_regex = /\{param\d*:[^\{\}]*\}/g;
 
         let isDark = true;
         for (let label of character_talents[talent_id].attributes.labels) {
