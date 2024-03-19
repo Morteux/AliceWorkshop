@@ -379,7 +379,7 @@ const talents = {
         },
         "passive1": {
             "name": "Agony Alone May Be Repaid",
-            "descriptionRaw": "There are different levels of Blood-Debt Directive. At different levels, absorbing a Directive will grant Arlecchino differing amounts of Bond of Life: · Directives start at Level 1, increasing every 3s until Level 3 is reached. · Arlecchino will gain a Bond of Life worth 20%/25%/70% of her Max HP when absorbing a Level 1/2/3 Directive. Defeating a foe with Blood-Debt Directive will immediately grant Arlecchino a Bond of Life worth 70% of her Max HP. When being granted a Bond of Life through the mechanic described above, the value of the Bond of Life cannot exceed the original limit of All is Ash.",
+            "descriptionRaw": "There are different levels of <color=#FFD780FF>Blood-Debt Directive</color>. At different levels, absorbing a Directive will grant Arlecchino differing amounts of Bond of Life: \n· Directives start at Level 1, increasing every 3s until Level 3 is reached. \n· Arlecchino will gain a Bond of Life worth 20%/25%/70% of her Max HP when absorbing a Level 1/2/3 Directive. \nDefeating a foe with Blood-Debt Directive will immediately grant Arlecchino a Bond of Life worth 70% of her Max HP.\n\n When being granted a Bond of Life through the mechanic described above, the value of the Bond of Life cannot exceed the original limit of <color=#FFD780FF>All is Ash.</color>",
             "description": "When the party has 1/2/3/4 Elemental Types, Yelan's Max HP is increased by 6%/12%/18%/30%."
         },
         "passive2": {
@@ -389,7 +389,7 @@ const talents = {
         },
         "passive3": {
             "name": "Cinders Alone Shall Nourish",
-            "descriptionRaw": "While in combat, Arlecchino can only receive the healing effect from All is Ash's Nourishing Cinders.",
+            "descriptionRaw": "While in combat, Arlecchino can only receive the healing effect from <color=#FFD780FF>All is Ash's Nourishing Cinders</color>.",
             "description": "Gains 25% more rewards when dispatched on a Liyue Expedition for 20 hours."
         },
         "costs": {
