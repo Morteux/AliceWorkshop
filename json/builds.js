@@ -312,7 +312,7 @@ const builds = {
         "Standard": {
             description: "",
             constellation: "",
-            talent_priority: [1, 2, 3],
+            talent_priority: [3, 2, 1],
             weapon: ["Aquila Favonia"],
             set: [
                 {
@@ -369,11 +369,11 @@ const builds = {
         "Healer": {
             description: "",
             constellation: "",
-            talent_priority: [1, 2, 3],
+            talent_priority: [3, 2, 1],
             weapon: ["Aquila Favonia"],
             set: [
                 {
-                    artifacts: ["Maiden Beloved"],
+                    artifacts: ["Noblesse Oblige"],
                     pc: "4pc"
                 }
             ],
