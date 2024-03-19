@@ -218,8 +218,9 @@ const talents = {
             "flavorText": "Not until she begins to tug on the strings do evildoers, crooks, and scheming villains alike know that there is no escape.",
             "attributes": {
                 "labels": [
-                    "Skill DMG|{param1:F1P} Max HP",
-                    "Max Duration (Hold)|{param3:F1}s",
+                    "Spike DMG|{param1:F1P} Max HP",
+                    "Cleave DMG|{param3:F1}s",
+                    "Bllod-Debt Directive DMG|{param3:F1}s",
                     "CD|{param4:F1}s"
                 ],
                 "parameters": {
@@ -302,8 +303,6 @@ const talents = {
             "attributes": {
                 "labels": [
                     "Skill DMG|{param1:F2P} Max HP",
-                    "Exquisite Throw DMG|{param2:F2P} Max HP ×3",
-                    "Duration|{param3:F1}s",
                     "CD|{param4:F1}s",
                     "Energy Cost|{param5:I}"
                 ],
@@ -417,33 +416,14 @@ const talents = {
                     "id": 202,
                     "name": "Mora",
                     "count": 12500
-                },
-                {
-                    "id": 104310,
-                    "name": "Teachings of Prosperity",
-                    "count": 3
-                },
-                {
-                    "id": 112032,
-                    "name": "Recruit's Insignia",
-                    "count": 6
                 }
+
             ],
             "lvl3": [
                 {
                     "id": 202,
                     "name": "Mora",
                     "count": 17500
-                },
-                {
-                    "id": 104311,
-                    "name": "Guide to Prosperity",
-                    "count": 2
-                },
-                {
-                    "id": 112033,
-                    "name": "Sergeant's Insignia",
-                    "count": 3
                 }
             ],
             "lvl4": [
@@ -451,16 +431,6 @@ const talents = {
                     "id": 202,
                     "name": "Mora",
                     "count": 25000
-                },
-                {
-                    "id": 104311,
-                    "name": "Guide to Prosperity",
-                    "count": 4
-                },
-                {
-                    "id": 112033,
-                    "name": "Sergeant's Insignia",
-                    "count": 4
                 }
             ],
             "lvl5": [
@@ -468,16 +438,6 @@ const talents = {
                     "id": 202,
                     "name": "Mora",
                     "count": 30000
-                },
-                {
-                    "id": 104311,
-                    "name": "Guide to Prosperity",
-                    "count": 6
-                },
-                {
-                    "id": 112033,
-                    "name": "Sergeant's Insignia",
-                    "count": 6
                 }
             ],
             "lvl6": [
@@ -485,16 +445,6 @@ const talents = {
                     "id": 202,
                     "name": "Mora",
                     "count": 37500
-                },
-                {
-                    "id": 104311,
-                    "name": "Guide to Prosperity",
-                    "count": 9
-                },
-                {
-                    "id": 112033,
-                    "name": "Sergeant's Insignia",
-                    "count": 9
                 }
             ],
             "lvl7": [
@@ -502,21 +452,6 @@ const talents = {
                     "id": 202,
                     "name": "Mora",
                     "count": 120000
-                },
-                {
-                    "id": 104312,
-                    "name": "Philosophies of Prosperity",
-                    "count": 4
-                },
-                {
-                    "id": 112034,
-                    "name": "Lieutenant's Insignia",
-                    "count": 4
-                },
-                {
-                    "id": 113019,
-                    "name": "Gilded Scale",
-                    "count": 1
                 }
             ],
             "lvl8": [
@@ -524,21 +459,6 @@ const talents = {
                     "id": 202,
                     "name": "Mora",
                     "count": 260000
-                },
-                {
-                    "id": 104312,
-                    "name": "Philosophies of Prosperity",
-                    "count": 6
-                },
-                {
-                    "id": 112034,
-                    "name": "Lieutenant's Insignia",
-                    "count": 6
-                },
-                {
-                    "id": 113019,
-                    "name": "Gilded Scale",
-                    "count": 1
                 }
             ],
             "lvl9": [
@@ -546,21 +466,6 @@ const talents = {
                     "id": 202,
                     "name": "Mora",
                     "count": 450000
-                },
-                {
-                    "id": 104312,
-                    "name": "Philosophies of Prosperity",
-                    "count": 12
-                },
-                {
-                    "id": 112034,
-                    "name": "Lieutenant's Insignia",
-                    "count": 9
-                },
-                {
-                    "id": 113019,
-                    "name": "Gilded Scale",
-                    "count": 2
                 }
             ],
             "lvl10": [
@@ -568,26 +473,6 @@ const talents = {
                     "id": 202,
                     "name": "Mora",
                     "count": 700000
-                },
-                {
-                    "id": 104312,
-                    "name": "Philosophies of Prosperity",
-                    "count": 16
-                },
-                {
-                    "id": 112034,
-                    "name": "Lieutenant's Insignia",
-                    "count": 12
-                },
-                {
-                    "id": 113019,
-                    "name": "Gilded Scale",
-                    "count": 2
-                },
-                {
-                    "id": 104319,
-                    "name": "Crown of Insight",
-                    "count": 1
                 }
             ]
         },
