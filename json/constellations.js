@@ -9,7 +9,7 @@ const constellations = {
         },
         "c2": {
             "name": "All Rewards and Retribution, Mine to Bestow...",
-            "descriptionRaw": "Blood-Debt Directives are now Level 2 when first applied. When Arlecchino absorbs a Level 3 Directive, she unleashes Balemoon Bloodfire in front of her, dealing 900% of her ATK as AoE Pyro DMG. This effect can trigger once every 10s. You must first unlock the Passive Talent "Agony Alone May Be Repaid."",
+            "descriptionRaw": "Blood-Debt Directives are now Level 2 when first applied. When Arlecchino absorbs a Level 3 Directive, she unleashes Balemoon Bloodfire in front of her, dealing 900% of her ATK as AoE Pyro DMG. This effect can trigger once every 10s. You must first unlock the Passive Talent Agony Alone May Be Repaid.",
             "description": "When Exquisite Throw conducts a coordinated attack, it will fire an additional water arrow that will deal 14% of Yelan's Max HP as Hydro DMG.\nThis effect can trigger once every 1.8s."
         },
         "c3": {
