@@ -18,7 +18,7 @@ const talents = {
                     "Charged Attack DMG|{param8:F1P}",
                     "Charged Attack Stamina Cost|{param9:P}",
                     "Plunge DMG|{param10:F1P}",
-                    "Low/High Plunge DMG|{param11:P}/{param12:P}"
+                    "Low/High Plunge DMG|{param10:P}/{param10:P}"
                 ],
                 "parameters": {
                     "param1": [
