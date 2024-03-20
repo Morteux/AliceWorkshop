@@ -705,3 +705,7 @@ input[type=text] {
 .light_link:active {
     color: var(--light_link_active);
 }
+
+.disclaimer_text {
+    margin: 1vh 0vw;
+}
