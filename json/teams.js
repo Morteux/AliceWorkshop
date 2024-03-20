@@ -10557,7 +10557,7 @@ const teams = {
         "archetype": [
             "Overload"
         ],
-        "viability": "Viable",
+        "viability": "Meta",
         "character_1": {
             "name": "Raiden Shogun",
             "build": "Standard"
