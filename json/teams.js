@@ -12961,7 +12961,7 @@ const teams = {
         "archetype": [
             "Vaporize"
         ],
-        "viability": "Meta",
+        "viability": "Viable",
         "character_1": {
             "name": "Yoimiya",
             "build": "Standard"
@@ -13002,7 +13002,7 @@ const teams = {
         "archetype": [
             "Vaporize"
         ],
-        "viability": "Meta",
+        "viability": "Viable",
         "character_1": {
             "name": "Yoimiya",
             "build": "Standard"
