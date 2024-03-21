@@ -14196,8 +14196,38 @@ const teams = {
     },
 
     "433": {
+        "name": "Arlecchino Chevreuse",
+        "description": "Good in output damage, but you don't have any type or defensive utility.",
+        "rotation": "Arlecchino E > Fischl > Chevreuse > Bennett > Arlecchino Combo (in progress)",
+        "archetype": [
+            "Overload"
+        ],
+        "viability": "Viable",
+        "character_1": {
+            "name": "Arlecchino",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Chevreuse",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Fischl",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": [
+                "Bennett",
+            ],
+            "build": [
+                "Standard",
+            ]
+        }
+    },
+
+    "434": {
         "name": "Arlecchino Furina",
-        "description": "You can't heal Arlecchino, but you will obtain Furina's Fanfare stacks with the other three characters and Arlecchino auto-healing. ",
+        "description": "You can't heal Arlecchino, but you will obtain Furina's Fanfare stacks with the other three characters and Arlecchino auto-healing. With Yelan you will have a little more of damage, but Xingqiu RES Interruption and DMG Reduction may be necessary and most useful. ",
         "rotation": "Arlecchino E > Characters > Arlecchino Combo (in progress)",
         "archetype": [
             "Vaporize"
@@ -14226,6 +14256,38 @@ const teams = {
             ]
         }
     },
+
+    "435": {
+        "name": "Arlecchino Furina",
+        "description": "With Yelan you will have a little more of damage, but Xingqiu RES Interruption and DMG Reduction may be necessary and most useful. ",
+        "rotation": "Arlecchino E > Characters > Arlecchino Combo (in progress)",
+        "archetype": [
+            "Vaporize"
+        ],
+        "viability": "Viable",
+        "character_1": {
+            "name": "Arlecchino",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Bennett",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Kaedehara Kazuha",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": [
+                "Yelan",
+                "Xingqiu"
+            ],
+            "build": [
+                "Standard",
+                "Standard"
+            ]
+        }
+    }
 
     
 }
