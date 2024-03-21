@@ -14239,8 +14239,7 @@ const teams = {
 
 
 
-const teamsdesc = {
-};
+const teamsdesc = {};
 
 
 
