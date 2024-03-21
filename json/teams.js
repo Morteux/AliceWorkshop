@@ -14070,10 +14070,10 @@ const teams = {
     },
 
     "429": {
-        "name": "Itto Chiori",
+        "name": "Noelle Chiori",
         "description": "",
         "rotation": "",
-        "archetype": ["MonoGeo", "Hypercarry"],
+        "archetype": ["MonoGeo"],
         "viability": "Viable",
         "character_1": {
             "name": "Noelle",
