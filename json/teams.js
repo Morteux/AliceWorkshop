@@ -59,7 +59,7 @@ const teams = {
     },
     "3": {
         "name": "TF Bennett",
-        "description": "Weirdest way to use Bennett out of all the possibilities. This variation takes advantage of the synergy between Bennettt's Ascension Passives and the TF set, which are effectively two sources of cooldown reduction. Play Bennett onfield with NA + E spam.",
+        "description": "Weirdest way to use Bennett out of all the possibilities. This variation takes advantage of the synergy between Bennett's Ascension Passives and the TF set, which are effectively two sources of cooldown reduction. Play Bennett on-field with NA + E spam.",
         "rotation": "Fischl E > Xingqiu Q + E > Bennett Q > Beidou E + Q > Fischl Q > Spam Bennett NA + E",
         "archetype": [
             "Overvape"
@@ -88,7 +88,7 @@ const teams = {
     },
     "4": {
         "name": "Klee Taser",
-        "description": "An odd variation of taser, using Klee instead of Sucrose. ",
+        "description": "An odd variation of taser, using Klee instead of Sucrose.",
         "rotation": "",
         "archetype": [
             "Overvape"
@@ -146,7 +146,7 @@ const teams = {
     },
     "6": {
         "name": "Vape Klee ",
-        "description": "The weirdest Vape Klee team. Seems fun. But i don't have Klee. ",
+        "description": "The weirdest Vape Klee team. Seems fun. But I don't have Klee.",
         "rotation": "You need to Infuse Venti Ults with Hydro. Bennett E + Q > Mona Q + E > Venti E + Q > Klee N1 + E + Q + 3N1C > Repeat",
         "archetype": [
             "Vaporize"
@@ -204,7 +204,7 @@ const teams = {
     },
     "8": {
         "name": "Electro-Charged Childe",
-        "description": "An old team similar to taser",
+        "description": "An old team similar to taser.",
         "rotation": "",
         "archetype": [
             "Taser"
@@ -233,7 +233,7 @@ const teams = {
     },
     "9": {
         "name": "Childe National",
-        "description": "An National variation that uses Childe and Sucrose",
+        "description": "A National variation that uses Childe and Sucrose.",
         "rotation": "E Childe > Q Bennett > E Xiangling > E + Q Sucrose > Q Xiangling > Q + E Childe 2NA+CA (8-12s) > Funnel Xiangling",
         "archetype": [
             "National"
@@ -262,7 +262,7 @@ const teams = {
     },
     "10": {
         "name": "Childe National",
-        "description": "An National variation that uses Childe and geo.",
+        "description": "A National variation that uses Childe and Geo.",
         "rotation": "",
         "archetype": [
             "National"
@@ -293,10 +293,9 @@ const teams = {
             ]
         }
     },
-
     "12": {
         "name": "Diluc Forward Melt",
-        "description": "A team where Diluc procs the melt reaction",
+        "description": "A team where Diluc procs the melt reaction.",
         "rotation": "Rosaria E > Kazuha Q > Bennet E/Q > Kazuha E > Rosaria E/Q > Diluc E+NA (3 times) + Q",
         "archetype": [
             "Melt"
@@ -360,7 +359,7 @@ const teams = {
     },
     "14": {
         "name": "Vape Klee",
-        "description": "Klee has better archetypes than vaporize. ",
+        "description": "Klee has better archetypes than vaporize.",
         "rotation": "When using Xingqiu as the sole Hydro applicator, it is recommended as Klee to use N2C N1C combos.",
         "archetype": [
             "Vaporize"
@@ -393,7 +392,7 @@ const teams = {
     },
     "15": {
         "name": "Klee Monopyro",
-        "description": "Monopyro is the archetype where klee shines. ",
+        "description": "MonoPyro is the archetype where Klee shines.",
         "rotation": "",
         "archetype": [
             "MonoPyro"
@@ -424,7 +423,7 @@ const teams = {
     },
     "16": {
         "name": "Klee Monopyro",
-        "description": "Monopyro is the archetype where klee shines. ",
+        "description": "MonoPyro is the archetype where Klee shines.",
         "rotation": "",
         "archetype": [
             "MonoPyro"
@@ -459,7 +458,7 @@ const teams = {
     },
     "17": {
         "name": "Hutao VV Amber",
-        "description": "Since Hu Tao can't apply pyro without wasting E/Q, you can use amber to do a pyro swirl, and she won't steal any vapes.",
+        "description": "Since Hu Tao can't apply Pyro without wasting E/Q, you can use Amber to do a Pyro swirl, and she won't steal any vapes.",
         "rotation": "Xingqiu Q/E > Kazuha Q > Amber E/Q > Sucrose NA/E or Kazuha E > Hu Tao",
         "archetype": [
             "Vaporize"
@@ -490,7 +489,7 @@ const teams = {
     },
     "18": {
         "name": "Tartaglia Unique",
-        "description": "15 seconds rotations",
+        "description": "15-second rotations.",
         "rotation": "E Tartaglia > Q Bennett > Hold E Kazuha + Q > Q Fischl > E Bennett > Q Tartaglia + E + NA  ",
         "archetype": [
             "Overvape"
@@ -519,7 +518,7 @@ const teams = {
     },
     "19": {
         "name": "Intergrational",
-        "description": "International team but swapping Xiangling with Dendro MC. Be Carefull to waste MC ultimates with pyro.",
+        "description": "International team but swapping Xiangling with Dendro MC. Be careful not to waste MC ultimates with Pyro.",
         "rotation": "E Childe > E + Q Dendro MC > E + Q Bennett > E + Q Kazuha > E + Q Childe 2NA+CA (2-3 times)",
         "archetype": [
             "Sauté"
@@ -548,7 +547,7 @@ const teams = {
     },
     "20": {
         "name": "Freeze childe",
-        "description": "Fast rotations",
+        "description": "Fast rotations.",
         "rotation": "Kaeya E > Tartaglia E+1NA > Kazuha Q + hold E > Rosaria E + Q > Kaeya E + Q > Tartaglia Q + E",
         "archetype": [
             "Freeze"
@@ -577,7 +576,7 @@ const teams = {
     },
     "21": {
         "name": "International",
-        "description": "An National variation that uses Childe and Kazuha",
+        "description": "A National variation that uses Childe and Kazuha.",
         "rotation": "E Childe > Q Bennett > E + Q Kazuha > E + Q Xiangling > Q + E Childe 2NA+CA (8-12s) > Funnel Xiangling",
         "archetype": [
             "National"
@@ -606,7 +605,7 @@ const teams = {
     },
     "22": {
         "name": "Freeze childe",
-        "description": "Fast rotations",
+        "description": "Fast rotations.",
         "rotation": "Cryo E > Tartaglia E+1NA > Kazuha Q + hold E > Cryo (E)+Q > Ayaka Dash + CA + E + Q > Tartaglia Q + E + NA",
         "archetype": [
             "Freeze"
@@ -639,7 +638,7 @@ const teams = {
     },
     "23": {
         "name": "Sayu enabler",
-        "description": "Sayu doing brum brum",
+        "description": "Sayu doing brum brum.",
         "rotation": "",
         "archetype": [
             "MonoPyro"
@@ -668,7 +667,7 @@ const teams = {
     },
     "24": {
         "name": "Ganyu Morgana variation",
-        "description": "Morgana but with Aloy, since she is a good battery",
+        "description": "Morgana but with Aloy, since she is a good battery.",
         "rotation": "",
         "archetype": [
             "Freeze"
@@ -726,7 +725,7 @@ const teams = {
     },
     "26": {
         "name": "Vape Klee",
-        "description": "Klee has better archetypes than vaporize. You can use Thoma for shielding, but don't expecto high damage.",
+        "description": "Klee has better archetypes than vaporize. You can use Thoma for shielding, but don't expect high damage.",
         "rotation": "When using Xingqiu as the sole Hydro applicator, it is recommended as Klee to use N2C N1C combos.",
         "archetype": [
             "Vaporize"
@@ -759,7 +758,7 @@ const teams = {
     },
     "27": {
         "name": "Klee Monopyro",
-        "description": "Monopyro is the archetype where klee shines. There are better options to play monopyro, but you can play this way.",
+        "description": "MonoPyro is the archetype where Klee shines. There are better options to play MonoPyro, but you can play this way.",
         "rotation": "",
         "archetype": [
             "MonoPyro"
@@ -821,7 +820,7 @@ const teams = {
     },
     "29": {
         "name": "Vape Yoimiya",
-        "description": "Good Single Target damage thanks to Yoimiya and Xingqiu. Rotation did with Reminiscence artifacts.",
+        "description": "Good Single Target damage thanks to Yoimiya and Xingqiu. Rotation done with Reminiscence artifacts.",
         "rotation": "Q + E Bennett > Q + E Xingqiu > E + Q Yun Jin > Yoimiya E + NA until end, then Q",
         "archetype": [
             "Vaporize"
@@ -910,7 +909,7 @@ const teams = {
     },
     "32": {
         "name": "Childe Thoma Curry",
-        "description": "Tartaglia is good in Burgeon and similars due to AoE Hydro application. Fischl, Beidou or similars provides Electro reactions without triggering the bloom.",
+        "description": "Tartaglia is good in Burgeon and similars due to AoE Hydro application. Fischl, Beidou, or similar characters provide Electro reactions without triggering the bloom.",
         "rotation": "",
         "archetype": [
             "Curry"
@@ -943,7 +942,7 @@ const teams = {
     },
     "33": {
         "name": "Yae Taser",
-        "description": "Sucrose On-Field",
+        "description": "Sucrose On-Field.",
         "rotation": "",
         "archetype": [
             "Taser"
@@ -1036,7 +1035,7 @@ const teams = {
     },
     "36": {
         "name": "Rational",
-        "description": "You can use fav in Raiden and with her ults, give a lot of ER. ",
+        "description": "You can use Favonius in Raiden and with her ults, give a lot of ER.",
         "rotation": "",
         "archetype": [
             "National"
@@ -1098,7 +1097,7 @@ const teams = {
     },
     "38": {
         "name": "Vape Klee",
-        "description": "One of the worst Klee teams. Use only if you love the characters or if don't have other ways to use Klee.",
+        "description": "One of the worst Klee teams. Use only if you love the characters or if you don't have other ways to use Klee.",
         "rotation": "",
         "archetype": [
             "Vaporize"
@@ -1131,7 +1130,7 @@ const teams = {
     },
     "39": {
         "name": "Vape Klee",
-        "description": "Yelan may not has enough hydro application for Klee, this team is not recomended. Klee also has better archetypes than vaporize. ",
+        "description": "Yelan may not have enough Hydro application for Klee; this team is not recommended. Klee also has better archetypes than vaporize.",
         "rotation": "",
         "archetype": [
             "Vaporize"
@@ -1163,8 +1162,8 @@ const teams = {
         }
     },
     "40": {
-        "name": "Vape Klee Doble Hydro",
-        "description": "Good single target thanks to Xingqiu and Yelan, but Klee has better archetypes than vaporize. You have no healer either shielder with Klee... good luck.",
+        "name": "Vape Klee Double Hydro",
+        "description": "Good single target thanks to Xingqiu and Yelan, but Klee has better archetypes than vaporize. You have no healer or shielder with Klee... good luck.",
         "rotation": "",
         "archetype": [
             "Vaporize"
@@ -1198,7 +1197,7 @@ const teams = {
         }
     },
     "41": {
-        "name": "Vape Klee Doble Hydro",
+        "name": "Vape Klee Double Hydro",
         "description": "Good single target thanks to Xingqiu and Yelan, but Klee has better archetypes than vaporize.",
         "rotation": "",
         "archetype": [
@@ -1320,7 +1319,7 @@ const teams = {
     },
     "45": {
         "name": "Tartaglia MonoHydro",
-        "description": "An no meta team, similar to Kokomi MonoHydro, but without healer. MonoHydro is not usually optimal, see monohydro archetype for more. Fun vs pyro content.",
+        "description": "A non-meta team, similar to Kokomi MonoHydro, but without a healer. MonoHydro is not usually optimal; see MonoHydro archetype for more. Fun vs Pyro content.",
         "rotation": "",
         "archetype": [
             "MonoHydro"
@@ -1378,7 +1377,7 @@ const teams = {
     },
     "47": {
         "name": "Childe Thoma Curry",
-        "description": "Tartaglia is good in Burgeon and similars due to AoE Hydro application. Shinobu, Raiden or similars can do hyperbloom to do both reactions.",
+        "description": "Tartaglia is good in Burgeon and similars due to AoE Hydro application. Shinobu, Raiden, or similar characters can do hyperbloom to trigger both reactions.",
         "rotation": "",
         "archetype": [
             "Curry"
@@ -1411,7 +1410,7 @@ const teams = {
     },
     "48": {
         "name": "Pure Airfryer",
-        "description": "Good in AoE",
+        "description": "Good in AoE.",
         "rotation": "",
         "archetype": [
             "Airfryer"
@@ -1440,7 +1439,7 @@ const teams = {
     },
     "49": {
         "name": "Albedo Burgeon",
-        "description": "On-Field Albedo full EM build. With bennett C6, he trigger burgeon and has strong crystalization for defense utility. Strong vs Fontaine overworld bosses like Vivianne.",
+        "description": "On-Field Albedo full EM build. With Bennett C6, he triggers Burgeon and has strong crystallization for defense utility. Strong vs Fontaine overworld bosses like Vivianne.",
         "rotation": "",
         "archetype": [
             "Burgeon"
@@ -1469,7 +1468,7 @@ const teams = {
     },
     "50": {
         "name": "Thundering Furry",
-        "description": "Best Razor team so far",
+        "description": "Best Razor team so far.",
         "rotation": "",
         "archetype": [
             "Curry"
@@ -1622,7 +1621,7 @@ const teams = {
     },
     "55": {
         "name": "Childe Hyperbloom",
-        "description": "Dori could be take as a joke, but actually she is the only unit that can be speed enought to trigger bloom with Nahida and Tartaglia. Huge frontloaded damage.",
+        "description": "Dori could be taken as a joke, but actually, she is the only unit that can be fast enough to trigger bloom with Nahida and Tartaglia. Huge frontloaded damage.",
         "rotation": "",
         "archetype": [
             "Hyperbloom"
@@ -1667,7 +1666,7 @@ const teams = {
     },
     "56": {
         "name": "Childe Hyperbloom",
-        "description": "Tartaglia can be used in Hyperbloom but there are better hydros because of E cds. Shinobu is the more popular option to trigger bloom for comfort and healing, but other options like raiden may have more speed.",
+        "description": "Tartaglia can be used in Hyperbloom, but there are better Hydro characters because of E CDs. Shinobu is the more popular option to trigger bloom for comfort and healing, but other options like Raiden may have more speed.",
         "rotation": "",
         "archetype": [
             "Hyperbloom"
@@ -1712,7 +1711,7 @@ const teams = {
     },
     "57": {
         "name": "Childe Thoma Curry",
-        "description": "Tartaglia is good in Burgeon and similars due to AoE Hydro application. Shinobu, Raiden or similars can do hyperbloom to do both reactions.",
+        "description": "Tartaglia is good in Burgeon and similars due to AoE Hydro application. Shinobu, Raiden, or similar characters can do hyperbloom to trigger both reactions.",
         "rotation": "",
         "archetype": [
             "Curry"
@@ -1745,7 +1744,7 @@ const teams = {
     },
     "58": {
         "name": "Childe Thoma Curry",
-        "description": "Tartaglia is good in Burgeon and similars due to AoE Hydro application. Fischl, Beidou or similars provides Electro reactions without triggering the bloom.",
+        "description": "Tartaglia is good in Burgeon and similars due to AoE Hydro application. Fischl, Beidou, or similar characters provide Electro reactions without triggering the bloom.",
         "rotation": "",
         "archetype": [
             "Curry"
@@ -1778,7 +1777,7 @@ const teams = {
     },
     "59": {
         "name": "Childe Thoma Burgeon",
-        "description": "Tartaglia is good in Burgeon and similars due to AoE Hydro application. You can add an Anemo unit to group and have VV and more AoE.",
+        "description": "Tartaglia is good in Burgeon and similars due to AoE Hydro application. You can add an Anemo unit to the group and have VV and more AoE.",
         "rotation": "",
         "archetype": [
             "Burgeon"
@@ -1809,7 +1808,7 @@ const teams = {
     },
     "60": {
         "name": "Childe Thoma Burgeon",
-        "description": "Tartaglia is good in Burgeon and similars due to AoE Hydro application. You can put Kokomi in deepwood so nahida can have more personal damage.",
+        "description": "Tartaglia is good in Burgeon and similars due to AoE Hydro application. You can put Kokomi in deepwood so Nahida can have more personal damage.",
         "rotation": "",
         "archetype": [
             "Burgeon"
@@ -1838,7 +1837,7 @@ const teams = {
     },
     "61": {
         "name": "Childe Thoma Burgeon",
-        "description": "Tartaglia is good in Burgeon and similars due to AoE Hydro application. Adding Xingqiu or Yelan provides you with extra hydro and singletarget dmg.",
+        "description": "Tartaglia is good in Burgeon and similars due to AoE Hydro application. Adding Xingqiu or Yelan provides you with extra Hydro and single-target damage.",
         "rotation": "",
         "archetype": [
             "Burgeon"
@@ -1900,10 +1899,11 @@ const teams = {
     },
     "63": {
         "name": "Intergrational",
-        "description": "A variant of Intergrational, using Xiangling instead of Kazuha. Less seeds due to pyro aplication and burn",
+        "description": "A variant of International, using Xiangling instead of Kazuha. Less seeds due to Pyro application and burn.",
         "rotation": "",
         "archetype": [
-            "Burgeon", "National"
+            "Burgeon",
+            "National"
         ],
         "viability": "Viable",
         "character_1": {
@@ -1929,7 +1929,7 @@ const teams = {
     },
     "64": {
         "name": "Intergrational",
-        "description": "International team but swapping Xiangling with Nahida",
+        "description": "International team but swapping Xiangling with Nahida.",
         "rotation": "E (+ Q) Nahida > E + Q Bennett > E + Q Kazuha > E + Q Childe 2NA+CA (2-3 times)",
         "archetype": [
             "Sauté"
@@ -1958,7 +1958,7 @@ const teams = {
     },
     "65": {
         "name": "Eula MonoCryo",
-        "description": "An exception to the clasical monoCryo team. Thanks to Shenhe and Rosaria C6, Eula has enough source for the Physical resistance shred. Also, 100% uptime on Cryo resonance and low ER requirements",
+        "description": "An exception to the classical MonoCryo team. Thanks to Shenhe and Rosaria C6, Eula has enough sources for the Physical resistance shred. Also, 100% uptime on Cryo resonance and low ER requirements.",
         "rotation": "",
         "archetype": [
             "MonoCryo"
@@ -2096,7 +2096,7 @@ const teams = {
     },
     "69": {
         "name": "Childe Xiangling Oven",
-        "description": "Tartaglia is good in Burgeon and similars due to AoE Hydro application. Add a cryo to have more seeds and Frozen.",
+        "description": "Tartaglia is good in Burgeon and similars due to AoE Hydro application. Add a Cryo character to have more seeds and Frozen.",
         "rotation": "",
         "archetype": [
             "Oven"
@@ -2133,7 +2133,7 @@ const teams = {
     },
     "70": {
         "name": "Childe HyperFridge",
-        "description": "Tartaglia can be used in HyperFridge but there are better hydros because of E cds. With Dendro MC as main dendro applier, a cryo character can help you create seeds in order to rivalise with childe hydro aplication. ",
+        "description": "Tartaglia can be used in HyperFridge, but there are better Hydro characters because of E CDs. With Dendro MC as the main Dendro applier, a Cryo character can help you create seeds to rival with Childe's Hydro application.",
         "rotation": "",
         "archetype": [
             "HyperFridge"
@@ -2170,7 +2170,7 @@ const teams = {
     },
     "71": {
         "name": "Childe HyperFridge",
-        "description": "Tartaglia can be used in HyperFridge but there are better hydros because of E cds. ",
+        "description": "Tartaglia can be used in HyperFridge, but there are better Hydro characters because of their Elemental Skill cooldowns (E CDs).",
         "rotation": "",
         "archetype": [
             "HyperFridge"
@@ -2207,7 +2207,7 @@ const teams = {
     },
     "72": {
         "name": "Childe HyperFridge",
-        "description": "Tartaglia can be used in HyperFridge but there are better hydros because of E cds. With Dendro MC as main dendro applier, a cryo character can help you create seeds in order to rivalise with childe hydro aplication. Raiden has more speed triggering bloom than Kuki in exchange of heal.",
+        "description": "Tartaglia can be used in HyperFridge, but there are better Hydro characters because of their E CDs. With Dendro MC as the main Dendro applier, a Cryo character can help you create seeds to compete with Childe's Hydro application. Raiden has more speed triggering bloom than Kuki but lacks healing.",
         "rotation": "",
         "archetype": [
             "HyperFridge"
@@ -2244,7 +2244,7 @@ const teams = {
     },
     "73": {
         "name": "Childe HyperFridge",
-        "description": "Tartaglia can be used in HyperFridge but there are better hydros because of E cds. Shinobu is the more popular option to trigger bloom for comfort and healing, but other options like raiden may have more speed.",
+        "description": "Tartaglia can be used in HyperFridge, but there are better Hydro characters because of their E CDs. Shinobu is the more popular option to trigger bloom for comfort and healing, but other options like Raiden may have more speed.",
         "rotation": "",
         "archetype": [
             "HyperFridge"
@@ -2281,7 +2281,7 @@ const teams = {
     },
     "74": {
         "name": "Childe HyperFridge",
-        "description": "Tartaglia can be used in HyperFridge but there are better hydros because of E cds. With Dendro MC as main dendro applier, a cryo character can help you create seeds in order to rivalise with childe hydro aplication. Shinobu is the more popular option to trigger bloom for comfort and healing, but other options like raiden may have more speed.",
+        "description": "Tartaglia can be used in HyperFridge, but there are better Hydro characters because of their E CDs. With Dendro MC as the main Dendro applier, a Cryo character can help you create seeds to compete with Childe's Hydro application. Shinobu is the more popular option to trigger bloom for comfort and healing, but other options like Raiden may have more speed.",
         "rotation": "",
         "archetype": [
             "HyperFridge"
@@ -2318,7 +2318,7 @@ const teams = {
     },
     "75": {
         "name": "Childe HyperFridge",
-        "description": "Tartaglia can be used in HyperFridge but there are better hydros because of E cds. Shinobu is the more popular option to trigger bloom for comfort and healing, but other options like raiden may have more speed.",
+        "description": "Tartaglia can be used in HyperFridge, but there are better Hydro characters because of their E CDs. Shinobu is the more popular option to trigger bloom for comfort and healing, but other options like Raiden may have more speed.",
         "rotation": "",
         "archetype": [
             "HyperFridge"
@@ -2355,7 +2355,7 @@ const teams = {
     },
     "76": {
         "name": "Childe Thoma Oven",
-        "description": "Tartaglia is good in Burgeon and similars due to AoE Hydro application. Add a cryo to have more seeds and Frozen.",
+        "description": "Tartaglia is good in Burgeon and similar comps due to AoE Hydro application. Adding a Cryo character can provide more seeds and Frozen.",
         "rotation": "",
         "archetype": [
             "Oven"
@@ -2392,7 +2392,7 @@ const teams = {
     },
     "77": {
         "name": "Childe Thoma Oven",
-        "description": "Tartaglia is good in Burgeon and similars due to AoE Hydro application. Add a cryo to have more seeds and Frozen.",
+        "description": "Tartaglia is good in Burgeon and similar comps due to AoE Hydro application. Adding a Cryo character can provide more seeds and Frozen.",
         "rotation": "",
         "archetype": [
             "Oven"
@@ -2462,7 +2462,7 @@ const teams = {
     },
     "79": {
         "name": "Childe HyperFridge",
-        "description": "Tartaglia can be used in HyperFridge but there are better hydros because of E cds. With Yaoyao as main dendro applier, a cryo character can help you create seeds in order to rivalise with childe hydro aplication.",
+        "description": "Tartaglia can be used in HyperFridge, but there are better Hydro characters because of their E CDs. With Yaoyao as the main Dendro applier, a Cryo character can help you create seeds to compete with Childe's Hydro application.",
         "rotation": "",
         "archetype": [
             "HyperFridge"
@@ -2497,7 +2497,7 @@ const teams = {
     },
     "80": {
         "name": "Childe HyperFridge",
-        "description": "Tartaglia can be used in HyperFridge but there are better hydros because of E cds. With Yaoyao as main dendro applier, a cryo character can help you create seeds in order to rivalise with childe hydro aplication. Raiden has more speed triggering bloom than Kuki in exchange of heal.",
+        "description": "Tartaglia can be used in HyperFridge, but there are better Hydro characters because of their E CDs. With Yaoyao as the main Dendro applier, a Cryo character can help you create seeds to compete with Childe's Hydro application. Raiden has more speed triggering bloom than Kuki but lacks healing.",
         "rotation": "",
         "archetype": [
             "HyperFridge"
@@ -2532,7 +2532,7 @@ const teams = {
     },
     "81": {
         "name": "Childe HyperFridge",
-        "description": "Tartaglia can be used in HyperFridge but there are better hydros because of E cds. With Yaoyao as main dendro applier, a cryo character can help you create seeds in order to rivalise with childe hydro aplication. Shinobu is the more popular option to trigger bloom for comfort and healing, but other options like raiden may have more speed.",
+        "description": "Tartaglia can be used in HyperFridge, but there are better Hydro characters because of their E CDs. With Yaoyao as the main Dendro applier, a Cryo character can help you create seeds to compete with Childe's Hydro application. Shinobu is the more popular option to trigger bloom for comfort and healing, but other options like Raiden may have more speed.",
         "rotation": "",
         "archetype": [
             "HyperFridge"
@@ -2567,7 +2567,7 @@ const teams = {
     },
     "82": {
         "name": "Childe Thoma Oven",
-        "description": "Tartaglia is good in Burgeon and similars due to AoE Hydro application. Add a cryo to have more seeds. Yaoyao could not have enough AoE dendro aplication for Burgeon",
+        "description": "Tartaglia is good in Burgeon and similar comps due to AoE Hydro application. Adding a Cryo character can provide more seeds. Yaoyao may not have enough AoE Dendro application for Burgeon.",
         "rotation": "",
         "archetype": [
             "Oven"
@@ -2604,7 +2604,7 @@ const teams = {
     },
     "83": {
         "name": "Vape Dehya",
-        "description": "Basically Dehya and her powerfull damage carring the whole abyss. Since Dehya cds, you can alter the rotation in order to fix her E cooldown. For example, doing Kazuha's ult at the end of the rotation to gain time. ",
+        "description": "Basically Dehya and her powerful damage carry the whole abyss. Since Dehya has cooldowns, you can alter the rotation to fix her Elemental Skill cooldown. For example, use Kazuha's ult at the end of the rotation to gain time.",
         "rotation": "E Dehya >  E + Q Bennett > E + (Q) Kazuha  > Q + E Mona > Q Dehya (and click so hard)",
         "archetype": [
             "Vaporize"
@@ -2633,7 +2633,7 @@ const teams = {
     },
     "84": {
         "name": "Childe HyperFridge",
-        "description": "Tartaglia can be used in HyperFridge but there are better hydros because of E cds. With Baizhu as main dendro applier, a cryo character can help you create seeds in order to rivalise with childe hydro aplication.",
+        "description": "Tartaglia can be used in HyperFridge, but there are better Hydro characters because of their E CDs. With Baizhu as the main Dendro applier, a Cryo character can help you create seeds to compete with Childe's Hydro application.",
         "rotation": "",
         "archetype": [
             "HyperFridge"
@@ -2666,7 +2666,7 @@ const teams = {
     },
     "85": {
         "name": "Childe HyperFridge",
-        "description": "Tartaglia can be used in HyperFridge but there are better hydros because of E cds. With Baizhu as main dendro applier, a cryo character can help you create seeds in order to rivalise with childe hydro aplication. Raiden has more speed triggering bloom than Kuki in exchange of heal.",
+        "description": "Tartaglia can be used in HyperFridge, but there are better Hydro characters because of their E CDs. With Baizhu as the main Dendro applier, a Cryo character can help you create seeds to compete with Childe's Hydro application. Raiden has more speed triggering bloom than Kuki but lacks healing.",
         "rotation": "",
         "archetype": [
             "HyperFridge"
@@ -2699,7 +2699,7 @@ const teams = {
     },
     "86": {
         "name": "Childe HyperFridge",
-        "description": "Tartaglia can be used in HyperFridge but there are better hydros because of E cds. With Baizhu as main dendro applier, a cryo character can help you create seeds in order to rivalise with childe hydro aplication. Shinobu is the more popular option to trigger bloom for comfort and healing, but other options like raiden may have more speed.",
+        "description": "Tartaglia can be used in HyperFridge, but there are better Hydro characters because of their E CDs. With Baizhu as the main Dendro applier, a Cryo character can help you create seeds to compete with Childe's Hydro application. Shinobu is the more popular option to trigger bloom for comfort and healing, but other options like Raiden may have more speed.",
         "rotation": "",
         "archetype": [
             "HyperFridge"
@@ -2765,7 +2765,7 @@ const teams = {
     },
     "88": {
         "name": "Childe Hyperbloom",
-        "description": "Tartaglia can be used in Hyperbloom but there are better hydros because of E cds. With Dendro MC as main dendro applier, you need a second one to rivalise with childe hydro aplication. Raiden has more speed triggering bloom than Kuki in exchange of heal.",
+        "description": "Tartaglia can be used in Hyperbloom, but there are better Hydro characters because of their E CDs. With Dendro MC as the main Dendro applier, you need a second one to compete with Childe's Hydro application. Raiden has more speed triggering bloom than Kuki but lacks healing.",
         "rotation": "",
         "archetype": [
             "Hyperbloom"
@@ -2798,7 +2798,7 @@ const teams = {
     },
     "89": {
         "name": "Childe Hyperbloom",
-        "description": "Tartaglia can be used in Hyperbloom but there are better hydros because of E cds. Raiden has more speed triggering bloom than Kuki in exchange of heal.",
+        "description": "Tartaglia can be used in Hyperbloom, but there are better Hydro characters because of their E CDs. Raiden has more speed triggering bloom than Kuki but lacks healing.",
         "rotation": "",
         "archetype": [
             "Hyperbloom"
@@ -2849,7 +2849,7 @@ const teams = {
     },
     "90": {
         "name": "Childe Hyperbloom",
-        "description": "Tartaglia can be used in Hyperbloom but there are better hydros because of E cds. With Dendro MC as main dendro applier, you need a second one to rivalise with childe hydro aplication. Shinobu is the more popular option to trigger bloom for comfort and healing, but other options like raiden may have more speed.",
+        "description": "Tartaglia can be used in Hyperbloom, but there are better Hydro characters because of their E CDs. With Dendro MC as the main Dendro applier, you need a second one to compete with Childe's Hydro application. Shinobu is the more popular option to trigger bloom for comfort and healing, but other options like Raiden may have more speed.",
         "rotation": "",
         "archetype": [
             "Hyperbloom"
@@ -2882,7 +2882,7 @@ const teams = {
     },
     "91": {
         "name": "Childe Thoma Oven",
-        "description": "Tartaglia is good in Burgeon and similars due to AoE Hydro application. Add a cryo to have more seeds. Baizhu could not have enough AoE dendro aplication for Burgeon",
+        "description": "Tartaglia is good in Burgeon and similar comps due to AoE Hydro application. Adding a Cryo character can provide more seeds. Baizhu may not have enough AoE Dendro application for Burgeon.",
         "rotation": "",
         "archetype": [
             "Oven"
@@ -2919,7 +2919,7 @@ const teams = {
     },
     "92": {
         "name": "Kaveh Fridge",
-        "description": "Well.. it's not very good",
+        "description": "Well, it's not very good.",
         "rotation": "",
         "archetype": [
             "Fridge"
@@ -2954,7 +2954,7 @@ const teams = {
     },
     "93": {
         "name": "Burger Klee",
-        "description": "This team composition is a great way for those wanting to play both Klee and Nahida together. It is better than it seems. Kirara or Baizhu are normally the best flex option, but you can use zhongli, kokomi or Yaoyao",
+        "description": "This team composition is a great way for those wanting to play both Klee and Nahida together. It is better than it seems. Kirara or Baizhu are normally the best flex options, but you can use Zhongli, Kokomi, or Yaoyao.",
         "rotation": "spam Klee's NA with Elemental Skill uses in between. You don't need to do the burst and CA.",
         "archetype": [
             "Burgeon"
@@ -2991,7 +2991,7 @@ const teams = {
     },
     "94": {
         "name": "Childe Thoma Burgeon",
-        "description": "Tartaglia is good in Burgeon and similars due to AoE Hydro application. To have enough dendro without nahida, you have to pick two of them,",
+        "description": "Tartaglia is good in Burgeon and similar comps due to AoE Hydro application. To have enough Dendro without Nahida, you have to pick two of them.",
         "rotation": "",
         "archetype": [
             "Burgeon"
@@ -3024,7 +3024,7 @@ const teams = {
     },
     "95": {
         "name": "Childe Thoma Burgeon",
-        "description": "Tartaglia is good in Burgeon and similars due to AoE Hydro application. To have enough dendro without nahida, you have to pick two of them,",
+        "description": "Tartaglia is good in Burgeon and similar comps due to AoE Hydro application. To have enough Dendro without Nahida, you have to pick two of them.",
         "rotation": "",
         "archetype": [
             "Burgeon"
@@ -3059,7 +3059,7 @@ const teams = {
     },
     "96": {
         "name": "Childe Thoma Burgeon",
-        "description": "Tartaglia is good in Burgeon and similars due to AoE Hydro application. Nahida dendro aplication is huge to go solo dendro, but you can pick another to comfort and consonance.",
+        "description": "Tartaglia is good in Burgeon and similar comps due to AoE Hydro application. Nahida's Dendro application is huge for solo Dendro, but you can pick another for comfort and consistency.",
         "rotation": "",
         "archetype": [
             "Burgeon"
@@ -3096,7 +3096,7 @@ const teams = {
     },
     "97": {
         "name": "Lyney Jean",
-        "description": "OP in abyss where there are Hydro infused enemies or bosses due to Jean pyro swirl.",
+        "description": "OP in abyss where there are Hydro-infused enemies or bosses due to Jean's Pyro swirl.",
         "rotation": "",
         "archetype": [
             "MonoPyro"
@@ -3124,8 +3124,8 @@ const teams = {
         }
     },
     "98": {
-        "name": "Lyney MonoPyro Doble Geo",
-        "description": "Be careful, Albedo + Zhongli can interrupt Pyro aura with crystalize. Useful when VV/Grouping don't needed.",
+        "name": "Lyney MonoPyro Double Geo",
+        "description": "Be careful, Albedo + Zhongli can interrupt Pyro aura with Crystallize. Useful when VV/Grouping isn't needed.",
         "rotation": "",
         "archetype": [
             "MonoPyro"
@@ -3156,7 +3156,7 @@ const teams = {
     },
     "99": {
         "name": "Lyney MonoPyro",
-        "description": "Zhongli doesn't generate pyro particles as dehya, but Lynette's ult is not necesary every rotation. Dehya can be the third pyro for lyney's passive, but zhongli is good with other advantages like shred and better uptime.",
+        "description": "Zhongli doesn't generate Pyro particles like Dehya, but Lynette's ult isn't necessary every rotation. Dehya can be the third Pyro for Lynette's passive, but Zhongli is good for other advantages like shred and better uptime.",
         "rotation": "",
         "archetype": [
             "MonoPyro"
@@ -3185,7 +3185,7 @@ const teams = {
     },
     "100": {
         "name": "Lyney MonoPyro",
-        "description": "Layla, Diona, Kirara or Baizhu can be the shielder of Lyney, because cryo/dendro doesn't interrupt the pyro aura.",
+        "description": "Layla, Diona, Kirara, or Baizhu can be the shielder of Lynette because Cryo/Dendro doesn't interrupt the Pyro aura.",
         "rotation": "Layla > Bennett > Xiangling > Lyney (2-3CA) + Q + E",
         "archetype": [
             "MonoPyro"
@@ -3220,7 +3220,7 @@ const teams = {
     },
     "101": {
         "name": "Lyney MonoPyro",
-        "description": "Layla, Diona, Kirara or Baizhu can be the shielder of Lyney, because cryo/dendro doesn't interrupt the pyro aura. Better with Kazuha.",
+        "description": "Layla, Diona, Kirara, or Baizhu can be the shielder of Lynette because Cryo/Dendro doesn't interrupt the Pyro aura. Better with Kazuha.",
         "rotation": "Layla > Bennett > Anemo > Lyney (2-3CA) + Q + E",
         "archetype": [
             "MonoPyro"
@@ -3255,7 +3255,7 @@ const teams = {
     },
     "102": {
         "name": "Lyney MonoPyro",
-        "description": "Layla, Diona, Kirara or Baizhu can be the shielder of Lyney, because cryo/dendro doesn't interrupt the pyro aura. Better with Kazuha.",
+        "description": "Layla, Diona, Kirara, or Baizhu can be the shielder of Lynette because Cryo/Dendro doesn't interrupt the Pyro aura. Better with Kazuha.",
         "rotation": "Layla > Bennett > Anemo > Lyney (2-3CA) + Q + E",
         "archetype": [
             "MonoPyro"
@@ -3290,7 +3290,7 @@ const teams = {
     },
     "103": {
         "name": "Lyney Reverse Melt",
-        "description": "You can use Lyney en Reverse Melt. You could have not enough pyro application to keep pyro, but it can be a useful team.",
+        "description": "You can use Lyney in Reverse Melt. You might not have enough Pyro application to maintain the Pyro status, but it can still be a useful team.",
         "rotation": "",
         "archetype": [
             "Melt"
@@ -3321,7 +3321,7 @@ const teams = {
     },
     "104": {
         "name": "Lyney MonoPyro",
-        "description": "Yeah, Tankfei is a good shielder but the boi. Just do it, but of course Yanfei C4. ",
+        "description": "Yeah, Tankfei is a good shielder, but the boy. Just do it, but of course, Yanfei C4.",
         "rotation": "Yanfei E + Q > Bennett > Kazuha E > Lyney (2-3CA) + Q + E",
         "archetype": [
             "MonoPyro"
@@ -3350,7 +3350,7 @@ const teams = {
     },
     "105": {
         "name": "Lyney MonpoPyro",
-        "description": "No ironic, one team where Dehya can be a good option. She provides buffs, particle generations, resistance interruption, tankiness, three pyros... Not the same damage as the xiangling team, but can be a good alternative of xiangling/zhongli team (and maybe better if grouping/vv is necesary).",
+        "description": "Not ironic. One team where Dehya can be a good option. She provides buffs, particle generation, resistance interruption, tankiness, three Pyro characters... Not the same damage as the Xiangling team, but can be a good alternative to the Xiangling/Zhongli team (and maybe better if grouping/VV is necessary).",
         "rotation": "Bennett > Kazuha E > Dehya E > Lyney (2-3CA) + Q + E. (If fast rotations, you can do Dehya's E first, but be carefull with the 9s of resistance interruption)",
         "archetype": [
             "MonoPyro"
@@ -3379,7 +3379,7 @@ const teams = {
     },
     "106": {
         "name": "Lyney MonoPyro",
-        "description": "Good shield and resistance interruption with zhongli, but you don't have the grouping and VV that provides Anemo. In the first Rotation, you have to do Bennett E > Zhongli E in order to activate Petra. Otherwise, put Zhongli at ToM artifacts.",
+        "description": "Good shield and resistance interruption with Zhongli, but you don't have the grouping and VV that Anemo provides. In the first rotation, you have to use Bennett's E > Zhongli's E to activate Petra. Otherwise, put Zhongli on ToM artifacts.",
         "rotation": "E Zhongli > Bennett > Q + E Xiangling > Lyney (2-3CA) + Q + E",
         "archetype": [
             "MonoPyro"
@@ -3408,7 +3408,7 @@ const teams = {
     },
     "107": {
         "name": "Lyney MonoPyro",
-        "description": "Best damage output team for Lyney. Cons: You don't have either shielder or resistance interruption. Very hard to play vs agressive enemies.",
+        "description": "The best damage output team for Lynette. Cons: You don't have either a shielder or resistance interruption. Very hard to play against aggressive enemies.",
         "rotation": "Bennett > Kazuha E > Xiangling Q + E > Lyney (2-3 CA) + Q + E",
         "archetype": [
             "MonoPyro"
@@ -3437,7 +3437,7 @@ const teams = {
     },
     "108": {
         "name": "Lyney MonoPyro",
-        "description": "If you love Xinyan, she can be use in monopyro with Lyney. C2 is not obbligatory but almost required.",
+        "description": "If you love Xinyan, she can be used in MonoPyro with Lynette. C2 is not obligatory but almost required.",
         "rotation": "",
         "archetype": [
             "MonoPyro"
@@ -3472,7 +3472,7 @@ const teams = {
     },
     "109": {
         "name": "Lyney MonoPyro",
-        "description": "Lyney with Klee support. Klee C2 needed... I will say nothing more.",
+        "description": "Lynette with Klee support. Klee C2 needed... I will say nothing more.",
         "rotation": "",
         "archetype": [
             "MonoPyro"
@@ -3509,7 +3509,7 @@ const teams = {
     },
     "110": {
         "name": "Lyney MonoPyro",
-        "description": "Zhongli doesn't generate pyro particles as dehya, but Lynette's ult is not necesary every rotation. Dehya can be the third pyro for lyney's passive, but zhongli is good with other advantages like shred and better uptime. Use Venti/Sucrose for grouping, and Lynette for atk% boost, ousia and taunt.",
+        "description": "Zhongli doesn't generate Pyro particles like Dehya, but Lynette's ult is not necessary every rotation. Dehya can be the third Pyro for Lynette's passive, but Zhongli is good for other advantages like shred and better uptime. Use Venti/Sucrose for grouping, and Lynette for ATK% boost, ousia, and taunt.",
         "rotation": "",
         "archetype": [
             "MonoPyro"
@@ -3542,7 +3542,7 @@ const teams = {
     },
     "111": {
         "name": "Lyney MonoPyro",
-        "description": "Layla, Diona, Kirara or Baizhu can be the shielder of Lyney, because cryo/dendro doesn't interrupt the pyro aura. Better with Kazuha.",
+        "description": "Layla, Diona, Kirara, or Baizhu can be the shielder of Lynette because Cryo/Dendro doesn't interrupt the Pyro aura. Better with Kazuha.",
         "rotation": "Layla > Bennett > Anemo > Lyney (2-3CA) + Q + E",
         "archetype": [
             "MonoPyro"
@@ -3577,7 +3577,7 @@ const teams = {
     },
     "112": {
         "name": "Lyney MonoPyro",
-        "description": "No ironic, one team where Dehya can be a good option. She provides buffs, particle generations, resistance interruption, tankiness, three pyros... Not the same damage as the xiangling team, but can be a good alternative of xiangling/zhongli team (and maybe better if grouping/vv is necesary). Use Venti/Sucrose for grouping, and Lynette for atk% boost, ousia and taunt.",
+        "description": "Not ironic. One team where Dehya can be a good option. She provides buffs, particle generation, resistance interruption, tankiness, three Pyro characters... Not the same damage as the Xiangling team, but can be a good alternative to the Xiangling/Zhongli team (and maybe better if grouping/VV is necessary). Use Venti/Sucrose for grouping, and Lynette for ATK% boost, ousia, and taunt.",
         "rotation": "",
         "archetype": [
             "MonoPyro"
@@ -3610,7 +3610,7 @@ const teams = {
     },
     "113": {
         "name": "Lyney MonoPyro",
-        "description": "Use Venti/Sucrose for grouping, and Lynette for atk% boost, ousia and taunt. ",
+        "description": "Use Venti/Sucrose for grouping, and Lynette for ATK% boost, ousia, and taunt.",
         "rotation": "",
         "archetype": [
             "MonoPyro"
@@ -3643,7 +3643,7 @@ const teams = {
     },
     "114": {
         "name": "Lyney MonoPyro",
-        "description": "Yeah, Tankfei is a good shielder but the boi. Just do it, but of course Yanfei C4. Use Venti/Sucrose for grouping and Lynette for atk% boost, ousia and taunt.",
+        "description": "Yeah, Tankfei is a good shielder, but the boy. Just do it, but of course, Yanfei C4. Use Venti/Sucrose for grouping and Lynette for ATK% boost, ousia, and taunt.",
         "rotation": "Yanfei E + Q > Bennett > Anemo > Lyney (2-3CA) + Q + E",
         "archetype": [
             "MonoPyro"
@@ -3715,7 +3715,7 @@ const teams = {
     },
     "116": {
         "name": "Freminet Melt",
-        "description": "Not recommended, since Freminet E share ICD",
+        "description": "Not recommended, since Freminet's E shares ICD.",
         "rotation": "Off field characters  > Freminet: E, BURST, Spam skill (NA when Skill on CD(1s))",
         "archetype": [
             "Melt"
@@ -3793,7 +3793,7 @@ const teams = {
     },
     "118": {
         "name": "Freminet HyperFridge",
-        "description": "Freminet best archetype thanks to the sinergy between hyperbloom and his kit. Cryo helps to generate more seeds, and hyperbloom has electro and hydro, units that Freminet needs.",
+        "description": "Freminet's best archetype thanks to the synergy between hyperbloom and his kit. Cryo helps generate more seeds, and hyperbloom has Electro and Hydro, units that Freminet needs.",
         "rotation": "Off field characters  > Freminet: Burst, [NA] Skill, 2NA, Skill",
         "archetype": [
             "HyperFridge"
@@ -3824,7 +3824,7 @@ const teams = {
     },
     "119": {
         "name": "Freminet HyperFridge",
-        "description": "Freminet best archetype thanks to the sinergy between hyperbloom and his kit. Cryo helps to generate more seeds, and hyperbloom has electro and hydro, units that Freminet needs.",
+        "description": "Freminet's best archetype thanks to the synergy between hyperbloom and his kit. Cryo helps generate more seeds, and hyperbloom has Electro and Hydro, units that Freminet needs.",
         "rotation": "Off field characters  > Freminet: Burst, [NA] Skill, 2NA, Skill",
         "archetype": [
             "HyperFridge"
@@ -3855,7 +3855,7 @@ const teams = {
     },
     "120": {
         "name": "Physical Freminet",
-        "description": "You need an hydro unit in order to trigger shatter. In physical Freminet, an electro character is esencial to do Superconduct. ",
+        "description": "You need a Hydro unit to trigger shatter. In physical Freminet, an Electro character is essential to do Superconduct.",
         "rotation": "Off field characters  > Freminet: Burst, [NA] Skill, 2NA, Skill",
         "archetype": [
             "Hypercarry"
@@ -3906,7 +3906,7 @@ const teams = {
     },
     "121": {
         "name": "Physical Freminet",
-        "description": "You need an hydro unit in order to trigger shatter. In physical Freminet, an electro character is esencial to do Superconduct. ",
+        "description": "You need a Hydro unit to trigger shatter. In physical Freminet, an Electro character is essential to do Superconduct.",
         "rotation": "Off field characters  > Freminet: Burst, [NA] Skill, 2NA, Skill",
         "archetype": [
             "Hypercarry"
@@ -3959,7 +3959,7 @@ const teams = {
     },
     "122": {
         "name": "Physical Freminet",
-        "description": "You need an hydro unit in order to trigger shatter. In physical Freminet, an electro character is esencial to do Superconduct. ",
+        "description": "You need a Hydro unit to trigger shatter. In physical Freminet, an Electro character is essential to do Superconduct.",
         "rotation": "Off field characters  > Freminet: Burst, [NA] Skill, 2NA, Skill",
         "archetype": [
             "Hypercarry"
@@ -4043,7 +4043,7 @@ const teams = {
     },
     "124": {
         "name": "Neuvillette 3 Character Team",
-        "description": "This team is commonly used to speedrun with Neuvillette at high-investment. You don't use childe, only wants him for the hydro consonance and the A5 Talent.",
+        "description": "This team is commonly used to speedrun with Neuvillette at high investment. You don't use Childe, only want him for the Hydro resonance and the A5 Talent.",
         "rotation": "",
         "archetype": [
             "Hypercarry"
@@ -4074,7 +4074,7 @@ const teams = {
     },
     "125": {
         "name": "Neuvillette Hyperbloom",
-        "description": "Neuvillette is very strong in this archetype. With Raiden, you can do kite and trigger seeds.",
+        "description": "Neuvillette is very strong in this archetype. With Raiden, you can kite and trigger seeds.",
         "rotation": "",
         "archetype": [
             "Hyperbloom"
@@ -4109,7 +4109,7 @@ const teams = {
     },
     "126": {
         "name": "Neuvillette Dehya Hyperbloom",
-        "description": "Dehya is surprisily good with Neuvillette Hyperbloom. Low Pyro application to not still hyperblooms, enough pyro to trigger burning so Neuvillette can Vape and active 3 stacks of his passive. On top of that, resistance interruption for the first Neuvillete CA so he can start to kite. As always, Raiden > Shinobu but both are good. With Dendro MC usually an Anemo character is better.  ",
+        "description": "Dehya is surprisingly good with Neuvillette Hyperbloom. Low Pyro application to not steal hyperblooms, enough Pyro to trigger burning so Neuvillette can Vape and activate 3 stacks of his passive. On top of that, resistance interruption for the first Neuvillette CA so he can start to kite. As always, Raiden > Shinobu but both are good. With Dendro MC, usually an Anemo character is better.",
         "rotation": "",
         "archetype": [
             "Hyperbloom"
@@ -4140,7 +4140,7 @@ const teams = {
     },
     "127": {
         "name": "Neuvillette Dehya Hyperbloom",
-        "description": "Dehya is surprisily good with Neuvillette Hyperbloom. Low Pyro application to not still hyperblooms, enough pyro to trigger burning so Neuvillette can Vape and active 3 stacks of his passive. On top of that, resistance interruption for the first Neuvillete CA so he can start to kite. As always, Raiden > Shinobu but both are good. ",
+        "description": "Dehya is surprisingly good with Neuvillette Hyperbloom. Low Pyro application to not steal hyperblooms, enough Pyro to trigger burning so Neuvillette can Vape and activate 3 stacks of his passive. On top of that, resistance interruption for the first Neuvillette CA so he can start to kite. As always, Raiden > Shinobu but both are good.",
         "rotation": "",
         "archetype": [
             "Hyperbloom"
@@ -4171,7 +4171,7 @@ const teams = {
     },
     "128": {
         "name": "Vape Neuvillette",
-        "description": "Thanks to the low hydro applicattion that Neuvillete has, he can be one one of the only hydro character to do forward vaporize. Very difficult, you have to rotate around enemies. You can build som EM in this team (ej: Weapon, Sands, but crit is always better)",
+        "description": "Thanks to the low Hydro application that Neuvillette has, he can be one of the only Hydro characters to do forward vaporize. Very difficult; you have to rotate around enemies. You can build some EM in this team (e.g., Weapon, Sands, but crit is always better).",
         "rotation": "E Neuvi > E kazuha > E Zhongli (try to not get the pilar) > E Xiangling (wait 1s) > Q Neu + CA > E kazuha > Q Xiangling > Neu CA + E + CA",
         "archetype": [
             "Vaporize"
@@ -4336,7 +4336,7 @@ const teams = {
     },
     "133": {
         "name": "Neuvillette OverVape",
-        "description": "A National team but with Fischl, helps maintaining the hydro aura on enemies, so it's better than normal National",
+        "description": "A National team but with Fischl, helps maintain the Hydro aura on enemies, so it's better than normal National.",
         "rotation": "",
         "archetype": [
             "Overvape"
@@ -4365,7 +4365,7 @@ const teams = {
     },
     "134": {
         "name": "Neuvillette Taser/Hypercarry",
-        "description": "An electro-charged focus team. Most output damage for Neuvillette, so it can be called Hypercarry",
+        "description": "An Electro-charged focus team. Most output damage for Neuvillette, so it can be called a Hypercarry.",
         "rotation": "",
         "archetype": [
             "Taser"
@@ -4431,7 +4431,7 @@ const teams = {
     },
     "136": {
         "name": "Neuvillette National",
-        "description": "Not enough Hydro Application. Can be played anyways because National is good, but one of the worst Neuvillete teams.",
+        "description": "Not enough Hydro Application. Can be played anyway because National is good, but one of the worst Neuvillette teams.",
         "rotation": "",
         "archetype": [
             "National"
@@ -4652,7 +4652,7 @@ const teams = {
     },
     "143": {
         "name": "Neuvillette Taser",
-        "description": "Neuvillete is a strong onfield option in taser,",
+        "description": "Neuvillette is a strong on-field option in taser.",
         "rotation": "",
         "archetype": [
             "Taser"
@@ -4683,7 +4683,7 @@ const teams = {
     },
     "144": {
         "name": "Neuvillette Taser",
-        "description": "Neuvillete is a strong onfield option in taser,",
+        "description": "Neuvillette is a strong on-field option in taser.",
         "rotation": "",
         "archetype": [
             "Taser"
@@ -4714,7 +4714,7 @@ const teams = {
     },
     "145": {
         "name": "Neuvillette Taser",
-        "description": "Neuvillete is a strong onfield option in taser,",
+        "description": "Neuvillette is a strong on-field option in taser.",
         "rotation": "",
         "archetype": [
             "Taser"
@@ -4745,7 +4745,7 @@ const teams = {
     },
     "146": {
         "name": "Neuvillette Taser",
-        "description": "Neuvillete is a strong onfield option in taser,",
+        "description": "Neuvillette is a strong on-field option in taser.",
         "rotation": "",
         "archetype": [
             "Taser"
@@ -4776,7 +4776,7 @@ const teams = {
     },
     "147": {
         "name": "Neuvillette HyperFridge",
-        "description": "Neuvillette is VERY strong in this archetype. Be carefull to stay in a range that Shinobu can trigger the seeds. You can have the three stacks of Neuvillette passive.",
+        "description": "Neuvillette is VERY strong in this archetype. Be careful to stay in a range that Shinobu can trigger the seeds. You can have the three stacks of Neuvillette passive.",
         "rotation": "",
         "archetype": [
             "HyperFridge"
@@ -4811,7 +4811,7 @@ const teams = {
     },
     "148": {
         "name": "Neuvillette HyperFridge",
-        "description": "Neuvillette is VERY strong in this archetype. Be carefull to stay in a range that Shinobu can trigger the seeds. You can have the three stacks of Neuvillette passive.",
+        "description": "Neuvillette is VERY strong in this archetype. Be careful to stay in a range that Shinobu can trigger the seeds. You can have the three stacks of Neuvillette passive.",
         "rotation": "",
         "archetype": [
             "HyperFridge"
@@ -4846,7 +4846,7 @@ const teams = {
     },
     "149": {
         "name": "Neuvillette Hyperbloom",
-        "description": "Neuvillette is very strong in this archetype. Be carefull to stay in a range that Shinobu can trigger the seeds. ",
+        "description": "Neuvillette is very strong in this archetype. Be careful to stay in a range that Shinobu can trigger the seeds.",
         "rotation": "",
         "archetype": [
             "Hyperbloom"
@@ -4891,7 +4891,7 @@ const teams = {
     },
     "150": {
         "name": "Neuvillette Hyperbloom",
-        "description": "Neuvillette is very strong in this archetype. Be carefull to stay in a range that Shinobu can trigger the seeds.",
+        "description": "Neuvillette is very strong in this archetype. Be careful to stay in a range that Shinobu can trigger the seeds.",
         "rotation": "",
         "archetype": [
             "Hyperbloom"
@@ -4926,7 +4926,7 @@ const teams = {
     },
     "151": {
         "name": "Neuvillette Hyperbloom",
-        "description": "Neuvillette is very strong in this archetype. Be carefull to stay in a range that Shinobu can trigger the seeds. ",
+        "description": "Neuvillette is very strong in this archetype. Be careful to stay in a range that Shinobu can trigger the seeds.",
         "rotation": "",
         "archetype": [
             "Hyperbloom"
@@ -4963,7 +4963,7 @@ const teams = {
     },
     "152": {
         "name": "Neuvillette Hyperbloom",
-        "description": "Neuvillette is very strong in this archetype.  Be carefull to stay in a range that Shinobu can trigger the seeds.",
+        "description": "Neuvillette is very strong in this archetype. Be careful to stay in a range that Shinobu can trigger the seeds.",
         "rotation": "",
         "archetype": [
             "Hyperbloom"
@@ -5068,7 +5068,7 @@ const teams = {
     },
     "155": {
         "name": "Neuvillette Hyperbloom",
-        "description": "Neuvillette is very strong in this archetype. With Raiden, you can do kite and trigger seeds. ",
+        "description": "Neuvillette is very strong in this archetype. With Raiden, you can do kite and trigger seeds.",
         "rotation": "",
         "archetype": [
             "Hyperbloom"
@@ -5148,7 +5148,7 @@ const teams = {
     },
     "157": {
         "name": "Neuvillette Hyperbloom",
-        "description": "Neuvillette is very strong in this archetype. With Raiden, you can do kite and trigger seeds. ",
+        "description": "Neuvillette is very strong in this archetype. With Raiden, you can do kite and trigger seeds.",
         "rotation": "",
         "archetype": [
             "Hyperbloom"
@@ -5346,7 +5346,7 @@ const teams = {
     },
     "163": {
         "name": "Wriothesley HyperFridge",
-        "description": "Xingqiu provides the resistence and extra healing he might need.",
+        "description": "Xingqiu provides the resistance and extra healing he might need.",
         "rotation": "Since you don't have healer, you have to spam CA with wriothesley every 5NA (a NA string) even at C0. At >=50% HP, spam CA. ",
         "archetype": [
             "HyperFridge"
@@ -5443,7 +5443,7 @@ const teams = {
     },
     "166": {
         "name": "Wriothesley Sunfire",
-        "description": "Jean Sunfire mechanic plus Wriothesley",
+        "description": "Jean's Sunfire mechanic plus Wriothesley.",
         "rotation": "Bennett E/Q > Jean E/Q",
         "archetype": [
             "Melt"
@@ -5534,7 +5534,7 @@ const teams = {
     },
     "169": {
         "name": "Wriothesley HyperFridge",
-        "description": "Just OP. You can't play with the raiden EM version, as Wriothesley need a bit of healing himself.",
+        "description": "Just OP. You can't play with the Raiden EM version, as Wriothesley needs a bit of healing himself.",
         "rotation": "",
         "archetype": [
             "HyperFridge"
@@ -5565,7 +5565,7 @@ const teams = {
     },
     "170": {
         "name": "Wriothesley Melt",
-        "description": "Wriothesley can be played on Melt. It's a bit complicated due to the NA ICD (melting the 1-4 hits with a normal rotation, which is not optimal), but it's okay.",
+        "description": "Wriothesley can be played in Melt. It's a bit complicated due to the NA ICD (melting the 1-4 hits with a normal rotation, which is not optimal), but it's okay.",
         "rotation": "",
         "archetype": [
             "Melt"
@@ -5600,7 +5600,7 @@ const teams = {
     },
     "171": {
         "name": "Wriothesley Melt",
-        "description": "Wriothesley can be played on Melt. It's a bit complicated due to the NA ICD (melting the 1-4 hits with a normal rotation, which is not optimal), but it's okay. You don't have to swirl cryo since Wriothesley don't have offield application, so just swirl pyro with kazuha and good for grouping.",
+        "description": "Wriothesley can be played in Melt. It's a bit complicated due to the NA ICD (melting the 1-4 hits with a normal rotation, which is not optimal), but it's okay. You don't have to swirl Cryo since Wriothesley doesn't have off-field application, so just swirl Pyro with Kazuha, and it's good for grouping.",
         "rotation": "",
         "archetype": [
             "Melt"
@@ -5629,7 +5629,7 @@ const teams = {
     },
     "172": {
         "name": "Neuvillette Furina",
-        "description": "Thanks to Neuvillette HP manipulation, you can run him with Furina without a healer and Zhongli.",
+        "description": "Thanks to Neuvillette's HP manipulation, you can run him with Furina without a healer and Zhongli.",
         "rotation": "",
         "archetype": [
             "Hypercarry"
@@ -5658,7 +5658,7 @@ const teams = {
     },
     "173": {
         "name": "Wriothesley Bain-Marie",
-        "description": "New OP archetype thanks to Wriothesley and Furina. Vaps + Melts + Burgeon in the same team. ",
+        "description": "A new OP archetype thanks to Wriothesley and Furina. Vaps + Melts + Burgeon in the same team.",
         "rotation": "",
         "archetype": [
             "Bain-Marie"
@@ -5689,7 +5689,7 @@ const teams = {
     },
     "174": {
         "name": "Ningguang 'Hypercarry'",
-        "description": "Okeish i think",
+        "description": "Okay, I think.",
         "rotation": "",
         "archetype": [
             "Hypercarry"
@@ -5747,7 +5747,7 @@ const teams = {
     },
     "176": {
         "name": "Diluc Furina Vape",
-        "description": "Bennett has to be full healing.",
+        "description": "Bennett has to be fully focused on healing.",
         "rotation": "",
         "archetype": [
             "Vaporize"
@@ -5779,8 +5779,8 @@ const teams = {
         }
     },
     "177": {
-        "name": "Yanfei Furina Doble Hydro",
-        "description": "You have to swap all the time between the characters in order to bennett heal all the allies. Bennett healer build.",
+        "name": "Yanfei Furina Double Hydro",
+        "description": "You have to swap all the time between the characters to ensure Bennett heals all the allies. Bennett healer build.",
         "rotation": "",
         "archetype": [
             "Vaporize"
@@ -5810,8 +5810,8 @@ const teams = {
         }
     },
     "178": {
-        "name": "Furina National Doble Hydro",
-        "description": "You have to swap all the time between the characters in order to bennett heal all the allies. Bennett healer build.",
+        "name": "Furina National Double Hydro",
+        "description": "You have to swap all the time between the characters to ensure Bennett heals all the allies. Bennett healer build.",
         "rotation": "",
         "archetype": [
             "National"
@@ -5875,7 +5875,7 @@ const teams = {
     },
     "180": {
         "name": "Rational Furina",
-        "description": "Bennett has to be full healing. ",
+        "description": "Bennett has to be fully focused on healing.",
         "rotation": "",
         "archetype": [
             "National"
@@ -5904,7 +5904,7 @@ const teams = {
     },
     "181": {
         "name": "Dehya Furina Vape",
-        "description": "Bennett has to be full healing. ",
+        "description": "Bennett has to be fully focused on healing.",
         "rotation": "",
         "archetype": [
             "Vaporize"
@@ -5933,7 +5933,7 @@ const teams = {
     },
     "182": {
         "name": "Yoimiya Furina Vape",
-        "description": "Bennett has to be full healing.",
+        "description": "Bennett has to be fully focused on healing.",
         "rotation": "",
         "archetype": [
             "Vaporize"
@@ -5997,7 +5997,7 @@ const teams = {
     },
     "184": {
         "name": "Neuvillette Furina Hyperbloom",
-        "description": "Nahida AND Neuvillette has to be on Prototype Amber. With that, is enough healing to max Furina's buff. ",
+        "description": "Nahida AND Neuvillette have to use Prototype Amber. With that, there is enough healing to maximize Furina's buff.",
         "rotation": "Furina Q > Healer Q/healing",
         "archetype": [
             "Hyperbloom"
@@ -6026,7 +6026,7 @@ const teams = {
     },
     "185": {
         "name": "Lyney Furina",
-        "description": "With Xiangling, you will keep enough pyro application for Lyney's passive and Furina vapes. Problem: Squishiest team in the world. Bennett healer.",
+        "description": "With Xiangling, you will maintain enough Pyro application for Lyney's passive and Furina's vapes. Problem: Squishiest team in the world. Bennett healer.",
         "rotation": "",
         "archetype": [
             "MonoPyro"
@@ -6117,7 +6117,7 @@ const teams = {
     },
     "188": {
         "name": "Raiden Furina Quickbloom",
-        "description": "You can build also Raiden hybrid with EM and dmg.",
+        "description": "You can also build Raiden as a hybrid with EM and damage.",
         "rotation": "",
         "archetype": [
             "Quickbloom"
@@ -6148,7 +6148,7 @@ const teams = {
     },
     "189": {
         "name": "Raiden Furina Quickbloom",
-        "description": "You can build also Raiden hybrid with EM and dmg.",
+        "description": "You can also build Raiden as a hybrid with EM and damage.",
         "rotation": "",
         "archetype": [
             "Quickbloom"
@@ -6179,7 +6179,7 @@ const teams = {
     },
     "190": {
         "name": "Dori C6 Furina Hyperbloom",
-        "description": "Dori On-Field has enough healing for Furina teams",
+        "description": "Dori on-field provides enough healing for Furina teams.",
         "rotation": "",
         "archetype": [
             "Hyperbloom"
@@ -6212,7 +6212,7 @@ const teams = {
     },
     "191": {
         "name": "Dori C6 Furina Hyperbloom",
-        "description": "Dori On-Field has enough healing for Furina teams",
+        "description": "Dori on-field provides enough healing for Furina teams.",
         "rotation": "",
         "archetype": [
             "Hyperbloom"
@@ -6247,7 +6247,7 @@ const teams = {
     },
     "192": {
         "name": "Keqing Furina Quickbloom",
-        "description": "You can build also Keqing hybrid with EM and dmg.",
+        "description": "You can also build Keqing as a hybrid with EM and damage.",
         "rotation": "",
         "archetype": [
             "Quickbloom"
@@ -6278,7 +6278,7 @@ const teams = {
     },
     "193": {
         "name": "Keqing Furina Quickbloom",
-        "description": "You can build also Keqing hybrid with EM and dmg. ",
+        "description": "You can also build Keqing as a hybrid with EM and damage.",
         "rotation": "",
         "archetype": [
             "Quickbloom"
@@ -6414,7 +6414,7 @@ const teams = {
     },
     "197": {
         "name": "Auto Play Archon Team",
-        "description": "Press all elemental skill and go afk to buy milk. ",
+        "description": "Activate all elemental skills and go AFK to buy milk.",
         "rotation": "",
         "archetype": [
             "Hyperbloom"
@@ -6443,7 +6443,7 @@ const teams = {
     },
     "198": {
         "name": "Furina Sauté",
-        "description": "Prototype Amber Nahida is recommended or Bennettt full healing. Furina will generate pretty low seeds, in exchange, she will fordward vape, doing a lot of damage. ",
+        "description": "Prototype Amber Nahida is recommended or Bennett fully focused on healing. Furina will generate pretty low seeds; in exchange, she will forward vape, dealing a lot of damage.",
         "rotation": "",
         "archetype": [
             "Sauté"
@@ -6472,7 +6472,7 @@ const teams = {
     },
     "199": {
         "name": "Furina Sauté",
-        "description": "Furina will generate pretty low seeds, in exchange, she will fordward vape, doing a lot of damage. ",
+        "description": "Furina will generate pretty low seeds, but in exchange, she will forward vape, dealing a lot of damage.",
         "rotation": "",
         "archetype": [
             "Sauté"
@@ -6503,7 +6503,7 @@ const teams = {
     },
     "200": {
         "name": "Furina Sauté",
-        "description": "Furina will generate pretty low seeds, in exchange, she will fordward vape, doing a lot of damage. ",
+        "description": "Furina will generate pretty low seeds, but in exchange, she will forward vape, dealing a lot of damage.",
         "rotation": "",
         "archetype": [
             "Sauté"
@@ -6710,7 +6710,7 @@ const teams = {
         }
     },
     "206": {
-        "name": "Furina Doble Hydro Burgeon",
+        "name": "Furina Double Hydro Burgeon",
         "description": "",
         "rotation": "",
         "archetype": [
@@ -6741,7 +6741,7 @@ const teams = {
         }
     },
     "207": {
-        "name": "Furina Doble Hydro Burgeon",
+        "name": "Furina Double Hydro Burgeon",
         "description": "",
         "rotation": "",
         "archetype": [
@@ -7181,7 +7181,7 @@ const teams = {
     },
     "220": {
         "name": "Xiao Furina Hypercarry",
-        "description": "If you don't have Faruzan c6 maybe Jean's particle generation would help, otherwise Mika/Charlotte are better options.",
+        "description": "If you don't have Faruzan C6, maybe Jean's particle generation would help; otherwise, Mika/Charlotte are better options.",
         "rotation": "Furina Q > Healer Q/Healing",
         "archetype": [
             "Hypercarry"
@@ -7272,7 +7272,7 @@ const teams = {
     },
     "223": {
         "name": "Raiden Furina Hypercarry",
-        "description": "Jean Sunfire plus Raiden doing a lot of damage. ",
+        "description": "Jean's Sunfire plus Raiden dealing a lot of damage.",
         "rotation": "Furina Q > Jean Q",
         "archetype": [
             "Overvape"
@@ -7363,7 +7363,7 @@ const teams = {
     },
     "226": {
         "name": "Kokomi Furina Taser",
-        "description": "Kokomi On-Field",
+        "description": "Kokomi on-field.",
         "rotation": "",
         "archetype": [
             "Taser"
@@ -7394,7 +7394,7 @@ const teams = {
     },
     "227": {
         "name": "Qiqi Furina Taser",
-        "description": "Qiqi onfield to have enough healing and ER. ",
+        "description": "Qiqi on-field to provide enough healing and energy recharge.",
         "rotation": "",
         "archetype": [
             "Taser"
@@ -7680,7 +7680,7 @@ const teams = {
     },
     "235": {
         "name": "Ganyu Furina Freeze",
-        "description": "No grouping. Useful in single-target enemies that can freeze.",
+        "description": "No grouping. Useful against single-target enemies that can be frozen.",
         "rotation": "",
         "archetype": [
             "Freeze"
@@ -7802,7 +7802,7 @@ const teams = {
     },
     "239": {
         "name": "Sayu Furina MonoHydro",
-        "description": "You can On-Field Yelan so she has her own buff and do pretty high damage",
+        "description": "You can have Yelan on-field so she benefits from her own buff and deals significant damage.",
         "rotation": "Furina Q > Healer Q/healing",
         "archetype": [
             "MonoHydro"
@@ -7897,7 +7897,7 @@ const teams = {
     },
     "242": {
         "name": "Hu Tao Triple Hydro with Mona Healer",
-        "description": "A fun and surprisingly good team, where Mona is the healers thanks to Prototype amber, the Maiden set, and Healing Bonus Circlet. Not gonna fully stack Fanfare, but its ok.",
+        "description": "A fun and surprisingly effective team, where Mona serves as the healer thanks to Prototype Amber, the Maiden set, and a Healing Bonus Circlet. It may not fully stack Fanfare, but it's okay.",
         "rotation": "",
         "archetype": [
             "Vaporize"
@@ -7928,7 +7928,7 @@ const teams = {
     },
     "243": {
         "name": "Furina National",
-        "description": "You have to swap all the time between the characters in order to bennett heal all the allies. Bennett healer build. Lynette and Heizou are good due to VV, but other anemo like Sucrose may be better. ",
+        "description": "You have to swap between characters constantly to ensure Bennett heals all allies. It's a Bennett healer build. Lynette and Heizou are good options due to Viridescent Venerer, but other Anemo characters like Sucrose may be better.",
         "rotation": "",
         "archetype": [
             "National"
@@ -7959,7 +7959,7 @@ const teams = {
     },
     "244": {
         "name": "Furina National",
-        "description": "You have to swap all the time between the characters in order to bennett heal all the allies. Bennett healer build.",
+        "description": "You have to swap between characters constantly to ensure Bennett heals all allies. It's a Bennett healer build.",
         "rotation": "",
         "archetype": [
             "National"
@@ -7990,7 +7990,7 @@ const teams = {
     },
     "245": {
         "name": "Furina Forward Vape",
-        "description": "Due to Jean's ultimate, Furina will be the one vaping",
+        "description": "Due to Jean's ultimate, Furina will be the one vaporizing.",
         "rotation": "Remember: Furina Q > Healer Q/healing. Do Jean ults after bennett ults.",
         "archetype": [
             "Vaporize"
@@ -8450,7 +8450,7 @@ const teams = {
     },
     "259": {
         "name": "Furina Dori Hyperbloom",
-        "description": "Dori can be used in hyperbloom but she has a lot of downtime",
+        "description": "Dori can be used in hyperbloom, but she has a lot of downtime.",
         "rotation": "Furina Q > Healer Q/healing",
         "archetype": [
             "Hyperbloom"
@@ -8481,7 +8481,7 @@ const teams = {
     },
     "260": {
         "name": "Furina Dori Hyperbloom",
-        "description": "Dori can be used in hyperbloom but she has a lot of downtime",
+        "description": "Dori can be used in hyperbloom, but she has a lot of downtime.",
         "rotation": "Furina Q > Healer Q/healing",
         "archetype": [
             "Hyperbloom"
@@ -8698,7 +8698,7 @@ const teams = {
     },
     "267": {
         "name": "Neuvillette Furina Hyperbloom",
-        "description": "In this team is recommended playing Neuvillette with Prototype Amber to have enough healing with Furina Passive and Shinobu/Dori/Diona",
+        "description": "It's recommended to equip Neuvillette with Prototype Amber in this team to ensure enough healing with Furina's passive and Shinobu/Dori/Diona.",
         "rotation": "",
         "archetype": [
             "Hyperbloom"
@@ -8729,7 +8729,7 @@ const teams = {
     },
     "268": {
         "name": "Neuvillette Furina Carry",
-        "description": "In this team is recommended playing Neuvillette with Prototype Amber to have enough healing with Furina Passive and Shinobu/Dori/Diona",
+        "description": "It's recommended to equip Neuvillette with Prototype Amber in this team to ensure enough healing with Furina's passive and Shinobu/Dori/Diona.",
         "rotation": "",
         "archetype": [
             "Hypercarry"
@@ -8762,7 +8762,7 @@ const teams = {
     },
     "269": {
         "name": "Neuvillette Furina Carry",
-        "description": "This team is very good, but is OMEGA BROKEN if yo fight vs enemies that applies to yourself some element, so jean can swirl it and proc Neuvillette pasive.",
+        "description": "This team is very good, but it's OMEGA BROKEN when fighting enemies that apply an element to yourself, allowing Jean to swirl it and activate Neuvillette's passive.",
         "rotation": "",
         "archetype": [
             "Hypercarry"
@@ -8822,7 +8822,7 @@ const teams = {
     },
     "271": {
         "name": "Wriothesley Bain-Marie",
-        "description": "New OP archetype thanks to Wriothesley and Furina. Vaps + Melts + Burgeon in the same team. ",
+        "description": "A new OP archetype thanks to Wriothesley and Furina. It combines Vaporize, Melt, and Burgeon in the same team.",
         "rotation": "",
         "archetype": [
             "Bain-Marie"
@@ -8853,7 +8853,7 @@ const teams = {
     },
     "272": {
         "name": "Wriothesley Furina HyperFridge",
-        "description": "In this team, Nahida needs to have Prototype Amber so with Shinobu they can heal for Furina",
+        "description": "In this team, Nahida needs to use Prototype Amber so that, with Shinobu, they can heal Furina.",
         "rotation": "",
         "archetype": [
             "HyperFridge"
@@ -8882,7 +8882,7 @@ const teams = {
     },
     "273": {
         "name": "Wriothesley Freeze",
-        "description": "With Furina, Wriothesley value grows up. You can use Kokomi as healer but she don't heal all the teammates so don't have special sinergy with Furina and Wriothesley (Is not optimal to spend time onfield healing with kokomi's Q)",
+        "description": "With Furina, Wriothesley's value increases. You can use Kokomi as a healer, but she doesn't heal all teammates, so she doesn't have special synergy with Furina and Wriothesley (it's not optimal to spend time on-field healing with Kokomi's Q).",
         "rotation": "",
         "archetype": [
             "Freeze"
@@ -8911,7 +8911,7 @@ const teams = {
     },
     "274": {
         "name": "Wriothesley Freeze",
-        "description": "With Furina, Wriothesley value grows up. You can use Jean as Anemo healer since she has good sinergy with Furina and Wriothesley, but you don't have grouping. ",
+        "description": "With Furina, Wriothesley's value increases. You can use Jean as an Anemo healer since she has good synergy with Furina and Wriothesley, but you don't have grouping.",
         "rotation": "",
         "archetype": [
             "Freeze"
@@ -9103,7 +9103,7 @@ const teams = {
     },
     "280": {
         "name": "Wanderer Furina Hypercarry",
-        "description": "You can use standard Wanderer build or Marechaussee Hunter artifacts set thanks to Furina (that might be better). This team is SO much better with Faruzan c6. Mika > Charlotte.",
+        "description": "You can use a standard Wanderer's build or the Marechaussee Hunter artifact set thanks to Furina, which might be better. This team is much better with Faruzan C6. Mika is preferred over Charlotte.",
         "rotation": "Furina Q > Healer Q/Healing",
         "archetype": [
             "Hypercarry"
@@ -9288,8 +9288,8 @@ const teams = {
         }
     },
     "286": {
-        "name": "Hu Tao Furina Doble Hydro Vape",
-        "description": "Hu Tao Doble Hydro plus a flex healer. The dendro ones could generate some seeds but its okay. ",
+        "name": "Hu Tao Furina Double Hydro Vape",
+        "description": "Hu Tao with double Hydro resonance plus a flexible healer. The Dendro characters could generate some seeds, but it's okay.",
         "rotation": "Remember: Furina Q > Healer Q/healing",
         "archetype": [
             "Vaporize"
@@ -9327,8 +9327,8 @@ const teams = {
         }
     },
     "287": {
-        "name": "Hu Tao Furina Doble Hydro Vape",
-        "description": "Hu Tao Doble Hydro plus a flex healer. The dendro ones could generate some seeds but its okay. ",
+        "name": "Hu Tao Furina Double Hydro Vape",
+        "description": "Hu Tao with double Hydro resonance plus a flexible healer. The Dendro characters could generate some seeds, but it's okay.",
         "rotation": "Remember: Furina Q > Healer Q/healing",
         "archetype": [
             "Vaporize"
@@ -9432,7 +9432,7 @@ const teams = {
         }
     },
     "290": {
-        "name": "Dehya Doble Hydro Vape",
+        "name": "Dehya Double Hydro Vape",
         "description": "",
         "rotation": "Remember: Furina Q > Healer Q/healing",
         "archetype": [
@@ -9468,7 +9468,7 @@ const teams = {
     },
     "291": {
         "name": "Dehya Furina Vape",
-        "description": "Dehya + Furina + Bennet + Flex Slot Healer. Furina has enough hydro app for Dehya",
+        "description": "Dehya + Furina + Bennett + Flex Slot Healer. Furina provides enough Hydro application for Dehya.",
         "rotation": "Remember: Furina Q > Healer Q/healing",
         "archetype": [
             "Vaporize"
@@ -9503,7 +9503,7 @@ const teams = {
     },
     "292": {
         "name": "Yoimiya Furina Vape",
-        "description": "Yoimiya + Furina + Bennet + Flex Slot Healer. Furina has enough hydro app for Yoimiya.",
+        "description": "Yoimiya + Furina + Bennett + Flex Slot Healer. Furina provides enough Hydro application for Yoimiya.",
         "rotation": "Remember: Furina Q > Healer Q/healing",
         "archetype": [
             "Vaporize"
@@ -9678,7 +9678,7 @@ const teams = {
     },
     "297": {
         "name": "Wriothesley Freeze",
-        "description": "With Furina, Wriothesley value grows up. You need Mika/Charlotte to heal all the teammates in a big heal, which have sinergy with Furina and Wriothesley. ",
+        "description": "With Furina, Wriothesley's value increases. You need Mika/Charlotte to heal all teammates with a big heal, which has synergy with Furina and Wriothesley.",
         "rotation": "",
         "archetype": [
             "Freeze"
@@ -9740,7 +9740,7 @@ const teams = {
     },
     "299": {
         "name": "Itto Navia",
-        "description": "Normal Itto rotation but with Navia quickswaping. 4th slot can be other flex unit that applies an element (So navia can pick cristalization)",
+        "description": "Normal Itto rotation but with Navia quick-swapping. The fourth slot can be another flexible unit that applies an element (so Navia can pick crystallization).",
         "rotation": "",
         "archetype": [
             "MonoGeo"
@@ -9773,7 +9773,7 @@ const teams = {
     },
     "300": {
         "name": "Navia with Barbara",
-        "description": "Unironically a GOOD barbara team and a decent Navia team. Barbara with TTDS and A LOT, i mean, A LOT, of ER so you can ult every rotation.",
+        "description": "Unironically a GOOD Barbara team and a decent Navia team. Barbara with Thrilling Tales of Dragon Slayers and A LOT, I mean, A LOT, of Energy Recharge so she can use her ultimate every rotation.",
         "rotation": "",
         "archetype": [
             "Hypercarry"
@@ -9805,8 +9805,8 @@ const teams = {
         }
     },
     "301": {
-        "name": "Navia Noelle Doble Hydro Furina",
-        "description": "Noelle On-Field, with Navia quickswap doing Q/E",
+        "name": "Navia Noelle Double Hydro Furina",
+        "description": "Noelle on-field, with Navia quick-swapping to use her Elemental Skill and Elemental Burst.",
         "rotation": "Navia's Q + Yelan/Xingqiu + Furina + Navia E + Noelle Q E NA + Navia E",
         "archetype": [
             "Hypercarry"
@@ -10065,7 +10065,7 @@ const teams = {
         }
     },
     "309": {
-        "name": "Navia Doble Hydro",
+        "name": "Navia Double Hydro",
         "description": "",
         "rotation": "",
         "archetype": [
@@ -10102,7 +10102,7 @@ const teams = {
         }
     },
     "310": {
-        "name": "Navia Doble Electro",
+        "name": "Navia Double Electro",
         "description": "",
         "rotation": "",
         "archetype": [
@@ -10133,7 +10133,7 @@ const teams = {
         }
     },
     "311": {
-        "name": "Navia Doble Electro",
+        "name": "Navia Double Electro",
         "description": "",
         "rotation": "",
         "archetype": [
@@ -10168,7 +10168,7 @@ const teams = {
         }
     },
     "312": {
-        "name": "Navia Doble Electro",
+        "name": "Navia Double Electro",
         "description": "",
         "rotation": "",
         "archetype": [
@@ -10206,7 +10206,7 @@ const teams = {
     },
     "313": {
         "name": "Navia Furina Carry",
-        "description": "You can change Navia's artifacts for Marechaussee Hunter",
+        "description": "You can change Navia's artifacts for the Marechaussee Hunter set.",
         "rotation": "",
         "archetype": [
             "Hypercarry"
@@ -10243,7 +10243,7 @@ const teams = {
     },
     "314": {
         "name": "Navia Furina Carry",
-        "description": "You can change Navia's artifacts for Marechaussee Hunter and Bennett healer build",
+        "description": "You can change Navia's artifacts for the Marechaussee Hunter set and use Bennett as a healer.",
         "rotation": "",
         "archetype": [
             "Hypercarry"
@@ -10320,8 +10320,8 @@ const teams = {
         }
     },
     "316": {
-        "name": "Navia Doble Hydro Furina",
-        "description": "You can change Navia's artifacts for Marechaussee Hunter and Bennett healer build",
+        "name": "Navia Double Hydro Furina",
+        "description": "You can change Navia's artifacts for the Marechaussee Hunter set and use Bennett as a healer.",
         "rotation": "",
         "archetype": [
             "Hypercarry"
@@ -10379,7 +10379,7 @@ const teams = {
     },
     "318": {
         "name": "Naviational Furina",
-        "description": "You can change Navia's artifacts for Marechaussee Hunter and Bennett healer build",
+        "description": "You can change Navia's artifacts for the Marechaussee Hunter set and use Bennett as a healer.",
         "rotation": "",
         "archetype": [
             "National"
@@ -10482,7 +10482,7 @@ const teams = {
     },
     "321": {
         "name": "Lyney Chevreuse",
-        "description": "You can use chevreuse before bennett so Lyney can have more time of bennett's ult (You should not do that with kazuha)",
+        "description": "You can use Chevreuse before Bennett so Lyney can benefit from Bennett's ultimate for a longer duration (you should not do that with Kazuha).",
         "rotation": "",
         "archetype": [
             "Overload"
@@ -10517,7 +10517,7 @@ const teams = {
     },
     "322": {
         "name": "Lyney Chevreuse",
-        "description": "You can use chevreuse before bennett so Lyney can have more time of bennett's ult (You should not do that with kazuha)",
+        "description": "You can use Chevreuse before Bennett so Lyney can benefit from Bennett's ultimate for a longer duration (you should not do that with Kazuha).",
         "rotation": "",
         "archetype": [
             "Overload"
@@ -10552,7 +10552,7 @@ const teams = {
     },
     "323": {
         "name": "Raiden Chevreuse",
-        "description": "Good in single-target scenarios where enemies don't explode with overload and vs infused enemies whose you can't swirl.",
+        "description": "Good in single-target scenarios where enemies don't explode with overload and against infused enemies that can't be swirled.",
         "rotation": "",
         "archetype": [
             "Overload"
@@ -10583,7 +10583,7 @@ const teams = {
     },
     "324": {
         "name": "Fischl Miko Overload",
-        "description": "Good in single-target scenarios where enemies don't explode with overload and vs infused enemies whose you can't swirl.",
+        "description": "Good in single-target scenarios where enemies don't explode with overload and against infused enemies that can't be swirled.",
         "rotation": "",
         "archetype": [
             "Overload"
@@ -10614,7 +10614,7 @@ const teams = {
     },
     "325": {
         "name": "Raiden Miko Overload",
-        "description": "Good in single-target scenarios where enemies don't explode with overload and vs infused enemies whose you can't swirl.",
+        "description": "Good in single-target scenarios where enemies don't explode with overload and against infused enemies that can't be swirled.",
         "rotation": "",
         "archetype": [
             "Overload"
@@ -10645,7 +10645,7 @@ const teams = {
     },
     "326": {
         "name": "Diluc Chevreuse",
-        "description": "Good in single-target scenarios where enemies don't explode with overload and vs infused enemies whose you can't swirl.",
+        "description": "Good in single-target scenarios where enemies don't explode with overload and against infused enemies that can't be swirled.",
         "rotation": "",
         "archetype": [
             "Overload"
@@ -10674,7 +10674,7 @@ const teams = {
     },
     "327": {
         "name": "Diluc Chevreuse",
-        "description": "Good in single-target scenarios where enemies don't explode with overload and vs infused enemies whose you can't swirl.",
+        "description": "Good in single-target scenarios where enemies don't explode with overload and against infused enemies that can't be swirled.",
         "rotation": "",
         "archetype": [
             "Overload"
@@ -10705,7 +10705,7 @@ const teams = {
     },
     "328": {
         "name": "Dehya Chevreuse",
-        "description": "Good in single-target scenarios where enemies don't explode with overload and vs infused enemies whose you can't swirl.",
+        "description": "Good in single-target scenarios where enemies don't explode with overload and against infused enemies that can't be swirled.",
         "rotation": "",
         "archetype": [
             "Overload"
@@ -10734,7 +10734,7 @@ const teams = {
     },
     "329": {
         "name": "Dehya Chevreuse",
-        "description": "Good in single-target scenarios where enemies don't explode with overload and vs infused enemies whose you can't swirl.",
+        "description": "Good in single-target scenarios where enemies don't explode with overload and against infused enemies that can't be swirled.",
         "rotation": "",
         "archetype": [
             "Overload"
@@ -10763,7 +10763,7 @@ const teams = {
     },
     "330": {
         "name": "Yanfei Chevreuse",
-        "description": "Good in single-target scenarios where enemies don't explode with overload and vs infused enemies whose you can't swirl.",
+        "description": "Good in single-target scenarios where enemies don't explode with overload and against infused enemies that can't be swirled.",
         "rotation": "",
         "archetype": [
             "Overload"
@@ -10792,7 +10792,7 @@ const teams = {
     },
     "331": {
         "name": "Yanfei Chevreuse",
-        "description": "Good in single-target scenarios where enemies don't explode with overload and vs infused enemies whose you can't swirl.",
+        "description": "Good in single-target scenarios where enemies don't explode with overload and against infused enemies that can't be swirled.",
         "rotation": "",
         "archetype": [
             "Overload"
@@ -10823,7 +10823,7 @@ const teams = {
     },
     "332": {
         "name": "Hu Tao Chevreuse",
-        "description": "Good in single-target scenarios where enemies don't explode with overload and vs infused enemies whose you can't swirl.",
+        "description": "Good in single-target scenarios where enemies don't explode with overload and against infused enemies that can't be swirled.",
         "rotation": "",
         "archetype": [
             "Overload"
@@ -10852,7 +10852,7 @@ const teams = {
     },
     "333": {
         "name": "Klee Chevreuse",
-        "description": "Good in single-target scenarios where enemies don't explode with overload and vs infused enemies whose you can't swirl.",
+        "description": "Good in single-target scenarios where enemies don't explode with overload and against infused enemies that can't be swirled.",
         "rotation": "",
         "archetype": [
             "Overload"
@@ -10881,7 +10881,7 @@ const teams = {
     },
     "334": {
         "name": "Klee Chevreuse",
-        "description": "Good in single-target scenarios where enemies don't explode with overload and vs infused enemies whose you can't swirl.",
+        "description": "Good in single-target scenarios where enemies don't explode with overload and against infused enemies that can't be swirled.",
         "rotation": "",
         "archetype": [
             "Overload"
@@ -10912,7 +10912,7 @@ const teams = {
     },
     "335": {
         "name": "Yoimiya Chevreuse",
-        "description": "Good in single-target scenarios where enemies don't explode with overload and vs infused enemies whose you can't swirl.",
+        "description": "Good in single-target scenarios where enemies don't explode with overload and against infused enemies that can't be swirled.",
         "rotation": "",
         "archetype": [
             "Overload"
@@ -10943,7 +10943,7 @@ const teams = {
     },
     "336": {
         "name": "Yoimiya Chevreuse",
-        "description": "Good in single-target scenarios where enemies don't explode with overload and vs infused enemies whose you can't swirl.",
+        "description": "Good in single-target scenarios where enemies don't explode with overload and against infused enemies that can't be swirled.",
         "rotation": "",
         "archetype": [
             "Overload"
@@ -10972,7 +10972,7 @@ const teams = {
     },
     "337": {
         "name": "Rational Overload",
-        "description": "Good in single-target scenarios where enemies don't explode with overload and vs infused enemies whose you can't swirl.",
+        "description": "Good in single-target scenarios where enemies don't explode with overload and against infused enemies that can't be swirled.",
         "rotation": "",
         "archetype": [
             "National"
@@ -11001,7 +11001,7 @@ const teams = {
     },
     "338": {
         "name": "Raiden Chevreuse",
-        "description": "Good in single-target scenarios where enemies don't explode with overload and vs infused enemies whose you can't swirl.",
+        "description": "Good in single-target scenarios where enemies don't explode with overload and against infused enemies that can't be swirled.",
         "rotation": "",
         "archetype": [
             "Hypercarry"
@@ -11278,7 +11278,7 @@ const teams = {
     },
     "347": {
         "name": "Alhaitham Plunge QuicklBloom",
-        "description": "Alhaitham doesn't have an especial sinergy with Xianyun, but it's an alternative to his other teams.",
+        "description": "Alhaitham doesn't have a special synergy with Xianyun, but it's an alternative to his other teams.",
         "rotation": "",
         "archetype": [
             "Quickbloom"
@@ -11307,7 +11307,7 @@ const teams = {
     },
     "348": {
         "name": "Alhaitham Plunge Spread",
-        "description": "Alhaitham doesn't have an especial sinergy with Xianyun, but it's an alternative to his other teams.",
+        "description": "Alhaitham doesn't have a special synergy with Xianyun, but it's an alternative to his other teams.",
         "rotation": "",
         "archetype": [
             "Spread"
@@ -11338,7 +11338,7 @@ const teams = {
     },
     "349": {
         "name": "Ayato Vape Xianyun",
-        "description": "Let's Ayato has the Bennett's pyro infusion, don't do E to have the hydro infusion when PA. ",
+        "description": "Let's say Ayato has Bennett's Pyro infusion, don't use E to have the Hydro infusion when performing a plunge attack.",
         "rotation": "Ayato E+1NA+Q > Furina E+Q > Xianyun E+Q > Bennett E+Q > Ayato 1NA CA PA (repeat 1NCJP)",
         "archetype": [
             "Vaporize"
@@ -11367,7 +11367,7 @@ const teams = {
     },
     "350": {
         "name": "Neuvillette Forward Vape Xianyun",
-        "description": "Build Neuvillette with full ATK/EM/CRIT build (instead HP) to do PAs.",
+        "description": "Build Neuvillette with a full ATK/EM/CRIT build (instead of HP) to perform plunge attacks.",
         "rotation": "",
         "archetype": [
             "Vaporize"
@@ -11460,7 +11460,7 @@ const teams = {
     },
     "353": {
         "name": "Diluc Forward Melt",
-        "description": "A team where Diluc procs the melt reaction. Don't do Diluc's Burst if you have Bennett C6.",
+        "description": "A team where Diluc procs the melt reaction. Don't use Diluc's Burst if you have Bennett C6.",
         "rotation": "Rosaria E > Xianyun Q > Bennet E/Q > Xianyun E > Rosaria E/Q > Diluc Q + PA",
         "archetype": [
             "Melt"
@@ -11650,8 +11650,8 @@ const teams = {
     },
     "359": {
         "name": "Diluc Xianyun",
-        "description": "If you have Bennett C6, don't use dilucs Q, just PA. You can cancel the PA end hitlag with a dash, so you can jump another time faster.",
-        "rotation": "Furina E+Q > Xianyun Q > Bennett Q+E (wait until pyro disappear) 1NA > Xianyun NA1 E > Diluc PA",
+        "description": "If you have Bennett C6, don't use Diluc's Elemental Burst, just perform plunge attacks. You can cancel the plunge attack end hitlag with a dash, allowing you to jump again faster.",
+        "rotation": "Furina E+Q > Xianyun Q > Bennett Q+E (wait until Pyro disappear) 1NA > Xianyun NA1 E > Diluc PA",
         "archetype": [
             "Vaporize"
         ],
@@ -11679,7 +11679,7 @@ const teams = {
     },
     "360": {
         "name": "Diluc Xianyun",
-        "description": "If you have bennett c6, look rotation at #377, which is a bit stronger. With Bennett C4, you can also do Hold E 2 Charge to have more time. You can cancel the PA end hitlag with a dash, so you can jump another time faster.",
+        "description": "If you have Bennett C6, refer to rotation #377, which is a bit stronger. With Bennett C4, you can also perform Hold Elemental Skill followed by two charged attacks to have more time. You can cancel the plunge attack end hitlag with a dash, allowing you to jump again faster.",
         "rotation": "Furina E+Q > Xianyun Q > Bennett Q + Hold E 1 charge > Xianyun NA1 E > Diluc Q + PA",
         "archetype": [
             "Vaporize"
@@ -11708,7 +11708,7 @@ const teams = {
     },
     "361": {
         "name": "Xiao Triple Anemo Hypercarry",
-        "description": "This teams performs significantly better with Faruzan C6.",
+        "description": "This team performs significantly better with Faruzan C6.",
         "rotation": "",
         "archetype": [
             "Hypercarry"
@@ -11798,8 +11798,8 @@ const teams = {
         }
     },
     "364": {
-        "name": "Hu Tao Xianyun Doble Hydro",
-        "description": "With yelan instead Xingqiu, you don't have defense utility and you won't vape all plunges due to slower hydro app.",
+        "name": "Hu Tao Xianyun Double Hydro",
+        "description": "With Yelan instead of Xingqiu, you don't have defensive utility and you won't vaporize all plunges due to slower Hydro application.",
         "rotation": "Do Hu Tao NA2CJ PA combo (2 Normal attacks into 1 Charge attack, jumping to cancel de CA and doing a Plunge which can cancel too into another NA)",
         "archetype": [
             "Vaporize"
@@ -11827,8 +11827,8 @@ const teams = {
         }
     },
     "365": {
-        "name": "Hu Tao Xianyun Doble Hydro",
-        "description": "Best Hu Tao Doble Hydro team.",
+        "name": "Hu Tao Xianyun Double Hydro",
+        "description": "Best Hu Tao double Hydro team.",
         "rotation": "Do Hu Tao NA2CJ PA combo (2 Normal attacks into 1 Charge attack, jumping to cancel de CA and doing a Plunge which can cancel too into another NA)",
         "archetype": [
             "Vaporize"
@@ -11857,8 +11857,8 @@ const teams = {
     },
     "366": {
         "name": "Xianyun goes brrrrrr",
-        "description": "With Bennett C6, Xianyun and Furina, you can add almost any other character of the game to do plunge attacks and vaporize. Just build it with EM/Pyro/Crit%, and any character in the game could be a viable option to clear abbys. Just be careful to not overwrite bennett's pyro infusion. You only have to do PA with the 4º character, but can do E/Q if you think it could be useful.",
-        "rotation": "Furina E+Q > Xianyun Q > Bennett Q+E (wait until pyro disappear) 1NA > Xianyun NA1 E > Flex Character PA",
+        "description": "With Bennett C6, Xianyun, and Furina, you can add almost any other character in the game to perform plunge attacks and vaporize. Just build them with EM/Pyro/Crit%, and any character could be a viable option to clear Abyss. Just be careful not to overwrite Bennett's Pyro infusion. You only have to perform plunge attacks with the fourth character, but you can use E/Q if you think it could be useful.",
+        "rotation": "Furina E+Q > Xianyun Q > Bennett Q+E (wait until Pyro disappear) 1NA > Xianyun NA1 E > Flex Character PA",
         "archetype": [
             "Vaporize"
         ],
@@ -11980,7 +11980,7 @@ const teams = {
     },
     "367": {
         "name": "Navia Furina Carry",
-        "description": "You can change Navia's artifacts for Marechaussee Hunter",
+        "description": "You can change Navia's artifacts for the Marechaussee Hunter set.",
         "rotation": "",
         "archetype": [
             "Hypercarry"
@@ -12153,7 +12153,7 @@ const teams = {
     },
     "372": {
         "name": "Ganyu Furina Freeze",
-        "description": "No grouping. Useful in single-target enemies that can freeze. Use Xianyun as a Jean, so you don't have to plunge.",
+        "description": "No grouping. Useful against single-target enemies that can freeze. Use Xianyun as a substitute for Jean, so you don't have to perform plunges.",
         "rotation": "",
         "archetype": [
             "Freeze"
@@ -12218,8 +12218,8 @@ const teams = {
         }
     },
     "374": {
-        "name": "Raiden Doble Hydro",
-        "description": "If you use Xianyun instead of Jean, you don't have to plunge",
+        "name": "Raiden Double Hydro",
+        "description": "If you use Xianyun instead of Jean, you don't have to perform plunges.",
         "rotation": "",
         "archetype": [
             "Taser"
@@ -12251,8 +12251,8 @@ const teams = {
         }
     },
     "375": {
-        "name": "Furina Doble Hydro Taser",
-        "description": "If you use Xianyun instead of Jean, you don't have to plunge",
+        "name": "Furina Double Hydro Taser",
+        "description": "If you use Xianyun instead of Jean, you don't have to perform plunges.",
         "rotation": "",
         "archetype": [
             "Taser"
@@ -12284,8 +12284,8 @@ const teams = {
         }
     },
     "376": {
-        "name": "Furina Doble Hydro Taser",
-        "description": "If you use Xianyun instead of Jean, you don't have to plunge",
+        "name": "Furina Double Hydro Taser",
+        "description": "If you use Xianyun instead of Jean, you don't have to perform plunges.",
         "rotation": "",
         "archetype": [
             "Taser"
@@ -12384,7 +12384,7 @@ const teams = {
     },
     "379": {
         "name": "Tartaglia Furina MonoHydro",
-        "description": "If you use Xianyun instead of Jean, you don't have to plunge",
+        "description": "If you use Xianyun instead of Jean, you don't have to perform plunges.",
         "rotation": "Furina Q > Healer Q/healing",
         "archetype": [
             "MonoHydro"
@@ -12417,7 +12417,7 @@ const teams = {
     },
     "380": {
         "name": "Tartaglia Furina MonoHydro",
-        "description": "If you use Xianyun instead of Jean, you don't have to plunge",
+        "description": "If you use Xianyun instead of Jean, you don't have to perform plunges.",
         "rotation": "Furina Q > Healer Q/healing",
         "archetype": [
             "MonoHydro"
@@ -12516,7 +12516,7 @@ const teams = {
     },
     "383": {
         "name": "Wanderer Furina Hypercarry",
-        "description": "You can use standard Wanderer build or Marechaussee Hunter artifacts set thanks to Furina (that might be better). If you don't have Faruzan c6, Jean or Xianyun can helps with ER requirements.",
+        "description": "You can use the standard Wanderer's build or the Marechaussee Hunter artifact set thanks to Furina (which might be better). If you don't have Faruzan C6, Jean or Xianyun can help with Energy Recharge requirements.",
         "rotation": "Furina Q > Healer Q/Healing",
         "archetype": [
             "Hypercarry"
@@ -12547,7 +12547,7 @@ const teams = {
     },
     "384": {
         "name": "Raiden Furina Taser",
-        "description": "With Xianyun: Raiden N1CJP (1 Normal Attack + 1 Charge Attack + Jump + Pungle Attack)",
+        "description": "With Xianyun: Raiden's Normal Attack + 1 Charged Attack + Jump + Plunge Attack.",
         "rotation": "",
         "archetype": [
             "Taser"
@@ -12679,7 +12679,7 @@ const teams = {
     },
     "388": {
         "name": "Jean Furina MonoHydro",
-        "description": "You can On-Field Yelan so she has her own buff and do pretty high damage",
+        "description": "You can have Yelan on-field so she benefits from her own buff and deals significant damage.",
         "rotation": "Furina Q > Healer Q/healing",
         "archetype": [
             "MonoHydro"
@@ -12709,8 +12709,8 @@ const teams = {
         }
     },
     "389": {
-        "name": "Klee Furina Doble Hydro Vape",
-        "description": "Klee Doble Hydro plus a flex healer. The dendro ones could generate some seeds but its okay. ",
+        "name": "Klee Furina Double Hydro Vape",
+        "description": "Klee double Hydro plus a flexible healer. The Dendro characters could generate some seeds, but it's okay.",
         "rotation": "Remember: Furina Q > Healer Q/healing",
         "archetype": [
             "Vaporize"
@@ -12750,8 +12750,8 @@ const teams = {
         }
     },
     "390": {
-        "name": "Klee Furina Doble Hydro Vape",
-        "description": "Klee Doble Hydro plus a flex healer. The dendro ones could generate some seeds but its okay. ",
+        "name": "Klee Furina Double Hydro Vape",
+        "description": "Klee double Hydro plus a flexible healer. The Dendro characters could generate some seeds, but it's okay.",
         "rotation": "Remember: Furina Q > Healer Q/healing",
         "archetype": [
             "Vaporize"
@@ -12791,8 +12791,8 @@ const teams = {
         }
     },
     "391": {
-        "name": "Yanfei Furina Doble Hydro Vape",
-        "description": "Yanfei Doble Hydro plus a flex healer. The dendro ones could generate some seeds but its okay. ",
+        "name": "Yanfei Furina Double Hydro Vape",
+        "description": "Yanfei double Hydro plus a flexible healer. The Dendro characters could generate some seeds, but it's okay.",
         "rotation": "Remember: Furina Q > Healer Q/healing",
         "archetype": [
             "Vaporize"
@@ -12832,8 +12832,8 @@ const teams = {
         }
     },
     "392": {
-        "name": "Yanfei Furina Doble Hydro Vape",
-        "description": "Yanfei Doble Hydro plus a flex healer. The dendro ones could generate some seeds but its okay. ",
+        "name": "Yanfei Furina Double Hydro Vape",
+        "description": "Yanfei double Hydro plus a flexible healer. The Dendro characters could generate some seeds, but it's okay.",
         "rotation": "Remember: Furina Q > Healer Q/healing",
         "archetype": [
             "Vaporize"
@@ -12873,8 +12873,8 @@ const teams = {
         }
     },
     "393": {
-        "name": "Diluc Furina Doble Hydro Vape",
-        "description": "Diluc Doble Hydro plus a flex healer. The dendro ones could generate some seeds but its okay. ",
+        "name": "Diluc Furina Double Hydro Vape",
+        "description": "Diluc double Hydro plus a flexible healer. The Dendro characters could generate some seeds, but it's okay.",
         "rotation": "Remember: Furina Q > Healer Q/healing ",
         "archetype": [
             "Vaporize"
@@ -12914,8 +12914,8 @@ const teams = {
         }
     },
     "394": {
-        "name": "Diluc Furina Doble Hydro Vape",
-        "description": "Diluc Doble Hydro plus a flex healer. The dendro ones could generate some seeds but its okay. ",
+        "name": "Diluc Furina Double Hydro Vape",
+        "description": "Diluc double Hydro plus a flexible healer. The Dendro characters could generate some seeds, but it's okay.",
         "rotation": "Remember: Furina Q > Healer Q/healing",
         "archetype": [
             "Vaporize"
@@ -12955,8 +12955,8 @@ const teams = {
         }
     },
     "395": {
-        "name": "Yoimiya Furina Doble Hydro Vape",
-        "description": "Yoimiya Doble Hydro plus a flex healer. The dendro ones could generate some seeds but its okay. ",
+        "name": "Yoimiya Furina Double Hydro Vape",
+        "description": "Yoimiya double Hydro plus a flexible healer. The Dendro characters could generate some seeds, but it's okay.",
         "rotation": "Remember: Furina Q > Healer Q/healing",
         "archetype": [
             "Vaporize"
@@ -12996,8 +12996,8 @@ const teams = {
         }
     },
     "396": {
-        "name": "Yoimiya Furina Doble Hydro Vape",
-        "description": "Yoimiya Doble Hydro plus a flex healer. The dendro ones could generate some seeds but its okay. ",
+        "name": "Yoimiya Furina Double Hydro Vape",
+        "description": "Yoimiya double Hydro plus a flexible healer. The Dendro characters could generate some seeds, but it's okay.",
         "rotation": "Remember: Furina Q > Healer Q/healing",
         "archetype": [
             "Vaporize"
@@ -13155,7 +13155,7 @@ const teams = {
     },
     "400": {
         "name": "Cyno Furina Quickbloom",
-        "description": "Cyno Furina hyperbloom but with a Flex Healer slot. ",
+        "description": "Cyno Furina hyperbloom but with a flexible healer slot.",
         "rotation": "Furina Q > Healer Q/healing",
         "archetype": [
             "Quickbloom"
@@ -13194,7 +13194,7 @@ const teams = {
     },
     "401": {
         "name": "Cyno Furina Quickbloom",
-        "description": "Cyno Furina hyperbloom but with a Flex Healer slot. ",
+        "description": "Cyno Furina hyperbloom but with a flexible healer slot.",
         "rotation": "Furina Q > Healer Q/healing",
         "archetype": [
             "Quickbloom"
@@ -13233,7 +13233,7 @@ const teams = {
     },
     "402": {
         "name": "Wriothesley Freeze",
-        "description": "Okay",
+        "description": "Okay.",
         "rotation": "",
         "archetype": [
             "Freeze"
@@ -13297,7 +13297,7 @@ const teams = {
     },
     "404": {
         "name": "Gaming Melt",
-        "description": "Since you don't have Kazuha or Xianyun to do VV, you can use supports before bennett have better uptime in Bennett's burst. ",
+        "description": "Since you don't have Kazuha or Xianyun to apply Viridescent Venerer, you can use supports before Bennett to have better uptime in Bennett's Burst.",
         "rotation": "Diona E/Q > Rosaria E/Q  > Bennet E/Q > Gaming Q+E.",
         "archetype": [
             "Melt"
@@ -13526,7 +13526,7 @@ const teams = {
     },
     "411": {
         "name": "Gaming Oven",
-        "description": "You can trigger Melt and Burgeon. If you use Diona, her C6 it's very useful.",
+        "description": "You can trigger Melt and Burgeon. If you use Diona, her C6 is very useful.",
         "rotation": "",
         "archetype": [
             "Oven"
@@ -13652,7 +13652,7 @@ const teams = {
     },
     "415": {
         "name": "Gaming Overvape",
-        "description": "Fischl helps clearing Pyro auras and trigger electrocharged so Gaming can still vaporizing with bennett c6. ",
+        "description": "Fischl helps clear Pyro auras and trigger Electro-Charged so Gaming can still vaporize with Bennett C6.",
         "rotation": "Furina E/Q > Bennett E/Q > Fischl E or Q > Gaming Q/E",
         "archetype": [
             "Overvape"
@@ -13681,7 +13681,7 @@ const teams = {
     },
     "416": {
         "name": "Gaming Chevreuse",
-        "description": "Good in single-target scenarios where enemies don't explode with overload and vs infused enemies whose you can't swirl.",
+        "description": "Good in single-target scenarios where enemies don't explode with overload and against infused enemies that you can't swirl.",
         "rotation": "",
         "archetype": [
             "Overload"
@@ -13803,7 +13803,7 @@ const teams = {
     },
     "420": {
         "name": "Gaming Vape",
-        "description": "With Jean you can do double swirl thanks to bennett and Jean's infusion.",
+        "description": "With Jean, you can perform double swirls thanks to Bennett and Jean's infusion.",
         "rotation": "Furina E/Q + Bennett E/Q + Jean E/Q",
         "archetype": [
             "Vaporize"
@@ -13832,8 +13832,8 @@ const teams = {
     },
     "421": {
         "name": "Gaming Vape",
-        "description": "You can do a plunge attack with Gaming while the pet return.",
-        "rotation": "Furina E+Q > Xianyun Q > Bennett Q+E (wait until pyro disappear) 1NA > Xianyun NA1 E > Gaming Q E PA",
+        "description": "You can perform a plunge attack with Gaming while the pet returns.",
+        "rotation": "Furina E+Q > Xianyun Q > Bennett Q+E (wait until Pyro disappear) 1NA > Xianyun NA1 E > Gaming Q E PA",
         "archetype": [
             "Vaporize"
         ],
@@ -13861,7 +13861,7 @@ const teams = {
     },
     "422": {
         "name": "Gaming Vape",
-        "description": "If you have C6 bennett, look at #356, which is way better. With Bennett C4, you can also do Hold E 2 Charge to have more time.",
+        "description": "If you have C6 Bennett, refer to #356, which is way better. With Bennett C4, you can also perform Hold Elemental Skill followed by two charged attacks to have more time.",
         "rotation": "Furina E+Q > Xianyun Q > Bennett Q + Hold E 1 charge > Xianyun NA1 E > Gaming Q + E",
         "archetype": [
             "Vaporize"
@@ -13890,8 +13890,8 @@ const teams = {
     },
     "423": {
         "name": "Gaming Vape",
-        "description": "If you have Bennett c6, you can do a rotation that can do pyro swirl easily. You also can do NAs with Gaming while the pet return.",
-        "rotation": "Furina E/Q + Bennett Q/E (wait until pyro disappear) 1NA + Kazuha E",
+        "description": "If you have Bennett C6, you can use a rotation that can perform Pyro swirls easily. You can also perform Normal Attacks with Gaming while the pet returns.",
+        "rotation": "Furina E/Q + Bennett Q/E (wait until Pyro disappear) 1NA + Kazuha E",
         "archetype": [
             "Vaporize"
         ],
@@ -13919,7 +13919,7 @@ const teams = {
     },
     "424": {
         "name": "Gaming Vape",
-        "description": "If you have C6 bennett, look at #354. With Bennett C4, you can also do Hold E 2 Charge to have more time.",
+        "description": "If you have C6 Bennett, refer to #354. With Bennett C4, you can also perform Hold Elemental Skill followed by two charged attacks to have more time.",
         "rotation": "Furina E+Q > Bennett Q + Hold E 1 charge > Kazuha E > Gaming Q+E",
         "archetype": [
             "Vaporize"
@@ -14006,12 +14006,14 @@ const teams = {
             ]
         }
     },
-
     "427": {
         "name": "Itto Chiori",
         "description": "",
         "rotation": "",
-        "archetype": ["MonoGeo", "Hypercarry"],
+        "archetype": [
+            "MonoGeo",
+            "Hypercarry"
+        ],
         "viability": "Meta",
         "character_1": {
             "name": "Arataki Itto",
@@ -14040,12 +14042,14 @@ const teams = {
             ]
         }
     },
-
     "428": {
         "name": "Itto Chiori",
-        "description": "You don't have shields or other elements to apply cristalization, so if the enemy are not infused you won't have geo resonance and defensive utility.",
+        "description": "You don't have shields or other elements to apply crystallization, so if the enemies are not infused, you won't have Geo Resonance and defensive utility.",
         "rotation": "",
-        "archetype": ["MonoGeo", "Hypercarry"],
+        "archetype": [
+            "MonoGeo",
+            "Hypercarry"
+        ],
         "viability": "Viable",
         "character_1": {
             "name": "Arataki Itto",
@@ -14061,14 +14065,13 @@ const teams = {
         },
         "character_4": {
             "name": [
-                "Albedo",
+                "Albedo"
             ],
             "build": [
-                "Standard",
+                "Standard"
             ]
         }
     },
-
     "429": {
         "name": "Noelle Chiori",
         "description": "",
@@ -14104,9 +14107,8 @@ const teams = {
             ]
         }
     },
-
     "430": {
-        "name": "Yoimiya Doble Geo",
+        "name": "Yoimiya Double Geo",
         "description": "",
         "rotation": "",
         "archetype": [
@@ -14126,16 +14128,17 @@ const teams = {
             "build": "Standard"
         },
         "character_4": {
-            "name": ["Bennett"],
+            "name": [
+                "Bennett"
+            ],
             "build": [
-                "Standard",
+                "Standard"
             ]
         }
     },
-
     "431": {
         "name": "Klee Furina Forward Vape",
-        "description": "One of the Best Klee teams. Furina will be the one vaping. With Kazuha in AoE, you need to do the same rotation but at the start do Klee 1NA + Kazuha Burst",
+        "description": "One of the Best Klee teams. Furina will be the one vaporizing. With Kazuha in AoE, you need to do the same rotation but at the start do Klee 1 Normal Attack + Kazuha's Burst.",
         "rotation": "Furina QE > Bennett Q > Xiangling/Kazuha QE > Klee rotation",
         "archetype": [
             "Vaporize"
@@ -14156,18 +14159,17 @@ const teams = {
         "character_4": {
             "name": [
                 "Xiangling",
-                "Kaedehara Kazuha",
+                "Kaedehara Kazuha"
             ],
             "build": [
                 "Standard",
-                "Standard",
+                "Standard"
             ]
         }
     },
-    
     "432": {
         "name": "Arlecchino Chevreuse",
-        "description": "Beidou is a good choice with Arlecchino, due to her defensive utility.",
+        "description": "Beidou is a good choice with Arlecchino due to her defensive utility.",
         "rotation": "Arlecchino E > Fischl > Chevreuse > Beidou > Arlecchino Combo (in progress)",
         "archetype": [
             "Overload"
@@ -14187,10 +14189,39 @@ const teams = {
         },
         "character_4": {
             "name": [
-                "Beidou",
+                "Beidou"
             ],
             "build": [
-                "Standard",
+                "Standard"
+            ]
+        }
+    },
+    "433": {
+        "name": "Arlecchino Chevreuse",
+        "description": "Good in output damage, but you don't have any type of defensive utility.",
+        "rotation": "Arlecchino E > Fischl > Chevreuse > Bennett > Arlecchino Combo (in progress)",
+        "archetype": [
+            "Overload"
+        ],
+        "viability": "Viable",
+        "character_1": {
+            "name": "Arlecchino",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Chevreuse",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Fischl",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": [
+                "Bennett",
+            ],
+            "build": [
+                "Standard"
             ]
         }
     },

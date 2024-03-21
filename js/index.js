@@ -21,6 +21,42 @@ const MEDIUM_NAME_LENGTH = 16;
 const ENTER_KEY_CODE = 'Enter';
 const TEAMS_PER_PAGE = 10;
 
+
+function teamsNamesToText() {
+    let text = ``;
+
+    for (let team in teams) {
+        if (teams[team].name != "") {
+            text += team + `: ` + teams[team].name + `
+`;
+        }
+    }
+
+    console.log(text);
+}
+
+function teamsDescriptionToText() {
+    let text = ``;
+
+    for (let team in teams) {
+        if (teams[team].description != "") {
+            text += team + `: ` + teams[team].description + `
+`;
+        }
+    }
+
+    console.log(text);
+}
+
+
+function replaceTeamsDescriptionsWithNew() {
+    for (let desc in teamsdesc) {
+        teams[desc].description = teamsdesc[desc];
+    }
+
+    console.log(teams);
+}
+
 function toFixedIfNecessary(value, dp) {
     return +parseFloat(value).toFixed(dp);
 }
