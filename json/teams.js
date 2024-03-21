@@ -1234,6 +1234,7 @@ const teams = {
     "42": {
         "name": "Kokomi MonoHydro",
         "description": "",
+        "rotation": "",
         "archetype": [
             "MonoHydro"
         ],
@@ -1262,6 +1263,7 @@ const teams = {
     "43": {
         "name": "Tartaglia MonoHydro",
         "description": "",
+        "rotation": "",
         "archetype": [
             "MonoHydro"
         ],
@@ -1292,6 +1294,7 @@ const teams = {
     "44": {
         "name": "Tartaglia MonoHydro",
         "description": "",
+        "rotation": "",
         "archetype": [
             "MonoHydro"
         ],
