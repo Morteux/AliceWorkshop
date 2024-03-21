@@ -14259,7 +14259,7 @@ const teams = {
 
     "435": {
         "name": "Arlecchino Furina",
-        "description": "With Yelan you will have a little more of damage, but Xingqiu RES Interruption and DMG Reduction may be necessary and most useful. ",
+        "description": "With Yelan you will have a little more of damage, but Xingqiu RES Interruption and DMG Reduction may be necessary and more useful. ",
         "rotation": "Arlecchino E > Characters > Arlecchino Combo (in progress)",
         "archetype": [
             "Vaporize"
