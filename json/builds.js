@@ -841,16 +841,16 @@ const builds = {
         "Standard": {
             description: "",
             constellation: "",
-            talent_priority: [1, 2, 3],
-            weapon: [],
-            set: [],
-            er_requirement: "",
+            talent_priority: [2, 1, 3],
+            weapon: ["Serpent Spine", "Rainslasher", "Mailed Flower", "Favonius Greatsword"],
+            set: ["Marechaussee Hunter"],
+            er_requirement: "130%-190%",
             main_stat: {
-                sands: "",
-                goblet: "",
-                circlet: "",
+                sands: "EM/ATK",
+                goblet: "Pyro",
+                circlet: "CRIT",
             },
-            subs_stat: []
+            subs_stat: ["ER", "CRIT", "ATK", "EM"]
         },
 
         "EM": {
