@@ -13864,7 +13864,7 @@ const teams = {
     },
     "422": {
         "name": "Gaming Vape",
-        "description": "If you have C6 Bennett, refer to #356, which is way better. With Bennett C4, you can also perform Hold Elemental Skill followed by two charged attacks to have more time.",
+        "description": "If you have C6 Bennett, refer to #421, which is way better. With Bennett C4, you can also perform Hold Elemental Skill followed by two charged attacks to have more time.",
         "rotation": "Furina E+Q > Xianyun Q > Bennett Q + Hold E 1 charge > Xianyun NA1 E > Gaming Q + E",
         "archetype": [
             "Vaporize"
