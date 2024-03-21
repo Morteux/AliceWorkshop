@@ -843,7 +843,10 @@ const builds = {
             constellation: "",
             talent_priority: [2, 1, 3],
             weapon: ["Serpent Spine", "Rainslasher", "Mailed Flower", "Favonius Greatsword"],
-            set: ["Marechaussee Hunter"],
+            set:   {
+                    artifacts: ["Marechaussee Hunter"],
+                    pc: "4pc"
+                }, 
             er_requirement: "130%-190%",
             main_stat: {
                 sands: "EM/ATK",
