@@ -14197,7 +14197,7 @@ const teams = {
 
     "433": {
         "name": "Arlecchino Chevreuse",
-        "description": "Good in output damage, but you don't have any type or defensive utility.",
+        "description": "Good in output damage, but you don't have any type of defensive utility.",
         "rotation": "Arlecchino E > Fischl > Chevreuse > Bennett > Arlecchino Combo (in progress)",
         "archetype": [
             "Overload"
