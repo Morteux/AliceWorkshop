@@ -83,6 +83,84 @@
         </div>
     </div>
 
+    <!-- Welcome panel -->
+    <div id="welcome_background" class="welcome_background">
+        <div class="welcome_container">
+            <div class="welcome_row">
+                <img class="warning_img" src="images/icons/paimon_glasses.png" alt="Paimon with glasses">
+
+                <div class="welcome_title">
+                    AliceWorkshop
+                </div>
+            </div>
+
+            <div class="welcome_p">
+                <b>- For experienced players:</b> Search and save your favourite <span class="light_link"
+                    onclick="setTabActive('tab_teams_search')">teams</span>, so you can quickly look them up. Check
+                random teams for any content type, or just select a random team of your favourite list if you don't know
+                what to play. Filter by specific <span class="light_link"
+                    onclick="setTabActive('tab_archetype_search')">archetypes</span> and characters in team. You can
+                look about more detailed info about <span class="light_link"
+                    onclick="setTabActive('tab_characters')">characters</span>, like their multipliers, stats, ascension
+                material and more... Also, you have access to <span class="light_link"
+                    onclick="setTabActive('tab_user')">pre-release characters</span>.
+            </div>
+
+            <div class="welcome_p">
+                <b>- For new/casuals players:</b> Discover new <span class="light_link"
+                    onclick="setTabActive('tab_teams_search')">teams</span> with your favourite characters, including
+                full <span class="light_link" onclick="setTabActive('tab_characters')">builds</span> general guides. You
+                will be able to save them and have a briefly description and rotation to try them. You can search teams
+                with your current built/owned <span class="light_link"
+                    onclick="setTabActive('tab_characters')">characters</span>, being possible to filter with one or
+                more characters. Learn about <span class="light_link"
+                    onclick="setTabActive('tab_archetype_search')">archetypes</span>, and how to create teams with
+                examples and random teams. You will have also a mini-guide for building characters.
+            </div>
+
+            <div id="disclaimer_tab_teams_search" class="disclaimer_panel">
+
+                <img class="warning_img" src="images/icons/paimon_emoji_03.png" alt="Paimon with glasses">
+
+                <div class="">
+                    <div class="ranking_title">
+                        Teams disclaimer
+                    </div>
+
+                    <div class="disclaimer_text">
+                        All teams are selected and/or reviewed by our team creator members (yes, they are humans).
+                        Therefore, all info displayed by AW (AliceWorkshop) is, to a greater or lesser extent,
+                        subjective to the info we have gathered so far and can exists inaccuracies. You can suggest
+                        changes and additions in our <a href="https://discord.gg/JRNkss7azk">official Discord
+                            channel</a>!
+                    </div>
+                </div>
+            </div>
+
+            <div id="disclaimer_tab_teams_search" class="disclaimer_panel">
+
+                <img class="warning_img" src="images/icons/paimon_calc.gif" alt="Paimon with glasses">
+
+                <div class="">
+                    <div class="ranking_title">
+                        Viabilities disclaimer
+                    </div>
+
+                    <div class="disclaimer_text">
+                        Tags are a general guideline not Archon's law, specifically in teams viabilities (meta, viable,
+                        offmeta and unique). A team with meta tag implies that it is the best, or one of the best, teams
+                        for a character in that team.
+                    </div>
+                </div>
+            </div>
+
+            <div class="welcome_row">
+                <button class="primary_button"
+                    onclick="closeWindow('welcome_background'); acceptWelcome();">Accept</button>
+            </div>
+        </div>
+    </div>
+
     <button onclick="scrollToTop()" id="scroll_top_button" class="scroll_top_button"></button>
 
     <div id="discord_widget" class="discord_widget">
@@ -122,7 +200,7 @@
         <div id="tab_teams_search" class="tab_teams_search">
             <!-- <iframe class="discord_widget" src="https://discord.com/widget?id=1218903092066517074&theme=dark" width="250" height="300" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe> -->
 
-            <div id="disclaimer_tab_teams_search" class="disclaimer_panel">
+            <!-- <div id="disclaimer_tab_teams_search" class="disclaimer_panel">
                 <img class="close_icon close_right" src="images/icons/close_icon.png" alt="Close icon"
                     onclick="closeWindow('disclaimer_tab_teams_search')">
 
@@ -145,7 +223,7 @@
                         <span class="ranking_title">Viabilities disclaimer:</span> tags are a general guideline not Archon's law. A team with meta tag implies that it is the best, or one of the best, teams for a character in that team.
                     </div>
                 </div>
-            </div>
+            </div> -->
 
             <div class="search_form_container">
 
@@ -353,6 +431,85 @@
                         If you want to share your thoughts or help us with new teams not added yet, you can join our <a
                             href="https://discord.gg/JRNkss7azk" class="light_link">official Discord channel</a> and
                         suggest changes or additions!
+                    </div>
+                </fieldset>
+
+                <fieldset class="menu_info">
+                    <legend>Who are AliceWorkshop aiming for?</legend>
+                    <div class="welcome_p">
+                        <b>- For experienced players:</b> Search and save your favourite <span class="light_link"
+                            onclick="setTabActive('tab_teams_search')">teams</span>, so you can quickly look them up.
+                        Check
+                        random teams for any content type, or just select a random team of your favourite list if you
+                        don't know
+                        what to play. Filter by specific <span class="light_link"
+                            onclick="setTabActive('tab_archetype_search')">archetypes</span> and characters in team. You
+                        can
+                        look about more detailed info about <span class="light_link"
+                            onclick="setTabActive('tab_characters')">characters</span>, like their multipliers, stats,
+                        ascension
+                        material and more... Also, you have access to some <span class="light_link"
+                            onclick="setTabActive('tab_user')">pre-release characters</span>.
+                    </div>
+
+                    <div class="welcome_p">
+                        <b>- For new/casuals players:</b> Discover new <span class="light_link"
+                            onclick="setTabActive('tab_teams_search')">teams</span> with your favourite characters,
+                        including
+                        full <span class="light_link" onclick="setTabActive('tab_characters')">builds</span> general
+                        guide. You
+                        will be able to save them and have a briefly description and rotation to try them. You can
+                        search teams
+                        with your current built/owned <span class="light_link"
+                            onclick="setTabActive('tab_characters')">characters</span>, being possible to filter with
+                        one or
+                        more characters. Learn about <span class="light_link"
+                            onclick="setTabActive('tab_archetype_search')">archetypes</span>, and how to create teams
+                        with
+                        examples and random teams. You will have also a mini-guide for building characters.
+                    </div>
+                </fieldset>
+
+                <fieldset class="menu_disclaimer">
+                    <legend>Disclaimers</legend>
+                    <div id="disclaimer_tab_teams_search" class="disclaimer_panel">
+
+                        <img class="warning_img" src="images/icons/paimon_emoji_03.png" alt="Paimon with glasses">
+
+                        <div class="">
+                            <div class="ranking_title">
+                                Teams disclaimer
+                            </div>
+
+                            <div class="disclaimer_text">
+                                All teams are selected and/or reviewed by our team creator members (yes, they are
+                                humans).
+                                Therefore, all info displayed by AW (AliceWorkshop) is, to a greater or lesser extent,
+                                subjective to the info we have gathered so far and can exists inaccuracies. You can
+                                suggest
+                                changes and additions in our <a href="https://discord.gg/JRNkss7azk">official Discord
+                                    channel</a>!
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="disclaimer_tab_teams_search" class="disclaimer_panel">
+
+                        <img class="warning_img" src="images/icons/paimon_calc.gif" alt="Paimon with glasses">
+
+                        <div class="">
+                            <div class="ranking_title">
+                                Viabilities disclaimer
+                            </div>
+
+                            <div class="disclaimer_text">
+                                Tags are a general guideline not Archon's law, specifically in teams viabilities (meta,
+                                viable,
+                                offmeta and unique). A team with meta tag implies that it is the best, or one of the
+                                best, teams
+                                for a character in that team.
+                            </div>
+                        </div>
                     </div>
                 </fieldset>
 

@@ -16,13 +16,16 @@ var traveler = "Aether";
 
 var prerelease_content = false;
 
-var declinedCookies = false;
+var welcome_accepted = false;
+
+var declined_cookies = false;
 
 window.addEventListener("beforeunload", function (e) {
-    if (!declinedCookies) {
+    if (!declined_cookies) {
         localStorage.setItem('favorite_teams', JSON.stringify(favorite_teams));
         localStorage.setItem('user_characters', JSON.stringify(user_characters));
         localStorage.setItem('traveler', traveler);
+        localStorage.setItem('welcome_accepted', welcome_accepted);
         localStorage.setItem('prerelease_content', prerelease_content);
     }
 });
@@ -42,6 +45,11 @@ if (localStorage.getItem("traveler") !== null && localStorage.getItem("traveler"
     // console.log(traveler);
 }
 
+if (localStorage.getItem("welcome_accepted") !== null && localStorage.getItem("welcome_accepted") != "") {
+    welcome_accepted = localStorage.getItem("welcome_accepted") == "true";
+    // console.log(welcome_accepted);
+}
+
 if (localStorage.getItem("prerelease_content") !== null && localStorage.getItem("prerelease_content") != "") {
     prerelease_content = localStorage.getItem("prerelease_content") == "true";
     // console.log(prerelease_content);
@@ -59,7 +67,7 @@ function deleteAllCookies() {
 }
 
 function deleteAllLocalStorage() {
-    declinedCookies = true;
+    declined_cookies = true;
     prerelease_content = false;
 
     favorite_teams = [];
@@ -67,11 +75,13 @@ function deleteAllLocalStorage() {
     traveler = "Aether";
 
     localStorage.removeItem("cookies_accepted");
+    localStorage.removeItem("welcome_accepted");
 
     localStorage.removeItem("favorite_teams");
     localStorage.removeItem("user_characters");
 
     localStorage.removeItem("traveler");
+    
     location.reload();
 }
 
@@ -94,13 +104,19 @@ function deleteUserCharacters() {
     location.reload();
 }
 
+function acceptWelcome() {
+    document.getElementById("welcome_background").style.display = "none";
+    localStorage.setItem("welcome_accepted", "true");
+    welcome_accepted = true;
+}
+
 function acceptCookies() {
     document.getElementById("cookies_background").style.display = "none";
     localStorage.setItem("cookies_accepted", "true");
 }
 
 function declineCookies() {
-    declinedCookies = true;
+    declined_cookies = true;
 
     deleteAllCookies();
     deleteAllLocalStorage();
@@ -117,6 +133,10 @@ function togglePrereleaseContent() {
 document.addEventListener("DOMContentLoaded", (event) => {
     if (localStorage.getItem("cookies_accepted") == "true") {
         document.getElementById("cookies_background").style.display = "none";
+    }
+
+    if (localStorage.getItem("welcome_accepted") == "true") {
+        document.getElementById("welcome_background").style.display = "none";
     }
 
     // Characters
