@@ -847,7 +847,7 @@ const builds = {
                     artifacts: ["Marechaussee Hunter"],
                     pc: "4pc"
                 }
-                ]
+                ],
             er_requirement: "130%-190%",
             main_stat: {
                 sands: "EM/ATK",
