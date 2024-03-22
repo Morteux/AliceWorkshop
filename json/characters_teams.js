@@ -120,7 +120,7 @@ const characters_teams = {
         },
         "Hypercarry": {
             archetype: "Hypercarry",
-            description: "You can play with Navia and etc",
+            description: "You can play her as Support with an Hypercarry like Navia, for example.",
             composition: ["Chiori", "Flex", "Flex", "Flex"]
         }
     },
