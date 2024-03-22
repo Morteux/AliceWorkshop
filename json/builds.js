@@ -2265,7 +2265,7 @@ const builds = {
         "Standard": {
             description: "",
             constellation: "",
-            talent_priority: [1, 2, 3],
+            talent_priority: [3, 2, 1],
             weapon: ["Crane's Echoing Call", "Favonius Codex", "Oathsworn Eye", "Thrilling Tales of Dragon Slayers"],
             set: [
                 {
