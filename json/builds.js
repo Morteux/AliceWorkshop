@@ -2266,15 +2266,24 @@ const builds = {
             description: "",
             constellation: "",
             talent_priority: [1, 2, 3],
-            weapon: [],
-            set: [],
-            er_requirement: "",
+            weapon: ["Crane's Echoing Call", "Favonius Codex", "Oathsworn Eye", "Thrilling Tales of Dragon Slayers"],
+            set: [
+                {
+                    artifacts: ["Viridescent Venerer"],
+                    pc: "4pc"
+                },                
+                {
+                    artifacts: ["Song of Days Past"],
+                    pc: "4pc"
+                },
+                ],
+            er_requirement: "120%-300%, 250% standard",
             main_stat: {
-                sands: "",
-                goblet: "",
-                circlet: "",
+                sands: "ATK%/ER",
+                goblet: "ATK%",
+                circlet: "ATK%",
             },
-            subs_stat: []
+            subs_stat: ["ER", "ATK%", "Flat ATK"]
         }
     },
     "Xiao": {
