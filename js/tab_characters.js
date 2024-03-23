@@ -244,17 +244,18 @@ function getMaterialSmallHTML(material_cost) {
     let material = GenshinDb.material(material_cost.name);
     let materialHTML = ``;
 
-    let rarity_class = material.rarity ? `material_` + material.rarity + `_stars` : `material_1_stars`;
+    let rarity_class = material && material.rarity ? `material_` + material.rarity + `_stars` : `material_1_stars`;
+    let material_icon = material ? material.images.filename_icon : ``;
 
     materialHTML = `
         <div class="material_container tooltip">
-            <img class="material_icon_small ` + rarity_class + `" src="https://api.ambr.top/assets/UI/` + material.images.filename_icon + `.png" alt="Material icon for ` + material.name + `" onerror="useBackupResource(this, 'https://api.ambr.top/assets/UI/` + material.images.filename_icon + `.png', 'images/icons/Icon_Inventory_Materials.webp')">
+            <img class="material_icon_small ` + rarity_class + `" src="https://api.ambr.top/assets/UI/` + material_icon + `.png" alt="Material icon for ` + material_cost.name + `" onerror="useBackupResource(this, 'https://api.ambr.top/assets/UI/` + material_icon + `.png', 'images/icons/Icon_Inventory_Materials.webp')">
 
             <div class="material_count_small">
             ` + material_cost.count + `
             </div>
             
-            <span class="tooltiptext">` + material.name + `</span>
+            <span class="tooltiptext">` + material_cost.name + `</span>
         </div>
     `;
 
