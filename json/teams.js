@@ -11127,7 +11127,7 @@ const teams = {
         }
     },
     "342": {
-        "name": "Keqing Aggravatte Plunge",
+        "name": "Cyno Aggravatte Plunge",
         "description": "",
         "rotation": "",
         "archetype": [
@@ -14322,6 +14322,191 @@ const teams = {
             ],
             "build": [
                 "Standard",
+            ]
+        }
+    },
+
+    "437": {
+        "name": "Keqing Aggravatte",
+        "description": "One of Keqing's best Teams. Best team in output damage, but you won't have any defensive utility or healing.",
+        "rotation": "",
+        "archetype": [
+            "Aggravate"
+        ],
+        "viability": "Recommended",
+        "character_1": {
+            "name": "Keqing",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Fischl",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Kaedehara Kazuha",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": [
+                "Nahida",
+            ],
+            "build": [
+                "Standard",
+            ]
+        }
+    },
+    
+    "438": {
+        "name": "Keqing Aggravatte",
+        "description": "One of Keqing's best Teams. With Nahida instead Yaoyao/Kirara, you will have more damage, but you lose the defensive utility. ",
+        "rotation": "",
+        "archetype": [
+            "Aggravate"
+        ],
+        "viability": "Recommended",
+        "character_1": {
+            "name": "Keqing",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Fischl",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Kaedehara Kazuha",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": [
+                "Yaoyao",
+                "Kirara"
+            ],
+            "build": [
+                "Standard",
+                "Standard"
+            ]
+        }
+    },
+    "439": {
+        "name": "Keqing Aggravatte",
+        "description": "Insane output damage, but you won't have any defensive utility. Replacing Traveler/Collei for Nahida results in one of the best Keqing Team.",
+        "rotation": "",
+        "archetype": [
+            "Aggravate"
+        ],
+        "viability": "Viable",
+        "character_1": {
+            "name": "Keqing",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Fischl",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Kaedehara Kazuha",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": [
+                "Aether",
+                "Collei"
+            ],
+            "build": [
+                "Dendro",
+                "Standard"
+            ]
+        }
+    },
+
+    "440": {
+        "name": "Keqing Aggravatte",
+        "description": "Baizhu has not great sinergy with Keqing. You either have to run a 20s rotation or a 28-30s rotation with his ultimate being up for only 1/2 of the time.",
+        "rotation": "",
+        "archetype": [
+            "Aggravate"
+        ],
+        "viability": "Viable",
+        "character_1": {
+            "name": "Keqing",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Fischl",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Kaedehara Kazuha",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": [
+                "Baizhu",
+            ],
+            "build": [
+                "Standard"
+            ]
+        }
+    },
+
+    "441": {
+        "name": "Keqing Aggravatte",
+        "description": "This Team can be good in single target, since you don't have the grouping of Kazuha.",
+        "rotation": "",
+        "archetype": [
+            "Aggravate"
+        ],
+        "viability": "Recommended",
+        "character_1": {
+            "name": "Keqing",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Fischl",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Zhongli",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": [
+                "Nahida",
+            ],
+            "build": [
+                "Standard"
+            ]
+        }
+    },
+
+    "442": {
+        "name": "Keqing Aggravatte",
+        "description": "This Team can be good in single target, since you don't have the grouping of Kazuha.",
+        "rotation": "",
+        "archetype": [
+            "Aggravate"
+        ],
+        "viability": "Viable",
+        "character_1": {
+            "name": "Keqing",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Fischl",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Zhongli",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": [
+                "Aether",
+                "Collei"
+            ],
+            "build": [
+                "Dendro",
+                "Standard"
             ]
         }
     },
