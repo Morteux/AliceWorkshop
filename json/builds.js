@@ -288,25 +288,25 @@ const builds = {
             },
             subs_stat: ["ER", "Crit", "ATK%"]
         },
-        "Nacho": {
-            description: "",
-            constellation: "6",
-            talent_priority: [1, 2, 3],
-            weapon: ["Serpent Spine", "Wolf's Gravestone"],
-            set: [
-                {
-                    artifacts: ["Emblem of Severed Fate"],
-                    pc: "4pc"
-                }
-            ],
-            er_requirement: "",
-            main_stat: {
-                sands: "ATK%",
-                goblet: "Electro Bonus",
-                circlet: "Crit Rate"
-            },
-            subs_stat: ["ER", "Crit Rate", "Crit Damage", "ATK%"]
-        }
+        // "Nacho": {
+        //     description: "",
+        //     constellation: "6",
+        //     talent_priority: [1, 2, 3],
+        //     weapon: ["Serpent Spine", "Wolf's Gravestone"],
+        //     set: [
+        //         {
+        //             artifacts: ["Emblem of Severed Fate"],
+        //             pc: "4pc"
+        //         }
+        //     ],
+        //     er_requirement: "",
+        //     main_stat: {
+        //         sands: "ATK%",
+        //         goblet: "Electro Bonus",
+        //         circlet: "Crit Rate"
+        //     },
+        //     subs_stat: ["ER", "Crit Rate", "Crit Damage", "ATK%"]
+        // }
     },
     "Bennett": {
         "Standard": {
@@ -617,25 +617,25 @@ const builds = {
             },
             subs_stat: []
         },
-        "Nacho": {
-            description: "",
-            constellation: "6",
-            talent_priority: [1, 2, 3],
-            weapon: ["Favonius Warbow", "Sacrificial Bow"],
-            set: [
-                {
-                    artifacts: ["Noblesse Oblige"],
-                    pc: "4pc"
-                }
-            ],
-            er_requirement: "",
-            main_stat: {
-                sands: "HP%",
-                goblet: "HP%",
-                circlet: "Healing Bonus",
-            },
-            subs_stat: ["HP%", "ER", "EM", "HP"]
-        }
+        // "Nacho": {
+        //     description: "",
+        //     constellation: "6",
+        //     talent_priority: [1, 2, 3],
+        //     weapon: ["Favonius Warbow", "Sacrificial Bow"],
+        //     set: [
+        //         {
+        //             artifacts: ["Noblesse Oblige"],
+        //             pc: "4pc"
+        //         }
+        //     ],
+        //     er_requirement: "",
+        //     main_stat: {
+        //         sands: "HP%",
+        //         goblet: "HP%",
+        //         circlet: "Healing Bonus",
+        //     },
+        //     subs_stat: ["HP%", "ER", "EM", "HP"]
+        // }
     },
     "Dori": {
         "Standard": {
@@ -685,25 +685,25 @@ const builds = {
             },
             subs_stat: []
         },
-        "Nacho": {
-            description: "",
-            constellation: "6",
-            talent_priority: [1, 2, 3],
-            weapon: ["Favonius Greatsword", "Sacrificial Greatsword"],
-            set: [
-                {
-                    artifacts: ["Noblesse Oblige"],
-                    pc: "4pc"
-                }
-            ],
-            er_requirement: "",
-            main_stat: {
-                sands: "ER",
-                goblet: "HP%",
-                circlet: "Healing Bonus",
-            },
-            subs_stat: ["ER", "HP%", "Crit Rate"]
-        }
+        // "Nacho": {
+        //     description: "",
+        //     constellation: "6",
+        //     talent_priority: [1, 2, 3],
+        //     weapon: ["Favonius Greatsword", "Sacrificial Greatsword"],
+        //     set: [
+        //         {
+        //             artifacts: ["Noblesse Oblige"],
+        //             pc: "4pc"
+        //         }
+        //     ],
+        //     er_requirement: "",
+        //     main_stat: {
+        //         sands: "ER",
+        //         goblet: "HP%",
+        //         circlet: "Healing Bonus",
+        //     },
+        //     subs_stat: ["ER", "HP%", "Crit Rate"]
+        // }
     },
     "Eula": {
         "Standard": {
@@ -757,25 +757,25 @@ const builds = {
             },
             subs_stat: ["ER", "Crit", "ATK%"]
         },
-        "Nacho": {
-            description: "",
-            constellation: "6",
-            talent_priority: [1, 2, 3],
-            weapon: ["Polar Star"],
-            set: [
-                {
-                    artifacts: ["Golden Troupe"],
-                    pc: "4pc"
-                }
-            ],
-            er_requirement: "",
-            main_stat: {
-                sands: "ATK%",
-                goblet: "Electro Bonus",
-                circlet: "Crit Rate"
-            },
-            subs_stat: ["ER", "Crit Rate", "Crit Damage", "ATK%"]
-        }
+        // "Nacho": {
+        //     description: "",
+        //     constellation: "6",
+        //     talent_priority: [1, 2, 3],
+        //     weapon: ["Polar Star"],
+        //     set: [
+        //         {
+        //             artifacts: ["Golden Troupe"],
+        //             pc: "4pc"
+        //         }
+        //     ],
+        //     er_requirement: "",
+        //     main_stat: {
+        //         sands: "ATK%",
+        //         goblet: "Electro Bonus",
+        //         circlet: "Crit Rate"
+        //     },
+        //     subs_stat: ["ER", "Crit Rate", "Crit Damage", "ATK%"]
+        // }
     },
     "Freminet": {
         "Standard": {
@@ -901,25 +901,25 @@ const builds = {
             },
             subs_stat: []
         },
-        "Nacho": {
-            description: "",
-            constellation: "0",
-            talent_priority: [1, 2, 3],
-            weapon: ["Amo's Bow", "Prototype Crescent"],
-            set: [
-                {
-                    artifacts: ["Wanderer's Troupe"],
-                    pc: "4pc"
-                }
-            ],
-            er_requirement: "",
-            main_stat: {
-                sands: "ATK%",
-                goblet: "Cryo Bonus",
-                circlet: "Crit Rate",
-            },
-            subs_stat: ["Crit Rate", "Crit Damage", "ATK%", "EM"]
-        }
+        // "Nacho": {
+        //     description: "",
+        //     constellation: "0",
+        //     talent_priority: [1, 2, 3],
+        //     weapon: ["Amo's Bow", "Prototype Crescent"],
+        //     set: [
+        //         {
+        //             artifacts: ["Wanderer's Troupe"],
+        //             pc: "4pc"
+        //         }
+        //     ],
+        //     er_requirement: "",
+        //     main_stat: {
+        //         sands: "ATK%",
+        //         goblet: "Cryo Bonus",
+        //         circlet: "Crit Rate",
+        //     },
+        //     subs_stat: ["Crit Rate", "Crit Damage", "ATK%", "EM"]
+        // }
     },
     "Gorou": {
         "Standard": {
@@ -982,25 +982,25 @@ const builds = {
             },
             subs_stat: []
         },
-        "Nacho": {
-            description: "",
-            constellation: "0",
-            talent_priority: [1, 2, 3],
-            weapon: ["Primordial Jade Cutter", "Festering Desire"],
-            set: [
-                {
-                    artifacts: ["Viridescent Venerer"],
-                    pc: "4pc"
-                }
-            ],
-            er_requirement: "",
-            main_stat: {
-                sands: "ATK%",
-                goblet: "Anemo Bonus",
-                circlet: "Crit Rate"
-            },
-            subs_stat: ["ER", "Crit Rate", "Crit Damage", "ATK%"]
-        }
+        // "Nacho": {
+        //     description: "",
+        //     constellation: "0",
+        //     talent_priority: [1, 2, 3],
+        //     weapon: ["Primordial Jade Cutter", "Festering Desire"],
+        //     set: [
+        //         {
+        //             artifacts: ["Viridescent Venerer"],
+        //             pc: "4pc"
+        //         }
+        //     ],
+        //     er_requirement: "",
+        //     main_stat: {
+        //         sands: "ATK%",
+        //         goblet: "Anemo Bonus",
+        //         circlet: "Crit Rate"
+        //     },
+        //     subs_stat: ["ER", "Crit Rate", "Crit Damage", "ATK%"]
+        // }
     },
     "Kaedehara Kazuha": {
         "Standard": {
@@ -1022,25 +1022,25 @@ const builds = {
             },
             subs_stat: ["Crit Rate", "EM", "ER", "Crit Damage"]
         },
-        "Nacho": {
-            description: "",
-            constellation: "0",
-            talent_priority: [1, 2, 3],
-            weapon: ["Freedom-Sworn", "Favonius Sword"],
-            set: [
-                {
-                    artifacts: ["Viridescent Venerer"],
-                    pc: "4pc"
-                }
-            ],
-            er_requirement: "",
-            main_stat: {
-                sands: "EM",
-                goblet: "EM",
-                circlet: "EM"
-            },
-            subs_stat: ["Crit Rate", "EM", "ER", "Crit Damage"]
-        }
+        // "Nacho": {
+        //     description: "",
+        //     constellation: "0",
+        //     talent_priority: [1, 2, 3],
+        //     weapon: ["Freedom-Sworn", "Favonius Sword"],
+        //     set: [
+        //         {
+        //             artifacts: ["Viridescent Venerer"],
+        //             pc: "4pc"
+        //         }
+        //     ],
+        //     er_requirement: "",
+        //     main_stat: {
+        //         sands: "EM",
+        //         goblet: "EM",
+        //         circlet: "EM"
+        //     },
+        //     subs_stat: ["Crit Rate", "EM", "ER", "Crit Damage"]
+        // }
     },
     "Kaeya": {
         "Standard": {
@@ -1088,25 +1088,25 @@ const builds = {
             },
             subs_stat: []
         },
-        "Nacho": {
-            description: "",
-            constellation: "0",
-            talent_priority: [1, 2, 3],
-            weapon: ["Mistsplitter Reforged", "Primordial Jade Cutter", "Amenoma Kageuchi"],
-            set: [
-                {
-                    artifacts: ["Blizzard Strayer"],
-                    pc: "4pc"
-                }
-            ],
-            er_requirement: "",
-            main_stat: {
-                sands: "ATK%",
-                goblet: "Cryo Bonus",
-                circlet: "Prob Rate",
-            },
-            subs_stat: ["ER", "Prob Rate", "Prob Damage", "ATK%"]
-        }
+        // "Nacho": {
+        //     description: "",
+        //     constellation: "0",
+        //     talent_priority: [1, 2, 3],
+        //     weapon: ["Mistsplitter Reforged", "Primordial Jade Cutter", "Amenoma Kageuchi"],
+        //     set: [
+        //         {
+        //             artifacts: ["Blizzard Strayer"],
+        //             pc: "4pc"
+        //         }
+        //     ],
+        //     er_requirement: "",
+        //     main_stat: {
+        //         sands: "ATK%",
+        //         goblet: "Cryo Bonus",
+        //         circlet: "Prob Rate",
+        //     },
+        //     subs_stat: ["ER", "Prob Rate", "Prob Damage", "ATK%"]
+        // }
     },
     "Kamisato Ayato": {
         "Standard": {
@@ -1155,25 +1155,25 @@ const builds = {
             },
             subs_stat: []
         },
-        "Nacho": {
-            description: "",
-            constellation: "0",
-            talent_priority: [1, 2, 3],
-            weapon: ["Primordial Jade Cutter", "Lion's Roar"],
-            set: [
-                {
-                    artifacts: ["Thundering Fury"],
-                    pc: "4pc"
-                }
-            ],
-            er_requirement: "",
-            main_stat: {
-                sands: "ATK%",
-                goblet: "Electro Bonus",
-                circlet: "Crit Rate",
-            },
-            subs_stat: ["Crit Rate", "Crit Damage", "ATK%", "ER"]
-        }
+        // "Nacho": {
+        //     description: "",
+        //     constellation: "0",
+        //     talent_priority: [1, 2, 3],
+        //     weapon: ["Primordial Jade Cutter", "Lion's Roar"],
+        //     set: [
+        //         {
+        //             artifacts: ["Thundering Fury"],
+        //             pc: "4pc"
+        //         }
+        //     ],
+        //     er_requirement: "",
+        //     main_stat: {
+        //         sands: "ATK%",
+        //         goblet: "Electro Bonus",
+        //         circlet: "Crit Rate",
+        //     },
+        //     subs_stat: ["Crit Rate", "Crit Damage", "ATK%", "ER"]
+        // }
     },
     "Kirara": {
         "Standard": {
@@ -1190,29 +1190,29 @@ const builds = {
             },
             subs_stat: []
         },
-        "Nacho": {
-            description: "",
-            constellation: "6",
-            talent_priority: [1, 2, 3],
-            weapon: ["Favonius Sword", "Key of Khaj-Nisut", "Sacrificial Sword"],
-            set: [
-                {
-                    artifacts: ["Tenacity of the Millelith"],
-                    pc: "4pc"
-                },
-                {
-                    artifacts: ["Vourukasha's Glow"],
-                    pc: "4pc"
-                }
-            ],
-            er_requirement: "",
-            main_stat: {
-                sands: "ER",
-                goblet: "HP%",
-                circlet: "HP%",
-            },
-            subs_stat: ["ER", "HP%", "HP"]
-        }
+        // "Nacho": {
+        //     description: "",
+        //     constellation: "6",
+        //     talent_priority: [1, 2, 3],
+        //     weapon: ["Favonius Sword", "Key of Khaj-Nisut", "Sacrificial Sword"],
+        //     set: [
+        //         {
+        //             artifacts: ["Tenacity of the Millelith"],
+        //             pc: "4pc"
+        //         },
+        //         {
+        //             artifacts: ["Vourukasha's Glow"],
+        //             pc: "4pc"
+        //         }
+        //     ],
+        //     er_requirement: "",
+        //     main_stat: {
+        //         sands: "ER",
+        //         goblet: "HP%",
+        //         circlet: "HP%",
+        //     },
+        //     subs_stat: ["ER", "HP%", "HP"]
+        // }
     },
     "Klee": {
         "Standard": {
@@ -1285,25 +1285,25 @@ const builds = {
             },
             subs_stat: []
         },
-        "Nacho": {
-            description: "",
-            constellation: "0",
-            talent_priority: [1, 2, 3],
-            weapon: ["The Widsith"],
-            set: [
-                {
-                    artifacts: ["Crimson Witch of Flames"],
-                    pc: "4pc"
-                }
-            ],
-            er_requirement: "",
-            main_stat: {
-                sands: "ATK%",
-                goblet: "Pyro Bonus",
-                circlet: "Crit Rate",
-            },
-            subs_stat: ["Crit Rate", "Crit Damage", "EM", "ER"]
-        }
+        // "Nacho": {
+        //     description: "",
+        //     constellation: "0",
+        //     talent_priority: [1, 2, 3],
+        //     weapon: ["The Widsith"],
+        //     set: [
+        //         {
+        //             artifacts: ["Crimson Witch of Flames"],
+        //             pc: "4pc"
+        //         }
+        //     ],
+        //     er_requirement: "",
+        //     main_stat: {
+        //         sands: "ATK%",
+        //         goblet: "Pyro Bonus",
+        //         circlet: "Crit Rate",
+        //     },
+        //     subs_stat: ["Crit Rate", "Crit Damage", "EM", "ER"]
+        // }
     },
     "Kujou Sara": {
         "Standard": {
@@ -1320,25 +1320,25 @@ const builds = {
             },
             subs_stat: []
         },
-        "Nacho": {
-            description: "",
-            constellation: "6",
-            talent_priority: [1, 2, 3],
-            weapon: ["Elegy for the End", "Fading Twilight"],
-            set: [
-                {
-                    artifacts: ["Emblem of Severed Fate"],
-                    pc: "4pc"
-                }
-            ],
-            er_requirement: "",
-            main_stat: {
-                sands: ["ER", "ATK%"],
-                goblet: "Electro Bonus",
-                circlet: ["Crit Rate", "Crit Damage"],
-            },
-            subs_stat: ["ER", "Crit Rate", "Crit Damage", "ATK%"]
-        }
+        // "Nacho": {
+        //     description: "",
+        //     constellation: "6",
+        //     talent_priority: [1, 2, 3],
+        //     weapon: ["Elegy for the End", "Fading Twilight"],
+        //     set: [
+        //         {
+        //             artifacts: ["Emblem of Severed Fate"],
+        //             pc: "4pc"
+        //         }
+        //     ],
+        //     er_requirement: "",
+        //     main_stat: {
+        //         sands: ["ER", "ATK%"],
+        //         goblet: "Electro Bonus",
+        //         circlet: ["Crit Rate", "Crit Damage"],
+        //     },
+        //     subs_stat: ["ER", "Crit Rate", "Crit Damage", "ATK%"]
+        // }
     },
     "Kuki Shinobu": {
         "Standard": {
@@ -1355,25 +1355,25 @@ const builds = {
             },
             subs_stat: []
         },
-        "Nacho": {
-            description: "",
-            constellation: "6",
-            talent_priority: [1, 2, 3],
-            weapon: ["Favonius Sword"],
-            set: [
-                {
-                    artifacts: ["Gilded Dreams"],
-                    pc: "4pc"
-                }
-            ],
-            er_requirement: "",
-            main_stat: {
-                sands: "EM",
-                goblet: "EM",
-                circlet: "EM",
-            },
-            subs_stat: ["EM", "HP%", "ER"]
-        }
+        // "Nacho": {
+        //     description: "",
+        //     constellation: "6",
+        //     talent_priority: [1, 2, 3],
+        //     weapon: ["Favonius Sword"],
+        //     set: [
+        //         {
+        //             artifacts: ["Gilded Dreams"],
+        //             pc: "4pc"
+        //         }
+        //     ],
+        //     er_requirement: "",
+        //     main_stat: {
+        //         sands: "EM",
+        //         goblet: "EM",
+        //         circlet: "EM",
+        //     },
+        //     subs_stat: ["EM", "HP%", "ER"]
+        // }
     },
     "Layla": {
         "Standard": {
@@ -1390,25 +1390,25 @@ const builds = {
             },
             subs_stat: []
         },
-        "Nacho": {
-            description: "",
-            constellation: "6",
-            talent_priority: [1, 2, 3],
-            weapon: ["Key of Khaj-Nisut", "Favonius Sword"],
-            set: [
-                {
-                    artifacts: ["Tenacity of the Millelith"],
-                    pc: "4pc"
-                }
-            ],
-            er_requirement: "",
-            main_stat: {
-                sands: "HP%",
-                goblet: "HP%",
-                circlet: "HP%",
-            },
-            subs_stat: ["ER", "HP%", "HP", "Crit Rate", "Crit Damage"]
-        }
+        // "Nacho": {
+        //     description: "",
+        //     constellation: "6",
+        //     talent_priority: [1, 2, 3],
+        //     weapon: ["Key of Khaj-Nisut", "Favonius Sword"],
+        //     set: [
+        //         {
+        //             artifacts: ["Tenacity of the Millelith"],
+        //             pc: "4pc"
+        //         }
+        //     ],
+        //     er_requirement: "",
+        //     main_stat: {
+        //         sands: "HP%",
+        //         goblet: "HP%",
+        //         circlet: "HP%",
+        //     },
+        //     subs_stat: ["ER", "HP%", "HP", "Crit Rate", "Crit Damage"]
+        // }
     },
     "Lisa": {
         "Standard": {
@@ -1529,25 +1529,25 @@ const builds = {
             },
             subs_stat: ["ER", "Crit", "ATK%"]
         },
-        "Nacho": {
-            description: "",
-            constellation: "0",
-            talent_priority: [1, 2, 3],
-            weapon: ["Skyward Atlas", "Favonius Codex"],
-            set: [
-                {
-                    artifacts: ["Emblem of Severed Fate"],
-                    pc: "4pc"
-                }
-            ],
-            er_requirement: "",
-            main_stat: {
-                sands: "ER",
-                goblet: "Hydro Bonus",
-                circlet: "Prob Rate"
-            },
-            subs_stat: ["Prob Rate", "Prob Damage", "ATK%", "ER"]
-        }
+        // "Nacho": {
+        //     description: "",
+        //     constellation: "0",
+        //     talent_priority: [1, 2, 3],
+        //     weapon: ["Skyward Atlas", "Favonius Codex"],
+        //     set: [
+        //         {
+        //             artifacts: ["Emblem of Severed Fate"],
+        //             pc: "4pc"
+        //         }
+        //     ],
+        //     er_requirement: "",
+        //     main_stat: {
+        //         sands: "ER",
+        //         goblet: "Hydro Bonus",
+        //         circlet: "Prob Rate"
+        //     },
+        //     subs_stat: ["Prob Rate", "Prob Damage", "ATK%", "ER"]
+        // }
     },
     "Nahida": {
         "Standard": {
@@ -1578,25 +1578,25 @@ const builds = {
             },
             subs_stat: []
         },
-        "Nacho": {
-            description: "",
-            constellation: "0",
-            talent_priority: [1, 2, 3],
-            weapon: ["A Thousand Floating Dreams", "Kagura's Verity", "Sacrificial Fragments"],
-            set: [
-                {
-                    artifacts: ["Deepwood Memories"],
-                    pc: "4pc"
-                }
-            ],
-            er_requirement: "",
-            main_stat: {
-                sands: "EM",
-                goblet: "EM",
-                circlet: "EM",
-            },
-            subs_stat: ["ER", "EM", "Crit Rate", "Crit Damage"]
-        }
+        // "Nacho": {
+        //     description: "",
+        //     constellation: "0",
+        //     talent_priority: [1, 2, 3],
+        //     weapon: ["A Thousand Floating Dreams", "Kagura's Verity", "Sacrificial Fragments"],
+        //     set: [
+        //         {
+        //             artifacts: ["Deepwood Memories"],
+        //             pc: "4pc"
+        //         }
+        //     ],
+        //     er_requirement: "",
+        //     main_stat: {
+        //         sands: "EM",
+        //         goblet: "EM",
+        //         circlet: "EM",
+        //     },
+        //     subs_stat: ["ER", "EM", "Crit Rate", "Crit Damage"]
+        // }
     },
     "Navia": {
         "Standard": {
@@ -1645,25 +1645,25 @@ const builds = {
             },
             subs_stat: []
         },
-        "Nacho": {
-            description: "",
-            constellation: "0",
-            talent_priority: [1, 2, 3],
-            weapon: ["Key of Khaj-Nisut", "Sacrificial Sword", "Favonius Sword"],
-            set: [
-                {
-                    artifacts: ["Gilded Dreams"],
-                    pc: "4pc"
-                }
-            ],
-            er_requirement: "",
-            main_stat: {
-                sands: "HP%",
-                goblet: "HP%",
-                circlet: "HP%",
-            },
-            subs_stat: ["ER", "HP%", "HP", "EM"]
-        }
+        // "Nacho": {
+        //     description: "",
+        //     constellation: "0",
+        //     talent_priority: [1, 2, 3],
+        //     weapon: ["Key of Khaj-Nisut", "Sacrificial Sword", "Favonius Sword"],
+        //     set: [
+        //         {
+        //             artifacts: ["Gilded Dreams"],
+        //             pc: "4pc"
+        //         }
+        //     ],
+        //     er_requirement: "",
+        //     main_stat: {
+        //         sands: "HP%",
+        //         goblet: "HP%",
+        //         circlet: "HP%",
+        //     },
+        //     subs_stat: ["ER", "HP%", "HP", "EM"]
+        // }
     },
     "Ningguang": {
         "Standard": {
@@ -1746,25 +1746,25 @@ const builds = {
             },
             subs_stat: []
         },
-        "Nacho": {
-            description: "",
-            constellation: "0",
-            talent_priority: [1, 2, 3],
-            weapon: ["Skyward Blade", "Lion's Roar"],
-            set: [
-                {
-                    artifacts: ["Ocean-Hued Clam"],
-                    pc: "4pc"
-                }
-            ],
-            er_requirement: "",
-            main_stat: {
-                sands: "ATK%",
-                goblet: "ATK%",
-                circlet: "ATK%",
-            },
-            subs_stat: ["ATK%", "ER", "Crit Rate", "Crit Damage"]
-        }
+        // "Nacho": {
+        //     description: "",
+        //     constellation: "0",
+        //     talent_priority: [1, 2, 3],
+        //     weapon: ["Skyward Blade", "Lion's Roar"],
+        //     set: [
+        //         {
+        //             artifacts: ["Ocean-Hued Clam"],
+        //             pc: "4pc"
+        //         }
+        //     ],
+        //     er_requirement: "",
+        //     main_stat: {
+        //         sands: "ATK%",
+        //         goblet: "ATK%",
+        //         circlet: "ATK%",
+        //     },
+        //     subs_stat: ["ATK%", "ER", "Crit Rate", "Crit Damage"]
+        // }
     },
     "Raiden Shogun": {
         "Standard": {
@@ -1795,20 +1795,20 @@ const builds = {
             },
             subs_stat: []
         },
-        "Nacho": {
-            description: "",
-            constellation: "0",
-            talent_priority: [1, 2, 3],
-            weapon: ["Engulfing Lightning", "Skyward Spine"],
-            set: [],
-            er_requirement: "",
-            main_stat: {
-                sands: "",
-                goblet: "",
-                circlet: "",
-            },
-            subs_stat: []
-        }
+        // "Nacho": {
+        //     description: "",
+        //     constellation: "0",
+        //     talent_priority: [1, 2, 3],
+        //     weapon: ["Engulfing Lightning", "Skyward Spine"],
+        //     set: [],
+        //     er_requirement: "",
+        //     main_stat: {
+        //         sands: "",
+        //         goblet: "",
+        //         circlet: "",
+        //     },
+        //     subs_stat: []
+        // }
     },
     "Razor": {
         "Standard": {
@@ -1901,25 +1901,25 @@ const builds = {
             },
             subs_stat: []
         },
-        "Nacho": {
-            description: "",
-            constellation: "6",
-            talent_priority: [1, 2, 3],
-            weapon: ["Wolf's Gravestone", "Mailed Flower", "Luxurious Sea-Lord"],
-            set: [
-                {
-                    artifacts: ["Viridescent Venerer"],
-                    pc: "4pc"
-                }
-            ],
-            er_requirement: "",
-            main_stat: {
-                sands: "EM",
-                goblet: "EM",
-                circlet: "EM",
-            },
-            subs_stat: ["ER", "EM", "ATK%", "ATK"]
-        }
+        // "Nacho": {
+        //     description: "",
+        //     constellation: "6",
+        //     talent_priority: [1, 2, 3],
+        //     weapon: ["Wolf's Gravestone", "Mailed Flower", "Luxurious Sea-Lord"],
+        //     set: [
+        //         {
+        //             artifacts: ["Viridescent Venerer"],
+        //             pc: "4pc"
+        //         }
+        //     ],
+        //     er_requirement: "",
+        //     main_stat: {
+        //         sands: "EM",
+        //         goblet: "EM",
+        //         circlet: "EM",
+        //     },
+        //     subs_stat: ["ER", "EM", "ATK%", "ATK"]
+        // }
     },
     "Shenhe": {
         "Standard": {
@@ -1936,25 +1936,25 @@ const builds = {
             },
             subs_stat: []
         },
-        "Nacho": {
-            description: "Nacho build for Shenhe",
-            constellation: "0",
-            talent_priority: [2, 3, 1],
-            weapon: ["Calamity Queller", "Primordial Jade Winged-Spear", "Skyward Spine", "Favonius Lance"],
-            set: [
-                {
-                    artifacts: ["Noblesse Oblige"],
-                    pc: "4pc"
-                }
-            ],
-            er_requirement: "",
-            main_stat: {
-                sands: "ATK%",
-                goblet: "ATK%",
-                circlet: "ATK%",
-            },
-            subs_stat: ["ER", "ATK%", "Crit Rate", "Crit Damage"]
-        }
+        // "Nacho": {
+        //     description: "Nacho build for Shenhe",
+        //     constellation: "0",
+        //     talent_priority: [2, 3, 1],
+        //     weapon: ["Calamity Queller", "Primordial Jade Winged-Spear", "Skyward Spine", "Favonius Lance"],
+        //     set: [
+        //         {
+        //             artifacts: ["Noblesse Oblige"],
+        //             pc: "4pc"
+        //         }
+        //     ],
+        //     er_requirement: "",
+        //     main_stat: {
+        //         sands: "ATK%",
+        //         goblet: "ATK%",
+        //         circlet: "ATK%",
+        //     },
+        //     subs_stat: ["ER", "ATK%", "Crit Rate", "Crit Damage"]
+        // }
     },
     "Shikanoin Heizou": {
         "Standard": {
@@ -1971,25 +1971,25 @@ const builds = {
             },
             subs_stat: []
         },
-        "Nacho": {
-            description: "",
-            constellation: "6",
-            talent_priority: [1, 2, 3],
-            weapon: ["The Widsith"],
-            set: [
-                {
-                    artifacts: ["Viridescent Venerer"],
-                    pc: "4pc"
-                }
-            ],
-            er_requirement: "",
-            main_stat: {
-                sands: "ATK%",
-                goblet: "Anemo Bonus",
-                circlet: "Crit Rate",
-            },
-            subs_stat: ["Crit Rate", "Crit Damage", "ATK%", "EM"]
-        }
+        // "Nacho": {
+        //     description: "",
+        //     constellation: "6",
+        //     talent_priority: [1, 2, 3],
+        //     weapon: ["The Widsith"],
+        //     set: [
+        //         {
+        //             artifacts: ["Viridescent Venerer"],
+        //             pc: "4pc"
+        //         }
+        //     ],
+        //     er_requirement: "",
+        //     main_stat: {
+        //         sands: "ATK%",
+        //         goblet: "Anemo Bonus",
+        //         circlet: "Crit Rate",
+        //     },
+        //     subs_stat: ["Crit Rate", "Crit Damage", "ATK%", "EM"]
+        // }
     },
     "Sucrose": {
         "Standard": {
@@ -2006,25 +2006,25 @@ const builds = {
             },
             subs_stat: []
         },
-        "Nacho": {
-            description: "",
-            constellation: "6",
-            talent_priority: [1, 2, 3],
-            weapon: ["Thrilling Tales of Dragon Slayers"],
-            set: [
-                {
-                    artifacts: ["Viridescent Venerer"],
-                    pc: "4pc"
-                }
-            ],
-            er_requirement: "",
-            main_stat: {
-                sands: "EM",
-                goblet: "EM",
-                circlet: "EM",
-            },
-            subs_stat: ["EM", "ER", "ATK%", "ATK"]
-        }
+        // "Nacho": {
+        //     description: "",
+        //     constellation: "6",
+        //     talent_priority: [1, 2, 3],
+        //     weapon: ["Thrilling Tales of Dragon Slayers"],
+        //     set: [
+        //         {
+        //             artifacts: ["Viridescent Venerer"],
+        //             pc: "4pc"
+        //         }
+        //     ],
+        //     er_requirement: "",
+        //     main_stat: {
+        //         sands: "EM",
+        //         goblet: "EM",
+        //         circlet: "EM",
+        //     },
+        //     subs_stat: ["EM", "ER", "ATK%", "ATK"]
+        // }
     },
     "Tartaglia": {
         "Standard": {
@@ -2080,25 +2080,25 @@ const builds = {
             },
             subs_stat: []
         },
-        "Nacho": {
-            description: "",
-            constellation: "6",
-            talent_priority: [1, 2, 3],
-            weapon: ["Skyward Spine", "The Catch"],
-            set: [
-                {
-                    artifacts: ["Noblesse Oblige"],
-                    pc: "4pc"
-                }
-            ],
-            er_requirement: "",
-            main_stat: {
-                sands: "ER",
-                goblet: "HP%",
-                circlet: "HP%",
-            },
-            subs_stat: ["HP%", "HP", "ER"]
-        }
+        // "Nacho": {
+        //     description: "",
+        //     constellation: "6",
+        //     talent_priority: [1, 2, 3],
+        //     weapon: ["Skyward Spine", "The Catch"],
+        //     set: [
+        //         {
+        //             artifacts: ["Noblesse Oblige"],
+        //             pc: "4pc"
+        //         }
+        //     ],
+        //     er_requirement: "",
+        //     main_stat: {
+        //         sands: "ER",
+        //         goblet: "HP%",
+        //         circlet: "HP%",
+        //     },
+        //     subs_stat: ["HP%", "HP", "ER"]
+        // }
     },
     "Tighnari": {
         "Standard": {
@@ -2131,25 +2131,25 @@ const builds = {
             },
             subs_stat: []
         },
-        "Nacho": {
-            description: "",
-            constellation: "0",
-            talent_priority: [1, 2, 3],
-            weapon: ["Elegy for the End", "The Stringless"],
-            set: [
-                {
-                    artifacts: ["Viridescent Venerer"],
-                    pc: "4pc"
-                }
-            ],
-            er_requirement: "",
-            main_stat: {
-                sands: "EM",
-                goblet: "EM",
-                circlet: "EM"
-            },
-            subs_stat: ["EM", "ER", "ATK%", "Crit Rate", "Crit Damage"]
-        }
+        // "Nacho": {
+        //     description: "",
+        //     constellation: "0",
+        //     talent_priority: [1, 2, 3],
+        //     weapon: ["Elegy for the End", "The Stringless"],
+        //     set: [
+        //         {
+        //             artifacts: ["Viridescent Venerer"],
+        //             pc: "4pc"
+        //         }
+        //     ],
+        //     er_requirement: "",
+        //     main_stat: {
+        //         sands: "EM",
+        //         goblet: "EM",
+        //         circlet: "EM"
+        //     },
+        //     subs_stat: ["EM", "ER", "ATK%", "Crit Rate", "Crit Damage"]
+        // }
     },
     "Wanderer": {
         "Standard": {
@@ -2241,25 +2241,25 @@ const builds = {
             },
             subs_stat: ["ER", "Crit", "ATK%", "EM"]
         },
-        "Nacho": {
-            description: "",
-            constellation: "6",
-            talent_priority: [1, 2, 3],
-            weapon: ["Staff of Homa", "The Catch"],
-            set: [
-                {
-                    artifacts: ["Emblem of Severed Fate"],
-                    pc: "4pc"
-                }
-            ],
-            er_requirement: "",
-            main_stat: {
-                sands: "ATK%",
-                goblet: "Pyro Bonus",
-                circlet: "Crit Rate"
-            },
-            subs_stat: ["Crit Rate", "Crit Damage", "ATK%", "ER"]
-        }
+        // "Nacho": {
+        //     description: "",
+        //     constellation: "6",
+        //     talent_priority: [1, 2, 3],
+        //     weapon: ["Staff of Homa", "The Catch"],
+        //     set: [
+        //         {
+        //             artifacts: ["Emblem of Severed Fate"],
+        //             pc: "4pc"
+        //         }
+        //     ],
+        //     er_requirement: "",
+        //     main_stat: {
+        //         sands: "ATK%",
+        //         goblet: "Pyro Bonus",
+        //         circlet: "Crit Rate"
+        //     },
+        //     subs_stat: ["Crit Rate", "Crit Damage", "ATK%", "ER"]
+        // }
     },
     "Xianyun": {
         "Standard": {
@@ -2322,25 +2322,25 @@ const builds = {
             },
             subs_stat: ["Crit", "ATK%", "ER"]
         },
-        "Nacho": {
-            description: "",
-            constellation: "6",
-            talent_priority: [1, 2, 3],
-            weapon: ["Primordial Jade Cutter", "Favonius Sword", "Sacrificial Sword"],
-            set: [
-                {
-                    artifacts: ["Emblem of Severed Fate"],
-                    pc: "4pc"
-                }
-            ],
-            er_requirement: "",
-            main_stat: {
-                sands: "ER",
-                goblet: "Hydro Bonus",
-                circlet: "Crit Rate"
-            },
-            subs_stat: ["ER", "Crit Rate", "Crit Damage", "ATK%"]
-        }
+        // "Nacho": {
+        //     description: "",
+        //     constellation: "6",
+        //     talent_priority: [1, 2, 3],
+        //     weapon: ["Primordial Jade Cutter", "Favonius Sword", "Sacrificial Sword"],
+        //     set: [
+        //         {
+        //             artifacts: ["Emblem of Severed Fate"],
+        //             pc: "4pc"
+        //         }
+        //     ],
+        //     er_requirement: "",
+        //     main_stat: {
+        //         sands: "ER",
+        //         goblet: "Hydro Bonus",
+        //         circlet: "Crit Rate"
+        //     },
+        //     subs_stat: ["ER", "Crit Rate", "Crit Damage", "ATK%"]
+        // }
     },
     "Xinyan": {
         "Standard": {
@@ -2387,25 +2387,25 @@ const builds = {
             },
             subs_stat: []
         },
-        "Nacho": {
-            description: "",
-            constellation: "0",
-            talent_priority: [1, 2, 3],
-            weapon: ["Kagura's Verity", "Lost Prayer to the Sacred Winds", "Oathsworn Eye"],
-            set: [
-                {
-                    artifacts: ["Emblem of Severed Fate"],
-                    pc: "4pc"
-                }
-            ],
-            er_requirement: "",
-            main_stat: {
-                sands: "ATK%",
-                goblet: "Electro Bonus",
-                circlet: "Crit Rate",
-            },
-            subs_stat: ["Crit Rate", "Crit Damage", "ATK%", "ER"]
-        }
+        // "Nacho": {
+        //     description: "",
+        //     constellation: "0",
+        //     talent_priority: [1, 2, 3],
+        //     weapon: ["Kagura's Verity", "Lost Prayer to the Sacred Winds", "Oathsworn Eye"],
+        //     set: [
+        //         {
+        //             artifacts: ["Emblem of Severed Fate"],
+        //             pc: "4pc"
+        //         }
+        //     ],
+        //     er_requirement: "",
+        //     main_stat: {
+        //         sands: "ATK%",
+        //         goblet: "Electro Bonus",
+        //         circlet: "Crit Rate",
+        //     },
+        //     subs_stat: ["Crit Rate", "Crit Damage", "ATK%", "ER"]
+        // }
     },
     "Yanfei": {
         "Standard": {
@@ -2452,25 +2452,25 @@ const builds = {
             },
             subs_stat: []
         },
-        "Nacho": {
-            description: "",
-            constellation: "6",
-            talent_priority: [1, 2, 3],
-            weapon: ["Favonius Lance"],
-            set: [
-                {
-                    artifacts: ["Deepwood Memories"],
-                    pc: "4pc"
-                }
-            ],
-            er_requirement: "",
-            main_stat: {
-                sands: "ER",
-                goblet: "HP%",
-                circlet: "Healing Bonus",
-            },
-            subs_stat: ["HP%", "ER", "HP"]
-        }
+        // "Nacho": {
+        //     description: "",
+        //     constellation: "6",
+        //     talent_priority: [1, 2, 3],
+        //     weapon: ["Favonius Lance"],
+        //     set: [
+        //         {
+        //             artifacts: ["Deepwood Memories"],
+        //             pc: "4pc"
+        //         }
+        //     ],
+        //     er_requirement: "",
+        //     main_stat: {
+        //         sands: "ER",
+        //         goblet: "HP%",
+        //         circlet: "Healing Bonus",
+        //     },
+        //     subs_stat: ["HP%", "ER", "HP"]
+        // }
     },
     "Yelan": {
         "Standard": {
@@ -2487,25 +2487,25 @@ const builds = {
             },
             subs_stat: []
         },
-        "Nacho": {
-            description: "",
-            constellation: "0",
-            talent_priority: [1, 2, 3],
-            weapon: ["Elegy for the End", "Favonius Warbow"],
-            set: [
-                {
-                    artifacts: ["Emblem of Severed Fate"],
-                    pc: "4pc"
-                }
-            ],
-            er_requirement: "",
-            main_stat: {
-                sands: "ER",
-                goblet: "Hydro Bonus",
-                circlet: "Crit Rate",
-            },
-            subs_stat: ["Crit Rate", "Crit Damage", "ER", "HP%"]
-        }
+        // "Nacho": {
+        //     description: "",
+        //     constellation: "0",
+        //     talent_priority: [1, 2, 3],
+        //     weapon: ["Elegy for the End", "Favonius Warbow"],
+        //     set: [
+        //         {
+        //             artifacts: ["Emblem of Severed Fate"],
+        //             pc: "4pc"
+        //         }
+        //     ],
+        //     er_requirement: "",
+        //     main_stat: {
+        //         sands: "ER",
+        //         goblet: "Hydro Bonus",
+        //         circlet: "Crit Rate",
+        //     },
+        //     subs_stat: ["Crit Rate", "Crit Damage", "ER", "HP%"]
+        // }
     },
     "Yoimiya": {
         "Standard": {
@@ -2527,25 +2527,25 @@ const builds = {
             },
             subs_stat: ["Crit", "ATK", "EM", "ER"]
         },
-        "Nacho": {
-            description: "",
-            constellation: "0",
-            talent_priority: [1, 2, 3],
-            weapon: ["Thundering Pulse"],
-            set: [
-                {
-                    artifacts: ["Shimenawa's Reminiscence"],
-                    pc: "4pc"
-                }
-            ],
-            er_requirement: "",
-            main_stat: {
-                sands: "ATK%",
-                goblet: "Pyro Bonus",
-                circlet: "Crit Rate",
-            },
-            subs_stat: ["Crit Rate", "Crit Damage", "ATK%", "ER"]
-        }
+        // "Nacho": {
+        //     description: "",
+        //     constellation: "0",
+        //     talent_priority: [1, 2, 3],
+        //     weapon: ["Thundering Pulse"],
+        //     set: [
+        //         {
+        //             artifacts: ["Shimenawa's Reminiscence"],
+        //             pc: "4pc"
+        //         }
+        //     ],
+        //     er_requirement: "",
+        //     main_stat: {
+        //         sands: "ATK%",
+        //         goblet: "Pyro Bonus",
+        //         circlet: "Crit Rate",
+        //     },
+        //     subs_stat: ["Crit Rate", "Crit Damage", "ATK%", "ER"]
+        // }
     },
     "Yun Jin": {
         "Standard": {
