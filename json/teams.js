@@ -14144,159 +14144,8 @@ const teams = {
             ]
         }
     },
-    "431": {
-        "name": "Klee Furina Forward Vape",
-        "description": "One of the Best Klee teams. Furina will be the one vaporizing. With Kazuha in AoE, you need to do the same rotation but at the start do Klee 1 Normal Attack + Kazuha's Burst.",
-        "rotation": "Furina QE > Bennett Q > Xiangling/Kazuha QE > Klee rotation",
-        "archetype": [
-            "Vaporize"
-        ],
-        "viability": "Recommended",
-        "character_1": {
-            "name": "Klee",
-            "build": "Standard"
-        },
-        "character_2": {
-            "name": "Furina",
-            "build": "Standard"
-        },
-        "character_3": {
-            "name": "Bennett",
-            "build": "Standard"
-        },
-        "character_4": {
-            "name": [
-                "Xiangling",
-                "Kaedehara Kazuha"
-            ],
-            "build": [
-                "Standard",
-                "Standard"
-            ]
-        }
-    },
-    "432": {
-        "name": "Arlecchino Chevreuse",
-        "description": "Beidou is a good choice with Arlecchino due to her defensive utility.",
-        "rotation": "Arlecchino E > Fischl > Chevreuse > Beidou > Arlecchino Combo (in progress)",
-        "archetype": [
-            "Overload"
-        ],
-        "viability": "Viable",
-        "character_1": {
-            "name": "Arlecchino",
-            "build": "Standard"
-        },
-        "character_2": {
-            "name": "Chevreuse",
-            "build": "Standard"
-        },
-        "character_3": {
-            "name": "Fischl",
-            "build": "Standard"
-        },
-        "character_4": {
-            "name": [
-                "Beidou"
-            ],
-            "build": [
-                "Standard"
-            ]
-        }
-    },
 
-    "433": {
-        "name": "Arlecchino Chevreuse",
-        "description": "Good in output damage, but you don't have any type of defensive utility.",
-        "rotation": "Arlecchino E > Fischl > Chevreuse > Bennett > Arlecchino Combo (in progress)",
-        "archetype": [
-            "Overload"
-        ],
-        "viability": "Viable",
-        "character_1": {
-            "name": "Arlecchino",
-            "build": "Standard"
-        },
-        "character_2": {
-            "name": "Chevreuse",
-            "build": "Standard"
-        },
-        "character_3": {
-            "name": "Fischl",
-            "build": "Standard"
-        },
-        "character_4": {
-            "name": [
-                "Bennett",
-            ],
-            "build": [
-                "Standard",
-            ]
-        }
-    },
-    "434": {
-        "name": "Arlecchino Furina",
-        "description": "You can't heal Arlecchino, but you will obtain Furina's Fanfare stacks with the other three characters and Arlecchino auto-healing. With Yelan you will have a little more of damage, but Xingqiu RES Interruption and DMG Reduction may be necessary and most useful. ",
-        "rotation": "Arlecchino E > Characters > Arlecchino Combo (in progress)",
-        "archetype": [
-            "Vaporize"
-        ],
-        "viability": "Viable",
-        "character_1": {
-            "name": "Arlecchino",
-            "build": "Standard"
-        },
-        "character_2": {
-            "name": "Bennett",
-            "build": "Standard"
-        },
-        "character_3": {
-            "name": "Furina",
-            "build": "Standard"
-        },
-        "character_4": {
-            "name": [
-                "Yelan",
-                "Xingqiu"
-            ],
-            "build": [
-                "Standard",
-                "Standard"
-            ]
-        }
-    },
-    "435": {
-        "name": "Arlecchino Furina",
-        "description": "With Yelan you will have a little more of damage, but Xingqiu RES Interruption and DMG Reduction may be necessary and more useful. ",
-        "rotation": "Arlecchino E > Characters > Arlecchino Combo (in progress)",
-        "archetype": [
-            "Vaporize"
-        ],
-        "viability": "Viable",
-        "character_1": {
-            "name": "Arlecchino",
-            "build": "Standard"
-        },
-        "character_2": {
-            "name": "Bennett",
-            "build": "Standard"
-        },
-        "character_3": {
-            "name": "Kaedehara Kazuha",
-            "build": "Standard"
-        },
-        "character_4": {
-            "name": [
-                "Yelan",
-                "Xingqiu"
-            ],
-            "build": [
-                "Standard",
-                "Standard"
-            ]
-        }
-    },
-    "436": {
+    "431": {
         "name": "Wriothesley Furina Melt",
         "description": "One of the best Wriothesley Teams.",
         "rotation": "Furina QE > Bennett QE > Xiangling QE > Wriothesley E + 5NA + CA",
@@ -14326,7 +14175,7 @@ const teams = {
         }
     },
 
-    "437": {
+    "432": {
         "name": "Keqing Aggravatte",
         "description": "One of Keqing's best Teams. Best team in output damage, but you won't have any defensive utility or healing.",
         "rotation": "",
@@ -14356,7 +14205,7 @@ const teams = {
         }
     },
     
-    "438": {
+    "433": {
         "name": "Keqing Aggravatte",
         "description": "One of Keqing's best Teams. With Nahida instead Yaoyao/Kirara, you will have more damage, but you lose the defensive utility. ",
         "rotation": "",
@@ -14387,7 +14236,7 @@ const teams = {
             ]
         }
     },
-    "439": {
+    "434": {
         "name": "Keqing Aggravatte",
         "description": "Insane output damage, but you won't have any defensive utility. Replacing Traveler/Collei for Nahida results in one of the best Keqing Team.",
         "rotation": "",
@@ -14419,7 +14268,7 @@ const teams = {
         }
     },
 
-    "440": {
+    "435": {
         "name": "Keqing Aggravatte",
         "description": "Baizhu has not great sinergy with Keqing. You either have to run a 20s rotation or a 28-30s rotation with his ultimate being up for only 1/2 of the time.",
         "rotation": "",
@@ -14449,7 +14298,7 @@ const teams = {
         }
     },
 
-    "441": {
+    "436": {
         "name": "Keqing Aggravatte",
         "description": "This Team can be good in single target, since you don't have the grouping of Kazuha.",
         "rotation": "",
@@ -14479,7 +14328,7 @@ const teams = {
         }
     },
 
-    "442": {
+    "437": {
         "name": "Keqing Aggravatte",
         "description": "This Team can be good in single target, since you don't have the grouping of Kazuha.",
         "rotation": "",
@@ -14506,6 +14355,158 @@ const teams = {
             ],
             "build": [
                 "Dendro",
+                "Standard"
+            ]
+        }
+    },
+    "438": {
+        "name": "Klee Furina Forward Vape",
+        "description": "One of the Best Klee teams. Furina will be the one vaporizing. With Kazuha in AoE, you need to do the same rotation but at the start do Klee 1 Normal Attack + Kazuha's Burst.",
+        "rotation": "Furina QE > Bennett Q > Xiangling/Kazuha QE > Klee rotation",
+        "archetype": [
+            "Vaporize"
+        ],
+        "viability": "Recommended",
+        "character_1": {
+            "name": "Klee",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Bennett",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": [
+                "Xiangling",
+                "Kaedehara Kazuha"
+            ],
+            "build": [
+                "Standard",
+                "Standard"
+            ]
+        }
+    },
+    "439": {
+        "name": "Arlecchino Chevreuse",
+        "description": "Beidou is a good choice with Arlecchino due to her defensive utility.",
+        "rotation": "Arlecchino E > Fischl > Chevreuse > Beidou > Arlecchino Combo (in progress)",
+        "archetype": [
+            "Overload"
+        ],
+        "viability": "Viable",
+        "character_1": {
+            "name": "Arlecchino",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Chevreuse",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Fischl",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": [
+                "Beidou"
+            ],
+            "build": [
+                "Standard"
+            ]
+        }
+    },
+
+    "440": {
+        "name": "Arlecchino Chevreuse",
+        "description": "Good in output damage, but you don't have any type of defensive utility.",
+        "rotation": "Arlecchino E > Fischl > Chevreuse > Bennett > Arlecchino Combo (in progress)",
+        "archetype": [
+            "Overload"
+        ],
+        "viability": "Viable",
+        "character_1": {
+            "name": "Arlecchino",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Chevreuse",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Fischl",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": [
+                "Bennett",
+            ],
+            "build": [
+                "Standard",
+            ]
+        }
+    },
+    "441": {
+        "name": "Arlecchino Furina",
+        "description": "You can't heal Arlecchino, but you will obtain Furina's Fanfare stacks with the other three characters and Arlecchino auto-healing. With Yelan you will have a little more of damage, but Xingqiu RES Interruption and DMG Reduction may be necessary and most useful. ",
+        "rotation": "Arlecchino E > Characters > Arlecchino Combo (in progress)",
+        "archetype": [
+            "Vaporize"
+        ],
+        "viability": "Viable",
+        "character_1": {
+            "name": "Arlecchino",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Bennett",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": [
+                "Yelan",
+                "Xingqiu"
+            ],
+            "build": [
+                "Standard",
+                "Standard"
+            ]
+        }
+    },
+    "442": {
+        "name": "Arlecchino Vaporize",
+        "description": "With Yelan you will have a little more of damage, but Xingqiu RES Interruption and DMG Reduction may be necessary and more useful. ",
+        "rotation": "Arlecchino E > Characters > Arlecchino Combo (in progress)",
+        "archetype": [
+            "Vaporize"
+        ],
+        "viability": "Viable",
+        "character_1": {
+            "name": "Arlecchino",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Bennett",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Kaedehara Kazuha",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": [
+                "Yelan",
+                "Xingqiu"
+            ],
+            "build": [
+                "Standard",
                 "Standard"
             ]
         }
