@@ -14298,7 +14298,7 @@ const teams = {
     },
     "436": {
         "name": "Wriothesley Furina Melt",
-        "description": "One of the best Wriothesley Teams. To do more damage with the melts hits with Wriothesley, you have to do 1NA + E + Combo or Dash between the 4NA and the 5NA. ",
+        "description": "One of the best Wriothesley Teams.",
         "rotation": "Furina QE > Bennett QE > Xiangling QE > Wriothesley E + 5NA + CA",
         "archetype": [
             "Melt"
