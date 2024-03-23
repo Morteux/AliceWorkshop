@@ -210,9 +210,9 @@ const archetypes = {
         recommended_characters: ["Sucrose"]
     },
     "Airfryer": {
-        description: "",
-        elements: [],
-        pros_cons: "",
+        description: "Burn team with double Anemo Characters built to EM so they activate burning by imbuing their Skills. ",
+        elements: ["Dendro", "Pyro", "Anemo", "Anemo"],
+        pros_cons: "These teams don't have a lot of damage, but they work very well for grouping large waves while burning them.",
         example_teams: [],
         color: "color_anemo",
         color_illuminated: "color_pyro_illuminated",
@@ -247,12 +247,12 @@ const archetypes = {
     },
 
     "Bain-Marie": {
-        description: "",
+        description: "New Archetype where both the Hydro Character and the Cryo Characters triggers Vaporize and Melts respectively. Some seeds are generated, adding Burgeons to the composition. ",
         elements: [],
-        pros_cons: "",
+        pros_cons: "Nowadays, only Wriothesley and Furina teams match this archetype.",
         example_teams: [],
         color: "color_cryo",
-        color_illuminated: "color_dendro_illuminated",
-        recommended_characters: []
+        color_illuminated: "color_hydro_illuminated",
+        recommended_characters: ["Wriothesley"]
     }
 };
