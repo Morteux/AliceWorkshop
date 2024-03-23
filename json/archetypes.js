@@ -219,27 +219,27 @@ const archetypes = {
         recommended_characters: []
     },
     "Hyperbloom": {
-        description: "",
-        elements: [],
-        pros_cons: "",
+        description: "Archetype based on the Hyperbloom reaction. An Hydro, Dendro and Electro Character is needed, being the last slot Flex. The Electro character must be able to hit the seeds to trigger Hyperbloom. You can Flex a second Dendro/Hydro Character for better application, a second Electro Character who don't trigger seeds, or just an Anemo/Geo option.",
+        elements: ["Dendro", "Hydro", "Electro", "Flex"],
+        pros_cons: "You need fast Hydro application, like Xingqiu, an on-fielder Hydro or double Hydro. This teams are usually easy to build and have very high damage at low investment, but they have low ceiling. ",
         example_teams: [],
         color: "color_electro",
         color_illuminated: "color_dendro_illuminated",
         recommended_characters: []
     },
     "Quickbloom": {
-        description: "",
-        elements: [],
-        pros_cons: "",
+        description: "In this Archetype we use slower Hydro application than Hyperbloom (Yelan, Kokomi, Furina...) so we trigger more Spreads/Aggravates and obtain less Hyperbloom in exchange.",
+        elements: ["Dendro", "Hydro", "Electro", "Flex"],
+        pros_cons: "Good with Characters that can take advantage of this Spreads/Aggravates. ",
         example_teams: [],
         color: "color_dendro",
         color_illuminated: "color_electro_illuminated",
         recommended_characters: []
     },
     "HyperFridge": {
-        description: "",
-        elements: [],
-        pros_cons: "",
+        description: "You combine the mechanics of Hyperbloom and Fridge.",
+        elements: ["Dendro", "Hydro", "Electro", "Cryo"],
+        pros_cons: "Freezes and generates more seeds than Hyperbloom at the cost of a second Hydro/Electro/Dendro Character.",
         example_teams: [],
         color: "color_dendro",
         color_illuminated: "color_cryo_illuminated",
@@ -253,6 +253,6 @@ const archetypes = {
         example_teams: [],
         color: "color_cryo",
         color_illuminated: "color_hydro_illuminated",
-        recommended_characters: ["Wriothesley"]
+        recommended_characters: ["Wriothesley", "Furina"]
     }
 };
