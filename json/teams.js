@@ -4148,7 +4148,7 @@ const teams = {
         "archetype": [
             "Hyperbloom"
         ],
-        "viability": "Recommended",
+        "viability": "Viable",
         "character_1": {
             "name": "Neuvillette",
             "build": "Standard"
@@ -5568,8 +5568,8 @@ const teams = {
     },
     "170": {
         "name": "Wriothesley Melt",
-        "description": "Wriothesley can be played in Melt. It's a bit complicated due to the NA ICD (melting the 1-4 hits with a normal rotation, which is not optimal), but it's okay.",
-        "rotation": "",
+        "description": "Wriothesley can be played in Melt. It's a bit complicated due to the NA ICD, you have to do 1NA + E + Combo or Dash between the 4NA and the 5NA. ",
+        "rotation": "Cryo Character > Bennett QE > Xiangling QE > Wriothesley E + 5NA + CA",
         "archetype": [
             "Melt"
         ],
@@ -5603,8 +5603,8 @@ const teams = {
     },
     "171": {
         "name": "Wriothesley Melt",
-        "description": "Wriothesley can be played in Melt. It's a bit complicated due to the NA ICD (melting the 1-4 hits with a normal rotation, which is not optimal), but it's okay. You don't have to swirl Cryo since Wriothesley doesn't have off-field application, so just swirl Pyro with Kazuha, and it's good for grouping.",
-        "rotation": "",
+        "description": "Wriothesley can be played in Melt. It's a bit complicated due to the NA ICD, you have to do 1NA + E + Combo or Dash between the 4NA and the 5NA. You don't have to swirl Cryo since Wriothesley doesn't have off-field application, so just swirl Pyro with Kazuha, and it's good for grouping.",
+        "rotation": "Bennett QE > Kazuha Q or E > Xiangling QE > Wriothesley E + 5NA + CA",
         "archetype": [
             "Melt"
         ],
@@ -5666,7 +5666,7 @@ const teams = {
         "archetype": [
             "Bain-Marie"
         ],
-        "viability": "Recommended",
+        "viability": "Viable",
         "character_1": {
             "name": "Wriothesley",
             "build": "Standard"
@@ -6029,7 +6029,7 @@ const teams = {
     },
     "185": {
         "name": "Lyney Furina",
-        "description": "With Xiangling, you will maintain enough Pyro application for Lyney's passive and Furina's vapes. Problem: Squishiest team in the world. Bennett healer.",
+        "description": "With Xiangling or Kazuha, you will maintain enough Pyro application for Lyney's passive and Furina's vapes. Problem: Squishiest team in the world. Bennett healer.",
         "rotation": "",
         "archetype": [
             "MonoPyro"
@@ -6044,15 +6044,17 @@ const teams = {
             "build": "Standard"
         },
         "character_3": {
-            "name": "Xiangling",
+            "name": "Bennett",
             "build": "Standard"
         },
         "character_4": {
             "name": [
-                "Bennett"
+                "Xiangling",
+                "Kaedehara Kazuha"
             ],
             "build": [
-                "Healer"
+                "Standard",
+                "Standard"
             ]
         }
     },
@@ -8830,7 +8832,7 @@ const teams = {
         "archetype": [
             "Bain-Marie"
         ],
-        "viability": "Recommended",
+        "viability": "Viable",
         "character_1": {
             "name": "Wriothesley",
             "build": "Standard"
@@ -14149,7 +14151,7 @@ const teams = {
         "archetype": [
             "Vaporize"
         ],
-        "viability": "Viable",
+        "viability": "Recommended",
         "character_1": {
             "name": "Klee",
             "build": "Standard"
@@ -14293,7 +14295,36 @@ const teams = {
                 "Standard"
             ]
         }
-    }
+    },
+    "436": {
+        "name": "Wriothesley Furina Melt",
+        "description": "One of the best Wriothesley Teams. To do more damage with the melts hits with Wriothesley, you have to do 1NA + E + Combo or Dash between the 4NA and the 5NA. ",
+        "rotation": "Furina QE > Bennett QE > Xiangling QE > Wriothesley E + 5NA + CA",
+        "archetype": [
+            "Melt"
+        ],
+        "viability": "Recommended",
+        "character_1": {
+            "name": "Wriothesley",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Xiangling",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": [
+                "Bennett",
+            ],
+            "build": [
+                "Standard",
+            ]
+        }
+    },
 };
 
 
