@@ -9,7 +9,7 @@ const ELEMENTS = ["Pyro", "Electro", "Hydro", "Cryo", "Anemo", "Geo", "Dendro"];
 
 const ARCHETYPES_NAMES = Object.keys(archetypes);
 
-const VIABILITIES = ["Meta", "Viable", "Offmeta", "Unique"];
+const VIABILITIES = ["Recommended", "Viable", "For fun", "Unique"];
 
 const STAR_SVG = `<img class="rarity" src="images/rarity/star.svg">`;
 // const CHARACTER_NAMES = prerelease_content ? Object.values(characters_order_priority) : arrayDifference(Object.values(characters_order_priority), Object.keys(characters));

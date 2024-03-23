@@ -2,9 +2,9 @@ var team_count = Object.keys(teams).length;
 
 var menu_tabs = ["menu_configuration", "menu_characters_check", "menu_teams_creator", "menu_json_validator", "menu_stats_calculator", "menu_team_json_sort"];
 
-var team_creator_meta;
+var team_creator_recommended;
 var team_creator_viable;
-var team_creator_offmeta;
+var team_creator_for_fun;
 var team_creator_unique;
 
 var favorite_teams = [];
@@ -190,12 +190,12 @@ function removeTraveler(array) {
 }
 
 function getViability() {
-    let viability = "Meta";
+    let viability = "Recommended";
 
     if (team_creator_viable.checked) {
         viability = team_creator_viable.value;
-    } else if (team_creator_offmeta.checked) {
-        viability = team_creator_offmeta.value;
+    } else if (team_creator_for_fun.checked) {
+        viability = team_creator_for_fun.value;
     } else if (team_creator_unique.checked) {
         viability = team_creator_unique.value;
     }
@@ -235,9 +235,9 @@ function disableMenuTab(tab, tab_button) {
 
 function printTeamCreator() {
     if (document.getElementById("menu_teams_creator")) {
-        team_creator_meta = document.getElementById("team_creator_meta");
+        team_creator_recommended = document.getElementById("team_creator_recommended");
         team_creator_viable = document.getElementById("team_creator_viable");
-        team_creator_offmeta = document.getElementById("team_creator_offmeta");
+        team_creator_for_fun = document.getElementById("team_creator_for_fun");
         team_creator_unique = document.getElementById("team_creator_unique");
 
         document.getElementById("id_input").value = team_count + 1;

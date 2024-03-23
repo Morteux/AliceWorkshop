@@ -15,15 +15,15 @@
     --check_false: gray;
 
     /* Teams colors */
-    --meta_team: #dc1414;
+    --recommended_team: #dc1414;
     --viable_team: #00c0e2;
-    --offmeta_team: #b1c51b;
+    --for_fun_team: #b1c51b;
     --unique_team: #ff6701;
 
     /* Teams collapsible colors */
-    --meta_collapsible_team: #ee4f4f;
+    --recommended_collapsible_team: #ee4f4f;
     --viable_collapsible_team: #5acbdf;
-    --offmeta_collapsible_team: #b3c04e;
+    --for_fun_collapsible_team: #b3c04e;
     --unique_collapsible_team: #ff9650;
 
     /* Text color */

@@ -41,9 +41,9 @@ const STATS = {
         "Dendro": 665
     },
     "team_count_by_viability": {
-        "Meta": 489,
+        "Recommended": 489,
         "Viable": 682,
-        "Offmeta": 98,
+        "For fun": 98,
         "Unique": 14
     },
     "characters": {
@@ -81,9 +81,9 @@ const STATS = {
                 "Bain-Marie": 0
             },
             "by_viability": {
-                "Meta": 56,
+                "Recommended": 56,
                 "Viable": 85,
-                "Offmeta": 4,
+                "For fun": 4,
                 "Unique": 0
             },
             "team_count_by_element": {
@@ -135,9 +135,9 @@ const STATS = {
             },
             "ranking_by_element": 3,
             "ranking_by_viability": {
-                "Meta": 12,
+                "Recommended": 12,
                 "Viable": 9,
-                "Offmeta": 27,
+                "For fun": 27,
                 "Unique": 0
             }
         },
@@ -175,9 +175,9 @@ const STATS = {
                 "Bain-Marie": 0
             },
             "by_viability": {
-                "Meta": 0,
+                "Recommended": 0,
                 "Viable": 0,
-                "Offmeta": 0,
+                "For fun": 0,
                 "Unique": 0
             },
             "team_count_by_element": {
@@ -224,9 +224,9 @@ const STATS = {
             },
             "ranking_by_element": 10,
             "ranking_by_viability": {
-                "Meta": 0,
+                "Recommended": 0,
                 "Viable": 0,
-                "Offmeta": 0,
+                "For fun": 0,
                 "Unique": 0
             }
         },
@@ -264,9 +264,9 @@ const STATS = {
                 "Bain-Marie": 0
             },
             "by_viability": {
-                "Meta": 8,
+                "Recommended": 8,
                 "Viable": 34,
-                "Offmeta": 6,
+                "For fun": 6,
                 "Unique": 0
             },
             "by_build": {
@@ -305,9 +305,9 @@ const STATS = {
             },
             "ranking_by_element": 4,
             "ranking_by_viability": {
-                "Meta": 45,
+                "Recommended": 45,
                 "Viable": 27,
-                "Offmeta": 21,
+                "For fun": 21,
                 "Unique": 0
             }
         },
@@ -345,9 +345,9 @@ const STATS = {
                 "Bain-Marie": 0
             },
             "by_viability": {
-                "Meta": 6,
+                "Recommended": 6,
                 "Viable": 5,
-                "Offmeta": 0,
+                "For fun": 0,
                 "Unique": 0
             },
             "by_build": {
@@ -386,9 +386,9 @@ const STATS = {
             },
             "ranking_by_element": 8,
             "ranking_by_viability": {
-                "Meta": 48,
+                "Recommended": 48,
                 "Viable": 60,
-                "Offmeta": 0,
+                "For fun": 0,
                 "Unique": 0
             }
         },
@@ -426,9 +426,9 @@ const STATS = {
                 "Bain-Marie": 0
             },
             "by_viability": {
-                "Meta": 8,
+                "Recommended": 8,
                 "Viable": 13,
-                "Offmeta": 5,
+                "For fun": 5,
                 "Unique": 3
             },
             "by_build": {
@@ -468,9 +468,9 @@ const STATS = {
             },
             "ranking_by_element": 7,
             "ranking_by_viability": {
-                "Meta": 45,
+                "Recommended": 45,
                 "Viable": 49,
-                "Offmeta": 23,
+                "For fun": 23,
                 "Unique": 5
             }
         },
@@ -508,9 +508,9 @@ const STATS = {
                 "Bain-Marie": 0
             },
             "by_viability": {
-                "Meta": 0,
+                "Recommended": 0,
                 "Viable": 12,
-                "Offmeta": 2,
+                "For fun": 2,
                 "Unique": 0
             },
             "by_build": {
@@ -548,9 +548,9 @@ const STATS = {
             },
             "ranking_by_element": 12,
             "ranking_by_viability": {
-                "Meta": 0,
+                "Recommended": 0,
                 "Viable": 50,
-                "Offmeta": 36,
+                "For fun": 36,
                 "Unique": 0
             }
         },
@@ -588,9 +588,9 @@ const STATS = {
                 "Bain-Marie": 0
             },
             "by_viability": {
-                "Meta": 0,
+                "Recommended": 0,
                 "Viable": 5,
-                "Offmeta": 0,
+                "For fun": 0,
                 "Unique": 0
             },
             "by_build": {
@@ -629,9 +629,9 @@ const STATS = {
             },
             "ranking_by_element": 14,
             "ranking_by_viability": {
-                "Meta": 0,
+                "Recommended": 0,
                 "Viable": 60,
-                "Offmeta": 0,
+                "For fun": 0,
                 "Unique": 0
             }
         },
@@ -669,9 +669,9 @@ const STATS = {
                 "Bain-Marie": 0
             },
             "by_viability": {
-                "Meta": 13,
+                "Recommended": 13,
                 "Viable": 12,
-                "Offmeta": 0,
+                "For fun": 0,
                 "Unique": 0
             },
             "by_build": {
@@ -711,9 +711,9 @@ const STATS = {
             },
             "ranking_by_element": 5,
             "ranking_by_viability": {
-                "Meta": 36,
+                "Recommended": 36,
                 "Viable": 50,
-                "Offmeta": 0,
+                "For fun": 0,
                 "Unique": 0
             }
         },
@@ -751,9 +751,9 @@ const STATS = {
                 "Bain-Marie": 0
             },
             "by_viability": {
-                "Meta": 97,
+                "Recommended": 97,
                 "Viable": 157,
-                "Offmeta": 40,
+                "For fun": 40,
                 "Unique": 5
             },
             "by_build": {
@@ -795,9 +795,9 @@ const STATS = {
             },
             "ranking_by_element": 1,
             "ranking_by_viability": {
-                "Meta": 3,
+                "Recommended": 3,
                 "Viable": 2,
-                "Offmeta": 1,
+                "For fun": 1,
                 "Unique": 4
             }
         },
@@ -835,9 +835,9 @@ const STATS = {
                 "Bain-Marie": 0
             },
             "by_viability": {
-                "Meta": 76,
+                "Recommended": 76,
                 "Viable": 105,
-                "Offmeta": 8,
+                "For fun": 8,
                 "Unique": 2
             },
             "by_build": {
@@ -876,9 +876,9 @@ const STATS = {
             },
             "ranking_by_element": 1,
             "ranking_by_viability": {
-                "Meta": 6,
+                "Recommended": 6,
                 "Viable": 7,
-                "Offmeta": 15,
+                "For fun": 15,
                 "Unique": 8
             }
         },
@@ -916,9 +916,9 @@ const STATS = {
                 "Bain-Marie": 0
             },
             "by_viability": {
-                "Meta": 6,
+                "Recommended": 6,
                 "Viable": 1,
-                "Offmeta": 1,
+                "For fun": 1,
                 "Unique": 0
             },
             "by_build": {
@@ -956,9 +956,9 @@ const STATS = {
             },
             "ranking_by_element": 9,
             "ranking_by_viability": {
-                "Meta": 48,
+                "Recommended": 48,
                 "Viable": 76,
-                "Offmeta": 44,
+                "For fun": 44,
                 "Unique": 0
             }
         },
@@ -996,9 +996,9 @@ const STATS = {
                 "Bain-Marie": 0
             },
             "by_viability": {
-                "Meta": 72,
+                "Recommended": 72,
                 "Viable": 114,
-                "Offmeta": 24,
+                "For fun": 24,
                 "Unique": 8
             },
             "by_build": {
@@ -1037,9 +1037,9 @@ const STATS = {
             },
             "ranking_by_element": 2,
             "ranking_by_viability": {
-                "Meta": 8,
+                "Recommended": 8,
                 "Viable": 4,
-                "Offmeta": 5,
+                "For fun": 5,
                 "Unique": 1
             }
         },
@@ -1077,9 +1077,9 @@ const STATS = {
                 "Bain-Marie": 0
             },
             "by_viability": {
-                "Meta": 23,
+                "Recommended": 23,
                 "Viable": 25,
-                "Offmeta": 3,
+                "For fun": 3,
                 "Unique": 1
             },
             "by_build": {
@@ -1119,9 +1119,9 @@ const STATS = {
             },
             "ranking_by_element": 5,
             "ranking_by_viability": {
-                "Meta": 23,
+                "Recommended": 23,
                 "Viable": 34,
-                "Offmeta": 30,
+                "For fun": 30,
                 "Unique": 13
             }
         },
@@ -1159,9 +1159,9 @@ const STATS = {
                 "Bain-Marie": 2
             },
             "by_viability": {
-                "Meta": 54,
+                "Recommended": 54,
                 "Viable": 62,
-                "Offmeta": 8,
+                "For fun": 8,
                 "Unique": 2
             },
             "by_build": {
@@ -1202,9 +1202,9 @@ const STATS = {
             },
             "ranking_by_element": 2,
             "ranking_by_viability": {
-                "Meta": 14,
+                "Recommended": 14,
                 "Viable": 11,
-                "Offmeta": 15,
+                "For fun": 15,
                 "Unique": 8
             }
         },
@@ -1242,9 +1242,9 @@ const STATS = {
                 "Bain-Marie": 0
             },
             "by_viability": {
-                "Meta": 17,
+                "Recommended": 17,
                 "Viable": 14,
-                "Offmeta": 7,
+                "For fun": 7,
                 "Unique": 1
             },
             "by_build": {
@@ -1283,9 +1283,9 @@ const STATS = {
             },
             "ranking_by_element": 5,
             "ranking_by_viability": {
-                "Meta": 26,
+                "Recommended": 26,
                 "Viable": 47,
-                "Offmeta": 18,
+                "For fun": 18,
                 "Unique": 13
             }
         },
@@ -1323,9 +1323,9 @@ const STATS = {
                 "Bain-Marie": 0
             },
             "by_viability": {
-                "Meta": 0,
+                "Recommended": 0,
                 "Viable": 2,
-                "Offmeta": 0,
+                "For fun": 0,
                 "Unique": 0
             },
             "by_build": {
@@ -1363,9 +1363,9 @@ const STATS = {
             },
             "ranking_by_element": 15,
             "ranking_by_viability": {
-                "Meta": 0,
+                "Recommended": 0,
                 "Viable": 72,
-                "Offmeta": 0,
+                "For fun": 0,
                 "Unique": 0
             }
         },
@@ -1403,9 +1403,9 @@ const STATS = {
                 "Bain-Marie": 0
             },
             "by_viability": {
-                "Meta": 1,
+                "Recommended": 1,
                 "Viable": 1,
-                "Offmeta": 0,
+                "For fun": 0,
                 "Unique": 0
             },
             "by_build": {
@@ -1443,9 +1443,9 @@ const STATS = {
             },
             "ranking_by_element": 11,
             "ranking_by_viability": {
-                "Meta": 66,
+                "Recommended": 66,
                 "Viable": 76,
-                "Offmeta": 0,
+                "For fun": 0,
                 "Unique": 0
             }
         },
@@ -1483,9 +1483,9 @@ const STATS = {
                 "Bain-Marie": 0
             },
             "by_viability": {
-                "Meta": 4,
+                "Recommended": 4,
                 "Viable": 21,
-                "Offmeta": 3,
+                "For fun": 3,
                 "Unique": 0
             },
             "by_build": {
@@ -1523,9 +1523,9 @@ const STATS = {
             },
             "ranking_by_element": 10,
             "ranking_by_viability": {
-                "Meta": 54,
+                "Recommended": 54,
                 "Viable": 39,
-                "Offmeta": 30,
+                "For fun": 30,
                 "Unique": 0
             }
         },
@@ -1563,9 +1563,9 @@ const STATS = {
                 "Bain-Marie": 0
             },
             "by_viability": {
-                "Meta": 11,
+                "Recommended": 11,
                 "Viable": 45,
-                "Offmeta": 9,
+                "For fun": 9,
                 "Unique": 0
             },
             "by_build": {
@@ -1604,9 +1604,9 @@ const STATS = {
             },
             "ranking_by_element": 5,
             "ranking_by_viability": {
-                "Meta": 40,
+                "Recommended": 40,
                 "Viable": 20,
-                "Offmeta": 13,
+                "For fun": 13,
                 "Unique": 0
             }
         },
@@ -1644,9 +1644,9 @@ const STATS = {
                 "Bain-Marie": 0
             },
             "by_viability": {
-                "Meta": 0,
+                "Recommended": 0,
                 "Viable": 12,
-                "Offmeta": 1,
+                "For fun": 1,
                 "Unique": 0
             },
             "by_build": {
@@ -1684,9 +1684,9 @@ const STATS = {
             },
             "ranking_by_element": 9,
             "ranking_by_viability": {
-                "Meta": 0,
+                "Recommended": 0,
                 "Viable": 50,
-                "Offmeta": 44,
+                "For fun": 44,
                 "Unique": 0
             }
         },
@@ -1724,9 +1724,9 @@ const STATS = {
                 "Bain-Marie": 0
             },
             "by_viability": {
-                "Meta": 0,
+                "Recommended": 0,
                 "Viable": 3,
-                "Offmeta": 0,
+                "For fun": 0,
                 "Unique": 0
             },
             "by_build": {
@@ -1764,9 +1764,9 @@ const STATS = {
             },
             "ranking_by_element": 10,
             "ranking_by_viability": {
-                "Meta": 0,
+                "Recommended": 0,
                 "Viable": 69,
-                "Offmeta": 0,
+                "For fun": 0,
                 "Unique": 0
             }
         },
@@ -1804,9 +1804,9 @@ const STATS = {
                 "Bain-Marie": 0
             },
             "by_viability": {
-                "Meta": 31,
+                "Recommended": 31,
                 "Viable": 58,
-                "Offmeta": 2,
+                "For fun": 2,
                 "Unique": 0
             },
             "by_build": {
@@ -1846,9 +1846,9 @@ const STATS = {
             },
             "ranking_by_element": 3,
             "ranking_by_viability": {
-                "Meta": 19,
+                "Recommended": 19,
                 "Viable": 14,
-                "Offmeta": 36,
+                "For fun": 36,
                 "Unique": 0
             }
         },
@@ -1886,9 +1886,9 @@ const STATS = {
                 "Bain-Marie": 0
             },
             "by_viability": {
-                "Meta": 10,
+                "Recommended": 10,
                 "Viable": 21,
-                "Offmeta": 5,
+                "For fun": 5,
                 "Unique": 0
             },
             "by_build": {
@@ -1927,9 +1927,9 @@ const STATS = {
             },
             "ranking_by_element": 9,
             "ranking_by_viability": {
-                "Meta": 41,
+                "Recommended": 41,
                 "Viable": 39,
-                "Offmeta": 23,
+                "For fun": 23,
                 "Unique": 0
             }
         },
@@ -1967,9 +1967,9 @@ const STATS = {
                 "Bain-Marie": 0
             },
             "by_viability": {
-                "Meta": 6,
+                "Recommended": 6,
                 "Viable": 30,
-                "Offmeta": 23,
+                "For fun": 23,
                 "Unique": 6
             },
             "by_build": {
@@ -2011,9 +2011,9 @@ const STATS = {
             },
             "ranking_by_element": 4,
             "ranking_by_viability": {
-                "Meta": 48,
+                "Recommended": 48,
                 "Viable": 30,
-                "Offmeta": 6,
+                "For fun": 6,
                 "Unique": 3
             }
         },
@@ -2051,9 +2051,9 @@ const STATS = {
                 "Bain-Marie": 0
             },
             "by_viability": {
-                "Meta": 7,
+                "Recommended": 7,
                 "Viable": 141,
-                "Offmeta": 28,
+                "For fun": 28,
                 "Unique": 1
             },
             "by_build": {
@@ -2091,9 +2091,9 @@ const STATS = {
             },
             "ranking_by_element": 3,
             "ranking_by_viability": {
-                "Meta": 47,
+                "Recommended": 47,
                 "Viable": 3,
-                "Offmeta": 3,
+                "For fun": 3,
                 "Unique": 13
             }
         },
@@ -2131,9 +2131,9 @@ const STATS = {
                 "Bain-Marie": 0
             },
             "by_viability": {
-                "Meta": 0,
+                "Recommended": 0,
                 "Viable": 5,
-                "Offmeta": 0,
+                "For fun": 0,
                 "Unique": 0
             },
             "by_build": {
@@ -2171,9 +2171,9 @@ const STATS = {
             },
             "ranking_by_element": 13,
             "ranking_by_viability": {
-                "Meta": 0,
+                "Recommended": 0,
                 "Viable": 60,
-                "Offmeta": 0,
+                "For fun": 0,
                 "Unique": 0
             }
         },
@@ -2211,9 +2211,9 @@ const STATS = {
                 "Bain-Marie": 0
             },
             "by_viability": {
-                "Meta": 24,
+                "Recommended": 24,
                 "Viable": 27,
-                "Offmeta": 7,
+                "For fun": 7,
                 "Unique": 3
             },
             "by_build": {
@@ -2252,9 +2252,9 @@ const STATS = {
             },
             "ranking_by_element": 2,
             "ranking_by_viability": {
-                "Meta": 22,
+                "Recommended": 22,
                 "Viable": 31,
-                "Offmeta": 18,
+                "For fun": 18,
                 "Unique": 5
             }
         },
@@ -2292,9 +2292,9 @@ const STATS = {
                 "Bain-Marie": 0
             },
             "by_viability": {
-                "Meta": 16,
+                "Recommended": 16,
                 "Viable": 9,
-                "Offmeta": 1,
+                "For fun": 1,
                 "Unique": 1
             },
             "by_build": {
@@ -2333,9 +2333,9 @@ const STATS = {
             },
             "ranking_by_element": 4,
             "ranking_by_viability": {
-                "Meta": 29,
+                "Recommended": 29,
                 "Viable": 55,
-                "Offmeta": 44,
+                "For fun": 44,
                 "Unique": 13
             }
         },
@@ -2373,9 +2373,9 @@ const STATS = {
                 "Bain-Marie": 0
             },
             "by_viability": {
-                "Meta": 30,
+                "Recommended": 30,
                 "Viable": 38,
-                "Offmeta": 4,
+                "For fun": 4,
                 "Unique": 0
             },
             "by_build": {
@@ -2415,9 +2415,9 @@ const STATS = {
             },
             "ranking_by_element": 4,
             "ranking_by_viability": {
-                "Meta": 20,
+                "Recommended": 20,
                 "Viable": 23,
-                "Offmeta": 27,
+                "For fun": 27,
                 "Unique": 0
             }
         },
@@ -2455,9 +2455,9 @@ const STATS = {
                 "Bain-Marie": 0
             },
             "by_viability": {
-                "Meta": 2,
+                "Recommended": 2,
                 "Viable": 5,
-                "Offmeta": 0,
+                "For fun": 0,
                 "Unique": 0
             },
             "by_build": {
@@ -2495,9 +2495,9 @@ const STATS = {
             },
             "ranking_by_element": 9,
             "ranking_by_viability": {
-                "Meta": 63,
+                "Recommended": 63,
                 "Viable": 60,
-                "Offmeta": 0,
+                "For fun": 0,
                 "Unique": 0
             }
         },
@@ -2535,9 +2535,9 @@ const STATS = {
                 "Bain-Marie": 0
             },
             "by_viability": {
-                "Meta": 15,
+                "Recommended": 15,
                 "Viable": 5,
-                "Offmeta": 0,
+                "For fun": 0,
                 "Unique": 2
             },
             "by_build": {
@@ -2575,9 +2575,9 @@ const STATS = {
             },
             "ranking_by_element": 12,
             "ranking_by_viability": {
-                "Meta": 34,
+                "Recommended": 34,
                 "Viable": 60,
-                "Offmeta": 0,
+                "For fun": 0,
                 "Unique": 8
             }
         },
@@ -2615,9 +2615,9 @@ const STATS = {
                 "Bain-Marie": 0
             },
             "by_viability": {
-                "Meta": 23,
+                "Recommended": 23,
                 "Viable": 53,
-                "Offmeta": 12,
+                "For fun": 12,
                 "Unique": 0
             },
             "by_build": {
@@ -2656,9 +2656,9 @@ const STATS = {
             },
             "ranking_by_element": 1,
             "ranking_by_viability": {
-                "Meta": 23,
+                "Recommended": 23,
                 "Viable": 17,
-                "Offmeta": 9,
+                "For fun": 9,
                 "Unique": 0
             }
         },
@@ -2696,9 +2696,9 @@ const STATS = {
                 "Bain-Marie": 0
             },
             "by_viability": {
-                "Meta": 1,
+                "Recommended": 1,
                 "Viable": 23,
-                "Offmeta": 0,
+                "For fun": 0,
                 "Unique": 0
             },
             "by_build": {
@@ -2737,9 +2737,9 @@ const STATS = {
             },
             "ranking_by_element": 11,
             "ranking_by_viability": {
-                "Meta": 66,
+                "Recommended": 66,
                 "Viable": 38,
-                "Offmeta": 0,
+                "For fun": 0,
                 "Unique": 0
             }
         },
@@ -2777,9 +2777,9 @@ const STATS = {
                 "Bain-Marie": 0
             },
             "by_viability": {
-                "Meta": 6,
+                "Recommended": 6,
                 "Viable": 5,
-                "Offmeta": 0,
+                "For fun": 0,
                 "Unique": 0
             },
             "by_build": {
@@ -2817,9 +2817,9 @@ const STATS = {
             },
             "ranking_by_element": 13,
             "ranking_by_viability": {
-                "Meta": 48,
+                "Recommended": 48,
                 "Viable": 60,
-                "Offmeta": 0,
+                "For fun": 0,
                 "Unique": 0
             }
         },
@@ -2857,9 +2857,9 @@ const STATS = {
                 "Bain-Marie": 0
             },
             "by_viability": {
-                "Meta": 42,
+                "Recommended": 42,
                 "Viable": 69,
-                "Offmeta": 30,
+                "For fun": 30,
                 "Unique": 2
             },
             "by_build": {
@@ -2898,9 +2898,9 @@ const STATS = {
             },
             "ranking_by_element": 2,
             "ranking_by_viability": {
-                "Meta": 16,
+                "Recommended": 16,
                 "Viable": 10,
-                "Offmeta": 2,
+                "For fun": 2,
                 "Unique": 8
             }
         },
@@ -2938,9 +2938,9 @@ const STATS = {
                 "Bain-Marie": 0
             },
             "by_viability": {
-                "Meta": 16,
+                "Recommended": 16,
                 "Viable": 1,
-                "Offmeta": 3,
+                "For fun": 3,
                 "Unique": 0
             },
             "by_build": {
@@ -2979,9 +2979,9 @@ const STATS = {
             },
             "ranking_by_element": 11,
             "ranking_by_viability": {
-                "Meta": 29,
+                "Recommended": 29,
                 "Viable": 76,
-                "Offmeta": 30,
+                "For fun": 30,
                 "Unique": 0
             }
         },
@@ -3019,9 +3019,9 @@ const STATS = {
                 "Bain-Marie": 0
             },
             "by_viability": {
-                "Meta": 16,
+                "Recommended": 16,
                 "Viable": 19,
-                "Offmeta": 3,
+                "For fun": 3,
                 "Unique": 0
             },
             "by_build": {
@@ -3060,9 +3060,9 @@ const STATS = {
             },
             "ranking_by_element": 6,
             "ranking_by_viability": {
-                "Meta": 29,
+                "Recommended": 29,
                 "Viable": 42,
-                "Offmeta": 30,
+                "For fun": 30,
                 "Unique": 0
             }
         },
@@ -3100,9 +3100,9 @@ const STATS = {
                 "Bain-Marie": 0
             },
             "by_viability": {
-                "Meta": 17,
+                "Recommended": 17,
                 "Viable": 35,
-                "Offmeta": 0,
+                "For fun": 0,
                 "Unique": 0
             },
             "by_build": {
@@ -3141,9 +3141,9 @@ const STATS = {
             },
             "ranking_by_element": 6,
             "ranking_by_viability": {
-                "Meta": 26,
+                "Recommended": 26,
                 "Viable": 26,
-                "Offmeta": 0,
+                "For fun": 0,
                 "Unique": 0
             }
         },
@@ -3181,9 +3181,9 @@ const STATS = {
                 "Bain-Marie": 0
             },
             "by_viability": {
-                "Meta": 0,
+                "Recommended": 0,
                 "Viable": 1,
-                "Offmeta": 0,
+                "For fun": 0,
                 "Unique": 0
             },
             "by_build": {
@@ -3221,9 +3221,9 @@ const STATS = {
             },
             "ranking_by_element": 15,
             "ranking_by_viability": {
-                "Meta": 0,
+                "Recommended": 0,
                 "Viable": 76,
-                "Offmeta": 0,
+                "For fun": 0,
                 "Unique": 0
             }
         },
@@ -3261,9 +3261,9 @@ const STATS = {
                 "Bain-Marie": 0
             },
             "by_viability": {
-                "Meta": 5,
+                "Recommended": 5,
                 "Viable": 2,
-                "Offmeta": 0,
+                "For fun": 0,
                 "Unique": 0
             },
             "by_build": {
@@ -3302,9 +3302,9 @@ const STATS = {
             },
             "ranking_by_element": 9,
             "ranking_by_viability": {
-                "Meta": 53,
+                "Recommended": 53,
                 "Viable": 72,
-                "Offmeta": 0,
+                "For fun": 0,
                 "Unique": 0
             }
         },
@@ -3342,9 +3342,9 @@ const STATS = {
                 "Bain-Marie": 0
             },
             "by_viability": {
-                "Meta": 111,
+                "Recommended": 111,
                 "Viable": 57,
-                "Offmeta": 2,
+                "For fun": 2,
                 "Unique": 1
             },
             "by_build": {
@@ -3384,9 +3384,9 @@ const STATS = {
             },
             "ranking_by_element": 2,
             "ranking_by_viability": {
-                "Meta": 2,
+                "Recommended": 2,
                 "Viable": 15,
-                "Offmeta": 36,
+                "For fun": 36,
                 "Unique": 13
             }
         },
@@ -3424,9 +3424,9 @@ const STATS = {
                 "Bain-Marie": 0
             },
             "by_viability": {
-                "Meta": 15,
+                "Recommended": 15,
                 "Viable": 26,
-                "Offmeta": 3,
+                "For fun": 3,
                 "Unique": 1
             },
             "by_build": {
@@ -3465,9 +3465,9 @@ const STATS = {
             },
             "ranking_by_element": 6,
             "ranking_by_viability": {
-                "Meta": 34,
+                "Recommended": 34,
                 "Viable": 33,
-                "Offmeta": 30,
+                "For fun": 30,
                 "Unique": 13
             }
         },
@@ -3505,9 +3505,9 @@ const STATS = {
                 "Bain-Marie": 2
             },
             "by_viability": {
-                "Meta": 39,
+                "Recommended": 39,
                 "Viable": 44,
-                "Offmeta": 25,
+                "For fun": 25,
                 "Unique": 0
             },
             "by_build": {
@@ -3547,9 +3547,9 @@ const STATS = {
             },
             "ranking_by_element": 3,
             "ranking_by_viability": {
-                "Meta": 17,
+                "Recommended": 17,
                 "Viable": 21,
-                "Offmeta": 4,
+                "For fun": 4,
                 "Unique": 0
             }
         },
@@ -3587,9 +3587,9 @@ const STATS = {
                 "Bain-Marie": 0
             },
             "by_viability": {
-                "Meta": 4,
+                "Recommended": 4,
                 "Viable": 5,
-                "Offmeta": 0,
+                "For fun": 0,
                 "Unique": 0
             },
             "by_build": {
@@ -3627,9 +3627,9 @@ const STATS = {
             },
             "ranking_by_element": 8,
             "ranking_by_viability": {
-                "Meta": 54,
+                "Recommended": 54,
                 "Viable": 60,
-                "Offmeta": 0,
+                "For fun": 0,
                 "Unique": 0
             }
         },
@@ -3667,9 +3667,9 @@ const STATS = {
                 "Bain-Marie": 0
             },
             "by_viability": {
-                "Meta": 10,
+                "Recommended": 10,
                 "Viable": 10,
-                "Offmeta": 0,
+                "For fun": 0,
                 "Unique": 0
             },
             "by_build": {
@@ -3707,9 +3707,9 @@ const STATS = {
             },
             "ranking_by_element": 6,
             "ranking_by_viability": {
-                "Meta": 41,
+                "Recommended": 41,
                 "Viable": 53,
-                "Offmeta": 0,
+                "For fun": 0,
                 "Unique": 0
             }
         },
@@ -3747,9 +3747,9 @@ const STATS = {
                 "Bain-Marie": 0
             },
             "by_viability": {
-                "Meta": 4,
+                "Recommended": 4,
                 "Viable": 9,
-                "Offmeta": 0,
+                "For fun": 0,
                 "Unique": 0
             },
             "by_build": {
@@ -3787,9 +3787,9 @@ const STATS = {
             },
             "ranking_by_element": 7,
             "ranking_by_viability": {
-                "Meta": 54,
+                "Recommended": 54,
                 "Viable": 55,
-                "Offmeta": 0,
+                "For fun": 0,
                 "Unique": 0
             }
         },
@@ -3827,9 +3827,9 @@ const STATS = {
                 "Bain-Marie": 0
             },
             "by_viability": {
-                "Meta": 6,
+                "Recommended": 6,
                 "Viable": 25,
-                "Offmeta": 2,
+                "For fun": 2,
                 "Unique": 0
             },
             "by_build": {
@@ -3868,9 +3868,9 @@ const STATS = {
             },
             "ranking_by_element": 10,
             "ranking_by_viability": {
-                "Meta": 48,
+                "Recommended": 48,
                 "Viable": 34,
-                "Offmeta": 36,
+                "For fun": 36,
                 "Unique": 0
             }
         },
@@ -3908,9 +3908,9 @@ const STATS = {
                 "Bain-Marie": 0
             },
             "by_viability": {
-                "Meta": 27,
+                "Recommended": 27,
                 "Viable": 27,
-                "Offmeta": 0,
+                "For fun": 0,
                 "Unique": 0
             },
             "by_build": {
@@ -3950,9 +3950,9 @@ const STATS = {
             },
             "ranking_by_element": 4,
             "ranking_by_viability": {
-                "Meta": 21,
+                "Recommended": 21,
                 "Viable": 31,
-                "Offmeta": 0,
+                "For fun": 0,
                 "Unique": 0
             }
         },
@@ -3990,9 +3990,9 @@ const STATS = {
                 "Bain-Marie": 0
             },
             "by_viability": {
-                "Meta": 13,
+                "Recommended": 13,
                 "Viable": 7,
-                "Offmeta": 0,
+                "For fun": 0,
                 "Unique": 0
             },
             "by_build": {
@@ -4030,9 +4030,9 @@ const STATS = {
             },
             "ranking_by_element": 8,
             "ranking_by_viability": {
-                "Meta": 36,
+                "Recommended": 36,
                 "Viable": 57,
-                "Offmeta": 0,
+                "For fun": 0,
                 "Unique": 0
             }
         },
@@ -4070,9 +4070,9 @@ const STATS = {
                 "Bain-Marie": 0
             },
             "by_viability": {
-                "Meta": 60,
+                "Recommended": 60,
                 "Viable": 88,
-                "Offmeta": 12,
+                "For fun": 12,
                 "Unique": 1
             },
             "by_build": {
@@ -4111,9 +4111,9 @@ const STATS = {
             },
             "ranking_by_element": 4,
             "ranking_by_viability": {
-                "Meta": 11,
+                "Recommended": 11,
                 "Viable": 8,
-                "Offmeta": 9,
+                "For fun": 9,
                 "Unique": 13
             }
         },
@@ -4151,9 +4151,9 @@ const STATS = {
                 "Bain-Marie": 0
             },
             "by_viability": {
-                "Meta": 64,
+                "Recommended": 64,
                 "Viable": 62,
-                "Offmeta": 2,
+                "For fun": 2,
                 "Unique": 0
             },
             "by_build": {
@@ -4192,9 +4192,9 @@ const STATS = {
             },
             "ranking_by_element": 3,
             "ranking_by_viability": {
-                "Meta": 10,
+                "Recommended": 10,
                 "Viable": 11,
-                "Offmeta": 36,
+                "For fun": 36,
                 "Unique": 0
             }
         },
@@ -4232,9 +4232,9 @@ const STATS = {
                 "Bain-Marie": 0
             },
             "by_viability": {
-                "Meta": 0,
+                "Recommended": 0,
                 "Viable": 2,
-                "Offmeta": 0,
+                "For fun": 0,
                 "Unique": 0
             },
             "by_build": {
@@ -4273,9 +4273,9 @@ const STATS = {
             },
             "ranking_by_element": 11,
             "ranking_by_viability": {
-                "Meta": 0,
+                "Recommended": 0,
                 "Viable": 72,
-                "Offmeta": 0,
+                "For fun": 0,
                 "Unique": 0
             }
         },
@@ -4313,9 +4313,9 @@ const STATS = {
                 "Bain-Marie": 0
             },
             "by_viability": {
-                "Meta": 4,
+                "Recommended": 4,
                 "Viable": 0,
-                "Offmeta": 0,
+                "For fun": 0,
                 "Unique": 0
             },
             "by_build": {
@@ -4353,9 +4353,9 @@ const STATS = {
             },
             "ranking_by_element": 9,
             "ranking_by_viability": {
-                "Meta": 54,
+                "Recommended": 54,
                 "Viable": 0,
-                "Offmeta": 0,
+                "For fun": 0,
                 "Unique": 0
             }
         },
@@ -4393,9 +4393,9 @@ const STATS = {
                 "Bain-Marie": 0
             },
             "by_viability": {
-                "Meta": 1,
+                "Recommended": 1,
                 "Viable": 10,
-                "Offmeta": 3,
+                "For fun": 3,
                 "Unique": 0
             },
             "by_build": {
@@ -4433,9 +4433,9 @@ const STATS = {
             },
             "ranking_by_element": 5,
             "ranking_by_viability": {
-                "Meta": 66,
+                "Recommended": 66,
                 "Viable": 53,
-                "Offmeta": 30,
+                "For fun": 30,
                 "Unique": 0
             }
         },
@@ -4473,9 +4473,9 @@ const STATS = {
                 "Bain-Marie": 0
             },
             "by_viability": {
-                "Meta": 4,
+                "Recommended": 4,
                 "Viable": 34,
-                "Offmeta": 6,
+                "For fun": 6,
                 "Unique": 0
             },
             "by_build": {
@@ -4516,9 +4516,9 @@ const STATS = {
             },
             "ranking_by_element": 6,
             "ranking_by_viability": {
-                "Meta": 54,
+                "Recommended": 54,
                 "Viable": 27,
-                "Offmeta": 21,
+                "For fun": 21,
                 "Unique": 0
             }
         },
@@ -4556,9 +4556,9 @@ const STATS = {
                 "Bain-Marie": 0
             },
             "by_viability": {
-                "Meta": 0,
+                "Recommended": 0,
                 "Viable": 3,
-                "Offmeta": 0,
+                "For fun": 0,
                 "Unique": 0
             },
             "by_build": {
@@ -4596,9 +4596,9 @@ const STATS = {
             },
             "ranking_by_element": 11,
             "ranking_by_viability": {
-                "Meta": 0,
+                "Recommended": 0,
                 "Viable": 69,
-                "Offmeta": 0,
+                "For fun": 0,
                 "Unique": 0
             }
         },
@@ -4636,9 +4636,9 @@ const STATS = {
                 "Bain-Marie": 0
             },
             "by_viability": {
-                "Meta": 16,
+                "Recommended": 16,
                 "Viable": 19,
-                "Offmeta": 0,
+                "For fun": 0,
                 "Unique": 0
             },
             "by_build": {
@@ -4677,9 +4677,9 @@ const STATS = {
             },
             "ranking_by_element": 7,
             "ranking_by_viability": {
-                "Meta": 29,
+                "Recommended": 29,
                 "Viable": 42,
-                "Offmeta": 0,
+                "For fun": 0,
                 "Unique": 0
             }
         },
@@ -4717,9 +4717,9 @@ const STATS = {
                 "Bain-Marie": 0
             },
             "by_viability": {
-                "Meta": 2,
+                "Recommended": 2,
                 "Viable": 6,
-                "Offmeta": 0,
+                "For fun": 0,
                 "Unique": 0
             },
             "by_build": {
@@ -4758,9 +4758,9 @@ const STATS = {
             },
             "ranking_by_element": 10,
             "ranking_by_viability": {
-                "Meta": 63,
+                "Recommended": 63,
                 "Viable": 59,
-                "Offmeta": 0,
+                "For fun": 0,
                 "Unique": 0
             }
         },
@@ -4798,9 +4798,9 @@ const STATS = {
                 "Bain-Marie": 0
             },
             "by_viability": {
-                "Meta": 75,
+                "Recommended": 75,
                 "Viable": 109,
-                "Offmeta": 4,
+                "For fun": 4,
                 "Unique": 7
             },
             "by_build": {
@@ -4840,9 +4840,9 @@ const STATS = {
             },
             "ranking_by_element": 1,
             "ranking_by_viability": {
-                "Meta": 7,
+                "Recommended": 7,
                 "Viable": 6,
-                "Offmeta": 27,
+                "For fun": 27,
                 "Unique": 2
             }
         },
@@ -4880,9 +4880,9 @@ const STATS = {
                 "Bain-Marie": 0
             },
             "by_viability": {
-                "Meta": 17,
+                "Recommended": 17,
                 "Viable": 31,
-                "Offmeta": 7,
+                "For fun": 7,
                 "Unique": 0
             },
             "by_build": {
@@ -4921,9 +4921,9 @@ const STATS = {
             },
             "ranking_by_element": 6,
             "ranking_by_viability": {
-                "Meta": 26,
+                "Recommended": 26,
                 "Viable": 29,
-                "Offmeta": 18,
+                "For fun": 18,
                 "Unique": 0
             }
         },
@@ -4961,9 +4961,9 @@ const STATS = {
                 "Bain-Marie": 0
             },
             "by_viability": {
-                "Meta": 4,
+                "Recommended": 4,
                 "Viable": 5,
-                "Offmeta": 0,
+                "For fun": 0,
                 "Unique": 0
             },
             "by_build": {
@@ -5001,9 +5001,9 @@ const STATS = {
             },
             "ranking_by_element": 8,
             "ranking_by_viability": {
-                "Meta": 54,
+                "Recommended": 54,
                 "Viable": 60,
-                "Offmeta": 0,
+                "For fun": 0,
                 "Unique": 0
             }
         },
@@ -5041,9 +5041,9 @@ const STATS = {
                 "Bain-Marie": 0
             },
             "by_viability": {
-                "Meta": 2,
+                "Recommended": 2,
                 "Viable": 2,
-                "Offmeta": 0,
+                "For fun": 0,
                 "Unique": 0
             },
             "by_build": {
@@ -5081,9 +5081,9 @@ const STATS = {
             },
             "ranking_by_element": 10,
             "ranking_by_viability": {
-                "Meta": 63,
+                "Recommended": 63,
                 "Viable": 72,
-                "Offmeta": 0,
+                "For fun": 0,
                 "Unique": 0
             }
         },
@@ -5121,9 +5121,9 @@ const STATS = {
                 "Bain-Marie": 0
             },
             "by_viability": {
-                "Meta": 4,
+                "Recommended": 4,
                 "Viable": 4,
-                "Offmeta": 0,
+                "For fun": 0,
                 "Unique": 0
             },
             "by_build": {
@@ -5161,9 +5161,9 @@ const STATS = {
             },
             "ranking_by_element": 7,
             "ranking_by_viability": {
-                "Meta": 54,
+                "Recommended": 54,
                 "Viable": 68,
-                "Offmeta": 0,
+                "For fun": 0,
                 "Unique": 0
             }
         },
@@ -5201,9 +5201,9 @@ const STATS = {
                 "Bain-Marie": 2
             },
             "by_viability": {
-                "Meta": 77,
+                "Recommended": 77,
                 "Viable": 55,
-                "Offmeta": 8,
+                "For fun": 8,
                 "Unique": 1
             },
             "by_build": {
@@ -5242,9 +5242,9 @@ const STATS = {
             },
             "ranking_by_element": 2,
             "ranking_by_viability": {
-                "Meta": 5,
+                "Recommended": 5,
                 "Viable": 16,
-                "Offmeta": 15,
+                "For fun": 15,
                 "Unique": 13
             }
         },
@@ -5282,9 +5282,9 @@ const STATS = {
                 "Bain-Marie": 0
             },
             "by_viability": {
-                "Meta": 3,
+                "Recommended": 3,
                 "Viable": 16,
-                "Offmeta": 12,
+                "For fun": 12,
                 "Unique": 0
             },
             "by_build": {
@@ -5323,9 +5323,9 @@ const STATS = {
             },
             "ranking_by_element": 9,
             "ranking_by_viability": {
-                "Meta": 62,
+                "Recommended": 62,
                 "Viable": 45,
-                "Offmeta": 9,
+                "For fun": 9,
                 "Unique": 0
             }
         },
@@ -5363,9 +5363,9 @@ const STATS = {
                 "Bain-Marie": 0
             },
             "by_viability": {
-                "Meta": 12,
+                "Recommended": 12,
                 "Viable": 24,
-                "Offmeta": 2,
+                "For fun": 2,
                 "Unique": 0
             },
             "by_build": {
@@ -5403,9 +5403,9 @@ const STATS = {
             },
             "ranking_by_element": 8,
             "ranking_by_viability": {
-                "Meta": 39,
+                "Recommended": 39,
                 "Viable": 36,
-                "Offmeta": 36,
+                "For fun": 36,
                 "Unique": 0
             }
         },
@@ -5443,9 +5443,9 @@ const STATS = {
                 "Bain-Marie": 2
             },
             "by_viability": {
-                "Meta": 72,
+                "Recommended": 72,
                 "Viable": 51,
-                "Offmeta": 9,
+                "For fun": 9,
                 "Unique": 1
             },
             "by_build": {
@@ -5483,9 +5483,9 @@ const STATS = {
             },
             "ranking_by_element": 4,
             "ranking_by_viability": {
-                "Meta": 8,
+                "Recommended": 8,
                 "Viable": 18,
-                "Offmeta": 13,
+                "For fun": 13,
                 "Unique": 13
             }
         },
@@ -5523,9 +5523,9 @@ const STATS = {
                 "Bain-Marie": 0
             },
             "by_viability": {
-                "Meta": 0,
+                "Recommended": 0,
                 "Viable": 1,
-                "Offmeta": 5,
+                "For fun": 5,
                 "Unique": 0
             },
             "by_build": {
@@ -5563,9 +5563,9 @@ const STATS = {
             },
             "ranking_by_element": 8,
             "ranking_by_viability": {
-                "Meta": 0,
+                "Recommended": 0,
                 "Viable": 76,
-                "Offmeta": 23,
+                "For fun": 23,
                 "Unique": 0
             }
         },
@@ -5603,9 +5603,9 @@ const STATS = {
                 "Bain-Marie": 0
             },
             "by_viability": {
-                "Meta": 1,
+                "Recommended": 1,
                 "Viable": 7,
-                "Offmeta": 2,
+                "For fun": 2,
                 "Unique": 1
             },
             "by_build": {
@@ -5644,9 +5644,9 @@ const STATS = {
             },
             "ranking_by_element": 6,
             "ranking_by_viability": {
-                "Meta": 66,
+                "Recommended": 66,
                 "Viable": 57,
-                "Offmeta": 36,
+                "For fun": 36,
                 "Unique": 13
             }
         },
@@ -5684,9 +5684,9 @@ const STATS = {
                 "Bain-Marie": 0
             },
             "by_viability": {
-                "Meta": 10,
+                "Recommended": 10,
                 "Viable": 37,
-                "Offmeta": 13,
+                "For fun": 13,
                 "Unique": 0
             },
             "by_build": {
@@ -5724,9 +5724,9 @@ const STATS = {
             },
             "ranking_by_element": 5,
             "ranking_by_viability": {
-                "Meta": 41,
+                "Recommended": 41,
                 "Viable": 24,
-                "Offmeta": 8,
+                "For fun": 8,
                 "Unique": 0
             }
         },
@@ -5764,9 +5764,9 @@ const STATS = {
                 "Bain-Marie": 0
             },
             "by_viability": {
-                "Meta": 0,
+                "Recommended": 0,
                 "Viable": 16,
-                "Offmeta": 1,
+                "For fun": 1,
                 "Unique": 0
             },
             "by_build": {
@@ -5804,9 +5804,9 @@ const STATS = {
             },
             "ranking_by_element": 7,
             "ranking_by_viability": {
-                "Meta": 0,
+                "Recommended": 0,
                 "Viable": 45,
-                "Offmeta": 44,
+                "For fun": 44,
                 "Unique": 0
             }
         },
@@ -5844,9 +5844,9 @@ const STATS = {
                 "Bain-Marie": 0
             },
             "by_viability": {
-                "Meta": 4,
+                "Recommended": 4,
                 "Viable": 62,
-                "Offmeta": 12,
+                "For fun": 12,
                 "Unique": 0
             },
             "by_build": {
@@ -5886,9 +5886,9 @@ const STATS = {
             },
             "ranking_by_element": 2,
             "ranking_by_viability": {
-                "Meta": 54,
+                "Recommended": 54,
                 "Viable": 11,
-                "Offmeta": 9,
+                "For fun": 9,
                 "Unique": 0
             }
         },
@@ -5926,9 +5926,9 @@ const STATS = {
                 "Bain-Marie": 0
             },
             "by_viability": {
-                "Meta": 79,
+                "Recommended": 79,
                 "Viable": 50,
-                "Offmeta": 0,
+                "For fun": 0,
                 "Unique": 2
             },
             "by_build": {
@@ -5966,9 +5966,9 @@ const STATS = {
             },
             "ranking_by_element": 5,
             "ranking_by_viability": {
-                "Meta": 4,
+                "Recommended": 4,
                 "Viable": 19,
-                "Offmeta": 0,
+                "For fun": 0,
                 "Unique": 8
             }
         },
@@ -6006,9 +6006,9 @@ const STATS = {
                 "Bain-Marie": 4
             },
             "by_viability": {
-                "Meta": 33,
+                "Recommended": 33,
                 "Viable": 43,
-                "Offmeta": 0,
+                "For fun": 0,
                 "Unique": 0
             },
             "by_build": {
@@ -6046,9 +6046,9 @@ const STATS = {
             },
             "ranking_by_element": 3,
             "ranking_by_viability": {
-                "Meta": 18,
+                "Recommended": 18,
                 "Viable": 22,
-                "Offmeta": 0,
+                "For fun": 0,
                 "Unique": 0
             }
         },
@@ -6086,9 +6086,9 @@ const STATS = {
                 "Bain-Marie": 4
             },
             "by_viability": {
-                "Meta": 306,
+                "Recommended": 306,
                 "Viable": 277,
-                "Offmeta": 14,
+                "For fun": 14,
                 "Unique": 3
             },
             "by_build": {
@@ -6126,9 +6126,9 @@ const STATS = {
             },
             "ranking_by_element": 1,
             "ranking_by_viability": {
-                "Meta": 1,
+                "Recommended": 1,
                 "Viable": 1,
-                "Offmeta": 7,
+                "For fun": 7,
                 "Unique": 5
             }
         },
@@ -6166,9 +6166,9 @@ const STATS = {
                 "Bain-Marie": 0
             },
             "by_viability": {
-                "Meta": 16,
+                "Recommended": 16,
                 "Viable": 24,
-                "Offmeta": 2,
+                "For fun": 2,
                 "Unique": 0
             },
             "by_build": {
@@ -6206,9 +6206,9 @@ const STATS = {
             },
             "ranking_by_element": 7,
             "ranking_by_viability": {
-                "Meta": 29,
+                "Recommended": 29,
                 "Viable": 36,
-                "Offmeta": 36,
+                "For fun": 36,
                 "Unique": 0
             }
         },
@@ -6246,9 +6246,9 @@ const STATS = {
                 "Bain-Marie": 0
             },
             "by_viability": {
-                "Meta": 55,
+                "Recommended": 55,
                 "Viable": 18,
-                "Offmeta": 0,
+                "For fun": 0,
                 "Unique": 0
             },
             "by_build": {
@@ -6286,9 +6286,9 @@ const STATS = {
             },
             "ranking_by_element": 1,
             "ranking_by_viability": {
-                "Meta": 13,
+                "Recommended": 13,
                 "Viable": 44,
-                "Offmeta": 0,
+                "For fun": 0,
                 "Unique": 0
             }
         },
@@ -6326,9 +6326,9 @@ const STATS = {
                 "Bain-Marie": 0
             },
             "by_viability": {
-                "Meta": 13,
+                "Recommended": 13,
                 "Viable": 21,
-                "Offmeta": 5,
+                "For fun": 5,
                 "Unique": 0
             },
             "by_build": {
@@ -6366,9 +6366,9 @@ const STATS = {
             },
             "ranking_by_element": 8,
             "ranking_by_viability": {
-                "Meta": 36,
+                "Recommended": 36,
                 "Viable": 39,
-                "Offmeta": 23,
+                "For fun": 23,
                 "Unique": 0
             }
         },
@@ -6406,9 +6406,9 @@ const STATS = {
                 "Bain-Marie": 0
             },
             "by_viability": {
-                "Meta": 45,
+                "Recommended": 45,
                 "Viable": 112,
-                "Offmeta": 1,
+                "For fun": 1,
                 "Unique": 1
             },
             "by_build": {
@@ -6446,9 +6446,9 @@ const STATS = {
             },
             "ranking_by_element": 1,
             "ranking_by_viability": {
-                "Meta": 15,
+                "Recommended": 15,
                 "Viable": 5,
-                "Offmeta": 44,
+                "For fun": 44,
                 "Unique": 13
             }
         },
@@ -6486,9 +6486,9 @@ const STATS = {
                 "Bain-Marie": 0
             },
             "by_viability": {
-                "Meta": 10,
+                "Recommended": 10,
                 "Viable": 37,
-                "Offmeta": 0,
+                "For fun": 0,
                 "Unique": 0
             },
             "by_build": {
@@ -6527,9 +6527,9 @@ const STATS = {
             },
             "ranking_by_element": 7,
             "ranking_by_viability": {
-                "Meta": 41,
+                "Recommended": 41,
                 "Viable": 24,
-                "Offmeta": 0,
+                "For fun": 0,
                 "Unique": 0
             }
         },
@@ -6567,9 +6567,9 @@ const STATS = {
                 "Bain-Marie": 0
             },
             "by_viability": {
-                "Meta": 19,
+                "Recommended": 19,
                 "Viable": 14,
-                "Offmeta": 1,
+                "For fun": 1,
                 "Unique": 0
             },
             "by_build": {
@@ -6607,9 +6607,9 @@ const STATS = {
             },
             "ranking_by_element": 3,
             "ranking_by_viability": {
-                "Meta": 25,
+                "Recommended": 25,
                 "Viable": 47,
-                "Offmeta": 44,
+                "For fun": 44,
                 "Unique": 0
             }
         },
@@ -6647,9 +6647,9 @@ const STATS = {
                 "Bain-Marie": 0
             },
             "by_viability": {
-                "Meta": 0,
+                "Recommended": 0,
                 "Viable": 3,
-                "Offmeta": 0,
+                "For fun": 0,
                 "Unique": 0
             },
             "by_build": {
@@ -6687,9 +6687,9 @@ const STATS = {
             },
             "ranking_by_element": 14,
             "ranking_by_viability": {
-                "Meta": 0,
+                "Recommended": 0,
                 "Viable": 69,
-                "Offmeta": 0,
+                "For fun": 0,
                 "Unique": 0
             }
         }
@@ -26556,7 +26556,7 @@ const STATS = {
         }
     },
     "global_viability_ranking": {
-        "Meta": {
+        "Recommended": {
             "1": {
                 "name": "Furina",
                 "team_count": 306
@@ -27872,7 +27872,7 @@ const STATS = {
                 "team_count": 3
             }
         },
-        "Offmeta": {
+        "For fun": {
             "1": {
                 "name": "Bennett",
                 "team_count": 40

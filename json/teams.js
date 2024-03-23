@@ -6,7 +6,7 @@ const teams = {
         "archetype": [
             "Salad"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Sucrose",
             "build": "Standard"
@@ -35,7 +35,7 @@ const teams = {
         "archetype": [
             "Taser"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Sucrose",
             "build": "Standard"
@@ -93,7 +93,7 @@ const teams = {
         "archetype": [
             "Overvape"
         ],
-        "viability": "Offmeta",
+        "viability": "For fun",
         "character_1": {
             "name": "Klee",
             "build": "Standard"
@@ -122,7 +122,7 @@ const teams = {
         "archetype": [
             "Overload"
         ],
-        "viability": "Offmeta",
+        "viability": "For fun",
         "character_1": {
             "name": "Klee",
             "build": "Standard"
@@ -238,7 +238,7 @@ const teams = {
         "archetype": [
             "National"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Tartaglia",
             "build": "Standard"
@@ -329,7 +329,7 @@ const teams = {
         "archetype": [
             "Melt"
         ],
-        "viability": "Offmeta",
+        "viability": "For fun",
         "character_1": {
             "name": "Klee",
             "build": "Standard"
@@ -364,7 +364,7 @@ const teams = {
         "archetype": [
             "Vaporize"
         ],
-        "viability": "Offmeta",
+        "viability": "For fun",
         "character_1": {
             "name": "Klee",
             "build": "Standard"
@@ -397,7 +397,7 @@ const teams = {
         "archetype": [
             "MonoPyro"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Klee",
             "build": "Monopyro"
@@ -428,7 +428,7 @@ const teams = {
         "archetype": [
             "MonoPyro"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Klee",
             "build": "Monopyro"
@@ -523,7 +523,7 @@ const teams = {
         "archetype": [
             "Sauté"
         ],
-        "viability": "Offmeta",
+        "viability": "For fun",
         "character_1": {
             "name": "Tartaglia",
             "build": "Standard"
@@ -552,7 +552,7 @@ const teams = {
         "archetype": [
             "Freeze"
         ],
-        "viability": "Offmeta",
+        "viability": "For fun",
         "character_1": {
             "name": "Tartaglia",
             "build": "Standard"
@@ -581,7 +581,7 @@ const teams = {
         "archetype": [
             "National"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Tartaglia",
             "build": "Standard"
@@ -610,7 +610,7 @@ const teams = {
         "archetype": [
             "Freeze"
         ],
-        "viability": "Offmeta",
+        "viability": "For fun",
         "character_1": {
             "name": "Tartaglia",
             "build": "Standard"
@@ -643,7 +643,7 @@ const teams = {
         "archetype": [
             "MonoPyro"
         ],
-        "viability": "Offmeta",
+        "viability": "For fun",
         "character_1": {
             "name": "Sayu",
             "build": "Standard"
@@ -730,7 +730,7 @@ const teams = {
         "archetype": [
             "Vaporize"
         ],
-        "viability": "Offmeta",
+        "viability": "For fun",
         "character_1": {
             "name": "Klee",
             "build": "Standard"
@@ -885,7 +885,7 @@ const teams = {
         "archetype": [
             "Hypercarry"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Raiden Shogun",
             "build": "Standard"
@@ -1040,7 +1040,7 @@ const teams = {
         "archetype": [
             "National"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Raiden Shogun",
             "build": "Standard"
@@ -1102,7 +1102,7 @@ const teams = {
         "archetype": [
             "Vaporize"
         ],
-        "viability": "Offmeta",
+        "viability": "For fun",
         "character_1": {
             "name": "Klee",
             "build": "Standard"
@@ -1135,7 +1135,7 @@ const teams = {
         "archetype": [
             "Vaporize"
         ],
-        "viability": "Offmeta",
+        "viability": "For fun",
         "character_1": {
             "name": "Klee",
             "build": "Standard"
@@ -1238,7 +1238,7 @@ const teams = {
         "archetype": [
             "MonoHydro"
         ],
-        "viability": "Offmeta",
+        "viability": "For fun",
         "character_1": {
             "name": "Sangonomiya Kokomi",
             "build": "Standard"
@@ -1267,7 +1267,7 @@ const teams = {
         "archetype": [
             "MonoHydro"
         ],
-        "viability": "Offmeta",
+        "viability": "For fun",
         "character_1": {
             "name": "Tartaglia",
             "build": "Standard"
@@ -1298,7 +1298,7 @@ const teams = {
         "archetype": [
             "MonoHydro"
         ],
-        "viability": "Offmeta",
+        "viability": "For fun",
         "character_1": {
             "name": "Tartaglia",
             "build": "Standard"
@@ -1327,7 +1327,7 @@ const teams = {
         "archetype": [
             "MonoHydro"
         ],
-        "viability": "Offmeta",
+        "viability": "For fun",
         "character_1": {
             "name": "Tartaglia",
             "build": "Standard"
@@ -1385,7 +1385,7 @@ const teams = {
         "archetype": [
             "Curry"
         ],
-        "viability": "Offmeta",
+        "viability": "For fun",
         "character_1": {
             "name": "Tartaglia",
             "build": "Standard"
@@ -1476,7 +1476,7 @@ const teams = {
         "archetype": [
             "Curry"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Razor",
             "build": "Standard"
@@ -1505,7 +1505,7 @@ const teams = {
         "archetype": [
             "HyperFridge"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Bennett",
             "build": "EM"
@@ -1538,7 +1538,7 @@ const teams = {
         "archetype": [
             "Curry"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Bennett",
             "build": "EM"
@@ -1567,7 +1567,7 @@ const teams = {
         "archetype": [
             "Burgeon"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Bennett",
             "build": "EM"
@@ -1598,7 +1598,7 @@ const teams = {
         "archetype": [
             "Curry"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Nahida",
             "build": "Standard"
@@ -1719,7 +1719,7 @@ const teams = {
         "archetype": [
             "Curry"
         ],
-        "viability": "Offmeta",
+        "viability": "For fun",
         "character_1": {
             "name": "Tartaglia",
             "build": "Standard"
@@ -1785,7 +1785,7 @@ const teams = {
         "archetype": [
             "Burgeon"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Tartaglia",
             "build": "Standard"
@@ -1937,7 +1937,7 @@ const teams = {
         "archetype": [
             "Sauté"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Tartaglia",
             "build": "Standard"
@@ -1997,7 +1997,7 @@ const teams = {
         "archetype": [
             "Melt"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Ganyu",
             "build": "Standard"
@@ -2034,7 +2034,7 @@ const teams = {
         "archetype": [
             "Freeze"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Ganyu",
             "build": "Standard"
@@ -2069,7 +2069,7 @@ const teams = {
         "archetype": [
             "Freeze"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Ganyu",
             "build": "Standard"
@@ -2575,7 +2575,7 @@ const teams = {
         "archetype": [
             "Oven"
         ],
-        "viability": "Offmeta",
+        "viability": "For fun",
         "character_1": {
             "name": "Tartaglia",
             "build": "Standard"
@@ -2612,7 +2612,7 @@ const teams = {
         "archetype": [
             "Vaporize"
         ],
-        "viability": "Offmeta",
+        "viability": "For fun",
         "character_1": {
             "name": "Dehya",
             "build": "Standard"
@@ -2890,7 +2890,7 @@ const teams = {
         "archetype": [
             "Oven"
         ],
-        "viability": "Offmeta",
+        "viability": "For fun",
         "character_1": {
             "name": "Tartaglia",
             "build": "Standard"
@@ -2927,7 +2927,7 @@ const teams = {
         "archetype": [
             "Fridge"
         ],
-        "viability": "Offmeta",
+        "viability": "For fun",
         "character_1": {
             "name": "Kaveh",
             "build": "Standard"
@@ -2999,7 +2999,7 @@ const teams = {
         "archetype": [
             "Burgeon"
         ],
-        "viability": "Offmeta",
+        "viability": "For fun",
         "character_1": {
             "name": "Tartaglia",
             "build": "Standard"
@@ -3133,7 +3133,7 @@ const teams = {
         "archetype": [
             "MonoPyro"
         ],
-        "viability": "Offmeta",
+        "viability": "For fun",
         "character_1": {
             "name": "Lyney",
             "build": "Standard"
@@ -3164,7 +3164,7 @@ const teams = {
         "archetype": [
             "MonoPyro"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Lyney",
             "build": "Standard"
@@ -3263,7 +3263,7 @@ const teams = {
         "archetype": [
             "MonoPyro"
         ],
-        "viability": "Offmeta",
+        "viability": "For fun",
         "character_1": {
             "name": "Lyney",
             "build": "Standard"
@@ -3298,7 +3298,7 @@ const teams = {
         "archetype": [
             "Melt"
         ],
-        "viability": "Offmeta",
+        "viability": "For fun",
         "character_1": {
             "name": "Lyney",
             "build": "Standard"
@@ -3329,7 +3329,7 @@ const teams = {
         "archetype": [
             "MonoPyro"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Lyney",
             "build": "Standard"
@@ -3358,7 +3358,7 @@ const teams = {
         "archetype": [
             "MonoPyro"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Lyney",
             "build": "Standard"
@@ -3387,7 +3387,7 @@ const teams = {
         "archetype": [
             "MonoPyro"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Lyney",
             "build": "Standard"
@@ -3416,7 +3416,7 @@ const teams = {
         "archetype": [
             "MonoPyro"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Lyney",
             "build": "Standard"
@@ -3480,7 +3480,7 @@ const teams = {
         "archetype": [
             "MonoPyro"
         ],
-        "viability": "Offmeta",
+        "viability": "For fun",
         "character_1": {
             "name": "Lyney",
             "build": "Standard"
@@ -3723,7 +3723,7 @@ const teams = {
         "archetype": [
             "Melt"
         ],
-        "viability": "Offmeta",
+        "viability": "For fun",
         "character_1": {
             "name": "Freminet",
             "build": "Freeze"
@@ -3760,7 +3760,7 @@ const teams = {
         "archetype": [
             "Freeze"
         ],
-        "viability": "Offmeta",
+        "viability": "For fun",
         "character_1": {
             "name": "Freminet",
             "build": "Freeze"
@@ -4082,7 +4082,7 @@ const teams = {
         "archetype": [
             "Hyperbloom"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Neuvillette",
             "build": "Standard"
@@ -4148,7 +4148,7 @@ const teams = {
         "archetype": [
             "Hyperbloom"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Neuvillette",
             "build": "Standard"
@@ -4344,7 +4344,7 @@ const teams = {
         "archetype": [
             "Overvape"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Neuvillette",
             "build": "Standard"
@@ -4373,7 +4373,7 @@ const teams = {
         "archetype": [
             "Taser"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Neuvillette",
             "build": "Standard"
@@ -4528,7 +4528,7 @@ const teams = {
         "archetype": [
             "Curry"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Neuvillette",
             "build": "Standard"
@@ -4559,7 +4559,7 @@ const teams = {
         "archetype": [
             "Curry"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Neuvillette",
             "build": "Standard"
@@ -4590,7 +4590,7 @@ const teams = {
         "archetype": [
             "Oven"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Neuvillette",
             "build": "Standard"
@@ -4625,7 +4625,7 @@ const teams = {
         "archetype": [
             "Oven"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Neuvillette",
             "build": "Standard"
@@ -4691,7 +4691,7 @@ const teams = {
         "archetype": [
             "Taser"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Neuvillette",
             "build": "Standard"
@@ -4753,7 +4753,7 @@ const teams = {
         "archetype": [
             "Taser"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Neuvillette",
             "build": "Standard"
@@ -4784,7 +4784,7 @@ const teams = {
         "archetype": [
             "HyperFridge"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Neuvillette",
             "build": "Standard"
@@ -4819,7 +4819,7 @@ const teams = {
         "archetype": [
             "HyperFridge"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Neuvillette",
             "build": "Standard"
@@ -4899,7 +4899,7 @@ const teams = {
         "archetype": [
             "Hyperbloom"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Neuvillette",
             "build": "Standard"
@@ -4971,7 +4971,7 @@ const teams = {
         "archetype": [
             "Hyperbloom"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Neuvillette",
             "build": "Standard"
@@ -5006,7 +5006,7 @@ const teams = {
         "archetype": [
             "HyperFridge"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Neuvillette",
             "build": "Standard"
@@ -5041,7 +5041,7 @@ const teams = {
         "archetype": [
             "HyperFridge"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Neuvillette",
             "build": "Standard"
@@ -5076,7 +5076,7 @@ const teams = {
         "archetype": [
             "Hyperbloom"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Neuvillette",
             "build": "Standard"
@@ -5121,7 +5121,7 @@ const teams = {
         "archetype": [
             "Hyperbloom"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Neuvillette",
             "build": "Standard"
@@ -5156,7 +5156,7 @@ const teams = {
         "archetype": [
             "Hyperbloom"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Neuvillette",
             "build": "Standard"
@@ -5193,7 +5193,7 @@ const teams = {
         "archetype": [
             "Oven"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Wriothesley",
             "build": "Standard"
@@ -5228,7 +5228,7 @@ const teams = {
         "archetype": [
             "Oven"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Wriothesley",
             "build": "Standard"
@@ -5263,7 +5263,7 @@ const teams = {
         "archetype": [
             "Melt"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Wriothesley",
             "build": "Standard"
@@ -5354,7 +5354,7 @@ const teams = {
         "archetype": [
             "HyperFridge"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Wriothesley",
             "build": "Standard"
@@ -5542,7 +5542,7 @@ const teams = {
         "archetype": [
             "HyperFridge"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Wriothesley",
             "build": "Standard"
@@ -5637,7 +5637,7 @@ const teams = {
         "archetype": [
             "Hypercarry"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Neuvillette",
             "build": "Standard"
@@ -5666,7 +5666,7 @@ const teams = {
         "archetype": [
             "Bain-Marie"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Wriothesley",
             "build": "Standard"
@@ -5697,7 +5697,7 @@ const teams = {
         "archetype": [
             "Hypercarry"
         ],
-        "viability": "Offmeta",
+        "viability": "For fun",
         "character_1": {
             "name": "Ningguang",
             "build": "Standard"
@@ -5726,7 +5726,7 @@ const teams = {
         "archetype": [
             "Hypercarry"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Raiden Shogun",
             "build": "Standard"
@@ -5819,7 +5819,7 @@ const teams = {
         "archetype": [
             "National"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Furina",
             "build": "Standard"
@@ -5852,7 +5852,7 @@ const teams = {
         "archetype": [
             "Hypercarry"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Raiden Shogun",
             "build": "Standard"
@@ -5883,7 +5883,7 @@ const teams = {
         "archetype": [
             "National"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Raiden Shogun",
             "build": "Standard"
@@ -5912,7 +5912,7 @@ const teams = {
         "archetype": [
             "Vaporize"
         ],
-        "viability": "Offmeta",
+        "viability": "For fun",
         "character_1": {
             "name": "Dehya",
             "build": "Standard"
@@ -6005,7 +6005,7 @@ const teams = {
         "archetype": [
             "Hyperbloom"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Neuvillette",
             "build": "Standard"
@@ -6034,7 +6034,7 @@ const teams = {
         "archetype": [
             "MonoPyro"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Lyney",
             "build": "Standard"
@@ -6063,7 +6063,7 @@ const teams = {
         "archetype": [
             "Quickbloom"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Yae Miko",
             "build": "Standard"
@@ -6094,7 +6094,7 @@ const teams = {
         "archetype": [
             "Quickbloom"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Yae Miko",
             "build": "Standard"
@@ -6125,7 +6125,7 @@ const teams = {
         "archetype": [
             "Quickbloom"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Raiden Shogun",
             "build": "Standard"
@@ -6156,7 +6156,7 @@ const teams = {
         "archetype": [
             "Quickbloom"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Raiden Shogun",
             "build": "Standard"
@@ -6220,7 +6220,7 @@ const teams = {
         "archetype": [
             "Hyperbloom"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Dori",
             "build": "C6"
@@ -6255,7 +6255,7 @@ const teams = {
         "archetype": [
             "Quickbloom"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Keqing",
             "build": "Standard"
@@ -6286,7 +6286,7 @@ const teams = {
         "archetype": [
             "Quickbloom"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Keqing",
             "build": "Standard"
@@ -6317,7 +6317,7 @@ const teams = {
         "archetype": [
             "Oven"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Furina",
             "build": "Standard"
@@ -6354,7 +6354,7 @@ const teams = {
         "archetype": [
             "Oven"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Furina",
             "build": "Standard"
@@ -6451,7 +6451,7 @@ const teams = {
         "archetype": [
             "Sauté"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Furina",
             "build": "Standard"
@@ -6480,7 +6480,7 @@ const teams = {
         "archetype": [
             "Sauté"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Furina",
             "build": "Standard"
@@ -6511,7 +6511,7 @@ const teams = {
         "archetype": [
             "Sauté"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Furina",
             "build": "Standard"
@@ -6688,7 +6688,7 @@ const teams = {
         "archetype": [
             "Burgeon"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Nahida",
             "build": "Standard"
@@ -6719,7 +6719,7 @@ const teams = {
         "archetype": [
             "Burgeon"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Yelan",
             "build": "Standard"
@@ -6750,7 +6750,7 @@ const teams = {
         "archetype": [
             "Burgeon"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Xingqiu",
             "build": "Standard"
@@ -6781,7 +6781,7 @@ const teams = {
         "archetype": [
             "Burgeon"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Tartaglia",
             "build": "Standard"
@@ -6812,7 +6812,7 @@ const teams = {
         "archetype": [
             "Burgeon"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Kamisato Ayato",
             "build": "Standard"
@@ -6843,7 +6843,7 @@ const teams = {
         "archetype": [
             "Burgeon"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Sangonomiya Kokomi",
             "build": "Standard"
@@ -6874,7 +6874,7 @@ const teams = {
         "archetype": [
             "HyperFridge"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Furina",
             "build": "Standard"
@@ -6913,7 +6913,7 @@ const teams = {
         "archetype": [
             "HyperFridge"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Furina",
             "build": "Standard"
@@ -6954,7 +6954,7 @@ const teams = {
         "archetype": [
             "HyperFridge"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Furina",
             "build": "Standard"
@@ -6993,7 +6993,7 @@ const teams = {
         "archetype": [
             "HyperFridge"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Furina",
             "build": "Standard"
@@ -7034,7 +7034,7 @@ const teams = {
         "archetype": [
             "HyperFridge"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Wriothesley",
             "build": "Standard"
@@ -7065,7 +7065,7 @@ const teams = {
         "archetype": [
             "HyperFridge"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Wriothesley",
             "build": "Standard"
@@ -7096,7 +7096,7 @@ const teams = {
         "archetype": [
             "Hypercarry"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Eula",
             "build": "Standard"
@@ -7127,7 +7127,7 @@ const teams = {
         "archetype": [
             "Hypercarry"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Raiden Shogun",
             "build": "Standard"
@@ -7158,7 +7158,7 @@ const teams = {
         "archetype": [
             "Freeze"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Wriothesley",
             "build": "Standard"
@@ -7218,7 +7218,7 @@ const teams = {
         "archetype": [
             "Hyperbloom"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Kamisato Ayato",
             "build": "Standard"
@@ -7249,7 +7249,7 @@ const teams = {
         "archetype": [
             "Hyperbloom"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Kamisato Ayato",
             "build": "Standard"
@@ -7280,7 +7280,7 @@ const teams = {
         "archetype": [
             "Overvape"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Raiden Shogun",
             "build": "Standard"
@@ -7340,7 +7340,7 @@ const teams = {
         "archetype": [
             "Bloom"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Nilou",
             "build": "Standard"
@@ -7371,7 +7371,7 @@ const teams = {
         "archetype": [
             "Taser"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Sangonomiya Kokomi",
             "build": "Standard"
@@ -7437,7 +7437,7 @@ const teams = {
         "archetype": [
             "Taser"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Furina",
             "build": "Standard"
@@ -7468,7 +7468,7 @@ const teams = {
         "archetype": [
             "Quickbloom"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Baizhu",
             "build": "Standard"
@@ -7505,7 +7505,7 @@ const teams = {
         "archetype": [
             "Quickbloom"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Yaoyao",
             "build": "Standard"
@@ -7544,7 +7544,7 @@ const teams = {
         "archetype": [
             "Quickbloom"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Baizhu",
             "build": "Standard"
@@ -7577,7 +7577,7 @@ const teams = {
         "archetype": [
             "Quickbloom"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Yaoyao",
             "build": "Standard"
@@ -7719,7 +7719,7 @@ const teams = {
         "archetype": [
             "Freeze"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Kamisato Ayaka",
             "build": "Standard"
@@ -7752,7 +7752,7 @@ const teams = {
         "archetype": [
             "MonoHydro"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Sangonomiya Kokomi",
             "build": "Standard"
@@ -7781,7 +7781,7 @@ const teams = {
         "archetype": [
             "MonoHydro"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Noelle",
             "build": "Petra"
@@ -7839,7 +7839,7 @@ const teams = {
         "archetype": [
             "MonoHydro"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Sangonomiya Kokomi",
             "build": "Standard"
@@ -7872,7 +7872,7 @@ const teams = {
         "archetype": [
             "MonoHydro"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Sangonomiya Kokomi",
             "build": "Standard"
@@ -7967,7 +7967,7 @@ const teams = {
         "archetype": [
             "National"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Furina",
             "build": "Standard"
@@ -8039,7 +8039,7 @@ const teams = {
         "archetype": [
             "Quickbloom"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Tighnari",
             "build": "Standard"
@@ -8070,7 +8070,7 @@ const teams = {
         "archetype": [
             "Quickbloom"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Tighnari",
             "build": "Standard"
@@ -8101,7 +8101,7 @@ const teams = {
         "archetype": [
             "Quickbloom"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Alhaitham",
             "build": "Standard"
@@ -8132,7 +8132,7 @@ const teams = {
         "archetype": [
             "Quickbloom"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Alhaitham",
             "build": "Standard"
@@ -8163,7 +8163,7 @@ const teams = {
         "archetype": [
             "Quickbloom"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Keqing",
             "build": "Standard"
@@ -8194,7 +8194,7 @@ const teams = {
         "archetype": [
             "Quickbloom"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Cyno",
             "build": "SoloElectro"
@@ -8231,7 +8231,7 @@ const teams = {
         "archetype": [
             "Quickbloom"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Cyno",
             "build": "SoloElectro"
@@ -8303,7 +8303,7 @@ const teams = {
         "archetype": [
             "Quickbloom"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Cyno",
             "build": "Standard"
@@ -8334,7 +8334,7 @@ const teams = {
         "archetype": [
             "Hyperbloom"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Cyno",
             "build": "SoloElectro"
@@ -8365,7 +8365,7 @@ const teams = {
         "archetype": [
             "Hyperbloom"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Cyno",
             "build": "SoloElectro"
@@ -8396,7 +8396,7 @@ const teams = {
         "archetype": [
             "Hyperbloom"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Furina",
             "build": "Standard"
@@ -8427,7 +8427,7 @@ const teams = {
         "archetype": [
             "Hyperbloom"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Furina",
             "build": "Standard"
@@ -8458,7 +8458,7 @@ const teams = {
         "archetype": [
             "Hyperbloom"
         ],
-        "viability": "Offmeta",
+        "viability": "For fun",
         "character_1": {
             "name": "Furina",
             "build": "Standard"
@@ -8489,7 +8489,7 @@ const teams = {
         "archetype": [
             "Hyperbloom"
         ],
-        "viability": "Offmeta",
+        "viability": "For fun",
         "character_1": {
             "name": "Furina",
             "build": "Standard"
@@ -8520,7 +8520,7 @@ const teams = {
         "archetype": [
             "Hyperbloom"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Furina",
             "build": "Standard"
@@ -8551,7 +8551,7 @@ const teams = {
         "archetype": [
             "Hyperbloom"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Furina",
             "build": "Standard"
@@ -8582,7 +8582,7 @@ const teams = {
         "archetype": [
             "Hyperbloom"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Furina",
             "build": "Standard"
@@ -8613,7 +8613,7 @@ const teams = {
         "archetype": [
             "Hyperbloom"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Furina",
             "build": "Standard"
@@ -8644,7 +8644,7 @@ const teams = {
         "archetype": [
             "Hyperbloom"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Neuvillette",
             "build": "Standard"
@@ -8675,7 +8675,7 @@ const teams = {
         "archetype": [
             "Hyperbloom"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Neuvillette",
             "build": "Standard"
@@ -8706,7 +8706,7 @@ const teams = {
         "archetype": [
             "Hyperbloom"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Neuvillette",
             "build": "Standard"
@@ -8770,7 +8770,7 @@ const teams = {
         "archetype": [
             "Hypercarry"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Neuvillette",
             "build": "Standard"
@@ -8799,7 +8799,7 @@ const teams = {
         "archetype": [
             "Hypercarry"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Neuvillette",
             "build": "Standard"
@@ -8830,7 +8830,7 @@ const teams = {
         "archetype": [
             "Bain-Marie"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Wriothesley",
             "build": "Standard"
@@ -8861,7 +8861,7 @@ const teams = {
         "archetype": [
             "HyperFridge"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Wriothesley",
             "build": "Standard"
@@ -8956,7 +8956,7 @@ const teams = {
         "archetype": [
             "Oven"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Furina",
             "build": "Standard"
@@ -8987,7 +8987,7 @@ const teams = {
         "archetype": [
             "HyperFridge"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Charlotte",
             "build": "Standard"
@@ -9018,7 +9018,7 @@ const teams = {
         "archetype": [
             "HyperFridge"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Charlotte",
             "build": "Standard"
@@ -9111,7 +9111,7 @@ const teams = {
         "archetype": [
             "Hypercarry"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Wanderer",
             "build": "Standard"
@@ -9204,7 +9204,7 @@ const teams = {
         "archetype": [
             "Freeze"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Ganyu",
             "build": "Standard"
@@ -9235,7 +9235,7 @@ const teams = {
         "archetype": [
             "Freeze"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Ganyu",
             "build": "Standard"
@@ -9266,7 +9266,7 @@ const teams = {
         "archetype": [
             "Freeze"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Kamisato Ayaka",
             "build": "Standard"
@@ -9297,7 +9297,7 @@ const teams = {
         "archetype": [
             "Vaporize"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Hu Tao",
             "build": "Standard"
@@ -9336,7 +9336,7 @@ const teams = {
         "archetype": [
             "Vaporize"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Hu Tao",
             "build": "Standard"
@@ -9441,7 +9441,7 @@ const teams = {
         "archetype": [
             "Vaporize"
         ],
-        "viability": "Offmeta",
+        "viability": "For fun",
         "character_1": {
             "name": "Dehya",
             "build": "Standard"
@@ -9476,7 +9476,7 @@ const teams = {
         "archetype": [
             "Vaporize"
         ],
-        "viability": "Offmeta",
+        "viability": "For fun",
         "character_1": {
             "name": "Dehya",
             "build": "Standard"
@@ -9546,7 +9546,7 @@ const teams = {
         "archetype": [
             "Hypercarry"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Neuvillette",
             "build": "Standard"
@@ -9686,7 +9686,7 @@ const teams = {
         "archetype": [
             "Freeze"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Wriothesley",
             "build": "Standard"
@@ -9814,7 +9814,7 @@ const teams = {
         "archetype": [
             "Hypercarry"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Noelle",
             "build": "DPSFurina"
@@ -9882,7 +9882,7 @@ const teams = {
         "archetype": [
             "Hypercarry"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Navia",
             "build": "Standard"
@@ -9950,7 +9950,7 @@ const teams = {
         "archetype": [
             "Hyperbloom"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Navia",
             "build": "Standard"
@@ -9981,7 +9981,7 @@ const teams = {
         "archetype": [
             "Hyperbloom"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Navia",
             "build": "Standard"
@@ -10043,7 +10043,7 @@ const teams = {
         "archetype": [
             "Hyperbloom"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Navia",
             "build": "Standard"
@@ -10074,7 +10074,7 @@ const teams = {
         "archetype": [
             "Hypercarry"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Navia",
             "build": "Standard"
@@ -10111,7 +10111,7 @@ const teams = {
         "archetype": [
             "Hypercarry"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Navia",
             "build": "Standard"
@@ -10142,7 +10142,7 @@ const teams = {
         "archetype": [
             "Hypercarry"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Navia",
             "build": "Standard"
@@ -10177,7 +10177,7 @@ const teams = {
         "archetype": [
             "Hypercarry"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Navia",
             "build": "Standard"
@@ -10214,7 +10214,7 @@ const teams = {
         "archetype": [
             "Hypercarry"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Navia",
             "build": "Standard"
@@ -10251,7 +10251,7 @@ const teams = {
         "archetype": [
             "Hypercarry"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Navia",
             "build": "Standard"
@@ -10290,7 +10290,7 @@ const teams = {
         "archetype": [
             "Hypercarry"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Navia",
             "build": "Standard"
@@ -10329,7 +10329,7 @@ const teams = {
         "archetype": [
             "Hypercarry"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Navia",
             "build": "Standard"
@@ -10358,7 +10358,7 @@ const teams = {
         "archetype": [
             "National"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Navia",
             "build": "Standard"
@@ -10387,7 +10387,7 @@ const teams = {
         "archetype": [
             "National"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Navia",
             "build": "Standard"
@@ -10416,7 +10416,7 @@ const teams = {
         "archetype": [
             "Hypercarry"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Noelle",
             "build": "DPSFurina"
@@ -10525,7 +10525,7 @@ const teams = {
         "archetype": [
             "Overload"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Lyney",
             "build": "Standard"
@@ -10591,7 +10591,7 @@ const teams = {
         "archetype": [
             "Overload"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Yae Miko",
             "build": "Standard"
@@ -10653,7 +10653,7 @@ const teams = {
         "archetype": [
             "Overload"
         ],
-        "viability": "Offmeta",
+        "viability": "For fun",
         "character_1": {
             "name": "Diluc",
             "build": "Standard"
@@ -10682,7 +10682,7 @@ const teams = {
         "archetype": [
             "Overload"
         ],
-        "viability": "Offmeta",
+        "viability": "For fun",
         "character_1": {
             "name": "Diluc",
             "build": "Standard"
@@ -10713,7 +10713,7 @@ const teams = {
         "archetype": [
             "Overload"
         ],
-        "viability": "Offmeta",
+        "viability": "For fun",
         "character_1": {
             "name": "Dehya",
             "build": "Standard"
@@ -10742,7 +10742,7 @@ const teams = {
         "archetype": [
             "Overload"
         ],
-        "viability": "Offmeta",
+        "viability": "For fun",
         "character_1": {
             "name": "Dehya",
             "build": "Standard"
@@ -10831,7 +10831,7 @@ const teams = {
         "archetype": [
             "Overload"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Hu Tao",
             "build": "Standard"
@@ -10920,7 +10920,7 @@ const teams = {
         "archetype": [
             "Overload"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Yoimiya",
             "build": "Standard"
@@ -10951,7 +10951,7 @@ const teams = {
         "archetype": [
             "Overload"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Yoimiya",
             "build": "Standard"
@@ -10980,7 +10980,7 @@ const teams = {
         "archetype": [
             "National"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Raiden Shogun",
             "build": "Standard"
@@ -11009,7 +11009,7 @@ const teams = {
         "archetype": [
             "Hypercarry"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Raiden Shogun",
             "build": "Standard"
@@ -11040,7 +11040,7 @@ const teams = {
         "archetype": [
             "Spread"
         ],
-        "viability": "Offmeta",
+        "viability": "For fun",
         "character_1": {
             "name": "Kaveh",
             "build": "Standard"
@@ -11404,7 +11404,7 @@ const teams = {
         "archetype": [
             "Freeze"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Wriothesley",
             "build": "Standard"
@@ -11468,7 +11468,7 @@ const teams = {
         "archetype": [
             "Melt"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Diluc",
             "build": "Standard"
@@ -11532,7 +11532,7 @@ const teams = {
         "archetype": [
             "Melt"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Wriothesley",
             "build": "Standard"
@@ -11561,7 +11561,7 @@ const teams = {
         "archetype": [
             "Melt"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Kamisato Ayaka",
             "build": "Standard"
@@ -11658,7 +11658,7 @@ const teams = {
         "archetype": [
             "Vaporize"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Diluc",
             "build": "Standard"
@@ -11687,7 +11687,7 @@ const teams = {
         "archetype": [
             "Vaporize"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Diluc",
             "build": "Standard"
@@ -11716,7 +11716,7 @@ const teams = {
         "archetype": [
             "Hypercarry"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Xiao",
             "build": "Standard"
@@ -11747,7 +11747,7 @@ const teams = {
         "archetype": [
             "Vaporize"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Bennett",
             "build": "C6"
@@ -11807,7 +11807,7 @@ const teams = {
         "archetype": [
             "Vaporize"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Hu Tao",
             "build": "Standard"
@@ -11836,7 +11836,7 @@ const teams = {
         "archetype": [
             "Vaporize"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Hu Tao",
             "build": "Standard"
@@ -11988,7 +11988,7 @@ const teams = {
         "archetype": [
             "Hypercarry"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Navia",
             "build": "Standard"
@@ -12025,7 +12025,7 @@ const teams = {
         "archetype": [
             "Freeze"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Wriothesley",
             "build": "Standard"
@@ -12056,7 +12056,7 @@ const teams = {
         "archetype": [
             "Hypercarry"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Raiden Shogun",
             "build": "Standard"
@@ -12192,7 +12192,7 @@ const teams = {
         "archetype": [
             "Freeze"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Kamisato Ayaka",
             "build": "Standard"
@@ -12227,7 +12227,7 @@ const teams = {
         "archetype": [
             "Taser"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Raiden Shogun",
             "build": "Standard"
@@ -12260,7 +12260,7 @@ const teams = {
         "archetype": [
             "Taser"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Furina",
             "build": "Standard"
@@ -12293,7 +12293,7 @@ const teams = {
         "archetype": [
             "Taser"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Furina",
             "build": "Standard"
@@ -12326,7 +12326,7 @@ const teams = {
         "archetype": [
             "Hypercarry"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Kamisato Ayato",
             "build": "Standard"
@@ -12359,7 +12359,7 @@ const teams = {
         "archetype": [
             "Taser"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Kamisato Ayato",
             "build": "Standard"
@@ -12555,7 +12555,7 @@ const teams = {
         "archetype": [
             "Taser"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Furina",
             "build": "Standard"
@@ -12588,7 +12588,7 @@ const teams = {
         "archetype": [
             "Taser"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Furina",
             "build": "Standard"
@@ -12621,7 +12621,7 @@ const teams = {
         "archetype": [
             "Taser"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Furina",
             "build": "Standard"
@@ -12654,7 +12654,7 @@ const teams = {
         "archetype": [
             "Taser"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Furina",
             "build": "Standard"
@@ -12687,7 +12687,7 @@ const teams = {
         "archetype": [
             "MonoHydro"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Yelan",
             "build": "Standard"
@@ -12964,7 +12964,7 @@ const teams = {
         "archetype": [
             "Vaporize"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Yoimiya",
             "build": "Standard"
@@ -13005,7 +13005,7 @@ const teams = {
         "archetype": [
             "Vaporize"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Yoimiya",
             "build": "Standard"
@@ -13305,7 +13305,7 @@ const teams = {
         "archetype": [
             "Melt"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Gaming",
             "build": "Standard"
@@ -13660,7 +13660,7 @@ const teams = {
         "archetype": [
             "Overvape"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Gaming",
             "build": "Standard"
@@ -13718,7 +13718,7 @@ const teams = {
         "archetype": [
             "MonoPyro"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Gaming",
             "build": "Standard"
@@ -13811,7 +13811,7 @@ const teams = {
         "archetype": [
             "Vaporize"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Gaming",
             "build": "Standard"
@@ -13840,7 +13840,7 @@ const teams = {
         "archetype": [
             "Vaporize"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Gaming",
             "build": "Standard"
@@ -13898,7 +13898,7 @@ const teams = {
         "archetype": [
             "Vaporize"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Gaming",
             "build": "Standard"
@@ -13956,7 +13956,7 @@ const teams = {
         "archetype": [
             "Melt"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Gaming",
             "build": "Standard"
@@ -13987,7 +13987,7 @@ const teams = {
         "archetype": [
             "Melt"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Gaming",
             "build": "Standard"
@@ -14017,7 +14017,7 @@ const teams = {
             "MonoGeo",
             "Hypercarry"
         ],
-        "viability": "Meta",
+        "viability": "Recommended",
         "character_1": {
             "name": "Arataki Itto",
             "build": "Standard"

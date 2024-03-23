@@ -20,9 +20,9 @@ const ELEMENT_COLORS = {
 };
 
 const VIABILITIES_COLORS = {
-    Meta: "#dc1414",
+    Recommended: "#dc1414",
     Viable: "#00c0e2",
-    Offmeta: "#b1c51b",
+    "For fun": "#b1c51b",
     Unique: "#ff6701"
 }
 
