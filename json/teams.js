@@ -14270,12 +14270,12 @@ const teams = {
 
     "435": {
         "name": "Keqing Aggravatte",
-        "description": "Baizhu has not great sinergy with Keqing. You either have to run a 20s rotation or a 28-30s rotation with his ultimate being up for only 1/2 of the time.",
+        "description": "Baizhu has not great sinergy with Keqing because of his huge ER requirements, long animations and the Ultimate CD. It is still a very good team, but You either have to run a 20s rotation or a 28-30s rotation with his ultimate being up for only 1/2 of the time.",
         "rotation": "",
         "archetype": [
             "Aggravate"
         ],
-        "viability": "Viable",
+        "viability": "Recommended",
         "character_1": {
             "name": "Keqing",
             "build": "Standard"
@@ -14508,6 +14508,35 @@ const teams = {
             "build": [
                 "Standard",
                 "Standard"
+            ]
+        }
+    },
+    "443": {
+        "name": "Sucrose: The True Xiao",
+        "description": "If you don't have Xiao... I mean, either you have Xiao or not, here is THE TRUE PLUNGE experience with Sucrose. Build Sucrose as a DPS, and enjoy the pleasure of don't being a Xiao main.",
+        "rotation": "Faruzan Q > Furina E + Q > Xianyun E + Q > Sucrose E + PA",
+        "archetype": [
+            "Hypercarry"
+        ],
+        "viability": "Viable",
+        "character_1": {
+            "name": "Sucrose",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Faruzan",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Xianyun",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": [
+                "Furina",
+            ],
+            "build": [
+                "Standard",
             ]
         }
     },
