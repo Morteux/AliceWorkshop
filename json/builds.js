@@ -1145,7 +1145,7 @@ const builds = {
             description: "",
             constellation: "",
             talent_priority: [1, 2, 3],
-            weapon: [],
+            weapon: ["Primordial Jade Cutter", "Lion's Roar"],
             set: [],
             er_requirement: "",
             main_stat: {
