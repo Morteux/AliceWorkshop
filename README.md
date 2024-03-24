@@ -24,7 +24,7 @@ CDN or JS files: https://github.com/theBowja/genshin-db-dist
 ### Tab Teams Search - To do
 - Hide/show character builds behind icons for each team.
 - Doble aleatorio 8 pjs sin que se repitan 2 equipos para el abismo.
-- Inclusive filters (search teams with geo characters and ignore any other filters).
+- Inclusive filters (search teams with geo characters, or events, or banners and ignore any other filters).
 - Filter by actual banners.
 
 ### Tab Characters - To do
