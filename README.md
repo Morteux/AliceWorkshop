@@ -15,11 +15,13 @@ https://genshin-impact.fandom.com/wiki/Weapon/Level_Scaling
 CDN or JS files: https://github.com/theBowja/genshin-db-dist
 
 ## Features - To do
+- Añadir nota de quien creo cada equipo etc 
 
 ### Tab Archetypes - To do
 
 ### Tab Teams Search - To do
 - Hide/show character builds behind icons for each team.
+- Doble aleatorio 8 pjs sin que se repitan 2 equipos para el abismo, o poder elegir qué personajes se repiten del primer equipo para eventos. 
 - Inclusive filters (search teams with geo characters and ignore any other filters).
 - Filter by actual banners.
 
