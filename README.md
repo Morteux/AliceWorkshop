@@ -16,7 +16,8 @@ CDN or JS files: https://github.com/theBowja/genshin-db-dist
 
 ## Features - To do
 - Añadir nota de quien creo cada equipo etc 
-
+- Add Weapons and Artifacts
+  
 ### Tab Archetypes - To do
 
 ### Tab Teams Search - To do
