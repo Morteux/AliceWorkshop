@@ -17,6 +17,7 @@ CDN or JS files: https://github.com/theBowja/genshin-db-dist
 ## Features - To do
 - Añadir nota de quien creo cada equipo etc 
 - Add Weapons and Artifacts
+- Buscar por arma (ej: Favonios sword, qué personajes lo tienen en sus builds).
   
 ### Tab Archetypes - To do
 
@@ -31,5 +32,6 @@ CDN or JS files: https://github.com/theBowja/genshin-db-dist
 
 ### Tab User - To do
 - Check duplicate teams with builds too.
+- Alternative Character Owned List. 
 - Add user custom teams, so they can create a 4-character team (stored in sessions? need db).
 - troll: random team name generator.
