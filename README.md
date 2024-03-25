@@ -15,15 +15,17 @@ https://genshin-impact.fandom.com/wiki/Weapon/Level_Scaling
 CDN or JS files: https://github.com/theBowja/genshin-db-dist
 
 ## Features - To do
-- Añadir nota de quien creo cada equipo etc 
+- Add in a small note who published each team.
 - Add Weapons and Artifacts
-- Buscar por arma (ej: Favonios sword, qué personajes lo tienen en sus builds).
+- Search a specific weapon, and show which characters have it in their build.
+- When filtering or searching for only one team, make UI bigger.
+- Feature to highlight the top 1-3 team(s) of a certain character. 
   
 ### Tab Archetypes - To do
 
 ### Tab Teams Search - To do
 - Hide/show character builds behind icons for each team.
-- Doble aleatorio 8 pjs sin que se repitan 2 equipos para el abismo.
+- Features for abyss and events. For example, showing two different teams Doble aleatorio 8 pjs sin que se repitan 2 equipos para el abismo.
 - Inclusive filters (search teams with geo characters, or events, or banners and ignore any other filters).
 - Filter by actual banners.
 
