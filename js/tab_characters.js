@@ -227,7 +227,7 @@ function getMaterialHTML(material_cost) {
 
     materialHTML = `
         <div class="material_container tooltip">
-            <img class="material_icon ` + rarity_class + `" src="https://api.ambr.top/assets/UI/` + material_icon + `.png" alt="Material icon for ` + material_name + `" onerror="useBackupResource(this, 'https://api.ambr.top/assets/UI/` + material_icon + `.png', 'images/icons/Icon_Inventory_Materials.webp')">
+            <img class="material_icon ` + rarity_class + `" src="images/materials/` + material_icon + `.png" alt="Material icon for ` + material_name + `" onerror="useBackupResource(this, 'https://api.ambr.top/assets/UI/` + material_icon + `.png', 'images/icons/Icon_Inventory_Materials.webp')">
 
             <div class="material_count">
             ` + material_cost.count + `
@@ -249,7 +249,7 @@ function getMaterialSmallHTML(material_cost) {
 
     materialHTML = `
         <div class="material_container tooltip">
-            <img class="material_icon_small ` + rarity_class + `" src="https://api.ambr.top/assets/UI/` + material_icon + `.png" alt="Material icon for ` + material_cost.name + `" onerror="useBackupResource(this, 'https://api.ambr.top/assets/UI/` + material_icon + `.png', 'images/icons/Icon_Inventory_Materials.webp')">
+            <img class="material_icon_small ` + rarity_class + `" src="images/materials/` + material_icon + `.png" alt="Material icon for ` + material_cost.name + `" onerror="useBackupResource(this, 'https://api.ambr.top/assets/UI/` + material_icon + `.png', 'images/icons/Icon_Inventory_Materials.webp')">
 
             <div class="material_count_small">
             ` + material_cost.count + `

@@ -21,6 +21,42 @@ const MEDIUM_NAME_LENGTH = 16;
 const ENTER_KEY_CODE = 'Enter';
 const TEAMS_PER_PAGE = 10;
 
+// function getImages() {
+//     let chars = {};
+
+//     for (let char of CHARACTER_NAMES) {
+//         chars[char] = GenshinDb.talent(char);
+//         if(chars[char])
+//             chars[char] = chars[char].costs;
+//     }
+
+//     chars["traveler anemo"] = GenshinDb.talent("traveler anemo").costs;
+//     chars["traveler geo"] = GenshinDb.talent("traveler geo").costs;
+//     chars["traveler electro"] = GenshinDb.talent("traveler electro").costs;
+//     chars["traveler dendro"] = GenshinDb.talent("traveler dendro").costs;
+//     chars["traveler hydro"] = GenshinDb.talent("traveler hydro").costs;
+
+//     let urls = ``;
+
+//     for (let char in chars) {
+//         if (chars[char]) {
+//             for (let asc in chars[char]) {
+//                 let mats = chars[char][asc];
+//                 // if(mats[asc])
+//                 for (let mat of mats) {
+//                     let mat2 = GenshinDb.material(mat.name);
+//                     if(mat2)
+//                     for (let image in mat2.images) {
+//                         urls += `https://api.ambr.top/assets/UI/` + mat2.images[image] + `.png
+// `;
+//                     }
+//                 }
+//             }
+//         }
+//     }
+
+//     console.log(urls);
+// }
 
 function teamsNamesToText() {
     let text = ``;
