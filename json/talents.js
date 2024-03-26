@@ -213,7 +213,7 @@ const talents = {
         },
         "combat2": {
             "name": "All is Ash",
-            "descriptionRaw": "Summons forth Balemoon Bloodfire, dealing <color=#FF9999FF>Pyro DMG</color> to multiple nearby opponents and performing a dash-cleave against one of them, dealing <color=#FF9999FF>AoE Pyro DMG</color>. Opponents hit by the aforementioned attack will have a <color=#FFD780FF>Blood-Debt Directive</color> applied to them. After the dash-cleave, Arlecchino's Bond of Life will be cleared, and Nourishing Cinders will trigger: Arlecchino recovers HP equivalent to 200% of the value of the Life Bond that was cleared. \n \n  <color=#FFD780FF>Blood-Debt Directive</color>  \n· Lasts 30s. Every 3s, it will deal 1 instance of <color=#FF9999FF>Pyro DMG</color> to the opponent. Max 3 instances.\n· When Arlecchino uses a Charged Attack, she will absorb and clear nearby Blood-Debt Directives that she applied. Each Directive absorbed grants her a Bond of Life worth 20% of her Max HP.\n· The maximum value of the Bond of Life she can be granted through this method within 20s after using her Elemental Skill is 80% of her Max HP.\n\n<i>As she sees it, not every grain of wheat that falls upon the earth will grow into an ear, while those who obstruct her, once burned to ashes, can certainly be used to nourish flowers.</i>",
+            "descriptionRaw": "Summons forth Balemoon Bloodfire, dealing <color=#FF9999FF>Pyro DMG</color> to multiple nearby opponents and performing a dash-cleave against one of them, dealing <color=#FF9999FF>AoE Pyro DMG</color>. Opponents hit by the aforementioned attack will have a <color=#FFD780FF>Blood-Debt Directive</color> applied to them.\n \n  <color=#FFD780FF>Blood-Debt Directive</color>  \n· Lasts 30s. Every 3s, it will deal 1 instance of <color=#FF9999FF>Pyro DMG</color> to the opponent. Max 2 instances.\n· When Arlecchino uses a Charged Attack, she will absorb and clear nearby Blood-Debt Directives that she applied. Each Directive absorbed grants her a Bond of Life worth 40% of her Max HP.\n· The maximum value of the Bond of Life she can be granted through this method within 35s after using her Elemental Skill is 80% of her Max HP. Using the Elemental Skill again during this duration will restart the count on duration and the limit on the value of Bond of Life she may gain from Blood-Debt Directives.\n\n<i>As she sees it, not every grain of wheat that falls upon the earth will grow into an ear, while those who obstruct her, once burned to ashes, can certainly be used to nourish flowers.</i>",
             "description": "Fires off a Lifeline that allows her to move rapidly, entangling and marking opponents along its path.\nWhen this rapid movement ends, the Lifeline will explode, dealing Hydro DMG to the marked opponents based on Yelan's Max HP.\n\nTap\nMoves a certain distance forward swiftly.\n\nHold\nEngages in continuous, swift movement, during which Yelan's resistance to interruption is increased.\nDuring this time, Yelan can control this rapid movement and end it by using this Skill again.\n\nAdditionally, each opponent marked by the Lifeline when it explodes grants Yelan a 34% chance to reset her Breakthrough state.",
             "flavorText": "Not until she begins to tug on the strings do evildoers, crooks, and scheming villains alike know that there is no escape.",
             "attributes": {
@@ -276,28 +276,28 @@ const talents = {
                         0.5035
                     ],
                     "param4": [
-                        15,
-                        15,
-                        15,
-                        15,
-                        15,
-                        15,
-                        15,
-                        15,
-                        15,
-                        15,
-                        15,
-                        15,
-                        15,
-                        15,
-                        15
+                        30,
+                        30,
+                        30,
+                        30,
+                        30,
+                        30,
+                        30,
+                        30,
+                        30,
+                        30,
+                        30,
+                        30,
+                        30,
+                        30,
+                        30
                     ]
                 }
             }
         },
         "combat3": {
             "name": "Balemoon Rising",
-            "descriptionRaw": "Great wings of Balemoon Bloodfire beat, granting Arlecchino a Bond of Life worth 15% of her Max HP and dealing <color=#FF9999FF>AoE Pyro DMG</color>.<i>\"t is commonly believed throughout Teyvat that moon phases other than the full moon are mere metaphors of ill-omen, used only by those who practice alchemy and astrology. \n She saw this crimson moon in her dreams many times. Were those portents of disaster? Indeed they were, but the destined catastrophes belonged to those who enraged her.\"</i>",
+            "descriptionRaw": "Arlecchino's great wings of Balemoon Bloodfire beat, dealing <color=#FF9999FF>AoE Pyro DMG</color> before clearing the CD of All is Ash and healing her. The healing is based on her Bond of Life value and ATK. \n\n<i>\"It is commonly believed throughout Teyvat that moon phases other than the full moon are mere metaphors of ill-omen, used only by those who practice alchemy and astrology. \n She saw this crimson moon in her dreams many times. Were those portents of disaster? Indeed they were, but the destined catastrophes belonged to those who enraged her.\"</i>",
             "description": "Deals AoE Hydro DMG and creates an \"Exquisite Throw,\" which aids her in battle.\n\nExquisite Throw\nFollows the character around and will initiate a coordinated attack under the following circumstances, dealing Hydro DMG based on Yelan's Max HP:\n·Can occur once every second when your active character uses a Normal Attack.\n·Will occur each time Yelan's Lifeline explodes and hits opponents.",
             "flavorText": "\"A gambling addiction is going to do you no good. I mean, let me just do the math for you as the dealer. What do you think your odds of beating me are, when I have seven dice and you, only one?\"",
             "attributes": {
