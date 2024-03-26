@@ -14542,6 +14542,36 @@ const teams = {
             ]
         }
     },
+
+    "444": {
+        "name": "Neuvillette Furina Hypercarry",
+        "description": "Overall his best team DMG wise. Because of how frequently Neuvillette's HP is changing, he can generate a decent amount of Fanfare himself (~200 on avg, resulting in 50% DMG Bonus, can be slightly more with Prototype Amber) which makes Zhongli, because of his resistance shred and ability to use Archaic Petra, better than a healer, generally. Both Neuvillette & Furina benefit from Kazuha's and Zhongli's buffs, and although Furina doesn't have a great uptime on her passive which increases the DMG of the Salon Members by up to 140%, it's a team where she has one of the highest (or even the highest in longer rotations) personal DMG compared to other teams.  Energy Recharge requirements in this team are very low, Neuvillette is fine with 100%, Furina needs about 140%~, and you don't really need to use Kazuha's (and Zhongli's) Bursts.",
+        "rotation": "(28s) Neuvillette Skill > Furina Skill > Zhongli Skill (hold), (dash) > Furina Burst > Kazuha Skill/Burst > Neuvillette CA > Neuvillette Burst, Skill > Neuvillette CA > Kazuha Skill/Burst > Neuvillette CA, CA // 30s) Can be slightly more DMG. Neuvillette Skill > Kazuha Skill, Burst > Furina Skill (dash), Burst > Zhongli Skill (hold), (dash) > Neuvillette CA > Neuvillette Skill > Neuvillette CA > Neuvillette Burst > Kazuha Skill > Neuvillette CA..",
+        "archetype": [
+            "Hypercarry"
+        ],
+        "viability": "Viable",
+        "character_1": {
+            "name": "Neuvillette",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Zhongli",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": [
+                "Kaedehara Kazuha",
+            ],
+            "build": [
+                "Standard",
+            ]
+        }
+    },
 };
 
 
