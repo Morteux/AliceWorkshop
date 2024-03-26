@@ -680,7 +680,7 @@ const characters_teams_info = {
     "Mona": "",
     "Nahida": "",
     "Navia": "",
-    "Neuvillette": "",
+    "Neuvillette": "For more information about Neuvillette's teams, Build, rotations and more, you can see this guide, by Vomfee: https://docs.google.com/document/d/1GUiROMvqAYmhIP18jBT4cX8WOuP5OJbrl0809HiN8V4/edit?usp=sharing",
     "Nilou": "",
     "Ningguang": "",
     "Noelle": "",
