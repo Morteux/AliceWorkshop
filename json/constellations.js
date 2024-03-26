@@ -4,12 +4,12 @@ const constellations = {
         "name": "Arlecchino",
         "c1": {
             "name": "All Reprisals and Arrears Are Mine to Bear...",
-            "descriptionRaw": "When <color=#FFD780FF>Normal Attack: Bidden Beheading's Masque of the Red Death</color> hits an opponent, it has a 33% chance of not consuming Arlecchino's Bond of Life, instead granting a Bond of Life worth 5% of her Max HP.",
+            "descriptionRaw": "Masque of the Red Death is further enhanced, the value of the increase is 120%. Additionally, Arlecchino's interruption resistance is increased when she performs Normal Attacks while affected by the Masque of the Red Death.",
             "description": "Lingering Lifeline gains 1 additional charge."
         },
         "c2": {
             "name": "All Rewards and Retribution, Mine to Bestow...",
-            "descriptionRaw": "Blood-Debt Directives are now Level 2 when first applied. When Arlecchino absorbs a Level 3 Directive, she unleashes Balemoon Bloodfire in front of her, dealing 900% of her ATK as AoE Pyro DMG. This effect can trigger once every 10s. You must first unlock the Passive Talent Agony Alone May Be Repaid.",
+            "descriptionRaw": "Blood-Debt Directives are now already Blood-Debt Due when first applied.. When Arlecchino absorbs a Level 3 Directive, she unleashes Balemoon Bloodfire in front of her, dealing 900% of her ATK as AoE Pyro DMG. This effect can trigger once every 10s. You must first unlock the Passive Talent Agony Alone May Be Repaid.",
             "description": "When Exquisite Throw conducts a coordinated attack, it will fire an additional water arrow that will deal 14% of Yelan's Max HP as Hydro DMG.\nThis effect can trigger once every 1.8s."
         },
         "c3": {
