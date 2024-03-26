@@ -10828,7 +10828,7 @@ const teams = {
     },
     "332": {
         "name": "Hu Tao Chevreuse",
-        "description": "Good in single-target scenarios where enemies don't explode with overload and against infused enemies that can't be swirled.",
+        "description": "Good in scenarios where enemies don't explode with overload and against infused enemies that can't be swirled.",
         "rotation": "",
         "archetype": [
             "Overload"
