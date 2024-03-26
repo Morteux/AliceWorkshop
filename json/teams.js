@@ -5630,35 +5630,6 @@ const teams = {
             ]
         }
     },
-    "172": {
-        "name": "Neuvillette Furina",
-        "description": "Thanks to Neuvillette's HP manipulation, you can run him with Furina without a healer and Zhongli.",
-        "rotation": "",
-        "archetype": [
-            "Hypercarry"
-        ],
-        "viability": "Recommended",
-        "character_1": {
-            "name": "Neuvillette",
-            "build": "Standard"
-        },
-        "character_2": {
-            "name": "Furina",
-            "build": "Standard"
-        },
-        "character_3": {
-            "name": "Kaedehara Kazuha",
-            "build": "Standard"
-        },
-        "character_4": {
-            "name": [
-                "Zhongli"
-            ],
-            "build": [
-                "Standard"
-            ]
-        }
-    },
     "173": {
         "name": "Wriothesley Bain-Marie",
         "description": "A new OP archetype thanks to Wriothesley and Furina. Vaps + Melts + Burgeon in the same team.",
