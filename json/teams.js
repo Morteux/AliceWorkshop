@@ -10848,9 +10848,11 @@ const teams = {
         },
         "character_4": {
             "name": [
-                "Xiangling"
+                "Xiangling",
+                "Beidou"
             ],
             "build": [
+                "Standard",
                 "Standard"
             ]
         }
