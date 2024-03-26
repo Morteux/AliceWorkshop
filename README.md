@@ -30,7 +30,6 @@ CDN or JS files: https://github.com/theBowja/genshin-db-dist
 - Filter by actual banners.
 
 ### Tab Characters - To do
-- Add talents and constellations images to local.
 
 ### Tab User - To do
 - Check duplicate teams with builds too.
