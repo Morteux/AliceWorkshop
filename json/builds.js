@@ -1618,16 +1618,21 @@ const builds = {
         "Standard": {
             description: "",
             constellation: "",
-            talent_priority: [1, 2, 3],
-            weapon: [],
-            set: [],
-            er_requirement: "",
+            talent_priority: [1, 3, 2],
+            weapon: ["Tome of the Eternal Flow", "Sacrificial Jade", "Prototype Amber"],
+            set: [                
+                {
+                    artifacts: ["Marechaussee Hunter"],
+                    pc: "4pc"
+                }
+            ],
+            er_requirement: "100%-140%, 100% average with Prototype Amber.",
             main_stat: {
-                sands: "",
-                goblet: "",
-                circlet: "",
+                sands: "HP%",
+                goblet: "Hydro DMG%",
+                circlet: "CRIT",
             },
-            subs_stat: []
+            subs_stat: ["ER", "CRIT", "HP"]
         }
     },
     "Nilou": {
