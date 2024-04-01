@@ -377,11 +377,16 @@ const characters_teams = {
         }
     },
     "Neuvillette": {
-        "name": {
-            archetype: "",
-            description: "",
-            composition: ["pj1", "element1", "elem2", "Flex"]
-        }
+        "Neuvillette Hypercarry": {
+            archetype: "Hypercarry",
+            description: "The best way to play Neuvillette is in Hypercarry teams. In this archetype, he shines with Kazuha. His best teams tends to be with Furina, but you can also play Xiangling to do Vaporize.",
+            composition: ["Neuvillette", "Kaedehara Kazuha", "Flex", "Flex"]
+        },
+        "Neuvillette Hyperbloom": {
+            archetype: "Hyperbloom",
+            description: "You can play Neuvillette in Hyperbloom and its sub-archetypes. It is not better than other hyperbloom teams with others characters, but still pretty good.",
+            composition: ["Neuvillette", "Nahida", "Raiden Shogun", "Flex"]
+        },
     },
     "Nilou": {
         "name": {
@@ -680,7 +685,7 @@ const characters_teams_info = {
     "Mona": "",
     "Nahida": "",
     "Navia": "",
-    "Neuvillette": "For more information about Neuvillette's teams, Build, rotations and more, you can see this guide, by Vomfee: <br> https://docs.google.com/document/d/1GUiROMvqAYmhIP18jBT4cX8WOuP5OJbrl0809HiN8V4/edit?usp=sharing",
+    "Neuvillette": "Neuvillette can be played in others Archetypes like Taser, National and more. Due to his high base powerlevel, he still being pretty good in others Archetypes or playing with characters with not the best of the sinergies. <br> <br> <br>For more information about Neuvillette's teams, Build, rotations and more, you can see this guide, by Vomfee: <br> https://docs.google.com/document/d/1GUiROMvqAYmhIP18jBT4cX8WOuP5OJbrl0809HiN8V4/edit?usp=sharing",
     "Nilou": "",
     "Ningguang": "",
     "Noelle": "",
