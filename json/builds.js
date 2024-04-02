@@ -1006,21 +1006,21 @@ const builds = {
         "Standard": {
             description: "",
             constellation: "",
-            talent_priority: [1, 2, 3],
-            weapon: ["Favonius Sword"],
+            talent_priority: [3, 1, 2],
+            weapon: ["Freedom-Sworn", "Favonius Sword", "Sacrificial Sword", "Xiphos' Moonlight", "Iron Sting"],
             set: [
                 {
                     artifacts: ["Viridescent Venerer"],
                     pc: "4pc"
                 }
             ],
-            er_requirement: "",
+            er_requirement: "150%-200%",
             main_stat: {
                 sands: "EM",
                 goblet: "EM",
                 circlet: "EM"
             },
-            subs_stat: ["Crit Rate", "EM", "ER", "Crit Damage"]
+            subs_stat: ["ER", "EM", "CRIT RATE if favonius"]
         },
         // "Nacho": {
         //     description: "",
