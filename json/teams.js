@@ -14368,11 +14368,11 @@ const teams = {
     "439": {
         "name": "Arlecchino Chevreuse",
         "description": "Beidou is a good choice with Arlecchino due to her defensive utility.",
-        "rotation": "Arlecchino E > Fischl > Chevreuse > Beidou > Arlecchino Combo (in progress)",
+        "rotation": "Arlecchino E (Q) > Fischl E > Chevreuse Hold E (Q) > Beidou EQ > Arlecchino CA + NA > Fischl Q when expires > Arlecchino NA",
         "archetype": [
             "Overload"
         ],
-        "viability": "Recommended",
+        "viability": "Viable",
         "character_1": {
             "name": "Arlecchino",
             "build": "Standard"
@@ -14398,7 +14398,7 @@ const teams = {
     "440": {
         "name": "Arlecchino Chevreuse",
         "description": "Good in output damage, but you don't have any type of defensive utility.",
-        "rotation": "Arlecchino E > Fischl > Chevreuse > Bennett > Arlecchino Combo (in progress)",
+        "rotation": "Arlecchino E (Q) > Fischl E > Chevreuse Hold E (Q) > Bennett EQ > Arlecchino CA + NA > Fischl Q when expires > Arlecchino NA",
         "archetype": [
             "Overload"
         ],
