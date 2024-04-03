@@ -14372,7 +14372,7 @@ const teams = {
         "archetype": [
             "Overload"
         ],
-        "viability": "Viable",
+        "viability": "Recommended",
         "character_1": {
             "name": "Arlecchino",
             "build": "Standard"
@@ -14462,7 +14462,7 @@ const teams = {
         "archetype": [
             "Vaporize"
         ],
-        "viability": "Viable",
+        "viability": "Recommended",
         "character_1": {
             "name": "Arlecchino",
             "build": "Standard"
@@ -14542,6 +14542,68 @@ const teams = {
             ],
             "build": [
                 "Standard",
+            ]
+        }
+    },
+
+    "445": {
+        "name": "Arlecchino Doble Hydro",
+        "description": " ",
+        "rotation": "Arlecchino E > Characters > Arlecchino Combo (in progress)",
+        "archetype": [
+            "Vaporize"
+        ],
+        "viability": "Recommended",
+        "character_1": {
+            "name": "Arlecchino",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Zhongli",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Yelan",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": [
+                "Xingqiu"
+            ],
+            "build": [
+                "Standard"
+            ]
+        }
+    },
+
+    "446": {
+        "name": "Arlecchino Vaporize",
+        "description": "You can use Xingqiu, but in this teams Yelan would performs betters since you already have Zhongli as defensive option.",
+        "rotation": "Arlecchino E > Characters > Arlecchino Combo (in progress)",
+        "archetype": [
+            "Vaporize"
+        ],
+        "viability": "Viable",
+        "character_1": {
+            "name": "Arlecchino",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Bennett",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Zhongli",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": [
+                "Yelan",
+                "Xingqiu"
+            ],
+            "build": [
+                "Standard",
+                "Standard"
             ]
         }
     },
