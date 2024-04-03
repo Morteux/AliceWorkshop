@@ -14397,7 +14397,7 @@ const teams = {
 
     "440": {
         "name": "Arlecchino Chevreuse",
-        "description": "Good in output damage, but you don't have any type of defensive utility.",
+        "description": "Good in output damage, but you don't have any type of defensive utility. Be careful with circle impact + overload with Bennett.",
         "rotation": "Arlecchino E > Fischl E > Chevreuse Hold E (Q) > Bennett EQ > Arlecchino CA + NA > Fischl Q when expires > Arlecchino NA +(Q if healing is needed)",
         "archetype": [
             "Overload"
