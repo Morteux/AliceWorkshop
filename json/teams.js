@@ -14368,7 +14368,7 @@ const teams = {
     "439": {
         "name": "Arlecchino Chevreuse",
         "description": "Beidou is a good choice with Arlecchino due to her defensive utility.",
-        "rotation": "Arlecchino E (Q) > Fischl E > Chevreuse Hold E (Q) > Beidou EQ > Arlecchino CA + NA > Fischl Q when expires > Arlecchino NA",
+        "rotation": "Arlecchino E > Fischl E > Chevreuse Hold E (Q) > Beidou EQ > Arlecchino CA + NA > Fischl Q when expires > Arlecchino NA +(Q if healing is needed)",
         "archetype": [
             "Overload"
         ],
@@ -14398,7 +14398,7 @@ const teams = {
     "440": {
         "name": "Arlecchino Chevreuse",
         "description": "Good in output damage, but you don't have any type of defensive utility.",
-        "rotation": "Arlecchino E (Q) > Fischl E > Chevreuse Hold E (Q) > Bennett EQ > Arlecchino CA + NA > Fischl Q when expires > Arlecchino NA",
+        "rotation": "Arlecchino E > Fischl E > Chevreuse Hold E (Q) > Bennett EQ > Arlecchino CA + NA > Fischl Q when expires > Arlecchino NA +(Q if healing is needed)",
         "archetype": [
             "Overload"
         ],
@@ -14427,7 +14427,7 @@ const teams = {
     "441": {
         "name": "Arlecchino Furina",
         "description": "You can't heal Arlecchino, but you will obtain Furina's Fanfare stacks with the other three characters and Arlecchino auto-healing. With Yelan you will have a little more of damage, but Xingqiu RES Interruption and DMG Reduction may be necessary and most useful. ",
-        "rotation": "Arlecchino E > Characters > Arlecchino Combo (in progress)",
+        "rotation": "Arlecchino E > Furina EQ > Yelan/Xingqiu EQ > Bennett EQ > Arlecchino CA + NA (Q if healing is needed)",
         "archetype": [
             "Vaporize"
         ],
@@ -14458,7 +14458,7 @@ const teams = {
     "442": {
         "name": "Arlecchino Vaporize",
         "description": "With Yelan you will have a little more of damage, but Xingqiu RES Interruption and DMG Reduction may be necessary and more useful. ",
-        "rotation": "Arlecchino E > Characters > Arlecchino Combo (in progress)",
+        "rotation": "Arlecchino E > Yelan/Xingqiu EQ > Bennett EQ +1NA > Kazuha Hold E >  Arlecchino CA + NA (Q if healing is needed)",
         "archetype": [
             "Vaporize"
         ],
@@ -14549,7 +14549,7 @@ const teams = {
     "445": {
         "name": "Arlecchino Doble Hydro",
         "description": " ",
-        "rotation": "Arlecchino E > Characters > Arlecchino Combo (in progress)",
+        "rotation": "Arlecchino E > Zhongli Hold E D > Xingqiu EQ > Yelan EQ > Arlecchino CA + NA (Q if healing is needed)",
         "archetype": [
             "Vaporize"
         ],
@@ -14579,7 +14579,7 @@ const teams = {
     "446": {
         "name": "Arlecchino Vaporize",
         "description": "You can use Xingqiu, but in this teams Yelan would performs betters since you already have Zhongli as defensive option.",
-        "rotation": "Arlecchino E > Characters > Arlecchino Combo (in progress)",
+        "rotation": "Arlecchino E > Zhongli Hold E D > Xingqiu EQ > Bennett EQ > Arlecchino CA + NA (Q if healing is needed)",
         "archetype": [
             "Vaporize"
         ],
