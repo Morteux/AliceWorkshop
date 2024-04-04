@@ -22,6 +22,7 @@ CDN or JS files: https://github.com/theBowja/genshin-db-dist
 - Search for specific weapon, and show which characters have it in their build.
 - New popup for official Twitter account. 
 - Highlight the top 1-3 team(s) for each character.
+- Add Mobile UI
 
 ### Tab Characters
 - Add a column called "Extra" in each Character, with external links and useful videos to learn about the mentioned character.
