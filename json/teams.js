@@ -7992,9 +7992,11 @@ const teams = {
                 "Yanfei",
                 "Yoimiya",
                 "Hu Tao",
-                "Dehya"
+                "Dehya",
+                "Arlecchino"
             ],
             "build": [
+                "Standard",
                 "Standard",
                 "Standard",
                 "Standard",
@@ -11904,7 +11906,8 @@ const teams = {
                 "Freminet",
                 "Navia",
                 "Chevreuse",
-                "Chiori"
+                "Chiori",
+                "Arlecchino"
             ],
             "build": [
                 "Anemo",
@@ -11912,6 +11915,7 @@ const teams = {
                 "Geo",
                 "Hydro",
                 "Electro",
+                "Standard",
                 "Standard",
                 "Standard",
                 "Standard",
@@ -14367,7 +14371,7 @@ const teams = {
     },
     "439": {
         "name": "Arlecchino Chevreuse",
-        "description": "Beidou is a good choice with Arlecchino due to her defensive utility.",
+        "description": "Beidou is a good choice with Arlecchino due to her defensive utility. You can run also Tankfei with TTDS or Thoma, but they are not better than beidou. Their rotation would be the same than Beidou's.",
         "rotation": "Arlecchino E > Fischl E > Chevreuse Hold E (Q) > Beidou EQ > Arlecchino CA + NA > Fischl Q when expires > Arlecchino NA +(Q if healing is needed)",
         "archetype": [
             "Overload"
@@ -14387,9 +14391,13 @@ const teams = {
         },
         "character_4": {
             "name": [
-                "Beidou"
+                "Beidou",
+                "Yanfei",
+                "Thoma"
             ],
             "build": [
+                "Standard",
+                "C4",
                 "Standard"
             ]
         }
@@ -14457,7 +14465,7 @@ const teams = {
     },
     "442": {
         "name": "Arlecchino Vaporize",
-        "description": "With Yelan you will have a little more of damage, but Xingqiu RES Interruption and DMG Reduction may be necessary and more useful. ",
+        "description": "One of the best Arlecchino's teams. With Yelan, best Arlecchino's team in Output damage. With Yelan you will have a little more of damage, but Xingqiu RES Interruption and DMG Reduction may be necessary and more useful with Arlecchino.",
         "rotation": "Arlecchino E > Yelan/Xingqiu EQ > Bennett EQ +1NA > Kazuha Hold E >  Arlecchino CA + NA (Q if healing is needed)",
         "archetype": [
             "Vaporize"
@@ -14578,12 +14586,12 @@ const teams = {
 
     "446": {
         "name": "Arlecchino Vaporize",
-        "description": "You can use Xingqiu, but in this teams Yelan would performs betters since you already have Zhongli as defensive option.",
+        "description": "One of the best Arlecchino's teams. With an Anemo Character, you can have more damage, but you don't have any defensive option so in some scenarios it can be impossible to play. On top of that, using zhongli you don't waste Bennett's ultimate time unlike an Anemo unit.You can use Xingqiu, but in this teams Yelan would performs betters since you already have Zhongli as defensive option. ",
         "rotation": "Arlecchino E > Zhongli Hold E D > Xingqiu EQ > Bennett EQ > Arlecchino CA + NA (Q if healing is needed)",
         "archetype": [
             "Vaporize"
         ],
-        "viability": "Viable",
+        "viability": "Recommended",
         "character_1": {
             "name": "Arlecchino",
             "build": "Standard"
@@ -14600,6 +14608,334 @@ const teams = {
             "name": [
                 "Yelan",
                 "Xingqiu"
+            ],
+            "build": [
+                "Standard",
+                "Standard"
+            ]
+        }
+    },
+
+    "446": {
+        "name": "Itto Plunge",
+        "description": "This may not seem to be real but, Itto has a lot of range in his pungle attack.",
+        "rotation": "Furina EQ > Xianyun EQ > Flex > Itto QE + PA",
+        "archetype": [
+            "MonoGeo"
+        ],
+        "viability": "Viable",
+        "character_1": {
+            "name": "Arataki Itto",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Xianyun",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": [
+                "Gorou",
+                "Albedo",
+                "Chiori"
+            ],
+            "build": [
+                "Standard",
+                "Standard",
+                "Standard"
+            ]
+        }
+    },
+
+    "447": {
+        "name": "Arlecchino Vaporize",
+        "description": "The rotations with Kaedehara Kazuha might be difficult. You can use Fischl instead of him, the team overall has less damage, but is still a very strong and easier option.",
+        "rotation": "Arlecchino E > Yelan/Xingqiu EQ > Bennett EQ +1NA > Fischl E or Q >  Arlecchino CA + NA (Q if healing is needed)",
+        "archetype": [
+            "Overvape"
+        ],
+        "viability": "Recommended",
+        "character_1": {
+            "name": "Arlecchino",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Bennett",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Fischl",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": [
+                "Yelan",
+                "Xingqiu"
+            ],
+            "build": [
+                "Standard",
+                "Standard"
+            ]
+        }
+    },
+    "448": {
+        "name": "Arlecchino Chevreuse",
+        "description": "You don't have any defensive option, so it is not recommended over other teams against aggressive enemies. With Xiangling, you gain in AoE, and with Yae Miko in singletarget though her rotations might me a little odd.",
+        "rotation": "",
+        "archetype": [
+            "Overload"
+        ],
+        "viability": "Viable",
+        "character_1": {
+            "name": "Arlecchino",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Chevreuse",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Fischl",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": [
+                "Xiangling",
+                "Yae Miko"
+            ],
+            "build": [
+                "Standard",
+                "Standard"
+            ]
+        }
+    },
+    "449": {
+        "name": "Arlecchino MonoPyro",
+        "description": "Arlecchino MonoPyro it's a good and easy way to play her. Pairing her with Bennett and Xiangling results in high Pyro damage without thinking in rotations or reactions. The flex Character can be a defensive option like Kazuha or defensive ones, which is recommended in content where you can get hit easily.",
+        "rotation": "",
+        "archetype": [
+            "MonoPyro"
+        ],
+        "viability": "Viable",
+        "character_1": {
+            "name": "Arlecchino",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Xiangling",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Bennett",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": [
+                "Kaedehara Kazuha",
+                "Zhongli",
+                "Yanfei",
+            ],
+            "build": [
+                "Standard",
+                "Standard",
+                "C4",
+            ]
+        }
+    },
+
+    "450": {
+        "name": "Arlecchino Burgeon",
+        "description": "Not good, but fun if you want. Build Arlecchino EM.",
+        "rotation": "",
+        "archetype": [
+            "Burgeon"
+        ],
+        "viability": "For fun",
+        "character_1": {
+            "name": "Arlecchino",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Nahida",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Xingqiu",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": [
+                "Zhongli",
+                "Dehya"
+            ],
+            "build": [
+                "Standard",
+                "EM"
+            ]
+        }
+    },
+
+    "451": {
+        "name": "Arlecchino Doble Geo",
+        "description": "It might not be one of her good teams, but it's okay.",
+        "rotation": "",
+        "archetype": [
+            "Hypercarry"
+        ],
+        "viability": "Viable",
+        "character_1": {
+            "name": "Arlecchino",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Chiori",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Zhongli",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": [
+                "Bennett",
+                "Yelan",
+                "Xingqiu"
+            ],
+            "build": [
+                "Standard",
+                "Standard",
+                "Standard"
+            ]
+        }
+    },
+
+    "452": {
+        "name": "Arlecchino Doble Geo",
+        "description": "It might not be one of her good teams, but it's okay.",
+        "rotation": "",
+        "archetype": [
+            "Hypercarry"
+        ],
+        "viability": "Viable",
+        "character_1": {
+            "name": "Arlecchino",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Albedo",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Zhongli",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": [
+                "Bennett",
+                "Yelan",
+                "Xingqiu"
+            ],
+            "build": [
+                "Standard",
+                "Standard",
+                "Standard"
+            ]
+        }
+    },
+
+    "453": {
+        "name": "Arlecchino Doble Geo",
+        "description": "It might not be one of her good teams, but it's okay.",
+        "rotation": "",
+        "archetype": [
+            "Hypercarry"
+        ],
+        "viability": "Viable",
+        "character_1": {
+            "name": "Arlecchino",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Yun Jin",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Zhongli",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": [
+                "Bennett",
+                "Yelan",
+                "Xingqiu"
+            ],
+            "build": [
+                "Standard",
+                "Standard",
+                "Standard"
+            ]
+        }
+    },
+
+    "454": {
+        "name": "Arlecchino Vaporize",
+        "description": "The rotations with Kaedehara Kazuha might be difficult. You can use Fischl instead of him, the team overall has less damage, but is still a very strong and easier option.",
+        "rotation": "",
+        "archetype": [
+            "Overvape"
+        ],
+        "viability": "Viable",
+        "character_1": {
+            "name": "Arlecchino",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Fischl",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Beidou",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": [
+                "Yelan",
+                "Xingqiu"
+            ],
+            "build": [
+                "Standard",
+                "Standard"
+            ]
+        }
+    },
+
+    "455": {
+        "name": "Arlecchino Vaporize",
+        "description": "You can play Arlecchino with Bennett + Yelan/Xingqiu for the vaporize reaction, plus a flex shielder as defensive option. You don't waste Bennett's ultimate time with an Anemo unit.",
+        "rotation": "",
+        "archetype": [
+            "Vaporize"
+        ],
+        "viability": "Recommended",
+        "character_1": {
+            "name": "Arlecchino",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Bennett",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Xingqiu",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": [
+                "Layla",
+                "Diona"
             ],
             "build": [
                 "Standard",
