@@ -14914,7 +14914,7 @@ const teams = {
 
     "455": {
         "name": "Arlecchino Vaporize",
-        "description": "You can play Arlecchino with Bennett + Yelan/Xingqiu for the vaporize reaction, plus a flex shielder as defensive option. You don't waste Bennett's ultimate time with an Anemo unit.",
+        "description": "You can play Arlecchino with Bennett + Yelan/Xingqiu for the vaporize reaction, plus a flex shielder as defensive option. You don't waste Bennett's ultimate time with an Anemo unit. Good vs freezeable enemies.",
         "rotation": "",
         "archetype": [
             "Vaporize"
