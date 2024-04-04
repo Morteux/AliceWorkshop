@@ -14913,7 +14913,7 @@ const teams = {
     },
 
     "455": {
-        "name": "Arlecchino Vaporize",
+        "name": "Arlecchino Vapemelt",
         "description": "You can play Arlecchino with Bennett + Yelan/Xingqiu for the vaporize reaction, plus a flex shielder as defensive option. You don't waste Bennett's ultimate time with an Anemo unit. Good vs freezeable enemies.",
         "rotation": "",
         "archetype": [
@@ -14940,6 +14940,36 @@ const teams = {
             "build": [
                 "Standard",
                 "Standard"
+            ]
+        }
+    },
+
+    "456": {
+        "name": "Arlecchino Doble Hydro",
+        "description": "",
+        "rotation": "Arlecchino E > Xingqiu EQ > Yelan EQ > Bennett EQ > Arlecchino CA + NA (Q if healing is needed)",
+        "archetype": [
+            "Vaporize"
+        ],
+        "viability": "Recommended",
+        "character_1": {
+            "name": "Arlecchino",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Bennett",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Xingqiu",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": [
+                "Yelan",
+            ],
+            "build": [
+                "Standard",
             ]
         }
     },
