@@ -31,6 +31,7 @@ CDN or JS files: https://github.com/theBowja/genshin-db-dist
 - Autofilter characters for actual banners, abyss and combat events. For example, showing two different teams without repeating characters for abysses.
 - Forceful inclusive filters (search teams with geo characters, or events, or banners and ignore any other filters).
 - When just one team in result, make UI bigger.
+- Button to delete all current filters.
 
 ### Tab User
 - Alternative Character Owned List, so users could have a customized list of characters to filter out. 
