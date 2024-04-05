@@ -14973,6 +14973,36 @@ const teams = {
             ]
         }
     },
+
+    "457": {
+        "name": "Neuvillette Furina Hypercarry",
+        "description": "Lisa is a very strong option with Neuvillette even if She has not any defensive utility. She don't need talents or constelattions, only the weapon Prototype Amber and ER. You can min-max Lisa a little bit as its shown in her builds, but it is not necessary. Lisa reduces DEF%, and trigger electrocharge to help Neuvillette. This reaction can applies stagger to enemies.",
+        "rotation": "Furina E > Lisa Q > Kazuha E > Furina Q > Neuvillette E, CA, Q, CA, CA. If current enemies dies, you can change to Kazuha and do E to the next wave.",
+        "archetype": [
+            "Hypercarry"
+        ],
+        "viability": "Recommended",
+        "character_1": {
+            "name": "Neuvillette",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Lisa",
+            "build": "Neuvillette_Support"
+        },
+        "character_4": {
+            "name": [
+                "Kaedehara Kazuha",
+            ],
+            "build": [
+                "Standard",
+            ]
+        }
+    },
 };
 
 
