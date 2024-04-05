@@ -1447,7 +1447,7 @@ const builds = {
         "Standard": {
             element: "Dendro", description: "",
             constellation: "",
-            talent_priority: [1, 2, 3],
+            talent_priority: [3, 2, 1],
             weapon: [],
             set: [],
             er_requirement: "",
