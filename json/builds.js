@@ -1424,7 +1424,24 @@ const builds = {
                 circlet: "",
             },
             subs_stat: []
-        }
+        },
+        "Neuvillette_Support": {
+            description: "Very good in Neuvillette Furina teams. You don't need to level up talents or have constelations. Just go for ER and Prototype Amber. You can min-max with EM and the Song of Days Past set.",
+            constellation: "",
+            talent_priority: [1, 2, 3],
+            weapon: ["Prototype Amber"],
+            set: [                 {
+                     artifacts: ["Song of Days Past"],
+                     pc: "4pc"
+                 }],
+            er_requirement: "As much as possible",
+            main_stat: {
+                sands: "ER",
+                goblet: "ANY",
+                circlet: "Healing Bonus",
+            },
+            subs_stat: ["ER", "EM"]
+        },
     },
     "Lumine": {
         "Standard": {
