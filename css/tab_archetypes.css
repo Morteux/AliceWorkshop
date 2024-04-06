@@ -288,3 +288,87 @@
 .color_flex_illuminated {
     background: var(--flex_collapsible);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Small desktop/laptop version (Width: 960->1320px) */
+@media only screen and (max-width: 1320px) {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Mobile version (Width: 300->959px) */
+@media only screen and (max-width: 959px) {
+    .archetype_container {
+        flex-direction: column;
+    }
+
+    .team_elements_container {
+        width: 90vw;
+
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .archetype_element_icon {
+        width: 15vw;
+    }
+
+    .double_element_container {
+        width: 15vw;
+        height: 15vw;
+    }
+
+    .double_element_container :first-child {
+        width: 4vh;
+    }
+
+    .double_element_container :last-child {
+        width: 4vh;
+    }
+
+    .svg_divisor_line {
+        width: 9vh;
+        height: 9vh;
+    }
+
+    .archetype_info {
+        height: auto;
+    }
+
+    .archetype_character_icon {
+        width: 15vw;
+        padding: 1vh;
+    }
+
+    .archetype_title {
+        width: 90vw;
+        font-size: 4vh;
+    }
+}

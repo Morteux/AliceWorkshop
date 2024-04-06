@@ -333,3 +333,76 @@
     margin: 3vh 1vw;
     padding: 1vh 1vw;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Small desktop/laptop version (Width: 960->1320px) */
+@media only screen and (max-width: 1320px) {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Mobile version (Width: 300->959px) */
+@media only screen and (max-width: 959px) {
+    .tab_user {
+        flex-direction: column;
+    }
+
+    .navigation_menu>div {
+        width: 50vw;
+    }
+
+    .discord_img {
+        width: 20vw;
+    }
+
+    .warning_img {
+        width: 20vw;
+    }
+
+    .disclaimer_panel {
+        flex-direction: column;
+    }
+
+    .menu_configuration {
+        width: 85vw;
+    }
+
+    .menu_configuration {
+        width: 85vw;
+    }
+}
