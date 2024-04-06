@@ -4,7 +4,7 @@ const constellations = {
         "name": "Arlecchino",
         "c1": {
             "name": "All Reprisals and Arrears Are Mine to Bear...",
-            "descriptionRaw": "Masque of the Red Death is further enhanced, the value of the increase is 120%. Additionally, Arlecchino's interruption resistance is increased when she performs Normal Attacks while affected by the Masque of the Red Death.",
+            "descriptionRaw": "Masque of the Red Death is further enhanced, the value of the increase is 100%. Additionally, Arlecchino's interruption resistance is increased when she performs Normal Attacks while affected by the Masque of the Red Death.",
             "description": "Lingering Lifeline gains 1 additional charge."
         },
         "c2": {
