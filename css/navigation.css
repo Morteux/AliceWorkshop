@@ -29,3 +29,51 @@
     background-color: var(--secondary_color);
     color: var(--light_text);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Small desktop/laptop version (Width: 960->1320px) */
+@media only screen and (max-width: 1320px) {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Mobile version (Width: 300->959px) */
+@media only screen and (max-width: 959px) {
+    .tabs_container {
+        font-size: smaller;
+    }
+}

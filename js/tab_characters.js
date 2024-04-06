@@ -1572,7 +1572,7 @@ function getMenuContentCharts(character_name) {
     let content = ``;
 
     content += `
-        <div id="ranking_by_team" class="ranking_panel warning_panel">
+        <div class="ranking_panel warning_panel">
             <div class="ranking_title">
                 Disclaimer
             </div>
@@ -1594,7 +1594,7 @@ function getMenuContentCharts(character_name) {
             </div>
 
             <div class="ranking_row">
-                <div class="rank_column">
+                <div class="rank_column rank_column_mobile">
                 ` + getRankingTeams(character_name) + `
                 </div>
 

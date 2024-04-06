@@ -891,3 +891,65 @@ input[type=text] {
         animation-duration: 10s;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Small desktop/laptop version (Width: 960->1320px) */
+@media only screen and (max-width: 1320px) {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Mobile version (Width: 300->959px) */
+@media only screen and (max-width: 959px) {
+    .close_icon {
+        width: 6vw;
+    }
+
+    .workinprogress_panel {
+        right: 1vw;
+    }
+
+    .list_choice {
+        width: 40vw;
+    }
+}

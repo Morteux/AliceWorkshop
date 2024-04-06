@@ -437,3 +437,87 @@
     margin-top: 5vh;
     margin-bottom: 25vh;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Small desktop/laptop version (Width: 960->1320px) */
+@media only screen and (max-width: 1320px) {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Mobile version (Width: 300->959px) */
+@media only screen and (max-width: 959px) {
+    .small_input {
+        width: 80% !important;
+    }
+
+
+    .search_form_container {
+        flex-direction: column;
+        width: 90%;
+    }
+
+    .filter_container {
+        width: 100%;
+    }
+
+    .search_form_characters_container {
+        flex-direction: column;
+    }
+
+    .discord_widget {
+        width: 80vw;
+    }
+
+    .team_container {
+        width: 90vw;
+        
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .character_container {
+        max-width: 20vw;
+    }
+
+    .element_icon {
+        width: 2.5vh;
+    }
+
+    .rarity {
+        width: 1.8vh;
+    }
+}

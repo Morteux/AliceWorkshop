@@ -1102,3 +1102,177 @@
 .traveler_button_Dendro:hover {
     box-shadow: 0 5px 5px var(--dendro);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Small desktop/laptop version (Width: 960->1320px) */
+@media only screen and (max-width: 1320px) {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Mobile version (Width: 300->959px) */
+@media only screen and (max-width: 959px) {
+    .menu_characters_info {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .left_menu_info {
+        position: unset;
+        width: 90vw;
+    }
+    
+    .menu_character_icon {
+        width: 25vw;
+    }
+
+    .menu_character_row_info {
+        width: 80vw;
+    }
+
+    .menu_row_img_small {
+        width: 7vw;
+    }
+
+    .menu_character_column_info {
+        width: 80vw;
+    }
+
+    .right_menu_info {
+        position: unset;
+        width: 80vw;
+    }
+
+    .right_menu_buttons {
+        height: auto;
+
+        margin-bottom: 2vh;
+    }
+
+    .attribute_img {
+        width: 7vw;
+    }
+
+    .menu_characters_image {
+        left: 0px;
+        background-position: center;
+    }
+
+    .talent_img {
+        width: 13vw;
+    }
+
+    .material_container {
+        max-width: 20vw;
+    }
+
+    .material_icon {
+        width: 18vw;
+    }
+
+    .material_row {
+        flex-wrap: wrap;
+    }
+
+    .talent_img_small {
+        width: 8vw;
+    }
+
+    .artifact_img_small {
+        width: 10vw;
+    }
+
+    .weapon_container {
+        max-width: 20vw;
+    }
+    
+    .rank_column_mobile {
+        flex-direction: row;
+        justify-content: space-evenly;
+
+        width: 100%;
+    }
+
+    .rank_container {
+        width: auto;
+    }
+
+    .ranking_row {
+        flex-direction: column;
+    }
+    
+    .rank_row {
+        width: 100%;
+        /* justify-content: space-between; */
+    }
+
+    .rank_data_long {
+        width: 25vw;
+    }
+
+    .rank_data {
+        width: 15vw;
+    }
+
+    .rank_chart_container {
+        width: 100%;
+    }
+
+    .ranking_chart {
+        max-width: 90vw;
+        max-height: 20vh;
+    }
+
+    .ranking_chart_long {
+        max-width: 90vw;
+        max-height: 90vh;
+    }
+
+    .ranking_chart_short {
+        max-width: 90vw;
+        max-height: 10vh;
+    }
+
+    .menu_row_img {
+        width: 8vw;
+    }
+}
