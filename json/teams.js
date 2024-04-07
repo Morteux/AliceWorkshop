@@ -14397,7 +14397,7 @@ const teams = {
             ],
             "build": [
                 "Standard",
-                "C4",
+                "Tankfei",
                 "Standard"
             ]
         }
@@ -14741,7 +14741,7 @@ const teams = {
             "build": [
                 "Standard",
                 "Standard",
-                "C4",
+                "Tankfei",
             ]
         }
     },
