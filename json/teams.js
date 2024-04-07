@@ -14371,7 +14371,7 @@ const teams = {
     },
     "439": {
         "name": "Arlecchino Chevreuse",
-        "description": "Beidou is a good choice with Arlecchino due to her defensive utility. You can run also Tankfei with TTDS or Thoma, but they are not better than beidou. Their rotation would be the same than Beidou's.",
+        "description": "Beidou is a good choice with Arlecchino due to her defensive utility. You can run also Tankfei with TTDS or Thoma, but they are not better than beidou. Their rotation would be the same than Beidou's. <br><br>Abour Arlecchino's survability: She has pretty short rotations with flexible NA combos which allow you to dash a decent amount, a burst which should always overheal her and her A4. Since you can't get heal unlike others and in many teams you have 0 Interruption Resistance, you depends more on perfect dodgings than other characters. If you struggle against aggresive enemies like Coppelia, you might need defensive utility. Also, doing burst to heal will be the standard case, but if you manage to don't use it, you will have more damage, so I think that she is a good example of risk/reward.",
         "rotation": "Arlecchino E > Fischl E > Chevreuse Hold E (Q) > Beidou EQ > Arlecchino CA + NA > Fischl Q when expires > Arlecchino NA +(Q if healing is needed)",
         "archetype": [
             "Overload"
@@ -14405,7 +14405,7 @@ const teams = {
 
     "440": {
         "name": "Arlecchino Chevreuse",
-        "description": "Good in output damage, but you don't have any type of defensive utility. Be careful with circle impact + overload with Bennett.",
+        "description": "Good in output damage, but you don't have any type of defensive utility. Be careful with circle impact + overload with Bennett. <br><br>Abour Arlecchino's survability: She has pretty short rotations with flexible NA combos which allow you to dash a decent amount, a burst which should always overheal her and her A4. Since you can't get heal unlike others and in many teams you have 0 Interruption Resistance, you depends more on perfect dodgings than other characters. If you struggle against aggresive enemies like Coppelia, you might need defensive utility. Also, doing burst to heal will be the standard case, but if you manage to don't use it, you will have more damage, so I think that she is a good example of risk/reward.",
         "rotation": "Arlecchino E > Fischl E > Chevreuse Hold E (Q) > Bennett EQ > Arlecchino CA + NA > Fischl Q when expires > Arlecchino NA +(Q if healing is needed)",
         "archetype": [
             "Overload"
@@ -14465,7 +14465,7 @@ const teams = {
     },
     "442": {
         "name": "Arlecchino Vaporize",
-        "description": "One of the best Arlecchino's teams. With Yelan, best Arlecchino's team in Output damage. With Yelan you will have significantly more damage, but Xingqiu RES Interruption and DMG Reduction may be necessary and more useful with Arlecchino. With the good timings, you can do shorter rotations with Yelan (18s instead 20s).",
+        "description": "One of the best Arlecchino's teams. With Yelan, best Arlecchino's team in Output damage. With Yelan you will have significantly more damage, but Xingqiu RES Interruption and DMG Reduction may be necessary and more useful with Arlecchino. With the good timings, you can do shorter rotations with Yelan (18s instead 20s). <br><br>Abour Arlecchino's survability: She has pretty short rotations with flexible NA combos which allow you to dash a decent amount, a burst which should always overheal her and her A4. Since you can't get heal unlike others and in many teams you have 0 Interruption Resistance, you depends more on perfect dodgings than other characters. If you struggle against aggresive enemies like Coppelia, you might need defensive utility. Also, doing burst to heal will be the standard case, but if you manage to don't use it, you will have more damage, so I think that she is a good example of risk/reward.",
         "rotation": "Arlecchino E > Yelan/Xingqiu EQ > Bennett EQ +1NA > Kazuha Hold E >  Arlecchino CA + 3NA4 (Q if healing is needed)",
         "archetype": [
             "Vaporize"
@@ -14620,7 +14620,7 @@ const teams = {
 
     "447": {
         "name": "Arlecchino Vaporize",
-        "description": "The rotations with Kaedehara Kazuha might be difficult. You can use Fischl instead of him, the team overall has less damage, but is still a very strong and easier option.  With Yelan you will have significantly more damage, but Xingqiu RES Interruption and DMG Reduction may be necessary and more useful with Arlecchino. With the good timings, you can do shorter rotations with Yelan (18s instead 20s).",
+        "description": "The rotations with Kaedehara Kazuha might be difficult. You can use Fischl instead of him, the team overall has less damage, but is still a very strong and easier option.  With Yelan you will have significantly more damage, but Xingqiu RES Interruption and DMG Reduction may be necessary and more useful with Arlecchino. With the good timings, you can do shorter rotations with Yelan (18s instead 20s). <br><br>Abour Arlecchino's survability: She has pretty short rotations with flexible NA combos which allow you to dash a decent amount, a burst which should always overheal her and her A4. Since you can't get heal unlike others and in many teams you have 0 Interruption Resistance, you depends more on perfect dodgings than other characters. If you struggle against aggresive enemies like Coppelia, you might need defensive utility. Also, doing burst to heal will be the standard case, but if you manage to don't use it, you will have more damage, so I think that she is a good example of risk/reward.",
         "rotation": "Arlecchino E > Yelan/Xingqiu EQ > Bennett EQ +1NA > Fischl E or Q >  Arlecchino CA + NA (Q if healing is needed)",
         "archetype": [
             "Overvape"
@@ -14651,7 +14651,7 @@ const teams = {
     },
     "448": {
         "name": "Arlecchino Chevreuse",
-        "description": "You don't have any defensive option, so it is not recommended over other teams against aggressive enemies. With Xiangling, you gain in AoE, and with Yae Miko in singletarget though her rotations might me a little odd.",
+        "description": "With Xiangling, you gain in AoE, and with Yae Miko in singletarget though her rotations might me a little odd. <br><br>Abour Arlecchino's survability: She has pretty short rotations with flexible NA combos which allow you to dash a decent amount, a burst which should always overheal her and her A4. Since you can't get heal unlike others and in many teams you have 0 Interruption Resistance, you depends more on perfect dodgings than other characters. If you struggle against aggresive enemies like Coppelia, you might need defensive utility. Also, doing burst to heal will be the standard case, but if you manage to don't use it, you will have more damage, so I think that she is a good example of risk/reward.",
         "rotation": "",
         "archetype": [
             "Overload"
