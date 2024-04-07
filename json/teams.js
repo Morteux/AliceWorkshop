@@ -11781,7 +11781,7 @@ const teams = {
     },
     "364": {
         "name": "Hu Tao Xianyun Double Hydro",
-        "description": "With Yelan instead of Xingqiu, you don't have defensive utility and you won't vaporize all plunges due to slower Hydro application.",
+        "description": "You can use either Xingqiu or Yelan in this team. With Xingqiu you can have more comfort with the defensive utility and hydro app, but with Yelan you have more damage. Overall, Yelan is a better option, in most scenarios you would vape all the Hu Tao's hits reliabily, but is still better even if you lose some (can happen in AoE especially).",
         "rotation": "Do Hu Tao NA2CJ PA combo (2 Normal attacks into 1 Charge attack, jumping to cancel de CA and doing a Plunge which can cancel too into another NA)",
         "archetype": [
             "Vaporize"
@@ -11796,47 +11796,21 @@ const teams = {
             "build": "Standard"
         },
         "character_3": {
-            "name": "Yelan",
+            "name": "Xianyun",
             "build": "Standard"
         },
         "character_4": {
             "name": [
-                "Xianyun"
+                "Yelan",
+                "Xingqiu"
             ],
             "build": [
+                "Standard",
                 "Standard"
             ]
         }
     },
-    "365": {
-        "name": "Hu Tao Xianyun Double Hydro",
-        "description": "Best Hu Tao double Hydro team.",
-        "rotation": "Do Hu Tao NA2CJ PA combo (2 Normal attacks into 1 Charge attack, jumping to cancel de CA and doing a Plunge which can cancel too into another NA)",
-        "archetype": [
-            "Vaporize"
-        ],
-        "viability": "Recommended",
-        "character_1": {
-            "name": "Hu Tao",
-            "build": "Standard"
-        },
-        "character_2": {
-            "name": "Furina",
-            "build": "Standard"
-        },
-        "character_3": {
-            "name": "Xingqiu",
-            "build": "Standard"
-        },
-        "character_4": {
-            "name": [
-                "Xianyun"
-            ],
-            "build": [
-                "Standard"
-            ]
-        }
-    },
+
     "366": {
         "name": "Xianyun goes brrrrrr",
         "description": "With Bennett C6, Xianyun, and Furina, you can add almost any other character in the game to perform plunge attacks and vaporize. Just build them with EM/Pyro/Crit%, and any character could be a viable option to clear Abyss. Just be careful not to overwrite Bennett's Pyro infusion. You only have to perform plunge attacks with the fourth character, but you can use E/Q if you think it could be useful.",
