@@ -11781,7 +11781,7 @@ const teams = {
     },
     "364": {
         "name": "Hu Tao Xianyun Double Hydro",
-        "description": "You can use either Xingqiu or Yelan in this team. With Xingqiu you can have more comfort with the defensive utility and hydro app, but with Yelan you have more damage. Overall, Yelan is a better option, in most scenarios you would vape all the Hu Tao's hits reliabily, but is still better even if you lose some (can happen in AoE especially).",
+        "description": "You can use either Xingqiu or Yelan in this team. With Xingqiu you can have more comfort with the defensive utility, but with Yelan you have more damage. Overall, Yelan is a better option, in most scenarios you would vape all the Hu Tao's hits reliabily, but is still better even if you lose some (can happen in AoE especially).",
         "rotation": "Do Hu Tao NA2CJ PA combo (2 Normal attacks into 1 Charge attack, jumping to cancel de CA and doing a Plunge which can cancel too into another NA)",
         "archetype": [
             "Vaporize"
