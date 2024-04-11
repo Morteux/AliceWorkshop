@@ -23,6 +23,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
     // When the user scrolls down 20px from the top of the document, show the button
     window.onscroll = function () { scrollFunction() };
 
+    // console.log(!isMobileDevice());
     if (!isMobileDevice()) {
         // Load more teams when page bottom reached
         $(window).scroll(function () {
@@ -34,7 +35,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
             }
         });
     } else {
-        document.getElementById("result_load_more").style.display = "";
+        document.getElementById("result_load_more").style.display = "block";
         document.getElementById("result_load_more_button").innerHTML = "Load " + TEAMS_PER_PAGE + " more teams";
     }
 
