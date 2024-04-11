@@ -25,7 +25,10 @@ document.addEventListener("DOMContentLoaded", (event) => {
 
     // Load more teams when page bottom reached
     $(window).scroll(function () {
-        if ($(window).scrollTop() == $(document).height() - $(window).height() && document.getElementById("tab_teams_search_button").classList.contains("active_tab_button")) {
+        // $(document).height() - $(window).height()
+        // document.body.clientHeight - window.innerHeight
+        // $(document).height() - window.visualViewport.height
+        if ($(window).scrollTop() == $(document).height() - window.visualViewport.height && document.getElementById("tab_teams_search_button").classList.contains("active_tab_button")) {
             start_index += TEAMS_PER_PAGE;
             searchQuery();
         }
