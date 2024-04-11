@@ -811,7 +811,7 @@ input[type=text] {
 
     writing-mode: vertical-rl;
     /* text-orientation: upright; */
-    
+
     /* height: 90%; */
 }
 
@@ -925,9 +925,7 @@ input[type=text] {
 
 
 /* Small desktop/laptop version (Width: 960->1320px) */
-@media only screen and (max-width: 1320px) {
-
-}
+@media only screen and (max-width: 1320px) {}
 
 
 
@@ -951,5 +949,39 @@ input[type=text] {
 
     .list_choice {
         width: 40vw;
+    }
+
+    .welcome_container {
+        width: 80vw;
+        
+        height: 90vh;
+        overflow-x: hidden;
+        overflow-y: auto;
+        text-align: justify;
+    }
+
+    .welcome_title {
+        font-size: 3vh;
+    }
+
+    .welcome_p {
+        margin: 1vh 4vw;
+    }
+
+    .cookies_container {
+        flex-direction: column;
+        width: 60vw;
+    }
+
+    .cookies_img {
+        width: 20vw;
+    }
+
+    .cookies_buttons {
+        flex-direction: row;
+    }
+
+    .cookies_message {
+        margin: 4vw;
     }
 }
