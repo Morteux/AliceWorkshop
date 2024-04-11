@@ -23,16 +23,20 @@ document.addEventListener("DOMContentLoaded", (event) => {
     // When the user scrolls down 20px from the top of the document, show the button
     window.onscroll = function () { scrollFunction() };
 
-    // Load more teams when page bottom reached
-    $(window).scroll(function () {
-        // $(document).height() - $(window).height()
-        // document.body.clientHeight - window.innerHeight
-        // $(document).height() - window.visualViewport.height
-        if ($(window).scrollTop() == $(document).height() - window.visualViewport.height && document.getElementById("tab_teams_search_button").classList.contains("active_tab_button")) {
-            start_index += TEAMS_PER_PAGE;
-            searchQuery();
-        }
-    });
+    if (!isMobileDevice()) {
+        // Load more teams when page bottom reached
+        $(window).scroll(function () {
+            // $(document).height() - $(window).height()
+            // document.body.clientHeight - window.innerHeight
+            // $(document).height() - window.visualViewport.height
+            if ($(window).scrollTop() == $(document).height() - window.visualViewport.height && document.getElementById("tab_teams_search_button").classList.contains("active_tab_button")) {
+                loadNewResultPage();
+            }
+        });
+    } else {
+        document.getElementById("result_load_more").style.display = "";
+        document.getElementById("result_load_more_button").innerHTML = "Load " + TEAMS_PER_PAGE + " more teams";
+    }
 
     document.getElementById("search_form_text_input_1").addEventListener('keyup', function (e) {
         if (e.key === ENTER_KEY_CODE) {
@@ -62,6 +66,37 @@ document.addEventListener("DOMContentLoaded", (event) => {
         }
     });
 });
+
+function isMobileDevice() {
+    let hasTouchScreen = false;
+
+    if ("maxTouchPoints" in navigator) {
+        hasTouchScreen = navigator.maxTouchPoints > 0;
+    } else if ("msMaxTouchPoints" in navigator) {
+        hasTouchScreen = navigator.msMaxTouchPoints > 0;
+    } else {
+        let mQ = window.matchMedia && matchMedia("(pointer:coarse)");
+        if (mQ && mQ.media === "(pointer:coarse)") {
+            hasTouchScreen = !!mQ.matches;
+        } else if ('orientation' in window) {
+            hasTouchScreen = true; // deprecated, but good fallback
+        } else {
+            // Only as a last resort, fall back to user agent sniffing
+            let UA = navigator.userAgent;
+            hasTouchScreen = (
+                /\b(BlackBerry|webOS|iPhone|IEMobile)\b/i.test(UA) ||
+                /\b(Android|Windows Phone|iPad|iPod)\b/i.test(UA)
+            );
+        }
+    }
+
+    return hasTouchScreen;
+}
+
+function loadNewResultPage() {
+    start_index += TEAMS_PER_PAGE;
+    searchQuery();
+}
 
 function scrollFunction() {
     if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
