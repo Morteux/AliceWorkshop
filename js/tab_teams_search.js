@@ -23,6 +23,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
     // When the user scrolls down 20px from the top of the document, show the button
     window.onscroll = function () { scrollFunction() };
 
+    // Load more teams when page bottom reached
     $(window).scroll(function () {
         if ($(window).scrollTop() == $(document).height() - $(window).height() && document.getElementById("tab_teams_search_button").classList.contains("active_tab_button")) {
             start_index += TEAMS_PER_PAGE;

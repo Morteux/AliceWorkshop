@@ -480,6 +480,11 @@
 
 /* Mobile version (Width: 300->959px) */
 @media only screen and (max-width: 959px) {
+
+    .birthday_hat_icon {
+        width: 6vw;
+    }
+
     .small_input {
         width: 80% !important;
     }
