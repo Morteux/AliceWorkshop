@@ -14409,7 +14409,7 @@ const teams = {
     "441": {
         "name": "Arlecchino Furina",
         "description": "You can't heal Arlecchino, but you will obtain Furina's Fanfare stacks with the other three characters and Arlecchino auto-healing. With Yelan you will have a little more of damage, but Xingqiu RES Interruption and DMG Reduction may be necessary and most useful. ",
-        "rotation": "Arlecchino E > Furina EQ > Yelan/Xingqiu EQ > Bennett EQ > Arlecchino CA + 3NA4 (Q if healing is needed)",
+        "rotation": "Arlecchino E > Furina EQ > Yelan/Xingqiu EQ > Bennett EQ > Arlecchino CA + 5N3D (Q if healing is needed)",
         "archetype": [
             "Vaporize"
         ],
@@ -14440,7 +14440,7 @@ const teams = {
     "442": {
         "name": "Arlecchino Vaporize",
         "description": "One of the best Arlecchino's teams. With Yelan, best Arlecchino's team in Output damage. With Yelan you will have significantly more damage, but Xingqiu RES Interruption and DMG Reduction may be necessary and more useful with Arlecchino. With the good timings, you can do shorter rotations with Yelan (18s instead 20s). <br><br>About Arlecchino's survability: She has pretty short rotations with flexible NA combos which allow you to dash a decent amount, a burst which should always overheal her and her A4. Since you can't get heal unlike others and in many teams you have 0 Interruption Resistance, you depends more on perfect dodgings than other characters. If you struggle against aggresive enemies like Coppelia, you might need defensive utility. Also, doing burst to heal will be the standard case, but if you manage to don't use it, you will have more damage, so I think that she is a good example of risk/reward.",
-        "rotation": "Arlecchino E > Yelan/Xingqiu EQ > Bennett EQ +1NA > Kazuha Hold E >  Arlecchino CA + 3NA4 (Q if healing is needed)",
+        "rotation": "Arlecchino E > Yelan/Xingqiu EQ > Bennett EQ +1NA > Kazuha Hold E >  Arlecchino CA + 5N3D (Q if healing is needed)",
         "archetype": [
             "Vaporize"
         ],
@@ -14857,7 +14857,7 @@ const teams = {
     "455": {
         "name": "Arlecchino Vapemelt",
         "description": "You can play Arlecchino with Bennett + Yelan/Xingqiu for the vaporize reaction, plus a flex shielder as defensive option. You don't waste Bennett's ultimate time with an Anemo unit. If the enemies are not freezeables, you will lose the Hydro aura and the team won't performs well",
-        "rotation": "",
+        "rotation": "Arlecchino E > Rotation >  Arlecchino CA + 5N3D (Q if healing is needed)",
         "archetype": [
             "Vaporize"
         ],
@@ -14889,7 +14889,7 @@ const teams = {
     "456": {
         "name": "Arlecchino Vapemelt",
         "description": "You can play Arlecchino with Bennett + Yelan/Xingqiu for the vaporize reaction, plus a flex shielder as defensive option. You don't waste Bennett's ultimate time with an Anemo unit. If the enemies are not freezeables, you will lose the Hydro aura and the team won't performs well",
-        "rotation": "",
+        "rotation": "Arlecchino E > Rotation >  Arlecchino CA + 5N3D (Q if healing is needed)",
         "archetype": [
             "Vaporize"
         ],
@@ -14921,7 +14921,7 @@ const teams = {
     "457": {
         "name": "Arlecchino Doble Hydro",
         "description": "",
-        "rotation": "Arlecchino E > Xingqiu EQ > Yelan EQ > Bennett EQ > Arlecchino CA + 3NA4 (Q if healing is needed)",
+        "rotation": "Arlecchino E > Xingqiu EQ > Yelan EQ > Bennett EQ > Arlecchino CA + 5N3D (Q if healing is needed)",
         "archetype": [
             "Vaporize"
         ],
@@ -14981,7 +14981,7 @@ const teams = {
     "459": {
         "name": "Arlecchino Vaporize",
         "description": "One of the best Arlecchino's teams. With an Anemo Character, you can have more damage, but you don't have any defensive option so in some scenarios it can be impossible to play. On top of that, using zhongli you don't waste Bennett's ultimate time unlike an Anemo unit.You can use Xingqiu, but in this teams Yelan would performs betters since you already have Zhongli as defensive option. ",
-        "rotation": "Arlecchino E > Zhongli Hold E D > Xingqiu EQ > Bennett EQ > Arlecchino CA + NA (Q if healing is needed)",
+        "rotation": "Arlecchino E > Zhongli Hold E D > Xingqiu EQ > Bennett EQ > Arlecchino CA + 5N3D (Q if healing is needed)",
         "archetype": [
             "Vaporize"
         ],
