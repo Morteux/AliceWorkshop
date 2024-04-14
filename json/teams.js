@@ -4143,7 +4143,7 @@ const teams = {
     },
     "127": {
         "name": "Neuvillette Dehya Hyperbloom",
-        "description": "Dehya is surprisingly good with Neuvillette Hyperbloom. Low Pyro application to not steal hyperblooms, enough Pyro to trigger burning so Neuvillette can Vape and activate 3 stacks of his passive. On top of that, resistance interruption for the first Neuvillette CA so he can start to kite. As always, Raiden > Shinobu but both are good.",
+        "description": "Dehya is surprisingly good with Neuvillette Hyperbloom. Low Pyro application to not steal hyperblooms, enough Pyro to trigger burning so Neuvillette can Vape and activate 3 stacks of his passive. On top of that, resistance interruption for the first Neuvillette CA so he can start to kite. However, Dehya reduces the amount of hyperbloom that you get by like 1/3. As always, Raiden > Shinobu but both are good.",
         "rotation": "",
         "archetype": [
             "Hyperbloom"
