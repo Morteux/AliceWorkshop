@@ -11820,7 +11820,7 @@ const teams = {
         "description": "With Nahida you will Vaporize more consistently, but Kazuha boost more Neuvillette's damage if you can Hydro swirl.",
         "rotation": "",
         "archetype": [
-            ["Hypercarry", "Vaporize"]
+            "Hypercarry", "Vaporize"
         ],
         "viability": "Recommended",
         "character_1": {
