@@ -4344,7 +4344,7 @@ const teams = {
         "archetype": [
             "Overvape"
         ],
-        "viability": "Recommended",
+        "viability": "Viable",
         "character_1": {
             "name": "Neuvillette",
             "build": "Standard"
@@ -4528,7 +4528,7 @@ const teams = {
         "archetype": [
             "Curry"
         ],
-        "viability": "Recommended",
+        "viability": "Viable",
         "character_1": {
             "name": "Neuvillette",
             "build": "Standard"
@@ -4590,7 +4590,7 @@ const teams = {
         "archetype": [
             "Oven"
         ],
-        "viability": "Recommended",
+        "viability": "Viable",
         "character_1": {
             "name": "Neuvillette",
             "build": "Standard"
@@ -4625,7 +4625,7 @@ const teams = {
         "archetype": [
             "Oven"
         ],
-        "viability": "Recommended",
+        "viability": "Viable",
         "character_1": {
             "name": "Neuvillette",
             "build": "Standard"
@@ -4779,7 +4779,7 @@ const teams = {
     },
     "147": {
         "name": "Neuvillette HyperFridge",
-        "description": "Neuvillette is VERY strong in this archetype. Be careful to stay in a range that Shinobu can trigger the seeds. You can have the three stacks of Neuvillette passive.",
+        "description": "Be careful to stay in a range that Shinobu can trigger the seeds. You can have the three stacks of Neuvillette passive.",
         "rotation": "",
         "archetype": [
             "HyperFridge"
@@ -4814,7 +4814,7 @@ const teams = {
     },
     "148": {
         "name": "Neuvillette HyperFridge",
-        "description": "Neuvillette is VERY strong in this archetype. Be careful to stay in a range that Shinobu can trigger the seeds. You can have the three stacks of Neuvillette passive.",
+        "description": "Be careful to stay in a range that Shinobu can trigger the seeds. You can have the three stacks of Neuvillette passive.",
         "rotation": "",
         "archetype": [
             "HyperFridge"
@@ -4849,7 +4849,7 @@ const teams = {
     },
     "149": {
         "name": "Neuvillette Hyperbloom",
-        "description": "Neuvillette is very strong in this archetype. Be careful to stay in a range that Shinobu can trigger the seeds.",
+        "description": "Be careful to stay in a range that Shinobu can trigger the seeds.",
         "rotation": "",
         "archetype": [
             "Hyperbloom"
@@ -4894,7 +4894,7 @@ const teams = {
     },
     "150": {
         "name": "Neuvillette Hyperbloom",
-        "description": "Neuvillette is very strong in this archetype. Be careful to stay in a range that Shinobu can trigger the seeds.",
+        "description": "Be careful to stay in a range that Shinobu can trigger the seeds.",
         "rotation": "",
         "archetype": [
             "Hyperbloom"
@@ -4929,7 +4929,7 @@ const teams = {
     },
     "151": {
         "name": "Neuvillette Hyperbloom",
-        "description": "Neuvillette is very strong in this archetype. Be careful to stay in a range that Shinobu can trigger the seeds.",
+        "description": "Be careful to stay in a range that Shinobu can trigger the seeds.",
         "rotation": "",
         "archetype": [
             "Hyperbloom"
@@ -4966,7 +4966,7 @@ const teams = {
     },
     "152": {
         "name": "Neuvillette Hyperbloom",
-        "description": "Neuvillette is very strong in this archetype. Be careful to stay in a range that Shinobu can trigger the seeds.",
+        "description": "Be careful to stay in a range that Shinobu can trigger the seeds.",
         "rotation": "",
         "archetype": [
             "Hyperbloom"
@@ -5001,7 +5001,7 @@ const teams = {
     },
     "153": {
         "name": "Neuvillette HyperFridge",
-        "description": "Neuvillette is VERY strong in this archetype. With Raiden, you can do kite and trigger seeds. You can have the three stacks of Neuvillette passive.",
+        "description": "With Raiden, you can do kite and trigger seeds. You can have the three stacks of Neuvillette passive.",
         "rotation": "",
         "archetype": [
             "HyperFridge"
@@ -5036,7 +5036,7 @@ const teams = {
     },
     "154": {
         "name": "Neuvillette HyperFridge",
-        "description": "Neuvillette is VERY strong in this archetype. With Raiden, you can do kite and trigger seeds. You can have the three stacks of Neuvillette passive.",
+        "description": "With Raiden, you can do kite and trigger seeds. You can have the three stacks of Neuvillette passive.",
         "rotation": "",
         "archetype": [
             "HyperFridge"
@@ -5071,7 +5071,7 @@ const teams = {
     },
     "155": {
         "name": "Neuvillette Hyperbloom",
-        "description": "Neuvillette is very strong in this archetype. With Raiden, you can do kite and trigger seeds.",
+        "description": "With Raiden, you can do kite and trigger seeds.",
         "rotation": "",
         "archetype": [
             "Hyperbloom"
@@ -5116,7 +5116,7 @@ const teams = {
     },
     "156": {
         "name": "Neuvillette Hyperbloom",
-        "description": "Neuvillette is very strong in this archetype. With Raiden, you can do kite and trigger seeds.",
+        "description": "With Raiden, you can do kite and trigger seeds.",
         "rotation": "",
         "archetype": [
             "Hyperbloom"
@@ -5151,7 +5151,7 @@ const teams = {
     },
     "157": {
         "name": "Neuvillette Hyperbloom",
-        "description": "Neuvillette is very strong in this archetype. With Raiden, you can do kite and trigger seeds.",
+        "description": "With Raiden, you can do kite and trigger seeds.",
         "rotation": "",
         "archetype": [
             "Hyperbloom"
@@ -5971,7 +5971,7 @@ const teams = {
     },
     "184": {
         "name": "Neuvillette Furina Hyperbloom",
-        "description": "Nahida AND Neuvillette have to use Prototype Amber. With that, there is enough healing to maximize Furina's buff.",
+        "description": "Nahida can use Prototype Amber if you want more Fanfare's stack.",
         "rotation": "Furina Q > Healer Q/healing",
         "archetype": [
             "Hyperbloom"
@@ -8676,7 +8676,7 @@ const teams = {
     },
     "267": {
         "name": "Neuvillette Furina Hyperbloom",
-        "description": "It's recommended to equip Neuvillette with Prototype Amber in this team to ensure enough healing with Furina's passive and Shinobu/Dori/Diona.",
+        "description": "",
         "rotation": "",
         "archetype": [
             "Hyperbloom"
@@ -8707,12 +8707,12 @@ const teams = {
     },
     "268": {
         "name": "Neuvillette Furina Carry",
-        "description": "It's recommended to equip Neuvillette with Prototype Amber in this team to ensure enough healing with Furina's passive and Shinobu/Dori/Diona.",
+        "description": "",
         "rotation": "",
         "archetype": [
             "Hypercarry"
         ],
-        "viability": "Viable",
+        "viability": "Recommended",
         "character_1": {
             "name": "Neuvillette",
             "build": "Standard"
@@ -8728,10 +8728,14 @@ const teams = {
         "character_4": {
             "name": [
                 "Kuki Shinobu",
-                "Dori",
-                "Diona"
+                "Diona",
+                "Layla",
+                "Kirara",
+                "Baizhu"
             ],
             "build": [
+                "Standard",
+                "Standard",
                 "Standard",
                 "Standard",
                 "Standard"
@@ -11803,6 +11807,38 @@ const teams = {
             "name": [
                 "Yelan",
                 "Xingqiu"
+            ],
+            "build": [
+                "Standard",
+                "Standard"
+            ]
+        }
+    },
+
+    "365": {
+        "name": "Neuvillette Hypercarry with Xiangling",
+        "description": "With Nahida you will Vaporize more consistently, but Kazuha boost more Neuvillette's damage if you can Hydro swirl.",
+        "rotation": "",
+        "archetype": [
+            ["Hypercarry", "Vaporize"]
+        ],
+        "viability": "Recommended",
+        "character_1": {
+            "name": "Neuvillette",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Zhongli",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Xiangling",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": [
+                "Nahida",
+                "Kaedehara Kazuha"
             ],
             "build": [
                 "Standard",
@@ -15009,6 +15045,7 @@ const teams = {
             ]
         }
     },
+    
 };
 
 
