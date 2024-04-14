@@ -390,7 +390,7 @@ const talents = {
         },
         "passive3": {
             "name": "The Balemoon Alone May Know",
-            "descriptionRaw": "She receives a <color=#FF9999FF>40% Pyro DMG Bonus</color>. While in combat, Arlecchino can only receive the healing effect from <color=#FFD780FF>All is Ash's Nourishing Cinders</color>.",
+            "descriptionRaw": "She receives a <color=#FF9999FF>40% Pyro DMG Bonus</color>. While in combat, Arlecchino can only receive the healing effect from <color=#FFD780FF>Balemoon Rising</color>.",
             "description": "Gains 25% more rewards when dispatched on a Liyue Expedition for 20 hours."
         },
         "costs": {
