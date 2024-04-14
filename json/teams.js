@@ -4051,7 +4051,7 @@ const teams = {
         "archetype": [
             "Hypercarry"
         ],
-        "viability": "Viable",
+        "viability": "Recommended",
         "character_1": {
             "name": "Neuvillette",
             "build": "Standard"
