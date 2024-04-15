@@ -385,7 +385,7 @@ const characters_teams = {
         "Neuvillette Hyperbloom": {
             archetype: "Hyperbloom",
             description: "You can play Neuvillette in Hyperbloom and its sub-archetypes. It is not better than other hyperbloom teams with others characters, but still pretty good.",
-            composition: ["Neuvillette", "Nahida", "Raiden Shogun", "Flex"]
+            composition: ["Neuvillette", "Dendro", "Electro", "Flex"]
         },
     },
     "Nilou": {
