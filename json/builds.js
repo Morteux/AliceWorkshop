@@ -203,18 +203,18 @@ const builds = {
     },
     "Arlecchino": {
         "Standard": {
-            description: "",
+            description: "You can use an EM Sands in Vaporize Teams, but if it is better or not will depend of many factors",
             constellation: "",
             talent_priority: [1, 2, 3],
-            weapon: [],
+            weapon: ["Crimson Moon's Semblance", "Staff of Homa", "Primordial Jade Winged-Spear", "Missive Windspear", "White Tassel"],
             set: [],
-            er_requirement: "",
+            er_requirement: "100%",
             main_stat: {
-                sands: "",
-                goblet: "",
-                circlet: "",
+                sands: "ATK%",
+                goblet: "Pyro DMG%",
+                circlet: "CRIT",
             },
-            subs_stat: []
+            subs_stat: ["CRIT", "ATK%", "EM"]
         }
     },
     "Baizhu": {
