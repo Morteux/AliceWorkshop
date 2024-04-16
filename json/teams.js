@@ -15078,7 +15078,7 @@ const teams = {
 
     "461": {
         "name": "Hu Tao VV Vape",
-        "description": "Xingqiu has trouble keeping up with both Hutao's pyro app and Thoma's pyro app until you get C6 Xingqiu. Also, Thoma doesn't buff Hu Tao outside of enabling VV shred until C6. He is a poor carrier of 4pc Instructor due to needing to build ER for Q uptime",
+        "description": "Xingqiu has trouble keeping up with both Hutao's pyro app and Thoma's pyro app until you get C6 Xingqiu. Also, Thoma doesn't buff Hu Tao outside of enabling VV shred until C6. He is a poor carrier of 4pc Instructor due to needing to build ER for Q uptime.",
         "rotation": "",
         "archetype": [
             "Vaporize"
