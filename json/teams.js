@@ -15138,7 +15138,7 @@ const teams = {
 
     "463": {
         "name": "Sucrose National",
-        "description": "Clasical National Team. Very strong and fun rotation. In this team, is worth to have Xingqiu with Sacrificial sword, so you can do double E in the rotation (Do two instead one when it is said). All the NA's that are shown in the rotation are just to wave Xingqiu burst, you want to cancel them.",
+        "description": "Clasical National Team. Very strong and fun rotation. In this team, is worth to have Xingqiu with Sacrificial sword, so you can do double E in the rotation (Do two instead one when it is said). If you time Xingqiu's E well, you would be able to get 2 vapes per E; if you don't, you will vape Xiangling Q so it's not a big loss. All the NA's that are shown in the rotation are just to wave Xingqiu burst, you want to cancel them.",
         "rotation": "Xingqiu Q+NA > Bennett Q > Xiangling NA+E > Sucrose NA+E > Xiangling Q > Xingqiu E > Sucrose On-Field ",
         "archetype": [
             "Vaporize"
