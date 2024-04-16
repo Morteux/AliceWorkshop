@@ -15045,6 +15045,126 @@ const teams = {
             ]
         }
     },
+
+    "460": {
+        "name": "Funerational",
+        "description": "",
+        "rotation": "",
+        "archetype": [
+            "Vaporize"
+        ],
+        "viability": "Recommended",
+        "character_1": {
+            "name": "Hu Tao",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Xingqiu",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Yelan",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": [
+                "Xiangling",
+            ],
+            "build": [
+                "Standard",
+            ]
+        }
+    },
+
+    "461": {
+        "name": "Hu Tao VV Vape",
+        "description": "Xingqiu has trouble keeping up with both Hutao's pyro app and Thoma's pyro app until you get C6 Xingqiu. Also, Thoma doesn't buff Hu Tao outside of enabling VV shred until C6. He is a poor carrier of 4pc Instructor due to needing to build ER for Q uptime",
+        "rotation": "",
+        "archetype": [
+            "Vaporize"
+        ],
+        "viability": "Viable",
+        "character_1": {
+            "name": "Hu Tao",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Xingqiu",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Kaedehara Kazuha",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": [
+                "Thoma",
+            ],
+            "build": [
+                "Standard",
+            ]
+        }
+    },
+
+    "462": {
+        "name": "Hu Tao VV Vape",
+        "description": "Bennett fulfills the job of support Hu Tao betters than Thoma. He enable pyro VV shred, he buffs Hu Tao with his kit, can have Instructor set, and work as sustain, all without the caveats that Thoma has while also just buffing Hu Tao more than Thoma does. Bennett's flat atk buff outweighs losing A4 and 50% Homa weapon passive on Hu tao if you have it; you straight up do more damage with him. Not to mention the dmg% from Bennett C6.",
+        "rotation": "",
+        "archetype": [
+            "Vaporize"
+        ],
+        "viability": "Recommended",
+        "character_1": {
+            "name": "Hu Tao",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Xingqiu",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Kaedehara Kazuha",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": [
+                "Bennett",
+            ],
+            "build": [
+                "Standard",
+            ]
+        }
+    },
+
+    "463": {
+        "name": "Sucrose National",
+        "description": "Clasical National Team. Very strong and fun rotation. In this team, is worth to have Xingqiu with Sacrificial sword, so you can do double E in the rotation (Do two instead one when it is said). All the NA's that are shown in the rotation are just to wave Xingqiu burst, you want to cancel them.",
+        "rotation": "Xingqiu Q+NA > Bennett Q > Xiangling NA+E > Sucrose NA+E > Xiangling Q > Xingqiu E > Sucrose On-Field ",
+        "archetype": [
+            "Vaporize"
+        ],
+        "viability": "Recommended",
+        "character_1": {
+            "name": "Sucrose",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Xingqiu",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Xiangling",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": [
+                "Bennett",
+            ],
+            "build": [
+                "Standard",
+            ]
+        }
+    },
     
 };
 
