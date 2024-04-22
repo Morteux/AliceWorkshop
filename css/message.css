@@ -9,3 +9,9 @@
     color: gold;
     font-size: 100px;
 }
+
+body{
+    background-image: url("/images/clown.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
