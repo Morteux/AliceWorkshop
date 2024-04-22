@@ -17,6 +17,7 @@ CDN or JS files: https://github.com/theBowja/genshin-db-dist
 ## Features
 
 ### General
+- Add twitter link
 - Show who suggested each new team.
 - Add Weapons and Artifacts
 - Search for specific weapon, and show which characters have it in their build.
