@@ -15165,6 +15165,40 @@ const teams = {
             ]
         }
     },
+
+    "464": {
+        "name": "Arlecchino Doble Hydro",
+        "description": "Less Damage than the Bennett version, but you have a shield. ",
+        "rotation": "Arlecchino E > Xingqiu EQ > Yelan EQ > Thoma/Yanfei EQ > Arlecchino CA + 5N3D (Q if healing is needed)",
+        "archetype": [
+            "Vaporize"
+        ],
+        "viability": "Recommended",
+        "character_1": {
+            "name": "Arlecchino",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Yelan",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Xingqiu",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": [
+                "Thoma",
+                "Yanfei"
+            ],
+            "build": [
+                "Standard",
+                "C4"
+            ]
+        }
+    },
+
+    
     
 };
 
