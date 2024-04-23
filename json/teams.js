@@ -15173,7 +15173,7 @@ const teams = {
         "archetype": [
             "Vaporize"
         ],
-        "viability": "Recommended",
+        "viability": "Viable",
         "character_1": {
             "name": "Arlecchino",
             "build": "Standard"
