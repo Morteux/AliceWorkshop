@@ -15193,7 +15193,7 @@ const teams = {
             ],
             "build": [
                 "Standard",
-                "C4"
+                "Tankfei"
             ]
         }
     },
