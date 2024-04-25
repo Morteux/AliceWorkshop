@@ -80,5 +80,8 @@ const characters_order_priority = {
     78: "Xianyun",
     79: "Gaming",
     80: "Chiori",
-    81: "Arlecchino"
+    81: "Arlecchino",
+    82: "Sethos",
+    83: "Sigewinne",
+    84: "Clorinde"
 }

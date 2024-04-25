@@ -80,5 +80,8 @@ const characters_signature_weapons = {
     "Xianyun": "Crane's Echoing Call",
     "Gaming": "",
     "Chiori": "Uraku Misugiri",
-    "Arlecchino": "Crimson Moon's Semblance"
+    "Arlecchino": "Crimson Moon's Semblance",
+    "Sethos": "",
+    "Sigewinne": "",
+    "Clorinde": ""
 }

@@ -81,5 +81,8 @@ const best_teams = {
     "Xianyun": [],
     "Gaming": [],
     "Chiori": [],
-    "Arlecchino": []
+    "Arlecchino": [],
+    "Sethos": [],
+    "Sigewinne": [],
+    "Clorinde": []
 }

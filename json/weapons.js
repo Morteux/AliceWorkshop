@@ -385,9 +385,9 @@ const weapons = {
 
 
 
-    "Crimson Moon's Semblance": {
+    "a": {
         "id": 0,
-        "name": "Crimson Moon's Semblance",
+        "name": "a",
         "description": "",
         "descriptionRaw": "",
         "weaponType": "",
