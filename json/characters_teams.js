@@ -124,6 +124,13 @@ const characters_teams = {
             composition: ["Chiori", "Flex", "Flex", "Flex"]
         }
     },
+    "Clorinde": {
+        "name": {
+            archetype: "",
+            description: "",
+            composition: ["pj1", "element1", "elem2", "Flex"]
+        }
+    },
     "Chongyun": {
         "name": {
             archetype: "",
@@ -451,6 +458,13 @@ const characters_teams = {
             composition: ["pj1", "element1", "elem2", "Flex"]
         }
     },
+    "Sethos": {
+        "name": {
+            archetype: "",
+            description: "",
+            composition: ["pj1", "element1", "elem2", "Flex"]
+        }
+    },
     "Shenhe": {
         "name": {
             archetype: "",
@@ -459,6 +473,13 @@ const characters_teams = {
         }
     },
     "Shikanoin Heizou": {
+        "name": {
+            archetype: "",
+            description: "",
+            composition: ["pj1", "element1", "elem2", "Flex"]
+        }
+    },
+    "Sigewinne": {
         "name": {
             archetype: "",
             description: "",

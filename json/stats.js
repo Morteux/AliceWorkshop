@@ -6662,12 +6662,252 @@ const STATS = {
                 "For fun": 36,
                 "Unique": 0
             }
+        },
+        "Sethos": {
+            "team_count_ranking": 82,
+            "team_count": 0,
+            "by_archetype": {
+                "MonoGeo": 0,
+                "MonoHydro": 0,
+                "MonoCryo": 0,
+                "MonoPyro": 0,
+                "MonoElectro": 0,
+                "Hypercarry": 0,
+                "Freeze": 0,
+                "National": 0,
+                "Vaporize": 0,
+                "Overvape": 0,
+                "Overload": 0,
+                "Taser": 0,
+                "Soup": 0,
+                "Melt": 0,
+                "Aggravate": 0,
+                "Spread": 0,
+                "Bloom": 0,
+                "Burgeon": 0,
+                "Oven": 0,
+                "Curry": 0,
+                "Sauté": 0,
+                "Fridge": 0,
+                "Salad": 0,
+                "Airfryer": 0,
+                "Hyperbloom": 0,
+                "Quickbloom": 0,
+                "HyperFridge": 0,
+                "Bain-Marie": 0
+            },
+            "by_viability": {
+                "Recommended": 0,
+                "Viable": 0,
+                "For fun": 0,
+                "Unique": 0
+            },
+            "by_build": {
+                "Standard": 0
+            },
+            "ranking_by_archetype": {
+                "MonoGeo": 0,
+                "MonoHydro": 0,
+                "MonoCryo": 0,
+                "MonoPyro": 0,
+                "MonoElectro": 0,
+                "Hypercarry": 0,
+                "Freeze": 0,
+                "National": 0,
+                "Vaporize": 0,
+                "Overvape": 0,
+                "Overload": 0,
+                "Taser": 0,
+                "Soup": 0,
+                "Melt": 0,
+                "Aggravate": 0,
+                "Spread": 0,
+                "Bloom": 0,
+                "Burgeon": 0,
+                "Oven": 0,
+                "Curry": 0,
+                "Sauté": 0,
+                "Fridge": 0,
+                "Salad": 0,
+                "Airfryer": 0,
+                "Hyperbloom": 0,
+                "Quickbloom": 0,
+                "HyperFridge": 0,
+                "Bain-Marie": 0
+            },
+            "ranking_by_element": 13,
+            "ranking_by_viability": {
+                "Recommended": 0,
+                "Viable": 0,
+                "For fun": 0,
+                "Unique": 0
+            }
+        },
+        "Sigewinne": {
+            "team_count_ranking": 82,
+            "team_count": 0,
+            "by_archetype": {
+                "MonoGeo": 0,
+                "MonoHydro": 0,
+                "MonoCryo": 0,
+                "MonoPyro": 0,
+                "MonoElectro": 0,
+                "Hypercarry": 0,
+                "Freeze": 0,
+                "National": 0,
+                "Vaporize": 0,
+                "Overvape": 0,
+                "Overload": 0,
+                "Taser": 0,
+                "Soup": 0,
+                "Melt": 0,
+                "Aggravate": 0,
+                "Spread": 0,
+                "Bloom": 0,
+                "Burgeon": 0,
+                "Oven": 0,
+                "Curry": 0,
+                "Sauté": 0,
+                "Fridge": 0,
+                "Salad": 0,
+                "Airfryer": 0,
+                "Hyperbloom": 0,
+                "Quickbloom": 0,
+                "HyperFridge": 0,
+                "Bain-Marie": 0
+            },
+            "by_viability": {
+                "Recommended": 0,
+                "Viable": 0,
+                "For fun": 0,
+                "Unique": 0
+            },
+            "by_build": {
+                "Standard": 0
+            },
+            "ranking_by_archetype": {
+                "MonoGeo": 0,
+                "MonoHydro": 0,
+                "MonoCryo": 0,
+                "MonoPyro": 0,
+                "MonoElectro": 0,
+                "Hypercarry": 0,
+                "Freeze": 0,
+                "National": 0,
+                "Vaporize": 0,
+                "Overvape": 0,
+                "Overload": 0,
+                "Taser": 0,
+                "Soup": 0,
+                "Melt": 0,
+                "Aggravate": 0,
+                "Spread": 0,
+                "Bloom": 0,
+                "Burgeon": 0,
+                "Oven": 0,
+                "Curry": 0,
+                "Sauté": 0,
+                "Fridge": 0,
+                "Salad": 0,
+                "Airfryer": 0,
+                "Hyperbloom": 0,
+                "Quickbloom": 0,
+                "HyperFridge": 0,
+                "Bain-Marie": 0
+            },
+            "ranking_by_element": 13,
+            "ranking_by_viability": {
+                "Recommended": 0,
+                "Viable": 0,
+                "For fun": 0,
+                "Unique": 0
+            }
+        },
+        "Clorinde": {
+            "team_count_ranking": 82,
+            "team_count": 0,
+            "by_archetype": {
+                "MonoGeo": 0,
+                "MonoHydro": 0,
+                "MonoCryo": 0,
+                "MonoPyro": 0,
+                "MonoElectro": 0,
+                "Hypercarry": 0,
+                "Freeze": 0,
+                "National": 0,
+                "Vaporize": 0,
+                "Overvape": 0,
+                "Overload": 0,
+                "Taser": 0,
+                "Soup": 0,
+                "Melt": 0,
+                "Aggravate": 0,
+                "Spread": 0,
+                "Bloom": 0,
+                "Burgeon": 0,
+                "Oven": 0,
+                "Curry": 0,
+                "Sauté": 0,
+                "Fridge": 0,
+                "Salad": 0,
+                "Airfryer": 0,
+                "Hyperbloom": 0,
+                "Quickbloom": 0,
+                "HyperFridge": 0,
+                "Bain-Marie": 0
+            },
+            "by_viability": {
+                "Recommended": 0,
+                "Viable": 0,
+                "For fun": 0,
+                "Unique": 0
+            },
+            "by_build": {
+                "Standard": 0
+            },
+            "ranking_by_archetype": {
+                "MonoGeo": 0,
+                "MonoHydro": 0,
+                "MonoCryo": 0,
+                "MonoPyro": 0,
+                "MonoElectro": 0,
+                "Hypercarry": 0,
+                "Freeze": 0,
+                "National": 0,
+                "Vaporize": 0,
+                "Overvape": 0,
+                "Overload": 0,
+                "Taser": 0,
+                "Soup": 0,
+                "Melt": 0,
+                "Aggravate": 0,
+                "Spread": 0,
+                "Bloom": 0,
+                "Burgeon": 0,
+                "Oven": 0,
+                "Curry": 0,
+                "Sauté": 0,
+                "Fridge": 0,
+                "Salad": 0,
+                "Airfryer": 0,
+                "Hyperbloom": 0,
+                "Quickbloom": 0,
+                "HyperFridge": 0,
+                "Bain-Marie": 0
+            },
+            "ranking_by_element": 13,
+            "ranking_by_viability": {
+                "Recommended": 0,
+                "Viable": 0,
+                "For fun": 0,
+                "Unique": 0
+            }
         }
     },
     "count_characters_by_element": {
         "Pyro": 17,
-        "Electro": 13,
-        "Hydro": 13,
+        "Electro": 15,
+        "Hydro": 14,
         "Cryo": 17,
         "Anemo": 13,
         "Geo": 11,
@@ -7002,6 +7242,18 @@ const STATS = {
             "name": "Lumine",
             "team_count": 0
         },
+        "83": {
+            "name": "Sethos",
+            "team_count": 0
+        },
+        "84": {
+            "name": "Sigewinne",
+            "team_count": 0
+        },
+        "85": {
+            "name": "Clorinde",
+            "team_count": 0
+        },
         "Aether": {
             "rank": 11,
             "team_count": 147
@@ -7329,6 +7581,18 @@ const STATS = {
         "Arlecchino": {
             "rank": 43,
             "team_count": 38
+        },
+        "Sethos": {
+            "rank": 83,
+            "team_count": 0
+        },
+        "Sigewinne": {
+            "rank": 84,
+            "team_count": 0
+        },
+        "Clorinde": {
+            "rank": 85,
+            "team_count": 0
         }
     },
     "global_archetype_ranking": {
@@ -7661,6 +7925,18 @@ const STATS = {
                 "name": "Arlecchino",
                 "team_count": 0
             },
+            "83": {
+                "name": "Sethos",
+                "team_count": 0
+            },
+            "84": {
+                "name": "Sigewinne",
+                "team_count": 0
+            },
+            "85": {
+                "name": "Clorinde",
+                "team_count": 0
+            },
             "Aether": {
                 "rank": 13,
                 "team_count": 0
@@ -7987,6 +8263,18 @@ const STATS = {
             },
             "Arlecchino": {
                 "rank": 82,
+                "team_count": 0
+            },
+            "Sethos": {
+                "rank": 83,
+                "team_count": 0
+            },
+            "Sigewinne": {
+                "rank": 84,
+                "team_count": 0
+            },
+            "Clorinde": {
+                "rank": 85,
                 "team_count": 0
             }
         },
@@ -8319,6 +8607,18 @@ const STATS = {
                 "name": "Arlecchino",
                 "team_count": 0
             },
+            "83": {
+                "name": "Sethos",
+                "team_count": 0
+            },
+            "84": {
+                "name": "Sigewinne",
+                "team_count": 0
+            },
+            "85": {
+                "name": "Clorinde",
+                "team_count": 0
+            },
             "Aether": {
                 "rank": 14,
                 "team_count": 0
@@ -8645,6 +8945,18 @@ const STATS = {
             },
             "Arlecchino": {
                 "rank": 82,
+                "team_count": 0
+            },
+            "Sethos": {
+                "rank": 83,
+                "team_count": 0
+            },
+            "Sigewinne": {
+                "rank": 84,
+                "team_count": 0
+            },
+            "Clorinde": {
+                "rank": 85,
                 "team_count": 0
             }
         },
@@ -8977,6 +9289,18 @@ const STATS = {
                 "name": "Arlecchino",
                 "team_count": 0
             },
+            "83": {
+                "name": "Sethos",
+                "team_count": 0
+            },
+            "84": {
+                "name": "Sigewinne",
+                "team_count": 0
+            },
+            "85": {
+                "name": "Clorinde",
+                "team_count": 0
+            },
             "Aether": {
                 "rank": 13,
                 "team_count": 0
@@ -9303,6 +9627,18 @@ const STATS = {
             },
             "Arlecchino": {
                 "rank": 82,
+                "team_count": 0
+            },
+            "Sethos": {
+                "rank": 83,
+                "team_count": 0
+            },
+            "Sigewinne": {
+                "rank": 84,
+                "team_count": 0
+            },
+            "Clorinde": {
+                "rank": 85,
                 "team_count": 0
             }
         },
@@ -9635,6 +9971,18 @@ const STATS = {
                 "name": "Chevreuse",
                 "team_count": 0
             },
+            "83": {
+                "name": "Sethos",
+                "team_count": 0
+            },
+            "84": {
+                "name": "Sigewinne",
+                "team_count": 0
+            },
+            "85": {
+                "name": "Clorinde",
+                "team_count": 0
+            },
             "Aether": {
                 "rank": 27,
                 "team_count": 0
@@ -9962,6 +10310,18 @@ const STATS = {
             "Arlecchino": {
                 "rank": 17,
                 "team_count": 3
+            },
+            "Sethos": {
+                "rank": 83,
+                "team_count": 0
+            },
+            "Sigewinne": {
+                "rank": 84,
+                "team_count": 0
+            },
+            "Clorinde": {
+                "rank": 85,
+                "team_count": 0
             }
         },
         "MonoElectro": {
@@ -10293,6 +10653,18 @@ const STATS = {
                 "name": "Arlecchino",
                 "team_count": 0
             },
+            "83": {
+                "name": "Sethos",
+                "team_count": 0
+            },
+            "84": {
+                "name": "Sigewinne",
+                "team_count": 0
+            },
+            "85": {
+                "name": "Clorinde",
+                "team_count": 0
+            },
             "Aether": {
                 "rank": 5,
                 "team_count": 0
@@ -10619,6 +10991,18 @@ const STATS = {
             },
             "Arlecchino": {
                 "rank": 82,
+                "team_count": 0
+            },
+            "Sethos": {
+                "rank": 83,
+                "team_count": 0
+            },
+            "Sigewinne": {
+                "rank": 84,
+                "team_count": 0
+            },
+            "Clorinde": {
+                "rank": 85,
                 "team_count": 0
             }
         },
@@ -10951,6 +11335,18 @@ const STATS = {
                 "name": "Gaming",
                 "team_count": 0
             },
+            "83": {
+                "name": "Sethos",
+                "team_count": 0
+            },
+            "84": {
+                "name": "Sigewinne",
+                "team_count": 0
+            },
+            "85": {
+                "name": "Clorinde",
+                "team_count": 0
+            },
             "Aether": {
                 "rank": 30,
                 "team_count": 5
@@ -11278,6 +11674,18 @@ const STATS = {
             "Arlecchino": {
                 "rank": 22,
                 "team_count": 9
+            },
+            "Sethos": {
+                "rank": 83,
+                "team_count": 0
+            },
+            "Sigewinne": {
+                "rank": 84,
+                "team_count": 0
+            },
+            "Clorinde": {
+                "rank": 85,
+                "team_count": 0
             }
         },
         "Freeze": {
@@ -11609,6 +12017,18 @@ const STATS = {
                 "name": "Arlecchino",
                 "team_count": 0
             },
+            "83": {
+                "name": "Sethos",
+                "team_count": 0
+            },
+            "84": {
+                "name": "Sigewinne",
+                "team_count": 0
+            },
+            "85": {
+                "name": "Clorinde",
+                "team_count": 0
+            },
             "Aether": {
                 "rank": 27,
                 "team_count": 0
@@ -11935,6 +12355,18 @@ const STATS = {
             },
             "Arlecchino": {
                 "rank": 82,
+                "team_count": 0
+            },
+            "Sethos": {
+                "rank": 83,
+                "team_count": 0
+            },
+            "Sigewinne": {
+                "rank": 84,
+                "team_count": 0
+            },
+            "Clorinde": {
+                "rank": 85,
                 "team_count": 0
             }
         },
@@ -12267,6 +12699,18 @@ const STATS = {
                 "name": "Arlecchino",
                 "team_count": 0
             },
+            "83": {
+                "name": "Sethos",
+                "team_count": 0
+            },
+            "84": {
+                "name": "Sigewinne",
+                "team_count": 0
+            },
+            "85": {
+                "name": "Clorinde",
+                "team_count": 0
+            },
             "Aether": {
                 "rank": 20,
                 "team_count": 0
@@ -12593,6 +13037,18 @@ const STATS = {
             },
             "Arlecchino": {
                 "rank": 82,
+                "team_count": 0
+            },
+            "Sethos": {
+                "rank": 83,
+                "team_count": 0
+            },
+            "Sigewinne": {
+                "rank": 84,
+                "team_count": 0
+            },
+            "Clorinde": {
+                "rank": 85,
                 "team_count": 0
             }
         },
@@ -12925,6 +13381,18 @@ const STATS = {
                 "name": "Wriothesley",
                 "team_count": 0
             },
+            "83": {
+                "name": "Sethos",
+                "team_count": 0
+            },
+            "84": {
+                "name": "Sigewinne",
+                "team_count": 0
+            },
+            "85": {
+                "name": "Clorinde",
+                "team_count": 0
+            },
             "Aether": {
                 "rank": 29,
                 "team_count": 5
@@ -13252,6 +13720,18 @@ const STATS = {
             "Arlecchino": {
                 "rank": 17,
                 "team_count": 14
+            },
+            "Sethos": {
+                "rank": 83,
+                "team_count": 0
+            },
+            "Sigewinne": {
+                "rank": 84,
+                "team_count": 0
+            },
+            "Clorinde": {
+                "rank": 85,
+                "team_count": 0
             }
         },
         "Overvape": {
@@ -13583,6 +14063,18 @@ const STATS = {
                 "name": "Chiori",
                 "team_count": 0
             },
+            "83": {
+                "name": "Sethos",
+                "team_count": 0
+            },
+            "84": {
+                "name": "Sigewinne",
+                "team_count": 0
+            },
+            "85": {
+                "name": "Clorinde",
+                "team_count": 0
+            },
             "Aether": {
                 "rank": 22,
                 "team_count": 0
@@ -13910,6 +14402,18 @@ const STATS = {
             "Arlecchino": {
                 "rank": 7,
                 "team_count": 4
+            },
+            "Sethos": {
+                "rank": 83,
+                "team_count": 0
+            },
+            "Sigewinne": {
+                "rank": 84,
+                "team_count": 0
+            },
+            "Clorinde": {
+                "rank": 85,
+                "team_count": 0
             }
         },
         "Overload": {
@@ -14241,6 +14745,18 @@ const STATS = {
                 "name": "Chiori",
                 "team_count": 0
             },
+            "83": {
+                "name": "Sethos",
+                "team_count": 0
+            },
+            "84": {
+                "name": "Sigewinne",
+                "team_count": 0
+            },
+            "85": {
+                "name": "Clorinde",
+                "team_count": 0
+            },
             "Aether": {
                 "rank": 19,
                 "team_count": 0
@@ -14568,6 +15084,18 @@ const STATS = {
             "Arlecchino": {
                 "rank": 10,
                 "team_count": 6
+            },
+            "Sethos": {
+                "rank": 83,
+                "team_count": 0
+            },
+            "Sigewinne": {
+                "rank": 84,
+                "team_count": 0
+            },
+            "Clorinde": {
+                "rank": 85,
+                "team_count": 0
             }
         },
         "Taser": {
@@ -14899,6 +15427,18 @@ const STATS = {
                 "name": "Arlecchino",
                 "team_count": 0
             },
+            "83": {
+                "name": "Sethos",
+                "team_count": 0
+            },
+            "84": {
+                "name": "Sigewinne",
+                "team_count": 0
+            },
+            "85": {
+                "name": "Clorinde",
+                "team_count": 0
+            },
             "Aether": {
                 "rank": 24,
                 "team_count": 0
@@ -15225,6 +15765,18 @@ const STATS = {
             },
             "Arlecchino": {
                 "rank": 82,
+                "team_count": 0
+            },
+            "Sethos": {
+                "rank": 83,
+                "team_count": 0
+            },
+            "Sigewinne": {
+                "rank": 84,
+                "team_count": 0
+            },
+            "Clorinde": {
+                "rank": 85,
                 "team_count": 0
             }
         },
@@ -15557,6 +16109,18 @@ const STATS = {
                 "name": "Arlecchino",
                 "team_count": 0
             },
+            "83": {
+                "name": "Sethos",
+                "team_count": 0
+            },
+            "84": {
+                "name": "Sigewinne",
+                "team_count": 0
+            },
+            "85": {
+                "name": "Clorinde",
+                "team_count": 0
+            },
             "Aether": {
                 "rank": 5,
                 "team_count": 0
@@ -15883,6 +16447,18 @@ const STATS = {
             },
             "Arlecchino": {
                 "rank": 82,
+                "team_count": 0
+            },
+            "Sethos": {
+                "rank": 83,
+                "team_count": 0
+            },
+            "Sigewinne": {
+                "rank": 84,
+                "team_count": 0
+            },
+            "Clorinde": {
+                "rank": 85,
                 "team_count": 0
             }
         },
@@ -16215,6 +16791,18 @@ const STATS = {
                 "name": "Arlecchino",
                 "team_count": 0
             },
+            "83": {
+                "name": "Sethos",
+                "team_count": 0
+            },
+            "84": {
+                "name": "Sigewinne",
+                "team_count": 0
+            },
+            "85": {
+                "name": "Clorinde",
+                "team_count": 0
+            },
             "Aether": {
                 "rank": 26,
                 "team_count": 0
@@ -16541,6 +17129,18 @@ const STATS = {
             },
             "Arlecchino": {
                 "rank": 82,
+                "team_count": 0
+            },
+            "Sethos": {
+                "rank": 83,
+                "team_count": 0
+            },
+            "Sigewinne": {
+                "rank": 84,
+                "team_count": 0
+            },
+            "Clorinde": {
+                "rank": 85,
                 "team_count": 0
             }
         },
@@ -16873,6 +17473,18 @@ const STATS = {
                 "name": "Arlecchino",
                 "team_count": 0
             },
+            "83": {
+                "name": "Sethos",
+                "team_count": 0
+            },
+            "84": {
+                "name": "Sigewinne",
+                "team_count": 0
+            },
+            "85": {
+                "name": "Clorinde",
+                "team_count": 0
+            },
             "Aether": {
                 "rank": 4,
                 "team_count": 7
@@ -17199,6 +17811,18 @@ const STATS = {
             },
             "Arlecchino": {
                 "rank": 82,
+                "team_count": 0
+            },
+            "Sethos": {
+                "rank": 83,
+                "team_count": 0
+            },
+            "Sigewinne": {
+                "rank": 84,
+                "team_count": 0
+            },
+            "Clorinde": {
+                "rank": 85,
                 "team_count": 0
             }
         },
@@ -17531,6 +18155,18 @@ const STATS = {
                 "name": "Arlecchino",
                 "team_count": 0
             },
+            "83": {
+                "name": "Sethos",
+                "team_count": 0
+            },
+            "84": {
+                "name": "Sigewinne",
+                "team_count": 0
+            },
+            "85": {
+                "name": "Clorinde",
+                "team_count": 0
+            },
             "Aether": {
                 "rank": 7,
                 "team_count": 0
@@ -17857,6 +18493,18 @@ const STATS = {
             },
             "Arlecchino": {
                 "rank": 82,
+                "team_count": 0
+            },
+            "Sethos": {
+                "rank": 83,
+                "team_count": 0
+            },
+            "Sigewinne": {
+                "rank": 84,
+                "team_count": 0
+            },
+            "Clorinde": {
+                "rank": 85,
                 "team_count": 0
             }
         },
@@ -18189,6 +18837,18 @@ const STATS = {
                 "name": "Arlecchino",
                 "team_count": 0
             },
+            "83": {
+                "name": "Sethos",
+                "team_count": 0
+            },
+            "84": {
+                "name": "Sigewinne",
+                "team_count": 0
+            },
+            "85": {
+                "name": "Clorinde",
+                "team_count": 0
+            },
             "Aether": {
                 "rank": 5,
                 "team_count": 2
@@ -18515,6 +19175,18 @@ const STATS = {
             },
             "Arlecchino": {
                 "rank": 82,
+                "team_count": 0
+            },
+            "Sethos": {
+                "rank": 83,
+                "team_count": 0
+            },
+            "Sigewinne": {
+                "rank": 84,
+                "team_count": 0
+            },
+            "Clorinde": {
+                "rank": 85,
                 "team_count": 0
             }
         },
@@ -18847,6 +19519,18 @@ const STATS = {
                 "name": "Chiori",
                 "team_count": 0
             },
+            "83": {
+                "name": "Sethos",
+                "team_count": 0
+            },
+            "84": {
+                "name": "Sigewinne",
+                "team_count": 0
+            },
+            "85": {
+                "name": "Clorinde",
+                "team_count": 0
+            },
             "Aether": {
                 "rank": 8,
                 "team_count": 8
@@ -19174,6 +19858,18 @@ const STATS = {
             "Arlecchino": {
                 "rank": 22,
                 "team_count": 2
+            },
+            "Sethos": {
+                "rank": 83,
+                "team_count": 0
+            },
+            "Sigewinne": {
+                "rank": 84,
+                "team_count": 0
+            },
+            "Clorinde": {
+                "rank": 85,
+                "team_count": 0
             }
         },
         "Oven": {
@@ -19505,6 +20201,18 @@ const STATS = {
                 "name": "Arlecchino",
                 "team_count": 0
             },
+            "83": {
+                "name": "Sethos",
+                "team_count": 0
+            },
+            "84": {
+                "name": "Sigewinne",
+                "team_count": 0
+            },
+            "85": {
+                "name": "Clorinde",
+                "team_count": 0
+            },
             "Aether": {
                 "rank": 13,
                 "team_count": 12
@@ -19831,6 +20539,18 @@ const STATS = {
             },
             "Arlecchino": {
                 "rank": 82,
+                "team_count": 0
+            },
+            "Sethos": {
+                "rank": 83,
+                "team_count": 0
+            },
+            "Sigewinne": {
+                "rank": 84,
+                "team_count": 0
+            },
+            "Clorinde": {
+                "rank": 85,
                 "team_count": 0
             }
         },
@@ -20163,6 +20883,18 @@ const STATS = {
                 "name": "Arlecchino",
                 "team_count": 0
             },
+            "83": {
+                "name": "Sethos",
+                "team_count": 0
+            },
+            "84": {
+                "name": "Sigewinne",
+                "team_count": 0
+            },
+            "85": {
+                "name": "Clorinde",
+                "team_count": 0
+            },
             "Aether": {
                 "rank": 9,
                 "team_count": 10
@@ -20489,6 +21221,18 @@ const STATS = {
             },
             "Arlecchino": {
                 "rank": 82,
+                "team_count": 0
+            },
+            "Sethos": {
+                "rank": 83,
+                "team_count": 0
+            },
+            "Sigewinne": {
+                "rank": 84,
+                "team_count": 0
+            },
+            "Clorinde": {
+                "rank": 85,
                 "team_count": 0
             }
         },
@@ -20821,6 +21565,18 @@ const STATS = {
                 "name": "Arlecchino",
                 "team_count": 0
             },
+            "83": {
+                "name": "Sethos",
+                "team_count": 0
+            },
+            "84": {
+                "name": "Sigewinne",
+                "team_count": 0
+            },
+            "85": {
+                "name": "Clorinde",
+                "team_count": 0
+            },
             "Aether": {
                 "rank": 6,
                 "team_count": 3
@@ -21147,6 +21903,18 @@ const STATS = {
             },
             "Arlecchino": {
                 "rank": 82,
+                "team_count": 0
+            },
+            "Sethos": {
+                "rank": 83,
+                "team_count": 0
+            },
+            "Sigewinne": {
+                "rank": 84,
+                "team_count": 0
+            },
+            "Clorinde": {
+                "rank": 85,
                 "team_count": 0
             }
         },
@@ -21479,6 +22247,18 @@ const STATS = {
                 "name": "Arlecchino",
                 "team_count": 0
             },
+            "83": {
+                "name": "Sethos",
+                "team_count": 0
+            },
+            "84": {
+                "name": "Sigewinne",
+                "team_count": 0
+            },
+            "85": {
+                "name": "Clorinde",
+                "team_count": 0
+            },
             "Aether": {
                 "rank": 8,
                 "team_count": 0
@@ -21805,6 +22585,18 @@ const STATS = {
             },
             "Arlecchino": {
                 "rank": 82,
+                "team_count": 0
+            },
+            "Sethos": {
+                "rank": 83,
+                "team_count": 0
+            },
+            "Sigewinne": {
+                "rank": 84,
+                "team_count": 0
+            },
+            "Clorinde": {
+                "rank": 85,
                 "team_count": 0
             }
         },
@@ -22137,6 +22929,18 @@ const STATS = {
                 "name": "Arlecchino",
                 "team_count": 0
             },
+            "83": {
+                "name": "Sethos",
+                "team_count": 0
+            },
+            "84": {
+                "name": "Sigewinne",
+                "team_count": 0
+            },
+            "85": {
+                "name": "Clorinde",
+                "team_count": 0
+            },
             "Aether": {
                 "rank": 3,
                 "team_count": 2
@@ -22463,6 +23267,18 @@ const STATS = {
             },
             "Arlecchino": {
                 "rank": 82,
+                "team_count": 0
+            },
+            "Sethos": {
+                "rank": 83,
+                "team_count": 0
+            },
+            "Sigewinne": {
+                "rank": 84,
+                "team_count": 0
+            },
+            "Clorinde": {
+                "rank": 85,
                 "team_count": 0
             }
         },
@@ -22795,6 +23611,18 @@ const STATS = {
                 "name": "Arlecchino",
                 "team_count": 0
             },
+            "83": {
+                "name": "Sethos",
+                "team_count": 0
+            },
+            "84": {
+                "name": "Sigewinne",
+                "team_count": 0
+            },
+            "85": {
+                "name": "Clorinde",
+                "team_count": 0
+            },
             "Aether": {
                 "rank": 5,
                 "team_count": 0
@@ -23121,6 +23949,18 @@ const STATS = {
             },
             "Arlecchino": {
                 "rank": 82,
+                "team_count": 0
+            },
+            "Sethos": {
+                "rank": 83,
+                "team_count": 0
+            },
+            "Sigewinne": {
+                "rank": 84,
+                "team_count": 0
+            },
+            "Clorinde": {
+                "rank": 85,
                 "team_count": 0
             }
         },
@@ -23453,6 +24293,18 @@ const STATS = {
                 "name": "Arlecchino",
                 "team_count": 0
             },
+            "83": {
+                "name": "Sethos",
+                "team_count": 0
+            },
+            "84": {
+                "name": "Sigewinne",
+                "team_count": 0
+            },
+            "85": {
+                "name": "Clorinde",
+                "team_count": 0
+            },
             "Aether": {
                 "rank": 5,
                 "team_count": 49
@@ -23779,6 +24631,18 @@ const STATS = {
             },
             "Arlecchino": {
                 "rank": 82,
+                "team_count": 0
+            },
+            "Sethos": {
+                "rank": 83,
+                "team_count": 0
+            },
+            "Sigewinne": {
+                "rank": 84,
+                "team_count": 0
+            },
+            "Clorinde": {
+                "rank": 85,
                 "team_count": 0
             }
         },
@@ -24111,6 +24975,18 @@ const STATS = {
                 "name": "Arlecchino",
                 "team_count": 0
             },
+            "83": {
+                "name": "Sethos",
+                "team_count": 0
+            },
+            "84": {
+                "name": "Sigewinne",
+                "team_count": 0
+            },
+            "85": {
+                "name": "Clorinde",
+                "team_count": 0
+            },
             "Aether": {
                 "rank": 7,
                 "team_count": 15
@@ -24437,6 +25313,18 @@ const STATS = {
             },
             "Arlecchino": {
                 "rank": 82,
+                "team_count": 0
+            },
+            "Sethos": {
+                "rank": 83,
+                "team_count": 0
+            },
+            "Sigewinne": {
+                "rank": 84,
+                "team_count": 0
+            },
+            "Clorinde": {
+                "rank": 85,
                 "team_count": 0
             }
         },
@@ -24769,6 +25657,18 @@ const STATS = {
                 "name": "Arlecchino",
                 "team_count": 0
             },
+            "83": {
+                "name": "Sethos",
+                "team_count": 0
+            },
+            "84": {
+                "name": "Sigewinne",
+                "team_count": 0
+            },
+            "85": {
+                "name": "Clorinde",
+                "team_count": 0
+            },
             "Aether": {
                 "rank": 7,
                 "team_count": 29
@@ -25095,6 +25995,18 @@ const STATS = {
             },
             "Arlecchino": {
                 "rank": 82,
+                "team_count": 0
+            },
+            "Sethos": {
+                "rank": 83,
+                "team_count": 0
+            },
+            "Sigewinne": {
+                "rank": 84,
+                "team_count": 0
+            },
+            "Clorinde": {
+                "rank": 85,
                 "team_count": 0
             }
         },
@@ -25427,6 +26339,18 @@ const STATS = {
                 "name": "Arlecchino",
                 "team_count": 0
             },
+            "83": {
+                "name": "Sethos",
+                "team_count": 0
+            },
+            "84": {
+                "name": "Sigewinne",
+                "team_count": 0
+            },
+            "85": {
+                "name": "Clorinde",
+                "team_count": 0
+            },
             "Aether": {
                 "rank": 7,
                 "team_count": 0
@@ -25754,6 +26678,18 @@ const STATS = {
             "Arlecchino": {
                 "rank": 82,
                 "team_count": 0
+            },
+            "Sethos": {
+                "rank": 83,
+                "team_count": 0
+            },
+            "Sigewinne": {
+                "rank": 84,
+                "team_count": 0
+            },
+            "Clorinde": {
+                "rank": 85,
+                "team_count": 0
             }
         }
     },
@@ -25949,6 +26885,14 @@ const STATS = {
                 "name": "Lumine",
                 "team_count": 0
             },
+            "14": {
+                "name": "Sethos",
+                "team_count": 0
+            },
+            "15": {
+                "name": "Clorinde",
+                "team_count": 0
+            },
             "Aether": {
                 "rank": 12,
                 "team_count": 1
@@ -26000,6 +26944,14 @@ const STATS = {
             "Cyno": {
                 "rank": 7,
                 "team_count": 35
+            },
+            "Sethos": {
+                "rank": 14,
+                "team_count": 0
+            },
+            "Clorinde": {
+                "rank": 15,
+                "team_count": 0
             }
         },
         "Hydro": {
@@ -26055,6 +27007,10 @@ const STATS = {
                 "name": "Lumine",
                 "team_count": 0
             },
+            "14": {
+                "name": "Sigewinne",
+                "team_count": 0
+            },
             "Aether": {
                 "rank": 12,
                 "team_count": 1
@@ -26106,6 +27062,10 @@ const STATS = {
             "Furina": {
                 "rank": 1,
                 "team_count": 609
+            },
+            "Sigewinne": {
+                "rank": 14,
+                "team_count": 0
             }
         },
         "Cryo": {
@@ -26855,6 +27815,18 @@ const STATS = {
                 "name": "Lynette",
                 "team_count": 0
             },
+            "83": {
+                "name": "Sethos",
+                "team_count": 0
+            },
+            "84": {
+                "name": "Sigewinne",
+                "team_count": 0
+            },
+            "85": {
+                "name": "Clorinde",
+                "team_count": 0
+            },
             "Aether": {
                 "rank": 12,
                 "team_count": 56
@@ -27182,6 +28154,18 @@ const STATS = {
             "Arlecchino": {
                 "rank": 41,
                 "team_count": 12
+            },
+            "Sethos": {
+                "rank": 83,
+                "team_count": 0
+            },
+            "Sigewinne": {
+                "rank": 84,
+                "team_count": 0
+            },
+            "Clorinde": {
+                "rank": 85,
+                "team_count": 0
             }
         },
         "Viable": {
@@ -27513,6 +28497,18 @@ const STATS = {
                 "name": "Tighnari",
                 "team_count": 0
             },
+            "83": {
+                "name": "Sethos",
+                "team_count": 0
+            },
+            "84": {
+                "name": "Sigewinne",
+                "team_count": 0
+            },
+            "85": {
+                "name": "Clorinde",
+                "team_count": 0
+            },
             "Aether": {
                 "rank": 9,
                 "team_count": 87
@@ -27840,6 +28836,18 @@ const STATS = {
             "Arlecchino": {
                 "rank": 40,
                 "team_count": 24
+            },
+            "Sethos": {
+                "rank": 83,
+                "team_count": 0
+            },
+            "Sigewinne": {
+                "rank": 84,
+                "team_count": 0
+            },
+            "Clorinde": {
+                "rank": 85,
+                "team_count": 0
             }
         },
         "For fun": {
@@ -28171,6 +29179,18 @@ const STATS = {
                 "name": "Gaming",
                 "team_count": 0
             },
+            "83": {
+                "name": "Sethos",
+                "team_count": 0
+            },
+            "84": {
+                "name": "Sigewinne",
+                "team_count": 0
+            },
+            "85": {
+                "name": "Clorinde",
+                "team_count": 0
+            },
             "Aether": {
                 "rank": 28,
                 "team_count": 4
@@ -28498,6 +29518,18 @@ const STATS = {
             "Arlecchino": {
                 "rank": 44,
                 "team_count": 2
+            },
+            "Sethos": {
+                "rank": 83,
+                "team_count": 0
+            },
+            "Sigewinne": {
+                "rank": 84,
+                "team_count": 0
+            },
+            "Clorinde": {
+                "rank": 85,
+                "team_count": 0
             }
         },
         "Unique": {
@@ -28829,6 +29861,18 @@ const STATS = {
                 "name": "Arlecchino",
                 "team_count": 0
             },
+            "83": {
+                "name": "Sethos",
+                "team_count": 0
+            },
+            "84": {
+                "name": "Sigewinne",
+                "team_count": 0
+            },
+            "85": {
+                "name": "Clorinde",
+                "team_count": 0
+            },
             "Aether": {
                 "rank": 24,
                 "team_count": 0
@@ -29155,6 +30199,18 @@ const STATS = {
             },
             "Arlecchino": {
                 "rank": 82,
+                "team_count": 0
+            },
+            "Sethos": {
+                "rank": 83,
+                "team_count": 0
+            },
+            "Sigewinne": {
+                "rank": 84,
+                "team_count": 0
+            },
+            "Clorinde": {
+                "rank": 85,
                 "team_count": 0
             }
         }

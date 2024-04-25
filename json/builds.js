@@ -500,6 +500,22 @@ const builds = {
             subs_stat: []
         }
     },
+    "Clorinde": {
+        "Standard": {
+            description: "",
+            constellation: "",
+            talent_priority: [1, 2, 3],
+            weapon: [],
+            set: [],
+            er_requirement: "",
+            main_stat: {
+                sands: "",
+                goblet: "",
+                circlet: "",
+            },
+            subs_stat: []
+        }
+    },
     "Collei": {
         "Standard": {
             description: "",
@@ -1943,6 +1959,22 @@ const builds = {
         //     subs_stat: ["ER", "EM", "ATK%", "ATK"]
         // }
     },
+    "Sethos": {
+        "Standard": {
+            description: "",
+            constellation: "",
+            talent_priority: [1, 2, 3],
+            weapon: [],
+            set: [],
+            er_requirement: "",
+            main_stat: {
+                sands: "",
+                goblet: "",
+                circlet: "",
+            },
+            subs_stat: []
+        }
+    },
     "Shenhe": {
         "Standard": {
             description: "",
@@ -2012,6 +2044,22 @@ const builds = {
         //     },
         //     subs_stat: ["Crit Rate", "Crit Damage", "ATK%", "EM"]
         // }
+    },
+    "Sigewinne": {
+        "Standard": {
+            description: "",
+            constellation: "",
+            talent_priority: [1, 2, 3],
+            weapon: [],
+            set: [],
+            er_requirement: "",
+            main_stat: {
+                sands: "",
+                goblet: "",
+                circlet: "",
+            },
+            subs_stat: []
+        }
     },
     "Sucrose": {
         "Standard": {
