@@ -15198,6 +15198,128 @@ const teams = {
         }
     },
 
+    "465": {
+        "name": "Arlecchino Melt",
+        "description": "If you have Kaeya C6, is a very good team for Arlecchino.",
+        "rotation": "",
+        "archetype": [
+            "Melt"
+        ],
+        "viability": "Viable",
+        "character_1": {
+            "name": "Arlecchino",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Bennett",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Kaedehara Kazuha",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": [
+                "Kaeya",
+            ],
+            "build": [
+                "C6",
+            ]
+        }
+    },
+
+    "466": {
+        "name": "Arlecchino VV Vape Sucrose",
+        "description": "",
+        "rotation": "",
+        "archetype": [
+            "Vaporize"
+        ],
+        "viability": "Viable",
+        "character_1": {
+            "name": "Arlecchino",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Bennett",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Sucrose",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": [
+                "Xingqiu",
+                "Yelan"
+            ],
+            "build": [
+                "Standard",
+                "Standard
+            ]
+        }
+    },
+
+    "467": {
+        "name": "Arlecchino VV Vape Furina",
+        "description": "Good for speedrunning of if you have Furina cons. ",
+        "rotation": "",
+        "archetype": [
+            "Vaporize"
+        ],
+        "viability": "Viable",
+        "character_1": {
+            "name": "Arlecchino",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Bennett",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Kaedehara Kazuha",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": [
+                "Furina",
+            ],
+            "build": [
+                "Standard",
+            ]
+        }
+    },
+
+    "468": {
+        "name": "Arlecchino Hypercarry",
+        "description": "",
+        "rotation": "",
+        "archetype": [
+            "Hypercarry"
+        ],
+        "viability": "Recommended",
+        "character_1": {
+            "name": "Arlecchino",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Bennett",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Kaedehara Kazuha",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": [
+                "Zhongli",
+            ],
+            "build": [
+                "Standard",
+            ]
+        }
+    },
+
     
     
 };
