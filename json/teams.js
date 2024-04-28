@@ -15223,7 +15223,7 @@ const teams = {
                 "Kaeya",
             ],
             "build": [
-                "C6",
+                "Standard",
             ]
         }
     },
