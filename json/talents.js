@@ -3,9 +3,9 @@ const talents = {
         "id": 0,
         "name": "Sethos",
         "combat1": {
-            "name": "Normal Attack:",
-            "descriptionRaw": "",
-            "description": "",
+            "name": "Normal Attack: Royal Reed Bowmanship",
+            "descriptionRaw": "Normal Attack\nPerforms up to 3 consecutive shots with a bow.\n\nCharged Attack\nPerforms a more precise Aimed Shot with increased DMG.While aiming, the power of Electro will accumulate on the arrowhead before the arrow is fired. Has different effects based on how long the energy has been charged:·Charge Level 1: Fires off an arrow carrying the power of lightning that deals Electro DMG.·Charge Level 2: Fires off a Shadowpiercing Shot which can pierce enemies, dealing Electro DMG to enemies along its path. After the Shadowpiercing Shot is fully charged, Sethos cannot move around.\n\nPlunging Attack\nFires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.",
+            "description": "Normal Attack\nPerforms up to 3 consecutive shots with a bow.\n\nCharged Attack\nPerforms a more precise Aimed Shot with increased DMG.While aiming, the power of Electro will accumulate on the arrowhead before the arrow is fired. Has different effects based on how long the energy has been charged:·Charge Level 1: Fires off an arrow carrying the power of lightning that deals Electro DMG.·Charge Level 2: Fires off a Shadowpiercing Shot which can pierce enemies, dealing Electro DMG to enemies along its path. After the Shadowpiercing Shot is fully charged, Sethos cannot move around.\n\nPlunging Attack\nFires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.",
             "attributes": {
                 "labels": [
                 ],
@@ -14,9 +14,9 @@ const talents = {
             }
         },
         "combat2": {
-            "name": "Elemental Skill:",
-            "descriptionRaw": "",
-            "description": "",
+            "name": "E. Ancient Rite: Thunderous Roar of Sand",
+            "descriptionRaw": "Gathers the might of thunder, dealing AoE Electro DMG to enemies in front and quickly retreating. If this attack triggers Electro-Charged, Superconduct, Overloaded, Quicken, Aggravate, Hyperbloom, or Electro Swirl reactions, Sethos recovers a certain amount of Elemental Energy.",
+            "description": "Gathers the might of thunder, dealing AoE Electro DMG to enemies in front and quickly retreating. If this attack triggers Electro-Charged, Superconduct, Overloaded, Quicken, Aggravate, Hyperbloom, or Electro Swirl reactions, Sethos recovers a certain amount of Elemental Energy.",
             "attributes": {
                 "labels": [
                 ],
@@ -25,9 +25,9 @@ const talents = {
             }
         },
         "combat3": {
-            "name": "Burst Skill:",
-            "descriptionRaw": "",
-            "description": "",
+            "name": "Q. Secret Rite: Twilight Shadowpiercer",
+            "descriptionRaw": "Perform a secret rite, entering the \"Twilight Meditation\" state, during which Sethos's normal attacks will be converted into enemy-piercing Dusk Bolts: Deal Electro DMG to opponents in its path, with DMG increased based on Sethos's Elemental Mastery.DMG dealt by Dusk Bolts is considered Charged Attack DMG.",
+            "description": "Perform a secret rite, entering the \"Twilight Meditation\" state, during which Sethos's normal attacks will be converted into enemy-piercing Dusk Bolts: Deal Electro DMG to opponents in its path, with DMG increased based on Sethos's Elemental Mastery.DMG dealt by Dusk Bolts is considered Charged Attack DMG.",
             "attributes": {
                 "labels": [
                 ],
@@ -36,19 +36,19 @@ const talents = {
             }
         },
         "passive1": {
-            "name": "Passive 1",
-            "descriptionRaw": "",
-            "description": ""
+            "name": "Black Kite's Enigma",
+            "descriptionRaw": "When Aiming, the charging time is decreased by 0.285s based on each point of Sethos's current Elemental Energy that is not over 20. Charging time can be reduced to a minimum of 0.3s through this method. If a Shadowpiercing Shot is fired, consume the corresponding amount of Elemental Energy; if it is a Charge Level 1 shot, then consume 50% of the corresponding amount of Elemental Energy.",
+            "description": "When Aiming, the charging time is decreased by 0.285s based on each point of Sethos's current Elemental Energy that is not over 20. Charging time can be reduced to a minimum of 0.3s through this method. If a Shadowpiercing Shot is fired, consume the corresponding amount of Elemental Energy; if it is a Charge Level 1 shot, then consume 50% of the corresponding amount of Elemental Energy."
         },
         "passive2": {
-            "name": "Passive 2",
-            "descriptionRaw": "",
-            "description": ""
+            "name": "The Sand King's Boon",
+            "descriptionRaw": "Every 15s, Sethos gains the \"Scorching Sandshade\" effect, increasing the DMG dealt by Shadowpiercing Shots by 600% of Sethos's Elemental Mastery.The Scorching Sandshade effect lasts for up to 5s, and will be removed after 4 Shadowpiercing Shots strike opponents. When the first Shadowpiercing Shot affected by Scorching Sandshade hits an opponent, the timer for Scorching Sandshade's expiration will be reset.",
+            "description": "Every 15s, Sethos gains the \"Scorching Sandshade\" effect, increasing the DMG dealt by Shadowpiercing Shots by 600% of Sethos's Elemental Mastery.The Scorching Sandshade effect lasts for up to 5s, and will be removed after 4 Shadowpiercing Shots strike opponents. When the first Shadowpiercing Shot affected by Scorching Sandshade hits an opponent, the timer for Scorching Sandshade's expiration will be reset."
         },
         "passive3": {
-            "name": "Passive 3",
-            "descriptionRaw": "",
-            "description": ""
+            "name": "Reflected Revelation",
+            "descriptionRaw": "Displays the location of nearby resources unique to Sumeru on the mini-map.",
+            "description": "Displays the location of nearby resources unique to Sumeru on the mini-map."
         },
         "costs": {
             "lvl2": [
@@ -59,12 +59,12 @@ const talents = {
                 },
                 {
                     "id": 0,
-                    "name": "",
+                    "name": "Teachings of Praxis",
                     "count": 3
                 },
                 {
                     "id": 0,
-                    "name": "",
+                    "name": "Faded Red Satin",
                     "count": 6
                 }
 
@@ -77,12 +77,12 @@ const talents = {
                 },
                 {
                     "id": 0,
-                    "name": "",
+                    "name": "Guide to Praxis",
                     "count": 2
                 },
                 {
                     "id": 0,
-                    "name": "",
+                    "name": "Trimmed Red Silk",
                     "count": 3
                 }
             ],
@@ -94,12 +94,12 @@ const talents = {
                 },
                 {
                     "id": 0,
-                    "name": "",
+                    "name": "Guide to Praxis",
                     "count": 4
                 },
                 {
                     "id": 0,
-                    "name": "",
+                    "name": "Trimmed Red Silk",
                     "count": 4
                 }
             ],
@@ -111,12 +111,12 @@ const talents = {
                 },
                 {
                     "id": 0,
-                    "name": "",
+                    "name": "Guide to Praxis",
                     "count": 6
                 },
                 {
                     "id": 0,
-                    "name": "",
+                    "name": "Trimmed Red Silk",
                     "count": 6
                 }
             ],
@@ -128,12 +128,12 @@ const talents = {
                 },
                 {
                     "id": 0,
-                    "name": "",
+                    "name": "Guide to Praxis",
                     "count": 9
                 },
                 {
                     "id": 0,
-                    "name": "",
+                    "name": "Trimmed Red Silk",
                     "count": 9
                 }
             ],
@@ -145,17 +145,17 @@ const talents = {
                 },
                 {
                     "id": 0,
-                    "name": "",
+                    "name": "Philosophies of Praxis",
                     "count": 4
                 },
                 {
                     "id": 0,
-                    "name": "",
+                    "name": "Rich Red Brocade",
                     "count": 4
                 },
                 {
                     "id": 0,
-                    "name": "",
+                    "name": "Daka's Bell",
                     "count": 1
                 }
             ],
@@ -167,17 +167,17 @@ const talents = {
                 },
                 {
                     "id": 0,
-                    "name": "",
+                    "name": "Philosophies of Praxis",
                     "count": 6
                 },
                 {
                     "id": 0,
-                    "name": "",
+                    "name": "Rich Red Brocade",
                     "count": 6
                 },
                 {
                     "id": 0,
-                    "name": "",
+                    "name": "Daka's Bell",
                     "count": 1
                 }
             ],
@@ -189,17 +189,17 @@ const talents = {
                 },
                 {
                     "id": 0,
-                    "name": "",
+                    "name": "Philosophies of Praxis",
                     "count": 12
                 },
                 {
                     "id": 0,
-                    "name": "",
+                    "name": "Rich Red Brocade",
                     "count": 9
                 },
                 {
                     "id": 0,
-                    "name": "",
+                    "name": "Daka's Bell",
                     "count": 2
                 }
             ],
@@ -211,22 +211,22 @@ const talents = {
                 },
                 {
                     "id": 0,
-                    "name": "",
+                    "name": "Philosophies of Praxis",
                     "count": 16
                 },
                 {
                     "id": 0,
-                    "name": "",
+                    "name": "Rich Red Brocade",
                     "count": 12
                 },
                 {
                     "id": 0,
-                    "name": "",
+                    "name": "Daka's Bell",
                     "count": 2
                 },
                 {
                     "id": 0,
-                    "name": "",
+                    "name": "Crown of Insight",
                     "count": 1
                 }
             ]
@@ -288,7 +288,7 @@ const talents = {
             "description": "Sigewinne gains a healing bonus based on the total current value of Bonds of Life on all party members. For each 1,000 HP worth of Bonds of Life on party members, Sigewinne gains a 3% Healing Bonus. The maximum Healing Bonus that can be obtained in this way is 30%."
         },
         "passive3": {
-            "name": "Passive 3",
+            "name": "Emergency Dose",
             "descriptionRaw": "",
             "description": ""
         },
@@ -301,12 +301,12 @@ const talents = {
                 },
                 {
                     "id": 0,
-                    "name": "",
+                    "name": "Teachings of Equity",
                     "count": 3
                 },
                 {
                     "id": 0,
-                    "name": "",
+                    "name": "Transoceanic Pearl",
                     "count": 6
                 }
 
@@ -319,12 +319,12 @@ const talents = {
                 },
                 {
                     "id": 0,
-                    "name": "",
+                    "name": "Guide to Equity",
                     "count": 2
                 },
                 {
                     "id": 0,
-                    "name": "",
+                    "name": "Transoceanic Chunk",
                     "count": 3
                 }
             ],
@@ -336,12 +336,12 @@ const talents = {
                 },
                 {
                     "id": 0,
-                    "name": "",
+                    "name": "Guide to Equity",
                     "count": 4
                 },
                 {
                     "id": 0,
-                    "name": "",
+                    "name": "Transoceanic Chunk",
                     "count": 4
                 }
             ],
@@ -353,12 +353,12 @@ const talents = {
                 },
                 {
                     "id": 0,
-                    "name": "",
+                    "name": "Guide to Equity",
                     "count": 6
                 },
                 {
                     "id": 0,
-                    "name": "",
+                    "name": "Transoceanic Chunk",
                     "count": 6
                 }
             ],
@@ -370,12 +370,12 @@ const talents = {
                 },
                 {
                     "id": 0,
-                    "name": "",
+                    "name": "Guide to Equity",
                     "count": 9
                 },
                 {
                     "id": 0,
-                    "name": "",
+                    "name": "Transoceanic Chunk",
                     "count": 9
                 }
             ],
@@ -387,17 +387,17 @@ const talents = {
                 },
                 {
                     "id": 0,
-                    "name": "",
+                    "name": "Philosophies of Equity",
                     "count": 4
                 },
                 {
                     "id": 0,
-                    "name": "",
+                    "name": "Xenochromatic Crystal",
                     "count": 4
                 },
                 {
                     "id": 0,
-                    "name": "",
+                    "name": "Lightless Eye of the Maelstrom",
                     "count": 1
                 }
             ],
@@ -409,17 +409,17 @@ const talents = {
                 },
                 {
                     "id": 0,
-                    "name": "",
+                    "name": "Philosophies of Equity",
                     "count": 6
                 },
                 {
                     "id": 0,
-                    "name": "",
+                    "name": "Xenochromatic Crystal",
                     "count": 6
                 },
                 {
                     "id": 0,
-                    "name": "",
+                    "name": "Lightless Eye of the Maelstrom",
                     "count": 1
                 }
             ],
@@ -431,17 +431,17 @@ const talents = {
                 },
                 {
                     "id": 0,
-                    "name": "",
+                    "name": "Philosophies of Equity",
                     "count": 12
                 },
                 {
                     "id": 0,
-                    "name": "",
+                    "name": "Xenochromatic Crystal",
                     "count": 9
                 },
                 {
                     "id": 0,
-                    "name": "",
+                    "name": "Lightless Eye of the Maelstrom",
                     "count": 2
                 }
             ],
@@ -453,22 +453,22 @@ const talents = {
                 },
                 {
                     "id": 0,
-                    "name": "",
+                    "name": "Philosophies of Equity",
                     "count": 16
                 },
                 {
                     "id": 0,
-                    "name": "",
+                    "name": "Xenochromatic Crystal",
                     "count": 12
                 },
                 {
                     "id": 0,
-                    "name": "",
+                    "name": "Lightless Eye of the Maelstrom",
                     "count": 2
                 },
                 {
                     "id": 0,
-                    "name": "",
+                    "name": "Crown of Insight",
                     "count": 1
                 }
             ]
@@ -487,9 +487,9 @@ const talents = {
         "id": 0,
         "name": "Clorinde",
         "combat1": {
-            "name": "Normal Attack:",
-            "descriptionRaw": "",
-            "description": "",
+            "name": "Normal Attack: Marechaussee Creed",
+            "descriptionRaw": "Normal Attack\nPerforms up to 5 rapid strikes.\n\nCharged Attack\nConsumes a certain amount of Stamina to nimbly dash forward, slashing and using her pistolet to fire Suppressing Shots in a fan pattern.\n\nPlunging Attack\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+            "description": "Normal Attack\nPerforms up to 5 rapid strikes.\n\nCharged Attack\nConsumes a certain amount of Stamina to nimbly dash forward, slashing and using her pistolet to fire Suppressing Shots in a fan pattern.\n\nPlunging Attack\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
             "attributes": {
                 "labels": [
                 ],
@@ -498,9 +498,9 @@ const talents = {
             }
         },
         "combat2": {
-            "name": "Elemental Skill:",
-            "descriptionRaw": "",
-            "description": "",
+            "name": "E. Hunt the Dark",
+            "descriptionRaw": "Preparing her pistolet, she enters the \"Night Watch\" state, using steel and shot together. In this state, Clorinde's Normal Attacks will be transformed into \"Wild Hunt\" pistolet attacks, and the DMG dealt is converted into Electro DMG that cannot be overridden by infusions. Her Elemental Skill will be transformed into \"Impale the Night\": Performs a lunging attack, dealing Electro DMG. The DMG done through the aforementioned method is considered Normal Attack DMG.\n\nWild Hunt\n· When her Bond of Life is equal to or greater than 100% of her max HP: Performs a standard pistolet shot.\n· When her Bond of Life is less than 100%, firing her pistolet will grant her Bond of Life, with the amount gained based on her max HP. The shots she fires can pierce opponents, and DMG dealt to opponents in their path is increased.",
+            "description": "Preparing her pistolet, she enters the \"Night Watch\" state, using steel and shot together. In this state, Clorinde's Normal Attacks will be transformed into \"Wild Hunt\" pistolet attacks, and the DMG dealt is converted into Electro DMG that cannot be overridden by infusions. Her Elemental Skill will be transformed into \"Impale the Night\": Performs a lunging attack, dealing Electro DMG. The DMG done through the aforementioned method is considered Normal Attack DMG.\n\nWild Hunt\n· When her Bond of Life is equal to or greater than 100% of her max HP: Performs a standard pistolet shot.\n· When her Bond of Life is less than 100%, firing her pistolet will grant her Bond of Life, with the amount gained based on her max HP. The shots she fires can pierce opponents, and DMG dealt to opponents in their path is increased.",
             "attributes": {
                 "labels": [
                 ],
@@ -509,9 +509,9 @@ const talents = {
             }
         },
         "combat3": {
-            "name": "Burst Skill:",
-            "descriptionRaw": "",
-            "description": "",
+            "name": "Q. Last Lightfall",
+            "descriptionRaw": "Grants herself a Bond of Life based upon her own max HP before swiftly evading and striking with saber and sidearm as one, dealing AoE Electro DMG.",
+            "description": "Grants herself a Bond of Life based upon her own max HP before swiftly evading and striking with saber and sidearm as one, dealing AoE Electro DMG.",
             "attributes": {
                 "labels": [
                 ],
@@ -520,19 +520,19 @@ const talents = {
             }
         },
         "passive1": {
-            "name": "Passive 1",
-            "descriptionRaw": "",
-            "description": ""
+            "name": "Dark-Shattering Flame",
+            "descriptionRaw": "After a nearby party member triggers a Electro-related reaction against an opponent, Electro DMG dealt by Normal Attacks and Last Lightfall will be increased by 17% of Clorinde's ATK for 15s. Max 3 buff stacks. Each stack is counted independently. The Maximum DMG increase achievable through such attacks is 1,530.",
+            "description": "After a nearby party member triggers a Electro-related reaction against an opponent, Electro DMG dealt by Normal Attacks and Last Lightfall will be increased by 17% of Clorinde's ATK for 15s. Max 3 buff stacks. Each stack is counted independently. The Maximum DMG increase achievable through such attacks is 1,530."
         },
         "passive2": {
-            "name": "Passive 2",
-            "descriptionRaw": "",
-            "description": ""
+            "name": "Lawful Remuneration",
+            "descriptionRaw": "If Clorinde's Bond of Life is equal to or greater than 100% of her Max HP, her CRIT Rate will increase by 10% for 15s whenever her Bond of Life value increases or decreases. Max 2 stacks. Each stack is counted independently.\nAdditionally, Hunt the Night's Night Watch state is buffed: While it is active, the percent of healing converted to Bond of Life increases to 100%.",
+            "description": "If Clorinde's Bond of Life is equal to or greater than 100% of her Max HP, her CRIT Rate will increase by 10% for 15s whenever her Bond of Life value increases or decreases. Max 2 stacks. Each stack is counted independently.\nAdditionally, Hunt the Night's Night Watch state is buffed: While it is active, the percent of healing converted to Bond of Life increases to 100%."
         },
         "passive3": {
-            "name": "Passive 3",
-            "descriptionRaw": "",
-            "description": ""
+            "name": "Night Watch's Yield",
+            "descriptionRaw": "Displays the location of nearby resources unique to Fontaine on the mini-map.",
+            "description": "Displays the location of nearby resources unique to Fontaine on the mini-map."
         },
         "costs": {
             "lvl2": [
@@ -543,12 +543,12 @@ const talents = {
                 },
                 {
                     "id": 0,
-                    "name": "",
+                    "name": "Teachings of Justice",
                     "count": 3
                 },
                 {
                     "id": 0,
-                    "name": "",
+                    "name": "Transoceanic Pearl",
                     "count": 6
                 }
 
@@ -561,12 +561,12 @@ const talents = {
                 },
                 {
                     "id": 0,
-                    "name": "",
+                    "name": "Guide to Justice",
                     "count": 2
                 },
                 {
                     "id": 0,
-                    "name": "",
+                    "name": "Transoceanic Chunk",
                     "count": 3
                 }
             ],
@@ -578,12 +578,12 @@ const talents = {
                 },
                 {
                     "id": 0,
-                    "name": "",
+                    "name": "Guide to Justice",
                     "count": 4
                 },
                 {
                     "id": 0,
-                    "name": "",
+                    "name": "Transoceanic Chunk",
                     "count": 4
                 }
             ],
@@ -595,12 +595,12 @@ const talents = {
                 },
                 {
                     "id": 0,
-                    "name": "",
+                    "name": "Guide to Justice",
                     "count": 6
                 },
                 {
                     "id": 0,
-                    "name": "",
+                    "name": "Transoceanic Chunk",
                     "count": 6
                 }
             ],
@@ -612,12 +612,12 @@ const talents = {
                 },
                 {
                     "id": 0,
-                    "name": "",
+                    "name": "Guide to Justice",
                     "count": 9
                 },
                 {
                     "id": 0,
-                    "name": "",
+                    "name": "Transoceanic Chunk",
                     "count": 9
                 }
             ],
@@ -629,17 +629,17 @@ const talents = {
                 },
                 {
                     "id": 0,
-                    "name": "",
+                    "name": "Philosophies of Justice",
                     "count": 4
                 },
                 {
                     "id": 0,
-                    "name": "",
+                    "name": "Xenochromatic Crystal",
                     "count": 4
                 },
                 {
                     "id": 0,
-                    "name": "",
+                    "name": "Everamber",
                     "count": 1
                 }
             ],
@@ -651,17 +651,17 @@ const talents = {
                 },
                 {
                     "id": 0,
-                    "name": "",
+                    "name": "Philosophies of Justice",
                     "count": 6
                 },
                 {
                     "id": 0,
-                    "name": "",
+                    "name": "Xenochromatic Crystal",
                     "count": 6
                 },
                 {
                     "id": 0,
-                    "name": "",
+                    "name": "Everamber",
                     "count": 1
                 }
             ],
@@ -673,17 +673,17 @@ const talents = {
                 },
                 {
                     "id": 0,
-                    "name": "",
+                    "name": "Philosophies of Justice",
                     "count": 12
                 },
                 {
                     "id": 0,
-                    "name": "",
+                    "name": "Xenochromatic Crystal",
                     "count": 9
                 },
                 {
                     "id": 0,
-                    "name": "",
+                    "name": "Everamber",
                     "count": 2
                 }
             ],
@@ -695,22 +695,22 @@ const talents = {
                 },
                 {
                     "id": 0,
-                    "name": "",
+                    "name": "Philosophies of Justice",
                     "count": 16
                 },
                 {
                     "id": 0,
-                    "name": "",
+                    "name": "Xenochromatic Crystal",
                     "count": 12
                 },
                 {
                     "id": 0,
-                    "name": "",
+                    "name": "Everamber",
                     "count": 2
                 },
                 {
                     "id": 0,
-                    "name": "",
+                    "name": "Crown of Insight",
                     "count": 1
                 }
             ]
