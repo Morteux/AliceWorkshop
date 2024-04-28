@@ -35,17 +35,17 @@ const characters = {
                 },
                 {
                     "id": 104121,
-                    "name": "Agnidus Agate Sliver",
+                    "name": "Vajrada Amethyst Sliver",
                     "count": 1
                 },
                 {
                     "id": 100033,
-                    "name": "",
+                    "name": "Trishiraite",
                     "count": 3
                 },
                 {
                     "id": 112032,
-                    "name": "",
+                    "name": "Faded Red Satin",
                     "count": 3
                 }
             ],
@@ -57,22 +57,22 @@ const characters = {
                 },
                 {
                     "id": 104122,
-                    "name": "Agnidus Agate Fragment",
+                    "name": "Vajrada Amethyst Fragment",
                     "count": 3
                 },
                 {
                     "id": 113035,
-                    "name": "",
+                    "name": "Cloudseam Scale",
                     "count": 2
                 },
                 {
                     "id": 100033,
-                    "name": "",
+                    "name": "Trishiraite",
                     "count": 10
                 },
                 {
                     "id": 112032,
-                    "name": "",
+                    "name": "Faded Red Satin",
                     "count": 15
                 }
             ],
@@ -84,22 +84,22 @@ const characters = {
                 },
                 {
                     "id": 104122,
-                    "name": "Agnidus Agate Fragment",
+                    "name": "Vajrada Amethyst Fragment",
                     "count": 6
                 },
                 {
                     "id": 113035,
-                    "name": "",
+                    "name": "Cloudseam Scale",
                     "count": 4
                 },
                 {
                     "id": 100033,
-                    "name": "",
+                    "name": "Trishiraite",
                     "count": 20
                 },
                 {
                     "id": 112033,
-                    "name": "",
+                    "name": "Trimmed Red Silk",
                     "count": 12
                 }
             ],
@@ -111,22 +111,22 @@ const characters = {
                 },
                 {
                     "id": 104123,
-                    "name": "Agnidus Agate Chunk",
+                    "name": "Vajrada Amethyst Chunk",
                     "count": 3
                 },
                 {
                     "id": 113035,
-                    "name": "",
+                    "name": "Cloudseam Scale",
                     "count": 8
                 },
                 {
                     "id": 100033,
-                    "name": "",
+                    "name": "Trishiraite",
                     "count": 30
                 },
                 {
                     "id": 112033,
-                    "name": "",
+                    "name": "Trimmed Red Silk",
                     "count": 18
                 }
             ],
@@ -138,22 +138,22 @@ const characters = {
                 },
                 {
                     "id": 104123,
-                    "name": "Agnidus Agate Chunk",
+                    "name": "Vajrada Amethyst Chunk",
                     "count": 6
                 },
                 {
                     "id": 113035,
-                    "name": "",
+                    "name": "Cloudseam Scale",
                     "count": 12
                 },
                 {
                     "id": 100033,
-                    "name": "",
+                    "name": "Trishiraite",
                     "count": 45
                 },
                 {
                     "id": 112034,
-                    "name": "",
+                    "name": "Rich Red Brocade",
                     "count": 12
                 }
             ],
@@ -165,22 +165,22 @@ const characters = {
                 },
                 {
                     "id": 104124,
-                    "name": "Agnidus Agate Gemstone",
+                    "name": "Vajrada Amethyst Gemstone",
                     "count": 6
                 },
                 {
                     "id": 113035,
-                    "name": "",
+                    "name": "Cloudseam Scale",
                     "count": 20
                 },
                 {
                     "id": 100033,
-                    "name": "",
+                    "name": "Trishiraite",
                     "count": 60
                 },
                 {
                     "id": 112034,
-                    "name": "",
+                    "name": "Rich Red Brocade",
                     "count": 24
                 }
             ]
@@ -235,17 +235,17 @@ const characters = {
                 },
                 {
                     "id": 104121,
-                    "name": "Agnidus Agate Sliver",
+                    "name": "Varunada Lazurite Sliver",
                     "count": 1
                 },
                 {
                     "id": 100033,
-                    "name": "",
+                    "name": "Romaritime Flower",
                     "count": 3
                 },
                 {
                     "id": 112032,
-                    "name": "",
+                    "name": "Transoceanic Pearl",
                     "count": 3
                 }
             ],
@@ -257,22 +257,22 @@ const characters = {
                 },
                 {
                     "id": 104122,
-                    "name": "Agnidus Agate Fragment",
+                    "name": "Varunada Lazurite Fragment",
                     "count": 3
                 },
                 {
                     "id": 113035,
-                    "name": "",
+                    "name": "Water That Failed To Transcend",
                     "count": 2
                 },
                 {
                     "id": 100033,
-                    "name": "",
+                    "name": "Romaritime Flower",
                     "count": 10
                 },
                 {
                     "id": 112032,
-                    "name": "",
+                    "name": "Transoceanic Pearl",
                     "count": 15
                 }
             ],
@@ -284,22 +284,22 @@ const characters = {
                 },
                 {
                     "id": 104122,
-                    "name": "Agnidus Agate Fragment",
+                    "name": "Varunada Lazurite Fragment",
                     "count": 6
                 },
                 {
                     "id": 113035,
-                    "name": "",
+                    "name": "Water That Failed To Transcend",
                     "count": 4
                 },
                 {
                     "id": 100033,
-                    "name": "",
+                    "name": "Romaritime Flower",
                     "count": 20
                 },
                 {
                     "id": 112033,
-                    "name": "",
+                    "name": "Transoceanic Chunk",
                     "count": 12
                 }
             ],
@@ -311,22 +311,22 @@ const characters = {
                 },
                 {
                     "id": 104123,
-                    "name": "Agnidus Agate Chunk",
+                    "name": "Varunada Lazurite Chunk",
                     "count": 3
                 },
                 {
                     "id": 113035,
-                    "name": "",
+                    "name": "Water That Failed To Transcend",
                     "count": 8
                 },
                 {
                     "id": 100033,
-                    "name": "",
+                    "name": "Romaritime Flower",
                     "count": 30
                 },
                 {
                     "id": 112033,
-                    "name": "",
+                    "name": "Transoceanic Chunk",
                     "count": 18
                 }
             ],
@@ -338,22 +338,22 @@ const characters = {
                 },
                 {
                     "id": 104123,
-                    "name": "Agnidus Agate Chunk",
+                    "name": "Varunada Lazurite Chunk",
                     "count": 6
                 },
                 {
                     "id": 113035,
-                    "name": "",
+                    "name": "Water That Failed To Transcend",
                     "count": 12
                 },
                 {
                     "id": 100033,
-                    "name": "",
+                    "name": "Romaritime Flower",
                     "count": 45
                 },
                 {
                     "id": 112034,
-                    "name": "",
+                    "name": "Xenochromatic Crystal",
                     "count": 12
                 }
             ],
@@ -365,22 +365,22 @@ const characters = {
                 },
                 {
                     "id": 104124,
-                    "name": "Agnidus Agate Gemstone",
+                    "name": "Varunada Lazurite Gemstone",
                     "count": 6
                 },
                 {
                     "id": 113035,
-                    "name": "",
+                    "name": "Water That Failed To Transcend",
                     "count": 20
                 },
                 {
                     "id": 100033,
-                    "name": "",
+                    "name": "Romaritime Flower",
                     "count": 60
                 },
                 {
                     "id": 112034,
-                    "name": "",
+                    "name": "Xenochromatic Crystal",
                     "count": 24
                 }
             ]
@@ -435,17 +435,17 @@ const characters = {
                 },
                 {
                     "id": 104121,
-                    "name": "Agnidus Agate Sliver",
+                    "name": "Vajrada Amethyst Sliver",
                     "count": 1
                 },
                 {
                     "id": 100033,
-                    "name": "",
+                    "name": "Lumitoile",
                     "count": 3
                 },
                 {
                     "id": 112032,
-                    "name": "",
+                    "name": "Transoceanic Pearl",
                     "count": 3
                 }
             ],
@@ -457,22 +457,22 @@ const characters = {
                 },
                 {
                     "id": 104122,
-                    "name": "Agnidus Agate Fragment",
+                    "name": "Vajrada Amethyst Fragment",
                     "count": 3
                 },
                 {
                     "id": 113035,
-                    "name": "",
+                    "name": "Fontemer Unihorn",
                     "count": 2
                 },
                 {
                     "id": 100033,
-                    "name": "",
+                    "name": "Lumitoile",
                     "count": 10
                 },
                 {
                     "id": 112032,
-                    "name": "",
+                    "name": "Transoceanic Pearl",
                     "count": 15
                 }
             ],
@@ -484,22 +484,22 @@ const characters = {
                 },
                 {
                     "id": 104122,
-                    "name": "Agnidus Agate Fragment",
+                    "name": "Vajrada Amethyst Fragment",
                     "count": 6
                 },
                 {
                     "id": 113035,
-                    "name": "",
+                    "name": "Fontemer Unihorn",
                     "count": 4
                 },
                 {
                     "id": 100033,
-                    "name": "",
+                    "name": "Lumitoile",
                     "count": 20
                 },
                 {
                     "id": 112033,
-                    "name": "",
+                    "name": "Transoceanic Chunk",
                     "count": 12
                 }
             ],
@@ -511,22 +511,22 @@ const characters = {
                 },
                 {
                     "id": 104123,
-                    "name": "Agnidus Agate Chunk",
+                    "name": "Vajrada Amethyst Chunk",
                     "count": 3
                 },
                 {
                     "id": 113035,
-                    "name": "",
+                    "name": "Fontemer Unihorn",
                     "count": 8
                 },
                 {
                     "id": 100033,
-                    "name": "",
+                    "name": "Lumitoile",
                     "count": 30
                 },
                 {
                     "id": 112033,
-                    "name": "",
+                    "name": "Transoceanic Chunk",
                     "count": 18
                 }
             ],
@@ -538,22 +538,22 @@ const characters = {
                 },
                 {
                     "id": 104123,
-                    "name": "Agnidus Agate Chunk",
+                    "name": "Vajrada Amethyst Chunk",
                     "count": 6
                 },
                 {
                     "id": 113035,
-                    "name": "",
+                    "name": "Fontemer Unihorn",
                     "count": 12
                 },
                 {
                     "id": 100033,
-                    "name": "",
+                    "name": "Lumitoile",
                     "count": 45
                 },
                 {
                     "id": 112034,
-                    "name": "",
+                    "name": "Xenochromatic Crystal",
                     "count": 12
                 }
             ],
@@ -565,22 +565,22 @@ const characters = {
                 },
                 {
                     "id": 104124,
-                    "name": "Agnidus Agate Gemstone",
+                    "name": "Vajrada Amethyst Gemstone",
                     "count": 6
                 },
                 {
                     "id": 113035,
-                    "name": "",
+                    "name": "Fontemer Unihorn",
                     "count": 20
                 },
                 {
                     "id": 100033,
-                    "name": "",
+                    "name": "Lumitoile",
                     "count": 60
                 },
                 {
                     "id": 112034,
-                    "name": "",
+                    "name": "Xenochromatic Crystal",
                     "count": 24
                 }
             ]
