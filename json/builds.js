@@ -1088,20 +1088,7 @@ const builds = {
             },
             subs_stat: []
         },
-        "C6": {
-            description: "",
-            constellation: "6",
-            talent_priority: [1, 2, 3],
-            weapon: [],
-            set: [],
-            er_requirement: "",
-            main_stat: {
-                sands: "",
-                goblet: "",
-                circlet: "",
-            },
-            subs_stat: []
-        },
+
     },
     "Kamisato Ayaka": {
         "Standard": {
