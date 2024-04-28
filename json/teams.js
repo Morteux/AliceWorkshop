@@ -14893,7 +14893,7 @@ const teams = {
     "455": {
         "name": "Arlecchino Vapemelt",
         "description": "You can play Arlecchino with Bennett + Yelan/Xingqiu for the vaporize reaction, plus a flex shielder as defensive option. You don't waste Bennett's ultimate time with an Anemo unit. If the enemies are not freezeables, you will lose the Hydro aura and the team won't performs well. With Xingqiu, you should do N4D instead N3D to get a second ultimate's hit. ",
-        "rotation": "Arlecchino E > Rotation >  Arlecchino CA + 5N3D (Q if healing is needed)",
+        "rotation": "Arlecchino E > Rotation >  Arlecchino CA + N4D (Q if healing is needed)",
         "archetype": [
             "Vaporize"
         ],
@@ -14956,8 +14956,8 @@ const teams = {
 
     "457": {
         "name": "Arlecchino Doble Hydro",
-        "description": "",
-        "rotation": "Arlecchino E > Xingqiu EQ > Yelan EQ > Bennett EQ > Arlecchino CA + 5N3D (Q if healing is needed). With Xingqiu, you should do N4D instead N3D to get a second ultimate's hit. ",
+        "description": "With Xingqiu, you should do N4D instead N3D to get a second ultimate's hit. ",
+        "rotation": "Arlecchino E > Xingqiu EQ > Yelan EQ > Bennett EQ > Arlecchino CA + N4D (Q if healing is needed). ",
         "archetype": [
             "Vaporize"
         ],
@@ -15169,7 +15169,7 @@ const teams = {
     "464": {
         "name": "Arlecchino Doble Hydro",
         "description": "Less Damage than the Bennett version, but you have a shield. With Xingqiu, you should do N4D instead N3D to get a second ultimate's hit. ",
-        "rotation": "Arlecchino E > Xingqiu EQ > Yelan EQ > Thoma/Yanfei EQ > Arlecchino CA + 5N3D (Q if healing is needed)",
+        "rotation": "Arlecchino E > Xingqiu EQ > Yelan EQ > Thoma/Yanfei EQ > Arlecchino CA + N4D (Q if healing is needed)",
         "archetype": [
             "Vaporize"
         ],
