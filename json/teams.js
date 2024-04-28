@@ -14444,7 +14444,7 @@ const teams = {
     },
     "441": {
         "name": "Arlecchino Furina",
-        "description": "You can't heal Arlecchino, but you will obtain Furina's Fanfare stacks with the other three characters and Arlecchino auto-healing. With Yelan you will have a little more of damage, but Xingqiu RES Interruption and DMG Reduction may be necessary and most useful. ",
+        "description": "You can't heal Arlecchino, but you will obtain Furina's Fanfare stacks with the other three characters and Arlecchino auto-healing. With Yelan you will have a little more of damage, but Xingqiu RES Interruption and DMG Reduction may be necessary and most useful. With Xingqiu, you should do N4D instead N3D to get a second ultimate's hit. ",
         "rotation": "Arlecchino E > Furina EQ > Yelan/Xingqiu EQ > Bennett EQ > Arlecchino CA + 5N3D (Q if healing is needed)",
         "archetype": [
             "Vaporize"
@@ -14475,7 +14475,7 @@ const teams = {
     },
     "442": {
         "name": "Arlecchino Vaporize",
-        "description": "One of the best Arlecchino's teams. With Yelan, best Arlecchino's team in Output damage. With Yelan you will have significantly more damage, but Xingqiu RES Interruption and DMG Reduction may be necessary and more useful with Arlecchino. With the good timings, you can do shorter rotations with Yelan (18s instead 20s). <br><br>About Arlecchino's survability: She has pretty short rotations with flexible NA combos which allow you to dash a decent amount, a burst which should always overheal her and her A4. Since you can't get heal unlike others and in many teams you have 0 Interruption Resistance, you depends more on perfect dodgings than other characters. If you struggle against aggresive enemies like Coppelia, you might need defensive utility. Also, doing burst to heal will be the standard case, but if you manage to don't use it, you will have more damage, so I think that she is a good example of risk/reward.",
+        "description": "One of the best Arlecchino's teams. With Yelan, best Arlecchino's team in Output damage. With Yelan you will have significantly more damage, but Xingqiu RES Interruption and DMG Reduction may be necessary and more useful with Arlecchino. With the good timings, you can do shorter rotations with Yelan (18s instead 20s). With Xingqiu, you should do N4D instead N3D to get a second ultimate's hit. <br><br>About Arlecchino's survability: She has pretty short rotations with flexible NA combos which allow you to dash a decent amount, a burst which should always overheal her and her A4. Since you can't get heal unlike others and in many teams you have 0 Interruption Resistance, you depends more on perfect dodgings than other characters. If you struggle against aggresive enemies like Coppelia, you might need defensive utility. Also, doing burst to heal will be the standard case, but if you manage to don't use it, you will have more damage, so I think that she is a good example of risk/reward.",
         "rotation": "Arlecchino E > Yelan/Xingqiu EQ > Bennett EQ +1NA > Kazuha Hold E >  Arlecchino CA + 5N3D (Q if healing is needed)",
         "archetype": [
             "Vaporize"
@@ -14566,7 +14566,7 @@ const teams = {
 
     "445": {
         "name": "Arlecchino Doble Hydro",
-        "description": " ",
+        "description": "With Xingqiu, you should do N4D instead N3D to get a second ultimate's hit.  ",
         "rotation": "Arlecchino E > Zhongli Hold E D > Xingqiu EQ > Yelan EQ > Arlecchino CA + 3NA4 (Q if healing is needed)",
         "archetype": [
             "Vaporize"
@@ -14630,7 +14630,7 @@ const teams = {
 
     "447": {
         "name": "Arlecchino Vaporize",
-        "description": "The rotations with Kaedehara Kazuha might be difficult. You can use Fischl instead of him, the team overall has less damage, but is still a very strong and easier option.  With Yelan you will have significantly more damage, but Xingqiu RES Interruption and DMG Reduction may be necessary and more useful with Arlecchino. With the good timings, you can do shorter rotations with Yelan (18s instead 20s). <br><br>About Arlecchino's survability: She has pretty short rotations with flexible NA combos which allow you to dash a decent amount, a burst which should always overheal her and her A4. Since you can't get heal unlike others and in many teams you have 0 Interruption Resistance, you depends more on perfect dodgings than other characters. If you struggle against aggresive enemies like Coppelia, you might need defensive utility. Also, doing burst to heal will be the standard case, but if you manage to don't use it, you will have more damage, so I think that she is a good example of risk/reward.",
+        "description": "The rotations with Kaedehara Kazuha might be difficult. You can use Fischl instead of him, the team overall has less damage, but is still a very strong and easier option.  With Yelan you will have significantly more damage, but Xingqiu RES Interruption and DMG Reduction may be necessary and more useful with Arlecchino. With the good timings, you can do shorter rotations with Yelan (18s instead 20s). With Xingqiu, you should do N4D instead N3D to get a second ultimate's hit.  <br><br>About Arlecchino's survability: She has pretty short rotations with flexible NA combos which allow you to dash a decent amount, a burst which should always overheal her and her A4. Since you can't get heal unlike others and in many teams you have 0 Interruption Resistance, you depends more on perfect dodgings than other characters. If you struggle against aggresive enemies like Coppelia, you might need defensive utility. Also, doing burst to heal will be the standard case, but if you manage to don't use it, you will have more damage, so I think that she is a good example of risk/reward.",
         "rotation": "Arlecchino E > Yelan/Xingqiu EQ > Bennett EQ +1NA > Fischl E or Q >  Arlecchino CA + NA (Q if healing is needed)",
         "archetype": [
             "Overvape"
@@ -14860,7 +14860,7 @@ const teams = {
 
     "454": {
         "name": "Arlecchino Vaporize",
-        "description": "The rotations with Kaedehara Kazuha might be difficult. You can use Fischl instead of him, the team overall has less damage, but is still a very strong and easier option.",
+        "description": "The rotations with Kaedehara Kazuha might be difficult. You can use Fischl instead of him, the team overall has less damage, but is still a very strong and easier option. With Xingqiu, you should do N4D instead N3D to get a second ultimate's hit. ",
         "rotation": "",
         "archetype": [
             "Overvape"
@@ -14892,7 +14892,7 @@ const teams = {
 
     "455": {
         "name": "Arlecchino Vapemelt",
-        "description": "You can play Arlecchino with Bennett + Yelan/Xingqiu for the vaporize reaction, plus a flex shielder as defensive option. You don't waste Bennett's ultimate time with an Anemo unit. If the enemies are not freezeables, you will lose the Hydro aura and the team won't performs well",
+        "description": "You can play Arlecchino with Bennett + Yelan/Xingqiu for the vaporize reaction, plus a flex shielder as defensive option. You don't waste Bennett's ultimate time with an Anemo unit. If the enemies are not freezeables, you will lose the Hydro aura and the team won't performs well. With Xingqiu, you should do N4D instead N3D to get a second ultimate's hit. ",
         "rotation": "Arlecchino E > Rotation >  Arlecchino CA + 5N3D (Q if healing is needed)",
         "archetype": [
             "Vaporize"
@@ -14957,7 +14957,7 @@ const teams = {
     "457": {
         "name": "Arlecchino Doble Hydro",
         "description": "",
-        "rotation": "Arlecchino E > Xingqiu EQ > Yelan EQ > Bennett EQ > Arlecchino CA + 5N3D (Q if healing is needed)",
+        "rotation": "Arlecchino E > Xingqiu EQ > Yelan EQ > Bennett EQ > Arlecchino CA + 5N3D (Q if healing is needed). With Xingqiu, you should do N4D instead N3D to get a second ultimate's hit. ",
         "archetype": [
             "Vaporize"
         ],
@@ -15016,7 +15016,7 @@ const teams = {
 
     "459": {
         "name": "Arlecchino Vaporize",
-        "description": "One of the best Arlecchino's teams. With an Anemo Character, you can have more damage, but you don't have any defensive option so in some scenarios it can be impossible to play. On top of that, using zhongli you don't waste Bennett's ultimate time unlike an Anemo unit.You can use Xingqiu, but in this teams Yelan would performs betters since you already have Zhongli as defensive option. ",
+        "description": "One of the best Arlecchino's teams. With an Anemo Character, you can have more damage, but you don't have any defensive option so in some scenarios it can be impossible to play. On top of that, using zhongli you don't waste Bennett's ultimate time unlike an Anemo unit.You can use Xingqiu, but in this teams Yelan would performs betters since you already have Zhongli as defensive option. With Xingqiu, you should do N4D instead N3D to get a second ultimate's hit. ",
         "rotation": "Arlecchino E > Zhongli Hold E D > Xingqiu EQ > Bennett EQ > Arlecchino CA + 5N3D (Q if healing is needed)",
         "archetype": [
             "Vaporize"
@@ -15168,7 +15168,7 @@ const teams = {
 
     "464": {
         "name": "Arlecchino Doble Hydro",
-        "description": "Less Damage than the Bennett version, but you have a shield. ",
+        "description": "Less Damage than the Bennett version, but you have a shield. With Xingqiu, you should do N4D instead N3D to get a second ultimate's hit. ",
         "rotation": "Arlecchino E > Xingqiu EQ > Yelan EQ > Thoma/Yanfei EQ > Arlecchino CA + 5N3D (Q if healing is needed)",
         "archetype": [
             "Vaporize"
@@ -15229,7 +15229,7 @@ const teams = {
 
     "466": {
         "name": "Arlecchino VV Vape Sucrose",
-        "description": "",
+        "description": "With Xingqiu, you should do N4D instead N3D to get a second ultimate's hit. ",
         "rotation": "",
         "archetype": [
             "Vaporize"
