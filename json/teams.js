@@ -15294,7 +15294,7 @@ const teams = {
         "description": "",
         "rotation": "",
         "archetype": [
-            "Hypercarry"
+            "MonoPyro", "Hypercarry"
         ],
         "viability": "Recommended",
         "character_1": {
@@ -15315,6 +15315,35 @@ const teams = {
             ],
             "build": [
                 "Standard",
+            ]
+        }
+    },
+    "469": {
+        "name": "Arlecchino Melt",
+        "description": "",
+        "rotation": "",
+        "archetype": [
+            "Melt"
+        ],
+        "viability": "Viable",
+        "character_1": {
+            "name": "Arlecchino",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Bennett",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Rosaria",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": [
+                "Kaeya"
+            ],
+            "build": [
+                "Standard"
             ]
         }
     },
