@@ -447,7 +447,7 @@ const builds = {
         "Standard": {
             description: "Talent levels do not affect Chevreuse's buff to Bloom damage, so levels are not required. You can use Crit Rate circlet if you use Favonius Lance",
             constellation: "",
-            talent_priority: [3, 1, 2],
+            talent_priority: [2, 3, 1],
             weapon: ["Favonius Lance", "Rightful Reward", "Black Tassel"],
             set: [{
                     artifacts: ["Song of Days Past"],
@@ -466,7 +466,7 @@ const builds = {
         "Standard": {
             description: "",
             constellation: "",
-            talent_priority: [3, 1, 2],
+            talent_priority: [2, 3, 1],
             weapon: ["Uraku Misugiri", "Harbinger of Dawn", "Wolf-Fang", "Cinnabar Spindle"],
             set: [
                 {
@@ -1676,7 +1676,7 @@ const builds = {
         "Standard": {
             description: "Talent levels do not affect Nilou's buff to Bloom damage, so levels are not required.",
             constellation: "",
-            talent_priority: [3, 2, 1],
+            talent_priority: [2, 3, 1],
             weapon: ["Key of Khaj-Nisut", "The Dockhand's Assistant", "Xiphos' Moonlight" ,"Iron Sting" ],
             set: [{
                     artifacts: ["Tenacity of the Millelith", "Vourukasha's Glow"],
