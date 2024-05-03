@@ -445,7 +445,7 @@ const builds = {
     },
     "Chevreuse": {
         "Standard": {
-            description: "Talent levels do not affect Nilou’s buff to Bloom damage, , so levels are not required. You can use Crit Rate circlet if you use Favonius Lance",
+            description: "Talent levels do not affect Chevreuse's buff to Bloom damage, so levels are not required. You can use Crit Rate circlet if you use Favonius Lance",
             constellation: "",
             talent_priority: [3, 1, 2],
             weapon: ["Favonius Lance", "Rightful Reward", "Black Tassel"],
@@ -459,7 +459,7 @@ const builds = {
                 goblet: "HP%",
                 circlet: "HP%, HB, Crit Rate",
             },
-            subs_stat: ["HP% until 40.000", "CRIT"]
+            subs_stat: ["HP% until 40.000", "CRIT", "ATK"]
         }
     },
     "Chiori": {
@@ -1674,7 +1674,7 @@ const builds = {
     },
     "Nilou": {
         "Standard": {
-            description: "Talent levels do not affect Nilou’s buff to Bloom damage, , so levels are not required.",
+            description: "Talent levels do not affect Nilou's buff to Bloom damage, , so levels are not required.",
             constellation: "",
             talent_priority: [3, 2, 1],
             weapon: ["Key of Khaj-Nisut", "The Dockhand's Assistant", "Xiphos' Moonlight" ,"Iron Sting" ],
