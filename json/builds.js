@@ -445,7 +445,7 @@ const builds = {
     },
     "Chevreuse": {
         "Standard": {
-            description: "Talent levels do not affect Chevreuse's buff to Bloom damage, so levels are not required. You can use Crit Rate circlet if you use Favonius Lance",
+            description: "Talent levels do not affect Chevreuse's buff to Bloom damage, so levels are not required. You can use Crit Rate circlet if you use Favonius Lance.",
             constellation: "",
             talent_priority: [2, 3, 1],
             weapon: ["Favonius Lance", "Rightful Reward", "Black Tassel"],
