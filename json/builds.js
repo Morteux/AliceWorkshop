@@ -1640,7 +1640,7 @@ const builds = {
             description: "",
             constellation: "",
             talent_priority: [1, 2, 3],
-            weapon: [],
+            weapon: ["Verdict", "Serpent Spine", "Ultimate Overlord's Mega Magic Sword"],
             set: [],
             er_requirement: "",
             main_stat: {
