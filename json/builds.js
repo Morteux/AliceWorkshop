@@ -1679,7 +1679,7 @@ const builds = {
             talent_priority: [3, 2, 1],
             weapon: ["Key of Khaj-Nisut", "The Dockhand's Assistant", "Xiphos' Moonlight" ,"Iron Sting" ],
             set: [{
-                    artifacts: ["Tenacity of the Millelith", "Vourukasha’s Glow"],
+                    artifacts: ["Tenacity of the Millelith", "Vourukasha's Glow"],
                     pc: "2pc"
                 }],
             er_requirement: "130%",
