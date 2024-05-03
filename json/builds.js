@@ -1674,7 +1674,7 @@ const builds = {
     },
     "Nilou": {
         "Standard": {
-            description: "Talent levels do not affect Nilou's buff to Bloom damage, , so levels are not required.",
+            description: "Talent levels do not affect Nilou's buff to Bloom damage, so levels are not required.",
             constellation: "",
             talent_priority: [3, 2, 1],
             weapon: ["Key of Khaj-Nisut", "The Dockhand's Assistant", "Xiphos' Moonlight" ,"Iron Sting" ],
