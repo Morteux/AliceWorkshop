@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="css/tab_archetypes.css">
     <link rel="stylesheet" href="css/tab_teams_search.css">
     <link rel="stylesheet" href="css/tab_characters.css">
+    <link rel="stylesheet" href="css/tab_extras.css">
     <link rel="stylesheet" href="css/tab_user.css">
 
     <!-- JSON data -->
@@ -34,6 +35,7 @@
     <script src="json/characters_teams.js"></script>
     <script src="json/characters_scaling.js"></script>
     <script src="json/weapon_scaling.js"></script>
+    <script src="json/banners.js"></script>
 
     <!-- JavaScript libs -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
@@ -50,6 +52,7 @@
     <script src="js/tab_archetypes.js"></script>
     <script src="js/tab_teams_search.js"></script>
     <script src="js/tab_characters.js"></script>
+    <script src="js/tab_extras.js"></script>
     <script src="js/tab_user.js"></script>
 
     <script src="js/links.js"></script>
@@ -204,6 +207,7 @@
             <div id="tab_archetype_search_button" class="disabled_tab_button">Archetypes</div>
             <div id="tab_teams_search_button" class="disabled_tab_button">Teams</div>
             <div id="tab_characters_button" class="disabled_tab_button">Characters</div>
+            <div id="tab_extras_button" class="disabled_tab_button">Extras</div>
             <div id="tab_user_button" class="disabled_tab_button">User</div>
         </div>
 
@@ -375,6 +379,14 @@
                 <button class="primary_button reset_menu_characters_button" onclick="resetMenuCharacters()">Go to
                     characters</button>
             </div>
+        </div>
+
+        <div id="tab_extras" class="tab_extras">
+            <div id="navigation_menu_extras" class="navigation_menu_extras">
+                <div id="menu_extra_banners_button">Banners</div> 
+            </div>
+
+            <div id="menu_extra_banners" class="menu_extra_banners"></div>
         </div>
 
         <div id="tab_user" class="tab_user">

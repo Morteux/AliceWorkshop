@@ -1,1054 +1,1684 @@
 const character_banners = {
-    "1": {
+    "0": {
         "name": "Ballad In Goblets",
         "version": "1.0",
         "start_date": "9/28/2020",
         "end_date": "10/18/2020",
         "characters": {
-            "5": ["Venti"],
-            "4": ["Barbara", "Xingqiu", "Fischl"]
+            "4": [
+                "Barbara",
+                "Xingqiu",
+                "Fischl"
+            ],
+            "5": [
+                "Venti"
+            ]
         }
     },
-    "": {
+    "1": {
         "name": "Sparkling Steps",
         "version": "1.0",
         "start_date": "10/20/2020",
         "end_date": "11/10/2020",
         "characters": {
-            "5": ["Klee"],
-            "4": ["Noelle", "Sucrose", "Xingqiu"]
+            "4": [
+                "Noelle",
+                "Sucrose",
+                "Xingqiu"
+            ],
+            "5": [
+                "Klee"
+            ]
         }
     },
-    "": {
+    "2": {
         "name": "Farewell of Snezhnaya",
         "version": "1.1",
         "start_date": "11/11/2020",
         "end_date": "12/1/2020",
         "characters": {
-            "5": ["Childe"],
-            "4": ["Beidou", "Ningguang", "Diona"]
+            "4": [
+                "Beidou",
+                "Ningguang",
+                "Diona"
+            ],
+            "5": [
+                "Tartaglia"
+            ]
         }
     },
-    "": {
+    "3": {
         "name": "Gentry Of Hermitage",
         "version": "1.1",
         "start_date": "12/1/2020",
         "end_date": "12/22/2020",
         "characters": {
-            "5": ["Zhongli"],
-            "4": ["Chongyun", "Razor", "Xinyan"]
+            "4": [
+                "Chongyun",
+                "Razor",
+                "Xinyan"
+            ],
+            "5": [
+                "Zhongli"
+            ]
         }
     },
-    "": {
+    "4": {
         "name": "Secretum Secretorum",
         "version": "1.2",
         "start_date": "12/23/2020",
         "end_date": "1/12/2021",
         "characters": {
-            "5": ["Albedo"],
-            "4": ["Bennett", "Fischl", "Sucrose"]
+            "4": [
+                "Bennett",
+                "Fischl",
+                "Sucrose"
+            ],
+            "5": [
+                "Albedo"
+            ]
         }
     },
-    "": {
+    "5": {
         "name": "Adrift In The Harbor",
         "version": "1.2",
         "start_date": "1/12/2021",
         "end_date": "2/2/2021",
         "characters": {
-            "5": ["Ganyu"],
-            "4": ["Noelle", "Xiangling", "Xingqiu"]
+            "4": [
+                "Noelle",
+                "Xiangling",
+                "Xingqiu"
+            ],
+            "5": [
+                "Ganyu"
+            ]
         }
     },
-    "": {
+    "6": {
         "name": "Invitation To Mundane Life",
         "version": "1.3",
         "start_date": "2/3/2021",
         "end_date": "2/17/2021",
         "characters": {
-            "5": ["Xiao"],
-            "4": ["Beidou", "Diona", "Xinyan"]
+            "4": [
+                "Beidou",
+                "Diona",
+                "Xinyan"
+            ],
+            "5": [
+                "Xiao"
+            ]
         }
     },
-    "": {
+    "7": {
         "name": "Dance Of Lanterns",
         "version": "1.3",
         "start_date": "2/17/2021",
         "end_date": "3/2/2021",
         "characters": {
-            "5": ["Keqing"],
-            "4": ["Barbara", "Bennett", "Ningguang"]
+            "4": [
+                "Barbara",
+                "Bennett",
+                "Ningguang"
+            ],
+            "5": [
+                "Keqing"
+            ]
         }
     },
-    "": {
+    "8": {
         "name": "Moment Of Bloom",
         "version": "1.3",
         "start_date": "3/2/2021",
         "end_date": "3/16/2021",
         "characters": {
-            "5": ["Hu Tao"],
-            "4": ["Chongyun", "Xiangling", "Xingqiu"]
+            "4": [
+                "Chongyun",
+                "Xiangling",
+                "Xingqiu"
+            ],
+            "5": [
+                "Hu Tao"
+            ]
         }
     },
-    "": {
+    "9": {
         "name": "Ballad In Goblets",
         "version": "1.4",
         "start_date": "3/17/2021",
         "end_date": "4/6/2021",
         "characters": {
-            "5": ["Venti"],
-            "4": ["Noelle", "Razor", "Sucrose"]
+            "4": [
+                "Noelle",
+                "Razor",
+                "Sucrose"
+            ],
+            "5": [
+                "Venti"
+            ]
         }
     },
-    "": {
+    "10": {
         "name": "Farewell of Snezhnaya",
         "version": "1.4",
         "start_date": "4/6/2021",
         "end_date": "4/27/2021",
         "characters": {
-            "5": ["Childe"],
-            "4": ["Rosaria", "Barbara", "Fischl"]
+            "4": [
+                "Rosaria",
+                "Barbara",
+                "Fischl"
+            ],
+            "5": [
+                "Tartaglia"
+            ]
         }
     },
-    "": {
+    "11": {
         "name": "Gentry Of Hermitage",
         "version": "1.5",
         "start_date": "4/28/2021",
         "end_date": "5/18/2021",
         "characters": {
-            "5": ["Zhongli"],
-            "4": ["Yanfei", "Diona", "Noelle"]
+            "4": [
+                "Yanfei",
+                "Diona",
+                "Noelle"
+            ],
+            "5": [
+                "Zhongli"
+            ]
         }
     },
-    "": {
+    "12": {
         "name": "Born Of Ocean Swell",
         "version": "1.5",
         "start_date": "5/18/2021",
         "end_date": "6/8/2021",
         "characters": {
-            "5": ["Eula"],
-            "4": ["Beidou", "Xingqiu", "Xinyan"]
+            "4": [
+                "Beidou",
+                "Xingqiu",
+                "Xinyan"
+            ],
+            "5": [
+                "Eula"
+            ]
         }
     },
-    "": {
+    "13": {
         "name": "Sparkling Steps",
         "version": "1.6",
         "start_date": "6/9/2021",
         "end_date": "6/29/2021",
         "characters": {
-            "5": ["Klee"],
-            "4": ["Barbara", "Fischl", "Sucrose"]
+            "4": [
+                "Barbara",
+                "Fischl",
+                "Sucrose"
+            ],
+            "5": [
+                "Klee"
+            ]
         }
     },
-    "": {
+    "14": {
         "name": "Leaves In The Wind",
         "version": "1.6",
         "start_date": "6/29/2021",
         "end_date": "7/20/2021",
         "characters": {
-            "5": ["Kaedehara Kazuha"],
-            "4": ["Bennett", "Razor", "Rosaria"]
+            "4": [
+                "Bennett",
+                "Razor",
+                "Rosaria"
+            ],
+            "5": [
+                "Kaedehara Kazuha"
+            ]
         }
     },
-    "": {
+    "15": {
         "name": "The Heron's Court",
         "version": "2.0",
         "start_date": "7/21/2021",
         "end_date": "8/10/2021",
         "characters": {
-            "5": ["Kamisato Ayaka"],
-            "4": ["Chongyun", "Ningguang", "Yanfei"]
+            "4": [
+                "Chongyun",
+                "Ningguang",
+                "Yanfei"
+            ],
+            "5": [
+                "Kamisato Ayaka"
+            ]
         }
     },
-    "": {
+    "16": {
         "name": "",
         "version": "",
         "start_date": "",
         "end_date": "",
         "characters": {
-            "5": [""],
-            "4": ["", "", ""]
+            "4": [
+                "",
+                "",
+                ""
+            ],
+            "5": [
+                ""
+            ]
         }
     },
-    "": {
+    "17": {
         "name": "Tapestry Of Golden Flames",
         "version": "2.0",
         "start_date": "8/10/2021",
         "end_date": "8/31/2021",
         "characters": {
-            "5": ["Yoimiya"],
-            "4": ["Sayu", "Diona", "Xinyan"]
+            "4": [
+                "Sayu",
+                "Diona",
+                "Xinyan"
+            ],
+            "5": [
+                "Yoimiya"
+            ]
         }
     },
-    "": {
+    "18": {
         "name": "Reign of Serenity",
         "version": "2.1",
         "start_date": "9/1/2021",
         "end_date": "9/21/2021",
         "characters": {
-            "5": ["Raiden Shogun"],
-            "4": ["Kujou Sara", "Sucrose", "Xiangling"]
+            "4": [
+                "Kujou Sara",
+                "Sucrose",
+                "Xiangling"
+            ],
+            "5": [
+                "Raiden Shogun"
+            ]
         }
     },
-    "": {
+    "19": {
         "name": "Drifting Luminescence",
         "version": "2.1",
         "start_date": "9/21/2021",
         "end_date": "10/12/2021",
         "characters": {
-            "5": ["Sangonomiya Kokomi"],
-            "4": ["Beidou", "Rosaria", "Xingqiu"]
+            "4": [
+                "Beidou",
+                "Rosaria",
+                "Xingqiu"
+            ],
+            "5": [
+                "Sangonomiya Kokomi"
+            ]
         }
     },
-    "": {
+    "20": {
         "name": "Farewell Of Snezhnaya",
         "version": "2.2",
         "start_date": "10/13/2021",
         "end_date": "11/2/2021",
         "characters": {
-            "5": ["Childe"],
-            "4": ["Chongyun", "Ningguang", "Yanfei"]
+            "4": [
+                "Chongyun",
+                "Ningguang",
+                "Yanfei"
+            ],
+            "5": [
+                "Tartaglia"
+            ]
         }
     },
-    "": {
+    "21": {
         "name": "Moment Of Bloom",
         "version": "2.2",
         "start_date": "11/2/2021",
         "end_date": "11/23/2021",
         "characters": {
-            "5": ["Hu Tao"],
-            "4": ["Thoma", "Sayu", "Diona"]
+            "4": [
+                "Thoma",
+                "Sayu",
+                "Diona"
+            ],
+            "5": [
+                "Hu Tao"
+            ]
         }
     },
-    "": {
+    "22": {
         "name": "Born Of Ocean Swell",
         "version": "2.3",
         "start_date": "11/24/2021",
         "end_date": "12/14/2021",
         "characters": {
-            "5": ["Eula"],
-            "4": ["Bennett", "Rosaria", "Noelle"]
+            "4": [
+                "Bennett",
+                "Rosaria",
+                "Noelle"
+            ],
+            "5": [
+                "Eula"
+            ]
         }
     },
-    "": {
+    "23": {
         "name": "Secretum Secretorum",
         "version": "2.3",
         "start_date": "11/24/2021",
         "end_date": "12/14/2021",
         "characters": {
-            "5": ["Albedo"],
-            "4": ["Bennett", "Rosaria", "Noelle"]
+            "4": [
+                "Bennett",
+                "Rosaria",
+                "Noelle"
+            ],
+            "5": [
+                "Albedo"
+            ]
         }
     },
-    "": {
+    "24": {
         "name": "Oni's Royale",
         "version": "2.3",
         "start_date": "12/14/2021",
         "end_date": "1/4/2022",
         "characters": {
-            "5": ["Arataki Itto"],
-            "4": ["Gorou", "Xiangling", "Barbara"]
+            "4": [
+                "Gorou",
+                "Xiangling",
+                "Barbara"
+            ],
+            "5": [
+                "Arataki Itto"
+            ]
         }
     },
-    "": {
+    "25": {
         "name": "The Transcendent One Returns",
         "version": "2.4",
         "start_date": "1/5/2022",
         "end_date": "1/25/2022",
         "characters": {
-            "5": ["Shenhe"],
-            "4": ["Chongyun", "Ningguang", "Yun Jin"]
+            "4": [
+                "Chongyun",
+                "Ningguang",
+                "Yun Jin"
+            ],
+            "5": [
+                "Shenhe"
+            ]
         }
     },
-    "": {
+    "26": {
         "name": "Invitation To Mundane Life",
         "version": "2.4",
         "start_date": "1/5/2022",
         "end_date": "1/25/2022",
         "characters": {
-            "5": ["Xiao"],
-            "4": ["Chongyun", "Ningguang", "Yun Jin"]
+            "4": [
+                "Chongyun",
+                "Ningguang",
+                "Yun Jin"
+            ],
+            "5": [
+                "Xiao"
+            ]
         }
     },
-    "": {
+    "27": {
         "name": "Gentry Of Hermitage",
         "version": "2.4",
         "start_date": "1/25/2022",
         "end_date": "2/15/2022",
         "characters": {
-            "5": ["Zhongli"],
-            "4": ["Xingqiu", "Beidou", "Yanfei"]
+            "4": [
+                "Xingqiu",
+                "Beidou",
+                "Yanfei"
+            ],
+            "5": [
+                "Zhongli"
+            ]
         }
     },
-    "": {
+    "28": {
         "name": "Adrift In The Harbor",
         "version": "2.4",
         "start_date": "1/25/2022",
         "end_date": "2/15/2022",
         "characters": {
-            "5": ["Ganyu"],
-            "4": ["Xingqiu", "Beidou", "Yanfei"]
+            "4": [
+                "Xingqiu",
+                "Beidou",
+                "Yanfei"
+            ],
+            "5": [
+                "Ganyu"
+            ]
         }
     },
-    "": {
+    "29": {
         "name": "Everbloom Violet",
         "version": "2.5",
         "start_date": "2/15/2022",
         "end_date": "3/8/2022",
         "characters": {
-            "5": ["Yae Miko"],
-            "4": ["Thoma", "Fischl", "Diona"]
+            "4": [
+                "Thoma",
+                "Fischl",
+                "Diona"
+            ],
+            "5": [
+                "Yae Miko"
+            ]
         }
     },
-    "": {
+    "30": {
         "name": "Reign of Serenity",
         "version": "2.5",
         "start_date": "3/8/2022",
         "end_date": "3/29/2022",
         "characters": {
-            "5": ["Raiden Shogun"],
-            "4": ["Bennett", "Xinyan", "Kujou Sara"]
+            "4": [
+                "Bennett",
+                "Xinyan",
+                "Kujou Sara"
+            ],
+            "5": [
+                "Raiden Shogun"
+            ]
         }
     },
-    "": {
+    "31": {
         "name": "Drifting Luminescence",
         "version": "2.5",
         "start_date": "3/8/2022",
         "end_date": "3/29/2022",
         "characters": {
-            "5": ["Sangonomiya Kokomi"],
-            "4": ["Bennett", "Xinyan", "Kujou Sara"]
+            "4": [
+                "Bennett",
+                "Xinyan",
+                "Kujou Sara"
+            ],
+            "5": [
+                "Sangonomiya Kokomi"
+            ]
         }
     },
-    "": {
+    "32": {
         "name": "Azure Excursion",
         "version": "2.6",
         "start_date": "3/30/2022",
         "end_date": "4/19/2022",
         "characters": {
-            "5": ["Ayato"],
-            "4": ["Sucrose", "Xiangling", "Yun Jin"]
+            "4": [
+                "Sucrose",
+                "Xiangling",
+                "Yun Jin"
+            ],
+            "5": [
+                "Kamisato Ayato"
+            ]
         }
     },
-    "": {
+    "33": {
         "name": "Ballad in Goblets",
         "version": "2.6",
         "start_date": "3/30/2022",
         "end_date": "4/19/2022",
         "characters": {
-            "5": ["Venti"],
-            "4": ["Sucrose", "Xiangling", "Yun Jin"]
+            "4": [
+                "Sucrose",
+                "Xiangling",
+                "Yun Jin"
+            ],
+            "5": [
+                "Venti"
+            ]
         }
     },
-    "": {
+    "34": {
         "name": "The Heron's Court",
         "version": "2.6",
         "start_date": "4/19/2022",
         "end_date": "5/30/2022",
         "characters": {
-            "5": ["Kamisato Ayaka"],
-            "4": ["Rosaria", "Razor", "Sayu"]
+            "4": [
+                "Rosaria",
+                "Razor",
+                "Sayu"
+            ],
+            "5": [
+                "Kamisato Ayaka"
+            ]
         }
     },
-    "": {
+    "35": {
         "name": "Invitation To Mundane Life",
         "version": "2.7",
         "start_date": "5/31/2022",
         "end_date": "6/21/2022",
         "characters": {
-            "5": ["Xiao"],
-            "4": ["Yanfei", "Barbara", "Noelle"]
+            "4": [
+                "Yanfei",
+                "Barbara",
+                "Noelle"
+            ],
+            "5": [
+                "Xiao"
+            ]
         }
     },
-    "": {
+    "36": {
         "name": "Discerner Of Enigmas",
         "version": "2.7",
         "start_date": "5/31/2022",
         "end_date": "6/21/2022",
         "characters": {
-            "5": ["Yelan"],
-            "4": ["Yanfei", "Barbara", "Noelle"]
+            "4": [
+                "Yanfei",
+                "Barbara",
+                "Noelle"
+            ],
+            "5": [
+                "Yelan"
+            ]
         }
     },
-    "": {
+    "37": {
         "name": "Oni's Royale",
         "version": "2.7",
         "start_date": "6/21/2022",
         "end_date": "7/12/2022",
         "characters": {
-            "5": ["Arataki Itto"],
-            "4": ["Kuki Shinobu", "Gorou", "Chongyun"]
+            "4": [
+                "Kuki Shinobu",
+                "Gorou",
+                "Chongyun"
+            ],
+            "5": [
+                "Arataki Itto"
+            ]
         }
     },
-    "": {
+    "38": {
         "name": "Sparkling Steps",
         "version": "2.8",
-        "start_date": "07/13/2022",
-        "end_date": "08/02/2022",
+        "start_date": "7/13/2022",
+        "end_date": "8/2/2022",
         "characters": {
-            "5": ["Klee"],
-            "4": ["Shikanoin Heizou", "Thoma", "Ningguang"]
+            "4": [
+                "Shikanoin Heizou",
+                "Thoma",
+                "Ningguang"
+            ],
+            "5": [
+                "Klee"
+            ]
         }
     },
-    "": {
+    "39": {
         "name": "Leaves In The Wind",
         "version": "2.8",
-        "start_date": "07/13/2022",
-        "end_date": "08/02/2022",
+        "start_date": "7/13/2022",
+        "end_date": "8/2/2022",
         "characters": {
-            "5": ["Kaedehara Kazuha"],
-            "4": ["Shikanoin Heizou", "Thoma", "Ningguang"]
+            "4": [
+                "Shikanoin Heizou",
+                "Thoma",
+                "Ningguang"
+            ],
+            "5": [
+                "Kaedehara Kazuha"
+            ]
         }
     },
-    "": {
+    "40": {
         "name": "Tapestry Of Golden Flames",
         "version": "2.8",
-        "start_date": "08/02/2022",
-        "end_date": "08/23/2022",
+        "start_date": "8/2/2022",
+        "end_date": "8/23/2022",
         "characters": {
-            "5": ["Yoimiya"],
-            "4": ["Yun Jin", "Xinyan", "Bennett"]
+            "4": [
+                "Yun Jin",
+                "Xinyan",
+                "Bennett"
+            ],
+            "5": [
+                "Yoimiya"
+            ]
         }
     },
-    "": {
+    "41": {
         "name": "Gentry Of Hermitage",
         "version": "3.0",
-        "start_date": "08/24/2022",
-        "end_date": "09/09/2022",
+        "start_date": "8/24/2022",
+        "end_date": "9/9/2022",
         "characters": {
-            "5": ["Zhongli"],
-            "4": ["Collei", "Diona", "Fischl"]
+            "4": [
+                "Collei",
+                "Diona",
+                "Fischl"
+            ],
+            "5": [
+                "Zhongli"
+            ]
         }
     },
-    "": {
+    "42": {
         "name": "Viridiscent Vigil",
         "version": "3.0",
-        "start_date": "08/24/2022",
-        "end_date": "09/09/2022",
+        "start_date": "8/24/2022",
+        "end_date": "9/9/2022",
         "characters": {
-            "5": ["Tighnari"],
-            "4": ["Collei", "Diona", "Fischl"]
+            "4": [
+                "Collei",
+                "Diona",
+                "Fischl"
+            ],
+            "5": [
+                "Tighnari"
+            ]
         }
     },
-    "": {
+    "43": {
         "name": "Adrift In The Harbor",
         "version": "3.0",
-        "start_date": "09/09/2022",
-        "end_date": "09/27/2022",
+        "start_date": "9/9/2022",
+        "end_date": "9/27/2022",
         "characters": {
-            "5": ["Ganyu"],
-            "4": ["Dori", "Xingqiu", "Sucrose"]
+            "4": [
+                "Dori",
+                "Xingqiu",
+                "Sucrose"
+            ],
+            "5": [
+                "Ganyu"
+            ]
         }
     },
-    "": {
+    "44": {
         "name": "Drifting Luminescence",
         "version": "3.0",
-        "start_date": "09/09/2022",
-        "end_date": "09/27/2022",
+        "start_date": "9/9/2022",
+        "end_date": "9/27/2022",
         "characters": {
-            "5": ["Sangonomiya Kokomi"],
-            "4": ["Dori", "Xingqiu", "Sucrose"]
+            "4": [
+                "Dori",
+                "Xingqiu",
+                "Sucrose"
+            ],
+            "5": [
+                "Sangonomiya Kokomi"
+            ]
         }
     },
-    "": {
+    "45": {
         "name": "Twilight Arbiter",
         "version": "3.1",
-        "start_date": "09/28/2022",
+        "start_date": "9/28/2022",
         "end_date": "10/14/2022",
         "characters": {
-            "5": ["Cyno"],
-            "4": ["Candace", "Kuki Shinobu", "Sayu"]
+            "4": [
+                "Candace",
+                "Kuki Shinobu",
+                "Sayu"
+            ],
+            "5": [
+                "Cyno"
+            ]
         }
     },
-    "": {
+    "46": {
         "name": "Ballad In Goblets",
         "version": "3.1",
-        "start_date": "09/28/2022",
+        "start_date": "9/28/2022",
         "end_date": "10/14/2022",
         "characters": {
-            "5": ["Venti"],
-            "4": ["Candace", "Kuki Shinobu", "Sayu"]
+            "4": [
+                "Candace",
+                "Kuki Shinobu",
+                "Sayu"
+            ],
+            "5": [
+                "Venti"
+            ]
         }
     },
-    "": {
+    "47": {
         "name": "Secretum Secretorum",
         "version": "3.1",
         "start_date": "10/14/2022",
-        "end_date": "11/01/2022",
+        "end_date": "11/1/2022",
         "characters": {
-            "5": ["Albedo"],
-            "4": ["Barbara", "Xiangling", "Beidou"]
+            "4": [
+                "Barbara",
+                "Xiangling",
+                "Beidou"
+            ],
+            "5": [
+                "Albedo"
+            ]
         }
     },
-    "": {
+    "48": {
         "name": "Twirling Lotus",
         "version": "3.1",
         "start_date": "10/14/2022",
-        "end_date": "11/01/2022",
+        "end_date": "11/1/2022",
         "characters": {
-            "5": ["Nilou"],
-            "4": ["Barbara", "Xiangling", "Beidou"]
+            "4": [
+                "Barbara",
+                "Xiangling",
+                "Beidou"
+            ],
+            "5": [
+                "Nilou"
+            ]
         }
     },
-    "": {
+    "49": {
         "name": "Tapestry Of Golden Flames",
         "version": "3.2",
-        "start_date": "11/02/2022",
+        "start_date": "11/2/2022",
         "end_date": "11/18/2022",
         "characters": {
-            "5": ["Yoimiya"],
-            "4": ["Bennett", "Razor", "Noelle"]
+            "4": [
+                "Bennett",
+                "Razor",
+                "Noelle"
+            ],
+            "5": [
+                "Yoimiya"
+            ]
         }
     },
-    "": {
+    "50": {
         "name": "The Moongrass' Enlightenment",
         "version": "3.2",
-        "start_date": "11/02/2022",
+        "start_date": "11/2/2022",
         "end_date": "11/18/2022",
         "characters": {
-            "5": ["Nahida"],
-            "4": ["Bennett", "Razor", "Noelle"]
+            "4": [
+                "Bennett",
+                "Razor",
+                "Noelle"
+            ],
+            "5": [
+                "Nahida"
+            ]
         }
     },
-    "": {
+    "51": {
         "name": "Everbloom Violet",
         "version": "3.2",
         "start_date": "11/18/2022",
         "end_date": "12/6/2022",
         "characters": {
-            "5": ["Yae Miko"],
-            "4": ["Layla", "Thoma", "Shikanoin Heizou"]
+            "4": [
+                "Layla",
+                "Thoma",
+                "Shikanoin Heizou"
+            ],
+            "5": [
+                "Yae Miko"
+            ]
         }
     },
-    "": {
+    "52": {
         "name": "Farewell of Snezhnaya",
         "version": "3.2",
         "start_date": "11/18/2022",
         "end_date": "12/6/2022",
         "characters": {
-            "5": ["Childe"],
-            "4": ["Layla", "Thoma", "Shikanoin Heizou"]
+            "4": [
+                "Layla",
+                "Thoma",
+                "Shikanoin Heizou"
+            ],
+            "5": [
+                "Tartaglia"
+            ]
         }
     },
-    "": {
+    "53": {
         "name": "Oni's Royale",
         "version": "3.3",
         "start_date": "12/7/2022",
         "end_date": "12/27/2022",
         "characters": {
-            "5": ["Arataki Itto"],
-            "4": ["Faruzan", "Gorou", "Yanfei"]
+            "4": [
+                "Faruzan",
+                "Gorou",
+                "Yanfei"
+            ],
+            "5": [
+                "Arataki Itto"
+            ]
         }
     },
-    "": {
+    "54": {
         "name": "From Ashes Reborn",
         "version": "3.3",
         "start_date": "12/7/2022",
         "end_date": "12/27/2022",
         "characters": {
-            "5": ["Wanderer"],
-            "4": ["Faruzan", "Gorou", "Yanfei"]
+            "4": [
+                "Faruzan",
+                "Gorou",
+                "Yanfei"
+            ],
+            "5": [
+                "Wanderer"
+            ]
         }
     },
-    "": {
+    "55": {
         "name": "Azure Excursion",
         "version": "3.3",
         "start_date": "12/27/2022",
         "end_date": "1/17/2023",
         "characters": {
-            "5": ["Ayato"],
-            "4": ["Kujou Sara", "Sayu", "Rosaria"]
+            "4": [
+                "Kujou Sara",
+                "Sayu",
+                "Rosaria"
+            ],
+            "5": [
+                "Kamisato Ayato"
+            ]
         }
     },
-    "": {
+    "56": {
         "name": "Reign Of Serenity",
         "version": "3.3",
         "start_date": "12/27/2022",
         "end_date": "1/17/2023",
         "characters": {
-            "5": ["Raiden Shogun"],
-            "4": ["Kujou Sara", "Sayu", "Rosaria"]
+            "4": [
+                "Kujou Sara",
+                "Sayu",
+                "Rosaria"
+            ],
+            "5": [
+                "Raiden Shogun"
+            ]
         }
     },
-    "": {
+    "57": {
         "name": "Invitation To Mundane Life",
         "version": "3.4",
         "start_date": "1/18/2023",
         "end_date": "2/7/2023",
         "characters": {
-            "5": ["Xiao"],
-            "4": ["Yaoyao", "Yun Jin", "Xinyan"]
+            "4": [
+                "Yaoyao",
+                "Yun Jin",
+                "Xinyan"
+            ],
+            "5": [
+                "Xiao"
+            ]
         }
     },
-    "": {
+    "58": {
         "name": "Caution In Confidence",
         "version": "3.4",
         "start_date": "1/18/2023",
         "end_date": "2/7/2023",
         "characters": {
-            "5": ["Alhaitham"],
-            "4": ["Yaoyao", "Yun Jin", "Xinyan"]
+            "4": [
+                "Yaoyao",
+                "Yun Jin",
+                "Xinyan"
+            ],
+            "5": [
+                "Alhaitham"
+            ]
         }
     },
-    "": {
+    "59": {
         "name": "Discerner Of Enigmas",
         "version": "3.4",
         "start_date": "2/7/2023",
         "end_date": "2/28/2023",
         "characters": {
-            "5": ["Yelan"],
-            "4": ["Beidou", "Ningguang", "Xingqiu"]
+            "4": [
+                "Beidou",
+                "Ningguang",
+                "Xingqiu"
+            ],
+            "5": [
+                "Yelan"
+            ]
         }
     },
-    "": {
+    "60": {
         "name": "Moment Of Bloom",
         "version": "3.4",
         "start_date": "2/7/2023",
         "end_date": "2/28/2023",
         "characters": {
-            "5": ["Hu Tao"],
-            "4": ["Beidou", "Ningguang", "Xingqiu"]
+            "4": [
+                "Beidou",
+                "Ningguang",
+                "Xingqiu"
+            ],
+            "5": [
+                "Hu Tao"
+            ]
         }
     },
-    "": {
+    "61": {
         "name": "Twilight Arbiter",
         "version": "3.5",
         "start_date": "3/1/2023",
         "end_date": "3/21/2023",
         "characters": {
-            "5": ["Cyno"],
-            "4": ["Bennett", "Collei", "Barbara"]
+            "4": [
+                "Bennett",
+                "Collei",
+                "Barbara"
+            ],
+            "5": [
+                "Cyno"
+            ]
         }
     },
-    "": {
+    "62": {
         "name": "Auric Blaze",
         "version": "3.5",
         "start_date": "3/1/2023",
         "end_date": "3/21/2023",
         "characters": {
-            "5": ["Dehya"],
-            "4": ["Bennett", "Collei", "Barbara"]
+            "4": [
+                "Bennett",
+                "Collei",
+                "Barbara"
+            ],
+            "5": [
+                "Dehya"
+            ]
         }
     },
-    "": {
+    "63": {
         "name": "The Heron's Court",
         "version": "3.5",
         "start_date": "3/21/2023",
         "end_date": "4/11/2023",
         "characters": {
-            "5": ["Kamisato Ayaka"],
-            "4": ["Mika", "Sucrose", "Diona"]
+            "4": [
+                "Mika",
+                "Sucrose",
+                "Diona"
+            ],
+            "5": [
+                "Kamisato Ayaka"
+            ]
         }
     },
-    "": {
+    "64": {
         "name": "The Transcendent One Returns",
         "version": "3.5",
         "start_date": "3/21/2023",
         "end_date": "4/11/2023",
         "characters": {
-            "5": ["Shenhe"],
-            "4": ["Mika", "Sucrose", "Diona"]
+            "4": [
+                "Mika",
+                "Sucrose",
+                "Diona"
+            ],
+            "5": [
+                "Shenhe"
+            ]
         }
     },
-    "": {
+    "65": {
         "name": "Twirling Lotus",
         "version": "3.6",
         "start_date": "4/12/2023",
         "end_date": "5/2/2023",
         "characters": {
-            "5": ["Nilou"],
-            "4": ["Kuki Shinobu", "Dori", "Layla"]
+            "4": [
+                "Kuki Shinobu",
+                "Dori",
+                "Layla"
+            ],
+            "5": [
+                "Nilou"
+            ]
         }
     },
-    "": {
+    "66": {
         "name": "The Moongrass' Enlightenment",
         "version": "3.6",
         "start_date": "4/12/2023",
         "end_date": "5/2/2023",
         "characters": {
-            "5": ["Nahida"],
-            "4": ["Kuki Shinobu", "Dori", "Layla"]
+            "4": [
+                "Kuki Shinobu",
+                "Dori",
+                "Layla"
+            ],
+            "5": [
+                "Nahida"
+            ]
         }
     },
-    "": {
+    "67": {
         "name": "Immaculate Pulse",
         "version": "3.6",
         "start_date": "5/2/2023",
         "end_date": "5/23/2023",
         "characters": {
-            "5": ["Baizhu"],
-            "4": ["Kaveh", "Candace", "Fischl"]
+            "4": [
+                "Kaveh",
+                "Candace",
+                "Fischl"
+            ],
+            "5": [
+                "Baizhu"
+            ]
         }
     },
-    "": {
+    "68": {
         "name": "Adrift In The Harbor",
         "version": "3.6",
         "start_date": "5/2/2023",
         "end_date": "5/23/2023",
         "characters": {
-            "5": ["Ganyu"],
-            "4": ["Kaveh", "Candace", "Fischl"]
+            "4": [
+                "Kaveh",
+                "Candace",
+                "Fischl"
+            ],
+            "5": [
+                "Ganyu"
+            ]
         }
     },
-    "": {
+    "69": {
         "name": "Everbloom Violet",
         "version": "3.7",
         "start_date": "5/24/2023",
         "end_date": "6/13/2023",
         "characters": {
-            "5": ["Yae Miko"],
-            "4": ["Kirara", "Yun Jin", "Chongyun"]
+            "4": [
+                "Kirara",
+                "Yun Jin",
+                "Chongyun"
+            ],
+            "5": [
+                "Yae Miko"
+            ]
         }
     },
-    "": {
+    "70": {
         "name": "Tapestry Of Golden Flames",
         "version": "3.7",
         "start_date": "5/24/2023",
         "end_date": "6/13/2023",
         "characters": {
-            "5": ["Yoimiya"],
-            "4": ["Kirara", "Yun Jin", "Chongyun"]
+            "4": [
+                "Kirara",
+                "Yun Jin",
+                "Chongyun"
+            ],
+            "5": [
+                "Yoimiya"
+            ]
         }
     },
-    "": {
+    "71": {
         "name": "Caution In Confidence",
         "version": "3.7",
         "start_date": "6/13/2023",
         "end_date": "7/4/2023",
         "characters": {
-            "5": ["Alhaitham"],
-            "4": ["Yaoyao", "Shikanoin Heizou", "Xiangling"]
+            "4": [
+                "Yaoyao",
+                "Shikanoin Heizou",
+                "Xiangling"
+            ],
+            "5": [
+                "Alhaitham"
+            ]
         }
     },
-    "": {
+    "72": {
         "name": "Leaves In The Wind",
         "version": "3.7",
         "start_date": "6/13/2023",
         "end_date": "7/4/2023",
         "characters": {
-            "5": ["Kaedehara Kazuha"],
-            "4": ["Yaoyao", "Shikanoin Heizou", "Xiangling"]
+            "4": [
+                "Yaoyao",
+                "Shikanoin Heizou",
+                "Xiangling"
+            ],
+            "5": [
+                "Kaedehara Kazuha"
+            ]
         }
     },
-    "": {
+    "73": {
         "name": "Sparkling Steps",
         "version": "3.8",
         "start_date": "7/5/2023",
         "end_date": "7/25/2023",
         "characters": {
-            "5": ["Klee"],
-            "4": ["Mika", "Thoma", "Razor"]
+            "4": [
+                "Mika",
+                "Thoma",
+                "Razor"
+            ],
+            "5": [
+                "Klee"
+            ]
         }
     },
-    "": {
+    "74": {
         "name": "Born Of Ocean Swell",
         "version": "3.8",
         "start_date": "7/5/2023",
         "end_date": "7/25/2023",
         "characters": {
-            "5": ["Eula"],
-            "4": ["Mika", "Thoma", "Razor"]
+            "4": [
+                "Mika",
+                "Thoma",
+                "Razor"
+            ],
+            "5": [
+                "Eula"
+            ]
         }
     },
-    "": {
+    "75": {
         "name": "From Ashes Reborn",
         "version": "3.8",
         "start_date": "7/25/2023",
         "end_date": "8/15/2023",
         "characters": {
-            "5": ["Wanderer"],
-            "4": ["Faruzan", "Rosaria", "Yanfei"]
+            "4": [
+                "Faruzan",
+                "Rosaria",
+                "Yanfei"
+            ],
+            "5": [
+                "Wanderer"
+            ]
         }
     },
-    "": {
+    "76": {
         "name": "Drifting Luminescence",
         "version": "3.8",
         "start_date": "7/25/2023",
         "end_date": "8/15/2023",
         "characters": {
-            "5": ["Sangonomiya Kokomi"],
-            "4": ["Faruzan", "Rosaria", "Yanfei"]
+            "4": [
+                "Faruzan",
+                "Rosaria",
+                "Yanfei"
+            ],
+            "5": [
+                "Sangonomiya Kokomi"
+            ]
         }
     },
-    "": {
+    "77": {
         "name": "Discerner Of Enigmas",
         "version": "4.0",
         "start_date": "8/16/2023",
-        "end_date": "09/05/2023",
+        "end_date": "9/5/2023",
         "characters": {
-            "5": ["Yelan"],
-            "4": ["Lynette", "Bennett", "Barbara"]
+            "4": [
+                "Lynette",
+                "Bennett",
+                "Barbara"
+            ],
+            "5": [
+                "Yelan"
+            ]
         }
     },
-    "": {
+    "78": {
         "name": "Conjuring Chiaroscuro",
         "version": "4.0",
         "start_date": "8/16/2023",
-        "end_date": "09/05/2023",
+        "end_date": "9/5/2023",
         "characters": {
-            "5": ["Lyney"],
-            "4": ["Lynette", "Bennett", "Barbara"]
+            "4": [
+                "Lynette",
+                "Bennett",
+                "Barbara"
+            ],
+            "5": [
+                "Lyney"
+            ]
         }
     },
-    "": {
+    "79": {
         "name": "Farewell of Snezhnaya",
         "version": "4.0",
-        "start_date": "09/05/2023",
-        "end_date": "09/26/2023",
+        "start_date": "9/5/2023",
+        "end_date": "9/26/2023",
         "characters": {
-            "5": ["Childe"],
-            "4": ["Freminet", "Noelle", "Sayu"]
+            "4": [
+                "Freminet",
+                "Noelle",
+                "Sayu"
+            ],
+            "5": [
+                "Tartaglia"
+            ]
         }
     },
-    "": {
+    "80": {
         "name": "Gentry Of Hermitage",
         "version": "4.0",
-        "start_date": "09/05/2023",
-        "end_date": "09/26/2023",
+        "start_date": "9/5/2023",
+        "end_date": "9/26/2023",
         "characters": {
-            "5": ["Zhongli"],
-            "4": ["Freminet", "Noelle", "Sayu"]
+            "4": [
+                "Freminet",
+                "Noelle",
+                "Sayu"
+            ],
+            "5": [
+                "Zhongli"
+            ]
         }
     },
-    "": {
+    "81": {
         "name": "Moment Of Bloom",
         "version": "4.1",
-        "start_date": "09/27/2023",
+        "start_date": "9/27/2023",
         "end_date": "10/17/2023",
         "characters": {
-            "5": ["Hu Tao"],
-            "4": ["Xingqiu", "Fischl", "Diona"]
+            "4": [
+                "Xingqiu",
+                "Fischl",
+                "Diona"
+            ],
+            "5": [
+                "Hu Tao"
+            ]
         }
     },
-    "": {
+    "82": {
         "name": "Decree Of The Deeps",
         "version": "4.1",
-        "start_date": "09/27/2023",
+        "start_date": "9/27/2023",
         "end_date": "10/17/2023",
         "characters": {
-            "5": ["Neuvillette"],
-            "4": ["Xingqiu", "Fischl", "Diona"]
+            "4": [
+                "Xingqiu",
+                "Fischl",
+                "Diona"
+            ],
+            "5": [
+                "Neuvillette"
+            ]
         }
     },
-    "": {
+    "83": {
         "name": "Ballad In Goblets",
         "version": "4.1",
         "start_date": "10/17/2023",
-        "end_date": "11/07/2023",
+        "end_date": "11/7/2023",
         "characters": {
-            "5": ["Venti"],
-            "4": ["Thoma", "Chongyun", "Dori"]
+            "4": [
+                "Thoma",
+                "Chongyun",
+                "Dori"
+            ],
+            "5": [
+                "Venti"
+            ]
         }
     },
-    "": {
+    "84": {
         "name": "Tempestuous Destiny",
         "version": "4.1",
         "start_date": "10/17/2023",
-        "end_date": "11/07/2023",
+        "end_date": "11/7/2023",
         "characters": {
-            "5": ["Wriothesley"],
-            "4": ["Thoma", "Chongyun", "Dori"]
+            "4": [
+                "Thoma",
+                "Chongyun",
+                "Dori"
+            ],
+            "5": [
+                "Wriothesley"
+            ]
         }
     },
-    "": {
+    "85": {
         "name": "Immaculate Pulse",
         "version": "4.2",
-        "start_date": "11/08/2023",
+        "start_date": "11/8/2023",
         "end_date": "11/28/2023",
         "characters": {
-            "5": ["Baizhu"],
-            "4": ["Charlotte", "Beidou", "Collei"]
+            "4": [
+                "Charlotte",
+                "Beidou",
+                "Collei"
+            ],
+            "5": [
+                "Baizhu"
+            ]
         }
     },
-    "": {
+    "86": {
         "name": "Chanson Of Many Waters",
         "version": "4.2",
-        "start_date": "11/08/2023",
+        "start_date": "11/8/2023",
         "end_date": "11/28/2023",
         "characters": {
-            "5": ["Furina"],
-            "4": ["Charlotte", "Beidou", "Collei"]
+            "4": [
+                "Charlotte",
+                "Beidou",
+                "Collei"
+            ],
+            "5": [
+                "Furina"
+            ]
         }
     },
-    "": {
+    "87": {
         "name": "Azure Excursion",
         "version": "4.2",
         "start_date": "11/28/2023",
         "end_date": "12/20/2023",
         "characters": {
-            "5": ["Ayato"],
-            "4": ["Kirara", "Xiangling", "Kuki Shinobu"]
+            "4": [
+                "Kirara",
+                "Xiangling",
+                "Kuki Shinobu"
+            ],
+            "5": [
+                "Kamisato Ayato"
+            ]
         }
     },
-    "": {
+    "88": {
         "name": "Twilight Arbiter",
         "version": "4.2",
         "start_date": "11/28/2023",
         "end_date": "12/20/2023",
         "characters": {
-            "5": ["Cyno"],
-            "4": ["Kirara", "Xiangling", "Kuki Shinobu"]
+            "4": [
+                "Kirara",
+                "Xiangling",
+                "Kuki Shinobu"
+            ],
+            "5": [
+                "Cyno"
+            ]
         }
     },
-    "": {
+    "89": {
         "name": "The Heron's Court",
         "version": "4.3",
         "start_date": "12/20/2023",
         "end_date": "1/9/2024",
         "characters": {
-            "5": ["Kamisato Ayaka"],
-            "4": ["Sucrose", "Rosaria", "Candace"]
+            "4": [
+                "Sucrose",
+                "Rosaria",
+                "Candace"
+            ],
+            "5": [
+                "Kamisato Ayaka"
+            ]
         }
     },
-    "": {
+    "90": {
         "name": "In The Name Of The Rosula",
         "version": "4.3",
         "start_date": "12/20/2023",
         "end_date": "1/9/2024",
         "characters": {
-            "5": ["Navia"],
-            "4": ["Sucrose", "Rosaria", "Candace"]
+            "4": [
+                "Sucrose",
+                "Rosaria",
+                "Candace"
+            ],
+            "5": [
+                "Navia"
+            ]
         }
     },
-    "": {
+    "91": {
         "name": "Tapestry Of Golden Flames",
         "version": "4.3",
         "start_date": "1/9/2024",
         "end_date": "1/31/2024",
         "characters": {
-            "5": ["Yoimiya"],
-            "4": ["Chevreuse", "Bennett", "Kujou Sara"]
+            "4": [
+                "Chevreuse",
+                "Bennett",
+                "Kujou Sara"
+            ],
+            "5": [
+                "Yoimiya"
+            ]
         }
     },
-    "": {
+    "92": {
         "name": "Reign Of Serenity",
         "version": "4.3",
         "start_date": "1/9/2024",
         "end_date": "1/31/2024",
         "characters": {
-            "5": ["Raiden Shogun"],
-            "4": ["Chevreuse", "Bennett", "Kujou Sara"]
+            "4": [
+                "Chevreuse",
+                "Bennett",
+                "Kujou Sara"
+            ],
+            "5": [
+                "Raiden Shogun"
+            ]
         }
     },
-    "": {
+    "93": {
         "name": "The Moongrass' Enlightenment",
         "version": "4.4",
         "start_date": "1/31/2024",
         "end_date": "2/20/2024",
         "characters": {
-            "5": ["Nahida"],
-            "4": ["Gaming", "Faruzan", "Noelle"]
+            "4": [
+                "Gaming",
+                "Faruzan",
+                "Noelle"
+            ],
+            "5": [
+                "Nahida"
+            ]
         }
     },
-    "": {
+    "94": {
         "name": "The Crane Soars Skyward",
         "version": "4.4",
         "start_date": "1/31/2024",
         "end_date": "2/20/2024",
         "characters": {
-            "5": ["Xianyun"],
-            "4": ["Gaming", "Faruzan", "Noelle"]
+            "4": [
+                "Gaming",
+                "Faruzan",
+                "Noelle"
+            ],
+            "5": [
+                "Xianyun"
+            ]
         }
     },
-    "": {
+    "95": {
         "name": "Everbloom Violet",
         "version": "4.4",
         "start_date": "2/20/2024",
         "end_date": "3/12/2024",
         "characters": {
-            "5": ["Yae Miko"],
-            "4": ["Yaoyao", "Xinyan", "Ningguang"]
+            "4": [
+                "Yaoyao",
+                "Xinyan",
+                "Ningguang"
+            ],
+            "5": [
+                "Yae Miko"
+            ]
         }
     },
-    "": {
+    "96": {
         "name": "Invitation To Mundane Life",
         "version": "4.4",
         "start_date": "2/20/2024",
         "end_date": "3/12/2024",
         "characters": {
-            "5": ["Xiao"],
-            "4": ["Yaoyao", "Xinyan", "Ningguang"]
+            "4": [
+                "Yaoyao",
+                "Xinyan",
+                "Ningguang"
+            ],
+            "5": [
+                "Xiao"
+            ]
         }
     },
-    "": {
+    "97": {
         "name": "Oni's Royale",
         "version": "4.5",
         "start_date": "3/13/2024",
         "end_date": "4/2/2024",
         "characters": {
-            "5": ["Arataki Itto"],
-            "4": ["Gorou", "Yun Jin", "Dori"]
+            "4": [
+                "Gorou",
+                "Yun Jin",
+                "Dori"
+            ],
+            "5": [
+                "Arataki Itto"
+            ]
         }
     },
-    "": {
+    "98": {
         "name": "Of Silken Clouds Woven",
         "version": "4.5",
         "start_date": "3/13/2024",
         "end_date": "4/2/2024",
         "characters": {
-            "5": ["Chiori"],
-            "4": ["Gorou", "Yun Jin", "Dori"]
+            "4": [
+                "Gorou",
+                "Yun Jin",
+                "Dori"
+            ],
+            "5": [
+                "Chiori"
+            ]
         }
     },
-    "": {
+    "99": {
         "name": "Leaves In The Wind",
         "version": "4.5",
         "start_date": "4/2/2024",
         "end_date": "4/23/2024",
         "characters": {
-            "5": ["Kaedehara Kazuha"],
-            "4": ["Barbara", "Xingqiu", "Yanfei"]
+            "4": [
+                "Barbara",
+                "Xingqiu",
+                "Yanfei"
+            ],
+            "5": [
+                "Kaedehara Kazuha"
+            ]
         }
     },
-    "": {
+    "100": {
         "name": "Decree Of The Deeps",
         "version": "4.5",
         "start_date": "4/2/2024",
         "end_date": "4/23/2024",
         "characters": {
-            "5": ["Neuvillette"],
-            "4": ["Barbara", "Xingqiu", "Yanfei"]
+            "4": [
+                "Barbara",
+                "Xingqiu",
+                "Yanfei"
+            ],
+            "5": [
+                "Neuvillette"
+            ]
         }
     },
-    "": {
+    "101": {
         "name": "Conjuring Chiaroscuro",
         "version": "4.6",
         "start_date": "4/24/2024",
         "end_date": "5/14/2024",
         "characters": {
-            "5": ["Lyney"],
-            "4": ["Xiangling", "Lynette", "Freminet"]
+            "4": [
+                "Xiangling",
+                "Lynette",
+                "Freminet"
+            ],
+            "5": [
+                "Lyney"
+            ]
         }
     },
-    "": {
+    "102": {
         "name": "The Hearth's Ashen Shadow",
         "version": "4.6",
         "start_date": "4/24/2024",
         "end_date": "5/14/2024",
         "characters": {
-            "5": ["Arlecchino"],
-            "4": ["Xiangling", "Lynette", "Freminet"]
+            "4": [
+                "Xiangling",
+                "Lynette",
+                "Freminet"
+            ],
+            "5": [
+                "Arlecchino"
+            ]
         }
     },
-    // "": {
-    //     "name": "Immaculate Pulse",
-    //     "version": "4.6",
-    //     "start_date": "5/14/2024",
-    //     "end_date": "6/4/2024",
-    //     "characters": {
-    //         "5": ["Baizhu"],
-    //         "4": ["", "", ""]
-    //     }
-    // },
-    // "": {
-    //     "name": "From Ashes Reborn",
-    //     "version": "4.6",
-    //     "start_date": "5/14/2024",
-    //     "end_date": "6/4/2024",
-    //     "characters": {
-    //         "5": ["Wanderer"],
-    //         "4": ["", "", ""]
-    //     }
-    // },
+    "103": {
+        "name": "Immaculate Pulse",
+        "version": "4.6",
+        "start_date": "5/14/2024",
+        "end_date": "6/4/2024",
+        "characters": {
+            "4": [
+                "Faruzan",
+                "Rosaria",
+                "Yanfei"
+            ],
+            "5": [
+                "Baizhu"
+            ]
+        }
+    },
+    "104": {
+        "name": "From Ashes Reborn",
+        "version": "4.6",
+        "start_date": "5/14/2024",
+        "end_date": "6/4/2024",
+        "characters": {
+            "4": [
+                "Faruzan",
+                "Rosaria",
+                "Yanfei"
+            ],
+            "5": [
+                "Wanderer"
+            ]
+        }
+    },
 
 
 
@@ -1062,8 +1692,14 @@ const character_banners = {
     //     "start_date": "",
     //     "end_date": "",
     //     "characters": {
-    //         "5": [""],
-    //         "4": ["", "", ""]
+    //         "4": [
+    //             "",
+    //             "",
+    //             ""
+    //         ],
+    //         "5": [
+    //             ""
+    //         ]
     //     }
     // }
 };

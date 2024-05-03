@@ -1,4 +1,4 @@
-var tabs_id = ["tab_archetype_search", "tab_teams_search", "tab_characters", "tab_user"];
+const tabs_id = ["tab_archetype_search", "tab_teams_search", "tab_characters", "tab_extras", "tab_user"];
 
 document.addEventListener("DOMContentLoaded", (event) => {
     setButtonsEventListeners();

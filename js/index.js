@@ -192,6 +192,20 @@ function isToday(monthDay) {
         inputDate.getDate() === currentDate.getDate();
 }
 
+function dateDiffInDays(date1, date2) {
+    // Convert both dates to timestamps
+    var timestamp1 = date1.getTime();
+    var timestamp2 = date2.getTime();
+
+    // Calculate the difference in milliseconds
+    var timeDiff = Math.abs(timestamp2 - timestamp1);
+
+    // Convert the difference in milliseconds to days
+    var diffDays = Math.ceil(timeDiff / (1000 * 3600 * 24)); 
+
+    return diffDays;
+}
+
 function getCharacter(name) {
     let character = GenshinDb.character(name);
 

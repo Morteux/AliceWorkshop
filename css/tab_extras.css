@@ -1,0 +1,171 @@
+.tab_extras {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-evenly;
+
+    margin-top: 5vh;
+}
+
+/* Menu navigation tabs */
+
+.navigation_menu_extras {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+
+    font-family: GenshinImpact;
+}
+
+.navigation_menu_extras>div {
+    flex: 1 1 0;
+    cursor: pointer;
+    padding-top: 1.5vh;
+    padding-bottom: 1.5vh;
+    text-align: center;
+
+    width: 16vw;
+}
+
+.active_tab_button {
+    background-color: var(--secondary_color);
+}
+
+.disabled_tab_button {
+    background-color: var(--tertiary_color);
+}
+
+.disabled_tab_button:hover {
+    background-color: var(--secondary_color);
+}
+
+.menu_extra_banners {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    flex-wrap: wrap;
+
+    width: 70%;
+}
+
+.character_extra_banner {
+    margin: 1vh 11px;
+}
+
+.character_banner_fieldset {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+
+    border-radius: 10px;
+    border: solid 3px var(--secondary_color);
+
+    color: var(--light_text);
+
+    margin: 3vh 1vw;
+}
+
+.character_banner_fieldset_4 {
+    color: var(--light_text);
+}
+
+.character_banner_fieldset_5 {
+    color: var(--dark_text);
+}
+
+.character_banner_stats {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    font-size: smaller;
+
+    background-color: var(--tertiary_color);
+    border-radius: 10px;
+
+    margin-top: 5px;
+}
+
+.character_banner_date {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    margin-bottom: 5px;
+}
+
+.waiting_days {
+    font-size: large;
+
+    margin: 10px 0px;
+}
+
+.high_mean {
+    color: var(--high_mean);
+}
+
+.medium_mean {
+    color: var(--medium_mean);
+}
+
+.low_mean {
+    color: var(--low_mean);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Small desktop/laptop version (Width: 960->1320px) */
+@media only screen and (max-width: 1320px) {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Mobile version (Width: 300->959px) */
+@media only screen and (max-width: 959px) {
+    .tab_extras {
+        flex-direction: column;
+    }
+
+    .navigation_menu_extras>div {
+        width: 50vw;
+    }
+
+    .menu_extra_banners {
+        width: 85vw;
+    }
+}
