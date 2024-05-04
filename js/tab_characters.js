@@ -1721,6 +1721,18 @@ function printCharacterInfoHTML(character_name) {
                 </div>
             </div>
             <div class="menu_character_row_info menu_character_row_dark">
+                Version:
+                <div class="menu_value_container">
+                ` + character_banner_stats[character_data.name].first_version + ` (` + character_banner_stats[character_data.name].first_date + `)
+                </div>
+            </div>
+            ` + (character_banner_stats[character_data.name].event_wish_banner_name != "" ? `<div class="menu_character_row_info menu_character_row_light">
+                Banner:
+                <div class="menu_value_container">
+                ` + character_banner_stats[character_data.name].event_wish_banner_name + `
+                </div>
+            </div>` : ``) + `
+            <div class="menu_character_row_info menu_character_row_dark">
                 Region:
                 <div class="menu_value_container">
                 ` + character_data.region + `

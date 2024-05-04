@@ -214,6 +214,12 @@ function getCharacterBannerHTML(character_data, character_banner_stats) {
 function updateCharacterBannerStats(character_name, banner) {
 
     if (character_banner_stats[character_name]) {
+
+        // If is exclusive character event wish banner and it is a 5 star character
+        if(banner.characters["5"].length == 1 && banner.characters["5"].includes(character_name)) {
+            character_banner_stats[character_name].event_wish_banner_name = banner.name;
+        }
+
         character_banner_stats[character_name].count += 1;
 
         // Released in a previous version
@@ -239,7 +245,7 @@ function calculateCharactersRerunsStats() {
     for (character in CHARACTER_NAMES) {
         // FILTER HERE
         if (!permanent_characters.includes(CHARACTER_NAMES[character])) {
-            character_banner_stats[CHARACTER_NAMES[character]] = { "first_version": actual_version, "first_date": actual_last_date, "last_date": actual_first_date, "count": 0, "waiting_days": 0 };
+            character_banner_stats[CHARACTER_NAMES[character]] = { "event_wish_banner_name": "", "first_version": actual_version, "first_date": actual_last_date, "last_date": actual_first_date, "count": 0, "waiting_days": 0 };
         }
     }
 
