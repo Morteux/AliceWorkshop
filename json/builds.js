@@ -445,25 +445,28 @@ const builds = {
     },
     "Chevreuse": {
         "Standard": {
-            description: "",
+            description: "Talent levels do not affect Chevreuse's buff to Bloom damage, so levels are not required. You can use Crit Rate circlet if you use Favonius Lance.",
             constellation: "",
-            talent_priority: [1, 2, 3],
-            weapon: [],
-            set: [],
-            er_requirement: "",
+            talent_priority: [2, 3, 1],
+            weapon: ["Favonius Lance", "Rightful Reward", "Black Tassel"],
+            set: [{
+                    artifacts: ["Song of Days Past"],
+                    pc: "4pc"
+                },],
+            er_requirement: "100%",
             main_stat: {
-                sands: "",
-                goblet: "",
-                circlet: "",
+                sands: "HP%",
+                goblet: "HP%",
+                circlet: "HP%, HB, Crit Rate",
             },
-            subs_stat: []
+            subs_stat: ["HP% until 40.000", "CRIT", "ATK"]
         }
     },
     "Chiori": {
         "Standard": {
             description: "",
             constellation: "",
-            talent_priority: [3, 1, 2],
+            talent_priority: [2, 3, 1],
             weapon: ["Uraku Misugiri", "Harbinger of Dawn", "Wolf-Fang", "Cinnabar Spindle"],
             set: [
                 {
@@ -1637,7 +1640,7 @@ const builds = {
             description: "",
             constellation: "",
             talent_priority: [1, 2, 3],
-            weapon: [],
+            weapon: ["Verdict", "Serpent Spine", "Ultimate Overlord's Mega Magic Sword"],
             set: [],
             er_requirement: "",
             main_stat: {
@@ -1671,18 +1674,21 @@ const builds = {
     },
     "Nilou": {
         "Standard": {
-            description: "",
+            description: "Talent levels do not affect Nilou's buff to Bloom damage, so levels are not required.",
             constellation: "",
-            talent_priority: [1, 2, 3],
-            weapon: [],
-            set: [],
-            er_requirement: "",
+            talent_priority: [2, 3, 1],
+            weapon: ["Key of Khaj-Nisut", "The Dockhand's Assistant", "Xiphos' Moonlight" ,"Iron Sting" ],
+            set: [{
+                    artifacts: ["Tenacity of the Millelith", "Vourukasha's Glow"],
+                    pc: "2pc"
+                }],
+            er_requirement: "130%",
             main_stat: {
-                sands: "",
-                goblet: "",
-                circlet: "",
+                sands: "HP%",
+                goblet: "HP%",
+                circlet: "HP%",
             },
-            subs_stat: []
+            subs_stat: ["HP%", "HP", "EM"]
         },
         // "Nacho": {
         //     description: "",
