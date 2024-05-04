@@ -1,5 +1,7 @@
 var character_banner_stats = {};
 
+var menu_extra_current_banners = ["The Hearth's Ashen Shadow.png", "Conjuring Chiaroscuro.png"];
+
 var menu_extra_tabs = ["menu_extra_banners"];
 
 var permanent_characters = ["Aether", "Lumine", "Jean", "Diluc", "Qiqi", "Mona", "Aloy", "Amber", "Kaeya", "Lisa"];
@@ -31,6 +33,8 @@ const BANNER_DURATION = 20; // In days
 document.addEventListener("DOMContentLoaded", (event) => {
     getActualData();
 
+    printCurrentBanners();
+
     printCharactersRerunsStats();
 
     // Team user configuration
@@ -47,14 +51,14 @@ document.addEventListener("DOMContentLoaded", (event) => {
     setMenuExtraTabActive(document.getElementById("menu_extra_banners"), document.getElementById("menu_extra_banners_button"));
 });
 
-// function reorderBannerJSON() {
-//     let ind = 0;
-//     let ab = {};
-//     for (banner in character_banners) {
-//         ab[ind++] = character_banners[banner];
-//     }
-//     console.log(ab);
-// }
+function reorderBannerJSON() {
+    let ind = 0;
+    let ab = {};
+    for (banner in character_banners) {
+        ab[ind++] = character_banners[banner];
+    }
+    console.log(ab);
+}
 
 function getActualData() {
     actual_first_date = character_banners["1"].start_date;
@@ -68,6 +72,15 @@ function getActualData() {
         if (new Date(actual_last_date) < new Date(character_banners[banner].end_date)) {
             actual_last_date = character_banners[banner].end_date;
         }
+    }
+}
+
+function printCurrentBanners() {
+    let menu_extra_current_banners_HTML = document.getElementById("menu_extra_current_banners");
+    menu_extra_current_banners_HTML.innerHTML = "";
+
+    for(banner_img of menu_extra_current_banners) {
+        menu_extra_current_banners_HTML.innerHTML += `<img class="" src="images/banners/` + banner_img + `" alt="Banner ` + banner_img + `">`
     }
 }
 
@@ -350,7 +363,7 @@ function calculateRerunsDays() {
 }
 
 function printCharactersRerunsStats() {
-    document.getElementById("menu_extra_banners").innerHTML = "";
+    document.getElementById("menu_extra_characters_banners").innerHTML = "";
 
     let characters_banners_HTML = ``;
 
@@ -399,9 +412,9 @@ function printCharactersRerunsStats() {
         delete character_banner_stats_aux[character_most_waiting_days];
     }
 
-    document.getElementById("menu_extra_banners").innerHTML += `
+    document.getElementById("menu_extra_characters_banners").innerHTML += `
         <div>
-            <fieldset class="character_banner_fieldset character_banner_fieldset_4 character_4_stars">
+            <fieldset class="character_banner_fieldset character_banner_fieldset_4">
 
                 <div>Waiting Days Min: ` + character_4_waiting_days_min + `</div>
                 <div>Waiting Days Max: ` + character_4_waiting_days_max + `</div>
@@ -412,7 +425,7 @@ function printCharactersRerunsStats() {
                 <div>Reruns Mean: ` + Math.round((character_4_reruns_mean + Number.EPSILON) * 100) / 100 + `</div>
             </fieldset>
 
-            <fieldset class="character_banner_fieldset character_banner_fieldset_5 character_5_stars">
+            <fieldset class="character_banner_fieldset character_banner_fieldset_5">
 
                 <div>Waiting Days Min: ` + character_5_waiting_days_min + `</div>
                 <div>Waiting Days Max: ` + character_5_waiting_days_max + `</div>
@@ -424,5 +437,5 @@ function printCharactersRerunsStats() {
             </fieldset>
         </div>
     `;
-    document.getElementById("menu_extra_banners").innerHTML += characters_banners_HTML;
+    document.getElementById("menu_extra_characters_banners").innerHTML += characters_banners_HTML;
 }

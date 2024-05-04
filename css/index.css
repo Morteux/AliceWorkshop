@@ -39,6 +39,7 @@
     /* Character rarity */
     --character_4_stars: #5c2391;
     --character_5_stars: #a07a1b;
+    --character_5_stars_light: #e9b124;
 
     /* Material rarity */
     --material_1_stars: #929292;

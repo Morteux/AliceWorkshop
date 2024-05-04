@@ -51,8 +51,9 @@
 
     <script src="js/tab_archetypes.js"></script>
     <script src="js/tab_teams_search.js"></script>
+    <!-- Before tab_characters to calculate previous data -->
+    <script src="js/tab_extras.js"></script> 
     <script src="js/tab_characters.js"></script>
-    <script src="js/tab_extras.js"></script>
     <script src="js/tab_user.js"></script>
 
     <script src="js/links.js"></script>
@@ -386,7 +387,10 @@
                 <div id="menu_extra_banners_button">Banners</div> 
             </div>
 
-            <div id="menu_extra_banners" class="menu_extra_banners"></div>
+            <div id="menu_extra_banners" class="menu_extra_banners">
+                <div id="menu_extra_current_banners" class="menu_extra_current_banners"></div>
+                <div id="menu_extra_characters_banners" class="menu_extra_characters_banners"></div>
+            </div>
         </div>
 
         <div id="tab_user" class="tab_user">

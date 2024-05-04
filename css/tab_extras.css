@@ -42,13 +42,41 @@
 
 .menu_extra_banners {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 
     flex-wrap: wrap;
 
     width: 70%;
+}
+
+.menu_extra_current_banners {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+
+    flex-wrap: wrap;
+
+    width: 100%;
+}
+
+.menu_extra_current_banners>img {
+    width: 34%;
+
+    border-radius: 10px;
+}
+
+.menu_extra_characters_banners {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    flex-wrap: wrap;
+
+    width: 100%;
 }
 
 .character_extra_banner {
@@ -70,10 +98,14 @@
 }
 
 .character_banner_fieldset_4 {
+    background-color: var(--character_4_stars);
+
     color: var(--light_text);
 }
 
 .character_banner_fieldset_5 {
+    background-color: var(--character_5_stars_light);
+
     color: var(--dark_text);
 }
 
@@ -165,7 +197,7 @@
         width: 50vw;
     }
 
-    .menu_extra_banners {
+    .menu_extra_characters_banners {
         width: 85vw;
     }
 }

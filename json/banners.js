@@ -256,22 +256,6 @@ const character_banners = {
         }
     },
     "16": {
-        "name": "",
-        "version": "",
-        "start_date": "",
-        "end_date": "",
-        "characters": {
-            "4": [
-                "",
-                "",
-                ""
-            ],
-            "5": [
-                ""
-            ]
-        }
-    },
-    "17": {
         "name": "Tapestry Of Golden Flames",
         "version": "2.0",
         "start_date": "8/10/2021",
@@ -287,7 +271,7 @@ const character_banners = {
             ]
         }
     },
-    "18": {
+    "17": {
         "name": "Reign of Serenity",
         "version": "2.1",
         "start_date": "9/1/2021",
@@ -303,7 +287,7 @@ const character_banners = {
             ]
         }
     },
-    "19": {
+    "18": {
         "name": "Drifting Luminescence",
         "version": "2.1",
         "start_date": "9/21/2021",
@@ -319,7 +303,7 @@ const character_banners = {
             ]
         }
     },
-    "20": {
+    "19": {
         "name": "Farewell Of Snezhnaya",
         "version": "2.2",
         "start_date": "10/13/2021",
@@ -335,7 +319,7 @@ const character_banners = {
             ]
         }
     },
-    "21": {
+    "20": {
         "name": "Moment Of Bloom",
         "version": "2.2",
         "start_date": "11/2/2021",
@@ -351,7 +335,7 @@ const character_banners = {
             ]
         }
     },
-    "22": {
+    "21": {
         "name": "Born Of Ocean Swell",
         "version": "2.3",
         "start_date": "11/24/2021",
@@ -367,7 +351,7 @@ const character_banners = {
             ]
         }
     },
-    "23": {
+    "22": {
         "name": "Secretum Secretorum",
         "version": "2.3",
         "start_date": "11/24/2021",
@@ -383,7 +367,7 @@ const character_banners = {
             ]
         }
     },
-    "24": {
+    "23": {
         "name": "Oni's Royale",
         "version": "2.3",
         "start_date": "12/14/2021",
@@ -399,7 +383,7 @@ const character_banners = {
             ]
         }
     },
-    "25": {
+    "24": {
         "name": "The Transcendent One Returns",
         "version": "2.4",
         "start_date": "1/5/2022",
@@ -415,7 +399,7 @@ const character_banners = {
             ]
         }
     },
-    "26": {
+    "25": {
         "name": "Invitation To Mundane Life",
         "version": "2.4",
         "start_date": "1/5/2022",
@@ -431,7 +415,7 @@ const character_banners = {
             ]
         }
     },
-    "27": {
+    "26": {
         "name": "Gentry Of Hermitage",
         "version": "2.4",
         "start_date": "1/25/2022",
@@ -447,7 +431,7 @@ const character_banners = {
             ]
         }
     },
-    "28": {
+    "27": {
         "name": "Adrift In The Harbor",
         "version": "2.4",
         "start_date": "1/25/2022",
@@ -463,7 +447,7 @@ const character_banners = {
             ]
         }
     },
-    "29": {
+    "28": {
         "name": "Everbloom Violet",
         "version": "2.5",
         "start_date": "2/15/2022",
@@ -479,7 +463,7 @@ const character_banners = {
             ]
         }
     },
-    "30": {
+    "29": {
         "name": "Reign of Serenity",
         "version": "2.5",
         "start_date": "3/8/2022",
@@ -495,7 +479,7 @@ const character_banners = {
             ]
         }
     },
-    "31": {
+    "30": {
         "name": "Drifting Luminescence",
         "version": "2.5",
         "start_date": "3/8/2022",
@@ -511,7 +495,7 @@ const character_banners = {
             ]
         }
     },
-    "32": {
+    "31": {
         "name": "Azure Excursion",
         "version": "2.6",
         "start_date": "3/30/2022",
@@ -527,7 +511,7 @@ const character_banners = {
             ]
         }
     },
-    "33": {
+    "32": {
         "name": "Ballad in Goblets",
         "version": "2.6",
         "start_date": "3/30/2022",
@@ -543,7 +527,7 @@ const character_banners = {
             ]
         }
     },
-    "34": {
+    "33": {
         "name": "The Heron's Court",
         "version": "2.6",
         "start_date": "4/19/2022",
@@ -559,7 +543,7 @@ const character_banners = {
             ]
         }
     },
-    "35": {
+    "34": {
         "name": "Invitation To Mundane Life",
         "version": "2.7",
         "start_date": "5/31/2022",
@@ -575,7 +559,7 @@ const character_banners = {
             ]
         }
     },
-    "36": {
+    "35": {
         "name": "Discerner Of Enigmas",
         "version": "2.7",
         "start_date": "5/31/2022",
@@ -591,7 +575,7 @@ const character_banners = {
             ]
         }
     },
-    "37": {
+    "36": {
         "name": "Oni's Royale",
         "version": "2.7",
         "start_date": "6/21/2022",
@@ -607,7 +591,7 @@ const character_banners = {
             ]
         }
     },
-    "38": {
+    "37": {
         "name": "Sparkling Steps",
         "version": "2.8",
         "start_date": "7/13/2022",
@@ -623,7 +607,7 @@ const character_banners = {
             ]
         }
     },
-    "39": {
+    "38": {
         "name": "Leaves In The Wind",
         "version": "2.8",
         "start_date": "7/13/2022",
@@ -639,7 +623,7 @@ const character_banners = {
             ]
         }
     },
-    "40": {
+    "39": {
         "name": "Tapestry Of Golden Flames",
         "version": "2.8",
         "start_date": "8/2/2022",
@@ -655,7 +639,7 @@ const character_banners = {
             ]
         }
     },
-    "41": {
+    "40": {
         "name": "Gentry Of Hermitage",
         "version": "3.0",
         "start_date": "8/24/2022",
@@ -671,7 +655,7 @@ const character_banners = {
             ]
         }
     },
-    "42": {
+    "41": {
         "name": "Viridiscent Vigil",
         "version": "3.0",
         "start_date": "8/24/2022",
@@ -687,7 +671,7 @@ const character_banners = {
             ]
         }
     },
-    "43": {
+    "42": {
         "name": "Adrift In The Harbor",
         "version": "3.0",
         "start_date": "9/9/2022",
@@ -703,7 +687,7 @@ const character_banners = {
             ]
         }
     },
-    "44": {
+    "43": {
         "name": "Drifting Luminescence",
         "version": "3.0",
         "start_date": "9/9/2022",
@@ -719,7 +703,7 @@ const character_banners = {
             ]
         }
     },
-    "45": {
+    "44": {
         "name": "Twilight Arbiter",
         "version": "3.1",
         "start_date": "9/28/2022",
@@ -735,7 +719,7 @@ const character_banners = {
             ]
         }
     },
-    "46": {
+    "45": {
         "name": "Ballad In Goblets",
         "version": "3.1",
         "start_date": "9/28/2022",
@@ -751,7 +735,7 @@ const character_banners = {
             ]
         }
     },
-    "47": {
+    "46": {
         "name": "Secretum Secretorum",
         "version": "3.1",
         "start_date": "10/14/2022",
@@ -767,7 +751,7 @@ const character_banners = {
             ]
         }
     },
-    "48": {
+    "47": {
         "name": "Twirling Lotus",
         "version": "3.1",
         "start_date": "10/14/2022",
@@ -783,7 +767,7 @@ const character_banners = {
             ]
         }
     },
-    "49": {
+    "48": {
         "name": "Tapestry Of Golden Flames",
         "version": "3.2",
         "start_date": "11/2/2022",
@@ -799,7 +783,7 @@ const character_banners = {
             ]
         }
     },
-    "50": {
+    "49": {
         "name": "The Moongrass' Enlightenment",
         "version": "3.2",
         "start_date": "11/2/2022",
@@ -815,7 +799,7 @@ const character_banners = {
             ]
         }
     },
-    "51": {
+    "50": {
         "name": "Everbloom Violet",
         "version": "3.2",
         "start_date": "11/18/2022",
@@ -831,7 +815,7 @@ const character_banners = {
             ]
         }
     },
-    "52": {
+    "51": {
         "name": "Farewell of Snezhnaya",
         "version": "3.2",
         "start_date": "11/18/2022",
@@ -847,7 +831,7 @@ const character_banners = {
             ]
         }
     },
-    "53": {
+    "52": {
         "name": "Oni's Royale",
         "version": "3.3",
         "start_date": "12/7/2022",
@@ -863,7 +847,7 @@ const character_banners = {
             ]
         }
     },
-    "54": {
+    "53": {
         "name": "From Ashes Reborn",
         "version": "3.3",
         "start_date": "12/7/2022",
@@ -879,7 +863,7 @@ const character_banners = {
             ]
         }
     },
-    "55": {
+    "54": {
         "name": "Azure Excursion",
         "version": "3.3",
         "start_date": "12/27/2022",
@@ -895,7 +879,7 @@ const character_banners = {
             ]
         }
     },
-    "56": {
+    "55": {
         "name": "Reign Of Serenity",
         "version": "3.3",
         "start_date": "12/27/2022",
@@ -911,7 +895,7 @@ const character_banners = {
             ]
         }
     },
-    "57": {
+    "56": {
         "name": "Invitation To Mundane Life",
         "version": "3.4",
         "start_date": "1/18/2023",
@@ -927,7 +911,7 @@ const character_banners = {
             ]
         }
     },
-    "58": {
+    "57": {
         "name": "Caution In Confidence",
         "version": "3.4",
         "start_date": "1/18/2023",
@@ -943,7 +927,7 @@ const character_banners = {
             ]
         }
     },
-    "59": {
+    "58": {
         "name": "Discerner Of Enigmas",
         "version": "3.4",
         "start_date": "2/7/2023",
@@ -959,7 +943,7 @@ const character_banners = {
             ]
         }
     },
-    "60": {
+    "59": {
         "name": "Moment Of Bloom",
         "version": "3.4",
         "start_date": "2/7/2023",
@@ -975,7 +959,7 @@ const character_banners = {
             ]
         }
     },
-    "61": {
+    "60": {
         "name": "Twilight Arbiter",
         "version": "3.5",
         "start_date": "3/1/2023",
@@ -991,7 +975,7 @@ const character_banners = {
             ]
         }
     },
-    "62": {
+    "61": {
         "name": "Auric Blaze",
         "version": "3.5",
         "start_date": "3/1/2023",
@@ -1007,7 +991,7 @@ const character_banners = {
             ]
         }
     },
-    "63": {
+    "62": {
         "name": "The Heron's Court",
         "version": "3.5",
         "start_date": "3/21/2023",
@@ -1023,7 +1007,7 @@ const character_banners = {
             ]
         }
     },
-    "64": {
+    "63": {
         "name": "The Transcendent One Returns",
         "version": "3.5",
         "start_date": "3/21/2023",
@@ -1039,7 +1023,7 @@ const character_banners = {
             ]
         }
     },
-    "65": {
+    "64": {
         "name": "Twirling Lotus",
         "version": "3.6",
         "start_date": "4/12/2023",
@@ -1055,7 +1039,7 @@ const character_banners = {
             ]
         }
     },
-    "66": {
+    "65": {
         "name": "The Moongrass' Enlightenment",
         "version": "3.6",
         "start_date": "4/12/2023",
@@ -1071,7 +1055,7 @@ const character_banners = {
             ]
         }
     },
-    "67": {
+    "66": {
         "name": "Immaculate Pulse",
         "version": "3.6",
         "start_date": "5/2/2023",
@@ -1087,7 +1071,7 @@ const character_banners = {
             ]
         }
     },
-    "68": {
+    "67": {
         "name": "Adrift In The Harbor",
         "version": "3.6",
         "start_date": "5/2/2023",
@@ -1103,7 +1087,7 @@ const character_banners = {
             ]
         }
     },
-    "69": {
+    "68": {
         "name": "Everbloom Violet",
         "version": "3.7",
         "start_date": "5/24/2023",
@@ -1119,7 +1103,7 @@ const character_banners = {
             ]
         }
     },
-    "70": {
+    "69": {
         "name": "Tapestry Of Golden Flames",
         "version": "3.7",
         "start_date": "5/24/2023",
@@ -1135,7 +1119,7 @@ const character_banners = {
             ]
         }
     },
-    "71": {
+    "70": {
         "name": "Caution In Confidence",
         "version": "3.7",
         "start_date": "6/13/2023",
@@ -1151,7 +1135,7 @@ const character_banners = {
             ]
         }
     },
-    "72": {
+    "71": {
         "name": "Leaves In The Wind",
         "version": "3.7",
         "start_date": "6/13/2023",
@@ -1167,7 +1151,7 @@ const character_banners = {
             ]
         }
     },
-    "73": {
+    "72": {
         "name": "Sparkling Steps",
         "version": "3.8",
         "start_date": "7/5/2023",
@@ -1183,7 +1167,7 @@ const character_banners = {
             ]
         }
     },
-    "74": {
+    "73": {
         "name": "Born Of Ocean Swell",
         "version": "3.8",
         "start_date": "7/5/2023",
@@ -1199,7 +1183,7 @@ const character_banners = {
             ]
         }
     },
-    "75": {
+    "74": {
         "name": "From Ashes Reborn",
         "version": "3.8",
         "start_date": "7/25/2023",
@@ -1215,7 +1199,7 @@ const character_banners = {
             ]
         }
     },
-    "76": {
+    "75": {
         "name": "Drifting Luminescence",
         "version": "3.8",
         "start_date": "7/25/2023",
@@ -1231,7 +1215,7 @@ const character_banners = {
             ]
         }
     },
-    "77": {
+    "76": {
         "name": "Discerner Of Enigmas",
         "version": "4.0",
         "start_date": "8/16/2023",
@@ -1247,7 +1231,7 @@ const character_banners = {
             ]
         }
     },
-    "78": {
+    "77": {
         "name": "Conjuring Chiaroscuro",
         "version": "4.0",
         "start_date": "8/16/2023",
@@ -1263,7 +1247,7 @@ const character_banners = {
             ]
         }
     },
-    "79": {
+    "78": {
         "name": "Farewell of Snezhnaya",
         "version": "4.0",
         "start_date": "9/5/2023",
@@ -1279,7 +1263,7 @@ const character_banners = {
             ]
         }
     },
-    "80": {
+    "79": {
         "name": "Gentry Of Hermitage",
         "version": "4.0",
         "start_date": "9/5/2023",
@@ -1295,7 +1279,7 @@ const character_banners = {
             ]
         }
     },
-    "81": {
+    "80": {
         "name": "Moment Of Bloom",
         "version": "4.1",
         "start_date": "9/27/2023",
@@ -1311,7 +1295,7 @@ const character_banners = {
             ]
         }
     },
-    "82": {
+    "81": {
         "name": "Decree Of The Deeps",
         "version": "4.1",
         "start_date": "9/27/2023",
@@ -1327,7 +1311,7 @@ const character_banners = {
             ]
         }
     },
-    "83": {
+    "82": {
         "name": "Ballad In Goblets",
         "version": "4.1",
         "start_date": "10/17/2023",
@@ -1343,7 +1327,7 @@ const character_banners = {
             ]
         }
     },
-    "84": {
+    "83": {
         "name": "Tempestuous Destiny",
         "version": "4.1",
         "start_date": "10/17/2023",
@@ -1359,7 +1343,7 @@ const character_banners = {
             ]
         }
     },
-    "85": {
+    "84": {
         "name": "Immaculate Pulse",
         "version": "4.2",
         "start_date": "11/8/2023",
@@ -1375,7 +1359,7 @@ const character_banners = {
             ]
         }
     },
-    "86": {
+    "85": {
         "name": "Chanson Of Many Waters",
         "version": "4.2",
         "start_date": "11/8/2023",
@@ -1391,7 +1375,7 @@ const character_banners = {
             ]
         }
     },
-    "87": {
+    "86": {
         "name": "Azure Excursion",
         "version": "4.2",
         "start_date": "11/28/2023",
@@ -1407,7 +1391,7 @@ const character_banners = {
             ]
         }
     },
-    "88": {
+    "87": {
         "name": "Twilight Arbiter",
         "version": "4.2",
         "start_date": "11/28/2023",
@@ -1423,7 +1407,7 @@ const character_banners = {
             ]
         }
     },
-    "89": {
+    "88": {
         "name": "The Heron's Court",
         "version": "4.3",
         "start_date": "12/20/2023",
@@ -1439,7 +1423,7 @@ const character_banners = {
             ]
         }
     },
-    "90": {
+    "89": {
         "name": "In The Name Of The Rosula",
         "version": "4.3",
         "start_date": "12/20/2023",
@@ -1455,7 +1439,7 @@ const character_banners = {
             ]
         }
     },
-    "91": {
+    "90": {
         "name": "Tapestry Of Golden Flames",
         "version": "4.3",
         "start_date": "1/9/2024",
@@ -1471,7 +1455,7 @@ const character_banners = {
             ]
         }
     },
-    "92": {
+    "91": {
         "name": "Reign Of Serenity",
         "version": "4.3",
         "start_date": "1/9/2024",
@@ -1487,7 +1471,7 @@ const character_banners = {
             ]
         }
     },
-    "93": {
+    "92": {
         "name": "The Moongrass' Enlightenment",
         "version": "4.4",
         "start_date": "1/31/2024",
@@ -1503,7 +1487,7 @@ const character_banners = {
             ]
         }
     },
-    "94": {
+    "93": {
         "name": "The Crane Soars Skyward",
         "version": "4.4",
         "start_date": "1/31/2024",
@@ -1519,7 +1503,7 @@ const character_banners = {
             ]
         }
     },
-    "95": {
+    "94": {
         "name": "Everbloom Violet",
         "version": "4.4",
         "start_date": "2/20/2024",
@@ -1535,7 +1519,7 @@ const character_banners = {
             ]
         }
     },
-    "96": {
+    "95": {
         "name": "Invitation To Mundane Life",
         "version": "4.4",
         "start_date": "2/20/2024",
@@ -1548,6 +1532,23 @@ const character_banners = {
             ],
             "5": [
                 "Xiao"
+            ]
+        }
+    },
+    "96": {
+        "name": "Ode to the Dawn Breeze",
+        "version": "4.5",
+        "start_date": "3/13/2024",
+        "end_date": "4/2/2024",
+        "characters": {
+            "4": [],
+            "5": [
+                "Eula",
+                "Mona",
+                "Albedo",
+                "Klee",
+                "Diluc",
+                "Jean"
             ]
         }
     },
@@ -1678,14 +1679,7 @@ const character_banners = {
                 "Wanderer"
             ]
         }
-    },
-
-
-
-
-
-
-
+    }
     // "": {
     //     "name": "",
     //     "version": "",
