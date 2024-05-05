@@ -193,7 +193,7 @@ function getCharacterBannerHTML(character_data, character_banner_stats) {
                         Last banner
                     </div>
                     <div class="">
-                        ` + character_banner_stats.last_date + `
+                        ` + formatDate(new Date(character_banner_stats.last_date)) + `
                     </div>
                 </div>
 

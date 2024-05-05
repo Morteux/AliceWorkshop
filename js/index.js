@@ -206,6 +206,20 @@ function dateDiffInDays(date1, date2) {
     return diffDays;
 }
 
+function formatDate(date) {
+    // Get day, month, and year
+    var day = date.getDate();
+    var month = date.getMonth() + 1; // Months are zero indexed
+    var year = date.getFullYear();
+  
+    // Pad day and month with leading zeros if necessary
+    day = day < 10 ? '0' + day : day;
+    month = month < 10 ? '0' + month : month;
+  
+    // Return formatted date
+    return day + '/' + month + '/' + year;
+  }
+
 function getCharacter(name) {
     let character = GenshinDb.character(name);
 
