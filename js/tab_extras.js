@@ -8,6 +8,8 @@ var permanent_characters = ["Aether", "Lumine", "Jean", "Diluc", "Qiqi", "Mona",
 
 var permanent_characters_with_banner = ["Keqing", "Tighnari", "Dehya"];
 
+var prerelease_characters = Object.keys(characters);
+
 var actual_version = "1.0";
 var actual_first_date = "";
 var actual_last_date = "1/1/1960";
@@ -276,7 +278,7 @@ function calculateWaitingDays() {
     character_5_waiting_days_mean = [];
 
     for (character in character_banner_stats) {
-        if (!permanent_characters.includes(character) && !permanent_characters_with_banner.includes(character)) {
+        if (!permanent_characters.includes(character) && !permanent_characters_with_banner.includes(character) && !prerelease_characters.includes(character)) {
             let character_data = getCharacter(character);
 
             if (character_data) {
