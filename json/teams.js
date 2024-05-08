@@ -15347,6 +15347,37 @@ const teams = {
             ]
         }
     },
+    "470": {
+        "name": "Arlecchino Vaporize",
+        "description": "Good in AoE content where Xingqiu/Yelan don't apply Hydro to all enemies.",
+        "rotation": "",
+        "archetype": [
+            "Vaporize"
+        ],
+        "viability": "Viable",
+        "character_1": {
+            "name": "Arlecchino",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Bennett",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Candace",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": [
+                "Kaedehara Kazuha",
+                "Sucrose"
+            ],
+            "build": [
+                "Standard",
+                "Standard
+            ]
+        }
+    },
 
 
     
