@@ -15407,36 +15407,8 @@ const teams = {
             ]
         }
     },
+
     "472": {
-        "name": "Clorinde Aggravate",
-        "description": "Rotation by Vomfee",
-        "rotation": "Fischl E (First rotation) > Kazuha E > Nahida EQ > Fischl E/Q > Kazuha Q > Clorinde QEE 6N3E",
-        "archetype": [
-            "Aggravate"
-        ],
-        "viability": "Recommended",
-        "character_1": {
-            "name": "Clorinde",
-            "build": "Standard"
-        },
-        "character_2": {
-            "name": "Fischl",
-            "build": "Standard"
-        },
-        "character_3": {
-            "name": "Nahida",
-            "build": "Standard"
-        },
-        "character_4": {
-            "name": [
-                "Kaedehara Kazuha"
-            ],
-            "build": [
-                "Standard"
-            ]
-        }
-    },
-    "473": {
         "name": "Clorinde Aggravate",
         "description": "If you have Kirara with C6, instructor and R5 sapwood blade, the DPS of this team is similar to the nahida one if you manage to do the rotation faster enough. On top of that, you will have Kirara's defensive utility. Rotation and calcs by Drigo1511",
         "rotation": "Kirara E > Clorinde Q > Kazuha EQ > Fischl E/Q > Kirara Q > Clorinde EE 6N3E",
@@ -15465,7 +15437,7 @@ const teams = {
             ]
         }
     },
-    "474": {
+    "473": {
         "name": "Clorinde Aggravate",
         "description": "",
         "rotation": "Clorinde Q > Kazuha EQ > Yaoyao E > Fischl E/Q  > Clorinde EE 6N3E",
@@ -15494,7 +15466,7 @@ const teams = {
             ]
         }
     },
-    "475": {
+    "474": {
         "name": "Clorinde Chevreuse",
         "description": "Clorinde reaches one of her highest DPS thanks to Chevreuse. Rotation and Calcs by Vomfee",
         "rotation": "Fischl/Sara E > Chevreuse Q hE > Xiangling QE > Sara/Fischl Q > Clorinde QEE 6N3E",
@@ -15516,7 +15488,7 @@ const teams = {
         },
         "character_4": {
             "name": [
-                "Sara",
+                "Kujou Sara",
                 "Fischl"
             ],
             "build": [
