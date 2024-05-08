@@ -15349,8 +15349,8 @@ const teams = {
     },
     "470": {
         "name": "Arlecchino Vaporize",
-        "description": "Good in AoE content where Xingqiu/Yelan don't apply Hydro to all enemies. You NEED Candace C6",
-        "rotation": "",
+        "description": "Good in AoE content where Xingqiu/Yelan don't apply Hydro to all enemies. Be careful since you don't have defensive utility. You NEED Candace C6",
+        "rotation": "Arlecchino E > Bennett EQ > Sucrose/Kazuha EQ > Candace EQ > Arlecchino CA + 5NA3 (Q if healing needed)",
         "archetype": [
             "Vaporize"
         ],
