@@ -15520,7 +15520,7 @@ const teams = {
                 "Fischl"
             ],
             "build": [
-                "Standard"
+                "Standard",
                 "Standard"
             ]
         }
