@@ -15374,7 +15374,36 @@ const teams = {
             ],
             "build": [
                 "Standard",
-                "Standard
+                "Standard"
+            ]
+        }
+    },
+    "471": {
+        "name": "Clorinde Aggravate",
+        "description": "",
+        "rotation": "",
+        "archetype": [
+            "Aggravate"
+        ],
+        "viability": "Recommended",
+        "character_1": {
+            "name": "Clorinde",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Fischl",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Nahida",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": [
+                "Kaedehara Kazuha"
+            ],
+            "build": [
+                "Standard"
             ]
         }
     },
