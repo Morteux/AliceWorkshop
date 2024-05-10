@@ -15497,6 +15497,66 @@ const teams = {
             ]
         }
     },
+    
+    "475": {
+        "name": "Clorinde QuickBloom no Healer",
+        "description": "Despite no having healer, thanks to Fischl damage, the total team's damage is almost the same than other good Clorinde teams. Rotation and Calcs by Vomfee",
+        "rotation": "Furina EQ > Nahida EQ > Fischl E > Clorinde QEE 6N3E",
+        "archetype": [
+            "Quickbloom"
+        ],
+        "viability": "Recommended",
+        "character_1": {
+            "name": "Clorinde",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Fischl",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Nahida",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": [
+                "Furina",
+            ],
+            "build": [
+                "Standard",
+            ]
+        }
+    },
+    
+    "476": {
+        "name": "Clorinde QuickBloom",
+        "description": "Rotation and Calcs by Vomfee",
+        "rotation": "Furina E > Nahida EQ > Furina Q > Baizhu EQ > Clorinde QEE 6N3E (Clorinde Burst every other rot)",
+        "archetype": [
+            "Quickbloom"
+        ],
+        "viability": "Recommended",
+        "character_1": {
+            "name": "Clorinde",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Baizhu",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Nahida",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": [
+                "Furina",
+            ],
+            "build": [
+                "Standard",
+            ]
+        }
+    },
 
 
     
