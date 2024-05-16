@@ -2244,18 +2244,28 @@ const builds = {
     },
     "Wanderer": {
         "Standard": {
-            description: "",
+            description: "You don't have to Burst every rotation so you don't need ER, but you can get some.",
             constellation: "",
             talent_priority: [1, 2, 3],
-            weapon: [],
-            set: [],
-            er_requirement: "",
+            weapon: ["Tulaytullah's Remembrance", "Lost Prayers to the Sacred Winds", "The Widsith"],
+            set: [                
+                {
+                    artifacts: ["Desert Pavilion Chronicle"],
+                    pc: "4pc"
+                }
+                {
+                    artifacts: ["Shimenawa's Reminiscence"],
+                    pc: "4pc"
+                }
+            ],
+            
+            er_requirement: "100%",
             main_stat: {
-                sands: "",
-                goblet: "",
-                circlet: "",
+                sands: "ATK%",
+                goblet: "Anemo DMG%",
+                circlet: "CRIT",
             },
-            subs_stat: []
+            subs_stat: ["CRIT", "ATK", "ER"]
         }
     },
     "Wriothesley": {
