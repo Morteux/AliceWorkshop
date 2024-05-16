@@ -2252,7 +2252,7 @@ const builds = {
                 {
                     artifacts: ["Desert Pavilion Chronicle"],
                     pc: "4pc"
-                }
+                },
                 {
                     artifacts: ["Shimenawa's Reminiscence"],
                     pc: "4pc"
