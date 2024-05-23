@@ -1,6 +1,6 @@
 var character_banner_stats = {};
 
-var menu_extra_current_banners = ["The Hearth's Ashen Shadow.png", "Conjuring Chiaroscuro.png"];
+var menu_extra_current_banners = ["From Ashes Reborn.png", "Immaculate Pulse.png"];
 
 var menu_extra_tabs = ["menu_extra_banners"];
 
