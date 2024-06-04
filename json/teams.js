@@ -15558,6 +15558,137 @@ const teams = {
         }
     },
 
+    "477": {
+        "name": "Sigewinne Hyperbloom",
+        "description": "",
+        "rotation": "",
+        "archetype": [
+            "Hyperbloom"
+        ],
+        "viability": "Viable",
+        "character_1": {
+            "name": "Sigewinne",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Nahida",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": [
+                "Raiden Shogun",
+                "Kuki Shinobu"
+            ],
+            "build": [
+                "Standard",
+                "Standard"
+            ]
+        }
+    },
+
+    "478": {
+        "name": "Sethos Hyperbloom",
+        "description": "",
+        "rotation": "",
+        "archetype": [
+            "Hyperbloom"
+        ],
+        "viability": "Viable",
+        "character_1": {
+            "name": "Sethos",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Nahida",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Xingqiu",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": [
+                "Yelan",
+            ],
+            "build": [
+                "Standard",
+            ]
+        }
+    },
+
+    "479": {
+        "name": "Sethos Aggravate",
+        "description": "",
+        "rotation": "",
+        "archetype": [
+            "Aggravate"
+        ],
+        "viability": "Viable",
+        "character_1": {
+            "name": "Sethos",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Fischl",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Kaedehara Kazuha",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": [
+                "Yaoyao",
+                "Baizhu",
+                "Kirara"
+            ],
+            "build": [
+                "Standard",
+                "Standard",
+                "Standard"
+            ]
+        }
+    },
+
+    "480": {
+        "name": "Sethos Aggravate",
+        "description": "",
+        "rotation": "",
+        "archetype": [
+            "Aggravate"
+        ],
+        "viability": "Viable",
+        "character_1": {
+            "name": "Sethos",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Fischl",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Sucrose",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": [
+                "Yaoyao",
+                "Baizhu",
+                "Kirara"
+            ],
+            "build": [
+                "Standard",
+                "Standard",
+                "Standard"
+            ]
+        }
+    },
+
+
 
     
 };
