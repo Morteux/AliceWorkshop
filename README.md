@@ -45,3 +45,4 @@ CDN or JS files: https://github.com/theBowja/genshin-db-dist
 
 ### Tab Extra
 - Bug: 4* reruns count both banners in same date as two different reruns.
+- Fix: reruns count first appearance.
