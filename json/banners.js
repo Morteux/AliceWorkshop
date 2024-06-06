@@ -1679,6 +1679,38 @@ const character_banners = {
                 "Wanderer"
             ]
         }
+    },
+    "105": {
+        "name": "Caution in Confidence",
+        "version": "4.7",
+        "start_date": "6/4/2024",
+        "end_date": "6/26/2024",
+        "characters": {
+            "4": [
+                "Sethos",
+                "Thoma",
+                "Bennett"
+            ],
+            "5": [
+                "Alhaitham"
+            ]
+        }
+    },
+    "106": {
+        "name": "Illuminating Lightning",
+        "version": "4.7",
+        "start_date": "6/4/2024",
+        "end_date": "6/26/2024",
+        "characters": {
+            "4": [
+                "Sethos",
+                "Thoma",
+                "Bennett"
+            ],
+            "5": [
+                "Clorinde"
+            ]
+        }
     }
     // "": {
     //     "name": "",

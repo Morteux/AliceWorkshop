@@ -180,6 +180,13 @@ const characters_teams = {
             composition: ["pj1", "element1", "elem2", "Flex"]
         }
     },
+    "Emilie": {
+        "name": {
+            archetype: "",
+            description: "",
+            composition: ["pj1", "element1", "elem2", "Flex"]
+        }
+    },
     "Eula": {
         "name": {
             archetype: "",
