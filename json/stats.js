@@ -6902,6 +6902,86 @@ const STATS = {
                 "For fun": 0,
                 "Unique": 0
             }
+        },
+        "Emilie": {
+            "team_count_ranking": 82,
+            "team_count": 0,
+            "by_archetype": {
+                "MonoGeo": 0,
+                "MonoHydro": 0,
+                "MonoCryo": 0,
+                "MonoPyro": 0,
+                "MonoElectro": 0,
+                "Hypercarry": 0,
+                "Freeze": 0,
+                "National": 0,
+                "Vaporize": 0,
+                "Overvape": 0,
+                "Overload": 0,
+                "Taser": 0,
+                "Soup": 0,
+                "Melt": 0,
+                "Aggravate": 0,
+                "Spread": 0,
+                "Bloom": 0,
+                "Burgeon": 0,
+                "Oven": 0,
+                "Curry": 0,
+                "Sauté": 0,
+                "Fridge": 0,
+                "Salad": 0,
+                "Airfryer": 0,
+                "Hyperbloom": 0,
+                "Quickbloom": 0,
+                "HyperFridge": 0,
+                "Bain-Marie": 0
+            },
+            "by_viability": {
+                "Recommended": 0,
+                "Viable": 0,
+                "For fun": 0,
+                "Unique": 0
+            },
+            "by_build": {
+                "Standard": 0
+            },
+            "ranking_by_archetype": {
+                "MonoGeo": 0,
+                "MonoHydro": 0,
+                "MonoCryo": 0,
+                "MonoPyro": 0,
+                "MonoElectro": 0,
+                "Hypercarry": 0,
+                "Freeze": 0,
+                "National": 0,
+                "Vaporize": 0,
+                "Overvape": 0,
+                "Overload": 0,
+                "Taser": 0,
+                "Soup": 0,
+                "Melt": 0,
+                "Aggravate": 0,
+                "Spread": 0,
+                "Bloom": 0,
+                "Burgeon": 0,
+                "Oven": 0,
+                "Curry": 0,
+                "Sauté": 0,
+                "Fridge": 0,
+                "Salad": 0,
+                "Airfryer": 0,
+                "Hyperbloom": 0,
+                "Quickbloom": 0,
+                "HyperFridge": 0,
+                "Bain-Marie": 0
+            },
+            "ranking_by_element": 10,
+            "ranking_by_viability": {
+                "Recommended": 0,
+                "Viable": 0,
+                "For fun": 0,
+                "Unique": 0
+            }
         }
     },
     "count_characters_by_element": {
@@ -6911,7 +6991,7 @@ const STATS = {
         "Cryo": 17,
         "Anemo": 13,
         "Geo": 11,
-        "Dendro": 10
+        "Dendro": 11
     },
     "global_team_ranking": {
         "1": {
@@ -7254,6 +7334,10 @@ const STATS = {
             "name": "Clorinde",
             "team_count": 0
         },
+        "86": {
+            "name": "Emilie",
+            "team_count": 0
+        },
         "Aether": {
             "rank": 11,
             "team_count": 147
@@ -7592,6 +7676,10 @@ const STATS = {
         },
         "Clorinde": {
             "rank": 85,
+            "team_count": 0
+        },
+        "Emilie": {
+            "rank": 86,
             "team_count": 0
         }
     },
@@ -7937,6 +8025,10 @@ const STATS = {
                 "name": "Clorinde",
                 "team_count": 0
             },
+            "86": {
+                "name": "Emilie",
+                "team_count": 0
+            },
             "Aether": {
                 "rank": 13,
                 "team_count": 0
@@ -8275,6 +8367,10 @@ const STATS = {
             },
             "Clorinde": {
                 "rank": 85,
+                "team_count": 0
+            },
+            "Emilie": {
+                "rank": 86,
                 "team_count": 0
             }
         },
@@ -8619,6 +8715,10 @@ const STATS = {
                 "name": "Clorinde",
                 "team_count": 0
             },
+            "86": {
+                "name": "Emilie",
+                "team_count": 0
+            },
             "Aether": {
                 "rank": 14,
                 "team_count": 0
@@ -8957,6 +9057,10 @@ const STATS = {
             },
             "Clorinde": {
                 "rank": 85,
+                "team_count": 0
+            },
+            "Emilie": {
+                "rank": 86,
                 "team_count": 0
             }
         },
@@ -9301,6 +9405,10 @@ const STATS = {
                 "name": "Clorinde",
                 "team_count": 0
             },
+            "86": {
+                "name": "Emilie",
+                "team_count": 0
+            },
             "Aether": {
                 "rank": 13,
                 "team_count": 0
@@ -9639,6 +9747,10 @@ const STATS = {
             },
             "Clorinde": {
                 "rank": 85,
+                "team_count": 0
+            },
+            "Emilie": {
+                "rank": 86,
                 "team_count": 0
             }
         },
@@ -9983,6 +10095,10 @@ const STATS = {
                 "name": "Clorinde",
                 "team_count": 0
             },
+            "86": {
+                "name": "Emilie",
+                "team_count": 0
+            },
             "Aether": {
                 "rank": 27,
                 "team_count": 0
@@ -10321,6 +10437,10 @@ const STATS = {
             },
             "Clorinde": {
                 "rank": 85,
+                "team_count": 0
+            },
+            "Emilie": {
+                "rank": 86,
                 "team_count": 0
             }
         },
@@ -10665,6 +10785,10 @@ const STATS = {
                 "name": "Clorinde",
                 "team_count": 0
             },
+            "86": {
+                "name": "Emilie",
+                "team_count": 0
+            },
             "Aether": {
                 "rank": 5,
                 "team_count": 0
@@ -11003,6 +11127,10 @@ const STATS = {
             },
             "Clorinde": {
                 "rank": 85,
+                "team_count": 0
+            },
+            "Emilie": {
+                "rank": 86,
                 "team_count": 0
             }
         },
@@ -11347,6 +11475,10 @@ const STATS = {
                 "name": "Clorinde",
                 "team_count": 0
             },
+            "86": {
+                "name": "Emilie",
+                "team_count": 0
+            },
             "Aether": {
                 "rank": 30,
                 "team_count": 5
@@ -11685,6 +11817,10 @@ const STATS = {
             },
             "Clorinde": {
                 "rank": 85,
+                "team_count": 0
+            },
+            "Emilie": {
+                "rank": 86,
                 "team_count": 0
             }
         },
@@ -12029,6 +12165,10 @@ const STATS = {
                 "name": "Clorinde",
                 "team_count": 0
             },
+            "86": {
+                "name": "Emilie",
+                "team_count": 0
+            },
             "Aether": {
                 "rank": 27,
                 "team_count": 0
@@ -12367,6 +12507,10 @@ const STATS = {
             },
             "Clorinde": {
                 "rank": 85,
+                "team_count": 0
+            },
+            "Emilie": {
+                "rank": 86,
                 "team_count": 0
             }
         },
@@ -12711,6 +12855,10 @@ const STATS = {
                 "name": "Clorinde",
                 "team_count": 0
             },
+            "86": {
+                "name": "Emilie",
+                "team_count": 0
+            },
             "Aether": {
                 "rank": 20,
                 "team_count": 0
@@ -13049,6 +13197,10 @@ const STATS = {
             },
             "Clorinde": {
                 "rank": 85,
+                "team_count": 0
+            },
+            "Emilie": {
+                "rank": 86,
                 "team_count": 0
             }
         },
@@ -13393,6 +13545,10 @@ const STATS = {
                 "name": "Clorinde",
                 "team_count": 0
             },
+            "86": {
+                "name": "Emilie",
+                "team_count": 0
+            },
             "Aether": {
                 "rank": 29,
                 "team_count": 5
@@ -13731,6 +13887,10 @@ const STATS = {
             },
             "Clorinde": {
                 "rank": 85,
+                "team_count": 0
+            },
+            "Emilie": {
+                "rank": 86,
                 "team_count": 0
             }
         },
@@ -14075,6 +14235,10 @@ const STATS = {
                 "name": "Clorinde",
                 "team_count": 0
             },
+            "86": {
+                "name": "Emilie",
+                "team_count": 0
+            },
             "Aether": {
                 "rank": 22,
                 "team_count": 0
@@ -14413,6 +14577,10 @@ const STATS = {
             },
             "Clorinde": {
                 "rank": 85,
+                "team_count": 0
+            },
+            "Emilie": {
+                "rank": 86,
                 "team_count": 0
             }
         },
@@ -14757,6 +14925,10 @@ const STATS = {
                 "name": "Clorinde",
                 "team_count": 0
             },
+            "86": {
+                "name": "Emilie",
+                "team_count": 0
+            },
             "Aether": {
                 "rank": 19,
                 "team_count": 0
@@ -15095,6 +15267,10 @@ const STATS = {
             },
             "Clorinde": {
                 "rank": 85,
+                "team_count": 0
+            },
+            "Emilie": {
+                "rank": 86,
                 "team_count": 0
             }
         },
@@ -15439,6 +15615,10 @@ const STATS = {
                 "name": "Clorinde",
                 "team_count": 0
             },
+            "86": {
+                "name": "Emilie",
+                "team_count": 0
+            },
             "Aether": {
                 "rank": 24,
                 "team_count": 0
@@ -15777,6 +15957,10 @@ const STATS = {
             },
             "Clorinde": {
                 "rank": 85,
+                "team_count": 0
+            },
+            "Emilie": {
+                "rank": 86,
                 "team_count": 0
             }
         },
@@ -16121,6 +16305,10 @@ const STATS = {
                 "name": "Clorinde",
                 "team_count": 0
             },
+            "86": {
+                "name": "Emilie",
+                "team_count": 0
+            },
             "Aether": {
                 "rank": 5,
                 "team_count": 0
@@ -16459,6 +16647,10 @@ const STATS = {
             },
             "Clorinde": {
                 "rank": 85,
+                "team_count": 0
+            },
+            "Emilie": {
+                "rank": 86,
                 "team_count": 0
             }
         },
@@ -16803,6 +16995,10 @@ const STATS = {
                 "name": "Clorinde",
                 "team_count": 0
             },
+            "86": {
+                "name": "Emilie",
+                "team_count": 0
+            },
             "Aether": {
                 "rank": 27,
                 "team_count": 0
@@ -17141,6 +17337,10 @@ const STATS = {
             },
             "Clorinde": {
                 "rank": 85,
+                "team_count": 0
+            },
+            "Emilie": {
+                "rank": 86,
                 "team_count": 0
             }
         },
@@ -17485,6 +17685,10 @@ const STATS = {
                 "name": "Clorinde",
                 "team_count": 0
             },
+            "86": {
+                "name": "Emilie",
+                "team_count": 0
+            },
             "Aether": {
                 "rank": 4,
                 "team_count": 7
@@ -17823,6 +18027,10 @@ const STATS = {
             },
             "Clorinde": {
                 "rank": 85,
+                "team_count": 0
+            },
+            "Emilie": {
+                "rank": 86,
                 "team_count": 0
             }
         },
@@ -18167,6 +18375,10 @@ const STATS = {
                 "name": "Clorinde",
                 "team_count": 0
             },
+            "86": {
+                "name": "Emilie",
+                "team_count": 0
+            },
             "Aether": {
                 "rank": 7,
                 "team_count": 0
@@ -18505,6 +18717,10 @@ const STATS = {
             },
             "Clorinde": {
                 "rank": 85,
+                "team_count": 0
+            },
+            "Emilie": {
+                "rank": 86,
                 "team_count": 0
             }
         },
@@ -18849,6 +19065,10 @@ const STATS = {
                 "name": "Clorinde",
                 "team_count": 0
             },
+            "86": {
+                "name": "Emilie",
+                "team_count": 0
+            },
             "Aether": {
                 "rank": 5,
                 "team_count": 2
@@ -19187,6 +19407,10 @@ const STATS = {
             },
             "Clorinde": {
                 "rank": 85,
+                "team_count": 0
+            },
+            "Emilie": {
+                "rank": 86,
                 "team_count": 0
             }
         },
@@ -19531,6 +19755,10 @@ const STATS = {
                 "name": "Clorinde",
                 "team_count": 0
             },
+            "86": {
+                "name": "Emilie",
+                "team_count": 0
+            },
             "Aether": {
                 "rank": 8,
                 "team_count": 8
@@ -19869,6 +20097,10 @@ const STATS = {
             },
             "Clorinde": {
                 "rank": 85,
+                "team_count": 0
+            },
+            "Emilie": {
+                "rank": 86,
                 "team_count": 0
             }
         },
@@ -20213,6 +20445,10 @@ const STATS = {
                 "name": "Clorinde",
                 "team_count": 0
             },
+            "86": {
+                "name": "Emilie",
+                "team_count": 0
+            },
             "Aether": {
                 "rank": 13,
                 "team_count": 12
@@ -20551,6 +20787,10 @@ const STATS = {
             },
             "Clorinde": {
                 "rank": 85,
+                "team_count": 0
+            },
+            "Emilie": {
+                "rank": 86,
                 "team_count": 0
             }
         },
@@ -20895,6 +21135,10 @@ const STATS = {
                 "name": "Clorinde",
                 "team_count": 0
             },
+            "86": {
+                "name": "Emilie",
+                "team_count": 0
+            },
             "Aether": {
                 "rank": 9,
                 "team_count": 10
@@ -21233,6 +21477,10 @@ const STATS = {
             },
             "Clorinde": {
                 "rank": 85,
+                "team_count": 0
+            },
+            "Emilie": {
+                "rank": 86,
                 "team_count": 0
             }
         },
@@ -21577,6 +21825,10 @@ const STATS = {
                 "name": "Clorinde",
                 "team_count": 0
             },
+            "86": {
+                "name": "Emilie",
+                "team_count": 0
+            },
             "Aether": {
                 "rank": 6,
                 "team_count": 3
@@ -21915,6 +22167,10 @@ const STATS = {
             },
             "Clorinde": {
                 "rank": 85,
+                "team_count": 0
+            },
+            "Emilie": {
+                "rank": 86,
                 "team_count": 0
             }
         },
@@ -22259,6 +22515,10 @@ const STATS = {
                 "name": "Clorinde",
                 "team_count": 0
             },
+            "86": {
+                "name": "Emilie",
+                "team_count": 0
+            },
             "Aether": {
                 "rank": 8,
                 "team_count": 0
@@ -22597,6 +22857,10 @@ const STATS = {
             },
             "Clorinde": {
                 "rank": 85,
+                "team_count": 0
+            },
+            "Emilie": {
+                "rank": 86,
                 "team_count": 0
             }
         },
@@ -22941,6 +23205,10 @@ const STATS = {
                 "name": "Clorinde",
                 "team_count": 0
             },
+            "86": {
+                "name": "Emilie",
+                "team_count": 0
+            },
             "Aether": {
                 "rank": 3,
                 "team_count": 2
@@ -23279,6 +23547,10 @@ const STATS = {
             },
             "Clorinde": {
                 "rank": 85,
+                "team_count": 0
+            },
+            "Emilie": {
+                "rank": 86,
                 "team_count": 0
             }
         },
@@ -23623,6 +23895,10 @@ const STATS = {
                 "name": "Clorinde",
                 "team_count": 0
             },
+            "86": {
+                "name": "Emilie",
+                "team_count": 0
+            },
             "Aether": {
                 "rank": 5,
                 "team_count": 0
@@ -23961,6 +24237,10 @@ const STATS = {
             },
             "Clorinde": {
                 "rank": 85,
+                "team_count": 0
+            },
+            "Emilie": {
+                "rank": 86,
                 "team_count": 0
             }
         },
@@ -24305,6 +24585,10 @@ const STATS = {
                 "name": "Clorinde",
                 "team_count": 0
             },
+            "86": {
+                "name": "Emilie",
+                "team_count": 0
+            },
             "Aether": {
                 "rank": 5,
                 "team_count": 49
@@ -24643,6 +24927,10 @@ const STATS = {
             },
             "Clorinde": {
                 "rank": 85,
+                "team_count": 0
+            },
+            "Emilie": {
+                "rank": 86,
                 "team_count": 0
             }
         },
@@ -24987,6 +25275,10 @@ const STATS = {
                 "name": "Clorinde",
                 "team_count": 0
             },
+            "86": {
+                "name": "Emilie",
+                "team_count": 0
+            },
             "Aether": {
                 "rank": 7,
                 "team_count": 15
@@ -25325,6 +25617,10 @@ const STATS = {
             },
             "Clorinde": {
                 "rank": 85,
+                "team_count": 0
+            },
+            "Emilie": {
+                "rank": 86,
                 "team_count": 0
             }
         },
@@ -25669,6 +25965,10 @@ const STATS = {
                 "name": "Clorinde",
                 "team_count": 0
             },
+            "86": {
+                "name": "Emilie",
+                "team_count": 0
+            },
             "Aether": {
                 "rank": 7,
                 "team_count": 29
@@ -26007,6 +26307,10 @@ const STATS = {
             },
             "Clorinde": {
                 "rank": 85,
+                "team_count": 0
+            },
+            "Emilie": {
+                "rank": 86,
                 "team_count": 0
             }
         },
@@ -26351,6 +26655,10 @@ const STATS = {
                 "name": "Clorinde",
                 "team_count": 0
             },
+            "86": {
+                "name": "Emilie",
+                "team_count": 0
+            },
             "Aether": {
                 "rank": 7,
                 "team_count": 0
@@ -26689,6 +26997,10 @@ const STATS = {
             },
             "Clorinde": {
                 "rank": 85,
+                "team_count": 0
+            },
+            "Emilie": {
+                "rank": 86,
                 "team_count": 0
             }
         }
@@ -27443,6 +27755,10 @@ const STATS = {
                 "name": "Lumine",
                 "team_count": 0
             },
+            "11": {
+                "name": "Emilie",
+                "team_count": 0
+            },
             "Aether": {
                 "rank": 3,
                 "team_count": 138
@@ -27482,6 +27798,10 @@ const STATS = {
             "Kirara": {
                 "rank": 6,
                 "team_count": 13
+            },
+            "Emilie": {
+                "rank": 11,
+                "team_count": 0
             }
         }
     },
@@ -27827,6 +28147,10 @@ const STATS = {
                 "name": "Clorinde",
                 "team_count": 0
             },
+            "86": {
+                "name": "Emilie",
+                "team_count": 0
+            },
             "Aether": {
                 "rank": 14,
                 "team_count": 50
@@ -28165,6 +28489,10 @@ const STATS = {
             },
             "Clorinde": {
                 "rank": 85,
+                "team_count": 0
+            },
+            "Emilie": {
+                "rank": 86,
                 "team_count": 0
             }
         },
@@ -28509,6 +28837,10 @@ const STATS = {
                 "name": "Clorinde",
                 "team_count": 0
             },
+            "86": {
+                "name": "Emilie",
+                "team_count": 0
+            },
             "Aether": {
                 "rank": 9,
                 "team_count": 93
@@ -28847,6 +29179,10 @@ const STATS = {
             },
             "Clorinde": {
                 "rank": 85,
+                "team_count": 0
+            },
+            "Emilie": {
+                "rank": 86,
                 "team_count": 0
             }
         },
@@ -29191,6 +29527,10 @@ const STATS = {
                 "name": "Clorinde",
                 "team_count": 0
             },
+            "86": {
+                "name": "Emilie",
+                "team_count": 0
+            },
             "Aether": {
                 "rank": 28,
                 "team_count": 4
@@ -29529,6 +29869,10 @@ const STATS = {
             },
             "Clorinde": {
                 "rank": 85,
+                "team_count": 0
+            },
+            "Emilie": {
+                "rank": 86,
                 "team_count": 0
             }
         },
@@ -29873,6 +30217,10 @@ const STATS = {
                 "name": "Clorinde",
                 "team_count": 0
             },
+            "86": {
+                "name": "Emilie",
+                "team_count": 0
+            },
             "Aether": {
                 "rank": 24,
                 "team_count": 0
@@ -30211,6 +30559,10 @@ const STATS = {
             },
             "Clorinde": {
                 "rank": 85,
+                "team_count": 0
+            },
+            "Emilie": {
+                "rank": 86,
                 "team_count": 0
             }
         }

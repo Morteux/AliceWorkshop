@@ -84,5 +84,6 @@ const best_teams = {
     "Arlecchino": [],
     "Sethos": [],
     "Sigewinne": [],
-    "Clorinde": []
+    "Clorinde": [],
+    "Emilie": []
 }

@@ -83,5 +83,6 @@ const characters_signature_weapons = {
     "Arlecchino": "Crimson Moon's Semblance",
     "Sethos": "",
     "Sigewinne": "",
-    "Clorinde": ""
+    "Clorinde": "Absolution",
+    "Emilie": ""
 }

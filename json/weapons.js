@@ -178,6 +178,7 @@ const weapons = {
     "Dull Blade": {},
     "Hunter's Bow": {},
     "Waster Greatsword": {},
+    "Absolution": {},
 
 
 

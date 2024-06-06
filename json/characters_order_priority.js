@@ -83,5 +83,6 @@ const characters_order_priority = {
     81: "Arlecchino",
     82: "Sethos",
     83: "Sigewinne",
-    84: "Clorinde"
+    84: "Clorinde",
+    85: "Emilie"
 }

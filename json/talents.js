@@ -1,246 +1,4 @@
 const talents = {
-    "Sethos": {
-        "id": 0,
-        "name": "Sethos",
-        "combat1": {
-            "name": "Normal Attack: Royal Reed Bowmanship",
-            "descriptionRaw": "Normal Attack\nPerforms up to 3 consecutive shots with a bow.\n\nCharged Attack\nPerforms a more precise Aimed Shot with increased DMG.While aiming, the power of Electro will accumulate on the arrowhead before the arrow is fired. Has different effects based on how long the energy has been charged:·Charge Level 1: Fires off an arrow carrying the power of lightning that deals Electro DMG.·Charge Level 2: Fires off a Shadowpiercing Shot which can pierce enemies, dealing Electro DMG to enemies along its path. After the Shadowpiercing Shot is fully charged, Sethos cannot move around.\n\nPlunging Attack\nFires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.",
-            "description": "Normal Attack\nPerforms up to 3 consecutive shots with a bow.\n\nCharged Attack\nPerforms a more precise Aimed Shot with increased DMG.While aiming, the power of Electro will accumulate on the arrowhead before the arrow is fired. Has different effects based on how long the energy has been charged:·Charge Level 1: Fires off an arrow carrying the power of lightning that deals Electro DMG.·Charge Level 2: Fires off a Shadowpiercing Shot which can pierce enemies, dealing Electro DMG to enemies along its path. After the Shadowpiercing Shot is fully charged, Sethos cannot move around.\n\nPlunging Attack\nFires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.",
-            "attributes": {
-                "labels": [
-                ],
-                "parameters": {
-                }
-            }
-        },
-        "combat2": {
-            "name": "E. Ancient Rite: Thunderous Roar of Sand",
-            "descriptionRaw": "Gathers the might of thunder, dealing AoE Electro DMG to enemies in front and quickly retreating. If this attack triggers Electro-Charged, Superconduct, Overloaded, Quicken, Aggravate, Hyperbloom, or Electro Swirl reactions, Sethos recovers a certain amount of Elemental Energy.",
-            "description": "Gathers the might of thunder, dealing AoE Electro DMG to enemies in front and quickly retreating. If this attack triggers Electro-Charged, Superconduct, Overloaded, Quicken, Aggravate, Hyperbloom, or Electro Swirl reactions, Sethos recovers a certain amount of Elemental Energy.",
-            "attributes": {
-                "labels": [
-                ],
-                "parameters": {
-                }
-            }
-        },
-        "combat3": {
-            "name": "Q. Secret Rite: Twilight Shadowpiercer",
-            "descriptionRaw": "Perform a secret rite, entering the \"Twilight Meditation\" state, during which Sethos's normal attacks will be converted into enemy-piercing Dusk Bolts: Deal Electro DMG to opponents in its path, with DMG increased based on Sethos's Elemental Mastery.DMG dealt by Dusk Bolts is considered Charged Attack DMG.",
-            "description": "Perform a secret rite, entering the \"Twilight Meditation\" state, during which Sethos's normal attacks will be converted into enemy-piercing Dusk Bolts: Deal Electro DMG to opponents in its path, with DMG increased based on Sethos's Elemental Mastery.DMG dealt by Dusk Bolts is considered Charged Attack DMG.",
-            "attributes": {
-                "labels": [
-                ],
-                "parameters": {
-                }
-            }
-        },
-        "passive1": {
-            "name": "Black Kite's Enigma",
-            "descriptionRaw": "When Aiming, the charging time is decreased by 0.285s based on each point of Sethos's current Elemental Energy that is not over 20. Charging time can be reduced to a minimum of 0.3s through this method. If a Shadowpiercing Shot is fired, consume the corresponding amount of Elemental Energy; if it is a Charge Level 1 shot, then consume 50% of the corresponding amount of Elemental Energy.",
-            "description": "When Aiming, the charging time is decreased by 0.285s based on each point of Sethos's current Elemental Energy that is not over 20. Charging time can be reduced to a minimum of 0.3s through this method. If a Shadowpiercing Shot is fired, consume the corresponding amount of Elemental Energy; if it is a Charge Level 1 shot, then consume 50% of the corresponding amount of Elemental Energy."
-        },
-        "passive2": {
-            "name": "The Sand King's Boon",
-            "descriptionRaw": "Every 15s, Sethos gains the \"Scorching Sandshade\" effect, increasing the DMG dealt by Shadowpiercing Shots by 600% of Sethos's Elemental Mastery.The Scorching Sandshade effect lasts for up to 5s, and will be removed after 4 Shadowpiercing Shots strike opponents. When the first Shadowpiercing Shot affected by Scorching Sandshade hits an opponent, the timer for Scorching Sandshade's expiration will be reset.",
-            "description": "Every 15s, Sethos gains the \"Scorching Sandshade\" effect, increasing the DMG dealt by Shadowpiercing Shots by 600% of Sethos's Elemental Mastery.The Scorching Sandshade effect lasts for up to 5s, and will be removed after 4 Shadowpiercing Shots strike opponents. When the first Shadowpiercing Shot affected by Scorching Sandshade hits an opponent, the timer for Scorching Sandshade's expiration will be reset."
-        },
-        "passive3": {
-            "name": "Reflected Revelation",
-            "descriptionRaw": "Displays the location of nearby resources unique to Sumeru on the mini-map.",
-            "description": "Displays the location of nearby resources unique to Sumeru on the mini-map."
-        },
-        "costs": {
-            "lvl2": [
-                {
-                    "id": 202,
-                    "name": "Mora",
-                    "count": 12500
-                },
-                {
-                    "id": 0,
-                    "name": "Teachings of Praxis",
-                    "count": 3
-                },
-                {
-                    "id": 0,
-                    "name": "Faded Red Satin",
-                    "count": 6
-                }
-
-            ],
-            "lvl3": [
-                {
-                    "id": 202,
-                    "name": "Mora",
-                    "count": 17500
-                },
-                {
-                    "id": 0,
-                    "name": "Guide to Praxis",
-                    "count": 2
-                },
-                {
-                    "id": 0,
-                    "name": "Trimmed Red Silk",
-                    "count": 3
-                }
-            ],
-            "lvl4": [
-                {
-                    "id": 202,
-                    "name": "Mora",
-                    "count": 25000
-                },
-                {
-                    "id": 0,
-                    "name": "Guide to Praxis",
-                    "count": 4
-                },
-                {
-                    "id": 0,
-                    "name": "Trimmed Red Silk",
-                    "count": 4
-                }
-            ],
-            "lvl5": [
-                {
-                    "id": 202,
-                    "name": "Mora",
-                    "count": 30000
-                },
-                {
-                    "id": 0,
-                    "name": "Guide to Praxis",
-                    "count": 6
-                },
-                {
-                    "id": 0,
-                    "name": "Trimmed Red Silk",
-                    "count": 6
-                }
-            ],
-            "lvl6": [
-                {
-                    "id": 202,
-                    "name": "Mora",
-                    "count": 37500
-                },
-                {
-                    "id": 0,
-                    "name": "Guide to Praxis",
-                    "count": 9
-                },
-                {
-                    "id": 0,
-                    "name": "Trimmed Red Silk",
-                    "count": 9
-                }
-            ],
-            "lvl7": [
-                {
-                    "id": 202,
-                    "name": "Mora",
-                    "count": 120000
-                },
-                {
-                    "id": 0,
-                    "name": "Philosophies of Praxis",
-                    "count": 4
-                },
-                {
-                    "id": 0,
-                    "name": "Rich Red Brocade",
-                    "count": 4
-                },
-                {
-                    "id": 0,
-                    "name": "Daka's Bell",
-                    "count": 1
-                }
-            ],
-            "lvl8": [
-                {
-                    "id": 202,
-                    "name": "Mora",
-                    "count": 260000
-                },
-                {
-                    "id": 0,
-                    "name": "Philosophies of Praxis",
-                    "count": 6
-                },
-                {
-                    "id": 0,
-                    "name": "Rich Red Brocade",
-                    "count": 6
-                },
-                {
-                    "id": 0,
-                    "name": "Daka's Bell",
-                    "count": 1
-                }
-            ],
-            "lvl9": [
-                {
-                    "id": 202,
-                    "name": "Mora",
-                    "count": 450000
-                },
-                {
-                    "id": 0,
-                    "name": "Philosophies of Praxis",
-                    "count": 12
-                },
-                {
-                    "id": 0,
-                    "name": "Rich Red Brocade",
-                    "count": 9
-                },
-                {
-                    "id": 0,
-                    "name": "Daka's Bell",
-                    "count": 2
-                }
-            ],
-            "lvl10": [
-                {
-                    "id": 202,
-                    "name": "Mora",
-                    "count": 700000
-                },
-                {
-                    "id": 0,
-                    "name": "Philosophies of Praxis",
-                    "count": 16
-                },
-                {
-                    "id": 0,
-                    "name": "Rich Red Brocade",
-                    "count": 12
-                },
-                {
-                    "id": 0,
-                    "name": "Daka's Bell",
-                    "count": 2
-                },
-                {
-                    "id": 0,
-                    "name": "Crown of Insight",
-                    "count": 1
-                }
-            ]
-        },
-        "images": {
-            "filename_combat1": "Skill_A_03",
-            "filename_combat2": "Skill_S_Yelan_01",
-            "filename_combat3": "Skill_E_Yelan_01_HD",
-            "filename_passive1": "UI_Talent_S_Yelan_05",
-            "filename_passive2": "UI_Talent_S_Yelan_06",
-            "filename_passive3": "UI_Talent_Expedition_Liyue"
-        },
-        "version": ""
-    },
     "Sigewinne": {
         "id": 0,
         "name": "Sigewinne",
@@ -483,9 +241,29 @@ const talents = {
         },
         "version": ""
     },
-    "Clorinde": {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    "Emilie": {
         "id": 0,
-        "name": "Clorinde",
+        "name": "Emilie",
         "combat1": {
             "name": "Normal Attack: Marechaussee Creed",
             "descriptionRaw": "Normal Attack\nPerforms up to 5 rapid strikes.\n\nCharged Attack\nConsumes a certain amount of Stamina to nimbly dash forward, slashing and using her pistolet to fire Suppressing Shots in a fan pattern.\n\nPlunging Attack\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",

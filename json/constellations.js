@@ -1,48 +1,4 @@
 const constellations = {
-    "Sethos": {
-        "id": 0,
-        "name": "Sethos",
-        "c1": {
-            "name": "Sealed Shrine's Spiritsong",
-            "descriptionRaw": "The CRIT Rate of Shadowpiercing Shot is increased by 15%.",
-            "description": ""
-        },
-        "c2": {
-            "name": "2. Papyrus Scripture of Silent Secrets",
-            "descriptionRaw": "When the following conditions are met, Sethos gains a 15% Electro DMG Bonus for 10s (may stack up to 2 times, counted independently): ·Regaining Elemental Energy via Ancient Rite: The Thundering Sands; ·Using Secret Rite: Twilight Shadowpiercer; ·Consuming Elemental Energy through the Passive Talent 'Black Kite's Enigma.' You must first unlock 'Black Kite's Enigma.'",
-            "description": ""
-        },
-        "c3": {
-            "name": "Ode to the Moonrise Sage",
-            "descriptionRaw": "Increases the Level of Normal Attack: Royal Reed Bowmanship by 3. Maximum upgrade level is 15.",
-            "description": ""
-        },
-        "c4": {
-            "name": "Beneficent Plumage",
-            "descriptionRaw": "When Shadowpiercing Shot or Dusk Bolt strike 2 or more opponents, all nearby party members gain 80 Elemental Mastery for 10s.",
-            "description": ""
-        },
-        "c5": {
-            "name": "5. Record of the Desolate God's Burning Sands",
-            "descriptionRaw": "Increases the Level of Secret Rite: Twilight Shadowpiercer by 3. Maximum upgrade level is 15.",
-            "description": ""
-        },
-        "c6": {
-            "name": "Tome of the Sojourning Sun Temple",
-            "descriptionRaw": "After Shadowpiercing Shot strikes an opponent, the Elemental Energy consumed by the Passive Talent 'Black Kite's Enigma' will be returned. This effect can be triggered up to once every 15s. You must first unlock the Passive Talent 'Black Kite's Enigma.'",
-            "description": ""
-        },
-        "images": {
-            "filename_c1": "UI_Talent_S_Yelan_01",
-            "filename_c2": "UI_Talent_S_Yelan_02",
-            "filename_c3": "UI_Talent_U_Yelan_01",
-            "filename_c4": "UI_Talent_S_Yelan_03",
-            "filename_c5": "UI_Talent_U_Yelan_02",
-            "filename_c6": "UI_Talent_S_Yelan_04",
-            "filename_constellation": "Eff_UI_Talent_Yelan"
-        },
-        "version": ""
-    },
     "Sigewinne": {
         "id": 0,
         "name": "Sigewinne",
@@ -87,46 +43,63 @@ const constellations = {
         },
         "version": ""
     },
-    "Clorinde": {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    "Emilie": {
         "id": 0,
         "name": "Clorinde",
         "c1": {
-            "name": "From This Day, I Pass the Candle's Shadow-Veil",
-            "descriptionRaw": "While Hunt the Dark's Night Watch state is active, when Electro DMGfrom Clorinde's Normal Attacks hit opponents, they will trigger 2 coordinated attack from a Nightwatch Shade summoned near the hit opponent, each dealing 30% of Clorinde's ATK as Electro DMG. This effect can occur once every 1s. DMG dealt this way is considered Normal Attack DMG.",
+            "name": "Light Fragrance Leaching",
+            "descriptionRaw": "Increases the DMG dealt by Fragrance Extraction and the Cleardew Cologne from the Passive Talent \"Lingering Fragrance\" by 10%. The latter requires unlocking said Passive Talent first. Additionally, when nearby party members trigger the Burning reaction on opponents or deal Dendro DMG to Burning opponents, they will generate an additional Scent. This effect can be triggered once every 2.9s.",
             "description": ""
         },
         "c2": {
-            "name": "Now, As We Face the Perils of the Long Night",
-            "descriptionRaw": "The Passive Talent 'Dark-Shattering Flame' will be buffed: After a nearby party member triggers a Electro-related reaction against an opponent, Electro DMG dealt by Normal Attacks and Last Lightfall will be increased by 24% of Clorinde's ATK for 15s. Max 3 buff stacks. Each stack is counted independently. When you have 3 stacks, Clorinde's interruption resistance will be increased. The Maximum DMG increase achievable through such attacks is 2,160. You must first unlock the Passive Talent 'Dark-Shattering Flame.'",
+            "name": "Lakelight Top Tone",
+            "descriptionRaw": "When the Lumidouce Case created by Emilie collects Scents, Emilie will gain 1 Special Blend stack, which will increase her ATK by 18% for 10s. Max 2 stacks, each stack is counted independently.",
             "description": ""
         },
         "c3": {
-            "name": "I Pledge to Remember the Oath of Daylight",
-            "descriptionRaw": "Increases the Level of Hunt the Dark by 3. Maximum upgrade level is 15.",
+            "name": "Exquisite Essence",
+            "descriptionRaw": "Increases the Level of Fragrance Extraction by 3. Maximum upgrade level is 15.",
             "description": ""
         },
         "c4": {
-            "name": "To Enshrine Tears, Life, and Love",
-            "descriptionRaw": "When Last Lightfall deals DMG to opponent(s), DMG dealt is increased based on Clorinde's Bond of Life percentage. Every 1% of her current Bond of Life will increase Last Lightfall DMG by 2%. The maximum Last Lightfall DMG increase achievable this way is 200%.",
+            "name": "Lumidouce Heart",
+            "descriptionRaw": "Aromatic Explication's duration is increased by 2s. The interval between selecting an opponent as the target for Scented Dew is decreased by 0.3s.",
             "description": ""
         },
         "c5": {
-            "name": "Holding Dawn's Coming as My Votive",
-            "descriptionRaw": "Increases the Level of Last Lightfall by 3. Maximum upgrade level is 15.",
+            "name": "Puredew Aroma",
+            "descriptionRaw": "Increases the Level of Aromatic Explication by 3. Maximum upgrade level is 15.",
             "description": ""
         },
         "c6": {
-            "name": "And So Shall I Never Despair",
-            "descriptionRaw": "For 12s after Hunt the Dark is used, Clorinde's CRIT Rate will be increased by 10%, and her CRIT DMG by 70%. Additionally, while Night Watch is active, a Glimbright Shade will appear under specific circumstances, decreasing DMG dealt to Clorinde by 80% for 1s and increasing her interruption resistance; it will also attack opponents, dealing 200% of Clorinde's ATK as Electro DMG. DMG dealt this way is considered Normal Attack DMG. The Glimbright Shade will appear under the following circumstances: · When Clorinde is about to be attacked by an opponent. · When Clorinde uses Impale the Night: Pact. 1 Glimbright Shade can be summoned in the aforementioned ways every Xs. 6 Shades can be summoned per single Night Watch duration.",
+            "name": "Marcotte Trace",
+            "descriptionRaw": "When using Fragrance Extraction or Aromatic Explication, Emilie will gain Abiding Fragrance for 5s. \nWhile this is active, after Emilie uses Normal or Charged Attacks, she will generate 1 Scent, and her Normal and Charged Attacks will be converted into Dendro DMG that cannot be overridden, and their DMG will be increased by 250% of Emilie's ATK. \n\nAbiding Fragrance's effects will be canceled after 4 Scents are created, or after the duration expires. Abiding Fragrance can be triggered once every 12s.",
             "description": ""
         },
         "images": {
-            "filename_c1": "UI_Talent_S_Yelan_01",
-            "filename_c2": "UI_Talent_S_Yelan_02",
-            "filename_c3": "UI_Talent_U_Yelan_01",
-            "filename_c4": "UI_Talent_S_Yelan_03",
-            "filename_c5": "UI_Talent_U_Yelan_02",
-            "filename_c6": "UI_Talent_S_Yelan_04",
+            "filename_c1": "UI_Talent_S_Emilie_01",
+            "filename_c2": "UI_Talent_S_Emilie_02",
+            "filename_c3": "UI_Talent_U_Emilie_01",
+            "filename_c4": "UI_Talent_S_Emilie_03",
+            "filename_c5": "UI_Talent_U_Emilie_02",
+            "filename_c6": "UI_Talent_S_Emilie_04",
             "filename_constellation": "Eff_UI_Talent_Yelan"
         },
         "version": ""
