@@ -1656,8 +1656,8 @@ const character_banners = {
         "characters": {
             "4": [
                 "Faruzan",
-                "Rosaria",
-                "Yanfei"
+                "Layla",
+                "Beidou"
             ],
             "5": [
                 "Baizhu"
@@ -1672,8 +1672,8 @@ const character_banners = {
         "characters": {
             "4": [
                 "Faruzan",
-                "Rosaria",
-                "Yanfei"
+                "Layla",
+                "Beidou"
             ],
             "5": [
                 "Wanderer"
