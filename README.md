@@ -27,6 +27,7 @@ CDN or JS files: https://github.com/theBowja/genshin-db-dist
 
 ### Tab Characters
 - Add a column called "Extra" in each Character, with external links and useful videos to learn about the mentioned character.
+- Bug: filtered prereleased characters showed if already in DB API.
 
 ### Tab Teams Search
 - Hide/show character builds behind icons for each team.
@@ -41,3 +42,6 @@ CDN or JS files: https://github.com/theBowja/genshin-db-dist
 - Random team name generator?
 
 ### Tab Archetypes
+
+### Tab Extra
+- Bug: 4* reruns count both banners in same date as two different reruns.
