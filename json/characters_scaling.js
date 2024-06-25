@@ -65,7 +65,7 @@ const characters_attributes = {
     "Sethos": { HP: 820.6119, ATK: 19.05456, DEF: 46.9245, max_ascension_value_HP: 2936.1348, max_ascension_value_ATK: 68.178474, max_ascension_value_DEF: 167.895 },
     "Shenhe": { HP: 1011.47253, ATK: 23.6474, DEF: 64.6164, max_ascension_value_HP: 4153.653, max_ascension_value_ATK: 97.10191, max_ascension_value_DEF: 265.356 },
     "Shikanoin Heizou": { HP: 893.5552, ATK: 18.87648, DEF: 57.33945, max_ascension_value_HP: 3197.1245, max_ascension_value_ATK: 67.54129, max_ascension_value_DEF: 205.1595 },
-    "Sigewinne": { HP: 1, ATK: 1, DEF: 1, max_ascension_value_HP: 1, max_ascension_value_ATK: 1, max_ascension_value_DEF: 1 },
+    "Sigewinne": { HP: 1039.1188, ATK: 14.9891, DEF: 38.8895, max_ascension_value_HP: 4267.1836, max_ascension_value_ATK: 61.54885, max_ascension_value_DEF: 159.705 },
     "Sucrose": { HP: 775.02234, ATK: 14.2464, DEF: 58.94175, max_ascension_value_HP: 2773.016, max_ascension_value_ATK: 50.97456, max_ascension_value_DEF: 210.8925 },
     "Tartaglia": { HP: 1020.0524, ATK: 23.4612, DEF: 63.4198, max_ascension_value_HP: 4188.8867, max_ascension_value_ATK: 96.33733, max_ascension_value_DEF: 260.442 },
     "Thoma": { HP: 866.2015, ATK: 16.9176, DEF: 62.9475, max_ascension_value_HP: 3099.2532, max_ascension_value_ATK: 60.53229, max_ascension_value_DEF: 225.225 },

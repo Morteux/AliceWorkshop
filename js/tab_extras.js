@@ -1,6 +1,6 @@
 var character_banner_stats = {};
 
-var menu_extra_current_banners = ["Illuminating Lightning.png", "Caution in Confidence.png"];
+var menu_extra_current_banners = ["Romaritime Meluserenity.png", "Chanson of Many Waters.png"];
 
 var menu_extra_tabs = ["menu_extra_banners"];
 

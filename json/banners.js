@@ -1684,7 +1684,7 @@ const character_banners = {
         "name": "Caution in Confidence",
         "version": "4.7",
         "start_date": "6/4/2024",
-        "end_date": "6/26/2024",
+        "end_date": "6/25/2024",
         "characters": {
             "4": [
                 "Sethos",
@@ -1700,7 +1700,7 @@ const character_banners = {
         "name": "Illuminating Lightning",
         "version": "4.7",
         "start_date": "6/4/2024",
-        "end_date": "6/26/2024",
+        "end_date": "6/25/2024",
         "characters": {
             "4": [
                 "Sethos",
@@ -1709,6 +1709,38 @@ const character_banners = {
             ],
             "5": [
                 "Clorinde"
+            ]
+        }
+    },
+    "107": {
+        "name": "Romaritime Meluserenity",
+        "version": "4.7",
+        "start_date": "6/25/2024",
+        "end_date": "7/17/2024",
+        "characters": {
+            "4": [
+                "Noelle",
+                "Rosaria",
+                "Gaming"
+            ],
+            "5": [
+                "Sigewinne"
+            ]
+        }
+    },
+    "108": {
+        "name": "Chanson of Many Waters",
+        "version": "4.7",
+        "start_date": "6/25/2024",
+        "end_date": "7/17/2024",
+        "characters": {
+            "4": [
+                "Noelle",
+                "Rosaria",
+                "Gaming"
+            ],
+            "5": [
+                "Furina"
             ]
         }
     }

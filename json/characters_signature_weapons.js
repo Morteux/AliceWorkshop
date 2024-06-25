@@ -82,7 +82,7 @@ const characters_signature_weapons = {
     "Chiori": "Uraku Misugiri",
     "Arlecchino": "Crimson Moon's Semblance",
     "Sethos": "",
-    "Sigewinne": "",
+    "Sigewinne": "Silvershower Heartstrings",
     "Clorinde": "Absolution",
     "Emilie": ""
 }
