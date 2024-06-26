@@ -102,30 +102,6 @@ function closeWindow(id) {
 }
 
 function isMobileDevice() {
-    // let hasTouchScreen = false;
-
-    // if ("maxTouchPoints" in navigator) {
-    //     hasTouchScreen = navigator.maxTouchPoints > 0;
-    // } else if ("msMaxTouchPoints" in navigator) {
-    //     hasTouchScreen = navigator.msMaxTouchPoints > 0;
-    // } else {
-    //     let mQ = window.matchMedia && matchMedia("(pointer:coarse)");
-    //     if (mQ && mQ.media === "(pointer:coarse)") {
-    //         hasTouchScreen = !!mQ.matches;
-    //     } else if ('orientation' in window) {
-    //         hasTouchScreen = true; // deprecated, but good fallback
-    //     } else {
-    //         // Only as a last resort, fall back to user agent sniffing
-    //         let UA = navigator.userAgent;
-    //         hasTouchScreen = (
-    //             /\b(BlackBerry|webOS|iPhone|IEMobile)\b/i.test(UA) ||
-    //             /\b(Android|Windows Phone|iPad|iPod)\b/i.test(UA)
-    //         );
-    //     }
-    // }
-
-    // return hasTouchScreen;
-
     return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
 }
 
@@ -201,7 +177,7 @@ function dateDiffInDays(date1, date2) {
     var timeDiff = Math.abs(timestamp2 - timestamp1);
 
     // Convert the difference in milliseconds to days
-    var diffDays = Math.ceil(timeDiff / (1000 * 3600 * 24)); 
+    var diffDays = Math.ceil(timeDiff / (1000 * 3600 * 24));
 
     return diffDays;
 }
@@ -211,14 +187,18 @@ function formatDate(date) {
     var day = date.getDate();
     var month = date.getMonth() + 1; // Months are zero indexed
     var year = date.getFullYear();
-  
+
     // Pad day and month with leading zeros if necessary
     day = day < 10 ? '0' + day : day;
     month = month < 10 ? '0' + month : month;
-  
+
     // Return formatted date
     return day + '/' + month + '/' + year;
-  }
+}
+
+function isCharacterPreRelease(character_name) {
+    return characters.hasOwnProperty(character_name)
+}
 
 function getCharacter(name) {
     let character = GenshinDb.character(name);

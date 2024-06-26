@@ -81,7 +81,7 @@ function printCurrentBanners() {
     let menu_extra_current_banners_HTML = document.getElementById("menu_extra_current_banners");
     menu_extra_current_banners_HTML.innerHTML = "";
 
-    for(banner_img of menu_extra_current_banners) {
+    for (banner_img of menu_extra_current_banners) {
         menu_extra_current_banners_HTML.innerHTML += `<img class="" src="images/banners/` + banner_img + `" alt="Banner ` + banner_img + `">`
     }
 }
@@ -190,7 +190,7 @@ function getCharacterBannerHTML(character_data, character_banner_stats) {
         
                 <div class="character_banner_date">
                     <div class="">
-                        Last banner
+                        ` + (!isCharacterPreRelease(character_data.name) ? `Last banner` : `May release`) + `
                     </div>
                     <div class="">
                         ` + formatDate(new Date(character_banner_stats.last_date)) + `
@@ -217,12 +217,15 @@ function updateCharacterBannerStats(character_name, banner) {
 
     if (character_banner_stats[character_name]) {
 
-        // If is exclusive character event wish banner and it is a 5 star character
-        if(banner.characters["5"].length == 1 && banner.characters["5"].includes(character_name)) {
+        // If is exclusive character event wish banner and it is a 5 star character and it is not already set (force set only first banner name found to prevent sufix numbers)
+        if (banner.characters["5"].length == 1 && banner.characters["5"].includes(character_name) && character_banner_stats[character_name].event_wish_banner_name == "") {
             character_banner_stats[character_name].event_wish_banner_name = banner.name;
         }
 
-        character_banner_stats[character_name].count += 1;
+        if (character_banner_stats[character_name].last_version_checked != banner.version) {
+            character_banner_stats[character_name].count += 1;
+            character_banner_stats[character_name].last_version_checked = banner.version;
+        }
 
         // Released in a previous version
         if (character_banner_stats[character_name].first_version > banner.version) {
@@ -247,7 +250,8 @@ function calculateCharactersRerunsStats() {
     for (character in CHARACTER_NAMES) {
         // FILTER HERE
         if (!permanent_characters.includes(CHARACTER_NAMES[character])) {
-            character_banner_stats[CHARACTER_NAMES[character]] = { "event_wish_banner_name": "", "first_version": actual_version, "first_date": actual_last_date, "last_date": actual_first_date, "count": 0, "waiting_days": 0 };
+            // Initialize character_banner_stats entry for each filtered character
+            character_banner_stats[CHARACTER_NAMES[character]] = { "event_wish_banner_name": "", "first_version": actual_version, "first_date": actual_last_date, "last_date": actual_first_date, "count": 0, "waiting_days": 0, "last_version_checked": "" };
         }
     }
 
@@ -264,6 +268,12 @@ function calculateCharactersRerunsStats() {
     }
 
     for (character in character_banner_stats) {
+        // Prerelease character has 0 count
+        if (character_banner_stats[character].count > 0) {
+            // First banner does not count as rerun
+            character_banner_stats[character].count--;
+        }
+
         character_banner_stats[character].waiting_days = character_banner_stats[character].last_date ? dateDiffInDays(new Date(character_banner_stats[character].last_date), new Date()) : 0;
     }
 }
@@ -394,8 +404,9 @@ function printCharactersRerunsStats() {
             }
         }
 
-        // Calculate last date for prerelease characters
-        if (character_banner_stats_aux[character_most_waiting_days].count == 0) {
+        // Calculate release date for prerelease characters
+        if (isCharacterPreRelease(character_most_waiting_days)) {
+            
             character_banner_stats_aux[character_most_waiting_days].first_date = actual_last_date;
 
             let new_actual_last_date = new Date(actual_last_date);
@@ -409,7 +420,8 @@ function printCharactersRerunsStats() {
             // Format the components into mm/dd/yyyy
             var formattedDate = month.toString().padStart(2, '0') + '/' + day.toString().padStart(2, '0') + '/' + year;
 
-            character_banner_stats_aux[character_most_waiting_days].last_date = formattedDate;
+            // character_banner_stats_aux[character_most_waiting_days].last_date = formattedDate;
+            character_banner_stats_aux[character_most_waiting_days].last_date = actual_last_date;
             character_banner_stats_aux[character_most_waiting_days].waiting_days = 0;
         }
 
