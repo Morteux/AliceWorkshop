@@ -9106,9 +9106,11 @@ const teams = {
         "character_4": {
             "name": [
                 "Mika",
-                "Charlotte"
+                "Charlotte",
+                "Bennett"
             ],
             "build": [
+                "Standard",
                 "Standard",
                 "Standard"
             ]
