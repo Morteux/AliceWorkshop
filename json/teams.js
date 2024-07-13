@@ -15715,16 +15715,12 @@ const teams = {
                 "Yanfei",
                 "Klee",
                 "Xiangling",
-                "Diluc",
-                "Hu Tao",
                 "Yoimiya",
                 "Lyney",
                 "Gaming",
                 "Arlecchino"
             ],
             "build": [
-                "Standard",
-                "Standard",
                 "Standard",
                 "Standard",
                 "Standard",
