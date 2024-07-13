@@ -254,5 +254,15 @@ const archetypes = {
         color: "color_cryo",
         color_illuminated: "color_hydro_illuminated",
         recommended_characters: ["Wriothesley", "Furina"]
+    },
+
+    "Burningload": {
+        description: " ",
+        elements: [],
+        pros_cons: "",
+        example_teams: [],
+        color: "color_electro",
+        color_illuminated: "color_pyro_illuminated",
+        recommended_characters: []
     }
 };
