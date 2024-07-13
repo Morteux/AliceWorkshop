@@ -15800,7 +15800,7 @@ const teams = {
         "description": "Good in AoE",
         "rotation": "",
         "archetype": [
-            "Ayrfrier"
+            "Airfryer"
         ],
         "viability": "Viable",
         "character_1": {
