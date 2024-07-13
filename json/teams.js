@@ -15825,7 +15825,7 @@ const teams = {
                 "Venti"
             ],
             "build": [
-                "Standard"
+                "Standard",
                 "Standard"
             ]
         }
