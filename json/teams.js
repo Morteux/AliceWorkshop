@@ -15827,6 +15827,36 @@ const teams = {
         }
     },
 
+    "485": {
+        "name": "Cyno Burningload",
+        "description": "",
+        "rotation": "",
+        "archetype": [
+            "Burningload"
+        ],
+        "viability": "Viable",
+        "character_1": {
+            "name": "Cyno",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Fischl",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Emilie",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": [
+                "Thoma"
+            ],
+            "build": [
+                "Standard"
+            ]
+        }
+    },
+
 
 
 
