@@ -15690,6 +15690,149 @@ const teams = {
         }
     },
 
+    "481": {
+        "name": "Emilie Burning",
+        "description": "Thanks to Emilie we have this MonoPyro subarchetype where we add the dendro element for burnings. This reaction does not add anything, as it will only serve to give Emilie more damage. DON'T build EM in Emilie.",
+        "rotation": "",
+        "archetype": [
+            "MonoPyro"
+        ],
+        "viability": "Recommended",
+        "character_1": {
+            "name": "Emilie",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Kaedehara Kazuha",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Bennett",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": [
+                "Yanfei",
+                "Klee",
+                "Xiangling",
+                "Diluc",
+                "Hu Tao",
+                "Yoimiya",
+                "Lyney",
+                "Gaming",
+                "Arlecchino"
+            ],
+            "build": [
+                "Standard",
+                "Standard",
+                "Standard",
+                "Standard",
+                "Standard",
+                "Standard",
+                "Standard",
+                "Standard",
+                "Standard",
+                "Standard"
+            ]
+        }
+    },
+
+    "482": {
+        "name": "Furina Vape",
+        "description": "Since you don't have to stay on-field with a specific character, you can on-field Emilie to give her Bennett's buff and rotate characters to stack fanfare.",
+        "rotation": "",
+        "archetype": [
+            "Vaporize"
+        ],
+        "viability": "Recommended",
+        "character_1": {
+            "name": "Emilie",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Bennett",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": [
+                "Xiangling"
+            ],
+            "build": [
+                "Standard"
+            ]
+        }
+    },
+
+    "483": {
+        "name": "Wriothesley Melt",
+        "description": "",
+        "rotation": "",
+        "archetype": [
+            "MonoPyro"
+        ],
+        "viability": "Recommended",
+        "character_1": {
+            "name": "Wriothesley",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Emilie",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Bennett",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": [
+                "Xiangling",
+                "Thoma"
+            ],
+            "build": [
+                "Standard",
+                "Standard"
+            ]
+        }
+    },
+
+        "483": {
+        "name": "Emilie Ayrfrier",
+        "description": "Good in AoE",
+        "rotation": "",
+        "archetype": [
+            "Ayrfrier"
+        ],
+        "viability": "Viable",
+        "character_1": {
+            "name": "Kaedehara Kazuha",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Emilie",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Bennett",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": [
+                "Nahida",
+                "Venti"
+            ],
+            "build": [
+                "Standard"
+                "Standard"
+            ]
+        }
+    },
+
+
+
 
 
     
