@@ -1743,6 +1743,70 @@ const character_banners = {
                 "Furina"
             ]
         }
+    },
+    "109": {
+        "name": "",
+        "version": "4.8",
+        "start_date": "7/17/2024",
+        "end_date": "8/7/2024",
+        "characters": {
+            "4": [
+                "Ningguang",
+                "Kaveh",
+                "Kirara"
+            ],
+            "5": [
+                "Navia"
+            ]
+        }
+    },
+    "110": {
+        "name": "",
+        "version": "4.8",
+        "start_date": "7/17/2024",
+        "end_date": "8/7/2024",
+        "characters": {
+            "4": [
+                "Ningguang",
+                "Kaveh",
+                "Kirara"
+            ],
+            "5": [
+                "Nilou"
+            ]
+        }
+    },
+    "111": {
+        "name": "",
+        "version": "4.8",
+        "start_date": "8/7/2024",
+        "end_date": "8/28/2024",
+        "characters": {
+            "4": [
+                "",
+                "",
+                ""
+            ],
+            "5": [
+                "Emilie"
+            ]
+        }
+    },
+    "112": {
+        "name": "",
+        "version": "4.8",
+        "start_date": "8/7/2024",
+        "end_date": "8/28/2024",
+        "characters": {
+            "4": [
+                "",
+                "",
+                ""
+            ],
+            "5": [
+                "Yelan"
+            ]
+        }
     }
     // "": {
     //     "name": "",
