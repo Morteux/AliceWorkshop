@@ -257,6 +257,13 @@ const characters_teams = {
             composition: ["pj1", "element1", "elem2", "Flex"]
         }
     },
+    "Kachina": {
+        "name": {
+            archetype: "",
+            description: "",
+            composition: ["pj1", "element1", "elem2", "Flex"]
+        }
+    },
     "Kaedehara Kazuha": {
         "name": {
             archetype: "",
@@ -300,6 +307,13 @@ const characters_teams = {
         }
     },
     "Keqing": {
+        "name": {
+            archetype: "",
+            description: "",
+            composition: ["pj1", "element1", "elem2", "Flex"]
+        }
+    },
+    "Kinich": {
         "name": {
             archetype: "",
             description: "",
@@ -370,6 +384,13 @@ const characters_teams = {
         }
     },
     "Mona": {
+        "name": {
+            archetype: "",
+            description: "",
+            composition: ["pj1", "element1", "elem2", "Flex"]
+        }
+    },
+    "Mualani": {
         "name": {
             archetype: "",
             description: "",
@@ -694,6 +715,7 @@ const characters_teams_info = {
     "Gorou": "",
     "Hu Tao": "",
     "Jean": "",
+    "Kachina": "",
     "Kaedehara Kazuha": "",
     "Kaeya": "",
     "Lumine": "",
@@ -701,6 +723,7 @@ const characters_teams_info = {
     "Kamisato Ayato": "",
     "Kaveh": "",
     "Keqing": "",
+    "Kinich": "",
     "Kirara": "",
     "Klee": "",
     "Kujou Sara": "",
@@ -711,6 +734,7 @@ const characters_teams_info = {
     "Lyney": "",
     "Mika": "",
     "Mona": "",
+    "Mualani": "",
     "Nahida": "",
     "Navia": "",
     "Neuvillette": "Neuvillette can be played in others Archetypes like Taser, National and more. Due to his high base powerlevel, he still being pretty good in others Archetypes or playing with characters with not the best of the sinergies. <br> <br> <br>For more information about Neuvillette's teams, Build, rotations and more, you can see this guide, by Vomfee: <br> https://docs.google.com/document/d/1GUiROMvqAYmhIP18jBT4cX8WOuP5OJbrl0809HiN8V4/edit?usp=sharing",

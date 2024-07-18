@@ -84,5 +84,8 @@ const characters_order_priority = {
     82: "Sethos",
     83: "Sigewinne",
     84: "Clorinde",
-    85: "Emilie"
+    85: "Emilie",
+    86: "Mualani",
+    87: "Kinich",
+    88: "Kachina"
 }

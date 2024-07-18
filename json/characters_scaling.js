@@ -33,12 +33,26 @@ const characters_attributes = {
     "Gorou": { HP: 802.3761, ATK: 15.31488, DEF: 54.36375, max_ascension_value_HP: 2870.8872, max_ascension_value_ATK: 54.797653, max_ascension_value_DEF: 194.5125 },
     "Hu Tao": { HP: 1210.7164, ATK: 8.2859, DEF: 68.2062, max_ascension_value_HP: 4971.856, max_ascension_value_ATK: 34.0239, max_ascension_value_DEF: 280.098 },
     "Jean": { HP: 1143.984, ATK: 18.62, DEF: 59.83, max_ascension_value_HP: 4697.817, max_ascension_value_ATK: 76.4582, max_ascension_value_DEF: 245.7 },
+    
+    
+    
+    "Kachina": { HP: 1, ATK: 1, DEF: 1, max_ascension_value_HP: 1, max_ascension_value_ATK: 1, max_ascension_value_DEF: 1 },
+    
+    
+    
     "Kaedehara Kazuha": { HP: 1039.1188, ATK: 23.0888, DEF: 62.8215, max_ascension_value_HP: 4267.1836, max_ascension_value_ATK: 94.80817, max_ascension_value_DEF: 257.985 },
     "Kaeya": { HP: 975.6164, ATK: 18.6984, DEF: 66.381, max_ascension_value_HP: 3490.7378, max_ascension_value_ATK: 66.90411, max_ascension_value_DEF: 237.51 },
     "Kamisato Ayaka": { HP: 1000.986, ATK: 26.6266, DEF: 61.0266, max_ascension_value_HP: 4110.59, max_ascension_value_ATK: 109.33523, max_ascension_value_DEF: 250.614 },
     "Kamisato Ayato": { HP: 1067.7184, ATK: 23.275, DEF: 59.83, max_ascension_value_HP: 4384.629, max_ascension_value_ATK: 95.57275, max_ascension_value_DEF: 245.7 },
     "Kaveh": { HP: 1002.9701, ATK: 19.5888, DEF: 62.9475, max_ascension_value_HP: 3588.6091, max_ascension_value_ATK: 70.09002, max_ascension_value_DEF: 225.225 },
     "Keqing": { HP: 1020.0524, ATK: 25.137, DEF: 62.2232, max_ascension_value_HP: 4188.8867, max_ascension_value_ATK: 103.21857, max_ascension_value_DEF: 255.528 },
+    
+    
+    
+    "Kinich": { HP: 1, ATK: 1, DEF: 1, max_ascension_value_HP: 1, max_ascension_value_ATK: 1, max_ascension_value_DEF: 1 },
+    
+    
+    
     "Kirara": { HP: 1021.2059, ATK: 18.6984, DEF: 45.78, max_ascension_value_HP: 3653.8564453125, max_ascension_value_ATK: 66.904113769531, max_ascension_value_DEF: 163.8 },
     "Klee": { HP: 800.7888, ATK: 24.206, DEF: 47.864, max_ascension_value_HP: 3288.4717, max_ascension_value_ATK: 99.39566, max_ascension_value_DEF: 196.56 },
     "Kujou Sara": { HP: 802.3761, ATK: 16.38336, DEF: 52.647, max_ascension_value_HP: 2870.8872, max_ascension_value_ATK: 58.620743, max_ascension_value_DEF: 188.37 },
@@ -50,6 +64,13 @@ const characters_attributes = {
     "Lyney": { HP: 857.987976, ATK: 24.7646, DEF: 41.881, max_ascension_value_HP: 3523.3625488281, max_ascension_value_ATK: 101.6894, max_ascension_value_DEF: 171.99 },
     "Mika": { HP: 1048.5597, ATK: 18.6984, DEF: 59.800125, max_ascension_value_HP: 3751.7275, max_ascension_value_ATK: 66.90411, max_ascension_value_DEF: 213.96375 },
     "Mona": { HP: 810.322, ATK: 22.344, DEF: 50.8555, max_ascension_value_HP: 3327.62, max_ascension_value_ATK: 91.74984, max_ascension_value_DEF: 208.845 },
+    
+    
+    
+    "Mualani": { HP: 1, ATK: 1, DEF: 1, max_ascension_value_HP: 1, max_ascension_value_ATK: 1, max_ascension_value_DEF: 1 },
+    
+    
+    
     "Nahida": { HP: 806.5087, ATK: 23.275, DEF: 49.0606, max_ascension_value_HP: 3311.961, max_ascension_value_ATK: 95.57275, max_ascension_value_DEF: 201.474 },
     "Navia": { HP: 984.78, ATK: 27.3714, DEF: 61.74456, max_ascension_value_HP: 4044.0373535156, max_ascension_value_ATK: 112.3935546875, max_ascension_value_DEF: 253.56239318848 },
     "Neuvillette": { HP: 1143.984, ATK: 16.218, DEF: 44.8725, max_ascension_value_HP: 4697.8169, max_ascension_value_ATK: 66.595, max_ascension_value_DEF: 184.275 },

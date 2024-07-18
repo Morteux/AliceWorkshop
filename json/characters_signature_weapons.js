@@ -84,5 +84,8 @@ const characters_signature_weapons = {
     "Sethos": "",
     "Sigewinne": "Silvershower Heartstrings",
     "Clorinde": "Absolution",
-    "Emilie": ""
+    "Emilie": "Lumidouce Elegy",
+    "Mualani": "",
+    "Kinich": "",
+    "Kachina": ""
 }

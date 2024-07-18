@@ -1,16 +1,16 @@
 const STATS = {
-    "team_count": 478,
-    "team_count_flex": 1370,
+    "team_count": 483,
+    "team_count_flex": 1384,
     "team_count_by_archetype": {
         "MonoGeo": 16,
         "MonoHydro": 28,
         "MonoCryo": 7,
-        "MonoPyro": 63,
+        "MonoPyro": 72,
         "MonoElectro": 1,
-        "Hypercarry": 172,
+        "Hypercarry": 173,
         "Freeze": 122,
         "National": 21,
-        "Vaporize": 245,
+        "Vaporize": 246,
         "Overvape": 17,
         "Overload": 44,
         "Taser": 51,
@@ -25,24 +25,25 @@ const STATS = {
         "Sauté": 10,
         "Fridge": 4,
         "Salad": 4,
-        "Airfryer": 1,
+        "Airfryer": 3,
         "Hyperbloom": 137,
         "Quickbloom": 72,
         "HyperFridge": 117,
-        "Bain-Marie": 4
+        "Bain-Marie": 4,
+        "Burningload": 1
     },
     "team_count_by_element": {
-        "Pyro": 719,
-        "Electro": 667,
-        "Hydro": 1154,
-        "Cryo": 615,
-        "Anemo": 720,
+        "Pyro": 735,
+        "Electro": 668,
+        "Hydro": 1156,
+        "Cryo": 618,
+        "Anemo": 730,
         "Geo": 344,
-        "Dendro": 698
+        "Dendro": 711
     },
     "team_count_by_viability": {
-        "Recommended": 516,
-        "Viable": 740,
+        "Recommended": 527,
+        "Viable": 743,
         "For fun": 100,
         "Unique": 14
     },
@@ -78,7 +79,8 @@ const STATS = {
                 "Hyperbloom": 49,
                 "Quickbloom": 15,
                 "HyperFridge": 29,
-                "Bain-Marie": 0
+                "Bain-Marie": 0,
+                "Burningload": 0
             },
             "by_viability": {
                 "Recommended": 50,
@@ -131,18 +133,19 @@ const STATS = {
                 "Hyperbloom": 5,
                 "Quickbloom": 8,
                 "HyperFridge": 7,
-                "Bain-Marie": 0
+                "Bain-Marie": 0,
+                "Burningload": 0
             },
             "ranking_by_element": 3,
             "ranking_by_viability": {
-                "Recommended": 14,
+                "Recommended": 15,
                 "Viable": 9,
                 "For fun": 28,
                 "Unique": 0
             }
         },
         "Lumine": {
-            "team_count_ranking": 85,
+            "team_count_ranking": 86,
             "team_count": 0,
             "by_archetype": {
                 "MonoGeo": 0,
@@ -172,7 +175,8 @@ const STATS = {
                 "Hyperbloom": 0,
                 "Quickbloom": 0,
                 "HyperFridge": 0,
-                "Bain-Marie": 0
+                "Bain-Marie": 0,
+                "Burningload": 0
             },
             "by_viability": {
                 "Recommended": 0,
@@ -220,9 +224,10 @@ const STATS = {
                 "Hyperbloom": 0,
                 "Quickbloom": 0,
                 "HyperFridge": 0,
-                "Bain-Marie": 0
+                "Bain-Marie": 0,
+                "Burningload": 0
             },
-            "ranking_by_element": 10,
+            "ranking_by_element": 11,
             "ranking_by_viability": {
                 "Recommended": 0,
                 "Viable": 0,
@@ -261,7 +266,8 @@ const STATS = {
                 "Hyperbloom": 7,
                 "Quickbloom": 0,
                 "HyperFridge": 0,
-                "Bain-Marie": 0
+                "Bain-Marie": 0,
+                "Burningload": 0
             },
             "by_viability": {
                 "Recommended": 9,
@@ -300,11 +306,12 @@ const STATS = {
                 "Hyperbloom": 16,
                 "Quickbloom": 0,
                 "HyperFridge": 0,
-                "Bain-Marie": 0
+                "Bain-Marie": 0,
+                "Burningload": 0
             },
             "ranking_by_element": 4,
             "ranking_by_viability": {
-                "Recommended": 47,
+                "Recommended": 48,
                 "Viable": 23,
                 "For fun": 21,
                 "Unique": 0
@@ -341,7 +348,8 @@ const STATS = {
                 "Hyperbloom": 0,
                 "Quickbloom": 6,
                 "HyperFridge": 0,
-                "Bain-Marie": 0
+                "Bain-Marie": 0,
+                "Burningload": 0
             },
             "by_viability": {
                 "Recommended": 11,
@@ -380,11 +388,12 @@ const STATS = {
                 "Hyperbloom": 0,
                 "Quickbloom": 11,
                 "HyperFridge": 0,
-                "Bain-Marie": 0
+                "Bain-Marie": 0,
+                "Burningload": 0
             },
             "ranking_by_element": 8,
             "ranking_by_viability": {
-                "Recommended": 42,
+                "Recommended": 43,
                 "Viable": 58,
                 "For fun": 0,
                 "Unique": 0
@@ -421,7 +430,8 @@ const STATS = {
                 "Hyperbloom": 0,
                 "Quickbloom": 0,
                 "HyperFridge": 0,
-                "Bain-Marie": 0
+                "Bain-Marie": 0,
+                "Burningload": 0
             },
             "by_viability": {
                 "Recommended": 8,
@@ -461,11 +471,12 @@ const STATS = {
                 "Hyperbloom": 0,
                 "Quickbloom": 0,
                 "HyperFridge": 0,
-                "Bain-Marie": 0
+                "Bain-Marie": 0,
+                "Burningload": 0
             },
             "ranking_by_element": 7,
             "ranking_by_viability": {
-                "Recommended": 49,
+                "Recommended": 51,
                 "Viable": 50,
                 "For fun": 24,
                 "Unique": 5
@@ -502,7 +513,8 @@ const STATS = {
                 "Hyperbloom": 0,
                 "Quickbloom": 0,
                 "HyperFridge": 0,
-                "Bain-Marie": 0
+                "Bain-Marie": 0,
+                "Burningload": 0
             },
             "by_viability": {
                 "Recommended": 0,
@@ -541,7 +553,8 @@ const STATS = {
                 "Hyperbloom": 0,
                 "Quickbloom": 0,
                 "HyperFridge": 0,
-                "Bain-Marie": 0
+                "Bain-Marie": 0,
+                "Burningload": 0
             },
             "ranking_by_element": 12,
             "ranking_by_viability": {
@@ -552,7 +565,7 @@ const STATS = {
             }
         },
         "Qiqi": {
-            "team_count_ranking": 74,
+            "team_count_ranking": 75,
             "team_count": 5,
             "by_archetype": {
                 "MonoGeo": 0,
@@ -582,7 +595,8 @@ const STATS = {
                 "Hyperbloom": 0,
                 "Quickbloom": 0,
                 "HyperFridge": 0,
-                "Bain-Marie": 0
+                "Bain-Marie": 0,
+                "Burningload": 0
             },
             "by_viability": {
                 "Recommended": 0,
@@ -621,7 +635,8 @@ const STATS = {
                 "Hyperbloom": 0,
                 "Quickbloom": 0,
                 "HyperFridge": 0,
-                "Bain-Marie": 0
+                "Bain-Marie": 0,
+                "Burningload": 0
             },
             "ranking_by_element": 14,
             "ranking_by_viability": {
@@ -662,7 +677,8 @@ const STATS = {
                 "Hyperbloom": 0,
                 "Quickbloom": 0,
                 "HyperFridge": 0,
-                "Bain-Marie": 0
+                "Bain-Marie": 0,
+                "Burningload": 0
             },
             "by_viability": {
                 "Recommended": 13,
@@ -703,7 +719,8 @@ const STATS = {
                 "Hyperbloom": 0,
                 "Quickbloom": 0,
                 "HyperFridge": 0,
-                "Bain-Marie": 0
+                "Bain-Marie": 0,
+                "Burningload": 0
             },
             "ranking_by_element": 5,
             "ranking_by_viability": {
@@ -715,17 +732,17 @@ const STATS = {
         },
         "Bennett": {
             "team_count_ranking": 2,
-            "team_count": 331,
+            "team_count": 344,
             "by_archetype": {
                 "MonoGeo": 0,
                 "MonoHydro": 0,
                 "MonoCryo": 0,
-                "MonoPyro": 63,
+                "MonoPyro": 72,
                 "MonoElectro": 0,
-                "Hypercarry": 37,
+                "Hypercarry": 38,
                 "Freeze": 0,
                 "National": 21,
-                "Vaporize": 126,
+                "Vaporize": 127,
                 "Overvape": 8,
                 "Overload": 14,
                 "Taser": 1,
@@ -740,20 +757,21 @@ const STATS = {
                 "Sauté": 10,
                 "Fridge": 0,
                 "Salad": 0,
-                "Airfryer": 1,
+                "Airfryer": 3,
                 "Hyperbloom": 0,
                 "Quickbloom": 0,
                 "HyperFridge": 3,
-                "Bain-Marie": 0
+                "Bain-Marie": 0,
+                "Burningload": 0
             },
             "by_viability": {
-                "Recommended": 115,
-                "Viable": 171,
+                "Recommended": 126,
+                "Viable": 173,
                 "For fun": 40,
                 "Unique": 5
             },
             "by_build": {
-                "Standard": 237,
+                "Standard": 250,
                 "C6": 57,
                 "TF": 1,
                 "Healer": 30,
@@ -787,7 +805,8 @@ const STATS = {
                 "Hyperbloom": 0,
                 "Quickbloom": 0,
                 "HyperFridge": 22,
-                "Bain-Marie": 0
+                "Bain-Marie": 0,
+                "Burningload": 0
             },
             "ranking_by_element": 1,
             "ranking_by_viability": {
@@ -799,7 +818,7 @@ const STATS = {
         },
         "Fischl": {
             "team_count_ranking": 4,
-            "team_count": 221,
+            "team_count": 222,
             "by_archetype": {
                 "MonoGeo": 3,
                 "MonoHydro": 0,
@@ -828,16 +847,17 @@ const STATS = {
                 "Hyperbloom": 8,
                 "Quickbloom": 9,
                 "HyperFridge": 0,
-                "Bain-Marie": 0
+                "Bain-Marie": 0,
+                "Burningload": 1
             },
             "by_viability": {
                 "Recommended": 87,
-                "Viable": 124,
+                "Viable": 125,
                 "For fun": 8,
                 "Unique": 2
             },
             "by_build": {
-                "Standard": 221
+                "Standard": 222
             },
             "ranking_by_archetype": {
                 "MonoGeo": 5,
@@ -867,7 +887,8 @@ const STATS = {
                 "Hyperbloom": 14,
                 "Quickbloom": 9,
                 "HyperFridge": 0,
-                "Bain-Marie": 0
+                "Bain-Marie": 0,
+                "Burningload": 1
             },
             "ranking_by_element": 1,
             "ranking_by_viability": {
@@ -878,7 +899,7 @@ const STATS = {
             }
         },
         "Ningguang": {
-            "team_count_ranking": 66,
+            "team_count_ranking": 67,
             "team_count": 8,
             "by_archetype": {
                 "MonoGeo": 0,
@@ -908,7 +929,8 @@ const STATS = {
                 "Hyperbloom": 0,
                 "Quickbloom": 0,
                 "HyperFridge": 0,
-                "Bain-Marie": 0
+                "Bain-Marie": 0,
+                "Burningload": 0
             },
             "by_viability": {
                 "Recommended": 6,
@@ -947,12 +969,13 @@ const STATS = {
                 "Hyperbloom": 0,
                 "Quickbloom": 0,
                 "HyperFridge": 0,
-                "Bain-Marie": 0
+                "Bain-Marie": 0,
+                "Burningload": 0
             },
             "ranking_by_element": 9,
             "ranking_by_viability": {
-                "Recommended": 52,
-                "Viable": 78,
+                "Recommended": 53,
+                "Viable": 79,
                 "For fun": 45,
                 "Unique": 0
             }
@@ -988,7 +1011,8 @@ const STATS = {
                 "Hyperbloom": 18,
                 "Quickbloom": 0,
                 "HyperFridge": 11,
-                "Bain-Marie": 0
+                "Bain-Marie": 0,
+                "Burningload": 0
             },
             "by_viability": {
                 "Recommended": 82,
@@ -1027,7 +1051,8 @@ const STATS = {
                 "Hyperbloom": 11,
                 "Quickbloom": 0,
                 "HyperFridge": 16,
-                "Bain-Marie": 0
+                "Bain-Marie": 0,
+                "Burningload": 0
             },
             "ranking_by_element": 2,
             "ranking_by_viability": {
@@ -1068,7 +1093,8 @@ const STATS = {
                 "Hyperbloom": 7,
                 "Quickbloom": 4,
                 "HyperFridge": 0,
-                "Bain-Marie": 0
+                "Bain-Marie": 0,
+                "Burningload": 0
             },
             "by_viability": {
                 "Recommended": 23,
@@ -1108,7 +1134,8 @@ const STATS = {
                 "Hyperbloom": 16,
                 "Quickbloom": 14,
                 "HyperFridge": 0,
-                "Bain-Marie": 0
+                "Bain-Marie": 0,
+                "Burningload": 0
             },
             "ranking_by_element": 4,
             "ranking_by_viability": {
@@ -1119,18 +1146,18 @@ const STATS = {
             }
         },
         "Xiangling": {
-            "team_count_ranking": 14,
-            "team_count": 137,
+            "team_count_ranking": 13,
+            "team_count": 140,
             "by_archetype": {
                 "MonoGeo": 3,
                 "MonoHydro": 0,
                 "MonoCryo": 0,
-                "MonoPyro": 21,
+                "MonoPyro": 23,
                 "MonoElectro": 0,
                 "Hypercarry": 11,
                 "Freeze": 0,
                 "National": 21,
-                "Vaporize": 13,
+                "Vaporize": 14,
                 "Overvape": 2,
                 "Overload": 17,
                 "Taser": 0,
@@ -1149,16 +1176,17 @@ const STATS = {
                 "Hyperbloom": 0,
                 "Quickbloom": 0,
                 "HyperFridge": 0,
-                "Bain-Marie": 2
+                "Bain-Marie": 2,
+                "Burningload": 0
             },
             "by_viability": {
-                "Recommended": 50,
+                "Recommended": 53,
                 "Viable": 77,
                 "For fun": 8,
                 "Unique": 2
             },
             "by_build": {
-                "Standard": 114,
+                "Standard": 117,
                 "SoloPyro": 18,
                 "EM": 5
             },
@@ -1190,7 +1218,8 @@ const STATS = {
                 "Hyperbloom": 0,
                 "Quickbloom": 0,
                 "HyperFridge": 0,
-                "Bain-Marie": 3
+                "Bain-Marie": 3,
+                "Burningload": 0
             },
             "ranking_by_element": 2,
             "ranking_by_viability": {
@@ -1202,7 +1231,7 @@ const STATS = {
         },
         "Venti": {
             "team_count_ranking": 39,
-            "team_count": 39,
+            "team_count": 40,
             "by_archetype": {
                 "MonoGeo": 0,
                 "MonoHydro": 2,
@@ -1227,20 +1256,21 @@ const STATS = {
                 "Sauté": 0,
                 "Fridge": 0,
                 "Salad": 0,
-                "Airfryer": 1,
+                "Airfryer": 2,
                 "Hyperbloom": 4,
                 "Quickbloom": 0,
                 "HyperFridge": 0,
-                "Bain-Marie": 0
+                "Bain-Marie": 0,
+                "Burningload": 0
             },
             "by_viability": {
                 "Recommended": 17,
-                "Viable": 14,
+                "Viable": 15,
                 "For fun": 7,
                 "Unique": 1
             },
             "by_build": {
-                "Standard": 39
+                "Standard": 40
             },
             "ranking_by_archetype": {
                 "MonoGeo": 0,
@@ -1266,22 +1296,23 @@ const STATS = {
                 "Sauté": 0,
                 "Fridge": 0,
                 "Salad": 0,
-                "Airfryer": 1,
+                "Airfryer": 3,
                 "Hyperbloom": 22,
                 "Quickbloom": 0,
                 "HyperFridge": 0,
-                "Bain-Marie": 0
+                "Bain-Marie": 0,
+                "Burningload": 0
             },
             "ranking_by_element": 5,
             "ranking_by_viability": {
-                "Recommended": 28,
+                "Recommended": 29,
                 "Viable": 49,
                 "For fun": 19,
                 "Unique": 13
             }
         },
         "Amber": {
-            "team_count_ranking": 80,
+            "team_count_ranking": 81,
             "team_count": 2,
             "by_archetype": {
                 "MonoGeo": 0,
@@ -1311,7 +1342,8 @@ const STATS = {
                 "Hyperbloom": 0,
                 "Quickbloom": 0,
                 "HyperFridge": 0,
-                "Bain-Marie": 0
+                "Bain-Marie": 0,
+                "Burningload": 0
             },
             "by_viability": {
                 "Recommended": 0,
@@ -1350,18 +1382,19 @@ const STATS = {
                 "Hyperbloom": 0,
                 "Quickbloom": 0,
                 "HyperFridge": 0,
-                "Bain-Marie": 0
+                "Bain-Marie": 0,
+                "Burningload": 0
             },
             "ranking_by_element": 15,
             "ranking_by_viability": {
                 "Recommended": 0,
-                "Viable": 73,
+                "Viable": 74,
                 "For fun": 0,
                 "Unique": 0
             }
         },
         "Razor": {
-            "team_count_ranking": 80,
+            "team_count_ranking": 81,
             "team_count": 2,
             "by_archetype": {
                 "MonoGeo": 0,
@@ -1391,7 +1424,8 @@ const STATS = {
                 "Hyperbloom": 0,
                 "Quickbloom": 0,
                 "HyperFridge": 0,
-                "Bain-Marie": 0
+                "Bain-Marie": 0,
+                "Burningload": 0
             },
             "by_viability": {
                 "Recommended": 1,
@@ -1430,12 +1464,13 @@ const STATS = {
                 "Hyperbloom": 0,
                 "Quickbloom": 0,
                 "HyperFridge": 0,
-                "Bain-Marie": 0
+                "Bain-Marie": 0,
+                "Burningload": 0
             },
             "ranking_by_element": 13,
             "ranking_by_viability": {
-                "Recommended": 68,
-                "Viable": 78,
+                "Recommended": 70,
+                "Viable": 79,
                 "For fun": 0,
                 "Unique": 0
             }
@@ -1471,7 +1506,8 @@ const STATS = {
                 "Hyperbloom": 0,
                 "Quickbloom": 0,
                 "HyperFridge": 0,
-                "Bain-Marie": 0
+                "Bain-Marie": 0,
+                "Burningload": 0
             },
             "by_viability": {
                 "Recommended": 4,
@@ -1510,11 +1546,12 @@ const STATS = {
                 "Hyperbloom": 0,
                 "Quickbloom": 0,
                 "HyperFridge": 0,
-                "Bain-Marie": 0
+                "Bain-Marie": 0,
+                "Burningload": 0
             },
             "ranking_by_element": 11,
             "ranking_by_viability": {
-                "Recommended": 56,
+                "Recommended": 58,
                 "Viable": 42,
                 "For fun": 30,
                 "Unique": 0
@@ -1551,7 +1588,8 @@ const STATS = {
                 "Hyperbloom": 0,
                 "Quickbloom": 0,
                 "HyperFridge": 17,
-                "Bain-Marie": 0
+                "Bain-Marie": 0,
+                "Burningload": 0
             },
             "by_viability": {
                 "Recommended": 12,
@@ -1591,7 +1629,8 @@ const STATS = {
                 "Hyperbloom": 0,
                 "Quickbloom": 0,
                 "HyperFridge": 11,
-                "Bain-Marie": 0
+                "Bain-Marie": 0,
+                "Burningload": 0
             },
             "ranking_by_element": 5,
             "ranking_by_viability": {
@@ -1632,7 +1671,8 @@ const STATS = {
                 "Hyperbloom": 0,
                 "Quickbloom": 2,
                 "HyperFridge": 0,
-                "Bain-Marie": 0
+                "Bain-Marie": 0,
+                "Burningload": 0
             },
             "by_viability": {
                 "Recommended": 0,
@@ -1671,7 +1711,8 @@ const STATS = {
                 "Hyperbloom": 0,
                 "Quickbloom": 19,
                 "HyperFridge": 0,
-                "Bain-Marie": 0
+                "Bain-Marie": 0,
+                "Burningload": 0
             },
             "ranking_by_element": 9,
             "ranking_by_viability": {
@@ -1682,7 +1723,7 @@ const STATS = {
             }
         },
         "Lisa": {
-            "team_count_ranking": 77,
+            "team_count_ranking": 79,
             "team_count": 4,
             "by_archetype": {
                 "MonoGeo": 0,
@@ -1712,7 +1753,8 @@ const STATS = {
                 "Hyperbloom": 0,
                 "Quickbloom": 0,
                 "HyperFridge": 0,
-                "Bain-Marie": 0
+                "Bain-Marie": 0,
+                "Burningload": 0
             },
             "by_viability": {
                 "Recommended": 1,
@@ -1730,7 +1772,7 @@ const STATS = {
                 "MonoCryo": 0,
                 "MonoPyro": 0,
                 "MonoElectro": 0,
-                "Hypercarry": 35,
+                "Hypercarry": 36,
                 "Freeze": 0,
                 "National": 0,
                 "Vaporize": 0,
@@ -1752,11 +1794,12 @@ const STATS = {
                 "Hyperbloom": 0,
                 "Quickbloom": 0,
                 "HyperFridge": 0,
-                "Bain-Marie": 0
+                "Bain-Marie": 0,
+                "Burningload": 0
             },
             "ranking_by_element": 12,
             "ranking_by_viability": {
-                "Recommended": 68,
+                "Recommended": 70,
                 "Viable": 72,
                 "For fun": 0,
                 "Unique": 0
@@ -1793,7 +1836,8 @@ const STATS = {
                 "Hyperbloom": 0,
                 "Quickbloom": 2,
                 "HyperFridge": 0,
-                "Bain-Marie": 0
+                "Bain-Marie": 0,
+                "Burningload": 0
             },
             "by_viability": {
                 "Recommended": 31,
@@ -1809,7 +1853,7 @@ const STATS = {
                 "MonoGeo": 0,
                 "MonoHydro": 6,
                 "MonoCryo": 0,
-                "MonoPyro": 21,
+                "MonoPyro": 25,
                 "MonoElectro": 0,
                 "Hypercarry": 18,
                 "Freeze": 4,
@@ -1833,11 +1877,12 @@ const STATS = {
                 "Hyperbloom": 0,
                 "Quickbloom": 19,
                 "HyperFridge": 0,
-                "Bain-Marie": 0
+                "Bain-Marie": 0,
+                "Burningload": 0
             },
             "ranking_by_element": 3,
             "ranking_by_viability": {
-                "Recommended": 19,
+                "Recommended": 20,
                 "Viable": 14,
                 "For fun": 36,
                 "Unique": 0
@@ -1874,7 +1919,8 @@ const STATS = {
                 "Hyperbloom": 0,
                 "Quickbloom": 0,
                 "HyperFridge": 10,
-                "Bain-Marie": 0
+                "Bain-Marie": 0,
+                "Burningload": 0
             },
             "by_viability": {
                 "Recommended": 11,
@@ -1889,9 +1935,9 @@ const STATS = {
                 "MonoGeo": 0,
                 "MonoHydro": 0,
                 "MonoCryo": 4,
-                "MonoPyro": 11,
+                "MonoPyro": 13,
                 "MonoElectro": 0,
-                "Hypercarry": 35,
+                "Hypercarry": 36,
                 "Freeze": 22,
                 "National": 0,
                 "Vaporize": 33,
@@ -1913,11 +1959,12 @@ const STATS = {
                 "Hyperbloom": 0,
                 "Quickbloom": 0,
                 "HyperFridge": 17,
-                "Bain-Marie": 0
+                "Bain-Marie": 0,
+                "Burningload": 0
             },
             "ranking_by_element": 8,
             "ranking_by_viability": {
-                "Recommended": 42,
+                "Recommended": 43,
                 "Viable": 41,
                 "For fun": 24,
                 "Unique": 0
@@ -1925,12 +1972,12 @@ const STATS = {
         },
         "Klee": {
             "team_count_ranking": 26,
-            "team_count": 65,
+            "team_count": 66,
             "by_archetype": {
                 "MonoGeo": 0,
                 "MonoHydro": 0,
                 "MonoCryo": 0,
-                "MonoPyro": 13,
+                "MonoPyro": 14,
                 "MonoElectro": 0,
                 "Hypercarry": 0,
                 "Freeze": 0,
@@ -1954,16 +2001,17 @@ const STATS = {
                 "Hyperbloom": 0,
                 "Quickbloom": 0,
                 "HyperFridge": 0,
-                "Bain-Marie": 0
+                "Bain-Marie": 0,
+                "Burningload": 0
             },
             "by_viability": {
-                "Recommended": 8,
+                "Recommended": 9,
                 "Viable": 28,
                 "For fun": 23,
                 "Unique": 6
             },
             "by_build": {
-                "Standard": 47,
+                "Standard": 48,
                 "Monopyro": 8,
                 "Burger": 5,
                 "Support": 5
@@ -1996,18 +2044,19 @@ const STATS = {
                 "Hyperbloom": 0,
                 "Quickbloom": 0,
                 "HyperFridge": 0,
-                "Bain-Marie": 0
+                "Bain-Marie": 0,
+                "Burningload": 0
             },
             "ranking_by_element": 4,
             "ranking_by_viability": {
-                "Recommended": 49,
+                "Recommended": 48,
                 "Viable": 32,
                 "For fun": 6,
                 "Unique": 3
             }
         },
         "Tartaglia": {
-            "team_count_ranking": 6,
+            "team_count_ranking": 7,
             "team_count": 177,
             "by_archetype": {
                 "MonoGeo": 0,
@@ -2037,7 +2086,8 @@ const STATS = {
                 "Hyperbloom": 39,
                 "Quickbloom": 0,
                 "HyperFridge": 51,
-                "Bain-Marie": 0
+                "Bain-Marie": 0,
+                "Burningload": 0
             },
             "by_viability": {
                 "Recommended": 9,
@@ -2076,18 +2126,19 @@ const STATS = {
                 "Hyperbloom": 7,
                 "Quickbloom": 0,
                 "HyperFridge": 1,
-                "Bain-Marie": 0
+                "Bain-Marie": 0,
+                "Burningload": 0
             },
             "ranking_by_element": 3,
             "ranking_by_viability": {
-                "Recommended": 47,
+                "Recommended": 48,
                 "Viable": 3,
                 "For fun": 3,
                 "Unique": 13
             }
         },
         "Xinyan": {
-            "team_count_ranking": 74,
+            "team_count_ranking": 75,
             "team_count": 5,
             "by_archetype": {
                 "MonoGeo": 0,
@@ -2117,7 +2168,8 @@ const STATS = {
                 "Hyperbloom": 0,
                 "Quickbloom": 0,
                 "HyperFridge": 0,
-                "Bain-Marie": 0
+                "Bain-Marie": 0,
+                "Burningload": 0
             },
             "by_viability": {
                 "Recommended": 0,
@@ -2132,7 +2184,7 @@ const STATS = {
                 "MonoGeo": 0,
                 "MonoHydro": 0,
                 "MonoCryo": 0,
-                "MonoPyro": 11,
+                "MonoPyro": 13,
                 "MonoElectro": 0,
                 "Hypercarry": 0,
                 "Freeze": 0,
@@ -2156,7 +2208,8 @@ const STATS = {
                 "Hyperbloom": 0,
                 "Quickbloom": 0,
                 "HyperFridge": 0,
-                "Bain-Marie": 0
+                "Bain-Marie": 0,
+                "Burningload": 0
             },
             "ranking_by_element": 14,
             "ranking_by_viability": {
@@ -2197,7 +2250,8 @@ const STATS = {
                 "Hyperbloom": 5,
                 "Quickbloom": 4,
                 "HyperFridge": 0,
-                "Bain-Marie": 0
+                "Bain-Marie": 0,
+                "Burningload": 0
             },
             "by_viability": {
                 "Recommended": 32,
@@ -2213,7 +2267,7 @@ const STATS = {
                 "MonoGeo": 12,
                 "MonoHydro": 11,
                 "MonoCryo": 9,
-                "MonoPyro": 5,
+                "MonoPyro": 6,
                 "MonoElectro": 0,
                 "Hypercarry": 6,
                 "Freeze": 0,
@@ -2237,7 +2291,8 @@ const STATS = {
                 "Hyperbloom": 20,
                 "Quickbloom": 14,
                 "HyperFridge": 0,
-                "Bain-Marie": 0
+                "Bain-Marie": 0,
+                "Burningload": 0
             },
             "ranking_by_element": 1,
             "ranking_by_viability": {
@@ -2278,7 +2333,8 @@ const STATS = {
                 "Hyperbloom": 4,
                 "Quickbloom": 5,
                 "HyperFridge": 0,
-                "Bain-Marie": 0
+                "Bain-Marie": 0,
+                "Burningload": 0
             },
             "by_viability": {
                 "Recommended": 16,
@@ -2294,7 +2350,7 @@ const STATS = {
                 "MonoGeo": 5,
                 "MonoHydro": 0,
                 "MonoCryo": 0,
-                "MonoPyro": 21,
+                "MonoPyro": 25,
                 "MonoElectro": 0,
                 "Hypercarry": 13,
                 "Freeze": 0,
@@ -2318,7 +2374,8 @@ const STATS = {
                 "Hyperbloom": 22,
                 "Quickbloom": 12,
                 "HyperFridge": 0,
-                "Bain-Marie": 0
+                "Bain-Marie": 0,
+                "Burningload": 0
             },
             "ranking_by_element": 4,
             "ranking_by_viability": {
@@ -2359,7 +2416,8 @@ const STATS = {
                 "Hyperbloom": 0,
                 "Quickbloom": 0,
                 "HyperFridge": 21,
-                "Bain-Marie": 0
+                "Bain-Marie": 0,
+                "Burningload": 0
             },
             "by_viability": {
                 "Recommended": 28,
@@ -2399,7 +2457,8 @@ const STATS = {
                 "Hyperbloom": 0,
                 "Quickbloom": 0,
                 "HyperFridge": 9,
-                "Bain-Marie": 0
+                "Bain-Marie": 0,
+                "Burningload": 0
             },
             "ranking_by_element": 4,
             "ranking_by_viability": {
@@ -2410,7 +2469,7 @@ const STATS = {
             }
         },
         "Xiao": {
-            "team_count_ranking": 70,
+            "team_count_ranking": 71,
             "team_count": 7,
             "by_archetype": {
                 "MonoGeo": 0,
@@ -2440,7 +2499,8 @@ const STATS = {
                 "Hyperbloom": 0,
                 "Quickbloom": 0,
                 "HyperFridge": 0,
-                "Bain-Marie": 0
+                "Bain-Marie": 0,
+                "Burningload": 0
             },
             "by_viability": {
                 "Recommended": 2,
@@ -2479,11 +2539,12 @@ const STATS = {
                 "Hyperbloom": 0,
                 "Quickbloom": 0,
                 "HyperFridge": 0,
-                "Bain-Marie": 0
+                "Bain-Marie": 0,
+                "Burningload": 0
             },
             "ranking_by_element": 9,
             "ranking_by_viability": {
-                "Recommended": 65,
+                "Recommended": 67,
                 "Viable": 66,
                 "For fun": 0,
                 "Unique": 0
@@ -2520,7 +2581,8 @@ const STATS = {
                 "Hyperbloom": 0,
                 "Quickbloom": 0,
                 "HyperFridge": 0,
-                "Bain-Marie": 0
+                "Bain-Marie": 0,
+                "Burningload": 0
             },
             "by_viability": {
                 "Recommended": 18,
@@ -2559,7 +2621,8 @@ const STATS = {
                 "Hyperbloom": 0,
                 "Quickbloom": 0,
                 "HyperFridge": 0,
-                "Bain-Marie": 0
+                "Bain-Marie": 0,
+                "Burningload": 0
             },
             "ranking_by_element": 13,
             "ranking_by_viability": {
@@ -2600,7 +2663,8 @@ const STATS = {
                 "Hyperbloom": 0,
                 "Quickbloom": 0,
                 "HyperFridge": 21,
-                "Bain-Marie": 0
+                "Bain-Marie": 0,
+                "Burningload": 0
             },
             "by_viability": {
                 "Recommended": 21,
@@ -2640,7 +2704,8 @@ const STATS = {
                 "Hyperbloom": 0,
                 "Quickbloom": 0,
                 "HyperFridge": 9,
-                "Bain-Marie": 0
+                "Bain-Marie": 0,
+                "Burningload": 0
             },
             "ranking_by_element": 1,
             "ranking_by_viability": {
@@ -2651,13 +2716,13 @@ const STATS = {
             }
         },
         "Yanfei": {
-            "team_count_ranking": 50,
-            "team_count": 27,
+            "team_count_ranking": 49,
+            "team_count": 28,
             "by_archetype": {
                 "MonoGeo": 0,
                 "MonoHydro": 0,
                 "MonoCryo": 0,
-                "MonoPyro": 5,
+                "MonoPyro": 6,
                 "MonoElectro": 0,
                 "Hypercarry": 0,
                 "Freeze": 0,
@@ -2681,23 +2746,24 @@ const STATS = {
                 "Hyperbloom": 0,
                 "Quickbloom": 0,
                 "HyperFridge": 0,
-                "Bain-Marie": 0
+                "Bain-Marie": 0,
+                "Burningload": 0
             },
             "by_viability": {
-                "Recommended": 1,
+                "Recommended": 2,
                 "Viable": 26,
                 "For fun": 0,
                 "Unique": 0
             },
             "by_build": {
-                "Standard": 20,
+                "Standard": 21,
                 "Tankfei": 7
             },
             "ranking_by_archetype": {
                 "MonoGeo": 0,
                 "MonoHydro": 0,
                 "MonoCryo": 0,
-                "MonoPyro": 10,
+                "MonoPyro": 11,
                 "MonoElectro": 0,
                 "Hypercarry": 0,
                 "Freeze": 0,
@@ -2721,18 +2787,19 @@ const STATS = {
                 "Hyperbloom": 0,
                 "Quickbloom": 0,
                 "HyperFridge": 0,
-                "Bain-Marie": 0
+                "Bain-Marie": 0,
+                "Burningload": 0
             },
-            "ranking_by_element": 12,
+            "ranking_by_element": 11,
             "ranking_by_viability": {
-                "Recommended": 68,
+                "Recommended": 67,
                 "Viable": 35,
                 "For fun": 0,
                 "Unique": 0
             }
         },
         "Eula": {
-            "team_count_ranking": 64,
+            "team_count_ranking": 65,
             "team_count": 11,
             "by_archetype": {
                 "MonoGeo": 0,
@@ -2762,7 +2829,8 @@ const STATS = {
                 "Hyperbloom": 0,
                 "Quickbloom": 0,
                 "HyperFridge": 4,
-                "Bain-Marie": 0
+                "Bain-Marie": 0,
+                "Burningload": 0
             },
             "by_viability": {
                 "Recommended": 6,
@@ -2779,7 +2847,7 @@ const STATS = {
                 "MonoCryo": 4,
                 "MonoPyro": 0,
                 "MonoElectro": 0,
-                "Hypercarry": 35,
+                "Hypercarry": 36,
                 "Freeze": 0,
                 "National": 0,
                 "Vaporize": 35,
@@ -2801,24 +2869,25 @@ const STATS = {
                 "Hyperbloom": 0,
                 "Quickbloom": 0,
                 "HyperFridge": 19,
-                "Bain-Marie": 0
+                "Bain-Marie": 0,
+                "Burningload": 0
             },
             "ranking_by_element": 13,
             "ranking_by_viability": {
-                "Recommended": 52,
+                "Recommended": 53,
                 "Viable": 66,
                 "For fun": 0,
                 "Unique": 0
             }
         },
         "Kaedehara Kazuha": {
-            "team_count_ranking": 9,
-            "team_count": 170,
+            "team_count_ranking": 6,
+            "team_count": 179,
             "by_archetype": {
                 "MonoGeo": 0,
                 "MonoHydro": 6,
                 "MonoCryo": 4,
-                "MonoPyro": 16,
+                "MonoPyro": 23,
                 "MonoElectro": 0,
                 "Hypercarry": 16,
                 "Freeze": 48,
@@ -2838,26 +2907,27 @@ const STATS = {
                 "Sauté": 7,
                 "Fridge": 4,
                 "Salad": 0,
-                "Airfryer": 1,
+                "Airfryer": 3,
                 "Hyperbloom": 7,
                 "Quickbloom": 0,
                 "HyperFridge": 0,
-                "Bain-Marie": 0
+                "Bain-Marie": 0,
+                "Burningload": 0
             },
             "by_viability": {
-                "Recommended": 65,
-                "Viable": 73,
+                "Recommended": 72,
+                "Viable": 75,
                 "For fun": 30,
                 "Unique": 2
             },
             "by_build": {
-                "Standard": 170
+                "Standard": 179
             },
             "ranking_by_archetype": {
                 "MonoGeo": 0,
                 "MonoHydro": 6,
                 "MonoCryo": 2,
-                "MonoPyro": 4,
+                "MonoPyro": 3,
                 "MonoElectro": 0,
                 "Hypercarry": 15,
                 "Freeze": 2,
@@ -2881,11 +2951,12 @@ const STATS = {
                 "Hyperbloom": 16,
                 "Quickbloom": 0,
                 "HyperFridge": 0,
-                "Bain-Marie": 0
+                "Bain-Marie": 0,
+                "Burningload": 0
             },
             "ranking_by_element": 1,
             "ranking_by_viability": {
-                "Recommended": 11,
+                "Recommended": 10,
                 "Viable": 11,
                 "For fun": 2,
                 "Unique": 8
@@ -2922,7 +2993,8 @@ const STATS = {
                 "Hyperbloom": 0,
                 "Quickbloom": 0,
                 "HyperFridge": 4,
-                "Bain-Marie": 0
+                "Bain-Marie": 0,
+                "Burningload": 0
             },
             "by_viability": {
                 "Recommended": 16,
@@ -2961,12 +3033,13 @@ const STATS = {
                 "Hyperbloom": 0,
                 "Quickbloom": 0,
                 "HyperFridge": 19,
-                "Bain-Marie": 0
+                "Bain-Marie": 0,
+                "Burningload": 0
             },
             "ranking_by_element": 11,
             "ranking_by_viability": {
                 "Recommended": 30,
-                "Viable": 78,
+                "Viable": 79,
                 "For fun": 30,
                 "Unique": 0
             }
@@ -3002,7 +3075,8 @@ const STATS = {
                 "Hyperbloom": 0,
                 "Quickbloom": 2,
                 "HyperFridge": 0,
-                "Bain-Marie": 0
+                "Bain-Marie": 0,
+                "Burningload": 0
             },
             "by_viability": {
                 "Recommended": 16,
@@ -3017,7 +3091,7 @@ const STATS = {
                 "MonoGeo": 0,
                 "MonoHydro": 9,
                 "MonoCryo": 0,
-                "MonoPyro": 21,
+                "MonoPyro": 25,
                 "MonoElectro": 0,
                 "Hypercarry": 30,
                 "Freeze": 0,
@@ -3041,24 +3115,25 @@ const STATS = {
                 "Hyperbloom": 0,
                 "Quickbloom": 19,
                 "HyperFridge": 0,
-                "Bain-Marie": 0
+                "Bain-Marie": 0,
+                "Burningload": 0
             },
             "ranking_by_element": 6,
             "ranking_by_viability": {
                 "Recommended": 30,
-                "Viable": 43,
+                "Viable": 44,
                 "For fun": 30,
                 "Unique": 0
             }
         },
         "Yoimiya": {
             "team_count_ranking": 32,
-            "team_count": 52,
+            "team_count": 53,
             "by_archetype": {
                 "MonoGeo": 0,
                 "MonoHydro": 0,
                 "MonoCryo": 0,
-                "MonoPyro": 1,
+                "MonoPyro": 2,
                 "MonoElectro": 0,
                 "Hypercarry": 0,
                 "Freeze": 0,
@@ -3082,22 +3157,23 @@ const STATS = {
                 "Hyperbloom": 0,
                 "Quickbloom": 0,
                 "HyperFridge": 0,
-                "Bain-Marie": 0
+                "Bain-Marie": 0,
+                "Burningload": 0
             },
             "by_viability": {
-                "Recommended": 17,
+                "Recommended": 18,
                 "Viable": 35,
                 "For fun": 0,
                 "Unique": 0
             },
             "by_build": {
-                "Standard": 52
+                "Standard": 53
             },
             "ranking_by_archetype": {
                 "MonoGeo": 0,
                 "MonoHydro": 0,
                 "MonoCryo": 0,
-                "MonoPyro": 21,
+                "MonoPyro": 20,
                 "MonoElectro": 0,
                 "Hypercarry": 0,
                 "Freeze": 0,
@@ -3121,18 +3197,19 @@ const STATS = {
                 "Hyperbloom": 0,
                 "Quickbloom": 0,
                 "HyperFridge": 0,
-                "Bain-Marie": 0
+                "Bain-Marie": 0,
+                "Burningload": 0
             },
             "ranking_by_element": 6,
             "ranking_by_viability": {
-                "Recommended": 28,
+                "Recommended": 26,
                 "Viable": 28,
                 "For fun": 0,
                 "Unique": 0
             }
         },
         "Aloy": {
-            "team_count_ranking": 84,
+            "team_count_ranking": 85,
             "team_count": 1,
             "by_archetype": {
                 "MonoGeo": 0,
@@ -3162,7 +3239,8 @@ const STATS = {
                 "Hyperbloom": 0,
                 "Quickbloom": 0,
                 "HyperFridge": 0,
-                "Bain-Marie": 0
+                "Bain-Marie": 0,
+                "Burningload": 0
             },
             "by_viability": {
                 "Recommended": 0,
@@ -3201,18 +3279,19 @@ const STATS = {
                 "Hyperbloom": 0,
                 "Quickbloom": 0,
                 "HyperFridge": 0,
-                "Bain-Marie": 0
+                "Bain-Marie": 0,
+                "Burningload": 0
             },
             "ranking_by_element": 15,
             "ranking_by_viability": {
                 "Recommended": 0,
-                "Viable": 78,
+                "Viable": 79,
                 "For fun": 0,
                 "Unique": 0
             }
         },
         "Kujou Sara": {
-            "team_count_ranking": 66,
+            "team_count_ranking": 67,
             "team_count": 8,
             "by_archetype": {
                 "MonoGeo": 0,
@@ -3242,7 +3321,8 @@ const STATS = {
                 "Hyperbloom": 0,
                 "Quickbloom": 0,
                 "HyperFridge": 0,
-                "Bain-Marie": 0
+                "Bain-Marie": 0,
+                "Burningload": 0
             },
             "by_viability": {
                 "Recommended": 6,
@@ -3281,18 +3361,19 @@ const STATS = {
                 "Hyperbloom": 0,
                 "Quickbloom": 0,
                 "HyperFridge": 0,
-                "Bain-Marie": 0
+                "Bain-Marie": 0,
+                "Burningload": 0
             },
             "ranking_by_element": 9,
             "ranking_by_viability": {
-                "Recommended": 52,
-                "Viable": 73,
+                "Recommended": 53,
+                "Viable": 74,
                 "For fun": 0,
                 "Unique": 0
             }
         },
         "Raiden Shogun": {
-            "team_count_ranking": 8,
+            "team_count_ranking": 9,
             "team_count": 172,
             "by_archetype": {
                 "MonoGeo": 0,
@@ -3322,7 +3403,8 @@ const STATS = {
                 "Hyperbloom": 56,
                 "Quickbloom": 19,
                 "HyperFridge": 50,
-                "Bain-Marie": 0
+                "Bain-Marie": 0,
+                "Burningload": 0
             },
             "by_viability": {
                 "Recommended": 110,
@@ -3362,7 +3444,8 @@ const STATS = {
                 "Hyperbloom": 2,
                 "Quickbloom": 5,
                 "HyperFridge": 2,
-                "Bain-Marie": 0
+                "Bain-Marie": 0,
+                "Burningload": 0
             },
             "ranking_by_element": 2,
             "ranking_by_viability": {
@@ -3403,7 +3486,8 @@ const STATS = {
                 "Hyperbloom": 5,
                 "Quickbloom": 0,
                 "HyperFridge": 2,
-                "Bain-Marie": 0
+                "Bain-Marie": 0,
+                "Burningload": 0
             },
             "by_viability": {
                 "Recommended": 15,
@@ -3443,7 +3527,8 @@ const STATS = {
                 "Hyperbloom": 20,
                 "Quickbloom": 0,
                 "HyperFridge": 23,
-                "Bain-Marie": 0
+                "Bain-Marie": 0,
+                "Burningload": 0
             },
             "ranking_by_element": 6,
             "ranking_by_viability": {
@@ -3455,12 +3540,12 @@ const STATS = {
         },
         "Thoma": {
             "team_count_ranking": 17,
-            "team_count": 111,
+            "team_count": 113,
             "by_archetype": {
                 "MonoGeo": 0,
                 "MonoHydro": 0,
                 "MonoCryo": 0,
-                "MonoPyro": 1,
+                "MonoPyro": 2,
                 "MonoElectro": 0,
                 "Hypercarry": 0,
                 "Freeze": 0,
@@ -3484,23 +3569,24 @@ const STATS = {
                 "Hyperbloom": 0,
                 "Quickbloom": 0,
                 "HyperFridge": 0,
-                "Bain-Marie": 2
+                "Bain-Marie": 2,
+                "Burningload": 1
             },
             "by_viability": {
-                "Recommended": 37,
-                "Viable": 49,
+                "Recommended": 38,
+                "Viable": 50,
                 "For fun": 25,
                 "Unique": 0
             },
             "by_build": {
-                "Standard": 23,
+                "Standard": 25,
                 "EM": 88
             },
             "ranking_by_archetype": {
                 "MonoGeo": 0,
                 "MonoHydro": 0,
                 "MonoCryo": 0,
-                "MonoPyro": 21,
+                "MonoPyro": 20,
                 "MonoElectro": 0,
                 "Hypercarry": 0,
                 "Freeze": 0,
@@ -3524,7 +3610,8 @@ const STATS = {
                 "Hyperbloom": 0,
                 "Quickbloom": 0,
                 "HyperFridge": 0,
-                "Bain-Marie": 3
+                "Bain-Marie": 3,
+                "Burningload": 1
             },
             "ranking_by_element": 3,
             "ranking_by_viability": {
@@ -3535,7 +3622,7 @@ const STATS = {
             }
         },
         "Arataki Itto": {
-            "team_count_ranking": 63,
+            "team_count_ranking": 64,
             "team_count": 12,
             "by_archetype": {
                 "MonoGeo": 11,
@@ -3565,7 +3652,8 @@ const STATS = {
                 "Hyperbloom": 0,
                 "Quickbloom": 0,
                 "HyperFridge": 0,
-                "Bain-Marie": 0
+                "Bain-Marie": 0,
+                "Burningload": 0
             },
             "by_viability": {
                 "Recommended": 4,
@@ -3604,11 +3692,12 @@ const STATS = {
                 "Hyperbloom": 0,
                 "Quickbloom": 0,
                 "HyperFridge": 0,
-                "Bain-Marie": 0
+                "Bain-Marie": 0,
+                "Burningload": 0
             },
             "ranking_by_element": 8,
             "ranking_by_viability": {
-                "Recommended": 56,
+                "Recommended": 58,
                 "Viable": 60,
                 "For fun": 0,
                 "Unique": 0
@@ -3645,7 +3734,8 @@ const STATS = {
                 "Hyperbloom": 0,
                 "Quickbloom": 0,
                 "HyperFridge": 0,
-                "Bain-Marie": 0
+                "Bain-Marie": 0,
+                "Burningload": 0
             },
             "by_viability": {
                 "Recommended": 10,
@@ -3684,11 +3774,12 @@ const STATS = {
                 "Hyperbloom": 0,
                 "Quickbloom": 0,
                 "HyperFridge": 0,
-                "Bain-Marie": 0
+                "Bain-Marie": 0,
+                "Burningload": 0
             },
             "ranking_by_element": 6,
             "ranking_by_viability": {
-                "Recommended": 45,
+                "Recommended": 46,
                 "Viable": 57,
                 "For fun": 0,
                 "Unique": 0
@@ -3725,7 +3816,8 @@ const STATS = {
                 "Hyperbloom": 0,
                 "Quickbloom": 0,
                 "HyperFridge": 0,
-                "Bain-Marie": 0
+                "Bain-Marie": 0,
+                "Burningload": 0
             },
             "by_viability": {
                 "Recommended": 4,
@@ -3764,11 +3856,12 @@ const STATS = {
                 "Hyperbloom": 0,
                 "Quickbloom": 0,
                 "HyperFridge": 0,
-                "Bain-Marie": 0
+                "Bain-Marie": 0,
+                "Burningload": 0
             },
             "ranking_by_element": 7,
             "ranking_by_viability": {
-                "Recommended": 56,
+                "Recommended": 58,
                 "Viable": 52,
                 "For fun": 0,
                 "Unique": 0
@@ -3805,7 +3898,8 @@ const STATS = {
                 "Hyperbloom": 0,
                 "Quickbloom": 0,
                 "HyperFridge": 0,
-                "Bain-Marie": 0
+                "Bain-Marie": 0,
+                "Burningload": 0
             },
             "by_viability": {
                 "Recommended": 6,
@@ -3844,11 +3938,12 @@ const STATS = {
                 "Hyperbloom": 0,
                 "Quickbloom": 0,
                 "HyperFridge": 0,
-                "Bain-Marie": 0
+                "Bain-Marie": 0,
+                "Burningload": 0
             },
             "ranking_by_element": 10,
             "ranking_by_viability": {
-                "Recommended": 52,
+                "Recommended": 53,
                 "Viable": 35,
                 "For fun": 36,
                 "Unique": 0
@@ -3885,7 +3980,8 @@ const STATS = {
                 "Hyperbloom": 7,
                 "Quickbloom": 8,
                 "HyperFridge": 0,
-                "Bain-Marie": 0
+                "Bain-Marie": 0,
+                "Burningload": 0
             },
             "by_viability": {
                 "Recommended": 27,
@@ -3903,7 +3999,7 @@ const STATS = {
                 "MonoCryo": 0,
                 "MonoPyro": 0,
                 "MonoElectro": 0,
-                "Hypercarry": 20,
+                "Hypercarry": 21,
                 "Freeze": 0,
                 "National": 0,
                 "Vaporize": 0,
@@ -3925,7 +4021,8 @@ const STATS = {
                 "Hyperbloom": 16,
                 "Quickbloom": 10,
                 "HyperFridge": 0,
-                "Bain-Marie": 0
+                "Bain-Marie": 0,
+                "Burningload": 0
             },
             "ranking_by_element": 4,
             "ranking_by_viability": {
@@ -3966,7 +4063,8 @@ const STATS = {
                 "Hyperbloom": 4,
                 "Quickbloom": 0,
                 "HyperFridge": 0,
-                "Bain-Marie": 0
+                "Bain-Marie": 0,
+                "Burningload": 0
             },
             "by_viability": {
                 "Recommended": 13,
@@ -4005,7 +4103,8 @@ const STATS = {
                 "Hyperbloom": 22,
                 "Quickbloom": 0,
                 "HyperFridge": 0,
-                "Bain-Marie": 0
+                "Bain-Marie": 0,
+                "Burningload": 0
             },
             "ranking_by_element": 8,
             "ranking_by_viability": {
@@ -4016,7 +4115,7 @@ const STATS = {
             }
         },
         "Yelan": {
-            "team_count_ranking": 6,
+            "team_count_ranking": 7,
             "team_count": 177,
             "by_archetype": {
                 "MonoGeo": 3,
@@ -4046,7 +4145,8 @@ const STATS = {
                 "Hyperbloom": 14,
                 "Quickbloom": 0,
                 "HyperFridge": 2,
-                "Bain-Marie": 0
+                "Bain-Marie": 0,
+                "Burningload": 0
             },
             "by_viability": {
                 "Recommended": 68,
@@ -4085,11 +4185,12 @@ const STATS = {
                 "Hyperbloom": 12,
                 "Quickbloom": 0,
                 "HyperFridge": 23,
-                "Bain-Marie": 0
+                "Bain-Marie": 0,
+                "Burningload": 0
             },
             "ranking_by_element": 3,
             "ranking_by_viability": {
-                "Recommended": 10,
+                "Recommended": 11,
                 "Viable": 8,
                 "For fun": 10,
                 "Unique": 13
@@ -4126,7 +4227,8 @@ const STATS = {
                 "Hyperbloom": 53,
                 "Quickbloom": 17,
                 "HyperFridge": 47,
-                "Bain-Marie": 0
+                "Bain-Marie": 0,
+                "Burningload": 0
             },
             "by_viability": {
                 "Recommended": 64,
@@ -4143,7 +4245,7 @@ const STATS = {
                 "MonoCryo": 0,
                 "MonoPyro": 0,
                 "MonoElectro": 0,
-                "Hypercarry": 35,
+                "Hypercarry": 36,
                 "Freeze": 0,
                 "National": 0,
                 "Vaporize": 35,
@@ -4165,7 +4267,8 @@ const STATS = {
                 "Hyperbloom": 4,
                 "Quickbloom": 6,
                 "HyperFridge": 3,
-                "Bain-Marie": 0
+                "Bain-Marie": 0,
+                "Burningload": 0
             },
             "ranking_by_element": 3,
             "ranking_by_viability": {
@@ -4176,7 +4279,7 @@ const STATS = {
             }
         },
         "Shikanoin Heizou": {
-            "team_count_ranking": 80,
+            "team_count_ranking": 81,
             "team_count": 2,
             "by_archetype": {
                 "MonoGeo": 0,
@@ -4206,7 +4309,8 @@ const STATS = {
                 "Hyperbloom": 0,
                 "Quickbloom": 0,
                 "HyperFridge": 0,
-                "Bain-Marie": 0
+                "Bain-Marie": 0,
+                "Burningload": 0
             },
             "by_viability": {
                 "Recommended": 0,
@@ -4245,18 +4349,19 @@ const STATS = {
                 "Hyperbloom": 0,
                 "Quickbloom": 0,
                 "HyperFridge": 0,
-                "Bain-Marie": 0
+                "Bain-Marie": 0,
+                "Burningload": 0
             },
             "ranking_by_element": 11,
             "ranking_by_viability": {
                 "Recommended": 0,
-                "Viable": 73,
+                "Viable": 74,
                 "For fun": 0,
                 "Unique": 0
             }
         },
         "Tighnari": {
-            "team_count_ranking": 77,
+            "team_count_ranking": 79,
             "team_count": 4,
             "by_archetype": {
                 "MonoGeo": 0,
@@ -4286,7 +4391,8 @@ const STATS = {
                 "Hyperbloom": 0,
                 "Quickbloom": 4,
                 "HyperFridge": 0,
-                "Bain-Marie": 0
+                "Bain-Marie": 0,
+                "Burningload": 0
             },
             "by_viability": {
                 "Recommended": 4,
@@ -4325,11 +4431,12 @@ const STATS = {
                 "Hyperbloom": 0,
                 "Quickbloom": 14,
                 "HyperFridge": 0,
-                "Bain-Marie": 0
+                "Bain-Marie": 0,
+                "Burningload": 0
             },
-            "ranking_by_element": 9,
+            "ranking_by_element": 10,
             "ranking_by_viability": {
-                "Recommended": 56,
+                "Recommended": 58,
                 "Viable": 0,
                 "For fun": 0,
                 "Unique": 0
@@ -4366,7 +4473,8 @@ const STATS = {
                 "Hyperbloom": 9,
                 "Quickbloom": 0,
                 "HyperFridge": 0,
-                "Bain-Marie": 0
+                "Bain-Marie": 0,
+                "Burningload": 0
             },
             "by_viability": {
                 "Recommended": 1,
@@ -4405,11 +4513,12 @@ const STATS = {
                 "Hyperbloom": 13,
                 "Quickbloom": 0,
                 "HyperFridge": 0,
-                "Bain-Marie": 0
+                "Bain-Marie": 0,
+                "Burningload": 0
             },
             "ranking_by_element": 5,
             "ranking_by_viability": {
-                "Recommended": 68,
+                "Recommended": 70,
                 "Viable": 52,
                 "For fun": 30,
                 "Unique": 0
@@ -4446,7 +4555,8 @@ const STATS = {
                 "Hyperbloom": 23,
                 "Quickbloom": 0,
                 "HyperFridge": 17,
-                "Bain-Marie": 0
+                "Bain-Marie": 0,
+                "Burningload": 0
             },
             "by_viability": {
                 "Recommended": 4,
@@ -4487,18 +4597,19 @@ const STATS = {
                 "Hyperbloom": 8,
                 "Quickbloom": 0,
                 "HyperFridge": 11,
-                "Bain-Marie": 0
+                "Bain-Marie": 0,
+                "Burningload": 0
             },
             "ranking_by_element": 6,
             "ranking_by_viability": {
-                "Recommended": 56,
+                "Recommended": 58,
                 "Viable": 30,
                 "For fun": 21,
                 "Unique": 0
             }
         },
         "Candace": {
-            "team_count_ranking": 74,
+            "team_count_ranking": 75,
             "team_count": 5,
             "by_archetype": {
                 "MonoGeo": 0,
@@ -4528,7 +4639,8 @@ const STATS = {
                 "Hyperbloom": 0,
                 "Quickbloom": 0,
                 "HyperFridge": 0,
-                "Bain-Marie": 0
+                "Bain-Marie": 0,
+                "Burningload": 0
             },
             "by_viability": {
                 "Recommended": 0,
@@ -4568,7 +4680,8 @@ const STATS = {
                 "Hyperbloom": 0,
                 "Quickbloom": 0,
                 "HyperFridge": 0,
-                "Bain-Marie": 0
+                "Bain-Marie": 0,
+                "Burningload": 0
             },
             "ranking_by_element": 11,
             "ranking_by_viability": {
@@ -4580,7 +4693,7 @@ const STATS = {
         },
         "Cyno": {
             "team_count_ranking": 44,
-            "team_count": 35,
+            "team_count": 36,
             "by_archetype": {
                 "MonoGeo": 0,
                 "MonoHydro": 0,
@@ -4609,16 +4722,17 @@ const STATS = {
                 "Hyperbloom": 4,
                 "Quickbloom": 28,
                 "HyperFridge": 0,
-                "Bain-Marie": 0
+                "Bain-Marie": 0,
+                "Burningload": 1
             },
             "by_viability": {
                 "Recommended": 16,
-                "Viable": 19,
+                "Viable": 20,
                 "For fun": 0,
                 "Unique": 0
             },
             "by_build": {
-                "Standard": 9,
+                "Standard": 10,
                 "SoloElectro": 26
             },
             "ranking_by_archetype": {
@@ -4649,7 +4763,8 @@ const STATS = {
                 "Hyperbloom": 22,
                 "Quickbloom": 3,
                 "HyperFridge": 0,
-                "Bain-Marie": 0
+                "Bain-Marie": 0,
+                "Burningload": 1
             },
             "ranking_by_element": 7,
             "ranking_by_viability": {
@@ -4660,7 +4775,7 @@ const STATS = {
             }
         },
         "Nilou": {
-            "team_count_ranking": 66,
+            "team_count_ranking": 67,
             "team_count": 8,
             "by_archetype": {
                 "MonoGeo": 0,
@@ -4690,7 +4805,8 @@ const STATS = {
                 "Hyperbloom": 0,
                 "Quickbloom": 0,
                 "HyperFridge": 0,
-                "Bain-Marie": 0
+                "Bain-Marie": 0,
+                "Burningload": 0
             },
             "by_viability": {
                 "Recommended": 2,
@@ -4729,11 +4845,12 @@ const STATS = {
                 "Hyperbloom": 0,
                 "Quickbloom": 0,
                 "HyperFridge": 0,
-                "Bain-Marie": 0
+                "Bain-Marie": 0,
+                "Burningload": 0
             },
             "ranking_by_element": 10,
             "ranking_by_viability": {
-                "Recommended": 65,
+                "Recommended": 67,
                 "Viable": 63,
                 "For fun": 0,
                 "Unique": 0
@@ -4741,7 +4858,7 @@ const STATS = {
         },
         "Nahida": {
             "team_count_ranking": 5,
-            "team_count": 206,
+            "team_count": 207,
             "by_archetype": {
                 "MonoGeo": 0,
                 "MonoHydro": 0,
@@ -4766,20 +4883,21 @@ const STATS = {
                 "Sauté": 5,
                 "Fridge": 0,
                 "Salad": 0,
-                "Airfryer": 1,
+                "Airfryer": 2,
                 "Hyperbloom": 64,
                 "Quickbloom": 17,
                 "HyperFridge": 33,
-                "Bain-Marie": 0
+                "Bain-Marie": 0,
+                "Burningload": 0
             },
             "by_viability": {
                 "Recommended": 75,
-                "Viable": 118,
+                "Viable": 119,
                 "For fun": 6,
                 "Unique": 7
             },
             "by_build": {
-                "Standard": 205,
+                "Standard": 206,
                 "EM": 1
             },
             "ranking_by_archetype": {
@@ -4806,11 +4924,12 @@ const STATS = {
                 "Sauté": 3,
                 "Fridge": 0,
                 "Salad": 0,
-                "Airfryer": 1,
+                "Airfryer": 3,
                 "Hyperbloom": 1,
                 "Quickbloom": 6,
                 "HyperFridge": 5,
-                "Bain-Marie": 0
+                "Bain-Marie": 0,
+                "Burningload": 0
             },
             "ranking_by_element": 1,
             "ranking_by_viability": {
@@ -4851,7 +4970,8 @@ const STATS = {
                 "Hyperbloom": 0,
                 "Quickbloom": 0,
                 "HyperFridge": 15,
-                "Bain-Marie": 0
+                "Bain-Marie": 0,
+                "Burningload": 0
             },
             "by_viability": {
                 "Recommended": 18,
@@ -4866,9 +4986,9 @@ const STATS = {
                 "MonoGeo": 0,
                 "MonoHydro": 0,
                 "MonoCryo": 4,
-                "MonoPyro": 11,
+                "MonoPyro": 13,
                 "MonoElectro": 0,
-                "Hypercarry": 35,
+                "Hypercarry": 36,
                 "Freeze": 16,
                 "National": 0,
                 "Vaporize": 32,
@@ -4890,7 +5010,8 @@ const STATS = {
                 "Hyperbloom": 0,
                 "Quickbloom": 0,
                 "HyperFridge": 14,
-                "Bain-Marie": 0
+                "Bain-Marie": 0,
+                "Burningload": 0
             },
             "ranking_by_element": 6,
             "ranking_by_viability": {
@@ -4902,14 +5023,14 @@ const STATS = {
         },
         "Faruzan": {
             "team_count_ranking": 65,
-            "team_count": 10,
+            "team_count": 11,
             "by_archetype": {
                 "MonoGeo": 0,
                 "MonoHydro": 0,
                 "MonoCryo": 0,
                 "MonoPyro": 0,
                 "MonoElectro": 0,
-                "Hypercarry": 10,
+                "Hypercarry": 11,
                 "Freeze": 0,
                 "National": 0,
                 "Vaporize": 0,
@@ -4931,16 +5052,17 @@ const STATS = {
                 "Hyperbloom": 0,
                 "Quickbloom": 0,
                 "HyperFridge": 0,
-                "Bain-Marie": 0
+                "Bain-Marie": 0,
+                "Burningload": 0
             },
             "by_viability": {
-                "Recommended": 4,
+                "Recommended": 5,
                 "Viable": 6,
                 "For fun": 0,
                 "Unique": 0
             },
             "by_build": {
-                "Standard": 10
+                "Standard": 11
             },
             "ranking_by_archetype": {
                 "MonoGeo": 0,
@@ -4948,7 +5070,7 @@ const STATS = {
                 "MonoCryo": 0,
                 "MonoPyro": 0,
                 "MonoElectro": 0,
-                "Hypercarry": 20,
+                "Hypercarry": 18,
                 "Freeze": 0,
                 "National": 0,
                 "Vaporize": 0,
@@ -4970,26 +5092,27 @@ const STATS = {
                 "Hyperbloom": 0,
                 "Quickbloom": 0,
                 "HyperFridge": 0,
-                "Bain-Marie": 0
+                "Bain-Marie": 0,
+                "Burningload": 0
             },
             "ranking_by_element": 8,
             "ranking_by_viability": {
-                "Recommended": 56,
+                "Recommended": 57,
                 "Viable": 63,
                 "For fun": 0,
                 "Unique": 0
             }
         },
         "Wanderer": {
-            "team_count_ranking": 77,
-            "team_count": 4,
+            "team_count_ranking": 75,
+            "team_count": 5,
             "by_archetype": {
                 "MonoGeo": 0,
                 "MonoHydro": 0,
                 "MonoCryo": 0,
                 "MonoPyro": 0,
                 "MonoElectro": 0,
-                "Hypercarry": 4,
+                "Hypercarry": 5,
                 "Freeze": 0,
                 "National": 0,
                 "Vaporize": 0,
@@ -5011,16 +5134,17 @@ const STATS = {
                 "Hyperbloom": 0,
                 "Quickbloom": 0,
                 "HyperFridge": 0,
-                "Bain-Marie": 0
+                "Bain-Marie": 0,
+                "Burningload": 0
             },
             "by_viability": {
-                "Recommended": 2,
+                "Recommended": 3,
                 "Viable": 2,
                 "For fun": 0,
                 "Unique": 0
             },
             "by_build": {
-                "Standard": 4
+                "Standard": 5
             },
             "ranking_by_archetype": {
                 "MonoGeo": 0,
@@ -5028,7 +5152,7 @@ const STATS = {
                 "MonoCryo": 0,
                 "MonoPyro": 0,
                 "MonoElectro": 0,
-                "Hypercarry": 35,
+                "Hypercarry": 30,
                 "Freeze": 0,
                 "National": 0,
                 "Vaporize": 0,
@@ -5050,18 +5174,19 @@ const STATS = {
                 "Hyperbloom": 0,
                 "Quickbloom": 0,
                 "HyperFridge": 0,
-                "Bain-Marie": 0
+                "Bain-Marie": 0,
+                "Burningload": 0
             },
             "ranking_by_element": 10,
             "ranking_by_viability": {
-                "Recommended": 65,
-                "Viable": 73,
+                "Recommended": 66,
+                "Viable": 74,
                 "For fun": 0,
                 "Unique": 0
             }
         },
         "Alhaitham": {
-            "team_count_ranking": 66,
+            "team_count_ranking": 67,
             "team_count": 8,
             "by_archetype": {
                 "MonoGeo": 0,
@@ -5091,7 +5216,8 @@ const STATS = {
                 "Hyperbloom": 0,
                 "Quickbloom": 5,
                 "HyperFridge": 0,
-                "Bain-Marie": 0
+                "Bain-Marie": 0,
+                "Burningload": 0
             },
             "by_viability": {
                 "Recommended": 4,
@@ -5130,11 +5256,12 @@ const STATS = {
                 "Hyperbloom": 0,
                 "Quickbloom": 12,
                 "HyperFridge": 0,
-                "Bain-Marie": 0
+                "Bain-Marie": 0,
+                "Burningload": 0
             },
-            "ranking_by_element": 7,
+            "ranking_by_element": 8,
             "ranking_by_viability": {
-                "Recommended": 56,
+                "Recommended": 58,
                 "Viable": 71,
                 "For fun": 0,
                 "Unique": 0
@@ -5171,7 +5298,8 @@ const STATS = {
                 "Hyperbloom": 20,
                 "Quickbloom": 29,
                 "HyperFridge": 30,
-                "Bain-Marie": 2
+                "Bain-Marie": 2,
+                "Burningload": 0
             },
             "by_viability": {
                 "Recommended": 77,
@@ -5210,7 +5338,8 @@ const STATS = {
                 "Hyperbloom": 9,
                 "Quickbloom": 2,
                 "HyperFridge": 6,
-                "Bain-Marie": 3
+                "Bain-Marie": 3,
+                "Burningload": 0
             },
             "ranking_by_element": 2,
             "ranking_by_viability": {
@@ -5251,7 +5380,8 @@ const STATS = {
                 "Hyperbloom": 4,
                 "Quickbloom": 0,
                 "HyperFridge": 0,
-                "Bain-Marie": 0
+                "Bain-Marie": 0,
+                "Burningload": 0
             },
             "by_viability": {
                 "Recommended": 1,
@@ -5267,7 +5397,7 @@ const STATS = {
                 "MonoGeo": 0,
                 "MonoHydro": 0,
                 "MonoCryo": 0,
-                "MonoPyro": 11,
+                "MonoPyro": 13,
                 "MonoElectro": 0,
                 "Hypercarry": 0,
                 "Freeze": 0,
@@ -5291,11 +5421,12 @@ const STATS = {
                 "Hyperbloom": 22,
                 "Quickbloom": 0,
                 "HyperFridge": 0,
-                "Bain-Marie": 0
+                "Bain-Marie": 0,
+                "Burningload": 0
             },
             "ranking_by_element": 10,
             "ranking_by_viability": {
-                "Recommended": 68,
+                "Recommended": 70,
                 "Viable": 45,
                 "For fun": 8,
                 "Unique": 0
@@ -5332,7 +5463,8 @@ const STATS = {
                 "Hyperbloom": 0,
                 "Quickbloom": 2,
                 "HyperFridge": 0,
-                "Bain-Marie": 0
+                "Bain-Marie": 0,
+                "Burningload": 0
             },
             "by_viability": {
                 "Recommended": 12,
@@ -5371,7 +5503,8 @@ const STATS = {
                 "Hyperbloom": 0,
                 "Quickbloom": 19,
                 "HyperFridge": 0,
-                "Bain-Marie": 0
+                "Bain-Marie": 0,
+                "Burningload": 0
             },
             "ranking_by_element": 8,
             "ranking_by_viability": {
@@ -5382,7 +5515,7 @@ const STATS = {
             }
         },
         "Baizhu": {
-            "team_count_ranking": 13,
+            "team_count_ranking": 14,
             "team_count": 138,
             "by_archetype": {
                 "MonoGeo": 0,
@@ -5412,7 +5545,8 @@ const STATS = {
                 "Hyperbloom": 20,
                 "Quickbloom": 27,
                 "HyperFridge": 25,
-                "Bain-Marie": 2
+                "Bain-Marie": 2,
+                "Burningload": 0
             },
             "by_viability": {
                 "Recommended": 73,
@@ -5427,7 +5561,7 @@ const STATS = {
                 "MonoGeo": 0,
                 "MonoHydro": 0,
                 "MonoCryo": 0,
-                "MonoPyro": 11,
+                "MonoPyro": 13,
                 "MonoElectro": 0,
                 "Hypercarry": 46,
                 "Freeze": 0,
@@ -5451,7 +5585,8 @@ const STATS = {
                 "Hyperbloom": 9,
                 "Quickbloom": 4,
                 "HyperFridge": 8,
-                "Bain-Marie": 3
+                "Bain-Marie": 3,
+                "Burningload": 0
             },
             "ranking_by_element": 3,
             "ranking_by_viability": {
@@ -5462,7 +5597,7 @@ const STATS = {
             }
         },
         "Kaveh": {
-            "team_count_ranking": 73,
+            "team_count_ranking": 74,
             "team_count": 6,
             "by_archetype": {
                 "MonoGeo": 0,
@@ -5492,7 +5627,8 @@ const STATS = {
                 "Hyperbloom": 0,
                 "Quickbloom": 0,
                 "HyperFridge": 0,
-                "Bain-Marie": 0
+                "Bain-Marie": 0,
+                "Burningload": 0
             },
             "by_viability": {
                 "Recommended": 0,
@@ -5531,12 +5667,13 @@ const STATS = {
                 "Hyperbloom": 0,
                 "Quickbloom": 0,
                 "HyperFridge": 0,
-                "Bain-Marie": 0
+                "Bain-Marie": 0,
+                "Burningload": 0
             },
-            "ranking_by_element": 8,
+            "ranking_by_element": 9,
             "ranking_by_viability": {
                 "Recommended": 0,
-                "Viable": 78,
+                "Viable": 79,
                 "For fun": 24,
                 "Unique": 0
             }
@@ -5572,7 +5709,8 @@ const STATS = {
                 "Hyperbloom": 2,
                 "Quickbloom": 0,
                 "HyperFridge": 0,
-                "Bain-Marie": 0
+                "Bain-Marie": 0,
+                "Burningload": 0
             },
             "by_viability": {
                 "Recommended": 4,
@@ -5587,7 +5725,7 @@ const STATS = {
                 "MonoGeo": 0,
                 "MonoHydro": 0,
                 "MonoCryo": 0,
-                "MonoPyro": 11,
+                "MonoPyro": 13,
                 "MonoElectro": 0,
                 "Hypercarry": 46,
                 "Freeze": 0,
@@ -5611,11 +5749,12 @@ const STATS = {
                 "Hyperbloom": 28,
                 "Quickbloom": 0,
                 "HyperFridge": 0,
-                "Bain-Marie": 0
+                "Bain-Marie": 0,
+                "Burningload": 0
             },
             "ranking_by_element": 5,
             "ranking_by_viability": {
-                "Recommended": 56,
+                "Recommended": 58,
                 "Viable": 58,
                 "For fun": 36,
                 "Unique": 13
@@ -5623,12 +5762,12 @@ const STATS = {
         },
         "Lyney": {
             "team_count_ranking": 27,
-            "team_count": 61,
+            "team_count": 62,
             "by_archetype": {
                 "MonoGeo": 0,
                 "MonoHydro": 0,
                 "MonoCryo": 0,
-                "MonoPyro": 47,
+                "MonoPyro": 48,
                 "MonoElectro": 0,
                 "Hypercarry": 0,
                 "Freeze": 0,
@@ -5652,16 +5791,17 @@ const STATS = {
                 "Hyperbloom": 0,
                 "Quickbloom": 0,
                 "HyperFridge": 0,
-                "Bain-Marie": 0
+                "Bain-Marie": 0,
+                "Burningload": 0
             },
             "by_viability": {
-                "Recommended": 11,
+                "Recommended": 12,
                 "Viable": 37,
                 "For fun": 13,
                 "Unique": 0
             },
             "by_build": {
-                "Standard": 61
+                "Standard": 62
             },
             "ranking_by_archetype": {
                 "MonoGeo": 0,
@@ -5691,11 +5831,12 @@ const STATS = {
                 "Hyperbloom": 0,
                 "Quickbloom": 0,
                 "HyperFridge": 0,
-                "Bain-Marie": 0
+                "Bain-Marie": 0,
+                "Burningload": 0
             },
             "ranking_by_element": 5,
             "ranking_by_viability": {
-                "Recommended": 42,
+                "Recommended": 40,
                 "Viable": 26,
                 "For fun": 8,
                 "Unique": 0
@@ -5732,7 +5873,8 @@ const STATS = {
                 "Hyperbloom": 0,
                 "Quickbloom": 0,
                 "HyperFridge": 0,
-                "Bain-Marie": 0
+                "Bain-Marie": 0,
+                "Burningload": 0
             },
             "by_viability": {
                 "Recommended": 0,
@@ -5771,7 +5913,8 @@ const STATS = {
                 "Hyperbloom": 0,
                 "Quickbloom": 0,
                 "HyperFridge": 0,
-                "Bain-Marie": 0
+                "Bain-Marie": 0,
+                "Burningload": 0
             },
             "ranking_by_element": 7,
             "ranking_by_viability": {
@@ -5782,7 +5925,7 @@ const STATS = {
             }
         },
         "Freminet": {
-            "team_count_ranking": 21,
+            "team_count_ranking": 22,
             "team_count": 78,
             "by_archetype": {
                 "MonoGeo": 0,
@@ -5812,7 +5955,8 @@ const STATS = {
                 "Hyperbloom": 0,
                 "Quickbloom": 0,
                 "HyperFridge": 8,
-                "Bain-Marie": 0
+                "Bain-Marie": 0,
+                "Burningload": 0
             },
             "by_viability": {
                 "Recommended": 4,
@@ -5853,11 +5997,12 @@ const STATS = {
                 "Hyperbloom": 0,
                 "Quickbloom": 0,
                 "HyperFridge": 18,
-                "Bain-Marie": 0
+                "Bain-Marie": 0,
+                "Burningload": 0
             },
-            "ranking_by_element": 2,
+            "ranking_by_element": 3,
             "ranking_by_viability": {
-                "Recommended": 56,
+                "Recommended": 58,
                 "Viable": 13,
                 "For fun": 10,
                 "Unique": 0
@@ -5894,7 +6039,8 @@ const STATS = {
                 "Hyperbloom": 55,
                 "Quickbloom": 0,
                 "HyperFridge": 16,
-                "Bain-Marie": 0
+                "Bain-Marie": 0,
+                "Burningload": 0
             },
             "by_viability": {
                 "Recommended": 76,
@@ -5933,7 +6079,8 @@ const STATS = {
                 "Hyperbloom": 3,
                 "Quickbloom": 0,
                 "HyperFridge": 13,
-                "Bain-Marie": 0
+                "Bain-Marie": 0,
+                "Burningload": 0
             },
             "ranking_by_element": 5,
             "ranking_by_viability": {
@@ -5945,12 +6092,12 @@ const STATS = {
         },
         "Wriothesley": {
             "team_count_ranking": 21,
-            "team_count": 78,
+            "team_count": 80,
             "by_archetype": {
                 "MonoGeo": 0,
                 "MonoHydro": 0,
                 "MonoCryo": 3,
-                "MonoPyro": 0,
+                "MonoPyro": 2,
                 "MonoElectro": 0,
                 "Hypercarry": 0,
                 "Freeze": 37,
@@ -5974,22 +6121,23 @@ const STATS = {
                 "Hyperbloom": 0,
                 "Quickbloom": 0,
                 "HyperFridge": 13,
-                "Bain-Marie": 4
+                "Bain-Marie": 4,
+                "Burningload": 0
             },
             "by_viability": {
-                "Recommended": 30,
+                "Recommended": 32,
                 "Viable": 48,
                 "For fun": 0,
                 "Unique": 0
             },
             "by_build": {
-                "Standard": 78
+                "Standard": 80
             },
             "ranking_by_archetype": {
                 "MonoGeo": 0,
                 "MonoHydro": 0,
                 "MonoCryo": 3,
-                "MonoPyro": 0,
+                "MonoPyro": 20,
                 "MonoElectro": 0,
                 "Hypercarry": 0,
                 "Freeze": 3,
@@ -6013,11 +6161,12 @@ const STATS = {
                 "Hyperbloom": 0,
                 "Quickbloom": 0,
                 "HyperFridge": 15,
-                "Bain-Marie": 1
+                "Bain-Marie": 1,
+                "Burningload": 0
             },
             "ranking_by_element": 2,
             "ranking_by_viability": {
-                "Recommended": 20,
+                "Recommended": 18,
                 "Viable": 21,
                 "For fun": 0,
                 "Unique": 0
@@ -6025,17 +6174,17 @@ const STATS = {
         },
         "Furina": {
             "team_count_ranking": 1,
-            "team_count": 616,
+            "team_count": 618,
             "by_archetype": {
                 "MonoGeo": 3,
                 "MonoHydro": 23,
                 "MonoCryo": 0,
                 "MonoPyro": 2,
                 "MonoElectro": 0,
-                "Hypercarry": 72,
+                "Hypercarry": 73,
                 "Freeze": 60,
                 "National": 9,
-                "Vaporize": 186,
+                "Vaporize": 187,
                 "Overvape": 8,
                 "Overload": 0,
                 "Taser": 29,
@@ -6054,22 +6203,23 @@ const STATS = {
                 "Hyperbloom": 45,
                 "Quickbloom": 72,
                 "HyperFridge": 35,
-                "Bain-Marie": 4
+                "Bain-Marie": 4,
+                "Burningload": 0
             },
             "by_viability": {
-                "Recommended": 314,
+                "Recommended": 316,
                 "Viable": 285,
                 "For fun": 14,
                 "Unique": 3
             },
             "by_build": {
-                "Standard": 616
+                "Standard": 618
             },
             "ranking_by_archetype": {
                 "MonoGeo": 5,
                 "MonoHydro": 1,
                 "MonoCryo": 0,
-                "MonoPyro": 18,
+                "MonoPyro": 20,
                 "MonoElectro": 0,
                 "Hypercarry": 1,
                 "Freeze": 1,
@@ -6093,7 +6243,8 @@ const STATS = {
                 "Hyperbloom": 6,
                 "Quickbloom": 1,
                 "HyperFridge": 4,
-                "Bain-Marie": 1
+                "Bain-Marie": 1,
+                "Burningload": 0
             },
             "ranking_by_element": 1,
             "ranking_by_viability": {
@@ -6134,7 +6285,8 @@ const STATS = {
                 "Hyperbloom": 0,
                 "Quickbloom": 2,
                 "HyperFridge": 4,
-                "Bain-Marie": 0
+                "Bain-Marie": 0,
+                "Burningload": 0
             },
             "by_viability": {
                 "Recommended": 16,
@@ -6173,7 +6325,8 @@ const STATS = {
                 "Hyperbloom": 0,
                 "Quickbloom": 19,
                 "HyperFridge": 19,
-                "Bain-Marie": 0
+                "Bain-Marie": 0,
+                "Burningload": 0
             },
             "ranking_by_element": 7,
             "ranking_by_viability": {
@@ -6214,7 +6367,8 @@ const STATS = {
                 "Hyperbloom": 8,
                 "Quickbloom": 0,
                 "HyperFridge": 0,
-                "Bain-Marie": 0
+                "Bain-Marie": 0,
+                "Burningload": 0
             },
             "by_viability": {
                 "Recommended": 55,
@@ -6253,7 +6407,8 @@ const STATS = {
                 "Hyperbloom": 14,
                 "Quickbloom": 0,
                 "HyperFridge": 0,
-                "Bain-Marie": 0
+                "Bain-Marie": 0,
+                "Burningload": 0
             },
             "ranking_by_element": 2,
             "ranking_by_viability": {
@@ -6264,7 +6419,7 @@ const STATS = {
             }
         },
         "Chevreuse": {
-            "team_count_ranking": 34,
+            "team_count_ranking": 35,
             "team_count": 47,
             "by_archetype": {
                 "MonoGeo": 0,
@@ -6294,7 +6449,8 @@ const STATS = {
                 "Hyperbloom": 0,
                 "Quickbloom": 0,
                 "HyperFridge": 0,
-                "Bain-Marie": 0
+                "Bain-Marie": 0,
+                "Burningload": 0
             },
             "by_viability": {
                 "Recommended": 16,
@@ -6333,9 +6489,10 @@ const STATS = {
                 "Hyperbloom": 0,
                 "Quickbloom": 0,
                 "HyperFridge": 0,
-                "Bain-Marie": 0
+                "Bain-Marie": 0,
+                "Burningload": 0
             },
-            "ranking_by_element": 8,
+            "ranking_by_element": 9,
             "ranking_by_viability": {
                 "Recommended": 30,
                 "Viable": 35,
@@ -6374,7 +6531,8 @@ const STATS = {
                 "Hyperbloom": 0,
                 "Quickbloom": 3,
                 "HyperFridge": 0,
-                "Bain-Marie": 0
+                "Bain-Marie": 0,
+                "Burningload": 0
             },
             "by_viability": {
                 "Recommended": 45,
@@ -6389,7 +6547,7 @@ const STATS = {
                 "MonoGeo": 5,
                 "MonoHydro": 9,
                 "MonoCryo": 0,
-                "MonoPyro": 21,
+                "MonoPyro": 25,
                 "MonoElectro": 1,
                 "Hypercarry": 11,
                 "Freeze": 7,
@@ -6413,7 +6571,8 @@ const STATS = {
                 "Hyperbloom": 0,
                 "Quickbloom": 18,
                 "HyperFridge": 0,
-                "Bain-Marie": 0
+                "Bain-Marie": 0,
+                "Burningload": 0
             },
             "ranking_by_element": 2,
             "ranking_by_viability": {
@@ -6425,12 +6584,12 @@ const STATS = {
         },
         "Gaming": {
             "team_count_ranking": 34,
-            "team_count": 47,
+            "team_count": 48,
             "by_archetype": {
                 "MonoGeo": 0,
                 "MonoHydro": 0,
                 "MonoCryo": 0,
-                "MonoPyro": 2,
+                "MonoPyro": 3,
                 "MonoElectro": 0,
                 "Hypercarry": 0,
                 "Freeze": 0,
@@ -6454,23 +6613,24 @@ const STATS = {
                 "Hyperbloom": 0,
                 "Quickbloom": 0,
                 "HyperFridge": 0,
-                "Bain-Marie": 0
+                "Bain-Marie": 0,
+                "Burningload": 0
             },
             "by_viability": {
-                "Recommended": 10,
+                "Recommended": 11,
                 "Viable": 37,
                 "For fun": 0,
                 "Unique": 0
             },
             "by_build": {
-                "Standard": 19,
+                "Standard": 20,
                 "EM": 28
             },
             "ranking_by_archetype": {
                 "MonoGeo": 0,
                 "MonoHydro": 0,
                 "MonoCryo": 0,
-                "MonoPyro": 18,
+                "MonoPyro": 19,
                 "MonoElectro": 0,
                 "Hypercarry": 0,
                 "Freeze": 0,
@@ -6494,11 +6654,12 @@ const STATS = {
                 "Hyperbloom": 0,
                 "Quickbloom": 0,
                 "HyperFridge": 0,
-                "Bain-Marie": 0
+                "Bain-Marie": 0,
+                "Burningload": 0
             },
             "ranking_by_element": 8,
             "ranking_by_viability": {
-                "Recommended": 45,
+                "Recommended": 43,
                 "Viable": 26,
                 "For fun": 0,
                 "Unique": 0
@@ -6535,7 +6696,8 @@ const STATS = {
                 "Hyperbloom": 4,
                 "Quickbloom": 4,
                 "HyperFridge": 0,
-                "Bain-Marie": 0
+                "Bain-Marie": 0,
+                "Burningload": 0
             },
             "by_viability": {
                 "Recommended": 19,
@@ -6550,7 +6712,7 @@ const STATS = {
                 "MonoGeo": 2,
                 "MonoHydro": 0,
                 "MonoCryo": 0,
-                "MonoPyro": 18,
+                "MonoPyro": 20,
                 "MonoElectro": 0,
                 "Hypercarry": 8,
                 "Freeze": 0,
@@ -6574,7 +6736,8 @@ const STATS = {
                 "Hyperbloom": 22,
                 "Quickbloom": 14,
                 "HyperFridge": 0,
-                "Bain-Marie": 0
+                "Bain-Marie": 0,
+                "Burningload": 0
             },
             "ranking_by_element": 3,
             "ranking_by_viability": {
@@ -6586,12 +6749,12 @@ const STATS = {
         },
         "Arlecchino": {
             "team_count_ranking": 33,
-            "team_count": 48,
+            "team_count": 49,
             "by_archetype": {
                 "MonoGeo": 0,
                 "MonoHydro": 0,
                 "MonoCryo": 0,
-                "MonoPyro": 4,
+                "MonoPyro": 5,
                 "MonoElectro": 0,
                 "Hypercarry": 10,
                 "Freeze": 0,
@@ -6615,24 +6778,25 @@ const STATS = {
                 "Hyperbloom": 0,
                 "Quickbloom": 0,
                 "HyperFridge": 0,
-                "Bain-Marie": 0
+                "Bain-Marie": 0,
+                "Burningload": 0
             },
             "by_viability": {
-                "Recommended": 14,
+                "Recommended": 15,
                 "Viable": 32,
                 "For fun": 2,
                 "Unique": 0
             },
             "by_build": {
-                "Standard": 48
+                "Standard": 49
             },
             "ranking_by_archetype": {
                 "MonoGeo": 0,
                 "MonoHydro": 0,
                 "MonoCryo": 0,
-                "MonoPyro": 11,
+                "MonoPyro": 12,
                 "MonoElectro": 0,
-                "Hypercarry": 20,
+                "Hypercarry": 21,
                 "Freeze": 0,
                 "National": 0,
                 "Vaporize": 12,
@@ -6654,18 +6818,19 @@ const STATS = {
                 "Hyperbloom": 0,
                 "Quickbloom": 0,
                 "HyperFridge": 0,
-                "Bain-Marie": 0
+                "Bain-Marie": 0,
+                "Burningload": 0
             },
             "ranking_by_element": 7,
             "ranking_by_viability": {
-                "Recommended": 37,
+                "Recommended": 36,
                 "Viable": 31,
                 "For fun": 36,
                 "Unique": 0
             }
         },
         "Sethos": {
-            "team_count_ranking": 70,
+            "team_count_ranking": 71,
             "team_count": 7,
             "by_archetype": {
                 "MonoGeo": 0,
@@ -6695,7 +6860,8 @@ const STATS = {
                 "Hyperbloom": 1,
                 "Quickbloom": 0,
                 "HyperFridge": 0,
-                "Bain-Marie": 0
+                "Bain-Marie": 0,
+                "Burningload": 0
             },
             "by_viability": {
                 "Recommended": 0,
@@ -6734,7 +6900,8 @@ const STATS = {
                 "Hyperbloom": 30,
                 "Quickbloom": 0,
                 "HyperFridge": 0,
-                "Bain-Marie": 0
+                "Bain-Marie": 0,
+                "Burningload": 0
             },
             "ranking_by_element": 10,
             "ranking_by_viability": {
@@ -6745,7 +6912,7 @@ const STATS = {
             }
         },
         "Sigewinne": {
-            "team_count_ranking": 80,
+            "team_count_ranking": 81,
             "team_count": 2,
             "by_archetype": {
                 "MonoGeo": 0,
@@ -6775,7 +6942,8 @@ const STATS = {
                 "Hyperbloom": 2,
                 "Quickbloom": 0,
                 "HyperFridge": 0,
-                "Bain-Marie": 0
+                "Bain-Marie": 0,
+                "Burningload": 0
             },
             "by_viability": {
                 "Recommended": 0,
@@ -6814,18 +6982,19 @@ const STATS = {
                 "Hyperbloom": 28,
                 "Quickbloom": 0,
                 "HyperFridge": 0,
-                "Bain-Marie": 0
+                "Bain-Marie": 0,
+                "Burningload": 0
             },
             "ranking_by_element": 12,
             "ranking_by_viability": {
                 "Recommended": 0,
-                "Viable": 73,
+                "Viable": 74,
                 "For fun": 0,
                 "Unique": 0
             }
         },
         "Clorinde": {
-            "team_count_ranking": 70,
+            "team_count_ranking": 71,
             "team_count": 7,
             "by_archetype": {
                 "MonoGeo": 0,
@@ -6855,7 +7024,8 @@ const STATS = {
                 "Hyperbloom": 0,
                 "Quickbloom": 2,
                 "HyperFridge": 0,
-                "Bain-Marie": 0
+                "Bain-Marie": 0,
+                "Burningload": 0
             },
             "by_viability": {
                 "Recommended": 7,
@@ -6894,18 +7064,101 @@ const STATS = {
                 "Hyperbloom": 0,
                 "Quickbloom": 19,
                 "HyperFridge": 0,
-                "Bain-Marie": 0
+                "Bain-Marie": 0,
+                "Burningload": 0
             },
             "ranking_by_element": 10,
             "ranking_by_viability": {
-                "Recommended": 51,
+                "Recommended": 52,
                 "Viable": 0,
                 "For fun": 0,
                 "Unique": 0
             }
         },
         "Emilie": {
-            "team_count_ranking": 85,
+            "team_count_ranking": 62,
+            "team_count": 13,
+            "by_archetype": {
+                "MonoGeo": 0,
+                "MonoHydro": 0,
+                "MonoCryo": 0,
+                "MonoPyro": 9,
+                "MonoElectro": 0,
+                "Hypercarry": 0,
+                "Freeze": 0,
+                "National": 0,
+                "Vaporize": 1,
+                "Overvape": 0,
+                "Overload": 0,
+                "Taser": 0,
+                "Soup": 0,
+                "Melt": 0,
+                "Aggravate": 0,
+                "Spread": 0,
+                "Bloom": 0,
+                "Burgeon": 0,
+                "Oven": 0,
+                "Curry": 0,
+                "Sauté": 0,
+                "Fridge": 0,
+                "Salad": 0,
+                "Airfryer": 2,
+                "Hyperbloom": 0,
+                "Quickbloom": 0,
+                "HyperFridge": 0,
+                "Bain-Marie": 0,
+                "Burningload": 1
+            },
+            "by_viability": {
+                "Recommended": 10,
+                "Viable": 3,
+                "For fun": 0,
+                "Unique": 0
+            },
+            "by_build": {
+                "Standard": 13
+            },
+            "ranking_by_archetype": {
+                "MonoGeo": 0,
+                "MonoHydro": 0,
+                "MonoCryo": 0,
+                "MonoPyro": 10,
+                "MonoElectro": 0,
+                "Hypercarry": 0,
+                "Freeze": 0,
+                "National": 0,
+                "Vaporize": 35,
+                "Overvape": 0,
+                "Overload": 0,
+                "Taser": 0,
+                "Soup": 0,
+                "Melt": 0,
+                "Aggravate": 0,
+                "Spread": 0,
+                "Bloom": 0,
+                "Burgeon": 0,
+                "Oven": 0,
+                "Curry": 0,
+                "Sauté": 0,
+                "Fridge": 0,
+                "Salad": 0,
+                "Airfryer": 3,
+                "Hyperbloom": 0,
+                "Quickbloom": 0,
+                "HyperFridge": 0,
+                "Bain-Marie": 0,
+                "Burningload": 1
+            },
+            "ranking_by_element": 7,
+            "ranking_by_viability": {
+                "Recommended": 46,
+                "Viable": 72,
+                "For fun": 0,
+                "Unique": 0
+            }
+        },
+        "Mualani": {
+            "team_count_ranking": 86,
             "team_count": 0,
             "by_archetype": {
                 "MonoGeo": 0,
@@ -6935,7 +7188,8 @@ const STATS = {
                 "Hyperbloom": 0,
                 "Quickbloom": 0,
                 "HyperFridge": 0,
-                "Bain-Marie": 0
+                "Bain-Marie": 0,
+                "Burningload": 0
             },
             "by_viability": {
                 "Recommended": 0,
@@ -6974,9 +7228,174 @@ const STATS = {
                 "Hyperbloom": 0,
                 "Quickbloom": 0,
                 "HyperFridge": 0,
-                "Bain-Marie": 0
+                "Bain-Marie": 0,
+                "Burningload": 0
             },
-            "ranking_by_element": 10,
+            "ranking_by_element": 14,
+            "ranking_by_viability": {
+                "Recommended": 0,
+                "Viable": 0,
+                "For fun": 0,
+                "Unique": 0
+            }
+        },
+        "Kinich": {
+            "team_count_ranking": 86,
+            "team_count": 0,
+            "by_archetype": {
+                "MonoGeo": 0,
+                "MonoHydro": 0,
+                "MonoCryo": 0,
+                "MonoPyro": 0,
+                "MonoElectro": 0,
+                "Hypercarry": 0,
+                "Freeze": 0,
+                "National": 0,
+                "Vaporize": 0,
+                "Overvape": 0,
+                "Overload": 0,
+                "Taser": 0,
+                "Soup": 0,
+                "Melt": 0,
+                "Aggravate": 0,
+                "Spread": 0,
+                "Bloom": 0,
+                "Burgeon": 0,
+                "Oven": 0,
+                "Curry": 0,
+                "Sauté": 0,
+                "Fridge": 0,
+                "Salad": 0,
+                "Airfryer": 0,
+                "Hyperbloom": 0,
+                "Quickbloom": 0,
+                "HyperFridge": 0,
+                "Bain-Marie": 0,
+                "Burningload": 0
+            },
+            "by_viability": {
+                "Recommended": 0,
+                "Viable": 0,
+                "For fun": 0,
+                "Unique": 0
+            },
+            "by_build": {
+                "Standard": 0
+            },
+            "ranking_by_archetype": {
+                "MonoGeo": 0,
+                "MonoHydro": 0,
+                "MonoCryo": 0,
+                "MonoPyro": 0,
+                "MonoElectro": 0,
+                "Hypercarry": 0,
+                "Freeze": 0,
+                "National": 0,
+                "Vaporize": 0,
+                "Overvape": 0,
+                "Overload": 0,
+                "Taser": 0,
+                "Soup": 0,
+                "Melt": 0,
+                "Aggravate": 0,
+                "Spread": 0,
+                "Bloom": 0,
+                "Burgeon": 0,
+                "Oven": 0,
+                "Curry": 0,
+                "Sauté": 0,
+                "Fridge": 0,
+                "Salad": 0,
+                "Airfryer": 0,
+                "Hyperbloom": 0,
+                "Quickbloom": 0,
+                "HyperFridge": 0,
+                "Bain-Marie": 0,
+                "Burningload": 0
+            },
+            "ranking_by_element": 11,
+            "ranking_by_viability": {
+                "Recommended": 0,
+                "Viable": 0,
+                "For fun": 0,
+                "Unique": 0
+            }
+        },
+        "Kachina": {
+            "team_count_ranking": 86,
+            "team_count": 0,
+            "by_archetype": {
+                "MonoGeo": 0,
+                "MonoHydro": 0,
+                "MonoCryo": 0,
+                "MonoPyro": 0,
+                "MonoElectro": 0,
+                "Hypercarry": 0,
+                "Freeze": 0,
+                "National": 0,
+                "Vaporize": 0,
+                "Overvape": 0,
+                "Overload": 0,
+                "Taser": 0,
+                "Soup": 0,
+                "Melt": 0,
+                "Aggravate": 0,
+                "Spread": 0,
+                "Bloom": 0,
+                "Burgeon": 0,
+                "Oven": 0,
+                "Curry": 0,
+                "Sauté": 0,
+                "Fridge": 0,
+                "Salad": 0,
+                "Airfryer": 0,
+                "Hyperbloom": 0,
+                "Quickbloom": 0,
+                "HyperFridge": 0,
+                "Bain-Marie": 0,
+                "Burningload": 0
+            },
+            "by_viability": {
+                "Recommended": 0,
+                "Viable": 0,
+                "For fun": 0,
+                "Unique": 0
+            },
+            "by_build": {
+                "Standard": 0
+            },
+            "ranking_by_archetype": {
+                "MonoGeo": 0,
+                "MonoHydro": 0,
+                "MonoCryo": 0,
+                "MonoPyro": 0,
+                "MonoElectro": 0,
+                "Hypercarry": 0,
+                "Freeze": 0,
+                "National": 0,
+                "Vaporize": 0,
+                "Overvape": 0,
+                "Overload": 0,
+                "Taser": 0,
+                "Soup": 0,
+                "Melt": 0,
+                "Aggravate": 0,
+                "Spread": 0,
+                "Bloom": 0,
+                "Burgeon": 0,
+                "Oven": 0,
+                "Curry": 0,
+                "Sauté": 0,
+                "Fridge": 0,
+                "Salad": 0,
+                "Airfryer": 0,
+                "Hyperbloom": 0,
+                "Quickbloom": 0,
+                "HyperFridge": 0,
+                "Bain-Marie": 0,
+                "Burningload": 0
+            },
+            "ranking_by_element": 11,
             "ranking_by_viability": {
                 "Recommended": 0,
                 "Viable": 0,
@@ -6988,20 +7407,20 @@ const STATS = {
     "count_characters_by_element": {
         "Pyro": 17,
         "Electro": 15,
-        "Hydro": 14,
+        "Hydro": 15,
         "Cryo": 17,
         "Anemo": 13,
-        "Geo": 11,
-        "Dendro": 11
+        "Geo": 12,
+        "Dendro": 12
     },
     "global_team_ranking": {
         "1": {
             "name": "Furina",
-            "team_count": 616
+            "team_count": 618
         },
         "2": {
             "name": "Bennett",
-            "team_count": 331
+            "team_count": 344
         },
         "3": {
             "name": "Xingqiu",
@@ -7009,27 +7428,27 @@ const STATS = {
         },
         "4": {
             "name": "Fischl",
-            "team_count": 221
+            "team_count": 222
         },
         "5": {
             "name": "Nahida",
-            "team_count": 206
+            "team_count": 207
         },
         "6": {
+            "name": "Kaedehara Kazuha",
+            "team_count": 179
+        },
+        "7": {
             "name": "Tartaglia",
             "team_count": 177
         },
-        "7": {
+        "8": {
             "name": "Yelan",
             "team_count": 177
         },
-        "8": {
+        "9": {
             "name": "Raiden Shogun",
             "team_count": 172
-        },
-        "9": {
-            "name": "Kaedehara Kazuha",
-            "team_count": 170
         },
         "10": {
             "name": "Xianyun",
@@ -7044,12 +7463,12 @@ const STATS = {
             "team_count": 145
         },
         "13": {
-            "name": "Baizhu",
-            "team_count": 138
+            "name": "Xiangling",
+            "team_count": 140
         },
         "14": {
-            "name": "Xiangling",
-            "team_count": 137
+            "name": "Baizhu",
+            "team_count": 138
         },
         "15": {
             "name": "Neuvillette",
@@ -7061,7 +7480,7 @@ const STATS = {
         },
         "17": {
             "name": "Thoma",
-            "team_count": 111
+            "team_count": 113
         },
         "18": {
             "name": "Jean",
@@ -7076,11 +7495,11 @@ const STATS = {
             "team_count": 81
         },
         "21": {
-            "name": "Freminet",
-            "team_count": 78
+            "name": "Wriothesley",
+            "team_count": 80
         },
         "22": {
-            "name": "Wriothesley",
+            "name": "Freminet",
             "team_count": 78
         },
         "23": {
@@ -7097,11 +7516,11 @@ const STATS = {
         },
         "26": {
             "name": "Klee",
-            "team_count": 65
+            "team_count": 66
         },
         "27": {
             "name": "Lyney",
-            "team_count": 61
+            "team_count": 62
         },
         "28": {
             "name": "Layla",
@@ -7121,18 +7540,18 @@ const STATS = {
         },
         "32": {
             "name": "Yoimiya",
-            "team_count": 52
+            "team_count": 53
         },
         "33": {
             "name": "Arlecchino",
-            "team_count": 48
+            "team_count": 49
         },
         "34": {
-            "name": "Chevreuse",
-            "team_count": 47
+            "name": "Gaming",
+            "team_count": 48
         },
         "35": {
-            "name": "Gaming",
+            "name": "Chevreuse",
             "team_count": 47
         },
         "36": {
@@ -7149,7 +7568,7 @@ const STATS = {
         },
         "39": {
             "name": "Venti",
-            "team_count": 39
+            "team_count": 40
         },
         "40": {
             "name": "Diona",
@@ -7169,7 +7588,7 @@ const STATS = {
         },
         "44": {
             "name": "Cyno",
-            "team_count": 35
+            "team_count": 36
         },
         "45": {
             "name": "Shenhe",
@@ -7193,7 +7612,7 @@ const STATS = {
         },
         "50": {
             "name": "Yanfei",
-            "team_count": 27
+            "team_count": 28
         },
         "51": {
             "name": "Hu Tao",
@@ -7244,99 +7663,111 @@ const STATS = {
             "team_count": 13
         },
         "63": {
+            "name": "Emilie",
+            "team_count": 13
+        },
+        "64": {
             "name": "Arataki Itto",
             "team_count": 12
         },
-        "64": {
+        "65": {
             "name": "Eula",
             "team_count": 11
         },
-        "65": {
-            "name": "Faruzan",
-            "team_count": 10
-        },
         "66": {
+            "name": "Faruzan",
+            "team_count": 11
+        },
+        "67": {
             "name": "Ningguang",
             "team_count": 8
         },
-        "67": {
+        "68": {
             "name": "Kujou Sara",
             "team_count": 8
         },
-        "68": {
+        "69": {
             "name": "Nilou",
             "team_count": 8
         },
-        "69": {
+        "70": {
             "name": "Alhaitham",
             "team_count": 8
         },
-        "70": {
+        "71": {
             "name": "Xiao",
             "team_count": 7
         },
-        "71": {
+        "72": {
             "name": "Sethos",
             "team_count": 7
         },
-        "72": {
+        "73": {
             "name": "Clorinde",
             "team_count": 7
         },
-        "73": {
+        "74": {
             "name": "Kaveh",
             "team_count": 6
         },
-        "74": {
+        "75": {
             "name": "Qiqi",
             "team_count": 5
         },
-        "75": {
+        "76": {
             "name": "Xinyan",
             "team_count": 5
         },
-        "76": {
+        "77": {
             "name": "Candace",
             "team_count": 5
         },
-        "77": {
+        "78": {
+            "name": "Wanderer",
+            "team_count": 5
+        },
+        "79": {
             "name": "Lisa",
             "team_count": 4
         },
-        "78": {
+        "80": {
             "name": "Tighnari",
             "team_count": 4
         },
-        "79": {
-            "name": "Wanderer",
-            "team_count": 4
-        },
-        "80": {
+        "81": {
             "name": "Amber",
             "team_count": 2
         },
-        "81": {
+        "82": {
             "name": "Razor",
             "team_count": 2
         },
-        "82": {
+        "83": {
             "name": "Shikanoin Heizou",
             "team_count": 2
         },
-        "83": {
+        "84": {
             "name": "Sigewinne",
             "team_count": 2
         },
-        "84": {
+        "85": {
             "name": "Aloy",
             "team_count": 1
         },
-        "85": {
+        "86": {
             "name": "Lumine",
             "team_count": 0
         },
-        "86": {
-            "name": "Emilie",
+        "87": {
+            "name": "Mualani",
+            "team_count": 0
+        },
+        "88": {
+            "name": "Kinich",
+            "team_count": 0
+        },
+        "89": {
+            "name": "Kachina",
             "team_count": 0
         },
         "Aether": {
@@ -7344,7 +7775,7 @@ const STATS = {
             "team_count": 147
         },
         "Lumine": {
-            "rank": 85,
+            "rank": 86,
             "team_count": 0
         },
         "Sucrose": {
@@ -7364,7 +7795,7 @@ const STATS = {
             "team_count": 14
         },
         "Qiqi": {
-            "rank": 74,
+            "rank": 75,
             "team_count": 5
         },
         "Noelle": {
@@ -7373,14 +7804,14 @@ const STATS = {
         },
         "Bennett": {
             "rank": 2,
-            "team_count": 331
+            "team_count": 344
         },
         "Fischl": {
             "rank": 4,
-            "team_count": 221
+            "team_count": 222
         },
         "Ningguang": {
-            "rank": 66,
+            "rank": 67,
             "team_count": 8
         },
         "Xingqiu": {
@@ -7392,19 +7823,19 @@ const STATS = {
             "team_count": 55
         },
         "Xiangling": {
-            "rank": 14,
-            "team_count": 137
+            "rank": 13,
+            "team_count": 140
         },
         "Venti": {
             "rank": 39,
-            "team_count": 39
+            "team_count": 40
         },
         "Amber": {
-            "rank": 80,
+            "rank": 81,
             "team_count": 2
         },
         "Razor": {
-            "rank": 81,
+            "rank": 82,
             "team_count": 2
         },
         "Diluc": {
@@ -7420,7 +7851,7 @@ const STATS = {
             "team_count": 13
         },
         "Lisa": {
-            "rank": 77,
+            "rank": 79,
             "team_count": 4
         },
         "Jean": {
@@ -7433,14 +7864,14 @@ const STATS = {
         },
         "Klee": {
             "rank": 26,
-            "team_count": 65
+            "team_count": 66
         },
         "Tartaglia": {
-            "rank": 6,
+            "rank": 7,
             "team_count": 177
         },
         "Xinyan": {
-            "rank": 75,
+            "rank": 76,
             "team_count": 5
         },
         "Zhongli": {
@@ -7456,7 +7887,7 @@ const STATS = {
             "team_count": 72
         },
         "Xiao": {
-            "rank": 70,
+            "rank": 71,
             "team_count": 7
         },
         "Hu Tao": {
@@ -7469,15 +7900,15 @@ const STATS = {
         },
         "Yanfei": {
             "rank": 50,
-            "team_count": 27
+            "team_count": 28
         },
         "Eula": {
-            "rank": 64,
+            "rank": 65,
             "team_count": 11
         },
         "Kaedehara Kazuha": {
-            "rank": 9,
-            "team_count": 170
+            "rank": 6,
+            "team_count": 179
         },
         "Kamisato Ayaka": {
             "rank": 55,
@@ -7489,18 +7920,18 @@ const STATS = {
         },
         "Yoimiya": {
             "rank": 32,
-            "team_count": 52
+            "team_count": 53
         },
         "Aloy": {
-            "rank": 84,
+            "rank": 85,
             "team_count": 1
         },
         "Kujou Sara": {
-            "rank": 67,
+            "rank": 68,
             "team_count": 8
         },
         "Raiden Shogun": {
-            "rank": 8,
+            "rank": 9,
             "team_count": 172
         },
         "Sangonomiya Kokomi": {
@@ -7509,10 +7940,10 @@ const STATS = {
         },
         "Thoma": {
             "rank": 17,
-            "team_count": 111
+            "team_count": 113
         },
         "Arataki Itto": {
-            "rank": 63,
+            "rank": 64,
             "team_count": 12
         },
         "Gorou": {
@@ -7536,7 +7967,7 @@ const STATS = {
             "team_count": 20
         },
         "Yelan": {
-            "rank": 7,
+            "rank": 8,
             "team_count": 177
         },
         "Kuki Shinobu": {
@@ -7544,11 +7975,11 @@ const STATS = {
             "team_count": 129
         },
         "Shikanoin Heizou": {
-            "rank": 82,
+            "rank": 83,
             "team_count": 2
         },
         "Tighnari": {
-            "rank": 78,
+            "rank": 80,
             "team_count": 4
         },
         "Collei": {
@@ -7560,35 +7991,35 @@ const STATS = {
             "team_count": 43
         },
         "Candace": {
-            "rank": 76,
+            "rank": 77,
             "team_count": 5
         },
         "Cyno": {
             "rank": 44,
-            "team_count": 35
+            "team_count": 36
         },
         "Nilou": {
-            "rank": 68,
+            "rank": 69,
             "team_count": 8
         },
         "Nahida": {
             "rank": 5,
-            "team_count": 206
+            "team_count": 207
         },
         "Layla": {
             "rank": 28,
             "team_count": 59
         },
         "Faruzan": {
-            "rank": 65,
-            "team_count": 10
+            "rank": 66,
+            "team_count": 11
         },
         "Wanderer": {
-            "rank": 79,
-            "team_count": 4
+            "rank": 78,
+            "team_count": 5
         },
         "Alhaitham": {
-            "rank": 69,
+            "rank": 70,
             "team_count": 8
         },
         "Yaoyao": {
@@ -7604,11 +8035,11 @@ const STATS = {
             "team_count": 38
         },
         "Baizhu": {
-            "rank": 13,
+            "rank": 14,
             "team_count": 138
         },
         "Kaveh": {
-            "rank": 73,
+            "rank": 74,
             "team_count": 6
         },
         "Kirara": {
@@ -7617,14 +8048,14 @@ const STATS = {
         },
         "Lyney": {
             "rank": 27,
-            "team_count": 61
+            "team_count": 62
         },
         "Lynette": {
             "rank": 57,
             "team_count": 17
         },
         "Freminet": {
-            "rank": 21,
+            "rank": 22,
             "team_count": 78
         },
         "Neuvillette": {
@@ -7632,12 +8063,12 @@ const STATS = {
             "team_count": 136
         },
         "Wriothesley": {
-            "rank": 22,
-            "team_count": 78
+            "rank": 21,
+            "team_count": 80
         },
         "Furina": {
             "rank": 1,
-            "team_count": 616
+            "team_count": 618
         },
         "Charlotte": {
             "rank": 38,
@@ -7648,7 +8079,7 @@ const STATS = {
             "team_count": 73
         },
         "Chevreuse": {
-            "rank": 34,
+            "rank": 35,
             "team_count": 47
         },
         "Xianyun": {
@@ -7656,8 +8087,8 @@ const STATS = {
             "team_count": 164
         },
         "Gaming": {
-            "rank": 35,
-            "team_count": 47
+            "rank": 34,
+            "team_count": 48
         },
         "Chiori": {
             "rank": 43,
@@ -7665,22 +8096,34 @@ const STATS = {
         },
         "Arlecchino": {
             "rank": 33,
-            "team_count": 48
+            "team_count": 49
         },
         "Sethos": {
-            "rank": 71,
-            "team_count": 7
-        },
-        "Sigewinne": {
-            "rank": 83,
-            "team_count": 2
-        },
-        "Clorinde": {
             "rank": 72,
             "team_count": 7
         },
+        "Sigewinne": {
+            "rank": 84,
+            "team_count": 2
+        },
+        "Clorinde": {
+            "rank": 73,
+            "team_count": 7
+        },
         "Emilie": {
-            "rank": 86,
+            "rank": 63,
+            "team_count": 13
+        },
+        "Mualani": {
+            "rank": 87,
+            "team_count": 0
+        },
+        "Kinich": {
+            "rank": 88,
+            "team_count": 0
+        },
+        "Kachina": {
+            "rank": 89,
             "team_count": 0
         }
     },
@@ -8030,6 +8473,18 @@ const STATS = {
                 "name": "Emilie",
                 "team_count": 0
             },
+            "87": {
+                "name": "Mualani",
+                "team_count": 0
+            },
+            "88": {
+                "name": "Kinich",
+                "team_count": 0
+            },
+            "89": {
+                "name": "Kachina",
+                "team_count": 0
+            },
             "Aether": {
                 "rank": 13,
                 "team_count": 0
@@ -8372,6 +8827,18 @@ const STATS = {
             },
             "Emilie": {
                 "rank": 86,
+                "team_count": 0
+            },
+            "Mualani": {
+                "rank": 87,
+                "team_count": 0
+            },
+            "Kinich": {
+                "rank": 88,
+                "team_count": 0
+            },
+            "Kachina": {
+                "rank": 89,
                 "team_count": 0
             }
         },
@@ -8720,6 +9187,18 @@ const STATS = {
                 "name": "Emilie",
                 "team_count": 0
             },
+            "87": {
+                "name": "Mualani",
+                "team_count": 0
+            },
+            "88": {
+                "name": "Kinich",
+                "team_count": 0
+            },
+            "89": {
+                "name": "Kachina",
+                "team_count": 0
+            },
             "Aether": {
                 "rank": 14,
                 "team_count": 0
@@ -9062,6 +9541,18 @@ const STATS = {
             },
             "Emilie": {
                 "rank": 86,
+                "team_count": 0
+            },
+            "Mualani": {
+                "rank": 87,
+                "team_count": 0
+            },
+            "Kinich": {
+                "rank": 88,
+                "team_count": 0
+            },
+            "Kachina": {
+                "rank": 89,
                 "team_count": 0
             }
         },
@@ -9410,6 +9901,18 @@ const STATS = {
                 "name": "Emilie",
                 "team_count": 0
             },
+            "87": {
+                "name": "Mualani",
+                "team_count": 0
+            },
+            "88": {
+                "name": "Kinich",
+                "team_count": 0
+            },
+            "89": {
+                "name": "Kachina",
+                "team_count": 0
+            },
             "Aether": {
                 "rank": 13,
                 "team_count": 0
@@ -9753,28 +10256,40 @@ const STATS = {
             "Emilie": {
                 "rank": 86,
                 "team_count": 0
+            },
+            "Mualani": {
+                "rank": 87,
+                "team_count": 0
+            },
+            "Kinich": {
+                "rank": 88,
+                "team_count": 0
+            },
+            "Kachina": {
+                "rank": 89,
+                "team_count": 0
             }
         },
         "MonoPyro": {
             "1": {
                 "name": "Bennett",
-                "team_count": 63
+                "team_count": 72
             },
             "2": {
                 "name": "Lyney",
-                "team_count": 47
+                "team_count": 48
             },
             "3": {
                 "name": "Xiangling",
-                "team_count": 21
+                "team_count": 23
             },
             "4": {
                 "name": "Kaedehara Kazuha",
-                "team_count": 16
+                "team_count": 23
             },
             "5": {
                 "name": "Klee",
-                "team_count": 13
+                "team_count": 14
             },
             "6": {
                 "name": "Zhongli",
@@ -9793,319 +10308,331 @@ const STATS = {
                 "team_count": 10
             },
             "10": {
-                "name": "Yanfei",
-                "team_count": 5
+                "name": "Emilie",
+                "team_count": 9
             },
             "11": {
+                "name": "Yanfei",
+                "team_count": 6
+            },
+            "12": {
+                "name": "Arlecchino",
+                "team_count": 5
+            },
+            "13": {
                 "name": "Diona",
                 "team_count": 4
             },
-            "12": {
+            "14": {
                 "name": "Xinyan",
                 "team_count": 4
             },
-            "13": {
+            "15": {
                 "name": "Layla",
                 "team_count": 4
             },
-            "14": {
+            "16": {
                 "name": "Dehya",
                 "team_count": 4
             },
-            "15": {
+            "17": {
                 "name": "Baizhu",
                 "team_count": 4
             },
-            "16": {
+            "18": {
                 "name": "Kirara",
                 "team_count": 4
             },
-            "17": {
-                "name": "Arlecchino",
-                "team_count": 4
-            },
-            "18": {
-                "name": "Furina",
-                "team_count": 2
-            },
             "19": {
                 "name": "Gaming",
-                "team_count": 2
+                "team_count": 3
             },
             "20": {
-                "name": "Chiori",
+                "name": "Yoimiya",
                 "team_count": 2
             },
             "21": {
+                "name": "Thoma",
+                "team_count": 2
+            },
+            "22": {
+                "name": "Wriothesley",
+                "team_count": 2
+            },
+            "23": {
+                "name": "Furina",
+                "team_count": 2
+            },
+            "24": {
+                "name": "Chiori",
+                "team_count": 2
+            },
+            "25": {
                 "name": "Jean",
                 "team_count": 1
             },
-            "22": {
+            "26": {
                 "name": "Albedo",
                 "team_count": 1
             },
-            "23": {
+            "27": {
                 "name": "Sayu",
                 "team_count": 1
             },
-            "24": {
-                "name": "Yoimiya",
-                "team_count": 1
-            },
-            "25": {
-                "name": "Thoma",
-                "team_count": 1
-            },
-            "26": {
+            "28": {
                 "name": "Xianyun",
                 "team_count": 1
             },
-            "27": {
+            "29": {
                 "name": "Aether",
                 "team_count": 0
             },
-            "28": {
+            "30": {
                 "name": "Lumine",
                 "team_count": 0
             },
-            "29": {
+            "31": {
                 "name": "Keqing",
                 "team_count": 0
             },
-            "30": {
+            "32": {
                 "name": "Mona",
                 "team_count": 0
             },
-            "31": {
+            "33": {
                 "name": "Chongyun",
                 "team_count": 0
             },
-            "32": {
+            "34": {
                 "name": "Qiqi",
                 "team_count": 0
             },
-            "33": {
+            "35": {
                 "name": "Noelle",
                 "team_count": 0
             },
-            "34": {
+            "36": {
                 "name": "Fischl",
                 "team_count": 0
             },
-            "35": {
+            "37": {
                 "name": "Ningguang",
                 "team_count": 0
             },
-            "36": {
+            "38": {
                 "name": "Xingqiu",
                 "team_count": 0
             },
-            "37": {
+            "39": {
                 "name": "Beidou",
                 "team_count": 0
             },
-            "38": {
+            "40": {
                 "name": "Amber",
                 "team_count": 0
             },
-            "39": {
+            "41": {
                 "name": "Razor",
                 "team_count": 0
             },
-            "40": {
+            "42": {
                 "name": "Diluc",
                 "team_count": 0
             },
-            "41": {
+            "43": {
                 "name": "Kaeya",
                 "team_count": 0
             },
-            "42": {
+            "44": {
                 "name": "Barbara",
                 "team_count": 0
             },
-            "43": {
+            "45": {
                 "name": "Lisa",
                 "team_count": 0
             },
-            "44": {
+            "46": {
                 "name": "Tartaglia",
                 "team_count": 0
             },
-            "45": {
+            "47": {
                 "name": "Ganyu",
                 "team_count": 0
             },
-            "46": {
+            "48": {
                 "name": "Xiao",
                 "team_count": 0
             },
-            "47": {
+            "49": {
                 "name": "Hu Tao",
                 "team_count": 0
             },
-            "48": {
+            "50": {
                 "name": "Rosaria",
                 "team_count": 0
             },
-            "49": {
+            "51": {
                 "name": "Eula",
                 "team_count": 0
             },
-            "50": {
+            "52": {
                 "name": "Kamisato Ayaka",
                 "team_count": 0
             },
-            "51": {
+            "53": {
                 "name": "Aloy",
                 "team_count": 0
             },
-            "52": {
+            "54": {
                 "name": "Kujou Sara",
                 "team_count": 0
             },
-            "53": {
+            "55": {
                 "name": "Raiden Shogun",
                 "team_count": 0
             },
-            "54": {
+            "56": {
                 "name": "Sangonomiya Kokomi",
                 "team_count": 0
             },
-            "55": {
+            "57": {
                 "name": "Arataki Itto",
                 "team_count": 0
             },
-            "56": {
+            "58": {
                 "name": "Gorou",
                 "team_count": 0
             },
-            "57": {
+            "59": {
                 "name": "Yun Jin",
                 "team_count": 0
             },
-            "58": {
+            "60": {
                 "name": "Shenhe",
                 "team_count": 0
             },
-            "59": {
+            "61": {
                 "name": "Yae Miko",
                 "team_count": 0
             },
-            "60": {
+            "62": {
                 "name": "Kamisato Ayato",
                 "team_count": 0
             },
-            "61": {
+            "63": {
                 "name": "Yelan",
                 "team_count": 0
             },
-            "62": {
+            "64": {
                 "name": "Kuki Shinobu",
                 "team_count": 0
             },
-            "63": {
+            "65": {
                 "name": "Shikanoin Heizou",
                 "team_count": 0
             },
-            "64": {
+            "66": {
                 "name": "Tighnari",
                 "team_count": 0
             },
-            "65": {
+            "67": {
                 "name": "Collei",
                 "team_count": 0
             },
-            "66": {
+            "68": {
                 "name": "Dori",
                 "team_count": 0
             },
-            "67": {
+            "69": {
                 "name": "Candace",
                 "team_count": 0
             },
-            "68": {
+            "70": {
                 "name": "Cyno",
                 "team_count": 0
             },
-            "69": {
+            "71": {
                 "name": "Nilou",
                 "team_count": 0
             },
-            "70": {
+            "72": {
                 "name": "Nahida",
                 "team_count": 0
             },
-            "71": {
+            "73": {
                 "name": "Faruzan",
                 "team_count": 0
             },
-            "72": {
+            "74": {
                 "name": "Wanderer",
                 "team_count": 0
             },
-            "73": {
+            "75": {
                 "name": "Alhaitham",
                 "team_count": 0
             },
-            "74": {
+            "76": {
                 "name": "Yaoyao",
                 "team_count": 0
             },
-            "75": {
+            "77": {
                 "name": "Mika",
                 "team_count": 0
             },
-            "76": {
+            "78": {
                 "name": "Kaveh",
                 "team_count": 0
             },
-            "77": {
+            "79": {
                 "name": "Freminet",
                 "team_count": 0
             },
-            "78": {
+            "80": {
                 "name": "Neuvillette",
                 "team_count": 0
             },
-            "79": {
-                "name": "Wriothesley",
-                "team_count": 0
-            },
-            "80": {
+            "81": {
                 "name": "Charlotte",
                 "team_count": 0
             },
-            "81": {
+            "82": {
                 "name": "Navia",
                 "team_count": 0
             },
-            "82": {
+            "83": {
                 "name": "Chevreuse",
                 "team_count": 0
             },
-            "83": {
+            "84": {
                 "name": "Sethos",
                 "team_count": 0
             },
-            "84": {
+            "85": {
                 "name": "Sigewinne",
                 "team_count": 0
             },
-            "85": {
+            "86": {
                 "name": "Clorinde",
                 "team_count": 0
             },
-            "86": {
-                "name": "Emilie",
+            "87": {
+                "name": "Mualani",
+                "team_count": 0
+            },
+            "88": {
+                "name": "Kinich",
+                "team_count": 0
+            },
+            "89": {
+                "name": "Kachina",
                 "team_count": 0
             },
             "Aether": {
-                "rank": 27,
+                "rank": 29,
                 "team_count": 0
             },
             "Lumine": {
-                "rank": 28,
+                "rank": 30,
                 "team_count": 0
             },
             "Sucrose": {
@@ -10113,95 +10640,95 @@ const STATS = {
                 "team_count": 12
             },
             "Keqing": {
-                "rank": 29,
-                "team_count": 0
-            },
-            "Mona": {
-                "rank": 30,
-                "team_count": 0
-            },
-            "Chongyun": {
                 "rank": 31,
                 "team_count": 0
             },
-            "Qiqi": {
+            "Mona": {
                 "rank": 32,
                 "team_count": 0
             },
-            "Noelle": {
+            "Chongyun": {
                 "rank": 33,
+                "team_count": 0
+            },
+            "Qiqi": {
+                "rank": 34,
+                "team_count": 0
+            },
+            "Noelle": {
+                "rank": 35,
                 "team_count": 0
             },
             "Bennett": {
                 "rank": 1,
-                "team_count": 63
+                "team_count": 72
             },
             "Fischl": {
-                "rank": 34,
-                "team_count": 0
-            },
-            "Ningguang": {
-                "rank": 35,
-                "team_count": 0
-            },
-            "Xingqiu": {
                 "rank": 36,
                 "team_count": 0
             },
-            "Beidou": {
+            "Ningguang": {
                 "rank": 37,
+                "team_count": 0
+            },
+            "Xingqiu": {
+                "rank": 38,
+                "team_count": 0
+            },
+            "Beidou": {
+                "rank": 39,
                 "team_count": 0
             },
             "Xiangling": {
                 "rank": 3,
-                "team_count": 21
+                "team_count": 23
             },
             "Venti": {
                 "rank": 8,
                 "team_count": 12
             },
             "Amber": {
-                "rank": 38,
-                "team_count": 0
-            },
-            "Razor": {
-                "rank": 39,
-                "team_count": 0
-            },
-            "Diluc": {
                 "rank": 40,
                 "team_count": 0
             },
-            "Kaeya": {
+            "Razor": {
                 "rank": 41,
                 "team_count": 0
             },
-            "Barbara": {
+            "Diluc": {
                 "rank": 42,
                 "team_count": 0
             },
-            "Lisa": {
+            "Kaeya": {
                 "rank": 43,
                 "team_count": 0
             },
+            "Barbara": {
+                "rank": 44,
+                "team_count": 0
+            },
+            "Lisa": {
+                "rank": 45,
+                "team_count": 0
+            },
             "Jean": {
-                "rank": 21,
+                "rank": 25,
                 "team_count": 1
             },
             "Diona": {
-                "rank": 11,
+                "rank": 13,
                 "team_count": 4
             },
             "Klee": {
                 "rank": 5,
-                "team_count": 13
+                "team_count": 14
             },
             "Tartaglia": {
-                "rank": 44,
+                "rank": 46,
                 "team_count": 0
             },
             "Xinyan": {
-                "rank": 12,
+                "rank": 14,
                 "team_count": 4
             },
             "Zhongli": {
@@ -10209,239 +10736,251 @@ const STATS = {
                 "team_count": 13
             },
             "Albedo": {
-                "rank": 22,
+                "rank": 26,
                 "team_count": 1
             },
             "Ganyu": {
-                "rank": 45,
-                "team_count": 0
-            },
-            "Xiao": {
-                "rank": 46,
-                "team_count": 0
-            },
-            "Hu Tao": {
                 "rank": 47,
                 "team_count": 0
             },
-            "Rosaria": {
+            "Xiao": {
                 "rank": 48,
                 "team_count": 0
             },
+            "Hu Tao": {
+                "rank": 49,
+                "team_count": 0
+            },
+            "Rosaria": {
+                "rank": 50,
+                "team_count": 0
+            },
             "Yanfei": {
-                "rank": 10,
-                "team_count": 5
+                "rank": 11,
+                "team_count": 6
             },
             "Eula": {
-                "rank": 49,
+                "rank": 51,
                 "team_count": 0
             },
             "Kaedehara Kazuha": {
                 "rank": 4,
-                "team_count": 16
+                "team_count": 23
             },
             "Kamisato Ayaka": {
-                "rank": 50,
-                "team_count": 0
-            },
-            "Sayu": {
-                "rank": 23,
-                "team_count": 1
-            },
-            "Yoimiya": {
-                "rank": 24,
-                "team_count": 1
-            },
-            "Aloy": {
-                "rank": 51,
-                "team_count": 0
-            },
-            "Kujou Sara": {
                 "rank": 52,
                 "team_count": 0
             },
-            "Raiden Shogun": {
+            "Sayu": {
+                "rank": 27,
+                "team_count": 1
+            },
+            "Yoimiya": {
+                "rank": 20,
+                "team_count": 2
+            },
+            "Aloy": {
                 "rank": 53,
                 "team_count": 0
             },
-            "Sangonomiya Kokomi": {
+            "Kujou Sara": {
                 "rank": 54,
                 "team_count": 0
             },
-            "Thoma": {
-                "rank": 25,
-                "team_count": 1
-            },
-            "Arataki Itto": {
+            "Raiden Shogun": {
                 "rank": 55,
                 "team_count": 0
             },
-            "Gorou": {
+            "Sangonomiya Kokomi": {
                 "rank": 56,
                 "team_count": 0
             },
-            "Yun Jin": {
+            "Thoma": {
+                "rank": 21,
+                "team_count": 2
+            },
+            "Arataki Itto": {
                 "rank": 57,
                 "team_count": 0
             },
-            "Shenhe": {
+            "Gorou": {
                 "rank": 58,
                 "team_count": 0
             },
-            "Yae Miko": {
+            "Yun Jin": {
                 "rank": 59,
                 "team_count": 0
             },
-            "Kamisato Ayato": {
+            "Shenhe": {
                 "rank": 60,
                 "team_count": 0
             },
-            "Yelan": {
+            "Yae Miko": {
                 "rank": 61,
                 "team_count": 0
             },
-            "Kuki Shinobu": {
+            "Kamisato Ayato": {
                 "rank": 62,
                 "team_count": 0
             },
-            "Shikanoin Heizou": {
+            "Yelan": {
                 "rank": 63,
                 "team_count": 0
             },
-            "Tighnari": {
+            "Kuki Shinobu": {
                 "rank": 64,
                 "team_count": 0
             },
-            "Collei": {
+            "Shikanoin Heizou": {
                 "rank": 65,
                 "team_count": 0
             },
-            "Dori": {
+            "Tighnari": {
                 "rank": 66,
                 "team_count": 0
             },
-            "Candace": {
+            "Collei": {
                 "rank": 67,
                 "team_count": 0
             },
-            "Cyno": {
+            "Dori": {
                 "rank": 68,
                 "team_count": 0
             },
-            "Nilou": {
+            "Candace": {
                 "rank": 69,
                 "team_count": 0
             },
-            "Nahida": {
+            "Cyno": {
                 "rank": 70,
                 "team_count": 0
             },
-            "Layla": {
-                "rank": 13,
-                "team_count": 4
-            },
-            "Faruzan": {
+            "Nilou": {
                 "rank": 71,
                 "team_count": 0
             },
-            "Wanderer": {
+            "Nahida": {
                 "rank": 72,
                 "team_count": 0
             },
-            "Alhaitham": {
-                "rank": 73,
-                "team_count": 0
-            },
-            "Yaoyao": {
-                "rank": 74,
-                "team_count": 0
-            },
-            "Dehya": {
-                "rank": 14,
-                "team_count": 4
-            },
-            "Mika": {
-                "rank": 75,
-                "team_count": 0
-            },
-            "Baizhu": {
+            "Layla": {
                 "rank": 15,
                 "team_count": 4
             },
-            "Kaveh": {
+            "Faruzan": {
+                "rank": 73,
+                "team_count": 0
+            },
+            "Wanderer": {
+                "rank": 74,
+                "team_count": 0
+            },
+            "Alhaitham": {
+                "rank": 75,
+                "team_count": 0
+            },
+            "Yaoyao": {
                 "rank": 76,
                 "team_count": 0
             },
-            "Kirara": {
+            "Dehya": {
                 "rank": 16,
+                "team_count": 4
+            },
+            "Mika": {
+                "rank": 77,
+                "team_count": 0
+            },
+            "Baizhu": {
+                "rank": 17,
+                "team_count": 4
+            },
+            "Kaveh": {
+                "rank": 78,
+                "team_count": 0
+            },
+            "Kirara": {
+                "rank": 18,
                 "team_count": 4
             },
             "Lyney": {
                 "rank": 2,
-                "team_count": 47
+                "team_count": 48
             },
             "Lynette": {
                 "rank": 9,
                 "team_count": 10
             },
             "Freminet": {
-                "rank": 77,
-                "team_count": 0
-            },
-            "Neuvillette": {
-                "rank": 78,
-                "team_count": 0
-            },
-            "Wriothesley": {
                 "rank": 79,
                 "team_count": 0
             },
-            "Furina": {
-                "rank": 18,
-                "team_count": 2
-            },
-            "Charlotte": {
+            "Neuvillette": {
                 "rank": 80,
                 "team_count": 0
             },
-            "Navia": {
+            "Wriothesley": {
+                "rank": 22,
+                "team_count": 2
+            },
+            "Furina": {
+                "rank": 23,
+                "team_count": 2
+            },
+            "Charlotte": {
                 "rank": 81,
                 "team_count": 0
             },
-            "Chevreuse": {
+            "Navia": {
                 "rank": 82,
                 "team_count": 0
             },
+            "Chevreuse": {
+                "rank": 83,
+                "team_count": 0
+            },
             "Xianyun": {
-                "rank": 26,
+                "rank": 28,
                 "team_count": 1
             },
             "Gaming": {
                 "rank": 19,
-                "team_count": 2
+                "team_count": 3
             },
             "Chiori": {
-                "rank": 20,
+                "rank": 24,
                 "team_count": 2
             },
             "Arlecchino": {
-                "rank": 17,
-                "team_count": 4
+                "rank": 12,
+                "team_count": 5
             },
             "Sethos": {
-                "rank": 83,
-                "team_count": 0
-            },
-            "Sigewinne": {
                 "rank": 84,
                 "team_count": 0
             },
-            "Clorinde": {
+            "Sigewinne": {
                 "rank": 85,
                 "team_count": 0
             },
-            "Emilie": {
+            "Clorinde": {
                 "rank": 86,
+                "team_count": 0
+            },
+            "Emilie": {
+                "rank": 10,
+                "team_count": 9
+            },
+            "Mualani": {
+                "rank": 87,
+                "team_count": 0
+            },
+            "Kinich": {
+                "rank": 88,
+                "team_count": 0
+            },
+            "Kachina": {
+                "rank": 89,
                 "team_count": 0
             }
         },
@@ -10790,6 +11329,18 @@ const STATS = {
                 "name": "Emilie",
                 "team_count": 0
             },
+            "87": {
+                "name": "Mualani",
+                "team_count": 0
+            },
+            "88": {
+                "name": "Kinich",
+                "team_count": 0
+            },
+            "89": {
+                "name": "Kachina",
+                "team_count": 0
+            },
             "Aether": {
                 "rank": 5,
                 "team_count": 0
@@ -11133,12 +11684,24 @@ const STATS = {
             "Emilie": {
                 "rank": 86,
                 "team_count": 0
+            },
+            "Mualani": {
+                "rank": 87,
+                "team_count": 0
+            },
+            "Kinich": {
+                "rank": 88,
+                "team_count": 0
+            },
+            "Kachina": {
+                "rank": 89,
+                "team_count": 0
             }
         },
         "Hypercarry": {
             "1": {
                 "name": "Furina",
-                "team_count": 72
+                "team_count": 73
             },
             "2": {
                 "name": "Fischl",
@@ -11154,7 +11717,7 @@ const STATS = {
             },
             "5": {
                 "name": "Bennett",
-                "team_count": 37
+                "team_count": 38
             },
             "6": {
                 "name": "Zhongli",
@@ -11213,11 +11776,11 @@ const STATS = {
                 "team_count": 11
             },
             "20": {
-                "name": "Yae Miko",
-                "team_count": 10
+                "name": "Faruzan",
+                "team_count": 11
             },
             "21": {
-                "name": "Faruzan",
+                "name": "Yae Miko",
                 "team_count": 10
             },
             "22": {
@@ -11269,31 +11832,31 @@ const STATS = {
                 "team_count": 5
             },
             "34": {
-                "name": "Charlotte",
+                "name": "Wanderer",
                 "team_count": 5
             },
             "35": {
+                "name": "Charlotte",
+                "team_count": 5
+            },
+            "36": {
                 "name": "Lisa",
                 "team_count": 4
             },
-            "36": {
+            "37": {
                 "name": "Diona",
                 "team_count": 4
             },
-            "37": {
+            "38": {
                 "name": "Eula",
                 "team_count": 4
             },
-            "38": {
+            "39": {
                 "name": "Kuki Shinobu",
                 "team_count": 4
             },
-            "39": {
-                "name": "Layla",
-                "team_count": 4
-            },
             "40": {
-                "name": "Wanderer",
+                "name": "Layla",
                 "team_count": 4
             },
             "41": {
@@ -11480,6 +12043,18 @@ const STATS = {
                 "name": "Emilie",
                 "team_count": 0
             },
+            "87": {
+                "name": "Mualani",
+                "team_count": 0
+            },
+            "88": {
+                "name": "Kinich",
+                "team_count": 0
+            },
+            "89": {
+                "name": "Kachina",
+                "team_count": 0
+            },
             "Aether": {
                 "rank": 30,
                 "team_count": 5
@@ -11514,7 +12089,7 @@ const STATS = {
             },
             "Bennett": {
                 "rank": 5,
-                "team_count": 37
+                "team_count": 38
             },
             "Fischl": {
                 "rank": 2,
@@ -11561,7 +12136,7 @@ const STATS = {
                 "team_count": 3
             },
             "Lisa": {
-                "rank": 35,
+                "rank": 36,
                 "team_count": 4
             },
             "Jean": {
@@ -11569,7 +12144,7 @@ const STATS = {
                 "team_count": 11
             },
             "Diona": {
-                "rank": 36,
+                "rank": 37,
                 "team_count": 4
             },
             "Klee": {
@@ -11613,7 +12188,7 @@ const STATS = {
                 "team_count": 0
             },
             "Eula": {
-                "rank": 37,
+                "rank": 38,
                 "team_count": 4
             },
             "Kaedehara Kazuha": {
@@ -11669,7 +12244,7 @@ const STATS = {
                 "team_count": 3
             },
             "Yae Miko": {
-                "rank": 20,
+                "rank": 21,
                 "team_count": 10
             },
             "Kamisato Ayato": {
@@ -11681,7 +12256,7 @@ const STATS = {
                 "team_count": 30
             },
             "Kuki Shinobu": {
-                "rank": 38,
+                "rank": 39,
                 "team_count": 4
             },
             "Shikanoin Heizou": {
@@ -11717,16 +12292,16 @@ const STATS = {
                 "team_count": 1
             },
             "Layla": {
-                "rank": 39,
+                "rank": 40,
                 "team_count": 4
             },
             "Faruzan": {
-                "rank": 21,
-                "team_count": 10
+                "rank": 20,
+                "team_count": 11
             },
             "Wanderer": {
-                "rank": 40,
-                "team_count": 4
+                "rank": 34,
+                "team_count": 5
             },
             "Alhaitham": {
                 "rank": 75,
@@ -11778,10 +12353,10 @@ const STATS = {
             },
             "Furina": {
                 "rank": 1,
-                "team_count": 72
+                "team_count": 73
             },
             "Charlotte": {
-                "rank": 34,
+                "rank": 35,
                 "team_count": 5
             },
             "Navia": {
@@ -11822,6 +12397,18 @@ const STATS = {
             },
             "Emilie": {
                 "rank": 86,
+                "team_count": 0
+            },
+            "Mualani": {
+                "rank": 87,
+                "team_count": 0
+            },
+            "Kinich": {
+                "rank": 88,
+                "team_count": 0
+            },
+            "Kachina": {
+                "rank": 89,
                 "team_count": 0
             }
         },
@@ -12170,6 +12757,18 @@ const STATS = {
                 "name": "Emilie",
                 "team_count": 0
             },
+            "87": {
+                "name": "Mualani",
+                "team_count": 0
+            },
+            "88": {
+                "name": "Kinich",
+                "team_count": 0
+            },
+            "89": {
+                "name": "Kachina",
+                "team_count": 0
+            },
             "Aether": {
                 "rank": 27,
                 "team_count": 0
@@ -12512,6 +13111,18 @@ const STATS = {
             },
             "Emilie": {
                 "rank": 86,
+                "team_count": 0
+            },
+            "Mualani": {
+                "rank": 87,
+                "team_count": 0
+            },
+            "Kinich": {
+                "rank": 88,
+                "team_count": 0
+            },
+            "Kachina": {
+                "rank": 89,
                 "team_count": 0
             }
         },
@@ -12860,6 +13471,18 @@ const STATS = {
                 "name": "Emilie",
                 "team_count": 0
             },
+            "87": {
+                "name": "Mualani",
+                "team_count": 0
+            },
+            "88": {
+                "name": "Kinich",
+                "team_count": 0
+            },
+            "89": {
+                "name": "Kachina",
+                "team_count": 0
+            },
             "Aether": {
                 "rank": 20,
                 "team_count": 0
@@ -13203,16 +13826,28 @@ const STATS = {
             "Emilie": {
                 "rank": 86,
                 "team_count": 0
+            },
+            "Mualani": {
+                "rank": 87,
+                "team_count": 0
+            },
+            "Kinich": {
+                "rank": 88,
+                "team_count": 0
+            },
+            "Kachina": {
+                "rank": 89,
+                "team_count": 0
             }
         },
         "Vaporize": {
             "1": {
                 "name": "Furina",
-                "team_count": 186
+                "team_count": 187
             },
             "2": {
                 "name": "Bennett",
-                "team_count": 126
+                "team_count": 127
             },
             "3": {
                 "name": "Xianyun",
@@ -13280,7 +13915,7 @@ const STATS = {
             },
             "19": {
                 "name": "Xiangling",
-                "team_count": 13
+                "team_count": 14
             },
             "20": {
                 "name": "Dehya",
@@ -13463,91 +14098,103 @@ const STATS = {
                 "team_count": 1
             },
             "65": {
+                "name": "Emilie",
+                "team_count": 1
+            },
+            "66": {
                 "name": "Lumine",
                 "team_count": 0
             },
-            "66": {
+            "67": {
                 "name": "Fischl",
                 "team_count": 0
             },
-            "67": {
+            "68": {
                 "name": "Ningguang",
                 "team_count": 0
             },
-            "68": {
+            "69": {
                 "name": "Lisa",
                 "team_count": 0
             },
-            "69": {
+            "70": {
                 "name": "Tartaglia",
                 "team_count": 0
             },
-            "70": {
+            "71": {
                 "name": "Ganyu",
                 "team_count": 0
             },
-            "71": {
+            "72": {
                 "name": "Aloy",
                 "team_count": 0
             },
-            "72": {
+            "73": {
                 "name": "Kujou Sara",
                 "team_count": 0
             },
-            "73": {
+            "74": {
                 "name": "Sangonomiya Kokomi",
                 "team_count": 0
             },
-            "74": {
+            "75": {
                 "name": "Gorou",
                 "team_count": 0
             },
-            "75": {
+            "76": {
                 "name": "Yae Miko",
                 "team_count": 0
             },
-            "76": {
+            "77": {
                 "name": "Shikanoin Heizou",
                 "team_count": 0
             },
-            "77": {
+            "78": {
                 "name": "Tighnari",
                 "team_count": 0
             },
-            "78": {
+            "79": {
                 "name": "Collei",
                 "team_count": 0
             },
-            "79": {
+            "80": {
                 "name": "Faruzan",
                 "team_count": 0
             },
-            "80": {
+            "81": {
                 "name": "Wanderer",
                 "team_count": 0
             },
-            "81": {
+            "82": {
                 "name": "Lyney",
                 "team_count": 0
             },
-            "82": {
+            "83": {
                 "name": "Wriothesley",
                 "team_count": 0
             },
-            "83": {
+            "84": {
                 "name": "Sethos",
                 "team_count": 0
             },
-            "84": {
+            "85": {
                 "name": "Sigewinne",
                 "team_count": 0
             },
-            "85": {
+            "86": {
                 "name": "Clorinde",
                 "team_count": 0
             },
-            "86": {
-                "name": "Emilie",
+            "87": {
+                "name": "Mualani",
+                "team_count": 0
+            },
+            "88": {
+                "name": "Kinich",
+                "team_count": 0
+            },
+            "89": {
+                "name": "Kachina",
                 "team_count": 0
             },
             "Aether": {
@@ -13555,7 +14202,7 @@ const STATS = {
                 "team_count": 5
             },
             "Lumine": {
-                "rank": 65,
+                "rank": 66,
                 "team_count": 0
             },
             "Sucrose": {
@@ -13584,14 +14231,14 @@ const STATS = {
             },
             "Bennett": {
                 "rank": 2,
-                "team_count": 126
+                "team_count": 127
             },
             "Fischl": {
-                "rank": 66,
+                "rank": 67,
                 "team_count": 0
             },
             "Ningguang": {
-                "rank": 67,
+                "rank": 68,
                 "team_count": 0
             },
             "Xingqiu": {
@@ -13604,7 +14251,7 @@ const STATS = {
             },
             "Xiangling": {
                 "rank": 19,
-                "team_count": 13
+                "team_count": 14
             },
             "Venti": {
                 "rank": 28,
@@ -13631,7 +14278,7 @@ const STATS = {
                 "team_count": 7
             },
             "Lisa": {
-                "rank": 68,
+                "rank": 69,
                 "team_count": 0
             },
             "Jean": {
@@ -13647,7 +14294,7 @@ const STATS = {
                 "team_count": 38
             },
             "Tartaglia": {
-                "rank": 69,
+                "rank": 70,
                 "team_count": 0
             },
             "Xinyan": {
@@ -13663,7 +14310,7 @@ const STATS = {
                 "team_count": 1
             },
             "Ganyu": {
-                "rank": 70,
+                "rank": 71,
                 "team_count": 0
             },
             "Xiao": {
@@ -13703,11 +14350,11 @@ const STATS = {
                 "team_count": 42
             },
             "Aloy": {
-                "rank": 71,
+                "rank": 72,
                 "team_count": 0
             },
             "Kujou Sara": {
-                "rank": 72,
+                "rank": 73,
                 "team_count": 0
             },
             "Raiden Shogun": {
@@ -13715,7 +14362,7 @@ const STATS = {
                 "team_count": 1
             },
             "Sangonomiya Kokomi": {
-                "rank": 73,
+                "rank": 74,
                 "team_count": 0
             },
             "Thoma": {
@@ -13727,7 +14374,7 @@ const STATS = {
                 "team_count": 1
             },
             "Gorou": {
-                "rank": 74,
+                "rank": 75,
                 "team_count": 0
             },
             "Yun Jin": {
@@ -13739,7 +14386,7 @@ const STATS = {
                 "team_count": 1
             },
             "Yae Miko": {
-                "rank": 75,
+                "rank": 76,
                 "team_count": 0
             },
             "Kamisato Ayato": {
@@ -13755,15 +14402,15 @@ const STATS = {
                 "team_count": 1
             },
             "Shikanoin Heizou": {
-                "rank": 76,
-                "team_count": 0
-            },
-            "Tighnari": {
                 "rank": 77,
                 "team_count": 0
             },
-            "Collei": {
+            "Tighnari": {
                 "rank": 78,
+                "team_count": 0
+            },
+            "Collei": {
+                "rank": 79,
                 "team_count": 0
             },
             "Dori": {
@@ -13791,11 +14438,11 @@ const STATS = {
                 "team_count": 3
             },
             "Faruzan": {
-                "rank": 79,
+                "rank": 80,
                 "team_count": 0
             },
             "Wanderer": {
-                "rank": 80,
+                "rank": 81,
                 "team_count": 0
             },
             "Alhaitham": {
@@ -13827,7 +14474,7 @@ const STATS = {
                 "team_count": 1
             },
             "Lyney": {
-                "rank": 81,
+                "rank": 82,
                 "team_count": 0
             },
             "Lynette": {
@@ -13843,12 +14490,12 @@ const STATS = {
                 "team_count": 4
             },
             "Wriothesley": {
-                "rank": 82,
+                "rank": 83,
                 "team_count": 0
             },
             "Furina": {
                 "rank": 1,
-                "team_count": 186
+                "team_count": 187
             },
             "Charlotte": {
                 "rank": 16,
@@ -13879,19 +14526,31 @@ const STATS = {
                 "team_count": 21
             },
             "Sethos": {
-                "rank": 83,
-                "team_count": 0
-            },
-            "Sigewinne": {
                 "rank": 84,
                 "team_count": 0
             },
-            "Clorinde": {
+            "Sigewinne": {
                 "rank": 85,
                 "team_count": 0
             },
-            "Emilie": {
+            "Clorinde": {
                 "rank": 86,
+                "team_count": 0
+            },
+            "Emilie": {
+                "rank": 65,
+                "team_count": 1
+            },
+            "Mualani": {
+                "rank": 87,
+                "team_count": 0
+            },
+            "Kinich": {
+                "rank": 88,
+                "team_count": 0
+            },
+            "Kachina": {
+                "rank": 89,
                 "team_count": 0
             }
         },
@@ -14240,6 +14899,18 @@ const STATS = {
                 "name": "Emilie",
                 "team_count": 0
             },
+            "87": {
+                "name": "Mualani",
+                "team_count": 0
+            },
+            "88": {
+                "name": "Kinich",
+                "team_count": 0
+            },
+            "89": {
+                "name": "Kachina",
+                "team_count": 0
+            },
             "Aether": {
                 "rank": 22,
                 "team_count": 0
@@ -14582,6 +15253,18 @@ const STATS = {
             },
             "Emilie": {
                 "rank": 86,
+                "team_count": 0
+            },
+            "Mualani": {
+                "rank": 87,
+                "team_count": 0
+            },
+            "Kinich": {
+                "rank": 88,
+                "team_count": 0
+            },
+            "Kachina": {
+                "rank": 89,
                 "team_count": 0
             }
         },
@@ -14930,6 +15613,18 @@ const STATS = {
                 "name": "Emilie",
                 "team_count": 0
             },
+            "87": {
+                "name": "Mualani",
+                "team_count": 0
+            },
+            "88": {
+                "name": "Kinich",
+                "team_count": 0
+            },
+            "89": {
+                "name": "Kachina",
+                "team_count": 0
+            },
             "Aether": {
                 "rank": 20,
                 "team_count": 0
@@ -15272,6 +15967,18 @@ const STATS = {
             },
             "Emilie": {
                 "rank": 86,
+                "team_count": 0
+            },
+            "Mualani": {
+                "rank": 87,
+                "team_count": 0
+            },
+            "Kinich": {
+                "rank": 88,
+                "team_count": 0
+            },
+            "Kachina": {
+                "rank": 89,
                 "team_count": 0
             }
         },
@@ -15620,6 +16327,18 @@ const STATS = {
                 "name": "Emilie",
                 "team_count": 0
             },
+            "87": {
+                "name": "Mualani",
+                "team_count": 0
+            },
+            "88": {
+                "name": "Kinich",
+                "team_count": 0
+            },
+            "89": {
+                "name": "Kachina",
+                "team_count": 0
+            },
             "Aether": {
                 "rank": 24,
                 "team_count": 0
@@ -15962,6 +16681,18 @@ const STATS = {
             },
             "Emilie": {
                 "rank": 86,
+                "team_count": 0
+            },
+            "Mualani": {
+                "rank": 87,
+                "team_count": 0
+            },
+            "Kinich": {
+                "rank": 88,
+                "team_count": 0
+            },
+            "Kachina": {
+                "rank": 89,
                 "team_count": 0
             }
         },
@@ -16310,6 +17041,18 @@ const STATS = {
                 "name": "Emilie",
                 "team_count": 0
             },
+            "87": {
+                "name": "Mualani",
+                "team_count": 0
+            },
+            "88": {
+                "name": "Kinich",
+                "team_count": 0
+            },
+            "89": {
+                "name": "Kachina",
+                "team_count": 0
+            },
             "Aether": {
                 "rank": 5,
                 "team_count": 0
@@ -16652,6 +17395,18 @@ const STATS = {
             },
             "Emilie": {
                 "rank": 86,
+                "team_count": 0
+            },
+            "Mualani": {
+                "rank": 87,
+                "team_count": 0
+            },
+            "Kinich": {
+                "rank": 88,
+                "team_count": 0
+            },
+            "Kachina": {
+                "rank": 89,
                 "team_count": 0
             }
         },
@@ -17000,6 +17755,18 @@ const STATS = {
                 "name": "Emilie",
                 "team_count": 0
             },
+            "87": {
+                "name": "Mualani",
+                "team_count": 0
+            },
+            "88": {
+                "name": "Kinich",
+                "team_count": 0
+            },
+            "89": {
+                "name": "Kachina",
+                "team_count": 0
+            },
             "Aether": {
                 "rank": 27,
                 "team_count": 0
@@ -17342,6 +18109,18 @@ const STATS = {
             },
             "Emilie": {
                 "rank": 86,
+                "team_count": 0
+            },
+            "Mualani": {
+                "rank": 87,
+                "team_count": 0
+            },
+            "Kinich": {
+                "rank": 88,
+                "team_count": 0
+            },
+            "Kachina": {
+                "rank": 89,
                 "team_count": 0
             }
         },
@@ -17690,6 +18469,18 @@ const STATS = {
                 "name": "Emilie",
                 "team_count": 0
             },
+            "87": {
+                "name": "Mualani",
+                "team_count": 0
+            },
+            "88": {
+                "name": "Kinich",
+                "team_count": 0
+            },
+            "89": {
+                "name": "Kachina",
+                "team_count": 0
+            },
             "Aether": {
                 "rank": 6,
                 "team_count": 7
@@ -18032,6 +18823,18 @@ const STATS = {
             },
             "Emilie": {
                 "rank": 86,
+                "team_count": 0
+            },
+            "Mualani": {
+                "rank": 87,
+                "team_count": 0
+            },
+            "Kinich": {
+                "rank": 88,
+                "team_count": 0
+            },
+            "Kachina": {
+                "rank": 89,
                 "team_count": 0
             }
         },
@@ -18380,6 +19183,18 @@ const STATS = {
                 "name": "Emilie",
                 "team_count": 0
             },
+            "87": {
+                "name": "Mualani",
+                "team_count": 0
+            },
+            "88": {
+                "name": "Kinich",
+                "team_count": 0
+            },
+            "89": {
+                "name": "Kachina",
+                "team_count": 0
+            },
             "Aether": {
                 "rank": 7,
                 "team_count": 0
@@ -18722,6 +19537,18 @@ const STATS = {
             },
             "Emilie": {
                 "rank": 86,
+                "team_count": 0
+            },
+            "Mualani": {
+                "rank": 87,
+                "team_count": 0
+            },
+            "Kinich": {
+                "rank": 88,
+                "team_count": 0
+            },
+            "Kachina": {
+                "rank": 89,
                 "team_count": 0
             }
         },
@@ -19070,6 +19897,18 @@ const STATS = {
                 "name": "Emilie",
                 "team_count": 0
             },
+            "87": {
+                "name": "Mualani",
+                "team_count": 0
+            },
+            "88": {
+                "name": "Kinich",
+                "team_count": 0
+            },
+            "89": {
+                "name": "Kachina",
+                "team_count": 0
+            },
             "Aether": {
                 "rank": 5,
                 "team_count": 2
@@ -19412,6 +20251,18 @@ const STATS = {
             },
             "Emilie": {
                 "rank": 86,
+                "team_count": 0
+            },
+            "Mualani": {
+                "rank": 87,
+                "team_count": 0
+            },
+            "Kinich": {
+                "rank": 88,
+                "team_count": 0
+            },
+            "Kachina": {
+                "rank": 89,
                 "team_count": 0
             }
         },
@@ -19760,6 +20611,18 @@ const STATS = {
                 "name": "Emilie",
                 "team_count": 0
             },
+            "87": {
+                "name": "Mualani",
+                "team_count": 0
+            },
+            "88": {
+                "name": "Kinich",
+                "team_count": 0
+            },
+            "89": {
+                "name": "Kachina",
+                "team_count": 0
+            },
             "Aether": {
                 "rank": 8,
                 "team_count": 8
@@ -20102,6 +20965,18 @@ const STATS = {
             },
             "Emilie": {
                 "rank": 86,
+                "team_count": 0
+            },
+            "Mualani": {
+                "rank": 87,
+                "team_count": 0
+            },
+            "Kinich": {
+                "rank": 88,
+                "team_count": 0
+            },
+            "Kachina": {
+                "rank": 89,
                 "team_count": 0
             }
         },
@@ -20450,6 +21325,18 @@ const STATS = {
                 "name": "Emilie",
                 "team_count": 0
             },
+            "87": {
+                "name": "Mualani",
+                "team_count": 0
+            },
+            "88": {
+                "name": "Kinich",
+                "team_count": 0
+            },
+            "89": {
+                "name": "Kachina",
+                "team_count": 0
+            },
             "Aether": {
                 "rank": 13,
                 "team_count": 12
@@ -20792,6 +21679,18 @@ const STATS = {
             },
             "Emilie": {
                 "rank": 86,
+                "team_count": 0
+            },
+            "Mualani": {
+                "rank": 87,
+                "team_count": 0
+            },
+            "Kinich": {
+                "rank": 88,
+                "team_count": 0
+            },
+            "Kachina": {
+                "rank": 89,
                 "team_count": 0
             }
         },
@@ -21140,6 +22039,18 @@ const STATS = {
                 "name": "Emilie",
                 "team_count": 0
             },
+            "87": {
+                "name": "Mualani",
+                "team_count": 0
+            },
+            "88": {
+                "name": "Kinich",
+                "team_count": 0
+            },
+            "89": {
+                "name": "Kachina",
+                "team_count": 0
+            },
             "Aether": {
                 "rank": 9,
                 "team_count": 10
@@ -21482,6 +22393,18 @@ const STATS = {
             },
             "Emilie": {
                 "rank": 86,
+                "team_count": 0
+            },
+            "Mualani": {
+                "rank": 87,
+                "team_count": 0
+            },
+            "Kinich": {
+                "rank": 88,
+                "team_count": 0
+            },
+            "Kachina": {
+                "rank": 89,
                 "team_count": 0
             }
         },
@@ -21830,6 +22753,18 @@ const STATS = {
                 "name": "Emilie",
                 "team_count": 0
             },
+            "87": {
+                "name": "Mualani",
+                "team_count": 0
+            },
+            "88": {
+                "name": "Kinich",
+                "team_count": 0
+            },
+            "89": {
+                "name": "Kachina",
+                "team_count": 0
+            },
             "Aether": {
                 "rank": 6,
                 "team_count": 3
@@ -22172,6 +23107,18 @@ const STATS = {
             },
             "Emilie": {
                 "rank": 86,
+                "team_count": 0
+            },
+            "Mualani": {
+                "rank": 87,
+                "team_count": 0
+            },
+            "Kinich": {
+                "rank": 88,
+                "team_count": 0
+            },
+            "Kachina": {
+                "rank": 89,
                 "team_count": 0
             }
         },
@@ -22520,6 +23467,18 @@ const STATS = {
                 "name": "Emilie",
                 "team_count": 0
             },
+            "87": {
+                "name": "Mualani",
+                "team_count": 0
+            },
+            "88": {
+                "name": "Kinich",
+                "team_count": 0
+            },
+            "89": {
+                "name": "Kachina",
+                "team_count": 0
+            },
             "Aether": {
                 "rank": 8,
                 "team_count": 0
@@ -22862,6 +23821,18 @@ const STATS = {
             },
             "Emilie": {
                 "rank": 86,
+                "team_count": 0
+            },
+            "Mualani": {
+                "rank": 87,
+                "team_count": 0
+            },
+            "Kinich": {
+                "rank": 88,
+                "team_count": 0
+            },
+            "Kachina": {
+                "rank": 89,
                 "team_count": 0
             }
         },
@@ -23210,6 +24181,18 @@ const STATS = {
                 "name": "Emilie",
                 "team_count": 0
             },
+            "87": {
+                "name": "Mualani",
+                "team_count": 0
+            },
+            "88": {
+                "name": "Kinich",
+                "team_count": 0
+            },
+            "89": {
+                "name": "Kachina",
+                "team_count": 0
+            },
             "Aether": {
                 "rank": 3,
                 "team_count": 2
@@ -23553,695 +24536,731 @@ const STATS = {
             "Emilie": {
                 "rank": 86,
                 "team_count": 0
+            },
+            "Mualani": {
+                "rank": 87,
+                "team_count": 0
+            },
+            "Kinich": {
+                "rank": 88,
+                "team_count": 0
+            },
+            "Kachina": {
+                "rank": 89,
+                "team_count": 0
             }
         },
         "Airfryer": {
             "1": {
                 "name": "Bennett",
-                "team_count": 1
+                "team_count": 3
             },
             "2": {
-                "name": "Venti",
-                "team_count": 1
+                "name": "Kaedehara Kazuha",
+                "team_count": 3
             },
             "3": {
-                "name": "Kaedehara Kazuha",
-                "team_count": 1
+                "name": "Venti",
+                "team_count": 2
             },
             "4": {
                 "name": "Nahida",
-                "team_count": 1
+                "team_count": 2
             },
             "5": {
+                "name": "Emilie",
+                "team_count": 2
+            },
+            "6": {
                 "name": "Aether",
                 "team_count": 0
             },
-            "6": {
+            "7": {
                 "name": "Lumine",
                 "team_count": 0
             },
-            "7": {
+            "8": {
                 "name": "Sucrose",
                 "team_count": 0
             },
-            "8": {
+            "9": {
                 "name": "Keqing",
                 "team_count": 0
             },
-            "9": {
+            "10": {
                 "name": "Mona",
                 "team_count": 0
             },
-            "10": {
+            "11": {
                 "name": "Chongyun",
                 "team_count": 0
             },
-            "11": {
+            "12": {
                 "name": "Qiqi",
                 "team_count": 0
             },
-            "12": {
+            "13": {
                 "name": "Noelle",
                 "team_count": 0
             },
-            "13": {
+            "14": {
                 "name": "Fischl",
                 "team_count": 0
             },
-            "14": {
+            "15": {
                 "name": "Ningguang",
                 "team_count": 0
             },
-            "15": {
+            "16": {
                 "name": "Xingqiu",
                 "team_count": 0
             },
-            "16": {
+            "17": {
                 "name": "Beidou",
                 "team_count": 0
             },
-            "17": {
+            "18": {
                 "name": "Xiangling",
                 "team_count": 0
             },
-            "18": {
+            "19": {
                 "name": "Amber",
                 "team_count": 0
             },
-            "19": {
+            "20": {
                 "name": "Razor",
                 "team_count": 0
             },
-            "20": {
+            "21": {
                 "name": "Diluc",
                 "team_count": 0
             },
-            "21": {
+            "22": {
                 "name": "Kaeya",
                 "team_count": 0
             },
-            "22": {
+            "23": {
                 "name": "Barbara",
                 "team_count": 0
             },
-            "23": {
+            "24": {
                 "name": "Lisa",
                 "team_count": 0
             },
-            "24": {
+            "25": {
                 "name": "Jean",
                 "team_count": 0
             },
-            "25": {
+            "26": {
                 "name": "Diona",
                 "team_count": 0
             },
-            "26": {
+            "27": {
                 "name": "Klee",
                 "team_count": 0
             },
-            "27": {
+            "28": {
                 "name": "Tartaglia",
                 "team_count": 0
             },
-            "28": {
+            "29": {
                 "name": "Xinyan",
                 "team_count": 0
             },
-            "29": {
+            "30": {
                 "name": "Zhongli",
                 "team_count": 0
             },
-            "30": {
+            "31": {
                 "name": "Albedo",
                 "team_count": 0
             },
-            "31": {
+            "32": {
                 "name": "Ganyu",
                 "team_count": 0
             },
-            "32": {
+            "33": {
                 "name": "Xiao",
                 "team_count": 0
             },
-            "33": {
+            "34": {
                 "name": "Hu Tao",
                 "team_count": 0
             },
-            "34": {
+            "35": {
                 "name": "Rosaria",
                 "team_count": 0
             },
-            "35": {
+            "36": {
                 "name": "Yanfei",
                 "team_count": 0
             },
-            "36": {
+            "37": {
                 "name": "Eula",
                 "team_count": 0
             },
-            "37": {
+            "38": {
                 "name": "Kamisato Ayaka",
                 "team_count": 0
             },
-            "38": {
+            "39": {
                 "name": "Sayu",
                 "team_count": 0
             },
-            "39": {
+            "40": {
                 "name": "Yoimiya",
                 "team_count": 0
             },
-            "40": {
+            "41": {
                 "name": "Aloy",
                 "team_count": 0
             },
-            "41": {
+            "42": {
                 "name": "Kujou Sara",
                 "team_count": 0
             },
-            "42": {
+            "43": {
                 "name": "Raiden Shogun",
                 "team_count": 0
             },
-            "43": {
+            "44": {
                 "name": "Sangonomiya Kokomi",
                 "team_count": 0
             },
-            "44": {
+            "45": {
                 "name": "Thoma",
                 "team_count": 0
             },
-            "45": {
+            "46": {
                 "name": "Arataki Itto",
                 "team_count": 0
             },
-            "46": {
+            "47": {
                 "name": "Gorou",
                 "team_count": 0
             },
-            "47": {
+            "48": {
                 "name": "Yun Jin",
                 "team_count": 0
             },
-            "48": {
+            "49": {
                 "name": "Shenhe",
                 "team_count": 0
             },
-            "49": {
+            "50": {
                 "name": "Yae Miko",
                 "team_count": 0
             },
-            "50": {
+            "51": {
                 "name": "Kamisato Ayato",
                 "team_count": 0
             },
-            "51": {
+            "52": {
                 "name": "Yelan",
                 "team_count": 0
             },
-            "52": {
+            "53": {
                 "name": "Kuki Shinobu",
                 "team_count": 0
             },
-            "53": {
+            "54": {
                 "name": "Shikanoin Heizou",
                 "team_count": 0
             },
-            "54": {
+            "55": {
                 "name": "Tighnari",
                 "team_count": 0
             },
-            "55": {
+            "56": {
                 "name": "Collei",
                 "team_count": 0
             },
-            "56": {
+            "57": {
                 "name": "Dori",
                 "team_count": 0
             },
-            "57": {
+            "58": {
                 "name": "Candace",
                 "team_count": 0
             },
-            "58": {
+            "59": {
                 "name": "Cyno",
                 "team_count": 0
             },
-            "59": {
+            "60": {
                 "name": "Nilou",
                 "team_count": 0
             },
-            "60": {
+            "61": {
                 "name": "Layla",
                 "team_count": 0
             },
-            "61": {
+            "62": {
                 "name": "Faruzan",
                 "team_count": 0
             },
-            "62": {
+            "63": {
                 "name": "Wanderer",
                 "team_count": 0
             },
-            "63": {
+            "64": {
                 "name": "Alhaitham",
                 "team_count": 0
             },
-            "64": {
+            "65": {
                 "name": "Yaoyao",
                 "team_count": 0
             },
-            "65": {
+            "66": {
                 "name": "Dehya",
                 "team_count": 0
             },
-            "66": {
+            "67": {
                 "name": "Mika",
                 "team_count": 0
             },
-            "67": {
+            "68": {
                 "name": "Baizhu",
                 "team_count": 0
             },
-            "68": {
+            "69": {
                 "name": "Kaveh",
                 "team_count": 0
             },
-            "69": {
+            "70": {
                 "name": "Kirara",
                 "team_count": 0
             },
-            "70": {
+            "71": {
                 "name": "Lyney",
                 "team_count": 0
             },
-            "71": {
+            "72": {
                 "name": "Lynette",
                 "team_count": 0
             },
-            "72": {
+            "73": {
                 "name": "Freminet",
                 "team_count": 0
             },
-            "73": {
+            "74": {
                 "name": "Neuvillette",
                 "team_count": 0
             },
-            "74": {
+            "75": {
                 "name": "Wriothesley",
                 "team_count": 0
             },
-            "75": {
+            "76": {
                 "name": "Furina",
                 "team_count": 0
             },
-            "76": {
+            "77": {
                 "name": "Charlotte",
                 "team_count": 0
             },
-            "77": {
+            "78": {
                 "name": "Navia",
                 "team_count": 0
             },
-            "78": {
+            "79": {
                 "name": "Chevreuse",
                 "team_count": 0
             },
-            "79": {
+            "80": {
                 "name": "Xianyun",
                 "team_count": 0
             },
-            "80": {
+            "81": {
                 "name": "Gaming",
                 "team_count": 0
             },
-            "81": {
+            "82": {
                 "name": "Chiori",
                 "team_count": 0
             },
-            "82": {
+            "83": {
                 "name": "Arlecchino",
                 "team_count": 0
             },
-            "83": {
+            "84": {
                 "name": "Sethos",
                 "team_count": 0
             },
-            "84": {
+            "85": {
                 "name": "Sigewinne",
                 "team_count": 0
             },
-            "85": {
+            "86": {
                 "name": "Clorinde",
                 "team_count": 0
             },
-            "86": {
-                "name": "Emilie",
+            "87": {
+                "name": "Mualani",
+                "team_count": 0
+            },
+            "88": {
+                "name": "Kinich",
+                "team_count": 0
+            },
+            "89": {
+                "name": "Kachina",
                 "team_count": 0
             },
             "Aether": {
-                "rank": 5,
-                "team_count": 0
-            },
-            "Lumine": {
                 "rank": 6,
                 "team_count": 0
             },
-            "Sucrose": {
+            "Lumine": {
                 "rank": 7,
                 "team_count": 0
             },
-            "Keqing": {
+            "Sucrose": {
                 "rank": 8,
                 "team_count": 0
             },
-            "Mona": {
+            "Keqing": {
                 "rank": 9,
                 "team_count": 0
             },
-            "Chongyun": {
+            "Mona": {
                 "rank": 10,
                 "team_count": 0
             },
-            "Qiqi": {
+            "Chongyun": {
                 "rank": 11,
                 "team_count": 0
             },
-            "Noelle": {
+            "Qiqi": {
                 "rank": 12,
+                "team_count": 0
+            },
+            "Noelle": {
+                "rank": 13,
                 "team_count": 0
             },
             "Bennett": {
                 "rank": 1,
-                "team_count": 1
+                "team_count": 3
             },
             "Fischl": {
-                "rank": 13,
-                "team_count": 0
-            },
-            "Ningguang": {
                 "rank": 14,
                 "team_count": 0
             },
-            "Xingqiu": {
+            "Ningguang": {
                 "rank": 15,
                 "team_count": 0
             },
-            "Beidou": {
+            "Xingqiu": {
                 "rank": 16,
                 "team_count": 0
             },
-            "Xiangling": {
+            "Beidou": {
                 "rank": 17,
                 "team_count": 0
             },
-            "Venti": {
-                "rank": 2,
-                "team_count": 1
-            },
-            "Amber": {
+            "Xiangling": {
                 "rank": 18,
                 "team_count": 0
             },
-            "Razor": {
+            "Venti": {
+                "rank": 3,
+                "team_count": 2
+            },
+            "Amber": {
                 "rank": 19,
                 "team_count": 0
             },
-            "Diluc": {
+            "Razor": {
                 "rank": 20,
                 "team_count": 0
             },
-            "Kaeya": {
+            "Diluc": {
                 "rank": 21,
                 "team_count": 0
             },
-            "Barbara": {
+            "Kaeya": {
                 "rank": 22,
                 "team_count": 0
             },
-            "Lisa": {
+            "Barbara": {
                 "rank": 23,
                 "team_count": 0
             },
-            "Jean": {
+            "Lisa": {
                 "rank": 24,
                 "team_count": 0
             },
-            "Diona": {
+            "Jean": {
                 "rank": 25,
                 "team_count": 0
             },
-            "Klee": {
+            "Diona": {
                 "rank": 26,
                 "team_count": 0
             },
-            "Tartaglia": {
+            "Klee": {
                 "rank": 27,
                 "team_count": 0
             },
-            "Xinyan": {
+            "Tartaglia": {
                 "rank": 28,
                 "team_count": 0
             },
-            "Zhongli": {
+            "Xinyan": {
                 "rank": 29,
                 "team_count": 0
             },
-            "Albedo": {
+            "Zhongli": {
                 "rank": 30,
                 "team_count": 0
             },
-            "Ganyu": {
+            "Albedo": {
                 "rank": 31,
                 "team_count": 0
             },
-            "Xiao": {
+            "Ganyu": {
                 "rank": 32,
                 "team_count": 0
             },
-            "Hu Tao": {
+            "Xiao": {
                 "rank": 33,
                 "team_count": 0
             },
-            "Rosaria": {
+            "Hu Tao": {
                 "rank": 34,
                 "team_count": 0
             },
-            "Yanfei": {
+            "Rosaria": {
                 "rank": 35,
                 "team_count": 0
             },
-            "Eula": {
+            "Yanfei": {
                 "rank": 36,
                 "team_count": 0
             },
-            "Kaedehara Kazuha": {
-                "rank": 3,
-                "team_count": 1
-            },
-            "Kamisato Ayaka": {
+            "Eula": {
                 "rank": 37,
                 "team_count": 0
             },
-            "Sayu": {
+            "Kaedehara Kazuha": {
+                "rank": 2,
+                "team_count": 3
+            },
+            "Kamisato Ayaka": {
                 "rank": 38,
                 "team_count": 0
             },
-            "Yoimiya": {
+            "Sayu": {
                 "rank": 39,
                 "team_count": 0
             },
-            "Aloy": {
+            "Yoimiya": {
                 "rank": 40,
                 "team_count": 0
             },
-            "Kujou Sara": {
+            "Aloy": {
                 "rank": 41,
                 "team_count": 0
             },
-            "Raiden Shogun": {
+            "Kujou Sara": {
                 "rank": 42,
                 "team_count": 0
             },
-            "Sangonomiya Kokomi": {
+            "Raiden Shogun": {
                 "rank": 43,
                 "team_count": 0
             },
-            "Thoma": {
+            "Sangonomiya Kokomi": {
                 "rank": 44,
                 "team_count": 0
             },
-            "Arataki Itto": {
+            "Thoma": {
                 "rank": 45,
                 "team_count": 0
             },
-            "Gorou": {
+            "Arataki Itto": {
                 "rank": 46,
                 "team_count": 0
             },
-            "Yun Jin": {
+            "Gorou": {
                 "rank": 47,
                 "team_count": 0
             },
-            "Shenhe": {
+            "Yun Jin": {
                 "rank": 48,
                 "team_count": 0
             },
-            "Yae Miko": {
+            "Shenhe": {
                 "rank": 49,
                 "team_count": 0
             },
-            "Kamisato Ayato": {
+            "Yae Miko": {
                 "rank": 50,
                 "team_count": 0
             },
-            "Yelan": {
+            "Kamisato Ayato": {
                 "rank": 51,
                 "team_count": 0
             },
-            "Kuki Shinobu": {
+            "Yelan": {
                 "rank": 52,
                 "team_count": 0
             },
-            "Shikanoin Heizou": {
+            "Kuki Shinobu": {
                 "rank": 53,
                 "team_count": 0
             },
-            "Tighnari": {
+            "Shikanoin Heizou": {
                 "rank": 54,
                 "team_count": 0
             },
-            "Collei": {
+            "Tighnari": {
                 "rank": 55,
                 "team_count": 0
             },
-            "Dori": {
+            "Collei": {
                 "rank": 56,
                 "team_count": 0
             },
-            "Candace": {
+            "Dori": {
                 "rank": 57,
                 "team_count": 0
             },
-            "Cyno": {
+            "Candace": {
                 "rank": 58,
                 "team_count": 0
             },
-            "Nilou": {
+            "Cyno": {
                 "rank": 59,
+                "team_count": 0
+            },
+            "Nilou": {
+                "rank": 60,
                 "team_count": 0
             },
             "Nahida": {
                 "rank": 4,
-                "team_count": 1
+                "team_count": 2
             },
             "Layla": {
-                "rank": 60,
-                "team_count": 0
-            },
-            "Faruzan": {
                 "rank": 61,
                 "team_count": 0
             },
-            "Wanderer": {
+            "Faruzan": {
                 "rank": 62,
                 "team_count": 0
             },
-            "Alhaitham": {
+            "Wanderer": {
                 "rank": 63,
                 "team_count": 0
             },
-            "Yaoyao": {
+            "Alhaitham": {
                 "rank": 64,
                 "team_count": 0
             },
-            "Dehya": {
+            "Yaoyao": {
                 "rank": 65,
                 "team_count": 0
             },
-            "Mika": {
+            "Dehya": {
                 "rank": 66,
                 "team_count": 0
             },
-            "Baizhu": {
+            "Mika": {
                 "rank": 67,
                 "team_count": 0
             },
-            "Kaveh": {
+            "Baizhu": {
                 "rank": 68,
                 "team_count": 0
             },
-            "Kirara": {
+            "Kaveh": {
                 "rank": 69,
                 "team_count": 0
             },
-            "Lyney": {
+            "Kirara": {
                 "rank": 70,
                 "team_count": 0
             },
-            "Lynette": {
+            "Lyney": {
                 "rank": 71,
                 "team_count": 0
             },
-            "Freminet": {
+            "Lynette": {
                 "rank": 72,
                 "team_count": 0
             },
-            "Neuvillette": {
+            "Freminet": {
                 "rank": 73,
                 "team_count": 0
             },
-            "Wriothesley": {
+            "Neuvillette": {
                 "rank": 74,
                 "team_count": 0
             },
-            "Furina": {
+            "Wriothesley": {
                 "rank": 75,
                 "team_count": 0
             },
-            "Charlotte": {
+            "Furina": {
                 "rank": 76,
                 "team_count": 0
             },
-            "Navia": {
+            "Charlotte": {
                 "rank": 77,
                 "team_count": 0
             },
-            "Chevreuse": {
+            "Navia": {
                 "rank": 78,
                 "team_count": 0
             },
-            "Xianyun": {
+            "Chevreuse": {
                 "rank": 79,
                 "team_count": 0
             },
-            "Gaming": {
+            "Xianyun": {
                 "rank": 80,
                 "team_count": 0
             },
-            "Chiori": {
+            "Gaming": {
                 "rank": 81,
                 "team_count": 0
             },
-            "Arlecchino": {
+            "Chiori": {
                 "rank": 82,
                 "team_count": 0
             },
-            "Sethos": {
+            "Arlecchino": {
                 "rank": 83,
                 "team_count": 0
             },
-            "Sigewinne": {
+            "Sethos": {
                 "rank": 84,
                 "team_count": 0
             },
-            "Clorinde": {
+            "Sigewinne": {
                 "rank": 85,
                 "team_count": 0
             },
-            "Emilie": {
+            "Clorinde": {
                 "rank": 86,
+                "team_count": 0
+            },
+            "Emilie": {
+                "rank": 5,
+                "team_count": 2
+            },
+            "Mualani": {
+                "rank": 87,
+                "team_count": 0
+            },
+            "Kinich": {
+                "rank": 88,
+                "team_count": 0
+            },
+            "Kachina": {
+                "rank": 89,
                 "team_count": 0
             }
         },
@@ -24590,6 +25609,18 @@ const STATS = {
                 "name": "Emilie",
                 "team_count": 0
             },
+            "87": {
+                "name": "Mualani",
+                "team_count": 0
+            },
+            "88": {
+                "name": "Kinich",
+                "team_count": 0
+            },
+            "89": {
+                "name": "Kachina",
+                "team_count": 0
+            },
             "Aether": {
                 "rank": 5,
                 "team_count": 49
@@ -24932,6 +25963,18 @@ const STATS = {
             },
             "Emilie": {
                 "rank": 86,
+                "team_count": 0
+            },
+            "Mualani": {
+                "rank": 87,
+                "team_count": 0
+            },
+            "Kinich": {
+                "rank": 88,
+                "team_count": 0
+            },
+            "Kachina": {
+                "rank": 89,
                 "team_count": 0
             }
         },
@@ -25280,6 +26323,18 @@ const STATS = {
                 "name": "Emilie",
                 "team_count": 0
             },
+            "87": {
+                "name": "Mualani",
+                "team_count": 0
+            },
+            "88": {
+                "name": "Kinich",
+                "team_count": 0
+            },
+            "89": {
+                "name": "Kachina",
+                "team_count": 0
+            },
             "Aether": {
                 "rank": 8,
                 "team_count": 15
@@ -25622,6 +26677,18 @@ const STATS = {
             },
             "Emilie": {
                 "rank": 86,
+                "team_count": 0
+            },
+            "Mualani": {
+                "rank": 87,
+                "team_count": 0
+            },
+            "Kinich": {
+                "rank": 88,
+                "team_count": 0
+            },
+            "Kachina": {
+                "rank": 89,
                 "team_count": 0
             }
         },
@@ -25970,6 +27037,18 @@ const STATS = {
                 "name": "Emilie",
                 "team_count": 0
             },
+            "87": {
+                "name": "Mualani",
+                "team_count": 0
+            },
+            "88": {
+                "name": "Kinich",
+                "team_count": 0
+            },
+            "89": {
+                "name": "Kachina",
+                "team_count": 0
+            },
             "Aether": {
                 "rank": 7,
                 "team_count": 29
@@ -26312,6 +27391,18 @@ const STATS = {
             },
             "Emilie": {
                 "rank": 86,
+                "team_count": 0
+            },
+            "Mualani": {
+                "rank": 87,
+                "team_count": 0
+            },
+            "Kinich": {
+                "rank": 88,
+                "team_count": 0
+            },
+            "Kachina": {
+                "rank": 89,
                 "team_count": 0
             }
         },
@@ -26660,6 +27751,18 @@ const STATS = {
                 "name": "Emilie",
                 "team_count": 0
             },
+            "87": {
+                "name": "Mualani",
+                "team_count": 0
+            },
+            "88": {
+                "name": "Kinich",
+                "team_count": 0
+            },
+            "89": {
+                "name": "Kachina",
+                "team_count": 0
+            },
             "Aether": {
                 "rank": 7,
                 "team_count": 0
@@ -27003,6 +28106,732 @@ const STATS = {
             "Emilie": {
                 "rank": 86,
                 "team_count": 0
+            },
+            "Mualani": {
+                "rank": 87,
+                "team_count": 0
+            },
+            "Kinich": {
+                "rank": 88,
+                "team_count": 0
+            },
+            "Kachina": {
+                "rank": 89,
+                "team_count": 0
+            }
+        },
+        "Burningload": {
+            "1": {
+                "name": "Fischl",
+                "team_count": 1
+            },
+            "2": {
+                "name": "Thoma",
+                "team_count": 1
+            },
+            "3": {
+                "name": "Cyno",
+                "team_count": 1
+            },
+            "4": {
+                "name": "Emilie",
+                "team_count": 1
+            },
+            "5": {
+                "name": "Aether",
+                "team_count": 0
+            },
+            "6": {
+                "name": "Lumine",
+                "team_count": 0
+            },
+            "7": {
+                "name": "Sucrose",
+                "team_count": 0
+            },
+            "8": {
+                "name": "Keqing",
+                "team_count": 0
+            },
+            "9": {
+                "name": "Mona",
+                "team_count": 0
+            },
+            "10": {
+                "name": "Chongyun",
+                "team_count": 0
+            },
+            "11": {
+                "name": "Qiqi",
+                "team_count": 0
+            },
+            "12": {
+                "name": "Noelle",
+                "team_count": 0
+            },
+            "13": {
+                "name": "Bennett",
+                "team_count": 0
+            },
+            "14": {
+                "name": "Ningguang",
+                "team_count": 0
+            },
+            "15": {
+                "name": "Xingqiu",
+                "team_count": 0
+            },
+            "16": {
+                "name": "Beidou",
+                "team_count": 0
+            },
+            "17": {
+                "name": "Xiangling",
+                "team_count": 0
+            },
+            "18": {
+                "name": "Venti",
+                "team_count": 0
+            },
+            "19": {
+                "name": "Amber",
+                "team_count": 0
+            },
+            "20": {
+                "name": "Razor",
+                "team_count": 0
+            },
+            "21": {
+                "name": "Diluc",
+                "team_count": 0
+            },
+            "22": {
+                "name": "Kaeya",
+                "team_count": 0
+            },
+            "23": {
+                "name": "Barbara",
+                "team_count": 0
+            },
+            "24": {
+                "name": "Lisa",
+                "team_count": 0
+            },
+            "25": {
+                "name": "Jean",
+                "team_count": 0
+            },
+            "26": {
+                "name": "Diona",
+                "team_count": 0
+            },
+            "27": {
+                "name": "Klee",
+                "team_count": 0
+            },
+            "28": {
+                "name": "Tartaglia",
+                "team_count": 0
+            },
+            "29": {
+                "name": "Xinyan",
+                "team_count": 0
+            },
+            "30": {
+                "name": "Zhongli",
+                "team_count": 0
+            },
+            "31": {
+                "name": "Albedo",
+                "team_count": 0
+            },
+            "32": {
+                "name": "Ganyu",
+                "team_count": 0
+            },
+            "33": {
+                "name": "Xiao",
+                "team_count": 0
+            },
+            "34": {
+                "name": "Hu Tao",
+                "team_count": 0
+            },
+            "35": {
+                "name": "Rosaria",
+                "team_count": 0
+            },
+            "36": {
+                "name": "Yanfei",
+                "team_count": 0
+            },
+            "37": {
+                "name": "Eula",
+                "team_count": 0
+            },
+            "38": {
+                "name": "Kaedehara Kazuha",
+                "team_count": 0
+            },
+            "39": {
+                "name": "Kamisato Ayaka",
+                "team_count": 0
+            },
+            "40": {
+                "name": "Sayu",
+                "team_count": 0
+            },
+            "41": {
+                "name": "Yoimiya",
+                "team_count": 0
+            },
+            "42": {
+                "name": "Aloy",
+                "team_count": 0
+            },
+            "43": {
+                "name": "Kujou Sara",
+                "team_count": 0
+            },
+            "44": {
+                "name": "Raiden Shogun",
+                "team_count": 0
+            },
+            "45": {
+                "name": "Sangonomiya Kokomi",
+                "team_count": 0
+            },
+            "46": {
+                "name": "Arataki Itto",
+                "team_count": 0
+            },
+            "47": {
+                "name": "Gorou",
+                "team_count": 0
+            },
+            "48": {
+                "name": "Yun Jin",
+                "team_count": 0
+            },
+            "49": {
+                "name": "Shenhe",
+                "team_count": 0
+            },
+            "50": {
+                "name": "Yae Miko",
+                "team_count": 0
+            },
+            "51": {
+                "name": "Kamisato Ayato",
+                "team_count": 0
+            },
+            "52": {
+                "name": "Yelan",
+                "team_count": 0
+            },
+            "53": {
+                "name": "Kuki Shinobu",
+                "team_count": 0
+            },
+            "54": {
+                "name": "Shikanoin Heizou",
+                "team_count": 0
+            },
+            "55": {
+                "name": "Tighnari",
+                "team_count": 0
+            },
+            "56": {
+                "name": "Collei",
+                "team_count": 0
+            },
+            "57": {
+                "name": "Dori",
+                "team_count": 0
+            },
+            "58": {
+                "name": "Candace",
+                "team_count": 0
+            },
+            "59": {
+                "name": "Nilou",
+                "team_count": 0
+            },
+            "60": {
+                "name": "Nahida",
+                "team_count": 0
+            },
+            "61": {
+                "name": "Layla",
+                "team_count": 0
+            },
+            "62": {
+                "name": "Faruzan",
+                "team_count": 0
+            },
+            "63": {
+                "name": "Wanderer",
+                "team_count": 0
+            },
+            "64": {
+                "name": "Alhaitham",
+                "team_count": 0
+            },
+            "65": {
+                "name": "Yaoyao",
+                "team_count": 0
+            },
+            "66": {
+                "name": "Dehya",
+                "team_count": 0
+            },
+            "67": {
+                "name": "Mika",
+                "team_count": 0
+            },
+            "68": {
+                "name": "Baizhu",
+                "team_count": 0
+            },
+            "69": {
+                "name": "Kaveh",
+                "team_count": 0
+            },
+            "70": {
+                "name": "Kirara",
+                "team_count": 0
+            },
+            "71": {
+                "name": "Lyney",
+                "team_count": 0
+            },
+            "72": {
+                "name": "Lynette",
+                "team_count": 0
+            },
+            "73": {
+                "name": "Freminet",
+                "team_count": 0
+            },
+            "74": {
+                "name": "Neuvillette",
+                "team_count": 0
+            },
+            "75": {
+                "name": "Wriothesley",
+                "team_count": 0
+            },
+            "76": {
+                "name": "Furina",
+                "team_count": 0
+            },
+            "77": {
+                "name": "Charlotte",
+                "team_count": 0
+            },
+            "78": {
+                "name": "Navia",
+                "team_count": 0
+            },
+            "79": {
+                "name": "Chevreuse",
+                "team_count": 0
+            },
+            "80": {
+                "name": "Xianyun",
+                "team_count": 0
+            },
+            "81": {
+                "name": "Gaming",
+                "team_count": 0
+            },
+            "82": {
+                "name": "Chiori",
+                "team_count": 0
+            },
+            "83": {
+                "name": "Arlecchino",
+                "team_count": 0
+            },
+            "84": {
+                "name": "Sethos",
+                "team_count": 0
+            },
+            "85": {
+                "name": "Sigewinne",
+                "team_count": 0
+            },
+            "86": {
+                "name": "Clorinde",
+                "team_count": 0
+            },
+            "87": {
+                "name": "Mualani",
+                "team_count": 0
+            },
+            "88": {
+                "name": "Kinich",
+                "team_count": 0
+            },
+            "89": {
+                "name": "Kachina",
+                "team_count": 0
+            },
+            "Aether": {
+                "rank": 5,
+                "team_count": 0
+            },
+            "Lumine": {
+                "rank": 6,
+                "team_count": 0
+            },
+            "Sucrose": {
+                "rank": 7,
+                "team_count": 0
+            },
+            "Keqing": {
+                "rank": 8,
+                "team_count": 0
+            },
+            "Mona": {
+                "rank": 9,
+                "team_count": 0
+            },
+            "Chongyun": {
+                "rank": 10,
+                "team_count": 0
+            },
+            "Qiqi": {
+                "rank": 11,
+                "team_count": 0
+            },
+            "Noelle": {
+                "rank": 12,
+                "team_count": 0
+            },
+            "Bennett": {
+                "rank": 13,
+                "team_count": 0
+            },
+            "Fischl": {
+                "rank": 1,
+                "team_count": 1
+            },
+            "Ningguang": {
+                "rank": 14,
+                "team_count": 0
+            },
+            "Xingqiu": {
+                "rank": 15,
+                "team_count": 0
+            },
+            "Beidou": {
+                "rank": 16,
+                "team_count": 0
+            },
+            "Xiangling": {
+                "rank": 17,
+                "team_count": 0
+            },
+            "Venti": {
+                "rank": 18,
+                "team_count": 0
+            },
+            "Amber": {
+                "rank": 19,
+                "team_count": 0
+            },
+            "Razor": {
+                "rank": 20,
+                "team_count": 0
+            },
+            "Diluc": {
+                "rank": 21,
+                "team_count": 0
+            },
+            "Kaeya": {
+                "rank": 22,
+                "team_count": 0
+            },
+            "Barbara": {
+                "rank": 23,
+                "team_count": 0
+            },
+            "Lisa": {
+                "rank": 24,
+                "team_count": 0
+            },
+            "Jean": {
+                "rank": 25,
+                "team_count": 0
+            },
+            "Diona": {
+                "rank": 26,
+                "team_count": 0
+            },
+            "Klee": {
+                "rank": 27,
+                "team_count": 0
+            },
+            "Tartaglia": {
+                "rank": 28,
+                "team_count": 0
+            },
+            "Xinyan": {
+                "rank": 29,
+                "team_count": 0
+            },
+            "Zhongli": {
+                "rank": 30,
+                "team_count": 0
+            },
+            "Albedo": {
+                "rank": 31,
+                "team_count": 0
+            },
+            "Ganyu": {
+                "rank": 32,
+                "team_count": 0
+            },
+            "Xiao": {
+                "rank": 33,
+                "team_count": 0
+            },
+            "Hu Tao": {
+                "rank": 34,
+                "team_count": 0
+            },
+            "Rosaria": {
+                "rank": 35,
+                "team_count": 0
+            },
+            "Yanfei": {
+                "rank": 36,
+                "team_count": 0
+            },
+            "Eula": {
+                "rank": 37,
+                "team_count": 0
+            },
+            "Kaedehara Kazuha": {
+                "rank": 38,
+                "team_count": 0
+            },
+            "Kamisato Ayaka": {
+                "rank": 39,
+                "team_count": 0
+            },
+            "Sayu": {
+                "rank": 40,
+                "team_count": 0
+            },
+            "Yoimiya": {
+                "rank": 41,
+                "team_count": 0
+            },
+            "Aloy": {
+                "rank": 42,
+                "team_count": 0
+            },
+            "Kujou Sara": {
+                "rank": 43,
+                "team_count": 0
+            },
+            "Raiden Shogun": {
+                "rank": 44,
+                "team_count": 0
+            },
+            "Sangonomiya Kokomi": {
+                "rank": 45,
+                "team_count": 0
+            },
+            "Thoma": {
+                "rank": 2,
+                "team_count": 1
+            },
+            "Arataki Itto": {
+                "rank": 46,
+                "team_count": 0
+            },
+            "Gorou": {
+                "rank": 47,
+                "team_count": 0
+            },
+            "Yun Jin": {
+                "rank": 48,
+                "team_count": 0
+            },
+            "Shenhe": {
+                "rank": 49,
+                "team_count": 0
+            },
+            "Yae Miko": {
+                "rank": 50,
+                "team_count": 0
+            },
+            "Kamisato Ayato": {
+                "rank": 51,
+                "team_count": 0
+            },
+            "Yelan": {
+                "rank": 52,
+                "team_count": 0
+            },
+            "Kuki Shinobu": {
+                "rank": 53,
+                "team_count": 0
+            },
+            "Shikanoin Heizou": {
+                "rank": 54,
+                "team_count": 0
+            },
+            "Tighnari": {
+                "rank": 55,
+                "team_count": 0
+            },
+            "Collei": {
+                "rank": 56,
+                "team_count": 0
+            },
+            "Dori": {
+                "rank": 57,
+                "team_count": 0
+            },
+            "Candace": {
+                "rank": 58,
+                "team_count": 0
+            },
+            "Cyno": {
+                "rank": 3,
+                "team_count": 1
+            },
+            "Nilou": {
+                "rank": 59,
+                "team_count": 0
+            },
+            "Nahida": {
+                "rank": 60,
+                "team_count": 0
+            },
+            "Layla": {
+                "rank": 61,
+                "team_count": 0
+            },
+            "Faruzan": {
+                "rank": 62,
+                "team_count": 0
+            },
+            "Wanderer": {
+                "rank": 63,
+                "team_count": 0
+            },
+            "Alhaitham": {
+                "rank": 64,
+                "team_count": 0
+            },
+            "Yaoyao": {
+                "rank": 65,
+                "team_count": 0
+            },
+            "Dehya": {
+                "rank": 66,
+                "team_count": 0
+            },
+            "Mika": {
+                "rank": 67,
+                "team_count": 0
+            },
+            "Baizhu": {
+                "rank": 68,
+                "team_count": 0
+            },
+            "Kaveh": {
+                "rank": 69,
+                "team_count": 0
+            },
+            "Kirara": {
+                "rank": 70,
+                "team_count": 0
+            },
+            "Lyney": {
+                "rank": 71,
+                "team_count": 0
+            },
+            "Lynette": {
+                "rank": 72,
+                "team_count": 0
+            },
+            "Freminet": {
+                "rank": 73,
+                "team_count": 0
+            },
+            "Neuvillette": {
+                "rank": 74,
+                "team_count": 0
+            },
+            "Wriothesley": {
+                "rank": 75,
+                "team_count": 0
+            },
+            "Furina": {
+                "rank": 76,
+                "team_count": 0
+            },
+            "Charlotte": {
+                "rank": 77,
+                "team_count": 0
+            },
+            "Navia": {
+                "rank": 78,
+                "team_count": 0
+            },
+            "Chevreuse": {
+                "rank": 79,
+                "team_count": 0
+            },
+            "Xianyun": {
+                "rank": 80,
+                "team_count": 0
+            },
+            "Gaming": {
+                "rank": 81,
+                "team_count": 0
+            },
+            "Chiori": {
+                "rank": 82,
+                "team_count": 0
+            },
+            "Arlecchino": {
+                "rank": 83,
+                "team_count": 0
+            },
+            "Sethos": {
+                "rank": 84,
+                "team_count": 0
+            },
+            "Sigewinne": {
+                "rank": 85,
+                "team_count": 0
+            },
+            "Clorinde": {
+                "rank": 86,
+                "team_count": 0
+            },
+            "Emilie": {
+                "rank": 4,
+                "team_count": 1
+            },
+            "Mualani": {
+                "rank": 87,
+                "team_count": 0
+            },
+            "Kinich": {
+                "rank": 88,
+                "team_count": 0
+            },
+            "Kachina": {
+                "rank": 89,
+                "team_count": 0
             }
         }
     },
@@ -27010,38 +28839,38 @@ const STATS = {
         "Pyro": {
             "1": {
                 "name": "Bennett",
-                "team_count": 331
+                "team_count": 344
             },
             "2": {
                 "name": "Xiangling",
-                "team_count": 137
+                "team_count": 140
             },
             "3": {
                 "name": "Thoma",
-                "team_count": 111
+                "team_count": 113
             },
             "4": {
                 "name": "Klee",
-                "team_count": 65
+                "team_count": 66
             },
             "5": {
                 "name": "Lyney",
-                "team_count": 61
+                "team_count": 62
             },
             "6": {
                 "name": "Yoimiya",
-                "team_count": 52
+                "team_count": 53
             },
             "7": {
                 "name": "Arlecchino",
-                "team_count": 48
+                "team_count": 49
             },
             "8": {
-                "name": "Chevreuse",
-                "team_count": 47
+                "name": "Gaming",
+                "team_count": 48
             },
             "9": {
-                "name": "Gaming",
+                "name": "Chevreuse",
                 "team_count": 47
             },
             "10": {
@@ -27054,7 +28883,7 @@ const STATS = {
             },
             "12": {
                 "name": "Yanfei",
-                "team_count": 27
+                "team_count": 28
             },
             "13": {
                 "name": "Hu Tao",
@@ -27086,11 +28915,11 @@ const STATS = {
             },
             "Bennett": {
                 "rank": 1,
-                "team_count": 331
+                "team_count": 344
             },
             "Xiangling": {
                 "rank": 2,
-                "team_count": 137
+                "team_count": 140
             },
             "Amber": {
                 "rank": 15,
@@ -27102,7 +28931,7 @@ const STATS = {
             },
             "Klee": {
                 "rank": 4,
-                "team_count": 65
+                "team_count": 66
             },
             "Xinyan": {
                 "rank": 14,
@@ -27114,15 +28943,15 @@ const STATS = {
             },
             "Yanfei": {
                 "rank": 12,
-                "team_count": 27
+                "team_count": 28
             },
             "Yoimiya": {
                 "rank": 6,
-                "team_count": 52
+                "team_count": 53
             },
             "Thoma": {
                 "rank": 3,
-                "team_count": 111
+                "team_count": 113
             },
             "Dehya": {
                 "rank": 10,
@@ -27130,25 +28959,25 @@ const STATS = {
             },
             "Lyney": {
                 "rank": 5,
-                "team_count": 61
+                "team_count": 62
             },
             "Chevreuse": {
-                "rank": 8,
-                "team_count": 47
-            },
-            "Gaming": {
                 "rank": 9,
                 "team_count": 47
             },
+            "Gaming": {
+                "rank": 8,
+                "team_count": 48
+            },
             "Arlecchino": {
                 "rank": 7,
-                "team_count": 48
+                "team_count": 49
             }
         },
         "Electro": {
             "1": {
                 "name": "Fischl",
-                "team_count": 221
+                "team_count": 222
             },
             "2": {
                 "name": "Raiden Shogun",
@@ -27172,7 +29001,7 @@ const STATS = {
             },
             "7": {
                 "name": "Cyno",
-                "team_count": 35
+                "team_count": 36
             },
             "8": {
                 "name": "Keqing",
@@ -27220,7 +29049,7 @@ const STATS = {
             },
             "Fischl": {
                 "rank": 1,
-                "team_count": 221
+                "team_count": 222
             },
             "Beidou": {
                 "rank": 4,
@@ -27256,7 +29085,7 @@ const STATS = {
             },
             "Cyno": {
                 "rank": 7,
-                "team_count": 35
+                "team_count": 36
             },
             "Sethos": {
                 "rank": 10,
@@ -27270,7 +29099,7 @@ const STATS = {
         "Hydro": {
             "1": {
                 "name": "Furina",
-                "team_count": 616
+                "team_count": 618
             },
             "2": {
                 "name": "Xingqiu",
@@ -27324,6 +29153,10 @@ const STATS = {
                 "name": "Lumine",
                 "team_count": 0
             },
+            "15": {
+                "name": "Mualani",
+                "team_count": 0
+            },
             "Aether": {
                 "rank": 13,
                 "team_count": 1
@@ -27374,11 +29207,15 @@ const STATS = {
             },
             "Furina": {
                 "rank": 1,
-                "team_count": 616
+                "team_count": 618
             },
             "Sigewinne": {
                 "rank": 12,
                 "team_count": 2
+            },
+            "Mualani": {
+                "rank": 15,
+                "team_count": 0
             }
         },
         "Cryo": {
@@ -27387,11 +29224,11 @@ const STATS = {
                 "team_count": 89
             },
             "2": {
-                "name": "Freminet",
-                "team_count": 78
+                "name": "Wriothesley",
+                "team_count": 80
             },
             "3": {
-                "name": "Wriothesley",
+                "name": "Freminet",
                 "team_count": 78
             },
             "4": {
@@ -27507,12 +29344,12 @@ const STATS = {
                 "team_count": 38
             },
             "Freminet": {
-                "rank": 2,
+                "rank": 3,
                 "team_count": 78
             },
             "Wriothesley": {
-                "rank": 3,
-                "team_count": 78
+                "rank": 2,
+                "team_count": 80
             },
             "Charlotte": {
                 "rank": 7,
@@ -27522,7 +29359,7 @@ const STATS = {
         "Anemo": {
             "1": {
                 "name": "Kaedehara Kazuha",
-                "team_count": 170
+                "team_count": 179
             },
             "2": {
                 "name": "Xianyun",
@@ -27538,7 +29375,7 @@ const STATS = {
             },
             "5": {
                 "name": "Venti",
-                "team_count": 39
+                "team_count": 40
             },
             "6": {
                 "name": "Sayu",
@@ -27550,7 +29387,7 @@ const STATS = {
             },
             "8": {
                 "name": "Faruzan",
-                "team_count": 10
+                "team_count": 11
             },
             "9": {
                 "name": "Xiao",
@@ -27558,7 +29395,7 @@ const STATS = {
             },
             "10": {
                 "name": "Wanderer",
-                "team_count": 4
+                "team_count": 5
             },
             "11": {
                 "name": "Shikanoin Heizou",
@@ -27586,7 +29423,7 @@ const STATS = {
             },
             "Venti": {
                 "rank": 5,
-                "team_count": 39
+                "team_count": 40
             },
             "Jean": {
                 "rank": 3,
@@ -27598,7 +29435,7 @@ const STATS = {
             },
             "Kaedehara Kazuha": {
                 "rank": 1,
-                "team_count": 170
+                "team_count": 179
             },
             "Sayu": {
                 "rank": 6,
@@ -27610,11 +29447,11 @@ const STATS = {
             },
             "Faruzan": {
                 "rank": 8,
-                "team_count": 10
+                "team_count": 11
             },
             "Wanderer": {
                 "rank": 10,
-                "team_count": 4
+                "team_count": 5
             },
             "Lynette": {
                 "rank": 7,
@@ -27670,6 +29507,10 @@ const STATS = {
                 "name": "Lumine",
                 "team_count": 0
             },
+            "12": {
+                "name": "Kachina",
+                "team_count": 0
+            },
             "Aether": {
                 "rank": 10,
                 "team_count": 6
@@ -27713,12 +29554,16 @@ const STATS = {
             "Chiori": {
                 "rank": 3,
                 "team_count": 38
+            },
+            "Kachina": {
+                "rank": 12,
+                "team_count": 0
             }
         },
         "Dendro": {
             "1": {
                 "name": "Nahida",
-                "team_count": 206
+                "team_count": 207
             },
             "2": {
                 "name": "Yaoyao",
@@ -27741,23 +29586,27 @@ const STATS = {
                 "team_count": 16
             },
             "7": {
+                "name": "Emilie",
+                "team_count": 13
+            },
+            "8": {
                 "name": "Alhaitham",
                 "team_count": 8
             },
-            "8": {
+            "9": {
                 "name": "Kaveh",
                 "team_count": 6
             },
-            "9": {
+            "10": {
                 "name": "Tighnari",
                 "team_count": 4
             },
-            "10": {
+            "11": {
                 "name": "Lumine",
                 "team_count": 0
             },
-            "11": {
-                "name": "Emilie",
+            "12": {
+                "name": "Kinich",
                 "team_count": 0
             },
             "Aether": {
@@ -27765,11 +29614,11 @@ const STATS = {
                 "team_count": 138
             },
             "Lumine": {
-                "rank": 10,
+                "rank": 11,
                 "team_count": 0
             },
             "Tighnari": {
-                "rank": 9,
+                "rank": 10,
                 "team_count": 4
             },
             "Collei": {
@@ -27778,10 +29627,10 @@ const STATS = {
             },
             "Nahida": {
                 "rank": 1,
-                "team_count": 206
+                "team_count": 207
             },
             "Alhaitham": {
-                "rank": 7,
+                "rank": 8,
                 "team_count": 8
             },
             "Yaoyao": {
@@ -27793,7 +29642,7 @@ const STATS = {
                 "team_count": 138
             },
             "Kaveh": {
-                "rank": 8,
+                "rank": 9,
                 "team_count": 6
             },
             "Kirara": {
@@ -27801,7 +29650,11 @@ const STATS = {
                 "team_count": 16
             },
             "Emilie": {
-                "rank": 11,
+                "rank": 7,
+                "team_count": 13
+            },
+            "Kinich": {
+                "rank": 12,
                 "team_count": 0
             }
         }
@@ -27810,11 +29663,11 @@ const STATS = {
         "Recommended": {
             "1": {
                 "name": "Furina",
-                "team_count": 314
+                "team_count": 316
             },
             "2": {
                 "name": "Bennett",
-                "team_count": 115
+                "team_count": 126
             },
             "3": {
                 "name": "Raiden Shogun",
@@ -27845,12 +29698,12 @@ const STATS = {
                 "team_count": 73
             },
             "10": {
-                "name": "Yelan",
-                "team_count": 68
+                "name": "Kaedehara Kazuha",
+                "team_count": 72
             },
             "11": {
-                "name": "Kaedehara Kazuha",
-                "team_count": 65
+                "name": "Yelan",
+                "team_count": 68
             },
             "12": {
                 "name": "Kuki Shinobu",
@@ -27861,11 +29714,11 @@ const STATS = {
                 "team_count": 55
             },
             "14": {
-                "name": "Aether",
-                "team_count": 50
+                "name": "Xiangling",
+                "team_count": 53
             },
             "15": {
-                "name": "Xiangling",
+                "name": "Aether",
                 "team_count": 50
             },
             "16": {
@@ -27874,19 +29727,19 @@ const STATS = {
             },
             "17": {
                 "name": "Thoma",
-                "team_count": 37
+                "team_count": 38
             },
             "18": {
                 "name": "Zhongli",
                 "team_count": 32
             },
             "19": {
-                "name": "Jean",
-                "team_count": 31
+                "name": "Wriothesley",
+                "team_count": 32
             },
             "20": {
-                "name": "Wriothesley",
-                "team_count": 30
+                "name": "Jean",
+                "team_count": 31
             },
             "21": {
                 "name": "Ganyu",
@@ -27913,15 +29766,15 @@ const STATS = {
                 "team_count": 18
             },
             "27": {
-                "name": "Layla",
+                "name": "Yoimiya",
                 "team_count": 18
             },
             "28": {
-                "name": "Venti",
-                "team_count": 17
+                "name": "Layla",
+                "team_count": 18
             },
             "29": {
-                "name": "Yoimiya",
+                "name": "Venti",
                 "team_count": 17
             },
             "30": {
@@ -27954,7 +29807,7 @@ const STATS = {
             },
             "37": {
                 "name": "Arlecchino",
-                "team_count": 14
+                "team_count": 15
             },
             "38": {
                 "name": "Noelle",
@@ -27973,211 +29826,223 @@ const STATS = {
                 "team_count": 12
             },
             "42": {
+                "name": "Lyney",
+                "team_count": 12
+            },
+            "43": {
                 "name": "Keqing",
                 "team_count": 11
             },
-            "43": {
+            "44": {
                 "name": "Diona",
                 "team_count": 11
             },
-            "44": {
-                "name": "Lyney",
+            "45": {
+                "name": "Gaming",
                 "team_count": 11
             },
-            "45": {
+            "46": {
                 "name": "Gorou",
                 "team_count": 10
             },
-            "46": {
-                "name": "Gaming",
+            "47": {
+                "name": "Emilie",
                 "team_count": 10
             },
-            "47": {
+            "48": {
                 "name": "Sucrose",
                 "team_count": 9
             },
-            "48": {
+            "49": {
+                "name": "Klee",
+                "team_count": 9
+            },
+            "50": {
                 "name": "Tartaglia",
                 "team_count": 9
             },
-            "49": {
+            "51": {
                 "name": "Mona",
                 "team_count": 8
             },
-            "50": {
-                "name": "Klee",
-                "team_count": 8
-            },
-            "51": {
+            "52": {
                 "name": "Clorinde",
                 "team_count": 7
             },
-            "52": {
+            "53": {
                 "name": "Ningguang",
                 "team_count": 6
             },
-            "53": {
+            "54": {
                 "name": "Eula",
                 "team_count": 6
             },
-            "54": {
+            "55": {
                 "name": "Kujou Sara",
                 "team_count": 6
             },
-            "55": {
+            "56": {
                 "name": "Shenhe",
                 "team_count": 6
             },
-            "56": {
+            "57": {
+                "name": "Faruzan",
+                "team_count": 5
+            },
+            "58": {
                 "name": "Diluc",
                 "team_count": 4
             },
-            "57": {
+            "59": {
                 "name": "Arataki Itto",
                 "team_count": 4
             },
-            "58": {
+            "60": {
                 "name": "Yun Jin",
                 "team_count": 4
             },
-            "59": {
+            "61": {
                 "name": "Tighnari",
                 "team_count": 4
             },
-            "60": {
+            "62": {
                 "name": "Dori",
                 "team_count": 4
             },
-            "61": {
-                "name": "Faruzan",
-                "team_count": 4
-            },
-            "62": {
+            "63": {
                 "name": "Alhaitham",
                 "team_count": 4
             },
-            "63": {
+            "64": {
                 "name": "Kirara",
                 "team_count": 4
             },
-            "64": {
+            "65": {
                 "name": "Freminet",
                 "team_count": 4
             },
-            "65": {
+            "66": {
+                "name": "Wanderer",
+                "team_count": 3
+            },
+            "67": {
                 "name": "Xiao",
                 "team_count": 2
             },
-            "66": {
+            "68": {
+                "name": "Yanfei",
+                "team_count": 2
+            },
+            "69": {
                 "name": "Nilou",
                 "team_count": 2
             },
-            "67": {
-                "name": "Wanderer",
-                "team_count": 2
-            },
-            "68": {
+            "70": {
                 "name": "Razor",
                 "team_count": 1
             },
-            "69": {
+            "71": {
                 "name": "Lisa",
                 "team_count": 1
             },
-            "70": {
-                "name": "Yanfei",
-                "team_count": 1
-            },
-            "71": {
+            "72": {
                 "name": "Collei",
                 "team_count": 1
             },
-            "72": {
+            "73": {
                 "name": "Dehya",
                 "team_count": 1
             },
-            "73": {
+            "74": {
                 "name": "Lumine",
                 "team_count": 0
             },
-            "74": {
+            "75": {
                 "name": "Chongyun",
                 "team_count": 0
             },
-            "75": {
+            "76": {
                 "name": "Qiqi",
                 "team_count": 0
             },
-            "76": {
+            "77": {
                 "name": "Amber",
                 "team_count": 0
             },
-            "77": {
+            "78": {
                 "name": "Barbara",
                 "team_count": 0
             },
-            "78": {
+            "79": {
                 "name": "Xinyan",
                 "team_count": 0
             },
-            "79": {
+            "80": {
                 "name": "Aloy",
                 "team_count": 0
             },
-            "80": {
+            "81": {
                 "name": "Shikanoin Heizou",
                 "team_count": 0
             },
-            "81": {
+            "82": {
                 "name": "Candace",
                 "team_count": 0
             },
-            "82": {
+            "83": {
                 "name": "Kaveh",
                 "team_count": 0
             },
-            "83": {
+            "84": {
                 "name": "Lynette",
                 "team_count": 0
             },
-            "84": {
+            "85": {
                 "name": "Sethos",
                 "team_count": 0
             },
-            "85": {
+            "86": {
                 "name": "Sigewinne",
                 "team_count": 0
             },
-            "86": {
-                "name": "Emilie",
+            "87": {
+                "name": "Mualani",
+                "team_count": 0
+            },
+            "88": {
+                "name": "Kinich",
+                "team_count": 0
+            },
+            "89": {
+                "name": "Kachina",
                 "team_count": 0
             },
             "Aether": {
-                "rank": 14,
+                "rank": 15,
                 "team_count": 50
             },
             "Lumine": {
-                "rank": 73,
-                "team_count": 0
-            },
-            "Sucrose": {
-                "rank": 47,
-                "team_count": 9
-            },
-            "Keqing": {
-                "rank": 42,
-                "team_count": 11
-            },
-            "Mona": {
-                "rank": 49,
-                "team_count": 8
-            },
-            "Chongyun": {
                 "rank": 74,
                 "team_count": 0
             },
-            "Qiqi": {
+            "Sucrose": {
+                "rank": 48,
+                "team_count": 9
+            },
+            "Keqing": {
+                "rank": 43,
+                "team_count": 11
+            },
+            "Mona": {
+                "rank": 51,
+                "team_count": 8
+            },
+            "Chongyun": {
                 "rank": 75,
+                "team_count": 0
+            },
+            "Qiqi": {
+                "rank": 76,
                 "team_count": 0
             },
             "Noelle": {
@@ -28186,14 +30051,14 @@ const STATS = {
             },
             "Bennett": {
                 "rank": 2,
-                "team_count": 115
+                "team_count": 126
             },
             "Fischl": {
                 "rank": 4,
                 "team_count": 87
             },
             "Ningguang": {
-                "rank": 52,
+                "rank": 53,
                 "team_count": 6
             },
             "Xingqiu": {
@@ -28205,23 +30070,23 @@ const STATS = {
                 "team_count": 23
             },
             "Xiangling": {
-                "rank": 15,
-                "team_count": 50
+                "rank": 14,
+                "team_count": 53
             },
             "Venti": {
-                "rank": 28,
+                "rank": 29,
                 "team_count": 17
             },
             "Amber": {
-                "rank": 76,
+                "rank": 77,
                 "team_count": 0
             },
             "Razor": {
-                "rank": 68,
+                "rank": 70,
                 "team_count": 1
             },
             "Diluc": {
-                "rank": 56,
+                "rank": 58,
                 "team_count": 4
             },
             "Kaeya": {
@@ -28229,31 +30094,31 @@ const STATS = {
                 "team_count": 12
             },
             "Barbara": {
-                "rank": 77,
+                "rank": 78,
                 "team_count": 0
             },
             "Lisa": {
-                "rank": 69,
+                "rank": 71,
                 "team_count": 1
             },
             "Jean": {
-                "rank": 19,
+                "rank": 20,
                 "team_count": 31
             },
             "Diona": {
-                "rank": 43,
+                "rank": 44,
                 "team_count": 11
             },
             "Klee": {
-                "rank": 50,
-                "team_count": 8
+                "rank": 49,
+                "team_count": 9
             },
             "Tartaglia": {
-                "rank": 48,
+                "rank": 50,
                 "team_count": 9
             },
             "Xinyan": {
-                "rank": 78,
+                "rank": 79,
                 "team_count": 0
             },
             "Zhongli": {
@@ -28269,7 +30134,7 @@ const STATS = {
                 "team_count": 28
             },
             "Xiao": {
-                "rank": 65,
+                "rank": 67,
                 "team_count": 2
             },
             "Hu Tao": {
@@ -28281,16 +30146,16 @@ const STATS = {
                 "team_count": 21
             },
             "Yanfei": {
-                "rank": 70,
-                "team_count": 1
+                "rank": 68,
+                "team_count": 2
             },
             "Eula": {
-                "rank": 53,
+                "rank": 54,
                 "team_count": 6
             },
             "Kaedehara Kazuha": {
-                "rank": 11,
-                "team_count": 65
+                "rank": 10,
+                "team_count": 72
             },
             "Kamisato Ayaka": {
                 "rank": 31,
@@ -28301,15 +30166,15 @@ const STATS = {
                 "team_count": 16
             },
             "Yoimiya": {
-                "rank": 29,
-                "team_count": 17
+                "rank": 27,
+                "team_count": 18
             },
             "Aloy": {
-                "rank": 79,
+                "rank": 80,
                 "team_count": 0
             },
             "Kujou Sara": {
-                "rank": 54,
+                "rank": 55,
                 "team_count": 6
             },
             "Raiden Shogun": {
@@ -28322,22 +30187,22 @@ const STATS = {
             },
             "Thoma": {
                 "rank": 17,
-                "team_count": 37
+                "team_count": 38
             },
             "Arataki Itto": {
-                "rank": 57,
+                "rank": 59,
                 "team_count": 4
             },
             "Gorou": {
-                "rank": 45,
+                "rank": 46,
                 "team_count": 10
             },
             "Yun Jin": {
-                "rank": 58,
+                "rank": 60,
                 "team_count": 4
             },
             "Shenhe": {
-                "rank": 55,
+                "rank": 56,
                 "team_count": 6
             },
             "Yae Miko": {
@@ -28349,7 +30214,7 @@ const STATS = {
                 "team_count": 13
             },
             "Yelan": {
-                "rank": 10,
+                "rank": 11,
                 "team_count": 68
             },
             "Kuki Shinobu": {
@@ -28357,23 +30222,23 @@ const STATS = {
                 "team_count": 64
             },
             "Shikanoin Heizou": {
-                "rank": 80,
+                "rank": 81,
                 "team_count": 0
             },
             "Tighnari": {
-                "rank": 59,
+                "rank": 61,
                 "team_count": 4
             },
             "Collei": {
-                "rank": 71,
+                "rank": 72,
                 "team_count": 1
             },
             "Dori": {
-                "rank": 60,
+                "rank": 62,
                 "team_count": 4
             },
             "Candace": {
-                "rank": 81,
+                "rank": 82,
                 "team_count": 0
             },
             "Cyno": {
@@ -28381,7 +30246,7 @@ const STATS = {
                 "team_count": 16
             },
             "Nilou": {
-                "rank": 66,
+                "rank": 69,
                 "team_count": 2
             },
             "Nahida": {
@@ -28389,19 +30254,19 @@ const STATS = {
                 "team_count": 75
             },
             "Layla": {
-                "rank": 27,
+                "rank": 28,
                 "team_count": 18
             },
             "Faruzan": {
-                "rank": 61,
-                "team_count": 4
+                "rank": 57,
+                "team_count": 5
             },
             "Wanderer": {
-                "rank": 67,
-                "team_count": 2
+                "rank": 66,
+                "team_count": 3
             },
             "Alhaitham": {
-                "rank": 62,
+                "rank": 63,
                 "team_count": 4
             },
             "Yaoyao": {
@@ -28409,7 +30274,7 @@ const STATS = {
                 "team_count": 77
             },
             "Dehya": {
-                "rank": 72,
+                "rank": 73,
                 "team_count": 1
             },
             "Mika": {
@@ -28421,23 +30286,23 @@ const STATS = {
                 "team_count": 73
             },
             "Kaveh": {
-                "rank": 82,
-                "team_count": 0
-            },
-            "Kirara": {
-                "rank": 63,
-                "team_count": 4
-            },
-            "Lyney": {
-                "rank": 44,
-                "team_count": 11
-            },
-            "Lynette": {
                 "rank": 83,
                 "team_count": 0
             },
-            "Freminet": {
+            "Kirara": {
                 "rank": 64,
+                "team_count": 4
+            },
+            "Lyney": {
+                "rank": 42,
+                "team_count": 12
+            },
+            "Lynette": {
+                "rank": 84,
+                "team_count": 0
+            },
+            "Freminet": {
+                "rank": 65,
                 "team_count": 4
             },
             "Neuvillette": {
@@ -28445,12 +30310,12 @@ const STATS = {
                 "team_count": 76
             },
             "Wriothesley": {
-                "rank": 20,
-                "team_count": 30
+                "rank": 19,
+                "team_count": 32
             },
             "Furina": {
                 "rank": 1,
-                "team_count": 314
+                "team_count": 316
             },
             "Charlotte": {
                 "rank": 34,
@@ -28469,8 +30334,8 @@ const STATS = {
                 "team_count": 45
             },
             "Gaming": {
-                "rank": 46,
-                "team_count": 10
+                "rank": 45,
+                "team_count": 11
             },
             "Chiori": {
                 "rank": 25,
@@ -28478,22 +30343,34 @@ const STATS = {
             },
             "Arlecchino": {
                 "rank": 37,
-                "team_count": 14
+                "team_count": 15
             },
             "Sethos": {
-                "rank": 84,
-                "team_count": 0
-            },
-            "Sigewinne": {
                 "rank": 85,
                 "team_count": 0
             },
+            "Sigewinne": {
+                "rank": 86,
+                "team_count": 0
+            },
             "Clorinde": {
-                "rank": 51,
+                "rank": 52,
                 "team_count": 7
             },
             "Emilie": {
-                "rank": 86,
+                "rank": 47,
+                "team_count": 10
+            },
+            "Mualani": {
+                "rank": 87,
+                "team_count": 0
+            },
+            "Kinich": {
+                "rank": 88,
+                "team_count": 0
+            },
+            "Kachina": {
+                "rank": 89,
                 "team_count": 0
             }
         },
@@ -28504,7 +30381,7 @@ const STATS = {
             },
             "2": {
                 "name": "Bennett",
-                "team_count": 171
+                "team_count": 173
             },
             "3": {
                 "name": "Tartaglia",
@@ -28512,7 +30389,7 @@ const STATS = {
             },
             "4": {
                 "name": "Fischl",
-                "team_count": 124
+                "team_count": 125
             },
             "5": {
                 "name": "Xingqiu",
@@ -28520,7 +30397,7 @@ const STATS = {
             },
             "6": {
                 "name": "Nahida",
-                "team_count": 118
+                "team_count": 119
             },
             "7": {
                 "name": "Xianyun",
@@ -28540,7 +30417,7 @@ const STATS = {
             },
             "11": {
                 "name": "Kaedehara Kazuha",
-                "team_count": 73
+                "team_count": 75
             },
             "12": {
                 "name": "Kuki Shinobu",
@@ -28576,7 +30453,7 @@ const STATS = {
             },
             "20": {
                 "name": "Thoma",
-                "team_count": 49
+                "team_count": 50
             },
             "21": {
                 "name": "Wriothesley",
@@ -28667,11 +30544,11 @@ const STATS = {
                 "team_count": 21
             },
             "43": {
-                "name": "Sayu",
-                "team_count": 19
+                "name": "Cyno",
+                "team_count": 20
             },
             "44": {
-                "name": "Cyno",
+                "name": "Sayu",
                 "team_count": 19
             },
             "45": {
@@ -28692,7 +30569,7 @@ const STATS = {
             },
             "49": {
                 "name": "Venti",
-                "team_count": 14
+                "team_count": 15
             },
             "50": {
                 "name": "Mona",
@@ -28787,59 +30664,71 @@ const STATS = {
                 "team_count": 3
             },
             "73": {
+                "name": "Emilie",
+                "team_count": 3
+            },
+            "74": {
                 "name": "Amber",
                 "team_count": 2
             },
-            "74": {
+            "75": {
                 "name": "Kujou Sara",
                 "team_count": 2
             },
-            "75": {
+            "76": {
                 "name": "Shikanoin Heizou",
                 "team_count": 2
             },
-            "76": {
+            "77": {
                 "name": "Wanderer",
                 "team_count": 2
             },
-            "77": {
+            "78": {
                 "name": "Sigewinne",
                 "team_count": 2
             },
-            "78": {
+            "79": {
                 "name": "Ningguang",
                 "team_count": 1
             },
-            "79": {
+            "80": {
                 "name": "Razor",
                 "team_count": 1
             },
-            "80": {
+            "81": {
                 "name": "Kamisato Ayaka",
                 "team_count": 1
             },
-            "81": {
+            "82": {
                 "name": "Aloy",
                 "team_count": 1
             },
-            "82": {
+            "83": {
                 "name": "Kaveh",
                 "team_count": 1
             },
-            "83": {
+            "84": {
                 "name": "Lumine",
                 "team_count": 0
             },
-            "84": {
+            "85": {
                 "name": "Tighnari",
                 "team_count": 0
             },
-            "85": {
+            "86": {
                 "name": "Clorinde",
                 "team_count": 0
             },
-            "86": {
-                "name": "Emilie",
+            "87": {
+                "name": "Mualani",
+                "team_count": 0
+            },
+            "88": {
+                "name": "Kinich",
+                "team_count": 0
+            },
+            "89": {
+                "name": "Kachina",
                 "team_count": 0
             },
             "Aether": {
@@ -28847,7 +30736,7 @@ const STATS = {
                 "team_count": 93
             },
             "Lumine": {
-                "rank": 83,
+                "rank": 84,
                 "team_count": 0
             },
             "Sucrose": {
@@ -28876,14 +30765,14 @@ const STATS = {
             },
             "Bennett": {
                 "rank": 2,
-                "team_count": 171
+                "team_count": 173
             },
             "Fischl": {
                 "rank": 4,
-                "team_count": 124
+                "team_count": 125
             },
             "Ningguang": {
-                "rank": 78,
+                "rank": 79,
                 "team_count": 1
             },
             "Xingqiu": {
@@ -28900,14 +30789,14 @@ const STATS = {
             },
             "Venti": {
                 "rank": 49,
-                "team_count": 14
+                "team_count": 15
             },
             "Amber": {
-                "rank": 73,
+                "rank": 74,
                 "team_count": 2
             },
             "Razor": {
-                "rank": 79,
+                "rank": 80,
                 "team_count": 1
             },
             "Diluc": {
@@ -28980,14 +30869,14 @@ const STATS = {
             },
             "Kaedehara Kazuha": {
                 "rank": 11,
-                "team_count": 73
+                "team_count": 75
             },
             "Kamisato Ayaka": {
-                "rank": 80,
+                "rank": 81,
                 "team_count": 1
             },
             "Sayu": {
-                "rank": 43,
+                "rank": 44,
                 "team_count": 19
             },
             "Yoimiya": {
@@ -28995,11 +30884,11 @@ const STATS = {
                 "team_count": 35
             },
             "Aloy": {
-                "rank": 81,
+                "rank": 82,
                 "team_count": 1
             },
             "Kujou Sara": {
-                "rank": 74,
+                "rank": 75,
                 "team_count": 2
             },
             "Raiden Shogun": {
@@ -29012,7 +30901,7 @@ const STATS = {
             },
             "Thoma": {
                 "rank": 20,
-                "team_count": 49
+                "team_count": 50
             },
             "Arataki Itto": {
                 "rank": 60,
@@ -29047,11 +30936,11 @@ const STATS = {
                 "team_count": 63
             },
             "Shikanoin Heizou": {
-                "rank": 75,
+                "rank": 76,
                 "team_count": 2
             },
             "Tighnari": {
-                "rank": 84,
+                "rank": 85,
                 "team_count": 0
             },
             "Collei": {
@@ -29067,8 +30956,8 @@ const STATS = {
                 "team_count": 5
             },
             "Cyno": {
-                "rank": 44,
-                "team_count": 19
+                "rank": 43,
+                "team_count": 20
             },
             "Nilou": {
                 "rank": 64,
@@ -29076,7 +30965,7 @@ const STATS = {
             },
             "Nahida": {
                 "rank": 6,
-                "team_count": 118
+                "team_count": 119
             },
             "Layla": {
                 "rank": 29,
@@ -29087,7 +30976,7 @@ const STATS = {
                 "team_count": 6
             },
             "Wanderer": {
-                "rank": 76,
+                "rank": 77,
                 "team_count": 2
             },
             "Alhaitham": {
@@ -29111,7 +31000,7 @@ const STATS = {
                 "team_count": 55
             },
             "Kaveh": {
-                "rank": 82,
+                "rank": 83,
                 "team_count": 1
             },
             "Kirara": {
@@ -29175,15 +31064,27 @@ const STATS = {
                 "team_count": 7
             },
             "Sigewinne": {
-                "rank": 77,
+                "rank": 78,
                 "team_count": 2
             },
             "Clorinde": {
-                "rank": 85,
+                "rank": 86,
                 "team_count": 0
             },
             "Emilie": {
-                "rank": 86,
+                "rank": 73,
+                "team_count": 3
+            },
+            "Mualani": {
+                "rank": 87,
+                "team_count": 0
+            },
+            "Kinich": {
+                "rank": 88,
+                "team_count": 0
+            },
+            "Kachina": {
+                "rank": 89,
                 "team_count": 0
             }
         },
@@ -29532,6 +31433,18 @@ const STATS = {
                 "name": "Emilie",
                 "team_count": 0
             },
+            "87": {
+                "name": "Mualani",
+                "team_count": 0
+            },
+            "88": {
+                "name": "Kinich",
+                "team_count": 0
+            },
+            "89": {
+                "name": "Kachina",
+                "team_count": 0
+            },
             "Aether": {
                 "rank": 28,
                 "team_count": 4
@@ -29874,6 +31787,18 @@ const STATS = {
             },
             "Emilie": {
                 "rank": 86,
+                "team_count": 0
+            },
+            "Mualani": {
+                "rank": 87,
+                "team_count": 0
+            },
+            "Kinich": {
+                "rank": 88,
+                "team_count": 0
+            },
+            "Kachina": {
+                "rank": 89,
                 "team_count": 0
             }
         },
@@ -30222,6 +32147,18 @@ const STATS = {
                 "name": "Emilie",
                 "team_count": 0
             },
+            "87": {
+                "name": "Mualani",
+                "team_count": 0
+            },
+            "88": {
+                "name": "Kinich",
+                "team_count": 0
+            },
+            "89": {
+                "name": "Kachina",
+                "team_count": 0
+            },
             "Aether": {
                 "rank": 24,
                 "team_count": 0
@@ -30564,6 +32501,18 @@ const STATS = {
             },
             "Emilie": {
                 "rank": 86,
+                "team_count": 0
+            },
+            "Mualani": {
+                "rank": 87,
+                "team_count": 0
+            },
+            "Kinich": {
+                "rank": 88,
+                "team_count": 0
+            },
+            "Kachina": {
+                "rank": 89,
                 "team_count": 0
             }
         }

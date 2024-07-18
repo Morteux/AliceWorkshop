@@ -1051,6 +1051,47 @@ const builds = {
         //     subs_stat: ["ER", "Crit Rate", "Crit Damage", "ATK%"]
         // }
     },
+
+
+
+
+
+
+
+
+
+
+
+    "Kachina": {
+        "Standard": {
+            description: "",
+            constellation: "",
+            talent_priority: [1, 2, 3],
+            weapon: ["Favonius Codex"],
+            set: [
+                {
+                    artifacts: ["Instructor"],
+                    pc: "4pc"
+                }
+            ],
+            er_requirement: "",
+            main_stat: {
+                sands: "ATK%",
+                goblet: "Hydro",
+                circlet: "Crit"
+            },
+            subs_stat: ["ER", "Crit", "ATK%"]
+        }
+    },
+
+
+
+
+
+
+
+
+
     "Kaedehara Kazuha": {
         "Standard": {
             description: "",
@@ -1225,6 +1266,47 @@ const builds = {
         //     subs_stat: ["Crit Rate", "Crit Damage", "ATK%", "ER"]
         // }
     },
+
+
+
+
+
+
+
+
+
+
+
+    "Kinich": {
+        "Standard": {
+            description: "",
+            constellation: "",
+            talent_priority: [1, 2, 3],
+            weapon: ["Favonius Codex"],
+            set: [
+                {
+                    artifacts: ["Instructor"],
+                    pc: "4pc"
+                }
+            ],
+            er_requirement: "",
+            main_stat: {
+                sands: "ATK%",
+                goblet: "Hydro",
+                circlet: "Crit"
+            },
+            subs_stat: ["ER", "Crit", "ATK%"]
+        }
+    },
+
+
+
+
+
+
+
+
+
     "Kirara": {
         "Standard": {
             description: "",
@@ -1616,6 +1698,47 @@ const builds = {
         //     subs_stat: ["Prob Rate", "Prob Damage", "ATK%", "ER"]
         // }
     },
+
+
+
+
+
+
+
+
+
+
+
+    "Mualani": {
+        "Standard": {
+            description: "",
+            constellation: "",
+            talent_priority: [1, 2, 3],
+            weapon: ["Favonius Codex"],
+            set: [
+                {
+                    artifacts: ["Instructor"],
+                    pc: "4pc"
+                }
+            ],
+            er_requirement: "",
+            main_stat: {
+                sands: "ATK%",
+                goblet: "Hydro",
+                circlet: "Crit"
+            },
+            subs_stat: ["ER", "Crit", "ATK%"]
+        }
+    },
+
+
+
+
+
+
+
+
+
     "Nahida": {
         "Standard": {
             description: "",

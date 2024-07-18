@@ -85,5 +85,8 @@ const best_teams = {
     "Sethos": [],
     "Sigewinne": [],
     "Clorinde": [],
-    "Emilie": []
+    "Emilie": [],
+    "Mualani": [],
+    "Kinich": [],
+    "Kachina": []
 }
