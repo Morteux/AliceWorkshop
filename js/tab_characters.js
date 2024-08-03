@@ -1723,10 +1723,10 @@ function printCharacterInfoHTML(character_name) {
             <div class="menu_character_row_info menu_character_row_dark">
                 Version:
                 <div class="menu_value_container">
-                ` + character_banner_stats[character_data.name].first_version + ` (` + formatDate(new Date(character_banner_stats[character_data.name].first_date)) + `)
+                ` + (character_banner_stats[character_data.name] ? (character_banner_stats[character_data.name].first_version + ` (` + formatDate(new Date(character_banner_stats[character_data.name].first_date)) + `)`) : (`1.0 (28/09/2020)`)) + `
                 </div>
             </div>
-            ` + (character_banner_stats[character_data.name].event_wish_banner_name != "" ? `<div class="menu_character_row_info menu_character_row_light">
+            ` + (character_banner_stats[character_data.name] && character_banner_stats[character_data.name].event_wish_banner_name != "" ? `<div class="menu_character_row_info menu_character_row_light">
                 Banner:
                 <div class="menu_value_container">
                 ` + character_banner_stats[character_data.name].event_wish_banner_name + `
