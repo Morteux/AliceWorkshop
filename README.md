@@ -14,7 +14,7 @@ https://genshin-impact.fandom.com/wiki/Weapon/Level_Scaling
 
 CDN or JS files: https://github.com/theBowja/genshin-db-dist
 
-## Features
+## TO DO Features
 
 ### General
 - Add twitter link
