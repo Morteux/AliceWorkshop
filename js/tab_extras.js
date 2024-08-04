@@ -2,7 +2,7 @@ var character_banner_stats = {};
 
 var menu_extra_current_banners = ["Twirling Lotus 3.png", "In the Name of the Rosula 2.png"];
 
-var menu_extra_tabs = ["menu_extra_banners"];
+var menu_extra_tabs = ["menu_extra_banners", "menu_extra_birthdays_calendar"];
 
 var permanent_characters = ["Aether", "Lumine", "Jean", "Diluc", "Qiqi", "Mona", "Aloy", "Amber", "Kaeya", "Lisa"];
 
@@ -48,6 +48,8 @@ document.addEventListener("DOMContentLoaded", (event) => {
             });
         }
     }
+
+    printCalendar();
 
     // Hide all tabs. Activate default tab
     setMenuExtraTabActive(document.getElementById("menu_extra_banners"), document.getElementById("menu_extra_banners_button"));
@@ -458,4 +460,14 @@ function printCharactersRerunsStats() {
         </div>
     `;
     document.getElementById("menu_extra_characters_banners").innerHTML += characters_banners_HTML;
+}
+
+function printCalendar() {
+    let menu_calendar = document.getElementById("menu_extra_birthdays_calendar_day");
+    menu_calendar.innerHTML = "";
+
+    for (let index = Object.keys(characters_order_priority).length - 1; index >= 0; --index) {
+        console.log(characters_order_priority[index] + ": " + getCharacter(characters_order_priority[index]).images.filename_iconCard);
+        menu_calendar.innerHTML += `<img class="calendar_img" src="images/characters/` + getCharacter(characters_order_priority[index]).images.filename_iconCard + `.jpg" alt="` + characters_order_priority[index] + ` Card">`;
+    }
 }

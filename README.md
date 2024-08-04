@@ -14,6 +14,8 @@ https://genshin-impact.fandom.com/wiki/Weapon/Level_Scaling
 
 CDN or JS files: https://github.com/theBowja/genshin-db-dist
 
+Character Cards_Vertical for birthdays calendar: https://mega.nz/folder/PUVW2ZCT#yJUcydMEEoCl3wK368m6rw/folder/qA0mSKzR
+
 ## TO DO Features
 
 ### General
