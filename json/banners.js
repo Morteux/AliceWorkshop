@@ -1745,7 +1745,7 @@ const character_banners = {
         }
     },
     "109": {
-        "name": "",
+        "name": "In the Name of the Rosula 2",
         "version": "4.8",
         "start_date": "7/17/2024",
         "end_date": "8/7/2024",
@@ -1761,7 +1761,7 @@ const character_banners = {
         }
     },
     "110": {
-        "name": "",
+        "name": "Twirling Lotus 3",
         "version": "4.8",
         "start_date": "7/17/2024",
         "end_date": "8/7/2024",
