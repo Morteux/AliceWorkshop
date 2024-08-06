@@ -16,6 +16,8 @@ CDN or JS files: https://github.com/theBowja/genshin-db-dist
 
 Character Cards_Vertical for birthdays calendar: https://mega.nz/folder/PUVW2ZCT#yJUcydMEEoCl3wK368m6rw/folder/qA0mSKzR
 
+In Game Emojis: https://genshin-impact.fandom.com/wiki/Chat/Gallery
+
 ## TO DO Features
 
 ### General
