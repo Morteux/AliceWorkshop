@@ -239,3 +239,32 @@ function getConstellation(name) {
 
     return constellation;
 }
+
+function capitalizeFirstLetter(string) {
+    return string.charAt(0).toUpperCase() + string.slice(1);
+}
+
+function downloadDiv() {
+    // Get the element to capture
+    const element = document.getElementById('archetypes_container');
+
+    // Use html2canvas to capture the element
+    html2canvas(element).then((canvas) => {
+        // Convert the canvas to a data URL
+        const dataURL = canvas.toDataURL('image/png');
+
+        // Create a temporary link to download the image
+        const link = document.createElement('a');
+        link.href = dataURL;
+        link.download = 'div-image.png';
+        
+        // Append the link to the body
+        document.body.appendChild(link);
+        
+        // Trigger the download
+        link.click();
+        
+        // Remove the link from the document
+        document.body.removeChild(link);
+    });
+}

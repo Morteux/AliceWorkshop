@@ -1,3 +1,5 @@
+const DAYS_BACKGROUND_COLOR = "rgba(247,247,247,255)";
+
 var character_banner_stats = {};
 
 var menu_extra_current_banners = ["Twirling Lotus 3.png", "In the Name of the Rosula 2.png"];
@@ -33,7 +35,7 @@ var character_5_reruns_mean = 0;
 const BANNER_DURATION = 20; // In days
 
 document.addEventListener("DOMContentLoaded", (event) => {
-    getActualData();
+    getActualDates();
 
     printCurrentBanners();
 
@@ -48,6 +50,8 @@ document.addEventListener("DOMContentLoaded", (event) => {
             });
         }
     }
+
+    getBirthdaysDates();
 
     printCalendar();
 
@@ -64,7 +68,7 @@ function reorderBannerJSON() {
     console.log(ab);
 }
 
-function getActualData() {
+function getActualDates() {
     actual_first_date = character_banners["1"].start_date;
 
     for (banner in character_banners) {
@@ -408,7 +412,7 @@ function printCharactersRerunsStats() {
 
         // Calculate release date for prerelease characters
         if (isCharacterPreRelease(character_most_waiting_days)) {
-            
+
             character_banner_stats_aux[character_most_waiting_days].first_date = actual_last_date;
 
             let new_actual_last_date = new Date(actual_last_date);
@@ -462,12 +466,121 @@ function printCharactersRerunsStats() {
     document.getElementById("menu_extra_characters_banners").innerHTML += characters_banners_HTML;
 }
 
-function printCalendar() {
-    let menu_calendar = document.getElementById("menu_extra_birthdays_calendar_day");
-    menu_calendar.innerHTML = "";
+function getBirthdaysDates() {
+    let monthDate = new Date();
+    let birthdaysInMonth = {};
 
-    for (let index = Object.keys(characters_order_priority).length - 1; index >= 0; --index) {
-        console.log(characters_order_priority[index] + ": " + getCharacter(characters_order_priority[index]).images.filename_iconCard);
-        menu_calendar.innerHTML += `<img class="calendar_img" src="images/characters/` + getCharacter(characters_order_priority[index]).images.filename_iconCard + `.jpg" alt="` + characters_order_priority[index] + ` Card">`;
+    for (let character_name of CHARACTER_NAMES) {
+        let character = getCharacter(character_name);
+        let character_birthday = new Date(character.birthdaymmdd);
+
+        if (character_birthday.getMonth() == monthDate.getMonth()) {
+
+            if (!birthdaysInMonth.hasOwnProperty(character_birthday.getDate())) {
+                birthdaysInMonth[character_birthday.getDate()] = [];
+            }
+
+            birthdaysInMonth[character_birthday.getDate()].push(character.name);
+        }
     }
+
+    return birthdaysInMonth;
+}
+
+function printMonthName(character) {
+    let month_title = document.getElementById("birthday_month_title");
+    month_title.innerHTML = capitalizeFirstLetter(new Date().toLocaleString('default', { month: 'long' }));
+}
+
+function printBackground(character_card) {
+    let menu_calendar = document.getElementById("menu_extra_birthdays_calendar_month");
+    menu_calendar.style.backgroundImage = "linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), rgba(247, 247, 247, 0.9) 80%), url('images/characters/" + character_card + ".jpg')";
+}
+
+function printDays(birthdaysInMonth) {
+    let monthDate = new Date();
+    monthDate.setDate(1); // Set day to first day in month
+
+    let firstDayInMonth = monthDate.getDay();
+
+    // Set day to last day in month
+    monthDate.setMonth(monthDate.getMonth() + 1);
+    monthDate.setDate(0);
+
+    let actualDay = firstDayInMonth;
+
+    // Set last days from previous month
+    let lastMonthDate = monthDate;
+    lastMonthDate.setDate(0);
+
+    let lastDayInLastMonth = lastMonthDate.getDate();
+
+    // Print previous month days
+    for (let index = actualDay - 1; index > 0; --index) {
+        document.getElementById("birthday_column_" + index).innerHTML += "<div class='previous_month_days'>" + lastDayInLastMonth + "</div>";
+        --lastDayInLastMonth;
+    }
+
+    // Print actual month days and character emojis
+    for (let index = 1; index <= monthDate.getDate(); index++) {
+        if (birthdaysInMonth.hasOwnProperty(index)) {
+            for (let character_name of birthdaysInMonth[index]) {
+                if (characters_emojis[character_name]) {
+                    document.getElementById("birthday_column_" + actualDay).innerHTML += `<img class="calendar_img" src="images/emojis/` + characters_emojis[character_name] + `">`;
+                } else {
+                    let character = getCharacter(character_name);
+                    document.getElementById("birthday_column_" + actualDay).innerHTML += `<img class="calendar_img" src="images/characters/` + character.images.filename_icon + `.png">`;
+                }
+            }
+        }
+        else {
+            document.getElementById("birthday_column_" + actualDay).innerHTML += "<div>" + index + "</div>";
+        }
+        actualDay = ++actualDay % 7;
+    }
+}
+
+function setFontColor(character) {
+    document.getElementById("birthday_month_title").style.color = `var(--` + character.elementText.toLowerCase() + `)`;
+    document.getElementById("birthday_column_6").style.color = `var(--` + character.elementText.toLowerCase() + `)`;
+    document.getElementById("birthday_column_0").style.color = `var(--` + character.elementText.toLowerCase() + `)`;
+
+    document.getElementById("birthday_month_title").style.textShadow = `var(--dark_text) 2px 2px`;
+    document.getElementById("birthday_column_6").style.textShadow = `var(--dark_text) 2px 2px`;
+    document.getElementById("birthday_column_0").style.textShadow = `var(--dark_text) 2px 2px`;
+}
+
+function printCalendar() {
+
+    // Get monthly character
+    let character = "";
+    let index = Object.keys(characters_order_priority).length - 1;
+
+    while (character == "" && index >= 0) {
+        let next_character = getCharacter(characters_order_priority[index]);
+
+        if (new Date(next_character.birthdaymmdd + "/" + (new Date().getFullYear())).getMonth() == new Date().getMonth()) {
+            character = next_character;
+        }
+
+        --index;
+    }
+
+    let character_card = character.images.filename_iconCard;
+
+    let birthdaysInMonth = getBirthdaysDates();
+
+    printMonthName();
+
+    printBackground(character_card);
+
+    printDays(birthdaysInMonth);
+
+    setFontColor(character);
+
+    // let calendar_columns = document.getElementById("birthday_days_columns");
+    // calendar_columns.innerHTML = "";
+    // for (let index = Object.keys(characters_order_priority).length - 1; index >= 0; --index) {
+    //     menu_calendar.innerHTML += `<img class="calendar_img" src="images/characters/` + getCharacter(characters_order_priority[index]).images.filename_iconCard + `.jpg" alt="` + characters_order_priority[index] + ` Card">`;
+    // }
 }

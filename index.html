@@ -29,6 +29,7 @@
     <script src="json/constellations.js"></script>
     <script src="json/builds.js"></script>
     <script src="json/best_teams.js"></script>
+    <script src="json/characters_emojis.js"></script>
     <script src="json/characters_order_priority.js"></script>
     <script src="json/characters_signature_weapons.js"></script>
     <script src="json/stats.js"></script>
@@ -40,6 +41,7 @@
     <!-- JavaScript libs -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="js/html2canvas.min.js"></script>
 
     <!-- JavaScript logic -->
     <script src="js/index.js"></script>
@@ -52,7 +54,7 @@
     <script src="js/tab_archetypes.js"></script>
     <script src="js/tab_teams_search.js"></script>
     <!-- Before tab_characters to calculate previous data -->
-    <script src="js/tab_extras.js"></script> 
+    <script src="js/tab_extras.js"></script>
     <script src="js/tab_characters.js"></script>
     <script src="js/tab_user.js"></script>
 
@@ -365,7 +367,8 @@
 
             <div id="result_load_more" class="result_load_more" style="display: none;">
 
-                <button id="result_load_more_button" class="primary_button" onclick="loadNewResultPage()">Load more...</button>
+                <button id="result_load_more_button" class="primary_button" onclick="loadNewResultPage()">Load
+                    more...</button>
 
             </div>
 
@@ -384,8 +387,8 @@
 
         <div id="tab_extras" class="tab_extras">
             <div id="navigation_menu_extras" class="navigation_menu_extras">
-                <div id="menu_extra_banners_button">Banners</div> 
-                <div id="menu_extra_birthdays_calendar_button">Birthdays calendar</div> 
+                <div id="menu_extra_banners_button">Banners</div>
+                <div id="menu_extra_birthdays_calendar_button">Birthdays calendar</div>
             </div>
 
             <div id="menu_extra_banners" class="menu_extra_banners">
@@ -394,7 +397,18 @@
             </div>
 
             <div id="menu_extra_birthdays_calendar" class="menu_extra_birthdays_calendar">
-                <div id="menu_extra_birthdays_calendar_day" class="menu_extra_birthdays_calendar_day"></div>
+                <div id="menu_extra_birthdays_calendar_month" class="menu_extra_birthdays_calendar_month">
+                    <div id="birthday_month_title" class="birthday_month_title"></div>
+                    <div id="birthday_days_columns" class="birthday_days_columns">
+                        <div id="birthday_column_1" class="birthday_column"><div class="birthday_column_title">MON</div></div>
+                        <div id="birthday_column_2" class="birthday_column"><div class="birthday_column_title">TUE</div></div>
+                        <div id="birthday_column_3" class="birthday_column"><div class="birthday_column_title">WED</div></div>
+                        <div id="birthday_column_4" class="birthday_column"><div class="birthday_column_title">THU</div></div>
+                        <div id="birthday_column_5" class="birthday_column"><div class="birthday_column_title">FRI</div></div>
+                        <div id="birthday_column_6" class="birthday_column"><div class="birthday_column_title">SAT</div></div>
+                        <div id="birthday_column_0" class="birthday_column"><div class="birthday_column_title">SUN</div></div>
+                    </div>
+                </div>
             </div>
         </div>
 
@@ -529,7 +543,8 @@
                                 humans). Therefore, all info displayed by AW (AliceWorkshop) is, to a greater or lesser
                                 extent, subjective to the info we have gathered so far and can exists inaccuracies. You
                                 can suggest changes and additions in our <a
-                                    href="https://discord.gg/JRNkss7azk">official Discord channel</a>!
+                                    href="https://discord.gg/JRNkss7azk">official
+                                    Discord channel</a>!
                             </div>
                         </div>
                     </div>

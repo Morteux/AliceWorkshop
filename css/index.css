@@ -83,6 +83,8 @@
     --light_link_visited: rgb(255, 191, 73);
     --light_link_hover: rgb(255, 191, 73);
     --light_link_active: rgb(255, 243, 81);
+
+    --calendar_background_color: rgba(247, 247, 247, 1);
 }
 
 @font-face {
@@ -958,7 +960,7 @@ input[type=text] {
 
     .welcome_container {
         width: 80vw;
-        
+
         height: 90vh;
         overflow-x: hidden;
         overflow-y: auto;
