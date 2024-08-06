@@ -32,6 +32,8 @@ var character_5_reruns_min = 0;
 var character_5_reruns_max = 0;
 var character_5_reruns_mean = 0;
 
+var calendar_date = new Date();
+
 const BANNER_DURATION = 20; // In days
 
 document.addEventListener("DOMContentLoaded", (event) => {
@@ -50,6 +52,9 @@ document.addEventListener("DOMContentLoaded", (event) => {
             });
         }
     }
+
+    // Set calendar month input default to today
+    document.getElementById("calendar_month").value = new Date().getFullYear() + "-" + ((new Date().getMonth() + 1) < 10 ? "0" : "") + (new Date().getMonth() + 1);
 
     getBirthdaysDates();
 
@@ -466,8 +471,22 @@ function printCharactersRerunsStats() {
     document.getElementById("menu_extra_characters_banners").innerHTML += characters_banners_HTML;
 }
 
-function getBirthdaysDates() {
-    let monthDate = new Date();
+function resetCalendarHTML() {
+    document.getElementById("menu_extra_birthdays_calendar_month").innerHTML = `
+    <div id="birthday_month_title" class="birthday_month_title"></div>
+    <div id="birthday_days_columns" class="birthday_days_columns">
+        <div id="birthday_column_1" class="birthday_column"><div class="birthday_column_title">MON</div></div>
+        <div id="birthday_column_2" class="birthday_column"><div class="birthday_column_title">TUE</div></div>
+        <div id="birthday_column_3" class="birthday_column"><div class="birthday_column_title">WED</div></div>
+        <div id="birthday_column_4" class="birthday_column"><div class="birthday_column_title">THU</div></div>
+        <div id="birthday_column_5" class="birthday_column"><div class="birthday_column_title">FRI</div></div>
+        <div id="birthday_column_6" class="birthday_column"><div class="birthday_column_title">SAT</div></div>
+        <div id="birthday_column_0" class="birthday_column"><div class="birthday_column_title">SUN</div></div>
+    </div>`;
+}
+
+function getBirthdaysDates(date) {
+    let monthDate = calendar_date;
     let birthdaysInMonth = {};
 
     for (let character_name of CHARACTER_NAMES) {
@@ -487,9 +506,9 @@ function getBirthdaysDates() {
     return birthdaysInMonth;
 }
 
-function printMonthName(character) {
+function printMonthName() {
     let month_title = document.getElementById("birthday_month_title");
-    month_title.innerHTML = capitalizeFirstLetter(new Date().toLocaleString('default', { month: 'long' }));
+    month_title.innerHTML = capitalizeFirstLetter(calendar_date.toLocaleString('default', { month: 'long' }));
 }
 
 function printBackground(character_card) {
@@ -498,7 +517,7 @@ function printBackground(character_card) {
 }
 
 function printDays(birthdaysInMonth) {
-    let monthDate = new Date();
+    let monthDate = calendar_date;
     monthDate.setDate(1); // Set day to first day in month
 
     let firstDayInMonth = monthDate.getDay();
@@ -552,6 +571,8 @@ function setFontColor(character) {
 
 function printCalendar() {
 
+    resetCalendarHTML();
+
     // Get monthly character
     let character = "";
     let index = Object.keys(characters_order_priority).length - 1;
@@ -559,7 +580,7 @@ function printCalendar() {
     while (character == "" && index >= 0) {
         let next_character = getCharacter(characters_order_priority[index]);
 
-        if (new Date(next_character.birthdaymmdd + "/" + (new Date().getFullYear())).getMonth() == new Date().getMonth()) {
+        if (new Date(next_character.birthdaymmdd + "/" + (calendar_date.getFullYear())).getMonth() == calendar_date.getMonth()) {
             character = next_character;
         }
 
@@ -577,10 +598,10 @@ function printCalendar() {
     printDays(birthdaysInMonth);
 
     setFontColor(character);
+}
 
-    // let calendar_columns = document.getElementById("birthday_days_columns");
-    // calendar_columns.innerHTML = "";
-    // for (let index = Object.keys(characters_order_priority).length - 1; index >= 0; --index) {
-    //     menu_calendar.innerHTML += `<img class="calendar_img" src="images/characters/` + getCharacter(characters_order_priority[index]).images.filename_iconCard + `.jpg" alt="` + characters_order_priority[index] + ` Card">`;
-    // }
+function onCalendarMonthInputChange() {
+    calendar_date = new Date(document.getElementById("calendar_month").value);
+
+    printCalendar();
 }

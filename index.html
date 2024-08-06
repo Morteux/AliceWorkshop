@@ -397,18 +397,11 @@
             </div>
 
             <div id="menu_extra_birthdays_calendar" class="menu_extra_birthdays_calendar">
-                <div id="menu_extra_birthdays_calendar_month" class="menu_extra_birthdays_calendar_month">
-                    <div id="birthday_month_title" class="birthday_month_title"></div>
-                    <div id="birthday_days_columns" class="birthday_days_columns">
-                        <div id="birthday_column_1" class="birthday_column"><div class="birthday_column_title">MON</div></div>
-                        <div id="birthday_column_2" class="birthday_column"><div class="birthday_column_title">TUE</div></div>
-                        <div id="birthday_column_3" class="birthday_column"><div class="birthday_column_title">WED</div></div>
-                        <div id="birthday_column_4" class="birthday_column"><div class="birthday_column_title">THU</div></div>
-                        <div id="birthday_column_5" class="birthday_column"><div class="birthday_column_title">FRI</div></div>
-                        <div id="birthday_column_6" class="birthday_column"><div class="birthday_column_title">SAT</div></div>
-                        <div id="birthday_column_0" class="birthday_column"><div class="birthday_column_title">SUN</div></div>
-                    </div>
+                <div id="menu_extra_birthdays_calendar_menu" class="menu_extra_birthdays_calendar_menu">
+                    <label for="calendar_month">Month and year:</label>
+                    <input type="month" id="calendar_month" name="calendar_month" onchange="onCalendarMonthInputChange();"/>
                 </div>
+                <div id="menu_extra_birthdays_calendar_month" class="menu_extra_birthdays_calendar_month"></div>
             </div>
         </div>
 
