@@ -563,7 +563,9 @@ function getBirthdaysDates() {
 
 function printMonthName() {
     let month_title = document.getElementById("birthday_month_title");
-    month_title.innerHTML = capitalizeFirstLetter(calendar_date.toLocaleString('default', { month: 'long' }));
+    month_title.innerHTML = new Intl.DateTimeFormat('en-US', { month: 'long' }).format(calendar_date);
+
+// month_title.innerHTML = capitalizeFirstLetter(calendar_date.toString('default', { month: 'long' }));
 }
 
 function printBackground(character_card) {
