@@ -628,9 +628,10 @@ function setFontColor(character) {
     document.getElementById("birthday_column_6").style.color = `var(--` + element_color + `)`;
     document.getElementById("birthday_column_0").style.color = `var(--` + element_color + `)`;
 
-    document.getElementById("birthday_month_title").style.textShadow = `var(--dark_text) 2px 2px`;
-    document.getElementById("birthday_column_6").style.textShadow = `var(--dark_text) 2px 2px`;
-    document.getElementById("birthday_column_0").style.textShadow = `var(--dark_text) 2px 2px`;
+    document.getElementById("birthday_column_6").style.textShadow = `var(--dark_text) 1px 1px`;
+    document.getElementById("birthday_column_0").style.textShadow = `var(--dark_text) 1px 1px`;
+
+    document.getElementById("birthday_month_title").style.textShadow = `var(--dark_text) 2px 2px, var(--dark_text) 2px 3px, var(--dark_text) 2px 3px 1px`;
 }
 
 function printCalendar() {
