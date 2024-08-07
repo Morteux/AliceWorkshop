@@ -165,7 +165,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    
+
     width: 25vw;
     height: 10vh;
 }
@@ -173,7 +173,7 @@
 .calendar_label {
     font-size: larger;
     color: var(--light_text);
-    
+
     margin-bottom: 2vh;
 }
 
@@ -330,5 +330,36 @@
 
     .menu_extra_characters_banners {
         width: 85vw;
+    }
+
+    .calendar_label {
+        font-size: medium;
+    }
+
+    .menu_extra_birthdays_calendar {
+        flex-direction: column;
+    }
+
+    .menu_extra_birthdays_calendar_menu {
+        width: 100%;
+
+        margin-top: 4vh;
+        margin-bottom: 7vh;
+    }
+
+    .menu_extra_birthdays_calendar_month {
+        width: 100%;
+    }
+
+    .calendar_change_buttons {
+        width: 100%;
+    }
+
+    .change_calendar_month_button {
+        width: 10vw;
+    }
+
+    .birthday_month_title {
+        font-size: larger;
     }
 }
