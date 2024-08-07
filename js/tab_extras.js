@@ -33,8 +33,11 @@ var character_5_reruns_max = 0;
 var character_5_reruns_mean = 0;
 
 var calendar_date = new Date();
+calendar_date.setDate(1);
 
 const BANNER_DURATION = 20; // In days
+
+const MIN_CALENDAR_DATE = new Date("2020-09");
 
 document.addEventListener("DOMContentLoaded", (event) => {
     getActualDates();
@@ -55,8 +58,6 @@ document.addEventListener("DOMContentLoaded", (event) => {
 
     // Set calendar month input default to today
     document.getElementById("calendar_month").value = new Date().getFullYear() + "-" + ((new Date().getMonth() + 1) < 10 ? "0" : "") + (new Date().getMonth() + 1);
-
-    getBirthdaysDates();
 
     printCalendar();
 
@@ -485,7 +486,42 @@ function resetCalendarHTML() {
     </div>`;
 }
 
-function getBirthdaysDates(date) {
+function getMonthlyCharacter() {
+    let characters = [];
+
+    for (let index = 0; index < Object.keys(characters_order_priority).length; index++) {
+        let next_character = getCharacter(characters_order_priority[index]);
+
+        if (new Date(next_character.birthdaymmdd + "/" + (calendar_date.getFullYear())).getMonth() == calendar_date.getMonth()) {
+
+            // If character released after game release
+            if (character_banner_stats[next_character.name]) {
+
+                // If character released before calendar_date
+                if (new Date(character_banner_stats[next_character.name].first_date).getTime() <= calendar_date.getTime()) {
+                    characters.push(next_character);
+                }
+            }
+            // If character released with game release
+            else {
+                characters.push(next_character);
+            }
+        }
+    }
+
+    let character;
+
+    // If there are no characters in month, use selected traveler
+    if (characters.length > 0) {
+        character = characters[getRandomInt(characters.length)];
+    } else {
+        character = getCharacter(traveler);
+    }
+
+    return character;
+}
+
+function getBirthdaysDates() {
     let monthDate = calendar_date;
     let birthdaysInMonth = {};
 
@@ -495,11 +531,30 @@ function getBirthdaysDates(date) {
 
         if (character_birthday.getMonth() == monthDate.getMonth()) {
 
-            if (!birthdaysInMonth.hasOwnProperty(character_birthday.getDate())) {
-                birthdaysInMonth[character_birthday.getDate()] = [];
-            }
+            // If character released after game release
+            if (character_banner_stats[character_name]) {
 
-            birthdaysInMonth[character_birthday.getDate()].push(character.name);
+                // If character released before calendar_date
+                if (new Date(character_banner_stats[character_name].first_date).getTime() <= monthDate.getTime()) {
+
+                    // Initialize array if needed
+                    if (!birthdaysInMonth.hasOwnProperty(character_birthday.getDate())) {
+                        birthdaysInMonth[character_birthday.getDate()] = [];
+                    }
+
+                    birthdaysInMonth[character_birthday.getDate()].push(character_name);
+                }
+            }
+            // If character released with game release
+            else {
+
+                // Initialize array if needed
+                if (!birthdaysInMonth.hasOwnProperty(character_birthday.getDate())) {
+                    birthdaysInMonth[character_birthday.getDate()] = [];
+                }
+
+                birthdaysInMonth[character_birthday.getDate()].push(character_name);
+            }
         }
     }
 
@@ -517,6 +572,7 @@ function printBackground(character_card) {
 }
 
 function printDays(birthdaysInMonth) {
+
     let monthDate = calendar_date;
     monthDate.setDate(1); // Set day to first day in month
 
@@ -525,6 +581,8 @@ function printDays(birthdaysInMonth) {
     // Set day to last day in month
     monthDate.setMonth(monthDate.getMonth() + 1);
     monthDate.setDate(0);
+
+    let countDaysInMonth = monthDate.getDate();
 
     let actualDay = firstDayInMonth;
 
@@ -535,21 +593,23 @@ function printDays(birthdaysInMonth) {
     let lastDayInLastMonth = lastMonthDate.getDate();
 
     // Print previous month days
-    for (let index = actualDay - 1; index > 0; --index) {
+
+    for (let index = (actualDay != 0 ? actualDay : 7) - 1; index > 0; --index) {
         document.getElementById("birthday_column_" + index).innerHTML += "<div class='previous_month_days'>" + lastDayInLastMonth + "</div>";
         --lastDayInLastMonth;
     }
 
     // Print actual month days and character emojis
-    for (let index = 1; index <= monthDate.getDate(); index++) {
+    for (let index = 1; index <= countDaysInMonth; index++) {
         if (birthdaysInMonth.hasOwnProperty(index)) {
-            for (let character_name of birthdaysInMonth[index]) {
-                if (characters_emojis[character_name]) {
-                    document.getElementById("birthday_column_" + actualDay).innerHTML += `<img class="calendar_img" src="images/emojis/` + characters_emojis[character_name] + `">`;
-                } else {
-                    let character = getCharacter(character_name);
-                    document.getElementById("birthday_column_" + actualDay).innerHTML += `<img class="calendar_img" src="images/characters/` + character.images.filename_icon + `.png">`;
-                }
+            let character_index = getRandomInt(birthdaysInMonth[index].length);
+            let character_name = birthdaysInMonth[index][character_index];
+
+            if (characters_emojis[character_name]) {
+                document.getElementById("birthday_column_" + actualDay).innerHTML += `<img class="calendar_img" src="images/emojis/` + characters_emojis[character_name] + `">`;
+            } else {
+                let character = getCharacter(character_name);
+                document.getElementById("birthday_column_" + actualDay).innerHTML += `<img class="calendar_img" src="images/characters/` + character.images.filename_icon + `.png">`;
             }
         }
         else {
@@ -560,9 +620,11 @@ function printDays(birthdaysInMonth) {
 }
 
 function setFontColor(character) {
-    document.getElementById("birthday_month_title").style.color = `var(--` + character.elementText.toLowerCase() + `)`;
-    document.getElementById("birthday_column_6").style.color = `var(--` + character.elementText.toLowerCase() + `)`;
-    document.getElementById("birthday_column_0").style.color = `var(--` + character.elementText.toLowerCase() + `)`;
+    let element_color = character.elementText != "None" ? character.elementText.toLowerCase() : "flex"
+
+    document.getElementById("birthday_month_title").style.color = `var(--` + element_color + `)`;
+    document.getElementById("birthday_column_6").style.color = `var(--` + element_color + `)`;
+    document.getElementById("birthday_column_0").style.color = `var(--` + element_color + `)`;
 
     document.getElementById("birthday_month_title").style.textShadow = `var(--dark_text) 2px 2px`;
     document.getElementById("birthday_column_6").style.textShadow = `var(--dark_text) 2px 2px`;
@@ -573,19 +635,7 @@ function printCalendar() {
 
     resetCalendarHTML();
 
-    // Get monthly character
-    let character = "";
-    let index = Object.keys(characters_order_priority).length - 1;
-
-    while (character == "" && index >= 0) {
-        let next_character = getCharacter(characters_order_priority[index]);
-
-        if (new Date(next_character.birthdaymmdd + "/" + (calendar_date.getFullYear())).getMonth() == calendar_date.getMonth()) {
-            character = next_character;
-        }
-
-        --index;
-    }
+    let character = getMonthlyCharacter();
 
     let character_card = character.images.filename_iconCard;
 
@@ -602,6 +652,18 @@ function printCalendar() {
 
 function onCalendarMonthInputChange() {
     calendar_date = new Date(document.getElementById("calendar_month").value);
+    calendar_date.setDate(1);
 
     printCalendar();
+}
+
+function changeCalendarMonth(offset) {
+    let current_date = new Date(document.getElementById("calendar_month").value);
+    current_date.setMonth(current_date.getMonth() + offset);
+
+    let new_current_date = current_date.getFullYear() + "-" + ((current_date.getMonth() + 1) < 10 ? "0" : "") + (current_date.getMonth() + 1)
+
+    if (new Date(new_current_date) >= MIN_CALENDAR_DATE) {
+        document.getElementById("calendar_month").value = new_current_date;
+    }
 }

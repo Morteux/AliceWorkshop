@@ -164,10 +164,55 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     
     width: 25vw;
-    height: 100%;
+    height: 10vh;
+}
+
+.calendar_label {
+    font-size: larger;
+    color: var(--light_text);
+    
+    margin-bottom: 2vh;
+}
+
+.calendar_change_buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+
+    width: 25vw;
+    height: 10vh;
+
+    margin: 1vw 1vh;
+}
+
+.change_calendar_month_button {
+    width: 3vw;
+
+    cursor: pointer;
+}
+
+.change_calendar_month_button:hover {
+    filter: brightness(0%);
+}
+
+.last_month {
+    -webkit-transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    transform: rotate(270deg);
+}
+
+.next_month {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
 }
 
 .menu_extra_birthdays_calendar_month {
@@ -198,10 +243,11 @@
     align-items: start;
     justify-content: center;
 
+    max-width: 60%;
     height: 30%;
 
     margin-top: 2vh;
-    margin-bottom: 2vh;
+    margin-bottom: 6vh;
 }
 
 .birthday_column_title {
@@ -234,13 +280,8 @@
 }
 
 .calendar_img {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-
     max-width: 100%;
-    max-height: 100%;
+    max-height: 80%;
     width: auto;
     height: auto;
 }
@@ -248,7 +289,6 @@
 .previous_month_days {
     color: gray;
 }
-
 
 
 

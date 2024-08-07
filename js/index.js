@@ -257,14 +257,18 @@ function downloadDiv() {
         const link = document.createElement('a');
         link.href = dataURL;
         link.download = 'div-image.png';
-        
+
         // Append the link to the body
         document.body.appendChild(link);
-        
+
         // Trigger the download
         link.click();
-        
+
         // Remove the link from the document
         document.body.removeChild(link);
     });
+}
+
+function getRandomInt(max) {
+    return Math.floor(Math.random() * max);
 }

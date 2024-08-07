@@ -398,8 +398,9 @@
 
             <div id="menu_extra_birthdays_calendar" class="menu_extra_birthdays_calendar">
                 <div id="menu_extra_birthdays_calendar_menu" class="menu_extra_birthdays_calendar_menu">
-                    <label for="calendar_month">Month and year:</label>
-                    <input type="month" id="calendar_month" name="calendar_month" onchange="onCalendarMonthInputChange();"/>
+                    <label class="calendar_label" for="calendar_month">Month and year:</label>
+                    <input id="calendar_month" type="month" name="calendar_month" min="2020-09" onchange="onCalendarMonthInputChange();"/>
+                    <div class="calendar_change_buttons"><img src="images/icons/up_arrow.png" class="change_calendar_month_button last_month" onclick="changeCalendarMonth(-1); onCalendarMonthInputChange();"><img src="images/icons/up_arrow.png" class="change_calendar_month_button next_month" onclick="changeCalendarMonth(1); onCalendarMonthInputChange();"></div>
                 </div>
                 <div id="menu_extra_birthdays_calendar_month" class="menu_extra_birthdays_calendar_month"></div>
             </div>
