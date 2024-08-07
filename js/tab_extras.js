@@ -492,7 +492,7 @@ function getMonthlyCharacter() {
     for (let index = 0; index < Object.keys(characters_order_priority).length; index++) {
         let next_character = getCharacter(characters_order_priority[index]);
 
-        if (new Date(next_character.birthdaymmdd + "/" + (calendar_date.getFullYear())).getMonth() == calendar_date.getMonth()) {
+        if (next_character && new Date(next_character.birthdaymmdd + "/" + (calendar_date.getFullYear())).getMonth() == calendar_date.getMonth()) {
 
             // If character released after game release
             if (character_banner_stats[next_character.name]) {
@@ -527,15 +527,27 @@ function getBirthdaysDates() {
 
     for (let character_name of CHARACTER_NAMES) {
         let character = getCharacter(character_name);
-        let character_birthday = new Date(character.birthdaymmdd);
+        if (character) {
+            let character_birthday = new Date(character.birthdaymmdd);
 
-        if (character_birthday.getMonth() == monthDate.getMonth()) {
+            if (character_birthday.getMonth() == monthDate.getMonth()) {
 
-            // If character released after game release
-            if (character_banner_stats[character_name]) {
+                // If character released after game release
+                if (character_banner_stats[character_name]) {
 
-                // If character released before calendar_date
-                if (new Date(character_banner_stats[character_name].first_date).getTime() <= monthDate.getTime()) {
+                    // If character released before calendar_date
+                    if (new Date(character_banner_stats[character_name].first_date).getTime() <= monthDate.getTime()) {
+
+                        // Initialize array if needed
+                        if (!birthdaysInMonth.hasOwnProperty(character_birthday.getDate())) {
+                            birthdaysInMonth[character_birthday.getDate()] = [];
+                        }
+
+                        birthdaysInMonth[character_birthday.getDate()].push(character_name);
+                    }
+                }
+                // If character released with game release
+                else {
 
                     // Initialize array if needed
                     if (!birthdaysInMonth.hasOwnProperty(character_birthday.getDate())) {
@@ -545,27 +557,15 @@ function getBirthdaysDates() {
                     birthdaysInMonth[character_birthday.getDate()].push(character_name);
                 }
             }
-            // If character released with game release
-            else {
-
-                // Initialize array if needed
-                if (!birthdaysInMonth.hasOwnProperty(character_birthday.getDate())) {
-                    birthdaysInMonth[character_birthday.getDate()] = [];
-                }
-
-                birthdaysInMonth[character_birthday.getDate()].push(character_name);
-            }
         }
     }
 
     return birthdaysInMonth;
 }
 
-function printMonthName() {
+function printYearMonthName() {
     let month_title = document.getElementById("birthday_month_title");
-    month_title.innerHTML = new Intl.DateTimeFormat('en-US', { month: 'long' }).format(calendar_date);
-
-// month_title.innerHTML = capitalizeFirstLetter(calendar_date.toString('default', { month: 'long' }));
+    month_title.innerHTML = new Intl.DateTimeFormat('en-US', { month: 'long' }).format(calendar_date) + " " + calendar_date.getFullYear();
 }
 
 function printBackground(character_card) {
@@ -643,7 +643,7 @@ function printCalendar() {
 
     let birthdaysInMonth = getBirthdaysDates();
 
-    printMonthName();
+    printYearMonthName();
 
     printBackground(character_card);
 
