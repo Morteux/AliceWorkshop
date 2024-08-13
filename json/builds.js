@@ -2026,16 +2026,16 @@ const builds = {
     },
     "Rosaria": {
         "Standard": {
-            description: "",
+            description: "Standard support build",
             constellation: "",
-            talent_priority: [1, 2, 3],
-            weapon: [],
-            set: [],
+            talent_priority: [3, 2, 1],
+            weapon: ["Favonius Lance"],
+            set: ["Noblesse Oblige"],
             er_requirement: "",
             main_stat: {
-                sands: "",
-                goblet: "",
-                circlet: "",
+                sands: "ER",
+                goblet: "Bonus Cryo",
+                circlet: "Crit Rate",
             },
             subs_stat: []
         },
