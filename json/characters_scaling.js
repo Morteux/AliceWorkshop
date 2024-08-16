@@ -22,7 +22,7 @@ const characters_attributes = {
     "Diluc": { HP: 1010.5192, ATK: 26.068, DEF: 61.0266, max_ascension_value_HP: 4149.7383, max_ascension_value_ATK: 107.04148, max_ascension_value_DEF: 250.614 },
     "Diona": { HP: 802.3761, ATK: 17.808, DEF: 50.358, max_ascension_value_HP: 2870.8872, max_ascension_value_ATK: 63.7182, max_ascension_value_DEF: 180.18 },
     "Dori": { HP: 1039.4418, ATK: 18.6984, DEF: 60.6585, max_ascension_value_HP: 3719.104, max_ascension_value_ATK: 66.90411, max_ascension_value_DEF: 217.035 },
-    "Emilie": { HP: 1, ATK: 1, DEF: 1, max_ascension_value_HP: 1, max_ascension_value_ATK: 1, max_ascension_value_DEF: 1 },
+    "Emilie": { HP: 1056.2786, ATK: 26.068, DEF: 56.8385, max_ascension_value_HP: 4337.651, max_ascension_value_ATK: 107.04148, max_ascension_value_DEF: 233.415 },
     "Eula": { HP: 1029.5856, ATK: 26.6266, DEF: 58.45391, max_ascension_value_HP: 4228.035, max_ascension_value_ATK: 109.33523, max_ascension_value_DEF: 240.0489 },
     "Faruzan": { HP: 802.3761, ATK: 16.4724, DEF: 52.647, max_ascension_value_HP: 2870.8872, max_ascension_value_ATK: 58.939335, max_ascension_value_DEF: 188.37 },
     "Fischl": { HP: 770.4634, ATK: 20.4792, DEF: 49.78575, max_ascension_value_HP: 2756.704, max_ascension_value_ATK: 73.27593, max_ascension_value_DEF: 178.1325 },
