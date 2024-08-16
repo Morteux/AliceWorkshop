@@ -464,9 +464,9 @@ const builds = {
             talent_priority: [2, 3, 1],
             weapon: ["Favonius Lance", "Rightful Reward", "Black Tassel"],
             set: [{
-                    artifacts: ["Song of Days Past"],
-                    pc: "4pc"
-                },],
+                artifacts: ["Song of Days Past"],
+                pc: "4pc"
+            },],
             er_requirement: "100%",
             main_stat: {
                 sands: "HP%",
@@ -892,11 +892,11 @@ const builds = {
             constellation: "",
             talent_priority: [2, 1, 3],
             weapon: ["Serpent Spine", "Rainslasher", "Mailed Flower", "Favonius Greatsword"],
-            set: [  {
-                    artifacts: ["Marechaussee Hunter"],
-                    pc: "4pc"
-                }
-                ],
+            set: [{
+                artifacts: ["Marechaussee Hunter"],
+                pc: "4pc"
+            }
+            ],
             er_requirement: "130%-190%",
             main_stat: {
                 sands: "EM/ATK",
@@ -1562,10 +1562,10 @@ const builds = {
             constellation: "",
             talent_priority: [1, 2, 3],
             weapon: ["Prototype Amber"],
-            set: [                 {
-                     artifacts: ["Song of Days Past"],
-                     pc: "4pc"
-                 }],
+            set: [{
+                artifacts: ["Song of Days Past"],
+                pc: "4pc"
+            }],
             er_requirement: "As much as possible",
             main_stat: {
                 sands: "ER",
@@ -1810,7 +1810,7 @@ const builds = {
             constellation: "",
             talent_priority: [1, 3, 2],
             weapon: ["Tome of the Eternal Flow", "Sacrificial Jade", "Prototype Amber"],
-            set: [                
+            set: [
                 {
                     artifacts: ["Marechaussee Hunter"],
                     pc: "4pc"
@@ -1830,11 +1830,11 @@ const builds = {
             description: "Talent levels do not affect Nilou's buff to Bloom damage, so levels are not required.",
             constellation: "",
             talent_priority: [2, 3, 1],
-            weapon: ["Key of Khaj-Nisut", "The Dockhand's Assistant", "Xiphos' Moonlight" ,"Iron Sting" ],
+            weapon: ["Key of Khaj-Nisut", "The Dockhand's Assistant", "Xiphos' Moonlight", "Iron Sting"],
             set: [{
-                    artifacts: ["Tenacity of the Millelith", "Vourukasha's Glow"],
-                    pc: "2pc"
-                }],
+                artifacts: ["Tenacity of the Millelith", "Vourukasha's Glow"],
+                pc: "2pc"
+            }],
             er_requirement: "130%",
             main_stat: {
                 sands: "HP%",
@@ -2026,16 +2026,20 @@ const builds = {
     },
     "Rosaria": {
         "Standard": {
-            description: "",
+            description: "Standard support build",
             constellation: "",
-            talent_priority: [1, 2, 3],
-            weapon: [],
-            set: [],
+            talent_priority: [3, 2, 1],
+            weapon: ["Favonius Lance"],
+            set: [
+                {
+                    artifacts: ["Noblesse Oblige"],
+                    pc: "4pc"
+                }],
             er_requirement: "",
             main_stat: {
-                sands: "",
-                goblet: "",
-                circlet: "",
+                sands: "ER",
+                goblet: "Bonus Cryo",
+                circlet: "Crit Rate",
             },
             subs_stat: []
         },
@@ -2387,7 +2391,7 @@ const builds = {
             constellation: "",
             talent_priority: [1, 2, 3],
             weapon: ["Tulaytullah's Remembrance", "Lost Prayers to the Sacred Winds", "The Widsith"],
-            set: [                
+            set: [
                 {
                     artifacts: ["Desert Pavilion Chronicle"],
                     pc: "4pc"
@@ -2397,7 +2401,7 @@ const builds = {
                     pc: "4pc"
                 }
             ],
-            
+
             er_requirement: "100%",
             main_stat: {
                 sands: "ATK%",
@@ -2511,12 +2515,12 @@ const builds = {
                 {
                     artifacts: ["Viridescent Venerer"],
                     pc: "4pc"
-                },                
+                },
                 {
                     artifacts: ["Song of Days Past"],
                     pc: "4pc"
                 },
-                ],
+            ],
             er_requirement: "120%-300%, 250% standard",
             main_stat: {
                 sands: "ATK%/ER",
