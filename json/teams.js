@@ -15857,8 +15857,97 @@ const teams = {
         }
     },
 
+    "486": {
+        "name": "Mualani Furina Vape",
+        "description": "Mualani's best and most difficult team at the same time, at 5.0 version. You have to control Furina's vapes with her CA's and good timings in order to not lose Mualani's vapes.",
+        "rotation": "",
+        "archetype": [
+            "Vaporize"
+        ],
+        "viability": "Recommended",
+        "character_1": {
+            "name": "Mualani",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Xiangling",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": [
+                "Nahida"
+            ],
+            "build": [
+                "Standard"
+            ]
+        }
+    },
 
+    "487": {
+        "name": "Mualani Vape",
+        "description": "You can use an Anemo character like Kazuha with Mualani, but rotations to do hydro swirl might be rough.",
+        "rotation": "",
+        "archetype": [
+            "Vaporize"
+        ],
+        "viability": "Recommended",
+        "character_1": {
+            "name": "Mualani",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Zhongli",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Kaedehara Kazuha",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": [
+                "Xiangling"
+            ],
+            "build": [
+                "Standard"
+            ]
+        }
+    },
 
+    "488": {
+        "name": "Mualani Burn-Vape",
+        "description": "With burning, Mualani have guaranteed vaporizes.",
+        "rotation": "",
+        "archetype": [
+            "Vaporize"
+        ],
+        "viability": "Recommended",
+        "character_1": {
+            "name": "Mualani",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Xiangling",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Zhongli",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": [
+                "Nahida",
+                "Emilie"
+            ],
+            "build": [
+                "Standard",
+                "Standard"
+            ]
+        }
+    },
 
 
     
