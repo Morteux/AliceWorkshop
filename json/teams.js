@@ -15857,10 +15857,303 @@ const teams = {
         }
     },
 
+    "486": {
+        "name": "Mualani Furina Vape",
+        "description": "Mualani's best and most difficult team at the same time, at 5.0 version. You have to control Furina's vapes with her CA's and good timings in order to not lose Mualani's vapes. With Nahida you have better burning uptime and damage but you can try an easier version with Baizhu.",
+        "rotation": "",
+        "archetype": [
+            "Vaporize"
+        ],
+        "viability": "Recommended",
+        "character_1": {
+            "name": "Mualani",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Xiangling",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": [
+                "Nahida",
+                "Baizhu"
+            ],
+            "build": [
+                "Standard",
+                "Standard"
+            ]
+        }
+    },
 
+    "487": {
+        "name": "Mualani Vape",
+        "description": "You can use an Anemo character like Kazuha with Mualani, but rotations to do hydro swirl might be rough.",
+        "rotation": "",
+        "archetype": [
+            "Vaporize"
+        ],
+        "viability": "Recommended",
+        "character_1": {
+            "name": "Mualani",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Zhongli",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Kaedehara Kazuha",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": [
+                "Xiangling"
+            ],
+            "build": [
+                "Standard"
+            ]
+        }
+    },
 
+    "488": {
+        "name": "Mualani Burn-Vape",
+        "description": "With burning, Mualani have guaranteed vaporizes.",
+        "rotation": "",
+        "archetype": [
+            "Vaporize"
+        ],
+        "viability": "Recommended",
+        "character_1": {
+            "name": "Mualani",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Xiangling",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Zhongli",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": [
+                "Nahida",
+                "Emilie"
+            ],
+            "build": [
+                "Standard",
+                "Standard"
+            ]
+        }
+    },
+    
+    "489": {
+        "name": "Mualani Burn-Vape",
+        "description": "With burning, Mualani have guaranteed vaporizes. With Xinyan, Dehya or Thoma plus burning, you have enough pyro app and some defensive utility.",
+        "rotation": "",
+        "archetype": [
+            "Vaporize"
+        ],
+        "viability": "Viable",
+        "character_1": {
+            "name": "Mualani",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Nahida",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Emilie",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": [
+                "Xinyan",
+                "Dehya",
+                "Thoma"
+            ],
+            "build": [
+                "Standard",
+                "Standard",
+                "Standard"
+            ]
+        }
+    },
 
+    "490": {
+        "name": "Mualani Candance Vape",
+        "description": "Candace it's a great option to give Mualani some buffs. Be careful with Candace C6 since she can steal vapes.",
+        "rotation": "",
+        "archetype": [
+            "Vaporize"
+        ],
+        "viability": "Recommended",
+        "character_1": {
+            "name": "Mualani",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Candace",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Xiangling",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": [
+                "Xianyun"
+            ],
+            "build": [
+                "Standard"
+            ]
+        }
+    },
 
+    "491": {
+        "name": "Mualani Burn-Vape",
+        "description": "You can use Thoma as Pyro applier and defensive option with Nahida/Emilie and a Flex option.",
+        "rotation": "",
+        "archetype": [
+            "Vaporize"
+        ],
+        "viability": "Viable",
+        "character_1": {
+            "name": "Mualani",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Thoma",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Nahida",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": [
+                "Xiangling",
+                "Albedo",
+                "Kachina",
+                "Chiori",
+                "Candace",
+                "Yelan"
+            ],
+            "build": [
+                "Standard",
+                "Standard",
+                "Standard",
+                "Standard",
+                "Standard",
+                "Standard"
+            ]
+        }
+    },
+
+    "492": {
+        "name": "Mualani Burn-Vape",
+        "description": "You can use Thoma as Pyro applier and defensive option with Nahida/Emilie and a Flex option.",
+        "rotation": "",
+        "archetype": [
+            "Vaporize"
+        ],
+        "viability": "Viable",
+        "character_1": {
+            "name": "Mualani",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Thoma",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Emilie",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": [
+                "Xiangling",
+                "Albedo",
+                "Kachina",
+                "Chiori",
+                "Candace",
+                "Yelan"
+            ],
+            "build": [
+                "Standard",
+                "Standard",
+                "Standard",
+                "Standard",
+                "Standard",
+                "Standard"
+            ]
+        }
+    },
+
+    "493": {
+        "name": "Mualani MonoHydro",
+        "description": "Mono Hydro is not the main Mualani's Archetype but that doesn't make them bad teams.",
+        "rotation": "",
+        "archetype": [
+            "MonoHydro"
+        ],
+        "viability": "Viable",
+        "character_1": {
+            "name": "Mualani",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Sigewinne",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": [
+                "Kaedehara Kazuha"
+            ],
+            "build": [
+                "Standard"
+            ]
+        }
+    },
+
+    "494": {
+        "name": "Mualani Electro-Charged",
+        "description": "",
+        "rotation": "",
+        "archetype": [
+            "Taser"
+        ],
+        "viability": "Viable",
+        "character_1": {
+            "name": "Mualani",
+            "build": "Standard"
+        },
+        "character_2": {
+            "name": "Furina",
+            "build": "Standard"
+        },
+        "character_3": {
+            "name": "Fischl",
+            "build": "Standard"
+        },
+        "character_4": {
+            "name": [
+                "Xianyun"
+            ],
+            "build": [
+                "Standard"
+            ]
+        }
+    },
     
 };
 
