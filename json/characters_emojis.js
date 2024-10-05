@@ -85,7 +85,8 @@ const characters_emojis = {
     "Sigewinne": "Icon_Emoji_Paimon's_Paintings_33_Sigewinne_3.webp",
     "Clorinde": "Icon_Emoji_Paimon's_Paintings_28_Clorinde_1.webp",
     "Emilie": "",
-    "Mualani": "",
-    "Kinich": "",
-    "Kachina": ""
+    "Kachina": "Icon_Emoji_TEMP_Kachina_1.png",
+    "Mualani": "Icon_Emoji_TEMP_Mualani_1.png",
+    "Kinich": "Icon_EmojiTEMP__Kinich_1.png",
+    "Xilonen": ""
 }
